@@ -10,13 +10,24 @@ The site is a static application: it has no database, account system, or serverl
 
 ## Use the data
 
-The canonical dataset is [`data/measures.json`](data/measures.json). Generated CSV and browser-facing files must remain reproducible from that source.
+Each file in [`data/records/`](data/records) is one canonical legislative entity. Everything else is generated from those records:
 
-Validate a change locally:
+- `data/measures.json` — complete machine-readable dataset
+- `data/measures.js` — browser-ready JavaScript
+- `data/measures.csv` — flattened tabular export
+- `data/search-index.json` — compact search index
+- `index.html` and `pages/*.html` — the tracker and one page per entity
+
+Records support federal and state jurisdictions; bill, amendment, provision, and law entities; a normalized lifecycle status; and claim-level links to source records.
+
+After editing or adding a record, rebuild and validate:
 
 ```sh
+python3 scripts/build.py
 python3 scripts/validate.py
 ```
+
+Validation derives the record count dynamically, checks source references and required provenance coverage, and fails if any generated artifact is stale.
 
 Preview the site locally:
 

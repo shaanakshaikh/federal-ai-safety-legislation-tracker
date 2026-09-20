@@ -5,10 +5,20 @@ Contributions are welcome, especially corrections supported by primary sources.
 ## Propose a change
 
 1. Open an issue or create a branch from `main`.
-2. Edit the canonical record in `data/measures.json` and any affected site content.
-3. Cite an official source for factual changes and update `last_verified_date`.
-4. Run `python3 scripts/validate.py`.
-5. Open a pull request using the repository template.
+2. Add or edit exactly one canonical file in `data/records/`. The filename must match its `record_id`.
+3. Add source metadata and connect each material claim to one or more `source_id` values in `claim_provenance`.
+4. Update `last_verified_date`, then run `python3 scripts/build.py`.
+5. Run `python3 scripts/validate.py` and open a pull request using the repository template.
+
+Do not edit `data/measures.*`, `data/search-index.json`, `index.html`, or `pages/` by hand. They are generated and committed so the static hosts need no runtime build system.
+
+## Record model
+
+- `entity_type`: `bill`, `amendment`, `provision`, or `law`.
+- `jurisdiction.level`: `federal` or `state`; state records also require a two-letter `jurisdiction.state` code.
+- `lifecycle_status`: the normalized cross-jurisdiction status. Preserve source-specific wording separately in `status`.
+- `sources`: reusable source descriptions local to the record.
+- `claim_provenance`: groups specific record fields into claims and identifies the sources supporting each group.
 
 Do not combine unrelated policy, data, and infrastructure changes in one pull request. Clearly distinguish official-source facts from analyst judgments.
 

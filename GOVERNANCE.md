@@ -13,6 +13,8 @@ The repository owner is the final editor for inclusion criteria, taxonomy, metho
 - Record uncertainty and verification dates.
 - Preserve material corrections in Git history and release notes.
 - Do not publish autonomous agent changes without human review.
+- Treat `data/records/*.json` as the editorial source of truth and all aggregate data and pages as reproducible artifacts.
+- Preserve source-specific status language while using `lifecycle_status` only for normalized comparison and filtering.
 
 ## Releases
 
