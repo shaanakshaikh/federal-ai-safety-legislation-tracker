@@ -16,3 +16,5 @@ Describe the change and why it belongs in the tracker.
 - [ ] I ran `python3 scripts/validate.py`.
 - [ ] I reviewed the Vercel preview.
 - [ ] I did not add credentials, private data, or copyrighted third-party text.
+- [ ] I resolved or explicitly accepted every `agent_flag` and verified machine-authored claims against cited official sources.
+- [ ] This pull request requires a human merge; auto-merge is not enabled.

@@ -1,0 +1,55 @@
+name: Sunday comprehensive discovery
+
+on:
+  schedule:
+    - cron: "23 8 * * 0"
+      timezone: "America/New_York"
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: Days of activity to inspect
+        required: false
+        default: "8"
+
+concurrency:
+  group: sunday-comprehensive-discovery
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    env:
+      CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+      OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      AUTOMATION_MODEL: ${{ vars.AUTOMATION_MODEL }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Create narrowly scoped bot token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+      - name: Require narrowly scoped credentials
+        run: |
+          test -n "$CONGRESS_API_KEY" || { echo "CONGRESS_API_KEY is not configured"; exit 1; }
+          test -n "$OPENSTATES_API_KEY" || { echo "OPENSTATES_API_KEY is not configured"; exit 1; }
+      - name: Capture, compare, and classify candidates
+        run: python3 scripts/discover_weekly.py --days "${{ inputs.lookback_days || '8' }}"
+      - name: Validate candidate provenance and uncertainty controls
+        run: python3 scripts/validate_automation.py
+      - name: Open or update a review pull request
+        env:
+          AUTOMATION_PR_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: bash .github/scripts/open-automation-pr.sh sunday

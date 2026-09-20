@@ -15,6 +15,8 @@ The repository owner is the final editor for inclusion criteria, taxonomy, metho
 - Do not publish autonomous agent changes without human review.
 - Treat `data/records/*.json` as the editorial source of truth and all aggregate data and pages as reproducible artifacts.
 - Preserve source-specific status language while using `lifecycle_status` only for normalized comparison and filtering.
+- Keep scheduled automation on isolated proposal branches, require owner approval, and prohibit automated merges or direct production writes.
+- Keep the default Actions token read-only; the automation GitHub App must be limited to contents and pull requests for this repository.
 
 ## Releases
 

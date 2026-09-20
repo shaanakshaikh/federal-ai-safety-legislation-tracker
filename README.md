@@ -31,15 +31,19 @@ python3 scripts/validate.py
 
 Validation derives the record count dynamically, checks source references and required provenance coverage, and fails if any generated artifact is stale.
 
-## State discovery
+## Controlled automation
 
-Register an Open States API key, store it as `OPENSTATES_API_KEY`, and run:
+Weekday jobs compare objective federal metadata; a Sunday job searches for new federal and state activity and can add advisory AI classifications. Both write raw snapshots and open pull requests only. Every machine-authored proposal includes confidence, uncertainty flags, citations or verification requirements, and a mandatory human-review marker.
+
+The default Actions token remains read-only. PR creation uses a short-lived token from a repository GitHub App limited to contents and pull requests. No workflow may merge itself or push to `main`. See [controlled automation](docs/controlled-automation.md) for secrets, schedules, failure recovery, and the review boundary.
+
+For a manual Open States discovery run:
 
 ```sh
 python3 scripts/discover_openstates.py
 ```
 
-The Sunday GitHub Actions workflow uploads an artifact of unverified candidates. It never edits or publishes canonical records. Reviewers must apply the inclusion criteria and verify every candidate against an official source before adding a file to `data/records/`.
+Reviewers must apply the inclusion criteria and verify every candidate against an official source before adding a file to `data/records/`.
 
 Preview the site locally:
 

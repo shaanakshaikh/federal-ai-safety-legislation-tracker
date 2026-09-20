@@ -80,6 +80,12 @@ def main():
             covered.update(claim["fields"])
         for field in ("title", "status", "summary"):
             if field not in covered: fail(f"{rid}: {field} lacks claim-level provenance")
+        automation_fields = {"agent_confidence", "agent_flags", "requires_human_review"}
+        if automation_fields & record.keys():
+            if not automation_fields <= record.keys(): fail(f"{rid}: incomplete automation review metadata")
+            if record["requires_human_review"] is not True: fail(f"{rid}: agent-authored changes must require human review")
+            if not isinstance(record["agent_confidence"], (int, float)) or not 0 <= record["agent_confidence"] <= 1: fail(f"{rid}: invalid agent_confidence")
+            if not isinstance(record["agent_flags"], list) or not record["agent_flags"]: fail(f"{rid}: agent_flags must be non-empty")
     result = subprocess.run([sys.executable, str(ROOT/"scripts/build.py"), "--check"])
     if result.returncode: raise SystemExit(result.returncode)
     print(f"Validated {len(records)} canonical records, provenance, and generated artifacts.")
