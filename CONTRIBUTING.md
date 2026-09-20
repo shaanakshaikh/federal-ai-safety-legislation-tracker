@@ -41,4 +41,6 @@ Open States results are discovery leads, not publication evidence. State records
 
 Changes to data, scripts, schemas, prompts, and workflows require owner review. Automated agents may prepare a pull request, but a human owner must approve substantive classifications, summaries, or advancement assessments.
 
+Automation pull requests must retain their `agent_confidence`, `agent_flags`, and `requires_human_review` fields through review. Resolve each flag in the pull-request discussion or explain why it remains appropriate. Never approve a state candidate for publication without an official state source. See [`docs/controlled-automation.md`](docs/controlled-automation.md).
+
 By contributing, you agree that code contributions are provided under MIT and original data/analysis contributions under CC BY 4.0.
