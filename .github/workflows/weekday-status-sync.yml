@@ -1,0 +1,51 @@
+name: Weekday metadata synchronization
+
+on:
+  schedule:
+    - cron: "23 8 * * 1-5"
+      timezone: "America/New_York"
+  workflow_dispatch:
+
+concurrency:
+  group: weekday-metadata-synchronization
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    env:
+      CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+      GOVINFO_API_KEY: ${{ secrets.GOVINFO_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Create narrowly scoped bot token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+      - name: Require narrowly scoped credentials
+        run: |
+          test -n "$CONGRESS_API_KEY" || { echo "CONGRESS_API_KEY is not configured"; exit 1; }
+          test -n "$GOVINFO_API_KEY" || { echo "GOVINFO_API_KEY is not configured"; exit 1; }
+      - name: Capture and compare objective metadata
+        run: python3 scripts/sync_weekday.py
+      - name: Rebuild and validate
+        run: |
+          python3 scripts/build.py
+          python3 scripts/validate.py
+          python3 scripts/validate_automation.py
+      - name: Open or update a review pull request
+        env:
+          AUTOMATION_PR_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: .github/scripts/open-automation-pr.sh weekday
