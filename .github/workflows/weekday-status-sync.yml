@@ -48,4 +48,4 @@ jobs:
       - name: Open or update a review pull request
         env:
           AUTOMATION_PR_TOKEN: ${{ steps.app-token.outputs.token }}
-        run: .github/scripts/open-automation-pr.sh weekday
+        run: bash .github/scripts/open-automation-pr.sh weekday
