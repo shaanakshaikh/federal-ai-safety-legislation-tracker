@@ -1,0 +1,99 @@
+{
+  "record_id": "h-r-6461",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "committee_consideration",
+  "measure_id": "H.R. 6461",
+  "title": "READ AI Models Act",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "Monitoring, disclosure & reporting",
+  "category_key": "monitoring",
+  "secondary_categories": [
+    "Model documentation",
+    "Standards",
+    "Evaluation"
+  ],
+  "sponsor": "Sarah McBride",
+  "sponsor_party": "D",
+  "sponsor_state": "DE",
+  "cosponsor_count": 10,
+  "notable_cosponsors": [],
+  "committees": [
+    "House Science, Space, and Technology"
+  ],
+  "introduced_date": null,
+  "last_action_date": "2026-06-25",
+  "last_action": "Included on the House Science full-committee markup agenda on June 25, 2026.",
+  "status": "Committee consideration",
+  "status_bucket": "Committee advanced",
+  "summary": "Creates a NIST pilot for standardized model and data documentation templates, metrics, benchmarks, voluntary consensus standards, and public consultation.",
+  "committee_dynamics": "A voluntary documentation design and double-digit cosponsor count fit the House Science Committee’s bipartisan technical-legislation strategy.",
+  "advance_tier": "High",
+  "advance_rationale": "Substantial cosponsorship and an active committee pathway make the proposal comparatively easy to package or advance.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6461",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 6461",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6461",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

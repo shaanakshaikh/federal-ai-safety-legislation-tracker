@@ -1,0 +1,100 @@
+{
+  "record_id": "fy27-house-cjs-approp",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "committee_consideration",
+  "measure_id": "FY27-HOUSE-CJS-APPROP",
+  "title": "FY2027 House Commerce–Justice–Science Appropriations vehicle",
+  "chamber": "House",
+  "scope": "Vehicle",
+  "primary_category": "Appropriations implementation",
+  "category_key": "appropriations",
+  "secondary_categories": [
+    "NIST / CAISI funding",
+    "Evaluations",
+    "Standards",
+    "Security capacity"
+  ],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": null,
+  "cosponsor_count": null,
+  "notable_cosponsors": [],
+  "committees": [
+    "House Appropriations"
+  ],
+  "introduced_date": null,
+  "last_action_date": "2026-06-30",
+  "last_action": "House FY2027 CJS work was underway in June; the reviewed House product included analysis identifying $15 million for CAISI. The exact introduced bill number was not reliably confirmed.",
+  "status": "Committee appropriations vehicle",
+  "status_bucket": "Appropriations vehicle",
+  "summary": "The central implementation lever for NIST and CAISI evaluation, measurement, standards, and national-security testing capacity, including cyber, biosecurity, and chemical-risk work.",
+  "committee_dynamics": "Authorization without funding may leave NIST or CAISI duties aspirational. Report language, transfers, rescissions, and final omnibus negotiations require version-specific tracking.",
+  "advance_tier": "High",
+  "advance_rationale": "The vehicle directly controls federal evaluation and standards capacity, making it consequential even when policy language is modest.",
+  "congress_url": null,
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Vehicle-level source verified; exact bill number, section, and current stage require live refresh",
+  "sources": [
+    {
+      "source_id": "research-snapshot",
+      "title": "September 1, 2026 research snapshot",
+      "publisher": "Federal AI Safety & Security Legislation Tracker",
+      "source_type": "research_snapshot",
+      "url": null,
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "research-snapshot"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "research-snapshot"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "research-snapshot"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

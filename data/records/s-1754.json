@@ -1,0 +1,99 @@
+{
+  "record_id": "s-1754",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "S. 1754",
+  "title": "Preventing PLA Acquisition of United States Technology Act",
+  "chamber": "Senate",
+  "scope": "Adjacent",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [
+    "Research security",
+    "Technology transfer",
+    "China / military-civil fusion"
+  ],
+  "sponsor": "Jim Banks",
+  "sponsor_party": "R",
+  "sponsor_state": "IN",
+  "cosponsor_count": 0,
+  "notable_cosponsors": [],
+  "committees": [
+    "Senate Foreign Relations"
+  ],
+  "introduced_date": null,
+  "last_action_date": null,
+  "last_action": "Referred to Senate Foreign Relations.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Restricts covered technical and research relationships with Chinese entities of concern in military-civil-fusion priority fields, expressly including AI, and requires disclosure.",
+  "committee_dynamics": "The bill is security-adjacent rather than a frontier-model safety framework and must compete with broader China technology packages.",
+  "advance_tier": "Low",
+  "advance_rationale": "No cosponsors or committee movement were captured in the research snapshot.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1754",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 1754",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1754",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

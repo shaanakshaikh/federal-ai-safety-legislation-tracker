@@ -1,0 +1,107 @@
+{
+  "record_id": "h-r-9925",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "H.R. 9925",
+  "title": "FRONTIER Act",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "Monitoring, disclosure & reporting",
+  "category_key": "monitoring",
+  "secondary_categories": [
+    "Incident reporting",
+    "Evaluation / audit",
+    "Emergency controls",
+    "Federal preemption"
+  ],
+  "sponsor": "Jay Obernolte",
+  "sponsor_party": "R",
+  "sponsor_state": "CA",
+  "cosponsor_count": 5,
+  "notable_cosponsors": [
+    "Lori Trahan (D-MA)",
+    "Erin Houchin (R-IN)",
+    "Scott Peters (D-CA)",
+    "Scott Franklin (R-FL)",
+    "Suhas Subramanyam (D-VA)"
+  ],
+  "committees": [
+    "House Energy and Commerce",
+    "House Science, Space, and Technology"
+  ],
+  "introduced_date": "2026-07-23",
+  "last_action_date": "2026-07-23",
+  "last_action": "Introduced and referred to House Energy and Commerce and House Science. No markup located by the cutoff.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Creates a federal framework for covered frontier-model developers using compute and developer-size thresholds. It combines risk-management duties, third-party audits, mandatory incident reporting, emergency authority, and targeted state-law preemption with savings clauses.",
+  "committee_dynamics": "The dual referral is a major jurisdictional constraint. House Science has moved narrower bipartisan AI-security bills, while Energy and Commerce controls important commercial and enforcement questions. Preemption is likely to be the hardest bargaining issue.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Bipartisan architecture and committee-chair sponsorship make the bill consequential, but its late introduction, dual referral, enforcement design, and preemption language raise substantial transaction costs.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9925",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 9925",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9925",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

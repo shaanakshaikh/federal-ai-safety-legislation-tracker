@@ -1,0 +1,99 @@
+{
+  "record_id": "s-3557",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "unknown",
+  "measure_id": "S. 3557",
+  "title": "Funding prohibition for the “Ensuring a National Policy Framework for Artificial Intelligence” executive order",
+  "chamber": "Senate",
+  "scope": "Adjacent",
+  "primary_category": "Governance, preemption & regulatory architecture",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Appropriations rider",
+    "Federalism",
+    "Preemption"
+  ],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": null,
+  "cosponsor_count": null,
+  "notable_cosponsors": [],
+  "committees": [
+    "Committee referral not captured in research snapshot"
+  ],
+  "introduced_date": null,
+  "last_action_date": null,
+  "last_action": "Introduced text was located, but sponsor, cosponsors, committee referral, and detailed status require a live metadata refresh.",
+  "status": "Metadata refresh required",
+  "status_bucket": "Introduced / referred",
+  "summary": "Would prohibit federal funds from being used to implement the executive order titled “Ensuring a National Policy Framework for Artificial Intelligence,” making it relevant to the federal-state authority and preemption debate.",
+  "committee_dynamics": "Its standalone prospects are limited, but the language could become significant if offered as an appropriations rider.",
+  "advance_tier": "Low",
+  "advance_rationale": "Incomplete metadata and no captured movement lower standalone prospects; rider pathways remain the principal risk.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/3557",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Introduced text verified; sponsor, committee, and action metadata require live Congress.gov refresh",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 3557",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3557",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

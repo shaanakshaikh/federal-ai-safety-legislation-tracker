@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/shaanakshaikh/federal-ai-safety-legislation-tracker/raw/main/schema/record.schema.json",
+  "title": "Legislation tracker canonical record",
+  "type": "object",
+  "required": ["record_id", "measure_id", "title", "entity_type", "jurisdiction", "chamber", "scope", "primary_category", "status", "lifecycle_status", "last_verified_date", "sources", "claim_provenance"],
+  "properties": {
+    "record_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "measure_id": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "entity_type": {"enum": ["bill", "amendment", "provision", "law"]},
+    "jurisdiction": {"type": "object", "required": ["country", "level", "state"], "properties": {"country": {"const": "US"}, "level": {"enum": ["federal", "state"]}, "state": {"type": ["string", "null"], "pattern": "^[A-Z]{2}$"}}, "additionalProperties": false},
+    "lifecycle_status": {"enum": ["introduced", "referred", "committee_consideration", "committee_advanced", "floor", "passed_chamber", "passed_legislature", "enacted", "vetoed", "failed", "withdrawn", "inactive", "unknown"]},
+    "sources": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["source_id", "title", "source_type", "accessed_date"], "properties": {"source_id": {"type": "string", "minLength": 1}, "title": {"type": "string", "minLength": 1}, "publisher": {"type": ["string", "null"]}, "source_type": {"enum": ["official", "research_snapshot", "secondary"]}, "url": {"type": ["string", "null"], "format": "uri"}, "accessed_date": {"type": "string", "format": "date"}}, "additionalProperties": false}},
+    "claim_provenance": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["claim_id", "fields", "source_ids"], "properties": {"claim_id": {"type": "string", "minLength": 1}, "fields": {"type": "array", "minItems": 1, "items": {"type": "string"}}, "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}}, "note": {"type": "string"}}, "additionalProperties": false}}
+  },
+  "additionalProperties": true
+}

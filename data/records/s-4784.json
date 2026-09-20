@@ -1,0 +1,100 @@
+{
+  "record_id": "s-4784",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "floor",
+  "measure_id": "S. 4784",
+  "title": "National Defense Authorization Act for Fiscal Year 2027",
+  "chamber": "Senate",
+  "scope": "Vehicle",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "defense",
+  "secondary_categories": [
+    "Must-pass authorization",
+    "Defense AI",
+    "Autonomy",
+    "Cybersecurity"
+  ],
+  "sponsor": "Roger Wicker",
+  "sponsor_party": "R",
+  "sponsor_state": "MS",
+  "cosponsor_count": null,
+  "notable_cosponsors": [],
+  "committees": [
+    "Senate Armed Services"
+  ],
+  "introduced_date": null,
+  "last_action_date": "2026-06-30",
+  "last_action": "Senate Armed Services completed markup in June 2026; committee materials reflected reported or calendar-stage processing.",
+  "status": "Reported / calendar-stage vehicle",
+  "status_bucket": "Floor / calendar",
+  "summary": "The principal Senate defense-authorization vehicle and a natural receptacle for military AI guardrails, incident reporting, procurement security, autonomous-systems provisions, and AI Security Center concepts.",
+  "committee_dynamics": "Conference negotiations with H.R. 8800 will determine which House, Senate, intelligence, and standalone AI provisions survive.",
+  "advance_tier": "High",
+  "advance_rationale": "NDAA’s institutional pressure to advance makes it the highest-value defense AI tracking vehicle.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 4784",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

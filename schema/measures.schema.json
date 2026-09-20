@@ -1,31 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/shaanakshaikh/federal-ai-safety-legislation-tracker/raw/main/schema/measures.schema.json",
-  "title": "Federal AI Safety and Security Legislation Tracker dataset",
+  "title": "Generated legislation tracker dataset",
+  "description": "Generated from data/records/*.json; do not edit directly.",
   "type": "array",
-  "items": {
-    "type": "object",
-    "required": [
-      "measure_id",
-      "title",
-      "chamber",
-      "scope",
-      "primary_category",
-      "status",
-      "last_verified_date"
-    ],
-    "properties": {
-      "measure_id": { "type": "string", "minLength": 1 },
-      "title": { "type": "string", "minLength": 1 },
-      "chamber": { "enum": ["House", "Senate", "Bicameral", "Executive"] },
-      "scope": { "enum": ["Core", "Adjacent", "Vehicle"] },
-      "primary_category": { "type": "string", "minLength": 1 },
-      "status": { "type": "string", "minLength": 1 },
-      "introduced_date": { "type": ["string", "null"], "format": "date" },
-      "last_action_date": { "type": ["string", "null"], "format": "date" },
-      "last_verified_date": { "type": "string", "format": "date" },
-      "congress_url": { "type": ["string", "null"], "format": "uri" }
-    },
-    "additionalProperties": true
-  }
+  "items": {"$ref": "record.schema.json"}
 }

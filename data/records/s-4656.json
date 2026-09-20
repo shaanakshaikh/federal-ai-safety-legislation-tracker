@@ -1,0 +1,100 @@
+{
+  "record_id": "s-4656",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "S. 4656",
+  "title": "Secure and Accountable Military AI Act of 2026",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "defense",
+  "secondary_categories": [
+    "Incident reporting",
+    "Model-weight security",
+    "CBRNE",
+    "Evaluation"
+  ],
+  "sponsor": "Kirsten Gillibrand",
+  "sponsor_party": "D",
+  "sponsor_state": "NY",
+  "cosponsor_count": null,
+  "notable_cosponsors": [],
+  "committees": [
+    "Senate Armed Services"
+  ],
+  "introduced_date": "2026-06-02",
+  "last_action_date": "2026-06-02",
+  "last_action": "Introduced and referred to Senate Armed Services. No standalone markup located by the cutoff.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Defines covered military AI security incidents to include model-weight theft or exfiltration, foreign influence, supply-chain compromise, data poisoning or backdoors, and concerning behavior involving offensive cyber capabilities, safeguard evasion, or chemical and biological weapons.",
+  "committee_dynamics": "The Armed Services referral creates a direct NDAA pathway. The breadth of covered incidents will require coordination with intelligence-community and civilian incident-reporting regimes.",
+  "advance_tier": "Medium",
+  "advance_rationale": "The content is NDAA-compatible and addresses concrete security risks, but it had not advanced as a standalone bill.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4656",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 4656",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4656",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

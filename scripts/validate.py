@@ -1,82 +1,66 @@
 #!/usr/bin/env python3
-"""Validate the canonical legislative dataset and deployable static site."""
+"""Validate canonical records, provenance links, and generated artifacts."""
 
-import json
-import re
+import re, subprocess, sys
 from datetime import date
-from pathlib import Path
 from urllib.parse import urlparse
+from build import ROOT, load_records
 
-ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data" / "measures.json"
-SITE = ROOT / "index.html"
+REQUIRED = {"record_id", "measure_id", "title", "entity_type", "jurisdiction", "chamber", "scope", "primary_category", "status", "lifecycle_status", "last_verified_date", "sources", "claim_provenance"}
+ENTITY_TYPES = {"bill", "amendment", "provision", "law"}
+LIFECYCLES = {"introduced", "referred", "committee_consideration", "committee_advanced", "floor", "passed_chamber", "passed_legislature", "enacted", "vetoed", "failed", "withdrawn", "inactive", "unknown"}
+CHAMBERS = {"House", "Senate", "Bicameral", "Executive", "State legislature", "N/A"}
+SCOPES = {"Core", "Adjacent", "Vehicle"}
+RECORD_ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
-REQUIRED = {
-    "measure_id",
-    "title",
-    "chamber",
-    "scope",
-    "primary_category",
-    "status",
-    "last_verified_date",
-}
-ALLOWED_SCOPES = {"Core", "Adjacent", "Vehicle"}
-ALLOWED_CHAMBERS = {"House", "Senate", "Bicameral", "Executive"}
+def fail(message): raise SystemExit(f"validation error: {message}")
+def valid_date(value, label, nullable=False):
+    if nullable and value is None: return
+    try: date.fromisoformat(value)
+    except (TypeError, ValueError): fail(f"{label} must use YYYY-MM-DD")
 
-
-def fail(message: str) -> None:
-    raise SystemExit(f"validation error: {message}")
-
-
-def main() -> None:
-    if not DATA.is_file() or not SITE.is_file():
-        fail("data/measures.json and index.html must exist")
-    records = json.loads(DATA.read_text(encoding="utf-8"))
-    if not isinstance(records, list) or not records:
-        fail("dataset must be a non-empty JSON array")
-
-    seen = set()
-    for index, record in enumerate(records):
-        if not isinstance(record, dict):
-            fail(f"record {index} is not an object")
+def main():
+    records = load_records()
+    if not records: fail("data/records must contain at least one JSON record")
+    seen_ids, seen_measures = set(), set()
+    for record in records:
+        filename = record["_source_file"]
         missing = REQUIRED - record.keys()
-        if missing:
-            fail(f"record {index} missing: {', '.join(sorted(missing))}")
-        measure_id = record["measure_id"]
-        if measure_id in seen:
-            fail(f"duplicate measure_id: {measure_id}")
-        seen.add(measure_id)
-        if record["scope"] not in ALLOWED_SCOPES:
-            fail(f"{measure_id}: invalid scope {record['scope']!r}")
-        if record["chamber"] not in ALLOWED_CHAMBERS:
-            fail(f"{measure_id}: invalid chamber {record['chamber']!r}")
-        try:
-            date.fromisoformat(record["last_verified_date"])
-        except (TypeError, ValueError):
-            fail(f"{measure_id}: last_verified_date must use YYYY-MM-DD")
-        for key in ("introduced_date", "last_action_date"):
-            if record.get(key):
-                try:
-                    date.fromisoformat(record[key])
-                except (TypeError, ValueError):
-                    fail(f"{measure_id}: {key} must use YYYY-MM-DD")
-        if record.get("congress_url"):
-            parsed = urlparse(record["congress_url"])
-            if parsed.scheme != "https" or parsed.netloc not in {"congress.gov", "www.congress.gov"}:
-                fail(f"{measure_id}: congress_url must be an HTTPS congress.gov URL")
+        if missing: fail(f"{filename} missing: {', '.join(sorted(missing))}")
+        rid = record["record_id"]
+        if not isinstance(rid, str) or not RECORD_ID.fullmatch(rid): fail(f"{filename}: invalid record_id")
+        if filename != f"{rid}.json": fail(f"{filename}: filename must match record_id")
+        if rid in seen_ids or record["measure_id"] in seen_measures: fail(f"{filename}: duplicate identifier")
+        seen_ids.add(rid); seen_measures.add(record["measure_id"])
+        if record["entity_type"] not in ENTITY_TYPES: fail(f"{rid}: invalid entity_type")
+        jurisdiction = record["jurisdiction"]
+        if not isinstance(jurisdiction, dict) or jurisdiction.get("level") not in {"federal", "state"} or jurisdiction.get("country") != "US": fail(f"{rid}: invalid jurisdiction")
+        if jurisdiction["level"] == "state" and not re.fullmatch(r"[A-Z]{2}", jurisdiction.get("state", "")): fail(f"{rid}: state jurisdiction requires a state code")
+        if jurisdiction["level"] == "federal" and jurisdiction.get("state") is not None: fail(f"{rid}: federal jurisdiction state must be null")
+        if record["lifecycle_status"] not in LIFECYCLES: fail(f"{rid}: invalid lifecycle_status")
+        if record["chamber"] not in CHAMBERS or record["scope"] not in SCOPES: fail(f"{rid}: invalid chamber or scope")
+        valid_date(record["last_verified_date"], f"{rid}.last_verified_date")
+        for key in ("introduced_date", "last_action_date"): valid_date(record.get(key), f"{rid}.{key}", nullable=True)
+        sources = record["sources"]
+        if not isinstance(sources, list) or not sources: fail(f"{rid}: sources must be non-empty")
+        source_ids = set()
+        for source in sources:
+            if not {"source_id", "title", "source_type", "accessed_date"} <= source.keys(): fail(f"{rid}: incomplete source")
+            if source["source_id"] in source_ids: fail(f"{rid}: duplicate source_id")
+            source_ids.add(source["source_id"]); valid_date(source["accessed_date"], f"{rid}.source.accessed_date")
+            if source.get("url") and urlparse(source["url"]).scheme != "https": fail(f"{rid}: source URL must use HTTPS")
+        claims = record["claim_provenance"]
+        if not isinstance(claims, list) or not claims: fail(f"{rid}: claim_provenance must be non-empty")
+        covered = set()
+        for claim in claims:
+            if not {"claim_id", "fields", "source_ids"} <= claim.keys() or not claim["fields"] or not claim["source_ids"]: fail(f"{rid}: incomplete provenance claim")
+            unknown = set(claim["source_ids"]) - source_ids
+            if unknown: fail(f"{rid}: claim references unknown sources {sorted(unknown)}")
+            covered.update(claim["fields"])
+        for field in ("title", "status", "summary"):
+            if field not in covered: fail(f"{rid}: {field} lacks claim-level provenance")
+    result = subprocess.run([sys.executable, str(ROOT/"scripts/build.py"), "--check"])
+    if result.returncode: raise SystemExit(result.returncode)
+    print(f"Validated {len(records)} canonical records, provenance, and generated artifacts.")
 
-    html = SITE.read_text(encoding="utf-8")
-    match = re.search(r'<script id="records" type="application/json">(.*?)</script>', html, re.S)
-    if not match:
-        fail("index.html does not contain the embedded records dataset")
-    embedded = json.loads(match.group(1))
-    if embedded != records:
-        fail("embedded index.html dataset differs from data/measures.json")
-    if "Federal AI Safety &amp; Security Bill Tracker" not in html and "Federal AI Safety & Security Bill Tracker" not in html:
-        fail("index.html does not appear to be the tracker site")
-
-    print(f"Validated {len(records)} unique measures and the static site snapshot.")
-
-
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__": main()

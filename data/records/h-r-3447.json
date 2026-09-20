@@ -1,0 +1,99 @@
+{
+  "record_id": "h-r-3447",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "H.R. 3447",
+  "title": "Chip Security Act",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [
+    "Export controls",
+    "Compute security",
+    "Monitoring"
+  ],
+  "sponsor": "Bill Huizenga",
+  "sponsor_party": "R",
+  "sponsor_state": "MI",
+  "cosponsor_count": 9,
+  "notable_cosponsors": [],
+  "committees": [
+    "House Foreign Affairs"
+  ],
+  "introduced_date": null,
+  "last_action_date": null,
+  "last_action": "Referred to House Foreign Affairs; no markup action captured in the research snapshot.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Requires security mechanisms such as location verification and stronger reporting for licensees exporting covered advanced chips.",
+  "committee_dynamics": "The bill sits in the same security/export-control lane as the model-theft legislation but had not achieved the latter’s committee vote.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Meaningful cosponsorship and a clear export-enforcement rationale create a plausible committee or package pathway.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3447",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 3447",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3447",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

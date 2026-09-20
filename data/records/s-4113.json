@@ -1,0 +1,99 @@
+{
+  "record_id": "s-4113",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "S. 4113",
+  "title": "AI Guardrails Act of 2026",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "defense",
+  "secondary_categories": [
+    "Nuclear command and control",
+    "Meaningful human control",
+    "High-consequence safeguards"
+  ],
+  "sponsor": "Elissa Slotkin",
+  "sponsor_party": "D",
+  "sponsor_state": "MI",
+  "cosponsor_count": null,
+  "notable_cosponsors": [],
+  "committees": [
+    "Senate Armed Services"
+  ],
+  "introduced_date": "2026-03-17",
+  "last_action_date": "2026-03-17",
+  "last_action": "Introduced and referred to Senate Armed Services. No standalone markup located by the cutoff.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Restricts specified high-consequence Department of Defense AI uses, including autonomous launch or detonation of nuclear weapons, and reinforces meaningful human control.",
+  "committee_dynamics": "Nuclear-command provisions are politically salient but more likely to move through NDAA negotiations than through a freestanding floor process.",
+  "advance_tier": "Low",
+  "advance_rationale": "No public committee movement limits the standalone bill, although discrete guardrail language remains plausible in NDAA negotiations.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4113",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 4113",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4113",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}
