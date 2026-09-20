@@ -79,8 +79,7 @@ def main() -> None:
     candidates = discover(api_key, jurisdictions, args.per_query)
     output = {"generated_date": date.today().isoformat(), "review_notice": "Discovery only. Verify every candidate against an official state source before publication.", "candidates": candidates}
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(output, indent=2) + "
-", encoding="utf-8")
+    args.output.write_text(json.dumps(output, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {len(candidates)} unverified candidates to {args.output}")
 
 
