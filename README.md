@@ -1,10 +1,12 @@
 # Federal AI Safety & Security Legislation Tracker
 
-An open-source, research-oriented tracker of federal AI safety and security legislation in the 119th Congress. The initial release preserves the public research snapshot dated **September 1, 2026**.
+An open-source, research-oriented tracker of federal and state AI safety and security legislation, enacted laws, and implementation activity. Federal coverage begins with the 118th and 119th Congresses; state coverage begins with a curated safety/security set verified through **September 20, 2026**.
 
 ## What is tracked
 
-The dataset covers core safety and security measures, adjacent governance proposals, and must-pass legislative vehicles. It includes bill status, sponsors, committees, policy categories, committee dynamics, advancement assessments, source links, and verification notes.
+The dataset covers core safety and security measures, adjacent governance proposals, must-pass legislative vehicles, enacted public laws and provisions, implementation deadlines, and agency status. It includes lifecycle, jurisdiction, state/session, sponsor, committee, policy-category, source, and verification fields.
+
+State coverage follows the [formal inclusion criteria](methodology/inclusion-criteria.md). Open States is a discovery layer only: every published state record must be verified against an official state source.
 
 The site is a static application: it has no database, account system, or serverless functions. This keeps the public snapshot portable across Vercel, GitHub Pages, and ordinary static web servers.
 
@@ -28,6 +30,16 @@ python3 scripts/validate.py
 ```
 
 Validation derives the record count dynamically, checks source references and required provenance coverage, and fails if any generated artifact is stale.
+
+## State discovery
+
+Register an Open States API key, store it as `OPENSTATES_API_KEY`, and run:
+
+```sh
+python3 scripts/discover_openstates.py
+```
+
+The Sunday GitHub Actions workflow uploads an artifact of unverified candidates. It never edits or publishes canonical records. Reviewers must apply the inclusion criteria and verify every candidate against an official source before adding a file to `data/records/`.
 
 Preview the site locally:
 
