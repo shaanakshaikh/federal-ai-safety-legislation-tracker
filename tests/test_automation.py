@@ -1,11 +1,15 @@
 import os
 import sys
 import unittest
+import urllib.error
+from email.message import Message
+from io import BytesIO
 from unittest.mock import patch
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
 
 from automation_common import automation_metadata, parse_federal_bill
+from discover_openstates import request_json
 from discover_weekly import classify
 from sync_weekday import lifecycle_from_actions, values
 
@@ -38,6 +42,30 @@ class AutomationTests(unittest.TestCase):
         result = automation_metadata(2, ["review"], "test")
         self.assertEqual(result["agent_confidence"], 1.0)
         self.assertTrue(result["requires_human_review"])
+
+    @patch("discover_openstates.time.sleep")
+    @patch("discover_openstates.urllib.request.urlopen")
+    def test_openstates_retries_rate_limit(self, urlopen, sleep):
+        headers = Message()
+        headers["Retry-After"] = "3"
+        urlopen.side_effect = [
+            urllib.error.HTTPError("https://example.test", 429, "Too Many Requests", headers, None),
+            BytesIO(b'{"results": []}'),
+        ]
+
+        self.assertEqual(request_json("https://example.test", "key"), {"results": []})
+        sleep.assert_called_once_with(3.0)
+
+    @patch("discover_openstates.time.sleep")
+    @patch("discover_openstates.urllib.request.urlopen")
+    def test_openstates_does_not_retry_client_errors(self, urlopen, sleep):
+        urlopen.side_effect = urllib.error.HTTPError(
+            "https://example.test", 401, "Unauthorized", Message(), None
+        )
+
+        with self.assertRaises(urllib.error.HTTPError):
+            request_json("https://example.test", "bad-key")
+        sleep.assert_not_called()
 
 
 if __name__ == "__main__":
