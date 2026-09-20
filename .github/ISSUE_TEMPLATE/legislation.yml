@@ -1,0 +1,35 @@
+name: Recommend legislation
+description: Suggest a pending, failed, or enacted measure for review.
+title: "[Legislation]: "
+labels: ["legislation suggestion", "needs review"]
+body:
+  - type: input
+    id: measure
+    attributes:
+      label: Measure
+      description: Bill number, public law number, amendment, or legislative vehicle.
+    validations:
+      required: true
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction and session
+    validations:
+      required: true
+  - type: input
+    id: official_source
+    attributes:
+      label: Official source URL
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Safety or security relevance
+      description: Briefly explain why the measure fits the tracker’s inclusion criteria.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context

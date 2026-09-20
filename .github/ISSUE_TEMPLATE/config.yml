@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security report
+    url: https://github.com/shaanakshaikh/federal-ai-safety-legislation-tracker/security/advisories/new
+    about: Report a vulnerability privately.
