@@ -17,6 +17,9 @@ Do not edit `data/measures.*`, `data/search-index.json`, `index.html`, or `pages
 - `entity_type`: `bill`, `amendment`, `provision`, or `law`.
 - `jurisdiction.level`: `federal` or `state`; state records also require a two-letter `jurisdiction.state` code.
 - `lifecycle_status`: the normalized cross-jurisdiction status. Preserve source-specific wording separately in `status`.
+- `session` and `congress`: identify the state legislative session or federal Congress.
+- `public_law` / `state_law`: capture enactment identity and dates.
+- `implementation`: records responsible agencies, deadlines, and status with source IDs.
 - `sources`: reusable source descriptions local to the record.
 - `claim_provenance`: groups specific record fields into claims and identifies the sources supporting each group.
 
@@ -31,6 +34,8 @@ Prefer sources in this order:
 3. High-quality secondary sources for context, clearly labeled as such.
 
 Do not silently replace uncertainty with inference. Preserve a verification warning when primary-source metadata is incomplete.
+
+Open States results are discovery leads, not publication evidence. State records require at least one official state source and must satisfy [`methodology/inclusion-criteria.md`](methodology/inclusion-criteria.md).
 
 ## Review
 

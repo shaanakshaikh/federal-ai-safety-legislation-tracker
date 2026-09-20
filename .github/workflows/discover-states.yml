@@ -1,0 +1,32 @@
+name: Discover state candidates
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 13 * * 0"
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    env:
+      OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Discover candidates
+        if: env.OPENSTATES_API_KEY != ''
+        run: python3 scripts/discover_openstates.py
+      - name: Explain missing key
+        if: env.OPENSTATES_API_KEY == ''
+        run: echo "OPENSTATES_API_KEY is not configured; no discovery request was made."
+      - uses: actions/upload-artifact@v4
+        if: env.OPENSTATES_API_KEY != ''
+        with:
+          name: openstates-candidates
+          path: data/discovery/openstates-candidates.json
+          retention-days: 14
