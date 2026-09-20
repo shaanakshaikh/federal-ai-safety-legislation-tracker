@@ -11,7 +11,8 @@ Describe the change and why it belongs in the tracker.
 
 ## Checks
 
-- [ ] I updated the canonical dataset rather than only a generated file.
+- [ ] I updated canonical file(s) in `data/records/`, not only generated files.
+- [ ] I ran `python3 scripts/build.py` and committed the generated outputs.
 - [ ] I ran `python3 scripts/validate.py`.
 - [ ] I reviewed the Vercel preview.
 - [ ] I did not add credentials, private data, or copyrighted third-party text.
