@@ -41,6 +41,13 @@ def main():
         if record["chamber"] not in CHAMBERS or record["scope"] not in SCOPES: fail(f"{rid}: invalid chamber or scope")
         valid_date(record["last_verified_date"], f"{rid}.last_verified_date")
         for key in ("introduced_date", "last_action_date"): valid_date(record.get(key), f"{rid}.{key}", nullable=True)
+        if record.get("public_law"):
+            if record["jurisdiction"]["level"] != "federal": fail(f"{rid}: public_law is federal-only")
+            valid_date(record["public_law"].get("enacted_date"), f"{rid}.public_law.enacted_date")
+        if record.get("state_law"):
+            if record["jurisdiction"]["level"] != "state": fail(f"{rid}: state_law requires state jurisdiction")
+            valid_date(record["state_law"].get("enacted_date"), f"{rid}.state_law.enacted_date")
+            valid_date(record["state_law"].get("effective_date"), f"{rid}.state_law.effective_date", nullable=True)
         sources = record["sources"]
         if not isinstance(sources, list) or not sources: fail(f"{rid}: sources must be non-empty")
         source_ids = set()
@@ -49,6 +56,20 @@ def main():
             if source["source_id"] in source_ids: fail(f"{rid}: duplicate source_id")
             source_ids.add(source["source_id"]); valid_date(source["accessed_date"], f"{rid}.source.accessed_date")
             if source.get("url") and urlparse(source["url"]).scheme != "https": fail(f"{rid}: source URL must use HTTPS")
+        if record["jurisdiction"]["level"] == "state" and not any(
+            source.get("source_type") == "official" for source in sources
+        ):
+            fail(f"{rid}: state records require an official source")
+        implementation = record.get("implementation")
+        if implementation:
+            for item in implementation.get("deadlines", []):
+                valid_date(item.get("date"), f"{rid}.implementation.deadline", nullable=True)
+                unknown = set(item.get("source_ids", [])) - source_ids
+                if unknown: fail(f"{rid}: deadline references unknown sources {sorted(unknown)}")
+            for item in implementation.get("agency_status", []):
+                valid_date(item.get("as_of"), f"{rid}.implementation.agency_status.as_of")
+                unknown = set(item.get("source_ids", [])) - source_ids
+                if unknown: fail(f"{rid}: agency status references unknown sources {sorted(unknown)}")
         claims = record["claim_provenance"]
         if not isinstance(claims, list) or not claims: fail(f"{rid}: claim_provenance must be non-empty")
         covered = set()

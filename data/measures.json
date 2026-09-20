@@ -1,5 +1,323 @@
 [
   {
+    "record_id": "ca-sb-1047-2024",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "CA"
+    },
+    "lifecycle_status": "vetoed",
+    "measure_id": "CA SB 1047 (2024)",
+    "title": "Safe and Secure Innovation for Frontier Artificial Intelligence Models Act",
+    "session": "2023-2024",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "Frontier-model & national security",
+    "category_key": "security",
+    "secondary_categories": [
+      "Catastrophic risk",
+      "Safety protocols",
+      "Compute providers"
+    ],
+    "sponsor": "Scott Wiener",
+    "sponsor_party": "D",
+    "sponsor_state": "CA",
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [],
+    "introduced_date": "2024-02-07",
+    "last_action_date": "2024-09-29",
+    "last_action": "Vetoed by the Governor; veto consideration expired November 30, 2024.",
+    "status": "Vetoed by Governor",
+    "status_bucket": "Vetoed",
+    "summary": "Would have required developers of covered large AI models and certain compute providers to adopt safeguards and policies intended to prevent catastrophic harm and would have created a state frontier-model oversight body.",
+    "committee_dynamics": "The bill passed both chambers but was vetoed; it remains important as the policy precursor to California SB 53.",
+    "advance_tier": "N/A",
+    "advance_rationale": "Final disposition: vetoed.",
+    "official_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202320240SB1047",
+    "last_verified_date": "2026-09-20",
+    "verification_level": "Official legislature record and veto message verified.",
+    "sources": [
+      {
+        "source_id": "ca-legislature",
+        "title": "SB 1047 bill status and veto message",
+        "publisher": "California Legislative Information",
+        "source_type": "official",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202320240SB1047",
+        "accessed_date": "2026-09-20"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "ca-legislature"
+        ]
+      },
+      {
+        "claim_id": "substance",
+        "fields": [
+          "summary",
+          "primary_category",
+          "secondary_categories"
+        ],
+        "source_ids": [
+          "ca-legislature"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "ca-sb-53-2025",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "CA"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "CA SB 53 (2025)",
+    "title": "Transparency in Frontier Artificial Intelligence Act",
+    "session": "2025-2026",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "Frontier-model & national security",
+    "category_key": "security",
+    "secondary_categories": [
+      "Safety frameworks",
+      "Critical incidents",
+      "Whistleblower protection"
+    ],
+    "sponsor": "Scott Wiener",
+    "sponsor_party": "D",
+    "sponsor_state": "CA",
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [],
+    "introduced_date": "2025-01-07",
+    "last_action_date": "2025-09-29",
+    "last_action": "Approved by the Governor and chaptered as Chapter 138, Statutes of 2025.",
+    "status": "Chaptered — Chapter 138, Statutes of 2025",
+    "status_bucket": "Enacted",
+    "summary": "Requires covered large frontier developers to publish safety frameworks, creates critical-safety-incident reporting to the state, protects specified whistleblowers, and establishes CalCompute-related public-compute planning.",
+    "committee_dynamics": "California enacted a narrower successor to vetoed SB 1047, emphasizing disclosure, incident reporting, and whistleblower protection.",
+    "advance_tier": "N/A",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB53",
+    "state_law": {
+      "chapter": "Chapter 138, Statutes of 2025",
+      "enacted_date": "2025-09-29",
+      "effective_date": "2026-01-01"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "California Office of Emergency Services",
+        "California Department of Technology",
+        "California Attorney General"
+      ],
+      "deadlines": [
+        {
+          "date": "2026-01-01",
+          "requirement": "General statutory effective date.",
+          "status": "completed",
+          "source_ids": [
+            "ca-legislature"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "California implementing agencies",
+          "status": "in_progress",
+          "as_of": "2026-09-20",
+          "detail": "The law is effective; this starter record has not yet completed a rule-by-rule agency implementation audit.",
+          "source_ids": [
+            "ca-legislature",
+            "ca-governor"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-09-20",
+    "verification_level": "Official legislature and governor sources verified.",
+    "sources": [
+      {
+        "source_id": "ca-legislature",
+        "title": "SB 53 bill status",
+        "publisher": "California Legislative Information",
+        "source_type": "official",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB53",
+        "accessed_date": "2026-09-20"
+      },
+      {
+        "source_id": "ca-governor",
+        "title": "Governor Newsom signs SB 53",
+        "publisher": "Office of Governor Gavin Newsom",
+        "source_type": "official",
+        "url": "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/",
+        "accessed_date": "2026-09-20"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law"
+        ],
+        "source_ids": [
+          "ca-legislature"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "summary",
+          "primary_category",
+          "secondary_categories",
+          "implementation"
+        ],
+        "source_ids": [
+          "ca-legislature",
+          "ca-governor"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "co-sb-24-205",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "CO"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "CO SB24-205",
+    "title": "Consumer Protections for Artificial Intelligence",
+    "session": "2024 Regular Session",
+    "chamber": "State legislature",
+    "scope": "Adjacent",
+    "primary_category": "High-risk AI governance",
+    "category_key": "governance",
+    "secondary_categories": [
+      "Impact assessments",
+      "Algorithmic discrimination",
+      "Risk management"
+    ],
+    "sponsor": "Robert Rodriguez",
+    "sponsor_party": "D",
+    "sponsor_state": "CO",
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Judiciary",
+      "House State, Civic, Military, and Veterans Affairs"
+    ],
+    "introduced_date": "2024-04-10",
+    "last_action_date": "2024-05-17",
+    "last_action": "Signed by the Governor and enacted as Chapter 198.",
+    "status": "Enacted — Chapter 198",
+    "status_bucket": "Enacted",
+    "summary": "Requires developers and deployers of high-risk AI systems to use reasonable care against known or reasonably foreseeable algorithmic-discrimination risks, publish specified disclosures, complete impact assessments, and report certain discovered risks.",
+    "committee_dynamics": "Colorado enacted the first broad U.S. state framework centered on consequential high-risk systems; it is included as an adjacent, enforceable risk-management law.",
+    "advance_tier": "N/A",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://leg.colorado.gov/bills/sb24-205",
+    "state_law": {
+      "chapter": "Chapter 198",
+      "enacted_date": "2024-05-17",
+      "effective_date": "2026-02-01"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "Colorado Attorney General"
+      ],
+      "deadlines": [
+        {
+          "date": "2026-02-01",
+          "requirement": "Developer and deployer duties become operative.",
+          "status": "completed",
+          "source_ids": [
+            "co-legislature"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "Colorado Attorney General",
+          "status": "in_progress",
+          "as_of": "2026-09-20",
+          "detail": "The operative date has passed; this starter record has not yet completed a rulemaking and enforcement inventory.",
+          "source_ids": [
+            "co-legislature"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-09-20",
+    "verification_level": "Official legislature source verified.",
+    "sources": [
+      {
+        "source_id": "co-legislature",
+        "title": "SB24-205 Consumer Protections for Artificial Intelligence",
+        "publisher": "Colorado General Assembly",
+        "source_type": "official",
+        "url": "https://leg.colorado.gov/bills/sb24-205",
+        "accessed_date": "2026-09-20"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law"
+        ],
+        "source_ids": [
+          "co-legislature"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "summary",
+          "primary_category",
+          "secondary_categories",
+          "implementation"
+        ],
+        "source_ids": [
+          "co-legislature"
+        ]
+      }
+    ]
+  },
+  {
     "record_id": "fy27-house-cjs-approp",
     "entity_type": "bill",
     "jurisdiction": {
@@ -2435,6 +2753,729 @@
     ]
   },
   {
+    "record_id": "ny-s-6953b-2025",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "NY"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "NY S6953B",
+    "title": "Responsible AI Safety and Education Act",
+    "session": "2025-2026",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "Frontier-model & national security",
+    "category_key": "security",
+    "secondary_categories": [
+      "Safety frameworks",
+      "Incident reporting",
+      "Catastrophic harm"
+    ],
+    "sponsor": "Andrew Gounardes",
+    "sponsor_party": "D",
+    "sponsor_state": "NY",
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Internet and Technology"
+    ],
+    "introduced_date": "2025-03-27",
+    "last_action_date": "2025-12-19",
+    "last_action": "Signed by the Governor as Chapter 699.",
+    "status": "Enacted — Chapter 699 of 2025",
+    "status_bucket": "Enacted",
+    "summary": "Requires covered frontier-model developers to publish information about safety protocols and report specified critical-harm incidents to New York within 72 hours; it also creates a frontier-model oversight office within the Department of Financial Services.",
+    "committee_dynamics": "The final enacted framework was negotiated to emphasize transparency and incident reporting for the largest frontier developers.",
+    "advance_tier": "N/A",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://www.nysenate.gov/legislation/bills/2025/S6953/amendment/B",
+    "state_law": {
+      "chapter": "Chapter 699 of 2025",
+      "enacted_date": "2025-12-19",
+      "effective_date": null
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "New York Department of Financial Services",
+        "New York Attorney General"
+      ],
+      "deadlines": [],
+      "agency_status": [
+        {
+          "agency": "New York Department of Financial Services",
+          "status": "planning",
+          "as_of": "2026-09-20",
+          "detail": "The statute creates an oversight office; this starter record has not yet completed an official implementation inventory.",
+          "source_ids": [
+            "ny-bill",
+            "ny-governor"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-09-20",
+    "verification_level": "Official legislature and governor sources verified.",
+    "sources": [
+      {
+        "source_id": "ny-bill",
+        "title": "Senate Bill S6953B",
+        "publisher": "New York State Senate",
+        "source_type": "official",
+        "url": "https://www.nysenate.gov/legislation/bills/2025/S6953/amendment/B",
+        "accessed_date": "2026-09-20"
+      },
+      {
+        "source_id": "ny-governor",
+        "title": "Governor Hochul signs frontier-model AI framework legislation",
+        "publisher": "Office of the Governor of New York",
+        "source_type": "official",
+        "url": "https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-require-ai-frameworks-ai-frontier-models",
+        "accessed_date": "2026-09-20"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law"
+        ],
+        "source_ids": [
+          "ny-bill"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "summary",
+          "primary_category",
+          "secondary_categories",
+          "implementation"
+        ],
+        "source_ids": [
+          "ny-bill",
+          "ny-governor"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "pl-118-159-sec-225",
+    "entity_type": "provision",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "P.L. 118-159 § 225",
+    "title": "Defense governing-council duties for advanced AI security",
+    "session": "118th Congress",
+    "congress": 118,
+    "chamber": "Bicameral",
+    "scope": "Core",
+    "primary_category": "Frontier-model & national security",
+    "category_key": "security",
+    "secondary_categories": [
+      "Model-weight security",
+      "Foreign adversaries",
+      "Risk assessment"
+    ],
+    "sponsor": null,
+    "sponsor_party": null,
+    "sponsor_state": null,
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [
+      "House Armed Services",
+      "Senate Armed Services"
+    ],
+    "introduced_date": "2024-04-18",
+    "last_action_date": "2024-12-23",
+    "last_action": "Enacted in the FY2025 National Defense Authorization Act.",
+    "status": "Enacted — Public Law 118-159",
+    "status_bucket": "Enacted",
+    "summary": "Directs the Chief Digital and Artificial Intelligence Officer Governing Council to identify and assess AI models that could pose national-security risk if accessed by an adversary, develop strategies against unauthorized adversary access and use, and recommend legislative or administrative action.",
+    "committee_dynamics": "The provision was enacted through the annual defense authorization process.",
+    "advance_tier": "N/A",
+    "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ159",
+    "public_law": {
+      "number": "118-159",
+      "enacted_date": "2024-12-23",
+      "originating_bill": "H.R. 5009",
+      "statutes_at_large": "138 Stat. 1773",
+      "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ159"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "Department of Defense",
+        "Chief Digital and Artificial Intelligence Officer Governing Council"
+      ],
+      "deadlines": [],
+      "agency_status": [
+        {
+          "agency": "Department of Defense",
+          "status": "ongoing",
+          "as_of": "2026-09-20",
+          "detail": "The provision establishes continuing governing-council duties; no discrete completion deadline is specified in section 225.",
+          "source_ids": [
+            "govinfo-law"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-09-20",
+    "verification_level": "Official public-law text verified.",
+    "sources": [
+      {
+        "source_id": "govinfo-law",
+        "title": "Public Law 118-159 — FY2025 National Defense Authorization Act",
+        "publisher": "GovInfo",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/PLAW-118publ159",
+        "accessed_date": "2026-09-20"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-law",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "congress",
+          "public_law",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "summary",
+          "primary_category",
+          "secondary_categories",
+          "implementation"
+        ],
+        "source_ids": [
+          "govinfo-law"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "pl-118-31-ai-safety",
+    "entity_type": "provision",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "P.L. 118-31 §§ 220-225",
+    "title": "FY2024 NDAA artificial-intelligence assurance and security provisions",
+    "session": "118th Congress",
+    "congress": 118,
+    "chamber": "Bicameral",
+    "scope": "Vehicle",
+    "primary_category": "Testing, evaluation & assurance",
+    "category_key": "evaluation",
+    "secondary_categories": [
+      "Generative AI detection",
+      "Responsible AI",
+      "Military AI security"
+    ],
+    "sponsor": null,
+    "sponsor_party": null,
+    "sponsor_state": null,
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [
+      "House Armed Services",
+      "Senate Armed Services"
+    ],
+    "introduced_date": "2023-04-18",
+    "last_action_date": "2023-12-22",
+    "last_action": "Enacted as part of the National Defense Authorization Act for Fiscal Year 2024.",
+    "status": "Enacted — Public Law 118-31",
+    "status_bucket": "Enacted",
+    "summary": "A curated group of FY2024 NDAA provisions addressing generative-AI detection and watermarking, responsible-AI processes, explainable military AI, and assessment of model and advanced-AI technologies that could pose national-security risks.",
+    "committee_dynamics": "The provisions moved through the annual defense-authorization vehicle rather than as a standalone AI statute.",
+    "advance_tier": "N/A",
+    "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ31",
+    "public_law": {
+      "number": "118-31",
+      "enacted_date": "2023-12-22",
+      "originating_bill": "H.R. 2670",
+      "statutes_at_large": "137 Stat. 136",
+      "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ31"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "Department of Defense"
+      ],
+      "deadlines": [
+        {
+          "date": "2024-04-20",
+          "requirement": "Complete the responsible-AI strategy and process requirements due 120 days after enactment.",
+          "status": "unknown",
+          "source_ids": [
+            "govinfo-law"
+          ]
+        },
+        {
+          "date": "2024-12-22",
+          "requirement": "Complete the military AI functionality, research-needs, privacy, security, and accuracy study due one year after enactment.",
+          "status": "unknown",
+          "source_ids": [
+            "govinfo-law"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "Department of Defense",
+          "status": "unknown",
+          "as_of": "2026-09-20",
+          "detail": "The statutory requirements are captured; a comprehensive official implementation assessment has not yet been completed for this record.",
+          "source_ids": [
+            "govinfo-law"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-09-20",
+    "verification_level": "Official public-law text verified; implementation status requires a dedicated agency review.",
+    "sources": [
+      {
+        "source_id": "govinfo-law",
+        "title": "Public Law 118-31 — FY2024 National Defense Authorization Act",
+        "publisher": "GovInfo",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/PLAW-118publ31",
+        "accessed_date": "2026-09-20"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-law",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "congress",
+          "public_law",
+          "status",
+          "lifecycle_status",
+          "last_action_date"
+        ],
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "summary",
+          "primary_category",
+          "secondary_categories",
+          "implementation"
+        ],
+        "source_ids": [
+          "govinfo-law"
+        ],
+        "note": "Section grouping and summary are analyst-created from the enacted text."
+      }
+    ]
+  },
+  {
+    "record_id": "pl-119-12-take-it-down",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "P.L. 119-12",
+    "title": "TAKE IT DOWN Act",
+    "session": "119th Congress",
+    "congress": 119,
+    "chamber": "Bicameral",
+    "scope": "Adjacent",
+    "primary_category": "Synthetic-media safety",
+    "category_key": "synthetic-media",
+    "secondary_categories": [
+      "Deepfakes",
+      "Nonconsensual intimate imagery",
+      "Platform accountability"
+    ],
+    "sponsor": "Ted Cruz",
+    "sponsor_party": "R",
+    "sponsor_state": "TX",
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Commerce, Science, and Transportation",
+      "House Energy and Commerce"
+    ],
+    "introduced_date": "2025-01-16",
+    "last_action_date": "2025-05-19",
+    "last_action": "Signed into law.",
+    "status": "Enacted — Public Law 119-12; FTC enforcement active",
+    "status_bucket": "Enacted",
+    "summary": "Criminalizes specified nonconsensual publication of intimate visual depictions, including AI-created digital forgeries, and requires covered platforms to operate a notice-and-removal process and remove validly reported content and known identical copies within 48 hours.",
+    "committee_dynamics": "The bill passed both chambers and became the first standalone federal law in this starter set with an express operational duty covering AI-generated intimate imagery.",
+    "advance_tier": "N/A",
+    "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ12",
+    "public_law": {
+      "number": "119-12",
+      "enacted_date": "2025-05-19",
+      "originating_bill": "S. 146",
+      "statutes_at_large": "139 Stat. 55",
+      "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ12"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "Federal Trade Commission",
+        "Department of Justice"
+      ],
+      "deadlines": [
+        {
+          "date": "2026-05-19",
+          "requirement": "Covered platforms must establish the required notice-and-removal process.",
+          "status": "completed",
+          "source_ids": [
+            "govinfo-law",
+            "ftc-enforcement"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "Federal Trade Commission",
+          "status": "enforcing",
+          "as_of": "2026-09-20",
+          "detail": "The FTC began enforcing section 3, issued business guidance, contacted major platforms, and launched TakeItDown.ftc.gov.",
+          "source_ids": [
+            "ftc-enforcement"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-09-20",
+    "verification_level": "Official law and FTC implementation materials verified.",
+    "sources": [
+      {
+        "source_id": "govinfo-law",
+        "title": "Public Law 119-12 — TAKE IT DOWN Act",
+        "publisher": "GovInfo",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/PLAW-119publ12",
+        "accessed_date": "2026-09-20"
+      },
+      {
+        "source_id": "ftc-enforcement",
+        "title": "FTC Begins Enforcing the TAKE IT DOWN Act",
+        "publisher": "Federal Trade Commission",
+        "source_type": "official",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-begins-enforcing-take-it-down-act",
+        "accessed_date": "2026-09-20"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-law",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "congress",
+          "public_law",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "claim_id": "substance",
+        "fields": [
+          "summary",
+          "primary_category",
+          "secondary_categories"
+        ],
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "claim_id": "implementation",
+        "fields": [
+          "implementation"
+        ],
+        "source_ids": [
+          "govinfo-law",
+          "ftc-enforcement"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "pl-119-21-sec-50404",
+    "entity_type": "provision",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "P.L. 119-21 § 50404",
+    "title": "Transformational artificial-intelligence models for science and engineering",
+    "session": "119th Congress",
+    "congress": 119,
+    "chamber": "Bicameral",
+    "scope": "Adjacent",
+    "primary_category": "Federal AI capacity",
+    "category_key": "capacity",
+    "secondary_categories": [
+      "Secure scientific data",
+      "National laboratories",
+      "Model development"
+    ],
+    "sponsor": null,
+    "sponsor_party": null,
+    "sponsor_state": null,
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [],
+    "introduced_date": "2025-05-20",
+    "last_action_date": "2025-07-04",
+    "last_action": "Enacted as section 50404 of Public Law 119-21.",
+    "status": "Enacted — Public Law 119-21",
+    "status_bucket": "Enacted",
+    "summary": "Directs the Department of Energy to mobilize national laboratories and industry partners to curate scientific data and support transformational AI models, with security and privacy requirements for shared research infrastructure.",
+    "committee_dynamics": "The provision moved in a large reconciliation law and is included as adjacent federal capacity with security-relevant data controls.",
+    "advance_tier": "N/A",
+    "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ21",
+    "public_law": {
+      "number": "119-21",
+      "enacted_date": "2025-07-04",
+      "originating_bill": "H.R. 1",
+      "statutes_at_large": "139 Stat. 72",
+      "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ21"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "Department of Energy",
+        "National Laboratories"
+      ],
+      "deadlines": [],
+      "agency_status": [
+        {
+          "agency": "Department of Energy",
+          "status": "in_progress",
+          "as_of": "2026-09-20",
+          "detail": "DOE has publicized the Transformational AI Models Consortium and related implementation activity; this record does not treat those materials as proof that every statutory element is complete.",
+          "source_ids": [
+            "doe-consortium"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-09-20",
+    "verification_level": "Official law and DOE implementation material verified.",
+    "sources": [
+      {
+        "source_id": "govinfo-law",
+        "title": "Public Law 119-21",
+        "publisher": "GovInfo",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/PLAW-119publ21",
+        "accessed_date": "2026-09-20"
+      },
+      {
+        "source_id": "doe-consortium",
+        "title": "What is the Transformational AI Models Consortium?",
+        "publisher": "U.S. Department of Energy",
+        "source_type": "official",
+        "url": "https://www.energy.gov/undersecretaryforscience/genesis-mission/events/modcon-town-hall-what-transformational-ai-models",
+        "accessed_date": "2026-09-20"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-law",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "congress",
+          "public_law",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "claim_id": "substance",
+        "fields": [
+          "summary",
+          "primary_category",
+          "secondary_categories"
+        ],
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "claim_id": "implementation",
+        "fields": [
+          "implementation"
+        ],
+        "source_ids": [
+          "doe-consortium"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "pl-119-60-ai-institutes",
+    "entity_type": "provision",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "P.L. 119-60 — AI Institutes",
+    "title": "National-security artificial-intelligence research institutes",
+    "session": "119th Congress",
+    "congress": 119,
+    "chamber": "Bicameral",
+    "scope": "Core",
+    "primary_category": "Testing, evaluation & assurance",
+    "category_key": "evaluation",
+    "secondary_categories": [
+      "National-security testbeds",
+      "Secure datasets",
+      "Predeployment evaluation"
+    ],
+    "sponsor": null,
+    "sponsor_party": null,
+    "sponsor_state": null,
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [
+      "House Armed Services",
+      "Senate Armed Services"
+    ],
+    "introduced_date": "2025-03-14",
+    "last_action_date": "2025-12-18",
+    "last_action": "Enacted in the National Defense Authorization Act for Fiscal Year 2026.",
+    "status": "Enacted — Public Law 119-60",
+    "status_bucket": "Enacted",
+    "summary": "Authorizes Defense Department AI research institutes that may maintain secure and privacy-protected datasets, develop predeployment testbeds, conduct national-security AI research, and provide compute and technical support.",
+    "committee_dynamics": "The authority was enacted through the FY2026 defense authorization vehicle.",
+    "advance_tier": "N/A",
+    "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ60",
+    "public_law": {
+      "number": "119-60",
+      "enacted_date": "2025-12-18",
+      "originating_bill": "S. 1071",
+      "statutes_at_large": "139 Stat. 783",
+      "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ60"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "Department of Defense"
+      ],
+      "deadlines": [],
+      "agency_status": [
+        {
+          "agency": "Department of Defense",
+          "status": "unknown",
+          "as_of": "2026-09-20",
+          "detail": "The authorization is verified; an official award or institute implementation inventory has not yet been completed for this record.",
+          "source_ids": [
+            "govinfo-law"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-09-20",
+    "verification_level": "Official public-law text verified; implementation status requires follow-up.",
+    "sources": [
+      {
+        "source_id": "govinfo-law",
+        "title": "Public Law 119-60 — FY2026 National Defense Authorization Act",
+        "publisher": "GovInfo",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/PLAW-119publ60",
+        "accessed_date": "2026-09-20"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-law",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "congress",
+          "public_law",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "summary",
+          "primary_category",
+          "secondary_categories",
+          "implementation"
+        ],
+        "source_ids": [
+          "govinfo-law"
+        ]
+      }
+    ]
+  },
+  {
     "record_id": "s-1633",
     "entity_type": "bill",
     "jurisdiction": {
@@ -3626,6 +4667,245 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      }
+    ]
+  },
+  {
+    "record_id": "tn-hb-2091-2024",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "TN"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "TN HB 2091 (2024)",
+    "title": "ELVIS Act",
+    "session": "113th General Assembly",
+    "chamber": "State legislature",
+    "scope": "Adjacent",
+    "primary_category": "Synthetic-media safety",
+    "category_key": "synthetic-media",
+    "secondary_categories": [
+      "Voice likeness",
+      "Impersonation",
+      "Generative AI"
+    ],
+    "sponsor": "William Lamberth",
+    "sponsor_party": "R",
+    "sponsor_state": "TN",
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [],
+    "introduced_date": "2024-01-10",
+    "last_action_date": "2024-03-21",
+    "last_action": "Signed by the Governor; assigned Public Chapter 588.",
+    "status": "Enacted — Public Chapter 588",
+    "status_bucket": "Enacted",
+    "summary": "Expands Tennessee's protected personal rights to include voice and strengthens remedies against unauthorized commercial exploitation of a person's name, image, likeness, or voice, including harms enabled by generative AI and synthetic media.",
+    "committee_dynamics": "The measure passed both chambers unanimously and is included as a targeted synthetic-media and impersonation protection.",
+    "advance_tier": "N/A",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2091&ga=113",
+    "state_law": {
+      "chapter": "Public Chapter 588",
+      "enacted_date": "2024-03-21",
+      "effective_date": "2024-07-01"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "Tennessee courts"
+      ],
+      "deadlines": [
+        {
+          "date": "2024-07-01",
+          "requirement": "Act becomes effective.",
+          "status": "completed",
+          "source_ids": [
+            "tn-legislature"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "Tennessee courts",
+          "status": "ongoing",
+          "as_of": "2026-09-20",
+          "detail": "The statute is effective and enforced through its private-rights and remedies framework; no centralized agency implementation program is specified.",
+          "source_ids": [
+            "tn-legislature"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-09-20",
+    "verification_level": "Official legislature source verified.",
+    "sources": [
+      {
+        "source_id": "tn-legislature",
+        "title": "HB 2091 bill information",
+        "publisher": "Tennessee General Assembly",
+        "source_type": "official",
+        "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2091&ga=113",
+        "accessed_date": "2026-09-20"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law"
+        ],
+        "source_ids": [
+          "tn-legislature"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "summary",
+          "primary_category",
+          "secondary_categories",
+          "implementation"
+        ],
+        "source_ids": [
+          "tn-legislature"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "tx-hb-149-2025",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "TX"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "TX HB 149 (2025)",
+    "title": "Texas Responsible Artificial Intelligence Governance Act",
+    "session": "89th Regular Session",
+    "chamber": "State legislature",
+    "scope": "Adjacent",
+    "primary_category": "High-risk AI governance",
+    "category_key": "governance",
+    "secondary_categories": [
+      "Prohibited uses",
+      "Biometrics",
+      "Government AI"
+    ],
+    "sponsor": "Giovanni Capriglione",
+    "sponsor_party": "R",
+    "sponsor_state": "TX",
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [
+      "House Delivery of Government Efficiency",
+      "Senate Business and Commerce"
+    ],
+    "introduced_date": "2024-11-12",
+    "last_action_date": "2025-06-22",
+    "last_action": "Effective date recorded after enactment.",
+    "status": "Enacted; effective January 1, 2026",
+    "status_bucket": "Enacted",
+    "summary": "Creates a statewide AI governance framework with disclosure duties for specified governmental and health-care uses, prohibitions on certain harmful or unlawful development and deployment, biometric protections, civil penalties, and a state regulatory sandbox.",
+    "committee_dynamics": "Texas narrowed an earlier comprehensive proposal but retained enforceable prohibited-use, disclosure, and public-sector provisions.",
+    "advance_tier": "N/A",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://capitol.texas.gov/billlookup/History.aspx?Bill=HB149&LegSess=89R",
+    "state_law": {
+      "chapter": null,
+      "enacted_date": "2025-06-22",
+      "effective_date": "2026-01-01"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "Texas Attorney General",
+        "Texas Department of Information Resources",
+        "Texas Artificial Intelligence Council"
+      ],
+      "deadlines": [
+        {
+          "date": "2026-01-01",
+          "requirement": "Act becomes effective.",
+          "status": "completed",
+          "source_ids": [
+            "tx-history"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "Texas implementing agencies",
+          "status": "in_progress",
+          "as_of": "2026-09-20",
+          "detail": "The law is effective; this starter record has not yet completed a rulemaking and enforcement inventory.",
+          "source_ids": [
+            "tx-history",
+            "tx-text"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-09-20",
+    "verification_level": "Official legislature history and enrolled text verified.",
+    "sources": [
+      {
+        "source_id": "tx-history",
+        "title": "89(R) History for HB 149",
+        "publisher": "Texas Legislature Online",
+        "source_type": "official",
+        "url": "https://capitol.texas.gov/billlookup/History.aspx?Bill=HB149&LegSess=89R",
+        "accessed_date": "2026-09-20"
+      },
+      {
+        "source_id": "tx-text",
+        "title": "HB 149 enrolled bill text",
+        "publisher": "Texas Legislature Online",
+        "source_type": "official",
+        "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.HTM",
+        "accessed_date": "2026-09-20"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law"
+        ],
+        "source_ids": [
+          "tx-history"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "summary",
+          "primary_category",
+          "secondary_categories",
+          "implementation"
+        ],
+        "source_ids": [
+          "tx-history",
+          "tx-text"
+        ]
       }
     ]
   }
