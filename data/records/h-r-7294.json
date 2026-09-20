@@ -1,0 +1,99 @@
+{
+  "record_id": "h-r-7294",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "H.R. 7294",
+  "title": "AI for Secure Networks Act",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "Cyber, model & infrastructure security",
+  "category_key": "cyber",
+  "secondary_categories": [
+    "Critical infrastructure",
+    "Telecommunications",
+    "Study / report"
+  ],
+  "sponsor": "Robert Menendez",
+  "sponsor_party": "D",
+  "sponsor_state": "NJ",
+  "cosponsor_count": 3,
+  "notable_cosponsors": [],
+  "committees": [
+    "House Energy and Commerce"
+  ],
+  "introduced_date": null,
+  "last_action_date": null,
+  "last_action": "Referred to House Energy and Commerce; no markup located in the research snapshot.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Directs Commerce and NTIA to study the security benefits and risks of AI in telecommunications, including threat and malware detection, zero trust, resilience, and interoperability.",
+  "committee_dynamics": "The measure is relevant to communications and critical-infrastructure security but competes with higher-priority Energy and Commerce AI bills.",
+  "advance_tier": "Low",
+  "advance_rationale": "A study bill with limited visible movement is less likely to advance independently, although report language could absorb its objectives.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7294",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 7294",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7294",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "record_id": "h-r-6304",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "H.R. 6304",
+  "title": "AI for America Act",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Monitoring, disclosure & reporting",
+  "category_key": "monitoring",
+  "secondary_categories": [
+    "National strategy",
+    "Security review",
+    "Audit / disclosure standards"
+  ],
+  "sponsor": "Jennifer Kiggans",
+  "sponsor_party": "R",
+  "sponsor_state": "VA",
+  "cosponsor_count": 0,
+  "notable_cosponsors": [],
+  "committees": [
+    "House Science, Space, and Technology",
+    "House Energy and Commerce"
+  ],
+  "introduced_date": null,
+  "last_action_date": null,
+  "last_action": "Referred to House Science and House Energy and Commerce; no markup located.",
+  "status": "Introduced / dual referral",
+  "status_bucket": "Introduced / referred",
+  "summary": "Requires a national AI strategy and a NIST report on internal review, third-party audits, and disclosure practices for detecting security risks and ideological bias.",
+  "committee_dynamics": "The bill combines security review with politically contested bias concerns and carries a dual referral.",
+  "advance_tier": "Low",
+  "advance_rationale": "No cosponsors or committee movement were captured, and the mixed policy objectives may complicate coalition-building.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6304",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 6304",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6304",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

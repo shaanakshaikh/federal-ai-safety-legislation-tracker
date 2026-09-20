@@ -1,0 +1,103 @@
+{
+  "record_id": "h-r-5288",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "H.R. 5288",
+  "title": "AI Sovereignty Act",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [
+    "Strategic competition",
+    "Supply chains",
+    "Domestic capacity"
+  ],
+  "sponsor": "Eugene Vindman",
+  "sponsor_party": "D",
+  "sponsor_state": "VA",
+  "cosponsor_count": 1,
+  "notable_cosponsors": [
+    "James Moylan (R-GU)"
+  ],
+  "committees": [
+    "House Foreign Affairs",
+    "House Energy and Commerce",
+    "House Science, Space, and Technology"
+  ],
+  "introduced_date": "2025-09-10",
+  "last_action_date": "2025-09-10",
+  "last_action": "Introduced and referred to three House committees.",
+  "status": "Introduced / triple referral",
+  "status_bucket": "Introduced / referred",
+  "summary": "Addresses strategic AI sovereignty, supply-chain resilience, and domestic capacity in competition with foreign adversaries.",
+  "committee_dynamics": "The three-committee referral illustrates fragmented AI jurisdiction and raises coordination costs despite bipartisan sponsorship.",
+  "advance_tier": "Low",
+  "advance_rationale": "A broad strategic remit and triple referral make standalone movement difficult.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5288",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 5288",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5288",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "record_id": "h-r-3434",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "H.R. 3434",
+  "title": "Protecting AI and Cloud Competition in Defense Act",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "defense",
+  "secondary_categories": [
+    "Defense procurement",
+    "Competition",
+    "Data rights",
+    "Resilience"
+  ],
+  "sponsor": "Pat Fallon",
+  "sponsor_party": "R",
+  "sponsor_state": "TX",
+  "cosponsor_count": 2,
+  "notable_cosponsors": [],
+  "committees": [
+    "House Armed Services"
+  ],
+  "introduced_date": null,
+  "last_action_date": null,
+  "last_action": "Referred to House Armed Services.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Establishes Department of Defense procurement rules for cloud, data infrastructure, and foundation-model solutions, including security, resilience, competition, and government data interests.",
+  "committee_dynamics": "The content is highly compatible with NDAA procurement titles and has a Senate analogue.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Its most realistic pathway is incorporation into NDAA rather than standalone enactment.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3434",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 3434",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3434",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

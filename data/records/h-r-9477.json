@@ -1,0 +1,100 @@
+{
+  "record_id": "h-r-9477",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "H.R. 9477",
+  "title": "AI Incident Reporting Act",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "Monitoring, disclosure & reporting",
+  "category_key": "monitoring",
+  "secondary_categories": [
+    "Incident reporting",
+    "Cyber / model security",
+    "Coordination",
+    "Civil penalties"
+  ],
+  "sponsor": "Nathaniel Moran",
+  "sponsor_party": "R",
+  "sponsor_state": "TX",
+  "cosponsor_count": 0,
+  "notable_cosponsors": [],
+  "committees": [
+    "House Energy and Commerce"
+  ],
+  "introduced_date": "2026-06-25",
+  "last_action_date": "2026-06-25",
+  "last_action": "Introduced and referred to House Energy and Commerce. No hearing or markup located by the cutoff.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Requires covered high-risk model developers to report specified autonomy, cybersecurity, and model-weight-theft incidents within seven days. Commerce would receive investigative authority and civil-penalty authority reaching $2 million per violation.",
+  "committee_dynamics": "The mandatory reporting and penalty structure gives Energy and Commerce a central role. Its definitions and seven-day clock overlap with, but differ from, FRONTIER and other vulnerability-reporting proposals.",
+  "advance_tier": "Low",
+  "advance_rationale": "Limited coalition and no committee action make standalone passage difficult, although the reporting concepts are plausible amendment material.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9477",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 9477",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9477",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

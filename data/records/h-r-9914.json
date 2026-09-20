@@ -1,0 +1,106 @@
+{
+  "record_id": "h-r-9914",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "H.R. 9914",
+  "title": "Collaboration on Adversarial Threats and Security Risks Act",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "Governance, preemption & regulatory architecture",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Coordination / information sharing",
+    "Frontier security",
+    "Antitrust"
+  ],
+  "sponsor": "Bob Latta",
+  "sponsor_party": "R",
+  "sponsor_state": "OH",
+  "cosponsor_count": 8,
+  "notable_cosponsors": [
+    "George Whitesides (D-CA)",
+    "Jay Obernolte (R-CA)",
+    "Ted Lieu (D-CA)",
+    "Darrell Issa (R-CA)",
+    "Nathaniel Moran (R-TX)",
+    "Lori Trahan (D-MA)"
+  ],
+  "committees": [
+    "House Judiciary"
+  ],
+  "introduced_date": "2026-07-23",
+  "last_action_date": "2026-07-23",
+  "last_action": "Introduced and referred to House Judiciary. No markup located by the cutoff.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Clarifies antitrust treatment of collaboration intended to share information about adversarial threats and security risks involving frontier AI.",
+  "committee_dynamics": "The bill addresses a security-coordination problem through antitrust law, placing it in Judiciary rather than the committees handling most AI standards legislation. Its broad bipartisan original coalition is a meaningful asset.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Eight original cosponsors and cross-party support strengthen prospects, but the bill still needs a Judiciary pathway or attachment to a wider package.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9914",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 9914",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9914",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

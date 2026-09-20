@@ -1,0 +1,100 @@
+{
+  "record_id": "s-5061",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "S. 5061",
+  "title": "Secure AI Development Act",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Evaluation, testing & standards",
+  "category_key": "evaluation",
+  "secondary_categories": [
+    "Cyber / model security",
+    "Vulnerability disclosure",
+    "Incident reporting",
+    "Coordination"
+  ],
+  "sponsor": "Mark Warner",
+  "sponsor_party": "D",
+  "sponsor_state": "VA",
+  "cosponsor_count": null,
+  "notable_cosponsors": [],
+  "committees": [
+    "Senate Commerce, Science, and Transportation"
+  ],
+  "introduced_date": "2026-07-21",
+  "last_action_date": "2026-07-21",
+  "last_action": "Introduced and referred to Senate Commerce. No public markup located by the cutoff.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Establishes secure pre-release testing for frontier AI, modernizes vulnerability reporting, reviews AI vulnerabilities under the federal Vulnerabilities Equities Process, and strengthens NSA AI Security Center and laboratory/system-security functions.",
+  "committee_dynamics": "Warner brings intelligence and cyber credibility, but Senate Commerce has jurisdiction over the civilian standards and development provisions. The bill may move more readily as intelligence-authorization or NDAA text than as a standalone measure.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Strong national-security framing and natural must-pass vehicles offset the absence of public markup and the need to coordinate Commerce and intelligence equities.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/5061",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 5061",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5061",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

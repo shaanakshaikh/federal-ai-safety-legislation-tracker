@@ -1,0 +1,101 @@
+{
+  "record_id": "h-r-9917",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "H.R. 9917",
+  "title": "AI Kill Switch Act",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "Cyber, model & infrastructure security",
+  "category_key": "cyber",
+  "secondary_categories": [
+    "Emergency controls",
+    "Deployment safeguards",
+    "Standards"
+  ],
+  "sponsor": "Ted Lieu",
+  "sponsor_party": "D",
+  "sponsor_state": "CA",
+  "cosponsor_count": 1,
+  "notable_cosponsors": [
+    "Nathaniel Moran (R-TX)"
+  ],
+  "committees": [
+    "House Homeland Security"
+  ],
+  "introduced_date": "2026-07-23",
+  "last_action_date": "2026-07-23",
+  "last_action": "Introduced and referred to House Homeland Security. No markup located by the cutoff.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Directs development of a shutdown-capability standard and graduated deployment safeguards for covered AI systems.",
+  "committee_dynamics": "The bipartisan sponsor pair helps, but Homeland Security must translate a cross-cutting AI control concept into its jurisdiction and reconcile it with sectoral and developer-focused frameworks.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Bipartisan support and a concrete safeguard create an amendment pathway, though the standalone bill had not received committee action.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9917",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 9917",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9917",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

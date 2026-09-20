@@ -1,0 +1,99 @@
+{
+  "record_id": "fy27-house-def-approp",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "committee_consideration",
+  "measure_id": "FY27-HOUSE-DEF-APPROP",
+  "title": "FY2027 House Defense Appropriations vehicle",
+  "chamber": "House",
+  "scope": "Vehicle",
+  "primary_category": "Appropriations implementation",
+  "category_key": "appropriations",
+  "secondary_categories": [
+    "Defense AI funding",
+    "Security riders",
+    "Implementation"
+  ],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": null,
+  "cosponsor_count": null,
+  "notable_cosponsors": [],
+  "committees": [
+    "House Appropriations"
+  ],
+  "introduced_date": null,
+  "last_action_date": "2026-06-10",
+  "last_action": "House Appropriations released its FY2027 Defense bill on June 10, 2026. The exact introduced bill number was not reliably confirmed in the research snapshot.",
+  "status": "Committee appropriations vehicle",
+  "status_bucket": "Appropriations vehicle",
+  "summary": "Provides funding leverage over Department of Defense AI programs, testing, deployment safeguards, cybersecurity, and implementation of authorization provisions. It can also carry policy restrictions or reporting riders.",
+  "committee_dynamics": "Appropriations text and report language can change rapidly between subcommittee, full committee, floor, continuing-resolution, omnibus, and conference stages. Every version should be archived and diffed.",
+  "advance_tier": "High",
+  "advance_rationale": "Funding decisions determine whether defense AI safeguards are operational; appropriations remains a must-track implementation vehicle.",
+  "congress_url": null,
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Vehicle-level source verified; exact bill number and current stage require live refresh",
+  "sources": [
+    {
+      "source_id": "research-snapshot",
+      "title": "September 1, 2026 research snapshot",
+      "publisher": "Federal AI Safety & Security Legislation Tracker",
+      "source_type": "research_snapshot",
+      "url": null,
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "research-snapshot"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "research-snapshot"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "research-snapshot"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

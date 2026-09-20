@@ -1,0 +1,103 @@
+{
+  "record_id": "h-r-9333",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "committee_advanced",
+  "measure_id": "H.R. 9333",
+  "title": "AI Flaw Reporting and Security Enhancement Act",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "Cyber, model & infrastructure security",
+  "category_key": "cyber",
+  "secondary_categories": [
+    "Vulnerability disclosure",
+    "Incident reporting",
+    "Standards",
+    "NIST–CISA coordination"
+  ],
+  "sponsor": "Deborah Ross",
+  "sponsor_party": "D",
+  "sponsor_state": "NC",
+  "cosponsor_count": 2,
+  "notable_cosponsors": [
+    "Jeff Hurd (R-CO)",
+    "Don Beyer (D-VA)"
+  ],
+  "committees": [
+    "House Science, Space, and Technology"
+  ],
+  "introduced_date": "2026-06-18",
+  "last_action_date": "2026-06-25",
+  "last_action": "House Science adopted a substitute and favorably reported the bill by a 29–0 vote.",
+  "status": "Favorably reported 29–0",
+  "status_bucket": "Committee advanced",
+  "summary": "Directs NIST and CISA to create voluntary mechanisms and technical frameworks for reporting and tracking AI vulnerabilities, failures, and flaws, including common definitions and a national database.",
+  "committee_dynamics": "The unanimous bipartisan Science Committee vote, voluntary design, and narrow technical remit reduce ideological friction. Implementation still requires coordination between NIST and CISA and eventual funding.",
+  "advance_tier": "High",
+  "advance_rationale": "A 29–0 committee vote, bipartisan sponsorship, and a narrow technical design make this one of the strongest standalone candidates.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9333",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 9333",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9333",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

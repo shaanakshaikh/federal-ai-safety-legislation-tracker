@@ -1,0 +1,101 @@
+{
+  "record_id": "s-4615",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "floor",
+  "measure_id": "S. 4615",
+  "title": "Intelligence Authorization Act for Fiscal Year 2027",
+  "chamber": "Senate",
+  "scope": "Vehicle",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "defense",
+  "secondary_categories": [
+    "Intelligence-community security",
+    "Incident tracking",
+    "Evaluations",
+    "AI Security Center",
+    "Adversarial AI"
+  ],
+  "sponsor": "Tom Cotton",
+  "sponsor_party": "R",
+  "sponsor_state": "AR",
+  "cosponsor_count": null,
+  "notable_cosponsors": [],
+  "committees": [
+    "Senate Select Committee on Intelligence"
+  ],
+  "introduced_date": null,
+  "last_action_date": "2026-05-20",
+  "last_action": "The Senate Intelligence Committee reported the measure and placed it on the Senate calendar.",
+  "status": "Reported / Senate calendar",
+  "status_bucket": "Floor / calendar",
+  "summary": "Title VII, sections 701–711, addresses AI exploitation and intelligence sharing, targeting review, testing standards, incident tracking, agentic-system access controls, AI Security Center duties, targeting-output labeling, escalation research, adversarial-AI interaction, proliferation and export assessments, the Vulnerabilities Equities Process, and prohibited models.",
+  "committee_dynamics": "The mature AI-security title can move with the intelligence authorization itself or be merged into NDAA. Armed Services and Intelligence jurisdiction must be reconciled in the endgame.",
+  "advance_tier": "High",
+  "advance_rationale": "The bill is already reported and on the Senate calendar, with a detailed and coherent AI-security title.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4615",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 4615",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4615",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

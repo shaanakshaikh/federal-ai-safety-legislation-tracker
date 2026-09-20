@@ -1,0 +1,101 @@
+{
+  "record_id": "s-2177",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "S. 2177",
+  "title": "No Adversarial AI Act",
+  "chamber": "Senate",
+  "scope": "Adjacent",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [
+    "Federal procurement",
+    "Supply-chain security",
+    "Foreign-adversary controls"
+  ],
+  "sponsor": "Rick Scott",
+  "sponsor_party": "R",
+  "sponsor_state": "FL",
+  "cosponsor_count": 1,
+  "notable_cosponsors": [
+    "Gary Peters (D-MI)"
+  ],
+  "committees": [
+    "Senate Homeland Security and Governmental Affairs"
+  ],
+  "introduced_date": "2025-06-25",
+  "last_action_date": "2025-06-25",
+  "last_action": "Introduced and referred to Senate Homeland Security and Governmental Affairs.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Creates a Senate companion framework for a foreign-adversary AI procurement list and related federal acquisition restrictions.",
+  "committee_dynamics": "The Republican sponsor and Democratic ranking member Gary Peters form a strategically important bipartisan pairing within HSGAC.",
+  "advance_tier": "Medium",
+  "advance_rationale": "The committee leadership configuration makes the bill more viable than its raw cosponsor count suggests.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2177",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 2177",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2177",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

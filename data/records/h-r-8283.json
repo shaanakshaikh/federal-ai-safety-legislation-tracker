@@ -1,0 +1,102 @@
+{
+  "record_id": "h-r-8283",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "committee_advanced",
+  "measure_id": "H.R. 8283",
+  "title": "Deterring American AI Model Theft Act of 2026",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [
+    "Sanctions",
+    "Export controls",
+    "Model security",
+    "Threat sharing"
+  ],
+  "sponsor": "Bill Huizenga",
+  "sponsor_party": "R",
+  "sponsor_state": "MI",
+  "cosponsor_count": 20,
+  "notable_cosponsors": [
+    "John Moolenaar (R-MI)"
+  ],
+  "committees": [
+    "House Foreign Affairs"
+  ],
+  "introduced_date": "2026-04-15",
+  "last_action_date": "2026-04-22",
+  "last_action": "House Foreign Affairs ordered the amended bill reported by a 43–0 vote.",
+  "status": "Ordered reported 43–0",
+  "status_bucket": "Committee advanced",
+  "summary": "Creates a process to identify foreign entities that illicitly obtain technical characteristics of closed-source U.S. models and supports Commerce information sharing, sanctions, and export-control responses.",
+  "committee_dynamics": "Foreign Affairs demonstrated strong bipartisan agreement, and the China/model-theft framing aligns with committee priorities.",
+  "advance_tier": "High",
+  "advance_rationale": "A unanimous 43–0 markup, 20 cosponsors, and a strong national-security frame give the bill unusually strong momentum.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8283",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 8283",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8283",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}

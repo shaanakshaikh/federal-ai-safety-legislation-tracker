@@ -1,0 +1,105 @@
+{
+  "record_id": "h-r-9363",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "committee_advanced",
+  "measure_id": "H.R. 9363",
+  "title": "AI Security and Innovation Act",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "Evaluation, testing & standards",
+  "category_key": "evaluation",
+  "secondary_categories": [
+    "Standards",
+    "Coordination",
+    "Cybersecurity",
+    "Agentic AI"
+  ],
+  "sponsor": "Jay Obernolte",
+  "sponsor_party": "R",
+  "sponsor_state": "CA",
+  "cosponsor_count": 4,
+  "notable_cosponsors": [
+    "Valerie Foushee (D-NC)",
+    "Brian Babin (R-TX)",
+    "Tracey Mann (R-KS)",
+    "Scott Franklin (R-FL)"
+  ],
+  "committees": [
+    "House Science, Space, and Technology"
+  ],
+  "introduced_date": "2026-06-18",
+  "last_action_date": "2026-06-25",
+  "last_action": "House Science favorably reported the bill 29–0 after adopting a substitute and amendments concerning agentic AI, explainability/interpretability, and autonomous AI. CBO later issued an estimate.",
+  "status": "Favorably reported 29–0",
+  "status_bucket": "Committee advanced",
+  "summary": "Establishes a NIST AI security and innovation center to measure national- and economic-security risks, conduct or facilitate evaluations, support R&D and standards, and collaborate voluntarily with industry.",
+  "committee_dynamics": "The sponsor chairs the House Science AI-focused subcommittee, and the bill received unanimous committee support. Its principal vulnerability is implementation funding rather than committee opposition.",
+  "advance_tier": "High",
+  "advance_rationale": "Unanimous committee action, bipartisan amendments, leadership sponsorship, and a completed CBO estimate signal unusually mature floor preparation.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9363",
+  "last_verified_date": "2026-09-01",
+  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 9363",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9363",
+      "accessed_date": "2026-09-01"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    }
+  ]
+}
