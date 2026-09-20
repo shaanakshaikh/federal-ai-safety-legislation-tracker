@@ -16,13 +16,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "data" / "discovery" / "openstates-candidates.json"
 KEYWORDS = (
-    '"artificial intelligence" safety',
-    '"frontier model"',
-    '"foundation model" incident',
-    '"artificial intelligence" catastrophic risk',
-    '"artificial intelligence" critical infrastructure',
-    'deepfake security',
+    '"artificial intelligence"',
 )
+REQUEST_INTERVAL_SECONDS = 15.0
+DEFAULT_RATE_LIMIT_DELAY_SECONDS = 60.0
 
 
 def request_json(url: str, api_key: str, *, max_attempts: int = 5) -> dict:
@@ -37,10 +34,15 @@ def request_json(url: str, api_key: str, *, max_attempts: int = 5) -> dict:
                 raise
             retry_after = error.headers.get("Retry-After") if error.headers else None
             try:
-                delay = float(retry_after) if retry_after else min(2 ** attempt, 30)
+                if retry_after:
+                    delay = float(retry_after)
+                elif error.code == 429:
+                    delay = DEFAULT_RATE_LIMIT_DELAY_SECONDS
+                else:
+                    delay = min(2 ** attempt, 30)
             except ValueError:
-                delay = min(2 ** attempt, 30)
-            time.sleep(max(1.0, min(delay, 60.0)))
+                delay = DEFAULT_RATE_LIMIT_DELAY_SECONDS if error.code == 429 else min(2 ** attempt, 30)
+            time.sleep(max(1.0, min(delay, 300.0)))
     raise RuntimeError("Open States request exhausted retries")
 
 
@@ -60,9 +62,10 @@ def discover(api_key: str, jurisdictions: list[str], per_query: int) -> list[dic
                     "official_source_required": True,
                 })
                 candidate["matched_queries"].append(keyword)
-            # Open States applies per-key request limits. A small deterministic
-            # pause keeps the scheduled discovery job below normal burst limits.
-            time.sleep(1.0)
+            # The default new-user tier has a conservative quota. One broad
+            # query per state plus deliberate pacing avoids burst exhaustion;
+            # relevance classification and human review narrow the candidates.
+            time.sleep(REQUEST_INTERVAL_SECONDS)
     return sorted(candidates.values(), key=lambda item: (item["jurisdiction"], item.get("session") or "", item.get("identifier") or ""))
 
 
