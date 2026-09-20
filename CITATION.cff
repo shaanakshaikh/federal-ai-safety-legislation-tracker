@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this tracker, please cite it using these metadata."
+title: "Federal AI Safety & Security Legislation Tracker"
+authors:
+  - family-names: "Shaikh"
+    given-names: "Shaan"
+version: 0.1.0
+date-released: 2026-09-01
+license: CC-BY-4.0
+type: dataset
