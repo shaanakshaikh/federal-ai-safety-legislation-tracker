@@ -22,7 +22,7 @@
   "sponsor": "Jay Obernolte",
   "sponsor_party": "R",
   "sponsor_state": "CA",
-  "cosponsor_count": 4,
+  "cosponsor_count": 7,
   "notable_cosponsors": [
     "Valerie Foushee (D-NC)",
     "Brian Babin (R-TX)",
@@ -30,11 +30,11 @@
     "Scott Franklin (R-FL)"
   ],
   "committees": [
-    "House Science, Space, and Technology"
+    "Science, Space, and Technology Committee"
   ],
   "introduced_date": "2026-06-18",
   "last_action_date": "2026-06-25",
-  "last_action": "House Science favorably reported the bill 29–0 after adopting a substitute and amendments concerning agentic AI, explainability/interpretability, and autonomous AI. CBO later issued an estimate.",
+  "last_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 29 - 0.",
   "status": "Favorably reported 29–0",
   "status_bucket": "Committee advanced",
   "summary": "Establishes a NIST AI security and innovation center to measure national- and economic-security risks, conduct or facilitate evaluations, support R&D and standards, and collaborate voluntarily with industry.",
@@ -42,8 +42,8 @@
   "advance_tier": "High",
   "advance_rationale": "Unanimous committee action, bipartisan amendments, leadership sponsorship, and a completed CBO estimate signal unusually mature floor preparation.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9363",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-20",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -51,7 +51,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9363",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-20"
     }
   ],
   "claim_provenance": [
@@ -100,6 +100,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-20T20:14:41Z"
 }

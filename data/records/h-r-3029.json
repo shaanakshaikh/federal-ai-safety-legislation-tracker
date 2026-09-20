@@ -8,7 +8,7 @@
   },
   "lifecycle_status": "committee_advanced",
   "measure_id": "H.R. 3029",
-  "title": "Nucleic Acid Standards for Biosecurity Act",
+  "title": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
   "chamber": "House",
   "scope": "Core",
   "primary_category": "Evaluation, testing & standards",
@@ -25,11 +25,12 @@
   "cosponsor_count": 3,
   "notable_cosponsors": [],
   "committees": [
-    "House Science, Space, and Technology"
+    "Commerce, Science, and Transportation Committee",
+    "Science, Space, and Technology Committee"
   ],
-  "introduced_date": null,
-  "last_action_date": null,
-  "last_action": "Reported by committee; House Report 119-751 was filed.",
+  "introduced_date": "2025-04-28",
+  "last_action_date": "2026-07-21",
+  "last_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
   "status": "Reported by committee",
   "status_bucket": "Committee advanced",
   "summary": "Establishes a NIST-led consortium and technical standards or best practices for custom synthetic nucleic-acid screening, expressly including risks associated with AI. The reported authorization was $5 million annually for FY2026–FY2030.",
@@ -37,8 +38,8 @@
   "advance_tier": "High",
   "advance_rationale": "A filed House report and direct national-security/biosecurity rationale make material advancement comparatively likely.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-20",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -46,7 +47,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-20"
     }
   ],
   "claim_provenance": [
@@ -95,6 +96,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-20T20:14:20Z"
 }

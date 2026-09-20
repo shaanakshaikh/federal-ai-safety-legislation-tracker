@@ -26,11 +26,11 @@
     "Gary Peters (D-MI)"
   ],
   "committees": [
-    "Senate Homeland Security and Governmental Affairs"
+    "Homeland Security and Governmental Affairs Committee"
   ],
   "introduced_date": "2025-06-25",
   "last_action_date": "2025-06-25",
-  "last_action": "Introduced and referred to Senate Homeland Security and Governmental Affairs.",
+  "last_action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Creates a Senate companion framework for a foreign-adversary AI procurement list and related federal acquisition restrictions.",
@@ -38,8 +38,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "The committee leadership configuration makes the bill more viable than its raw cosponsor count suggests.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2177",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-20",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -47,7 +47,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2177",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-20"
     }
   ],
   "claim_provenance": [
@@ -96,6 +96,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-20T20:14:56Z"
 }
