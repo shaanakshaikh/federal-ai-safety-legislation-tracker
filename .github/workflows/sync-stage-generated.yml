@@ -2,6 +2,9 @@ name: Sync Stage 3/4 generated artifacts
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - stage-3-4-federal-state
 
 permissions:
   contents: write
