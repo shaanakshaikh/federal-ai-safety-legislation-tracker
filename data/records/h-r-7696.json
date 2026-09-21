@@ -8,7 +8,7 @@
   },
   "lifecycle_status": "referred",
   "measure_id": "H.R. 7696",
-  "title": "AI Cyber Grid Protection Resilient Development Act",
+  "title": "AI Cyber Grid Protection Resilient Development Act of 2026",
   "chamber": "House",
   "scope": "Core",
   "primary_category": "Cyber, model & infrastructure security",
@@ -18,19 +18,19 @@
     "Testbeds",
     "Grid resilience"
   ],
-  "sponsor": "Sam Liccardo",
+  "sponsor": "Pablo Hernández",
   "sponsor_party": "D",
   "sponsor_state": "CA",
-  "cosponsor_count": 1,
+  "cosponsor_count": 2,
   "notable_cosponsors": [
     "Adelita Grijalva (D-AZ)"
   ],
   "committees": [
-    "Committee referral not captured in research snapshot"
+    "Homeland Security Committee"
   ],
   "introduced_date": "2026-02-25",
-  "last_action_date": "2026-02-25",
-  "last_action": "Introduced; no markup located in the research snapshot. The exact committee referral should be refreshed from Congress.gov before publication of a new version.",
+  "last_action_date": "2026-02-26",
+  "last_action": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
   "status": "Introduced; referral needs refresh",
   "status_bucket": "Introduced / referred",
   "summary": "Supports secure AI and cyber-physical testbeds capable of simulating grid-scale cyberattacks and resilience challenges.",
@@ -38,8 +38,8 @@
   "advance_tier": "Low",
   "advance_rationale": "No identified markup and incomplete referral metadata make it a lower-probability standalone measure.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7696",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Partially verified; committee referral requires live Congress.gov refresh",
+  "last_verified_date": "2026-09-20",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -47,7 +47,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/7696",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-20"
     }
   ],
   "claim_provenance": [
@@ -96,6 +96,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-20T20:14:35Z"
 }

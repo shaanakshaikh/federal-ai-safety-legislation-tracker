@@ -6,7 +6,7 @@
     "level": "federal",
     "state": null
   },
-  "lifecycle_status": "floor",
+  "lifecycle_status": "committee_advanced",
   "measure_id": "S. 4784",
   "title": "National Defense Authorization Act for Fiscal Year 2027",
   "chamber": "Senate",
@@ -22,14 +22,14 @@
   "sponsor": "Roger Wicker",
   "sponsor_party": "R",
   "sponsor_state": "MS",
-  "cosponsor_count": null,
+  "cosponsor_count": 0,
   "notable_cosponsors": [],
   "committees": [
-    "Senate Armed Services"
+    "Armed Services Committee"
   ],
-  "introduced_date": null,
-  "last_action_date": "2026-06-30",
-  "last_action": "Senate Armed Services completed markup in June 2026; committee materials reflected reported or calendar-stage processing.",
+  "introduced_date": "2026-06-15",
+  "last_action_date": "2026-07-27",
+  "last_action": "Motion to proceed to consideration of measure made in Senate. (CR S4276)",
   "status": "Reported / calendar-stage vehicle",
   "status_bucket": "Floor / calendar",
   "summary": "The principal Senate defense-authorization vehicle and a natural receptacle for military AI guardrails, incident reporting, procurement security, autonomous-systems provisions, and AI Security Center concepts.",
@@ -37,8 +37,8 @@
   "advance_tier": "High",
   "advance_rationale": "NDAA’s institutional pressure to advance makes it the highest-value defense AI tracking vehicle.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-20",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -46,7 +46,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-20"
     }
   ],
   "claim_provenance": [
@@ -95,6 +95,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-20T20:15:05Z"
 }
