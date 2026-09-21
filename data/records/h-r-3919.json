@@ -21,18 +21,18 @@
   "sponsor": "Darin LaHood",
   "sponsor_party": "R",
   "sponsor_state": "IL",
-  "cosponsor_count": 3,
+  "cosponsor_count": 6,
   "notable_cosponsors": [
     "John Moolenaar (R-MI)",
     "Josh Gottheimer (D-NJ)",
     "Raja Krishnamoorthi (D-IL)"
   ],
   "committees": [
-    "House Permanent Select Committee on Intelligence"
+    "Intelligence (Permanent Select) Committee"
   ],
   "introduced_date": "2025-06-11",
   "last_action_date": "2025-06-11",
-  "last_action": "Introduced and referred to the House Intelligence Committee. No public markup located by the cutoff.",
+  "last_action": "Referred to the House Committee on Intelligence (Permanent Select).",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Directs NSA’s AI Security Center to develop an AI Security Playbook identifying vulnerabilities, critical components, security levels, and strategies to prevent theft of advanced AI systems and model assets.",
@@ -40,8 +40,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "National-security salience and an obvious IAA/NDAA landing zone improve prospects beyond the bill’s limited standalone movement.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3919",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-21",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -49,7 +49,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/3919",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-21"
     }
   ],
   "claim_provenance": [
@@ -98,6 +98,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-21T18:14:33Z"
 }

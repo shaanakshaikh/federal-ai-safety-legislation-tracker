@@ -524,7 +524,7 @@
       "level": "federal",
       "state": null
     },
-    "lifecycle_status": "referred",
+    "lifecycle_status": "committee_advanced",
     "measure_id": "H.R. 1736",
     "title": "Generative AI Terrorism Risk Assessment Act",
     "chamber": "House",
@@ -540,14 +540,15 @@
     "sponsor": "August Pfluger",
     "sponsor_party": "R",
     "sponsor_state": "TX",
-    "cosponsor_count": 2,
+    "cosponsor_count": 3,
     "notable_cosponsors": [],
     "committees": [
-      "House Homeland Security"
+      "Homeland Security Committee",
+      "Homeland Security and Governmental Affairs Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Referred to House Homeland Security; no markup located in the research snapshot.",
+    "introduced_date": "2025-02-27",
+    "last_action_date": "2025-11-20",
+    "last_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Requires recurring Department of Homeland Security assessments of terrorist use of generative AI, including violent messaging and development or deployment of weapons.",
@@ -555,8 +556,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "A targeted national-security assessment is amendment-friendly, though the standalone bill had not advanced publicly.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1736",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -564,7 +565,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/1736",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -613,8 +614,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:27Z"
   },
   {
     "record_id": "h-r-3029",
@@ -626,7 +644,7 @@
     },
     "lifecycle_status": "committee_advanced",
     "measure_id": "H.R. 3029",
-    "title": "Nucleic Acid Standards for Biosecurity Act",
+    "title": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
     "chamber": "House",
     "scope": "Core",
     "primary_category": "Evaluation, testing & standards",
@@ -643,11 +661,12 @@
     "cosponsor_count": 3,
     "notable_cosponsors": [],
     "committees": [
-      "House Science, Space, and Technology"
+      "Commerce, Science, and Transportation Committee",
+      "Science, Space, and Technology Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Reported by committee; House Report 119-751 was filed.",
+    "introduced_date": "2025-04-28",
+    "last_action_date": "2026-07-21",
+    "last_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "status": "Reported by committee",
     "status_bucket": "Committee advanced",
     "summary": "Establishes a NIST-led consortium and technical standards or best practices for custom synthetic nucleic-acid screening, expressly including risks associated with AI. The reported authorization was $5 million annually for FY2026–FY2030.",
@@ -655,8 +674,8 @@
     "advance_tier": "High",
     "advance_rationale": "A filed House report and direct national-security/biosecurity rationale make material advancement comparatively likely.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -664,7 +683,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -713,8 +732,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:28Z"
   },
   {
     "record_id": "h-r-3434",
@@ -726,7 +762,7 @@
     },
     "lifecycle_status": "referred",
     "measure_id": "H.R. 3434",
-    "title": "Protecting AI and Cloud Competition in Defense Act",
+    "title": "Protecting AI and Cloud Competition in Defense Act of 2025",
     "chamber": "House",
     "scope": "Adjacent",
     "primary_category": "Defense, intelligence & procurement",
@@ -740,14 +776,14 @@
     "sponsor": "Pat Fallon",
     "sponsor_party": "R",
     "sponsor_state": "TX",
-    "cosponsor_count": 2,
+    "cosponsor_count": 3,
     "notable_cosponsors": [],
     "committees": [
-      "House Armed Services"
+      "Armed Services Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Referred to House Armed Services.",
+    "introduced_date": "2025-05-15",
+    "last_action_date": "2025-05-15",
+    "last_action": "Referred to the House Committee on Armed Services.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Establishes Department of Defense procurement rules for cloud, data infrastructure, and foundation-model solutions, including security, resilience, competition, and government data interests.",
@@ -755,8 +791,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "Its most realistic pathway is incorporation into NDAA rather than standalone enactment.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3434",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -764,7 +800,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/3434",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -813,8 +849,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:30Z"
   },
   {
     "record_id": "h-r-3447",
@@ -824,7 +877,7 @@
       "level": "federal",
       "state": null
     },
-    "lifecycle_status": "referred",
+    "lifecycle_status": "committee_advanced",
     "measure_id": "H.R. 3447",
     "title": "Chip Security Act",
     "chamber": "House",
@@ -839,14 +892,14 @@
     "sponsor": "Bill Huizenga",
     "sponsor_party": "R",
     "sponsor_state": "MI",
-    "cosponsor_count": 9,
+    "cosponsor_count": 42,
     "notable_cosponsors": [],
     "committees": [
-      "House Foreign Affairs"
+      "Foreign Affairs Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Referred to House Foreign Affairs; no markup action captured in the research snapshot.",
+    "introduced_date": "2025-05-15",
+    "last_action_date": "2026-03-26",
+    "last_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 0.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Requires security mechanisms such as location verification and stronger reporting for licensees exporting covered advanced chips.",
@@ -854,8 +907,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "Meaningful cosponsorship and a clear export-enforcement rationale create a plausible committee or package pathway.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3447",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -863,7 +916,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/3447",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -912,8 +965,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:30Z"
   },
   {
     "record_id": "h-r-3460",
@@ -938,14 +1008,14 @@
     "sponsor": "Jay Obernolte",
     "sponsor_party": "R",
     "sponsor_state": "CA",
-    "cosponsor_count": 2,
+    "cosponsor_count": 7,
     "notable_cosponsors": [],
     "committees": [
-      "House Education and Workforce"
+      "Education and Workforce Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Referred to House Education and Workforce; no public markup located in the research snapshot.",
+    "introduced_date": "2025-05-15",
+    "last_action_date": "2025-05-15",
+    "last_action": "Referred to the House Committee on Education and Workforce.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Protects employees who report AI security vulnerabilities or legal violations and creates Department of Labor complaint and remedy mechanisms.",
@@ -953,8 +1023,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "A concrete accountability mechanism and influential sponsor help, but jurisdiction and the absence of markup constrain the standalone path.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3460",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -962,7 +1032,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/3460",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -1011,8 +1081,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:32Z"
   },
   {
     "record_id": "h-r-3919",
@@ -1037,18 +1124,18 @@
     "sponsor": "Darin LaHood",
     "sponsor_party": "R",
     "sponsor_state": "IL",
-    "cosponsor_count": 3,
+    "cosponsor_count": 6,
     "notable_cosponsors": [
       "John Moolenaar (R-MI)",
       "Josh Gottheimer (D-NJ)",
       "Raja Krishnamoorthi (D-IL)"
     ],
     "committees": [
-      "House Permanent Select Committee on Intelligence"
+      "Intelligence (Permanent Select) Committee"
     ],
     "introduced_date": "2025-06-11",
     "last_action_date": "2025-06-11",
-    "last_action": "Introduced and referred to the House Intelligence Committee. No public markup located by the cutoff.",
+    "last_action": "Referred to the House Committee on Intelligence (Permanent Select).",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Directs NSA’s AI Security Center to develop an AI Security Playbook identifying vulnerabilities, critical components, security levels, and strategies to prevent theft of advanced AI systems and model assets.",
@@ -1056,8 +1143,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "National-security salience and an obvious IAA/NDAA landing zone improve prospects beyond the bill’s limited standalone movement.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3919",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1065,7 +1152,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/3919",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -1114,8 +1201,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:33Z"
   },
   {
     "record_id": "h-r-4142",
@@ -1143,11 +1247,11 @@
     "cosponsor_count": 3,
     "notable_cosponsors": [],
     "committees": [
-      "House Oversight and Government Reform"
+      "Oversight and Government Reform Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Referred to House Oversight and Government Reform.",
+    "introduced_date": "2025-06-25",
+    "last_action_date": "2025-06-25",
+    "last_action": "Referred to the House Committee on Oversight and Government Reform.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Directs the Federal Acquisition Security Council to create a foreign-adversary AI list and triggers agency review, removal, and procurement restrictions.",
@@ -1155,8 +1259,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "The companion bill and procurement-security rationale help, but no committee action was captured.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4142",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1164,7 +1268,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/4142",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -1213,8 +1317,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:34Z"
   },
   {
     "record_id": "h-r-5288",
@@ -1239,18 +1360,18 @@
     "sponsor": "Eugene Vindman",
     "sponsor_party": "D",
     "sponsor_state": "VA",
-    "cosponsor_count": 1,
+    "cosponsor_count": 2,
     "notable_cosponsors": [
       "James Moylan (R-GU)"
     ],
     "committees": [
-      "House Foreign Affairs",
-      "House Energy and Commerce",
-      "House Science, Space, and Technology"
+      "Energy and Commerce Committee",
+      "Foreign Affairs Committee",
+      "Science, Space, and Technology Committee"
     ],
     "introduced_date": "2025-09-10",
     "last_action_date": "2025-09-10",
-    "last_action": "Introduced and referred to three House committees.",
+    "last_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Energy and Commerce, and Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
     "status": "Introduced / triple referral",
     "status_bucket": "Introduced / referred",
     "summary": "Addresses strategic AI sovereignty, supply-chain resilience, and domestic capacity in competition with foreign adversaries.",
@@ -1258,8 +1379,8 @@
     "advance_tier": "Low",
     "advance_rationale": "A broad strategic remit and triple referral make standalone movement difficult.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5288",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1267,7 +1388,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/5288",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -1316,8 +1437,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:35Z"
   },
   {
     "record_id": "h-r-6304",
@@ -1342,15 +1480,15 @@
     "sponsor": "Jennifer Kiggans",
     "sponsor_party": "R",
     "sponsor_state": "VA",
-    "cosponsor_count": 0,
+    "cosponsor_count": 2,
     "notable_cosponsors": [],
     "committees": [
-      "House Science, Space, and Technology",
-      "House Energy and Commerce"
+      "Energy and Commerce Committee",
+      "Science, Space, and Technology Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Referred to House Science and House Energy and Commerce; no markup located.",
+    "introduced_date": "2025-11-25",
+    "last_action_date": "2025-11-25",
+    "last_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
     "status": "Introduced / dual referral",
     "status_bucket": "Introduced / referred",
     "summary": "Requires a national AI strategy and a NIST report on internal review, third-party audits, and disclosure practices for detecting security risks and ideological bias.",
@@ -1358,8 +1496,8 @@
     "advance_tier": "Low",
     "advance_rationale": "No cosponsors or committee movement were captured, and the mixed policy objectives may complicate coalition-building.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6304",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1367,7 +1505,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/6304",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -1416,8 +1554,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:36Z"
   },
   {
     "record_id": "h-r-6461",
@@ -1427,7 +1582,7 @@
       "level": "federal",
       "state": null
     },
-    "lifecycle_status": "committee_consideration",
+    "lifecycle_status": "committee_advanced",
     "measure_id": "H.R. 6461",
     "title": "READ AI Models Act",
     "chamber": "House",
@@ -1445,11 +1600,11 @@
     "cosponsor_count": 10,
     "notable_cosponsors": [],
     "committees": [
-      "House Science, Space, and Technology"
+      "Science, Space, and Technology Committee"
     ],
-    "introduced_date": null,
+    "introduced_date": "2025-12-04",
     "last_action_date": "2026-06-25",
-    "last_action": "Included on the House Science full-committee markup agenda on June 25, 2026.",
+    "last_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 35 - 0.",
     "status": "Committee consideration",
     "status_bucket": "Committee advanced",
     "summary": "Creates a NIST pilot for standardized model and data documentation templates, metrics, benchmarks, voluntary consensus standards, and public consultation.",
@@ -1457,8 +1612,8 @@
     "advance_tier": "High",
     "advance_rationale": "Substantial cosponsorship and an active committee pathway make the proposal comparatively easy to package or advance.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6461",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1466,7 +1621,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/6461",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -1515,8 +1670,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:38Z"
   },
   {
     "record_id": "h-r-6875",
@@ -1526,9 +1698,9 @@
       "level": "federal",
       "state": null
     },
-    "lifecycle_status": "referred",
+    "lifecycle_status": "committee_advanced",
     "measure_id": "H.R. 6875",
-    "title": "OVERWATCH Act",
+    "title": "AI OVERWATCH Act",
     "chamber": "House",
     "scope": "Adjacent",
     "primary_category": "Deterrence, export & foreign-adversary controls",
@@ -1541,14 +1713,14 @@
     "sponsor": "Brian Mast",
     "sponsor_party": "R",
     "sponsor_state": "FL",
-    "cosponsor_count": 19,
+    "cosponsor_count": 43,
     "notable_cosponsors": [],
     "committees": [
-      "House Foreign Affairs"
+      "Foreign Affairs Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Referred to House Foreign Affairs.",
+    "introduced_date": "2025-12-18",
+    "last_action_date": "2026-01-21",
+    "last_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 2.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Conditions specified advanced-chip export licenses, requires congressional certification or notification, and provides a legislative disapproval mechanism.",
@@ -1556,8 +1728,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "Leadership sponsorship and 19 cosponsors provide leverage, even absent a captured markup.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6875",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1565,7 +1737,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/6875",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -1614,8 +1786,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:40Z"
   },
   {
     "record_id": "h-r-7294",
@@ -1625,7 +1814,7 @@
       "level": "federal",
       "state": null
     },
-    "lifecycle_status": "referred",
+    "lifecycle_status": "committee_advanced",
     "measure_id": "H.R. 7294",
     "title": "AI for Secure Networks Act",
     "chamber": "House",
@@ -1640,14 +1829,14 @@
     "sponsor": "Robert Menendez",
     "sponsor_party": "D",
     "sponsor_state": "NJ",
-    "cosponsor_count": 3,
+    "cosponsor_count": 5,
     "notable_cosponsors": [],
     "committees": [
-      "House Energy and Commerce"
+      "Energy and Commerce Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Referred to House Energy and Commerce; no markup located in the research snapshot.",
+    "introduced_date": "2026-01-30",
+    "last_action_date": "2026-09-16",
+    "last_action": "Ordered to be Reported by the Yeas and Nays: 37 - 0.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Directs Commerce and NTIA to study the security benefits and risks of AI in telecommunications, including threat and malware detection, zero trust, resilience, and interoperability.",
@@ -1655,8 +1844,8 @@
     "advance_tier": "Low",
     "advance_rationale": "A study bill with limited visible movement is less likely to advance independently, although report language could absorb its objectives.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7294",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1664,7 +1853,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/7294",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -1713,8 +1902,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:41Z"
   },
   {
     "record_id": "h-r-7696",
@@ -1726,7 +1932,7 @@
     },
     "lifecycle_status": "referred",
     "measure_id": "H.R. 7696",
-    "title": "AI Cyber Grid Protection Resilient Development Act",
+    "title": "AI Cyber Grid Protection Resilient Development Act of 2026",
     "chamber": "House",
     "scope": "Core",
     "primary_category": "Cyber, model & infrastructure security",
@@ -1736,19 +1942,19 @@
       "Testbeds",
       "Grid resilience"
     ],
-    "sponsor": "Sam Liccardo",
+    "sponsor": "Pablo Hernández",
     "sponsor_party": "D",
     "sponsor_state": "CA",
-    "cosponsor_count": 1,
+    "cosponsor_count": 2,
     "notable_cosponsors": [
       "Adelita Grijalva (D-AZ)"
     ],
     "committees": [
-      "Committee referral not captured in research snapshot"
+      "Homeland Security Committee"
     ],
     "introduced_date": "2026-02-25",
-    "last_action_date": "2026-02-25",
-    "last_action": "Introduced; no markup located in the research snapshot. The exact committee referral should be refreshed from Congress.gov before publication of a new version.",
+    "last_action_date": "2026-02-26",
+    "last_action": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
     "status": "Introduced; referral needs refresh",
     "status_bucket": "Introduced / referred",
     "summary": "Supports secure AI and cyber-physical testbeds capable of simulating grid-scale cyberattacks and resilience challenges.",
@@ -1756,8 +1962,8 @@
     "advance_tier": "Low",
     "advance_rationale": "No identified markup and incomplete referral metadata make it a lower-probability standalone measure.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7696",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Partially verified; committee referral requires live Congress.gov refresh",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1765,7 +1971,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/7696",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -1814,8 +2020,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:42Z"
   },
   {
     "record_id": "h-r-8283",
@@ -1841,16 +2064,16 @@
     "sponsor": "Bill Huizenga",
     "sponsor_party": "R",
     "sponsor_state": "MI",
-    "cosponsor_count": 20,
+    "cosponsor_count": 21,
     "notable_cosponsors": [
       "John Moolenaar (R-MI)"
     ],
     "committees": [
-      "House Foreign Affairs"
+      "Foreign Affairs Committee"
     ],
     "introduced_date": "2026-04-15",
     "last_action_date": "2026-04-22",
-    "last_action": "House Foreign Affairs ordered the amended bill reported by a 43–0 vote.",
+    "last_action": "Ordered to be Reported (Amended) by the Yeas and Nays: 43 - 0.",
     "status": "Ordered reported 43–0",
     "status_bucket": "Committee advanced",
     "summary": "Creates a process to identify foreign entities that illicitly obtain technical characteristics of closed-source U.S. models and supports Commerce information sharing, sanctions, and export-control responses.",
@@ -1858,8 +2081,8 @@
     "advance_tier": "High",
     "advance_rationale": "A unanimous 43–0 markup, 20 cosponsors, and a strong national-security frame give the bill unusually strong momentum.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8283",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1867,7 +2090,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/8283",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -1916,8 +2139,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:43Z"
   },
   {
     "record_id": "h-r-8516",
@@ -1949,17 +2189,17 @@
       "Jay Obernolte (R-CA)"
     ],
     "committees": [
-      "House Science, Space, and Technology",
-      "House Energy and Commerce",
-      "House Agriculture",
-      "House Oversight and Government Reform",
-      "House Education and Workforce",
-      "House Judiciary",
-      "House Ways and Means"
+      "Agriculture Committee",
+      "Education and Workforce Committee",
+      "Energy and Commerce Committee",
+      "Judiciary Committee",
+      "Oversight and Government Reform Committee",
+      "Science, Space, and Technology Committee",
+      "Ways and Means Committee"
     ],
     "introduced_date": "2026-04-27",
     "last_action_date": "2026-04-27",
-    "last_action": "Introduced and referred to seven House committees.",
+    "last_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Energy and Commerce, Agriculture, Oversight and Government Reform, Education and Workforce, the Judiciary, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
     "status": "Introduced / seven referrals",
     "status_bucket": "Introduced / referred",
     "summary": "Omnibus provisions include a NIST AI standards and security center, safety metrics and adversarial red teaming, federal chief AI officers, procurement safeguards, cyber training, whistleblower protections, and deepfake provisions.",
@@ -1967,8 +2207,8 @@
     "advance_tier": "Low",
     "advance_rationale": "Standalone passage is unlikely, but the bill is a high-value source of amendment text.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8516",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1976,7 +2216,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/8516",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -2025,8 +2265,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:45Z"
   },
   {
     "record_id": "h-r-8800",
@@ -2036,7 +2293,7 @@
       "level": "federal",
       "state": null
     },
-    "lifecycle_status": "floor",
+    "lifecycle_status": "committee_advanced",
     "measure_id": "H.R. 8800",
     "title": "National Defense Authorization Act for Fiscal Year 2027",
     "chamber": "House",
@@ -2053,15 +2310,28 @@
     "sponsor": "Mike Rogers",
     "sponsor_party": "R",
     "sponsor_state": "AL",
-    "cosponsor_count": null,
+    "cosponsor_count": 1,
     "notable_cosponsors": [],
     "committees": [
-      "House Armed Services",
-      "House Rules"
+      "Appropriations Committee",
+      "Armed Services Committee",
+      "Budget Committee",
+      "Education and Workforce Committee",
+      "Energy and Commerce Committee",
+      "Homeland Security Committee",
+      "Intelligence (Permanent Select) Committee",
+      "Judiciary Committee",
+      "Natural Resources Committee",
+      "Oversight and Government Reform Committee",
+      "Science, Space, and Technology Committee",
+      "Small Business Committee",
+      "Transportation and Infrastructure Committee",
+      "Veterans' Affairs Committee",
+      "Ways and Means Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": "2026-07-20",
-    "last_action": "House Armed Services processed the bill in June; House Rules met June 29 and July 20. AI-related floor amendments were considered, including a Buchanan reporting amendment agreed by voice.",
+    "introduced_date": "2026-05-13",
+    "last_action_date": "2026-09-14",
+    "last_action": "Received in the Senate.",
     "status": "House floor processing",
     "status_bucket": "Floor / calendar",
     "summary": "The principal House defense-authorization vehicle and a likely landing zone for military AI safeguards, procurement security, model-security reporting, and AI Security Center provisions.",
@@ -2069,8 +2339,8 @@
     "advance_tier": "High",
     "advance_rationale": "Annual NDAA enactment pressure and active floor processing make material AI-security movement likely.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -2078,7 +2348,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -2127,8 +2397,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:46Z"
   },
   {
     "record_id": "h-r-9333",
@@ -2160,11 +2447,11 @@
       "Don Beyer (D-VA)"
     ],
     "committees": [
-      "House Science, Space, and Technology"
+      "Science, Space, and Technology Committee"
     ],
     "introduced_date": "2026-06-18",
     "last_action_date": "2026-06-25",
-    "last_action": "House Science adopted a substitute and favorably reported the bill by a 29–0 vote.",
+    "last_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 35 - 0.",
     "status": "Favorably reported 29–0",
     "status_bucket": "Committee advanced",
     "summary": "Directs NIST and CISA to create voluntary mechanisms and technical frameworks for reporting and tracking AI vulnerabilities, failures, and flaws, including common definitions and a national database.",
@@ -2172,8 +2459,8 @@
     "advance_tier": "High",
     "advance_rationale": "A 29–0 committee vote, bipartisan sponsorship, and a narrow technical design make this one of the strongest standalone candidates.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9333",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -2181,7 +2468,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/9333",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -2230,8 +2517,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:47Z"
   },
   {
     "record_id": "h-r-9363",
@@ -2257,7 +2561,7 @@
     "sponsor": "Jay Obernolte",
     "sponsor_party": "R",
     "sponsor_state": "CA",
-    "cosponsor_count": 4,
+    "cosponsor_count": 7,
     "notable_cosponsors": [
       "Valerie Foushee (D-NC)",
       "Brian Babin (R-TX)",
@@ -2265,11 +2569,11 @@
       "Scott Franklin (R-FL)"
     ],
     "committees": [
-      "House Science, Space, and Technology"
+      "Science, Space, and Technology Committee"
     ],
     "introduced_date": "2026-06-18",
     "last_action_date": "2026-06-25",
-    "last_action": "House Science favorably reported the bill 29–0 after adopting a substitute and amendments concerning agentic AI, explainability/interpretability, and autonomous AI. CBO later issued an estimate.",
+    "last_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 29 - 0.",
     "status": "Favorably reported 29–0",
     "status_bucket": "Committee advanced",
     "summary": "Establishes a NIST AI security and innovation center to measure national- and economic-security risks, conduct or facilitate evaluations, support R&D and standards, and collaborate voluntarily with industry.",
@@ -2277,8 +2581,8 @@
     "advance_tier": "High",
     "advance_rationale": "Unanimous committee action, bipartisan amendments, leadership sponsorship, and a completed CBO estimate signal unusually mature floor preparation.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9363",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -2286,7 +2590,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/9363",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -2335,8 +2639,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:50Z"
   },
   {
     "record_id": "h-r-9477",
@@ -2362,14 +2683,14 @@
     "sponsor": "Nathaniel Moran",
     "sponsor_party": "R",
     "sponsor_state": "TX",
-    "cosponsor_count": 0,
+    "cosponsor_count": 3,
     "notable_cosponsors": [],
     "committees": [
-      "House Energy and Commerce"
+      "Energy and Commerce Committee"
     ],
     "introduced_date": "2026-06-25",
     "last_action_date": "2026-06-25",
-    "last_action": "Introduced and referred to House Energy and Commerce. No hearing or markup located by the cutoff.",
+    "last_action": "Referred to the House Committee on Energy and Commerce.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Requires covered high-risk model developers to report specified autonomy, cybersecurity, and model-weight-theft incidents within seven days. Commerce would receive investigative authority and civil-penalty authority reaching $2 million per violation.",
@@ -2377,8 +2698,8 @@
     "advance_tier": "Low",
     "advance_rationale": "Limited coalition and no committee action make standalone passage difficult, although the reporting concepts are plausible amendment material.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9477",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -2386,7 +2707,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/9477",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -2435,8 +2756,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:51Z"
   },
   {
     "record_id": "h-r-9914",
@@ -2458,10 +2796,10 @@
       "Frontier security",
       "Antitrust"
     ],
-    "sponsor": "Bob Latta",
+    "sponsor": "Robert Latta",
     "sponsor_party": "R",
     "sponsor_state": "OH",
-    "cosponsor_count": 8,
+    "cosponsor_count": 22,
     "notable_cosponsors": [
       "George Whitesides (D-CA)",
       "Jay Obernolte (R-CA)",
@@ -2471,11 +2809,11 @@
       "Lori Trahan (D-MA)"
     ],
     "committees": [
-      "House Judiciary"
+      "Judiciary Committee"
     ],
     "introduced_date": "2026-07-23",
     "last_action_date": "2026-07-23",
-    "last_action": "Introduced and referred to House Judiciary. No markup located by the cutoff.",
+    "last_action": "Referred to the House Committee on the Judiciary.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Clarifies antitrust treatment of collaboration intended to share information about adversarial threats and security risks involving frontier AI.",
@@ -2483,8 +2821,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "Eight original cosponsors and cross-party support strengthen prospects, but the bill still needs a Judiciary pathway or attachment to a wider package.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9914",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -2492,7 +2830,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/9914",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -2541,8 +2879,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:52Z"
   },
   {
     "record_id": "h-r-9917",
@@ -2567,16 +2922,16 @@
     "sponsor": "Ted Lieu",
     "sponsor_party": "D",
     "sponsor_state": "CA",
-    "cosponsor_count": 1,
+    "cosponsor_count": 3,
     "notable_cosponsors": [
       "Nathaniel Moran (R-TX)"
     ],
     "committees": [
-      "House Homeland Security"
+      "Homeland Security Committee"
     ],
     "introduced_date": "2026-07-23",
-    "last_action_date": "2026-07-23",
-    "last_action": "Introduced and referred to House Homeland Security. No markup located by the cutoff.",
+    "last_action_date": "2026-07-24",
+    "last_action": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Directs development of a shutdown-capability standard and graduated deployment safeguards for covered AI systems.",
@@ -2584,8 +2939,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "Bipartisan support and a concrete safeguard create an amendment pathway, though the standalone bill had not received committee action.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9917",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -2593,7 +2948,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/9917",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -2642,8 +2997,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:54Z"
   },
   {
     "record_id": "h-r-9925",
@@ -2669,7 +3041,7 @@
     "sponsor": "Jay Obernolte",
     "sponsor_party": "R",
     "sponsor_state": "CA",
-    "cosponsor_count": 5,
+    "cosponsor_count": 7,
     "notable_cosponsors": [
       "Lori Trahan (D-MA)",
       "Erin Houchin (R-IN)",
@@ -2678,12 +3050,12 @@
       "Suhas Subramanyam (D-VA)"
     ],
     "committees": [
-      "House Energy and Commerce",
-      "House Science, Space, and Technology"
+      "Energy and Commerce Committee",
+      "Science, Space, and Technology Committee"
     ],
     "introduced_date": "2026-07-23",
     "last_action_date": "2026-07-23",
-    "last_action": "Introduced and referred to House Energy and Commerce and House Science. No markup located by the cutoff.",
+    "last_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Creates a federal framework for covered frontier-model developers using compute and developer-size thresholds. It combines risk-management duties, third-party audits, mandatory incident reporting, emergency authority, and targeted state-law preemption with savings clauses.",
@@ -2691,8 +3063,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "Bipartisan architecture and committee-chair sponsorship make the bill consequential, but its late introduction, dual referral, enforcement design, and preemption language raise substantial transaction costs.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9925",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -2700,7 +3072,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/9925",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -2749,8 +3121,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:55Z"
   },
   {
     "record_id": "ny-s-6953b-2025",
@@ -3485,7 +3874,7 @@
     },
     "lifecycle_status": "referred",
     "measure_id": "S. 1633",
-    "title": "TEST AI Act",
+    "title": "TEST AI Act of 2025",
     "chamber": "Senate",
     "scope": "Core",
     "primary_category": "Evaluation, testing & standards",
@@ -3495,17 +3884,17 @@
       "Federal use",
       "Testbeds"
     ],
-    "sponsor": "Ben Ray Luján",
+    "sponsor": "Ben Luján",
     "sponsor_party": "D",
     "sponsor_state": "NM",
     "cosponsor_count": 4,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Commerce, Science, and Transportation"
+      "Commerce, Science, and Transportation Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Referred to Senate Commerce; no markup located in the research snapshot.",
+    "introduced_date": "2025-05-07",
+    "last_action_date": "2025-05-07",
+    "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Requires NIST testbed pilots to assess the feasibility of measurement standards for evaluating AI systems used by federal agencies, coordinated with the Department of Energy through a memorandum of understanding.",
@@ -3513,8 +3902,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "Bipartisan or multi-member support and a narrow standards mission create packaging opportunities, though no committee action was located.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1633",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -3522,7 +3911,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1633",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -3571,8 +3960,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:56Z"
   },
   {
     "record_id": "s-1638",
@@ -3584,7 +3990,7 @@
     },
     "lifecycle_status": "referred",
     "measure_id": "S. 1638",
-    "title": "Protection Against Foreign Adversarial Artificial Intelligence Act",
+    "title": "Protection Against Foreign Adversarial Artificial Intelligence Act of 2025",
     "chamber": "Senate",
     "scope": "Adjacent",
     "primary_category": "Deterrence, export & foreign-adversary controls",
@@ -3597,14 +4003,14 @@
     "sponsor": "Bill Cassidy",
     "sponsor_party": "R",
     "sponsor_state": "LA",
-    "cosponsor_count": 2,
+    "cosponsor_count": 3,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Commerce, Science, and Transportation"
+      "Commerce, Science, and Transportation Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Referred to Senate Commerce; no markup located in the research snapshot.",
+    "introduced_date": "2025-05-07",
+    "last_action_date": "2025-05-07",
+    "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Bars specified DeepSeek or High-Flyer use in federal contracting and directs Commerce analysis of censorship, propaganda, and security threats.",
@@ -3612,8 +4018,8 @@
     "advance_tier": "Low",
     "advance_rationale": "Limited movement and a vendor-specific design reduce standalone prospects relative to broader procurement proposals.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1638",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -3621,7 +4027,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1638",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -3670,8 +4076,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:58Z"
   },
   {
     "record_id": "s-1754",
@@ -3683,7 +4106,7 @@
     },
     "lifecycle_status": "referred",
     "measure_id": "S. 1754",
-    "title": "Preventing PLA Acquisition of United States Technology Act",
+    "title": "Preventing PLA Acquisition of United States Technology Act of 2025",
     "chamber": "Senate",
     "scope": "Adjacent",
     "primary_category": "Deterrence, export & foreign-adversary controls",
@@ -3696,14 +4119,14 @@
     "sponsor": "Jim Banks",
     "sponsor_party": "R",
     "sponsor_state": "IN",
-    "cosponsor_count": 0,
+    "cosponsor_count": 1,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Foreign Relations"
+      "Foreign Relations Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Referred to Senate Foreign Relations.",
+    "introduced_date": "2025-05-14",
+    "last_action_date": "2025-05-14",
+    "last_action": "Read twice and referred to the Committee on Foreign Relations.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Restricts covered technical and research relationships with Chinese entities of concern in military-civil-fusion priority fields, expressly including AI, and requires disclosure.",
@@ -3711,8 +4134,8 @@
     "advance_tier": "Low",
     "advance_rationale": "No cosponsors or committee movement were captured in the research snapshot.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1754",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -3720,7 +4143,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1754",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -3769,8 +4192,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:14:59Z"
   },
   {
     "record_id": "s-1775",
@@ -3782,7 +4222,7 @@
     },
     "lifecycle_status": "referred",
     "measure_id": "S. 1775",
-    "title": "Protecting AI and Cloud Competition in Defense Act",
+    "title": "Protecting AI and Cloud Competition in Defense Act of 2025",
     "chamber": "Senate",
     "scope": "Adjacent",
     "primary_category": "Defense, intelligence & procurement",
@@ -3798,11 +4238,11 @@
     "cosponsor_count": 1,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Armed Services"
+      "Armed Services Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Referred to Senate Armed Services.",
+    "introduced_date": "2025-05-15",
+    "last_action_date": "2025-05-15",
+    "last_action": "Read twice and referred to the Committee on Armed Services.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Addresses competitive awards for Defense cloud, data, and foundation-model systems and protects government data rights.",
@@ -3810,8 +4250,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "A natural NDAA pathway makes the substance more viable than the standalone status indicates.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1775",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -3819,7 +4259,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1775",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -3868,8 +4308,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:15:00Z"
   },
   {
     "record_id": "s-2177",
@@ -3899,11 +4356,11 @@
       "Gary Peters (D-MI)"
     ],
     "committees": [
-      "Senate Homeland Security and Governmental Affairs"
+      "Homeland Security and Governmental Affairs Committee"
     ],
     "introduced_date": "2025-06-25",
     "last_action_date": "2025-06-25",
-    "last_action": "Introduced and referred to Senate Homeland Security and Governmental Affairs.",
+    "last_action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Creates a Senate companion framework for a foreign-adversary AI procurement list and related federal acquisition restrictions.",
@@ -3911,8 +4368,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "The committee leadership configuration makes the bill more viable than its raw cosponsor count suggests.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2177",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -3920,7 +4377,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2177",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -3969,8 +4426,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:15:01Z"
   },
   {
     "record_id": "s-2750",
@@ -3998,11 +4472,11 @@
     "cosponsor_count": 0,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Commerce, Science, and Transportation"
+      "Commerce, Science, and Transportation Committee"
     ],
     "introduced_date": "2025-09-10",
     "last_action_date": "2025-09-10",
-    "last_action": "Introduced and referred to Senate Commerce. No public markup located by the cutoff.",
+    "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Creates an OSTP-run AI regulatory sandbox allowing temporary waiver or modification of covered federal rules so AI products or development methods can be tested, while applications address health, safety, and economic risks.",
@@ -4010,8 +4484,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "Committee-chair sponsorship creates a real pathway, balanced by controversy over deregulatory waivers.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2750",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -4019,7 +4493,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2750",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -4068,8 +4542,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:15:03Z"
   },
   {
     "record_id": "s-3557",
@@ -4081,7 +4572,7 @@
     },
     "lifecycle_status": "unknown",
     "measure_id": "S. 3557",
-    "title": "Funding prohibition for the “Ensuring a National Policy Framework for Artificial Intelligence” executive order",
+    "title": "States' Right to Regulate AI Act",
     "chamber": "Senate",
     "scope": "Adjacent",
     "primary_category": "Governance, preemption & regulatory architecture",
@@ -4091,17 +4582,17 @@
       "Federalism",
       "Preemption"
     ],
-    "sponsor": null,
+    "sponsor": "Edward Markey",
     "sponsor_party": null,
     "sponsor_state": null,
-    "cosponsor_count": null,
+    "cosponsor_count": 10,
     "notable_cosponsors": [],
     "committees": [
-      "Committee referral not captured in research snapshot"
+      "Commerce, Science, and Transportation Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": null,
-    "last_action": "Introduced text was located, but sponsor, cosponsors, committee referral, and detailed status require a live metadata refresh.",
+    "introduced_date": "2025-12-17",
+    "last_action_date": "2025-12-17",
+    "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "status": "Metadata refresh required",
     "status_bucket": "Introduced / referred",
     "summary": "Would prohibit federal funds from being used to implement the executive order titled “Ensuring a National Policy Framework for Artificial Intelligence,” making it relevant to the federal-state authority and preemption debate.",
@@ -4109,8 +4600,8 @@
     "advance_tier": "Low",
     "advance_rationale": "Incomplete metadata and no captured movement lower standalone prospects; rider pathways remain the principal risk.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/3557",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Introduced text verified; sponsor, committee, and action metadata require live Congress.gov refresh",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -4118,7 +4609,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3557",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -4167,8 +4658,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:15:05Z"
   },
   {
     "record_id": "s-4113",
@@ -4193,14 +4701,14 @@
     "sponsor": "Elissa Slotkin",
     "sponsor_party": "D",
     "sponsor_state": "MI",
-    "cosponsor_count": null,
+    "cosponsor_count": 0,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Armed Services"
+      "Armed Services Committee"
     ],
     "introduced_date": "2026-03-17",
     "last_action_date": "2026-03-17",
-    "last_action": "Introduced and referred to Senate Armed Services. No standalone markup located by the cutoff.",
+    "last_action": "Read twice and referred to the Committee on Armed Services.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Restricts specified high-consequence Department of Defense AI uses, including autonomous launch or detonation of nuclear weapons, and reinforces meaningful human control.",
@@ -4208,8 +4716,8 @@
     "advance_tier": "Low",
     "advance_rationale": "No public committee movement limits the standalone bill, although discrete guardrail language remains plausible in NDAA negotiations.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4113",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -4217,7 +4725,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4113",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -4266,8 +4774,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:15:08Z"
   },
   {
     "record_id": "s-4615",
@@ -4277,7 +4802,7 @@
       "level": "federal",
       "state": null
     },
-    "lifecycle_status": "floor",
+    "lifecycle_status": "committee_advanced",
     "measure_id": "S. 4615",
     "title": "Intelligence Authorization Act for Fiscal Year 2027",
     "chamber": "Senate",
@@ -4294,14 +4819,14 @@
     "sponsor": "Tom Cotton",
     "sponsor_party": "R",
     "sponsor_state": "AR",
-    "cosponsor_count": null,
+    "cosponsor_count": 0,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Select Committee on Intelligence"
+      "Intelligence (Select) Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": "2026-05-20",
-    "last_action": "The Senate Intelligence Committee reported the measure and placed it on the Senate calendar.",
+    "introduced_date": "2026-05-20",
+    "last_action_date": "2026-08-05",
+    "last_action": "By Senator Cotton from Select Committee on Intelligence filed written report. Report No. 119-133. Additional and Minority views filed.",
     "status": "Reported / Senate calendar",
     "status_bucket": "Floor / calendar",
     "summary": "Title VII, sections 701–711, addresses AI exploitation and intelligence sharing, targeting review, testing standards, incident tracking, agentic-system access controls, AI Security Center duties, targeting-output labeling, escalation research, adversarial-AI interaction, proliferation and export assessments, the Vulnerabilities Equities Process, and prohibited models.",
@@ -4309,8 +4834,8 @@
     "advance_tier": "High",
     "advance_rationale": "The bill is already reported and on the Senate calendar, with a detailed and coherent AI-security title.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4615",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -4318,7 +4843,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4615",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -4367,8 +4892,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:15:10Z"
   },
   {
     "record_id": "s-4656",
@@ -4394,14 +4936,14 @@
     "sponsor": "Kirsten Gillibrand",
     "sponsor_party": "D",
     "sponsor_state": "NY",
-    "cosponsor_count": null,
+    "cosponsor_count": 0,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Armed Services"
+      "Armed Services Committee"
     ],
     "introduced_date": "2026-06-02",
     "last_action_date": "2026-06-02",
-    "last_action": "Introduced and referred to Senate Armed Services. No standalone markup located by the cutoff.",
+    "last_action": "Read twice and referred to the Committee on Armed Services.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Defines covered military AI security incidents to include model-weight theft or exfiltration, foreign influence, supply-chain compromise, data poisoning or backdoors, and concerning behavior involving offensive cyber capabilities, safeguard evasion, or chemical and biological weapons.",
@@ -4409,8 +4951,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "The content is NDAA-compatible and addresses concrete security risks, but it had not advanced as a standalone bill.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4656",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -4418,7 +4960,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4656",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -4467,8 +5009,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:15:18Z"
   },
   {
     "record_id": "s-4784",
@@ -4478,7 +5037,7 @@
       "level": "federal",
       "state": null
     },
-    "lifecycle_status": "floor",
+    "lifecycle_status": "committee_advanced",
     "measure_id": "S. 4784",
     "title": "National Defense Authorization Act for Fiscal Year 2027",
     "chamber": "Senate",
@@ -4494,14 +5053,14 @@
     "sponsor": "Roger Wicker",
     "sponsor_party": "R",
     "sponsor_state": "MS",
-    "cosponsor_count": null,
+    "cosponsor_count": 0,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Armed Services"
+      "Armed Services Committee"
     ],
-    "introduced_date": null,
-    "last_action_date": "2026-06-30",
-    "last_action": "Senate Armed Services completed markup in June 2026; committee materials reflected reported or calendar-stage processing.",
+    "introduced_date": "2026-06-15",
+    "last_action_date": "2026-07-27",
+    "last_action": "Motion to proceed to consideration of measure made in Senate. (CR S4276)",
     "status": "Reported / calendar-stage vehicle",
     "status_bucket": "Floor / calendar",
     "summary": "The principal Senate defense-authorization vehicle and a natural receptacle for military AI guardrails, incident reporting, procurement security, autonomous-systems provisions, and AI Security Center concepts.",
@@ -4509,8 +5068,8 @@
     "advance_tier": "High",
     "advance_rationale": "NDAA’s institutional pressure to advance makes it the highest-value defense AI tracking vehicle.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -4518,7 +5077,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -4567,8 +5126,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:15:23Z"
   },
   {
     "record_id": "s-5061",
@@ -4580,7 +5156,7 @@
     },
     "lifecycle_status": "referred",
     "measure_id": "S. 5061",
-    "title": "Secure AI Development Act",
+    "title": "Secure A.I. Development Act of 2026",
     "chamber": "Senate",
     "scope": "Core",
     "primary_category": "Evaluation, testing & standards",
@@ -4594,14 +5170,14 @@
     "sponsor": "Mark Warner",
     "sponsor_party": "D",
     "sponsor_state": "VA",
-    "cosponsor_count": null,
+    "cosponsor_count": 0,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Commerce, Science, and Transportation"
+      "Commerce, Science, and Transportation Committee"
     ],
     "introduced_date": "2026-07-21",
     "last_action_date": "2026-07-21",
-    "last_action": "Introduced and referred to Senate Commerce. No public markup located by the cutoff.",
+    "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Establishes secure pre-release testing for frontier AI, modernizes vulnerability reporting, reviews AI vulnerabilities under the federal Vulnerabilities Equities Process, and strengthens NSA AI Security Center and laboratory/system-security functions.",
@@ -4609,8 +5185,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "Strong national-security framing and natural must-pass vehicles offset the absence of public markup and the need to coordinate Commerce and intelligence equities.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/5061",
-    "last_verified_date": "2026-09-01",
-    "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+    "last_verified_date": "2026-09-21",
+    "verification_level": "Official API metadata synchronized; human review pending",
     "sources": [
       {
         "source_id": "official-congress",
@@ -4618,7 +5194,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5061",
-        "accessed_date": "2026-09-01"
+        "accessed_date": "2026-09-21"
       }
     ],
     "claim_provenance": [
@@ -4667,8 +5243,25 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ]
+    ],
+    "agent_confidence": 1.0,
+    "agent_flags": [
+      "objective-metadata-sync"
+    ],
+    "requires_human_review": true,
+    "automation_workflow": "weekday-status-sync",
+    "automation_generated_at": "2026-09-21T18:15:25Z"
   },
   {
     "record_id": "tn-hb-2091-2024",

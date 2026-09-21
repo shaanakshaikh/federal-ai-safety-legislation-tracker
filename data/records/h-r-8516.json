@@ -28,17 +28,17 @@
     "Jay Obernolte (R-CA)"
   ],
   "committees": [
-    "House Science, Space, and Technology",
-    "House Energy and Commerce",
-    "House Agriculture",
-    "House Oversight and Government Reform",
-    "House Education and Workforce",
-    "House Judiciary",
-    "House Ways and Means"
+    "Agriculture Committee",
+    "Education and Workforce Committee",
+    "Energy and Commerce Committee",
+    "Judiciary Committee",
+    "Oversight and Government Reform Committee",
+    "Science, Space, and Technology Committee",
+    "Ways and Means Committee"
   ],
   "introduced_date": "2026-04-27",
   "last_action_date": "2026-04-27",
-  "last_action": "Introduced and referred to seven House committees.",
+  "last_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Energy and Commerce, Agriculture, Oversight and Government Reform, Education and Workforce, the Judiciary, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
   "status": "Introduced / seven referrals",
   "status_bucket": "Introduced / referred",
   "summary": "Omnibus provisions include a NIST AI standards and security center, safety metrics and adversarial red teaming, federal chief AI officers, procurement safeguards, cyber training, whistleblower protections, and deepfake provisions.",
@@ -46,8 +46,8 @@
   "advance_tier": "Low",
   "advance_rationale": "Standalone passage is unlikely, but the bill is a high-value source of amendment text.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8516",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-21",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -55,7 +55,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8516",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-21"
     }
   ],
   "claim_provenance": [
@@ -104,6 +104,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-21T18:14:45Z"
 }
