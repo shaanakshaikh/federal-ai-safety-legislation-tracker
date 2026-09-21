@@ -6,7 +6,7 @@
     "level": "federal",
     "state": null
   },
-  "lifecycle_status": "floor",
+  "lifecycle_status": "committee_advanced",
   "measure_id": "H.R. 8800",
   "title": "National Defense Authorization Act for Fiscal Year 2027",
   "chamber": "House",
@@ -23,15 +23,28 @@
   "sponsor": "Mike Rogers",
   "sponsor_party": "R",
   "sponsor_state": "AL",
-  "cosponsor_count": null,
+  "cosponsor_count": 1,
   "notable_cosponsors": [],
   "committees": [
-    "House Armed Services",
-    "House Rules"
+    "Appropriations Committee",
+    "Armed Services Committee",
+    "Budget Committee",
+    "Education and Workforce Committee",
+    "Energy and Commerce Committee",
+    "Homeland Security Committee",
+    "Intelligence (Permanent Select) Committee",
+    "Judiciary Committee",
+    "Natural Resources Committee",
+    "Oversight and Government Reform Committee",
+    "Science, Space, and Technology Committee",
+    "Small Business Committee",
+    "Transportation and Infrastructure Committee",
+    "Veterans' Affairs Committee",
+    "Ways and Means Committee"
   ],
-  "introduced_date": null,
-  "last_action_date": "2026-07-20",
-  "last_action": "House Armed Services processed the bill in June; House Rules met June 29 and July 20. AI-related floor amendments were considered, including a Buchanan reporting amendment agreed by voice.",
+  "introduced_date": "2026-05-13",
+  "last_action_date": "2026-09-14",
+  "last_action": "Received in the Senate.",
   "status": "House floor processing",
   "status_bucket": "Floor / calendar",
   "summary": "The principal House defense-authorization vehicle and a likely landing zone for military AI safeguards, procurement security, model-security reporting, and AI Security Center provisions.",
@@ -39,8 +52,8 @@
   "advance_tier": "High",
   "advance_rationale": "Annual NDAA enactment pressure and active floor processing make material AI-security movement likely.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-21",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -48,7 +61,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-21"
     }
   ],
   "claim_provenance": [
@@ -97,6 +110,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-21T18:14:46Z"
 }

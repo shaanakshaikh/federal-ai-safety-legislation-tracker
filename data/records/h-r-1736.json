@@ -6,7 +6,7 @@
     "level": "federal",
     "state": null
   },
-  "lifecycle_status": "referred",
+  "lifecycle_status": "committee_advanced",
   "measure_id": "H.R. 1736",
   "title": "Generative AI Terrorism Risk Assessment Act",
   "chamber": "House",
@@ -22,14 +22,15 @@
   "sponsor": "August Pfluger",
   "sponsor_party": "R",
   "sponsor_state": "TX",
-  "cosponsor_count": 2,
+  "cosponsor_count": 3,
   "notable_cosponsors": [],
   "committees": [
-    "House Homeland Security"
+    "Homeland Security Committee",
+    "Homeland Security and Governmental Affairs Committee"
   ],
-  "introduced_date": null,
-  "last_action_date": null,
-  "last_action": "Referred to House Homeland Security; no markup located in the research snapshot.",
+  "introduced_date": "2025-02-27",
+  "last_action_date": "2025-11-20",
+  "last_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Requires recurring Department of Homeland Security assessments of terrorist use of generative AI, including violent messaging and development or deployment of weapons.",
@@ -37,8 +38,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "A targeted national-security assessment is amendment-friendly, though the standalone bill had not advanced publicly.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1736",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-21",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -46,7 +47,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1736",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-21"
     }
   ],
   "claim_provenance": [
@@ -95,6 +96,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-21T18:14:27Z"
 }

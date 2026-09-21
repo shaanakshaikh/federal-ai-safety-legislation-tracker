@@ -24,11 +24,11 @@
   "cosponsor_count": 0,
   "notable_cosponsors": [],
   "committees": [
-    "Senate Commerce, Science, and Transportation"
+    "Commerce, Science, and Transportation Committee"
   ],
   "introduced_date": "2025-09-10",
   "last_action_date": "2025-09-10",
-  "last_action": "Introduced and referred to Senate Commerce. No public markup located by the cutoff.",
+  "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Creates an OSTP-run AI regulatory sandbox allowing temporary waiver or modification of covered federal rules so AI products or development methods can be tested, while applications address health, safety, and economic risks.",
@@ -36,8 +36,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "Committee-chair sponsorship creates a real pathway, balanced by controversy over deregulatory waivers.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2750",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-21",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2750",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-21"
     }
   ],
   "claim_provenance": [
@@ -94,6 +94,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-21T18:15:03Z"
 }
