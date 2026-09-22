@@ -8,7 +8,7 @@
   },
   "lifecycle_status": "referred",
   "measure_id": "S. 1775",
-  "title": "Protecting AI and Cloud Competition in Defense Act",
+  "title": "Protecting AI and Cloud Competition in Defense Act of 2025",
   "chamber": "Senate",
   "scope": "Adjacent",
   "primary_category": "Defense, intelligence & procurement",
@@ -24,11 +24,11 @@
   "cosponsor_count": 1,
   "notable_cosponsors": [],
   "committees": [
-    "Senate Armed Services"
+    "Armed Services Committee"
   ],
-  "introduced_date": null,
-  "last_action_date": null,
-  "last_action": "Referred to Senate Armed Services.",
+  "introduced_date": "2025-05-15",
+  "last_action_date": "2025-05-15",
+  "last_action": "Read twice and referred to the Committee on Armed Services.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Addresses competitive awards for Defense cloud, data, and foundation-model systems and protects government data rights.",
@@ -36,8 +36,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "A natural NDAA pathway makes the substance more viable than the standalone status indicates.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1775",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-22",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1775",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-22"
     }
   ],
   "claim_provenance": [
@@ -94,6 +94,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-22T17:05:43Z"
 }

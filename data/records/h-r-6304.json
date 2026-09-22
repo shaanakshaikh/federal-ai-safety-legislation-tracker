@@ -21,15 +21,15 @@
   "sponsor": "Jennifer Kiggans",
   "sponsor_party": "R",
   "sponsor_state": "VA",
-  "cosponsor_count": 0,
+  "cosponsor_count": 2,
   "notable_cosponsors": [],
   "committees": [
-    "House Science, Space, and Technology",
-    "House Energy and Commerce"
+    "Energy and Commerce Committee",
+    "Science, Space, and Technology Committee"
   ],
-  "introduced_date": null,
-  "last_action_date": null,
-  "last_action": "Referred to House Science and House Energy and Commerce; no markup located.",
+  "introduced_date": "2025-11-25",
+  "last_action_date": "2025-11-25",
+  "last_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
   "status": "Introduced / dual referral",
   "status_bucket": "Introduced / referred",
   "summary": "Requires a national AI strategy and a NIST report on internal review, third-party audits, and disclosure practices for detecting security risks and ideological bias.",
@@ -37,8 +37,8 @@
   "advance_tier": "Low",
   "advance_rationale": "No cosponsors or committee movement were captured, and the mixed policy objectives may complicate coalition-building.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6304",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-22",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -46,7 +46,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/6304",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-22"
     }
   ],
   "claim_provenance": [
@@ -95,6 +95,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-22T17:05:07Z"
 }
