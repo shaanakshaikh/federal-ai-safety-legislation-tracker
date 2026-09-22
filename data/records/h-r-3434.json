@@ -8,7 +8,7 @@
   },
   "lifecycle_status": "referred",
   "measure_id": "H.R. 3434",
-  "title": "Protecting AI and Cloud Competition in Defense Act",
+  "title": "Protecting AI and Cloud Competition in Defense Act of 2025",
   "chamber": "House",
   "scope": "Adjacent",
   "primary_category": "Defense, intelligence & procurement",
@@ -22,14 +22,14 @@
   "sponsor": "Pat Fallon",
   "sponsor_party": "R",
   "sponsor_state": "TX",
-  "cosponsor_count": 2,
+  "cosponsor_count": 3,
   "notable_cosponsors": [],
   "committees": [
-    "House Armed Services"
+    "Armed Services Committee"
   ],
-  "introduced_date": null,
-  "last_action_date": null,
-  "last_action": "Referred to House Armed Services.",
+  "introduced_date": "2025-05-15",
+  "last_action_date": "2025-05-15",
+  "last_action": "Referred to the House Committee on Armed Services.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Establishes Department of Defense procurement rules for cloud, data infrastructure, and foundation-model solutions, including security, resilience, competition, and government data interests.",
@@ -37,8 +37,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "Its most realistic pathway is incorporation into NDAA rather than standalone enactment.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3434",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-22",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -46,7 +46,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/3434",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-22"
     }
   ],
   "claim_provenance": [
@@ -95,6 +95,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-22T17:04:55Z"
 }
