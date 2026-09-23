@@ -18,10 +18,10 @@
     "Frontier security",
     "Antitrust"
   ],
-  "sponsor": "Bob Latta",
+  "sponsor": "Robert Latta",
   "sponsor_party": "R",
   "sponsor_state": "OH",
-  "cosponsor_count": 8,
+  "cosponsor_count": 22,
   "notable_cosponsors": [
     "George Whitesides (D-CA)",
     "Jay Obernolte (R-CA)",
@@ -31,11 +31,11 @@
     "Lori Trahan (D-MA)"
   ],
   "committees": [
-    "House Judiciary"
+    "Judiciary Committee"
   ],
   "introduced_date": "2026-07-23",
   "last_action_date": "2026-07-23",
-  "last_action": "Introduced and referred to House Judiciary. No markup located by the cutoff.",
+  "last_action": "Referred to the House Committee on the Judiciary.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Clarifies antitrust treatment of collaboration intended to share information about adversarial threats and security risks involving frontier AI.",
@@ -43,8 +43,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "Eight original cosponsors and cross-party support strengthen prospects, but the bill still needs a Judiciary pathway or attachment to a wider package.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9914",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-23",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -52,7 +52,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9914",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-23"
     }
   ],
   "claim_provenance": [
@@ -101,6 +101,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-23T17:17:09Z"
 }
