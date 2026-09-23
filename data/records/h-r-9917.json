@@ -21,16 +21,16 @@
   "sponsor": "Ted Lieu",
   "sponsor_party": "D",
   "sponsor_state": "CA",
-  "cosponsor_count": 1,
+  "cosponsor_count": 3,
   "notable_cosponsors": [
     "Nathaniel Moran (R-TX)"
   ],
   "committees": [
-    "House Homeland Security"
+    "Homeland Security Committee"
   ],
   "introduced_date": "2026-07-23",
-  "last_action_date": "2026-07-23",
-  "last_action": "Introduced and referred to House Homeland Security. No markup located by the cutoff.",
+  "last_action_date": "2026-07-24",
+  "last_action": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Directs development of a shutdown-capability standard and graduated deployment safeguards for covered AI systems.",
@@ -38,8 +38,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "Bipartisan support and a concrete safeguard create an amendment pathway, though the standalone bill had not received committee action.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9917",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-23",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -47,7 +47,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9917",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-23"
     }
   ],
   "claim_provenance": [
@@ -96,6 +96,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-23T17:17:10Z"
 }
