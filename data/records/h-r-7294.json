@@ -6,7 +6,7 @@
     "level": "federal",
     "state": null
   },
-  "lifecycle_status": "referred",
+  "lifecycle_status": "committee_advanced",
   "measure_id": "H.R. 7294",
   "title": "AI for Secure Networks Act",
   "chamber": "House",
@@ -21,14 +21,14 @@
   "sponsor": "Robert Menendez",
   "sponsor_party": "D",
   "sponsor_state": "NJ",
-  "cosponsor_count": 3,
+  "cosponsor_count": 5,
   "notable_cosponsors": [],
   "committees": [
-    "House Energy and Commerce"
+    "Energy and Commerce Committee"
   ],
-  "introduced_date": null,
-  "last_action_date": null,
-  "last_action": "Referred to House Energy and Commerce; no markup located in the research snapshot.",
+  "introduced_date": "2026-01-30",
+  "last_action_date": "2026-09-16",
+  "last_action": "Ordered to be Reported by the Yeas and Nays: 37 - 0.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Directs Commerce and NTIA to study the security benefits and risks of AI in telecommunications, including threat and malware detection, zero trust, resilience, and interoperability.",
@@ -36,8 +36,8 @@
   "advance_tier": "Low",
   "advance_rationale": "A study bill with limited visible movement is less likely to advance independently, although report language could absorb its objectives.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7294",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-24",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/7294",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-24"
     }
   ],
   "claim_provenance": [
@@ -94,6 +94,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-24T17:22:18Z"
 }

@@ -22,16 +22,16 @@
   "sponsor": "Bill Huizenga",
   "sponsor_party": "R",
   "sponsor_state": "MI",
-  "cosponsor_count": 20,
+  "cosponsor_count": 21,
   "notable_cosponsors": [
     "John Moolenaar (R-MI)"
   ],
   "committees": [
-    "House Foreign Affairs"
+    "Foreign Affairs Committee"
   ],
   "introduced_date": "2026-04-15",
   "last_action_date": "2026-04-22",
-  "last_action": "House Foreign Affairs ordered the amended bill reported by a 43–0 vote.",
+  "last_action": "Ordered to be Reported (Amended) by the Yeas and Nays: 43 - 0.",
   "status": "Ordered reported 43–0",
   "status_bucket": "Committee advanced",
   "summary": "Creates a process to identify foreign entities that illicitly obtain technical characteristics of closed-source U.S. models and supports Commerce information sharing, sanctions, and export-control responses.",
@@ -39,8 +39,8 @@
   "advance_tier": "High",
   "advance_rationale": "A unanimous 43–0 markup, 20 cosponsors, and a strong national-security frame give the bill unusually strong momentum.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8283",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-24",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -48,7 +48,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8283",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-24"
     }
   ],
   "claim_provenance": [
@@ -97,6 +97,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-24T17:22:22Z"
 }
