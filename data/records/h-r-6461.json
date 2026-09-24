@@ -6,7 +6,7 @@
     "level": "federal",
     "state": null
   },
-  "lifecycle_status": "committee_consideration",
+  "lifecycle_status": "committee_advanced",
   "measure_id": "H.R. 6461",
   "title": "READ AI Models Act",
   "chamber": "House",
@@ -24,11 +24,11 @@
   "cosponsor_count": 10,
   "notable_cosponsors": [],
   "committees": [
-    "House Science, Space, and Technology"
+    "Science, Space, and Technology Committee"
   ],
-  "introduced_date": null,
+  "introduced_date": "2025-12-04",
   "last_action_date": "2026-06-25",
-  "last_action": "Included on the House Science full-committee markup agenda on June 25, 2026.",
+  "last_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 35 - 0.",
   "status": "Committee consideration",
   "status_bucket": "Committee advanced",
   "summary": "Creates a NIST pilot for standardized model and data documentation templates, metrics, benchmarks, voluntary consensus standards, and public consultation.",
@@ -36,8 +36,8 @@
   "advance_tier": "High",
   "advance_rationale": "Substantial cosponsorship and an active committee pathway make the proposal comparatively easy to package or advance.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6461",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-24",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/6461",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-24"
     }
   ],
   "claim_provenance": [
@@ -94,6 +94,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-24T17:22:13Z"
 }
