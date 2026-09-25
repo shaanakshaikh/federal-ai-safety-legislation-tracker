@@ -8,7 +8,7 @@
   },
   "lifecycle_status": "referred",
   "measure_id": "S. 5061",
-  "title": "Secure AI Development Act",
+  "title": "Secure A.I. Development Act of 2026",
   "chamber": "Senate",
   "scope": "Core",
   "primary_category": "Evaluation, testing & standards",
@@ -22,14 +22,14 @@
   "sponsor": "Mark Warner",
   "sponsor_party": "D",
   "sponsor_state": "VA",
-  "cosponsor_count": null,
+  "cosponsor_count": 0,
   "notable_cosponsors": [],
   "committees": [
-    "Senate Commerce, Science, and Transportation"
+    "Commerce, Science, and Transportation Committee"
   ],
   "introduced_date": "2026-07-21",
   "last_action_date": "2026-07-21",
-  "last_action": "Introduced and referred to Senate Commerce. No public markup located by the cutoff.",
+  "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Establishes secure pre-release testing for frontier AI, modernizes vulnerability reporting, reviews AI vulnerabilities under the federal Vulnerabilities Equities Process, and strengthens NSA AI Security Center and laboratory/system-security functions.",
@@ -37,8 +37,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "Strong national-security framing and natural must-pass vehicles offset the absence of public markup and the need to coordinate Commerce and intelligence equities.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/5061",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-25",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -46,7 +46,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5061",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-25"
     }
   ],
   "claim_provenance": [
@@ -95,6 +95,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-25T17:22:06Z"
 }

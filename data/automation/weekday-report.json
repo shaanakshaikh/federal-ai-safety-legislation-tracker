@@ -1,0 +1,961 @@
+{
+  "changes": [
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee",
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "House Homeland Security"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 3,
+          "before": 2
+        },
+        "introduced_date": {
+          "after": "2025-02-27",
+          "before": null
+        },
+        "last_action": {
+          "after": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+          "before": "Referred to House Homeland Security; no markup located in the research snapshot."
+        },
+        "last_action_date": {
+          "after": "2025-11-20",
+          "before": null
+        },
+        "lifecycle_status": {
+          "after": "committee_advanced",
+          "before": "referred"
+        }
+      },
+      "record_id": "h-r-1736"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        },
+        "introduced_date": {
+          "after": "2025-04-28",
+          "before": null
+        },
+        "last_action": {
+          "after": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "before": "Reported by committee; House Report 119-751 was filed."
+        },
+        "last_action_date": {
+          "after": "2026-07-21",
+          "before": null
+        },
+        "title": {
+          "after": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
+          "before": "Nucleic Acid Standards for Biosecurity Act"
+        }
+      },
+      "record_id": "h-r-3029"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "House Armed Services"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 3,
+          "before": 2
+        },
+        "introduced_date": {
+          "after": "2025-05-15",
+          "before": null
+        },
+        "last_action": {
+          "after": "Referred to the House Committee on Armed Services.",
+          "before": "Referred to House Armed Services."
+        },
+        "last_action_date": {
+          "after": "2025-05-15",
+          "before": null
+        },
+        "title": {
+          "after": "Protecting AI and Cloud Competition in Defense Act of 2025",
+          "before": "Protecting AI and Cloud Competition in Defense Act"
+        }
+      },
+      "record_id": "h-r-3434"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 42,
+          "before": 9
+        },
+        "introduced_date": {
+          "after": "2025-05-15",
+          "before": null
+        },
+        "last_action": {
+          "after": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 0.",
+          "before": "Referred to House Foreign Affairs; no markup action captured in the research snapshot."
+        },
+        "last_action_date": {
+          "after": "2026-03-26",
+          "before": null
+        },
+        "lifecycle_status": {
+          "after": "committee_advanced",
+          "before": "referred"
+        }
+      },
+      "record_id": "h-r-3447"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Education and Workforce Committee"
+          ],
+          "before": [
+            "House Education and Workforce"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 7,
+          "before": 2
+        },
+        "introduced_date": {
+          "after": "2025-05-15",
+          "before": null
+        },
+        "last_action": {
+          "after": "Referred to the House Committee on Education and Workforce.",
+          "before": "Referred to House Education and Workforce; no public markup located in the research snapshot."
+        },
+        "last_action_date": {
+          "after": "2025-05-15",
+          "before": null
+        }
+      },
+      "record_id": "h-r-3460"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Intelligence (Permanent Select) Committee"
+          ],
+          "before": [
+            "House Permanent Select Committee on Intelligence"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 7,
+          "before": 3
+        },
+        "last_action": {
+          "after": "Referred to the House Committee on Intelligence (Permanent Select).",
+          "before": "Introduced and referred to the House Intelligence Committee. No public markup located by the cutoff."
+        }
+      },
+      "record_id": "h-r-3919"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform"
+          ]
+        },
+        "introduced_date": {
+          "after": "2025-06-25",
+          "before": null
+        },
+        "last_action": {
+          "after": "Referred to the House Committee on Oversight and Government Reform.",
+          "before": "Referred to House Oversight and Government Reform."
+        },
+        "last_action_date": {
+          "after": "2025-06-25",
+          "before": null
+        }
+      },
+      "record_id": "h-r-4142"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Foreign Affairs Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Foreign Affairs",
+            "House Energy and Commerce",
+            "House Science, Space, and Technology"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 2,
+          "before": 1
+        },
+        "last_action": {
+          "after": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Energy and Commerce, and Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "before": "Introduced and referred to three House committees."
+        }
+      },
+      "record_id": "h-r-5288"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology",
+            "House Energy and Commerce"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 2,
+          "before": 0
+        },
+        "introduced_date": {
+          "after": "2025-11-25",
+          "before": null
+        },
+        "last_action": {
+          "after": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "before": "Referred to House Science and House Energy and Commerce; no markup located."
+        },
+        "last_action_date": {
+          "after": "2025-11-25",
+          "before": null
+        }
+      },
+      "record_id": "h-r-6304"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 11,
+          "before": 10
+        },
+        "introduced_date": {
+          "after": "2025-12-04",
+          "before": null
+        },
+        "last_action": {
+          "after": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 35 - 0.",
+          "before": "Included on the House Science full-committee markup agenda on June 25, 2026."
+        },
+        "lifecycle_status": {
+          "after": "committee_advanced",
+          "before": "committee_consideration"
+        }
+      },
+      "record_id": "h-r-6461"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 43,
+          "before": 19
+        },
+        "introduced_date": {
+          "after": "2025-12-18",
+          "before": null
+        },
+        "last_action": {
+          "after": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 2.",
+          "before": "Referred to House Foreign Affairs."
+        },
+        "last_action_date": {
+          "after": "2026-01-21",
+          "before": null
+        },
+        "lifecycle_status": {
+          "after": "committee_advanced",
+          "before": "referred"
+        },
+        "title": {
+          "after": "AI OVERWATCH Act",
+          "before": "OVERWATCH Act"
+        }
+      },
+      "record_id": "h-r-6875"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 5,
+          "before": 3
+        },
+        "introduced_date": {
+          "after": "2026-01-30",
+          "before": null
+        },
+        "last_action": {
+          "after": "Ordered to be Reported by the Yeas and Nays: 37 - 0.",
+          "before": "Referred to House Energy and Commerce; no markup located in the research snapshot."
+        },
+        "last_action_date": {
+          "after": "2026-09-16",
+          "before": null
+        },
+        "lifecycle_status": {
+          "after": "committee_advanced",
+          "before": "referred"
+        }
+      },
+      "record_id": "h-r-7294"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee"
+          ],
+          "before": [
+            "Committee referral not captured in research snapshot"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 2,
+          "before": 1
+        },
+        "last_action": {
+          "after": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
+          "before": "Introduced; no markup located in the research snapshot. The exact committee referral should be refreshed from Congress.gov before publication of a new version."
+        },
+        "last_action_date": {
+          "after": "2026-02-26",
+          "before": "2026-02-25"
+        },
+        "sponsor": {
+          "after": "Pablo Hernández",
+          "before": "Sam Liccardo"
+        },
+        "title": {
+          "after": "AI Cyber Grid Protection Resilient Development Act of 2026",
+          "before": "AI Cyber Grid Protection Resilient Development Act"
+        }
+      },
+      "record_id": "h-r-7696"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 21,
+          "before": 20
+        },
+        "last_action": {
+          "after": "Ordered to be Reported (Amended) by the Yeas and Nays: 43 - 0.",
+          "before": "House Foreign Affairs ordered the amended bill reported by a 43–0 vote."
+        }
+      },
+      "record_id": "h-r-8283"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Agriculture Committee",
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee",
+            "Judiciary Committee",
+            "Oversight and Government Reform Committee",
+            "Science, Space, and Technology Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology",
+            "House Energy and Commerce",
+            "House Agriculture",
+            "House Oversight and Government Reform",
+            "House Education and Workforce",
+            "House Judiciary",
+            "House Ways and Means"
+          ]
+        },
+        "last_action": {
+          "after": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Energy and Commerce, Agriculture, Oversight and Government Reform, Education and Workforce, the Judiciary, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "before": "Introduced and referred to seven House committees."
+        }
+      },
+      "record_id": "h-r-8516"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Appropriations Committee",
+            "Armed Services Committee",
+            "Budget Committee",
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee",
+            "Homeland Security Committee",
+            "Intelligence (Permanent Select) Committee",
+            "Judiciary Committee",
+            "Natural Resources Committee",
+            "Oversight and Government Reform Committee",
+            "Science, Space, and Technology Committee",
+            "Small Business Committee",
+            "Transportation and Infrastructure Committee",
+            "Veterans' Affairs Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Armed Services",
+            "House Rules"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 1,
+          "before": null
+        },
+        "introduced_date": {
+          "after": "2026-05-13",
+          "before": null
+        },
+        "last_action": {
+          "after": "Received in the Senate.",
+          "before": "House Armed Services processed the bill in June; House Rules met June 29 and July 20. AI-related floor amendments were considered, including a Buchanan reporting amendment agreed by voice."
+        },
+        "last_action_date": {
+          "after": "2026-09-14",
+          "before": "2026-07-20"
+        },
+        "lifecycle_status": {
+          "after": "committee_advanced",
+          "before": "floor"
+        }
+      },
+      "record_id": "h-r-8800"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        },
+        "last_action": {
+          "after": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 35 - 0.",
+          "before": "House Science adopted a substitute and favorably reported the bill by a 29–0 vote."
+        }
+      },
+      "record_id": "h-r-9333"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 7,
+          "before": 4
+        },
+        "last_action": {
+          "after": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 29 - 0.",
+          "before": "House Science favorably reported the bill 29–0 after adopting a substitute and amendments concerning agentic AI, explainability/interpretability, and autonomous AI. CBO later issued an estimate."
+        }
+      },
+      "record_id": "h-r-9363"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 3,
+          "before": 0
+        },
+        "last_action": {
+          "after": "Referred to the House Committee on Energy and Commerce.",
+          "before": "Introduced and referred to House Energy and Commerce. No hearing or markup located by the cutoff."
+        }
+      },
+      "record_id": "h-r-9477"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 22,
+          "before": 8
+        },
+        "last_action": {
+          "after": "Referred to the House Committee on the Judiciary.",
+          "before": "Introduced and referred to House Judiciary. No markup located by the cutoff."
+        },
+        "sponsor": {
+          "after": "Robert Latta",
+          "before": "Bob Latta"
+        }
+      },
+      "record_id": "h-r-9914"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee"
+          ],
+          "before": [
+            "House Homeland Security"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 3,
+          "before": 1
+        },
+        "last_action": {
+          "after": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
+          "before": "Introduced and referred to House Homeland Security. No markup located by the cutoff."
+        },
+        "last_action_date": {
+          "after": "2026-07-24",
+          "before": "2026-07-23"
+        }
+      },
+      "record_id": "h-r-9917"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Energy and Commerce",
+            "House Science, Space, and Technology"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 9,
+          "before": 5
+        },
+        "last_action": {
+          "after": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "before": "Introduced and referred to House Energy and Commerce and House Science. No markup located by the cutoff."
+        }
+      },
+      "record_id": "h-r-9925"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        },
+        "introduced_date": {
+          "after": "2025-05-07",
+          "before": null
+        },
+        "last_action": {
+          "after": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "before": "Referred to Senate Commerce; no markup located in the research snapshot."
+        },
+        "last_action_date": {
+          "after": "2025-05-07",
+          "before": null
+        },
+        "sponsor": {
+          "after": "Ben Luján",
+          "before": "Ben Ray Luján"
+        },
+        "title": {
+          "after": "TEST AI Act of 2025",
+          "before": "TEST AI Act"
+        }
+      },
+      "record_id": "s-1633"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 3,
+          "before": 2
+        },
+        "introduced_date": {
+          "after": "2025-05-07",
+          "before": null
+        },
+        "last_action": {
+          "after": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "before": "Referred to Senate Commerce; no markup located in the research snapshot."
+        },
+        "last_action_date": {
+          "after": "2025-05-07",
+          "before": null
+        },
+        "title": {
+          "after": "Protection Against Foreign Adversarial Artificial Intelligence Act of 2025",
+          "before": "Protection Against Foreign Adversarial Artificial Intelligence Act"
+        }
+      },
+      "record_id": "s-1638"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Relations Committee"
+          ],
+          "before": [
+            "Senate Foreign Relations"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 1,
+          "before": 0
+        },
+        "introduced_date": {
+          "after": "2025-05-14",
+          "before": null
+        },
+        "last_action": {
+          "after": "Read twice and referred to the Committee on Foreign Relations.",
+          "before": "Referred to Senate Foreign Relations."
+        },
+        "last_action_date": {
+          "after": "2025-05-14",
+          "before": null
+        },
+        "title": {
+          "after": "Preventing PLA Acquisition of United States Technology Act of 2025",
+          "before": "Preventing PLA Acquisition of United States Technology Act"
+        }
+      },
+      "record_id": "s-1754"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        },
+        "introduced_date": {
+          "after": "2025-05-15",
+          "before": null
+        },
+        "last_action": {
+          "after": "Read twice and referred to the Committee on Armed Services.",
+          "before": "Referred to Senate Armed Services."
+        },
+        "last_action_date": {
+          "after": "2025-05-15",
+          "before": null
+        },
+        "title": {
+          "after": "Protecting AI and Cloud Competition in Defense Act of 2025",
+          "before": "Protecting AI and Cloud Competition in Defense Act"
+        }
+      },
+      "record_id": "s-1775"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        },
+        "last_action": {
+          "after": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+          "before": "Introduced and referred to Senate Homeland Security and Governmental Affairs."
+        }
+      },
+      "record_id": "s-2177"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        },
+        "last_action": {
+          "after": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "before": "Introduced and referred to Senate Commerce. No public markup located by the cutoff."
+        }
+      },
+      "record_id": "s-2750"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Committee referral not captured in research snapshot"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 10,
+          "before": null
+        },
+        "introduced_date": {
+          "after": "2025-12-17",
+          "before": null
+        },
+        "last_action": {
+          "after": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "before": "Introduced text was located, but sponsor, cosponsors, committee referral, and detailed status require a live metadata refresh."
+        },
+        "last_action_date": {
+          "after": "2025-12-17",
+          "before": null
+        },
+        "sponsor": {
+          "after": "Edward Markey",
+          "before": null
+        },
+        "title": {
+          "after": "States' Right to Regulate AI Act",
+          "before": "Funding prohibition for the “Ensuring a National Policy Framework for Artificial Intelligence” executive order"
+        }
+      },
+      "record_id": "s-3557"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 0,
+          "before": null
+        },
+        "last_action": {
+          "after": "Read twice and referred to the Committee on Armed Services.",
+          "before": "Introduced and referred to Senate Armed Services. No standalone markup located by the cutoff."
+        }
+      },
+      "record_id": "s-4113"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Intelligence (Select) Committee"
+          ],
+          "before": [
+            "Senate Select Committee on Intelligence"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 0,
+          "before": null
+        },
+        "introduced_date": {
+          "after": "2026-05-20",
+          "before": null
+        },
+        "last_action": {
+          "after": "By Senator Cotton from Select Committee on Intelligence filed written report. Report No. 119-133. Additional and Minority views filed.",
+          "before": "The Senate Intelligence Committee reported the measure and placed it on the Senate calendar."
+        },
+        "last_action_date": {
+          "after": "2026-08-05",
+          "before": "2026-05-20"
+        },
+        "lifecycle_status": {
+          "after": "committee_advanced",
+          "before": "floor"
+        }
+      },
+      "record_id": "s-4615"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 0,
+          "before": null
+        },
+        "last_action": {
+          "after": "Read twice and referred to the Committee on Armed Services.",
+          "before": "Introduced and referred to Senate Armed Services. No standalone markup located by the cutoff."
+        }
+      },
+      "record_id": "s-4656"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 0,
+          "before": null
+        },
+        "introduced_date": {
+          "after": "2026-06-15",
+          "before": null
+        },
+        "last_action": {
+          "after": "Motion to proceed to consideration of measure made in Senate. (CR S4276)",
+          "before": "Senate Armed Services completed markup in June 2026; committee materials reflected reported or calendar-stage processing."
+        },
+        "last_action_date": {
+          "after": "2026-07-27",
+          "before": "2026-06-30"
+        },
+        "lifecycle_status": {
+          "after": "committee_advanced",
+          "before": "floor"
+        }
+      },
+      "record_id": "s-4784"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 0,
+          "before": null
+        },
+        "last_action": {
+          "after": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "before": "Introduced and referred to Senate Commerce. No public markup located by the cutoff."
+        },
+        "title": {
+          "after": "Secure A.I. Development Act of 2026",
+          "before": "Secure AI Development Act"
+        }
+      },
+      "record_id": "s-5061"
+    }
+  ],
+  "generated_date": "2026-09-25",
+  "requires_human_review": true
+}

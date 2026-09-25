@@ -22,14 +22,14 @@
   "sponsor": "Nathaniel Moran",
   "sponsor_party": "R",
   "sponsor_state": "TX",
-  "cosponsor_count": 0,
+  "cosponsor_count": 3,
   "notable_cosponsors": [],
   "committees": [
-    "House Energy and Commerce"
+    "Energy and Commerce Committee"
   ],
   "introduced_date": "2026-06-25",
   "last_action_date": "2026-06-25",
-  "last_action": "Introduced and referred to House Energy and Commerce. No hearing or markup located by the cutoff.",
+  "last_action": "Referred to the House Committee on Energy and Commerce.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Requires covered high-risk model developers to report specified autonomy, cybersecurity, and model-weight-theft incidents within seven days. Commerce would receive investigative authority and civil-penalty authority reaching $2 million per violation.",
@@ -37,8 +37,8 @@
   "advance_tier": "Low",
   "advance_rationale": "Limited coalition and no committee action make standalone passage difficult, although the reporting concepts are plausible amendment material.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9477",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-25",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -46,7 +46,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9477",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-25"
     }
   ],
   "claim_provenance": [
@@ -95,6 +95,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-25T17:21:48Z"
 }
