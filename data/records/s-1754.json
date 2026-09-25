@@ -8,7 +8,7 @@
   },
   "lifecycle_status": "referred",
   "measure_id": "S. 1754",
-  "title": "Preventing PLA Acquisition of United States Technology Act",
+  "title": "Preventing PLA Acquisition of United States Technology Act of 2025",
   "chamber": "Senate",
   "scope": "Adjacent",
   "primary_category": "Deterrence, export & foreign-adversary controls",
@@ -21,14 +21,14 @@
   "sponsor": "Jim Banks",
   "sponsor_party": "R",
   "sponsor_state": "IN",
-  "cosponsor_count": 0,
+  "cosponsor_count": 1,
   "notable_cosponsors": [],
   "committees": [
-    "Senate Foreign Relations"
+    "Foreign Relations Committee"
   ],
-  "introduced_date": null,
-  "last_action_date": null,
-  "last_action": "Referred to Senate Foreign Relations.",
+  "introduced_date": "2025-05-14",
+  "last_action_date": "2025-05-14",
+  "last_action": "Read twice and referred to the Committee on Foreign Relations.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Restricts covered technical and research relationships with Chinese entities of concern in military-civil-fusion priority fields, expressly including AI, and requires disclosure.",
@@ -36,8 +36,8 @@
   "advance_tier": "Low",
   "advance_rationale": "No cosponsors or committee movement were captured in the research snapshot.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1754",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-25",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1754",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-25"
     }
   ],
   "claim_provenance": [
@@ -94,6 +94,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-25T17:21:56Z"
 }

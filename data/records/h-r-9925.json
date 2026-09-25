@@ -22,7 +22,7 @@
   "sponsor": "Jay Obernolte",
   "sponsor_party": "R",
   "sponsor_state": "CA",
-  "cosponsor_count": 5,
+  "cosponsor_count": 9,
   "notable_cosponsors": [
     "Lori Trahan (D-MA)",
     "Erin Houchin (R-IN)",
@@ -31,12 +31,12 @@
     "Suhas Subramanyam (D-VA)"
   ],
   "committees": [
-    "House Energy and Commerce",
-    "House Science, Space, and Technology"
+    "Energy and Commerce Committee",
+    "Science, Space, and Technology Committee"
   ],
   "introduced_date": "2026-07-23",
   "last_action_date": "2026-07-23",
-  "last_action": "Introduced and referred to House Energy and Commerce and House Science. No markup located by the cutoff.",
+  "last_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Creates a federal framework for covered frontier-model developers using compute and developer-size thresholds. It combines risk-management duties, third-party audits, mandatory incident reporting, emergency authority, and targeted state-law preemption with savings clauses.",
@@ -44,8 +44,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "Bipartisan architecture and committee-chair sponsorship make the bill consequential, but its late introduction, dual referral, enforcement design, and preemption language raise substantial transaction costs.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9925",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-25",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -53,7 +53,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9925",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-25"
     }
   ],
   "claim_provenance": [
@@ -102,6 +102,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-25T17:21:52Z"
 }

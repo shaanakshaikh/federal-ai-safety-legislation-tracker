@@ -6,9 +6,9 @@
     "level": "federal",
     "state": null
   },
-  "lifecycle_status": "referred",
+  "lifecycle_status": "committee_advanced",
   "measure_id": "H.R. 6875",
-  "title": "OVERWATCH Act",
+  "title": "AI OVERWATCH Act",
   "chamber": "House",
   "scope": "Adjacent",
   "primary_category": "Deterrence, export & foreign-adversary controls",
@@ -21,14 +21,14 @@
   "sponsor": "Brian Mast",
   "sponsor_party": "R",
   "sponsor_state": "FL",
-  "cosponsor_count": 19,
+  "cosponsor_count": 43,
   "notable_cosponsors": [],
   "committees": [
-    "House Foreign Affairs"
+    "Foreign Affairs Committee"
   ],
-  "introduced_date": null,
-  "last_action_date": null,
-  "last_action": "Referred to House Foreign Affairs.",
+  "introduced_date": "2025-12-18",
+  "last_action_date": "2026-01-21",
+  "last_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 2.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Conditions specified advanced-chip export licenses, requires congressional certification or notification, and provides a legislative disapproval mechanism.",
@@ -36,8 +36,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "Leadership sponsorship and 19 cosponsors provide leverage, even absent a captured markup.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6875",
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Primary-source verified in the September 1, 2026 research pass",
+  "last_verified_date": "2026-09-25",
+  "verification_level": "Official API metadata synchronized; human review pending",
   "sources": [
     {
       "source_id": "official-congress",
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/6875",
-      "accessed_date": "2026-09-01"
+      "accessed_date": "2026-09-25"
     }
   ],
   "claim_provenance": [
@@ -94,6 +94,23 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ]
+  ],
+  "agent_confidence": 1.0,
+  "agent_flags": [
+    "objective-metadata-sync"
+  ],
+  "requires_human_review": true,
+  "automation_workflow": "weekday-status-sync",
+  "automation_generated_at": "2026-09-25T17:21:39Z"
 }
