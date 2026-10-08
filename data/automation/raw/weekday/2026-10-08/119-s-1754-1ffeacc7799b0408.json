@@ -1,0 +1,114 @@
+{
+  "actions": [
+    {
+      "actionDate": "2025-05-14",
+      "committees": [
+        {
+          "name": "Foreign Relations Committee",
+          "systemCode": "ssfr00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssfr00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Foreign Relations.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2025-05-14",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/1754/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1754/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1754/cosponsors?format=json"
+    },
+    "introducedDate": "2025-05-14",
+    "latestAction": {
+      "actionDate": "2025-05-14",
+      "text": "Read twice and referred to the Committee on Foreign Relations."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1754",
+    "number": "1754",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "International Affairs"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "B001299",
+        "firstName": "Jim",
+        "fullName": "Sen. Banks, Jim [R-IN]",
+        "isByRequest": "N",
+        "lastName": "Banks",
+        "party": "R",
+        "state": "IN",
+        "url": "https://api.congress.gov/v3/member/B001299?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1754/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1754/text?format=json"
+    },
+    "title": "Preventing PLA Acquisition of United States Technology Act of 2025",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/1754/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2025-07-15T11:03:18Z",
+    "updateDateIncludingText": "2025-07-15T11:03:18Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-05-14T16:27:48Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Foreign Relations Committee",
+      "systemCode": "ssfr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssfr00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "S001217",
+      "firstName": "Rick",
+      "fullName": "Sen. Scott, Rick [R-FL]",
+      "isOriginalCosponsor": false,
+      "lastName": "Scott",
+      "party": "R",
+      "sponsorshipDate": "2025-07-14",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/S001217?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}
