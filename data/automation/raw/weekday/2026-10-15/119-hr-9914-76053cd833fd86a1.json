@@ -1,0 +1,392 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2026-07-23",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "hsju00",
+          "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on the Judiciary.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2026-07-23",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2026-07-23",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9914/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9914/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 121 (Thursday, July 23, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. LATTA:\nH.R. 9914.\nCongress has the power to enact this legislation pursuant\nto the following:\nclause 3 of section 8 of article I of the Constitution\n[Page H5198]\n</pre>",
+    "cosponsors": {
+      "count": 22,
+      "countIncludingWithdrawnCosponsors": 22,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9914/cosponsors?format=json"
+    },
+    "introducedDate": "2026-07-23",
+    "latestAction": {
+      "actionDate": "2026-07-23",
+      "text": "Referred to the House Committee on the Judiciary."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9914",
+    "number": "9914",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Law"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9914/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "L000566",
+        "district": 5,
+        "firstName": "Robert",
+        "fullName": "Rep. Latta, Robert E. [R-OH-5]",
+        "isByRequest": "N",
+        "lastName": "Latta",
+        "middleName": "E.",
+        "party": "R",
+        "state": "OH",
+        "url": "https://api.congress.gov/v3/member/L000566?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9914/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9914/text?format=json"
+    },
+    "title": "Collaboration on Adversarial Threats and Security Risks Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9914/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-17T08:07:24Z",
+    "updateDateIncludingText": "2026-09-17T08:07:24Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-07-23T13:04:20Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Judiciary Committee",
+      "systemCode": "hsju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "W000830",
+      "district": 27,
+      "firstName": "George",
+      "fullName": "Rep. Whitesides, George [D-CA-27]",
+      "isOriginalCosponsor": true,
+      "lastName": "Whitesides",
+      "party": "D",
+      "sponsorshipDate": "2026-07-23",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/W000830?format=json"
+    },
+    {
+      "bioguideId": "O000019",
+      "district": 23,
+      "firstName": "Jay",
+      "fullName": "Rep. Obernolte, Jay [R-CA-23]",
+      "isOriginalCosponsor": true,
+      "lastName": "Obernolte",
+      "party": "R",
+      "sponsorshipDate": "2026-07-23",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/O000019?format=json"
+    },
+    {
+      "bioguideId": "L000582",
+      "district": 36,
+      "firstName": "Ted",
+      "fullName": "Rep. Lieu, Ted [D-CA-36]",
+      "isOriginalCosponsor": true,
+      "lastName": "Lieu",
+      "party": "D",
+      "sponsorshipDate": "2026-07-23",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/L000582?format=json"
+    },
+    {
+      "bioguideId": "I000056",
+      "district": 48,
+      "firstName": "Darrell",
+      "fullName": "Rep. Issa, Darrell [R-CA-48]",
+      "isOriginalCosponsor": true,
+      "lastName": "Issa",
+      "party": "R",
+      "sponsorshipDate": "2026-07-23",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/I000056?format=json"
+    },
+    {
+      "bioguideId": "M001224",
+      "district": 1,
+      "firstName": "Nathaniel",
+      "fullName": "Rep. Moran, Nathaniel [R-TX-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Moran",
+      "party": "R",
+      "sponsorshipDate": "2026-07-23",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/M001224?format=json"
+    },
+    {
+      "bioguideId": "H001101",
+      "district": 10,
+      "firstName": "Pat",
+      "fullName": "Rep. Harrigan, Pat [R-NC-10]",
+      "isOriginalCosponsor": true,
+      "lastName": "Harrigan",
+      "party": "R",
+      "sponsorshipDate": "2026-07-23",
+      "state": "NC",
+      "url": "https://api.congress.gov/v3/member/H001101?format=json"
+    },
+    {
+      "bioguideId": "M001215",
+      "district": 1,
+      "firstName": "Mariannette",
+      "fullName": "Rep. Miller-Meeks, Mariannette [R-IA-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Miller-Meeks",
+      "party": "R",
+      "sponsorshipDate": "2026-07-23",
+      "state": "IA",
+      "url": "https://api.congress.gov/v3/member/M001215?format=json"
+    },
+    {
+      "bioguideId": "T000482",
+      "district": 3,
+      "firstName": "Lori",
+      "fullName": "Rep. Trahan, Lori [D-MA-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Trahan",
+      "party": "D",
+      "sponsorshipDate": "2026-07-23",
+      "state": "MA",
+      "url": "https://api.congress.gov/v3/member/T000482?format=json"
+    },
+    {
+      "bioguideId": "K000391",
+      "district": 8,
+      "firstName": "Raja",
+      "fullName": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+      "isOriginalCosponsor": false,
+      "lastName": "Krishnamoorthi",
+      "party": "D",
+      "sponsorshipDate": "2026-07-27",
+      "state": "IL",
+      "url": "https://api.congress.gov/v3/member/K000391?format=json"
+    },
+    {
+      "bioguideId": "J000305",
+      "district": 51,
+      "firstName": "Sara",
+      "fullName": "Rep. Jacobs, Sara [D-CA-51]",
+      "isOriginalCosponsor": false,
+      "lastName": "Jacobs",
+      "party": "D",
+      "sponsorshipDate": "2026-08-31",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/J000305?format=json"
+    },
+    {
+      "bioguideId": "T000487",
+      "district": 2,
+      "firstName": "Jill",
+      "fullName": "Rep. Tokuda, Jill N. [D-HI-2]",
+      "isOriginalCosponsor": false,
+      "lastName": "Tokuda",
+      "middleName": "N.",
+      "party": "D",
+      "sponsorshipDate": "2026-09-03",
+      "state": "HI",
+      "url": "https://api.congress.gov/v3/member/T000487?format=json"
+    },
+    {
+      "bioguideId": "C001118",
+      "district": 6,
+      "firstName": "Ben",
+      "fullName": "Rep. Cline, Ben [R-VA-6]",
+      "isOriginalCosponsor": false,
+      "lastName": "Cline",
+      "party": "R",
+      "sponsorshipDate": "2026-09-08",
+      "state": "VA",
+      "url": "https://api.congress.gov/v3/member/C001118?format=json"
+    },
+    {
+      "bioguideId": "V000131",
+      "district": 33,
+      "firstName": "Marc",
+      "fullName": "Rep. Veasey, Marc A. [D-TX-33]",
+      "isOriginalCosponsor": false,
+      "lastName": "Veasey",
+      "middleName": "A.",
+      "party": "D",
+      "sponsorshipDate": "2026-09-08",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/V000131?format=json"
+    },
+    {
+      "bioguideId": "M001196",
+      "district": 6,
+      "firstName": "Seth",
+      "fullName": "Rep. Moulton, Seth [D-MA-6]",
+      "isOriginalCosponsor": false,
+      "lastName": "Moulton",
+      "party": "D",
+      "sponsorshipDate": "2026-09-14",
+      "state": "MA",
+      "url": "https://api.congress.gov/v3/member/M001196?format=json"
+    },
+    {
+      "bioguideId": "H001095",
+      "district": 38,
+      "firstName": "Wesley",
+      "fullName": "Rep. Hunt, Wesley [R-TX-38]",
+      "isOriginalCosponsor": false,
+      "lastName": "Hunt",
+      "party": "R",
+      "sponsorshipDate": "2026-09-14",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/H001095?format=json"
+    },
+    {
+      "bioguideId": "F000454",
+      "district": 11,
+      "firstName": "Bill",
+      "fullName": "Rep. Foster, Bill [D-IL-11]",
+      "isOriginalCosponsor": false,
+      "lastName": "Foster",
+      "party": "D",
+      "sponsorshipDate": "2026-09-14",
+      "state": "IL",
+      "url": "https://api.congress.gov/v3/member/F000454?format=json"
+    },
+    {
+      "bioguideId": "C001103",
+      "district": 1,
+      "firstName": "Earl",
+      "fullName": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+      "isOriginalCosponsor": false,
+      "lastName": "Carter",
+      "middleName": "L. \"Buddy\"",
+      "party": "R",
+      "sponsorshipDate": "2026-09-14",
+      "state": "GA",
+      "url": "https://api.congress.gov/v3/member/C001103?format=json"
+    },
+    {
+      "bioguideId": "W000814",
+      "district": 14,
+      "firstName": "Randy",
+      "fullName": "Rep. Weber, Randy K. Sr. [R-TX-14]",
+      "isOriginalCosponsor": false,
+      "lastName": "Weber",
+      "middleName": "K.",
+      "party": "R",
+      "sponsorshipDate": "2026-09-14",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/W000814?format=json"
+    },
+    {
+      "bioguideId": "H001085",
+      "district": 6,
+      "firstName": "Chrissy",
+      "fullName": "Rep. Houlahan, Chrissy [D-PA-6]",
+      "isOriginalCosponsor": false,
+      "lastName": "Houlahan",
+      "party": "D",
+      "sponsorshipDate": "2026-09-14",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/H001085?format=json"
+    },
+    {
+      "bioguideId": "C001110",
+      "district": 46,
+      "firstName": "J.",
+      "fullName": "Rep. Correa, J. Luis [D-CA-46]",
+      "isOriginalCosponsor": false,
+      "lastName": "Correa",
+      "middleName": "Luis",
+      "party": "D",
+      "sponsorshipDate": "2026-09-15",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/C001110?format=json"
+    },
+    {
+      "bioguideId": "L000607",
+      "district": 16,
+      "firstName": "Sam",
+      "fullName": "Rep. Liccardo, Sam T. [D-CA-16]",
+      "isOriginalCosponsor": false,
+      "lastName": "Liccardo",
+      "middleName": "T.",
+      "party": "D",
+      "sponsorshipDate": "2026-09-16",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/L000607?format=json"
+    },
+    {
+      "bioguideId": "H001058",
+      "district": 4,
+      "firstName": "Bill",
+      "fullName": "Rep. Huizenga, Bill [R-MI-4]",
+      "isOriginalCosponsor": false,
+      "lastName": "Huizenga",
+      "party": "R",
+      "sponsorshipDate": "2026-09-16",
+      "state": "MI",
+      "url": "https://api.congress.gov/v3/member/H001058?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}
