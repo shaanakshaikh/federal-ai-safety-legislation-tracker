@@ -11,21 +11,34 @@ from pathlib import Path
 from automation_common import ROOT, automation_metadata, congress_json, govinfo_billstatus, parse_federal_bill, required_secret, snapshot_id, today, write_json
 
 OBJECTIVE_FIELDS = {"title", "sponsor", "cosponsor_count", "committees", "introduced_date", "last_action", "last_action_date"}
+LIFECYCLE_RANK = {
+    "unknown": 0,
+    "introduced": 1,
+    "referred": 2,
+    "committee_consideration": 3,
+    "committee_advanced": 4,
+    "floor": 5,
+    "passed_chamber": 6,
+    "enacted": 7,
+    "vetoed": 7,
+}
 
 
 def lifecycle_from_actions(actions: list[dict], current: str) -> str:
     text = " ".join(str(item.get("text", "")) for item in actions).lower()
     if "became public law" in text or "signed by president" in text:
-        return "enacted"
-    if "vetoed by president" in text:
-        return "vetoed"
-    if "passed senate" in text or "passed house" in text:
-        return "passed_chamber"
-    if "reported" in text or "ordered to be reported" in text:
-        return "committee_advanced"
-    if "committee" in text and ("markup" in text or "hearing" in text):
-        return "committee_consideration"
-    return current
+        inferred = "enacted"
+    elif "vetoed by president" in text:
+        inferred = "vetoed"
+    elif "passed senate" in text or "passed house" in text:
+        inferred = "passed_chamber"
+    elif "reported" in text or "ordered to be reported" in text:
+        inferred = "committee_advanced"
+    elif "committee" in text and ("markup" in text or "hearing" in text):
+        inferred = "committee_consideration"
+    else:
+        inferred = current
+    return current if LIFECYCLE_RANK.get(current, 0) > LIFECYCLE_RANK.get(inferred, 0) else inferred
 
 
 def values(record: dict, bill: dict, actions: list[dict], cosponsor_count: int, committees: list[dict]) -> dict:

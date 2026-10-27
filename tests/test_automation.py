@@ -22,6 +22,7 @@ class AutomationTests(unittest.TestCase):
     def test_lifecycle_is_conservative(self):
         self.assertEqual(lifecycle_from_actions([{"text": "Signed by President."}], "passed_chamber"), "enacted")
         self.assertEqual(lifecycle_from_actions([], "referred"), "referred")
+        self.assertEqual(lifecycle_from_actions([{"text": "Committee reported the bill."}], "floor"), "floor")
 
     def test_objective_values_preserve_source_status(self):
         record = {"title": "Old", "sponsor": "Old Sponsor", "committees": [], "lifecycle_status": "referred"}

@@ -33,9 +33,9 @@ Validation derives the record count dynamically, checks source references and re
 
 ## Controlled automation
 
-Weekday jobs compare objective federal metadata; a Sunday job searches for new federal and state activity and can add advisory AI classifications. Both write raw snapshots and open pull requests only. Every machine-authored proposal includes confidence, uncertainty flags, citations or verification requirements, and a mandatory human-review marker.
+Friday jobs compare objective federal metadata and search for new federal and state activity, with the discovery job optionally adding advisory AI classifications. Both write raw snapshots and open pull requests only. Every machine-authored proposal includes confidence, uncertainty flags, citations or verification requirements, and a human-review marker.
 
-The default Actions token remains read-only. PR creation uses a short-lived token from a repository GitHub App limited to contents and pull requests. No workflow may merge itself or push to `main`. See [controlled automation](docs/controlled-automation.md) for secrets, schedules, failure recovery, and the review boundary.
+The default Actions token remains read-only. PR creation uses a short-lived token from a repository GitHub App limited to contents and pull requests. No workflow may merge itself or push to `main`; the `Validate` check remains required even though an approving review is optional. See [controlled automation](docs/controlled-automation.md) for secrets, schedules, failure recovery, and the review boundary.
 
 For a manual Open States discovery run:
 
