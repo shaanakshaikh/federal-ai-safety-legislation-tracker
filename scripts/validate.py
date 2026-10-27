@@ -6,11 +6,12 @@ from datetime import date
 from urllib.parse import urlparse
 from build import ROOT, load_records
 
-REQUIRED = {"record_id", "measure_id", "title", "entity_type", "jurisdiction", "chamber", "scope", "primary_category", "status", "lifecycle_status", "last_verified_date", "sources", "claim_provenance"}
+REQUIRED = {"record_id", "measure_id", "title", "entity_type", "jurisdiction", "chamber", "scope", "primary_category", "status", "lifecycle_status", "advance_tier", "last_verified_date", "sources", "claim_provenance"}
 ENTITY_TYPES = {"bill", "amendment", "provision", "law"}
 LIFECYCLES = {"introduced", "referred", "committee_consideration", "committee_advanced", "floor", "passed_chamber", "passed_legislature", "enacted", "vetoed", "failed", "withdrawn", "inactive", "unknown"}
 CHAMBERS = {"House", "Senate", "Bicameral", "Executive", "State legislature", "N/A"}
 SCOPES = {"Core", "Adjacent", "Vehicle"}
+OUTLOOKS = {"High", "Medium", "Low", "Enacted", "Dead"}
 RECORD_ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 def fail(message): raise SystemExit(f"validation error: {message}")
@@ -39,6 +40,9 @@ def main():
         if jurisdiction["level"] == "federal" and jurisdiction.get("state") is not None: fail(f"{rid}: federal jurisdiction state must be null")
         if record["lifecycle_status"] not in LIFECYCLES: fail(f"{rid}: invalid lifecycle_status")
         if record["chamber"] not in CHAMBERS or record["scope"] not in SCOPES: fail(f"{rid}: invalid chamber or scope")
+        if record["advance_tier"] not in OUTLOOKS: fail(f"{rid}: invalid advance_tier")
+        if record["lifecycle_status"] == "enacted" and record["advance_tier"] != "Enacted": fail(f"{rid}: enacted records must use Enacted outlook")
+        if record["lifecycle_status"] in {"vetoed", "failed", "withdrawn"} and record["advance_tier"] != "Dead": fail(f"{rid}: final unsuccessful records must use Dead outlook")
         valid_date(record["last_verified_date"], f"{rid}.last_verified_date")
         for key in ("introduced_date", "last_action_date"): valid_date(record.get(key), f"{rid}.{key}", nullable=True)
         if record.get("public_law"):
