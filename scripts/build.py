@@ -9,6 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RECORDS_DIR = ROOT / "data" / "records"
 TEMPLATE = ROOT / "templates" / "index.html"
+SITE_METADATA = ROOT / "data" / "site-metadata.json"
 CSV_COLUMNS = ["record_id", "measure_id", "title", "entity_type", "jurisdiction_level", "jurisdiction_state", "session", "congress", "chamber", "scope", "primary_category", "sponsor", "sponsor_party", "sponsor_state", "cosponsor_count", "committees", "introduced_date", "last_action_date", "lifecycle_status", "status", "public_law_number", "enacted_date", "effective_date", "responsible_agencies", "implementation_status", "advance_tier", "summary", "committee_dynamics", "advance_rationale", "official_url", "last_verified_date", "verification_level"]
 
 
@@ -72,14 +73,19 @@ def record_page(record: dict) -> bytes:
     implementation = record.get("implementation") or {}
     deadline_items = "".join(f'<li><strong>{esc(item.get("date") or "Ongoing")}</strong>: {esc(item.get("requirement"))} — {esc(item.get("status"))}</li>' for item in implementation.get("deadlines", []))
     implementation_section = f'<h2>Implementation</h2><p><strong>Responsible agencies:</strong> {esc(", ".join(implementation.get("responsible_agencies", [])) or "Not specified")}</p><ul>{deadline_items}</ul>' if implementation else ""
-    content = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(record['measure_id'])} — {esc(record['title'])}</title><style>body{{font:16px/1.55 system-ui;max-width:860px;margin:40px auto;padding:0 20px;color:#17252b}}a{{color:#075f72}}dt{{font-weight:700;margin-top:12px}}dd{{margin-left:0}}small{{color:#52656d}}</style></head><body><p><a href="../index.html">← Tracker</a></p><main><p>{esc(record['entity_type'].title())} · {esc(record['jurisdiction']['level'].title())} · {esc(record['lifecycle_status'])}</p><h1>{esc(record['measure_id'])}: {esc(record['title'])}</h1><p>{esc(record['summary'])}</p><dl><dt>Status</dt><dd>{esc(record['status'])}</dd><dt>Session</dt><dd>{esc(record.get('session') or (str(record.get('congress')) + 'th Congress' if record.get('congress') else 'Not captured'))}</dd><dt>Last action</dt><dd>{esc(record.get('last_action'))}</dd><dt>Primary category</dt><dd>{esc(record['primary_category'])}</dd><dt>Last verified</dt><dd>{esc(record['last_verified_date'])}</dd></dl>{implementation_section}<h2>Sources</h2><ul>{source_items}</ul><h2>Claim provenance</h2><ul>{claim_items}</ul></main></body></html>'''
+    content = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="../favicon.svg" type="image/svg+xml"><title>{esc(record['measure_id'])} — {esc(record['title'])}</title><style>body{{font:16px/1.55 system-ui;max-width:860px;margin:40px auto;padding:0 20px;color:#17252b}}a{{color:#075f72}}dt{{font-weight:700;margin-top:12px}}dd{{margin-left:0}}small{{color:#52656d}}</style></head><body><p><a href="../index.html">← Tracker</a></p><main><p>{esc(record['entity_type'].title())} · {esc(record['jurisdiction']['level'].title())} · {esc(record['lifecycle_status'])}</p><h1>{esc(record['measure_id'])}: {esc(record['title'])}</h1><p>{esc(record['summary'])}</p><dl><dt>Status</dt><dd>{esc(record['status'])}</dd><dt>Session</dt><dd>{esc(record.get('session') or (str(record.get('congress')) + 'th Congress' if record.get('congress') else 'Not captured'))}</dd><dt>Last action</dt><dd>{esc(record.get('last_action'))}</dd><dt>Primary category</dt><dd>{esc(record['primary_category'])}</dd><dt>Last verified</dt><dd>{esc(record['last_verified_date'])}</dd></dl>{implementation_section}<h2>Sources</h2><ul>{source_items}</ul><h2>Claim provenance</h2><ul>{claim_items}</ul></main></body></html>'''
     return content.encode()
 
 
 def outputs(records_with_meta: list[dict]) -> dict[Path, bytes]:
     records = [public_record(record) for record in records_with_meta]
     compact = json.dumps(records, ensure_ascii=False, separators=(",", ":"))
-    site = TEMPLATE.read_text(encoding="utf-8").replace("__RECORDS_JSON__", compact)
+    metadata = json.loads(SITE_METADATA.read_text(encoding="utf-8"))
+    verified = metadata["verified_through"]
+    verified_display = f"{['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'][int(verified[5:7])-1]} {int(verified[8:10])}, {verified[:4]}"
+    site = (TEMPLATE.read_text(encoding="utf-8")
+            .replace("__RECORDS_JSON__", compact)
+            .replace("__VERIFIED_THROUGH_DISPLAY__", verified_display))
     site = re.sub(r'(<div class="num" id="metricTotal">).*?(</div>)', rf'\g<1>{len(records)}\2', site)
     site = re.sub(r'(<strong id="resultCount">).*?(</strong>)', rf'\g<1>{len(records)}\2', site)
     site = site.replace('<strong id="metricTierTotal">36</strong>', f'<strong id="metricTierTotal">{len(records)}</strong>')

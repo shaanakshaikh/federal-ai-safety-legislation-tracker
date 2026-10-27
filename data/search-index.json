@@ -189,6 +189,34 @@
     "text": "h-r-9925 h.r. 9925 frontier act bill core monitoring, disclosure & reporting introduced / referred referred creates a federal framework for covered frontier-model developers using compute and developer-size thresholds. it combines risk-management duties, third-party audits, mandatory incident reporting, emergency authority, and targeted state-law preemption with savings clauses.   incident reporting evaluation / audit emergency controls federal preemption energy and commerce committee science, space, and technology committee jay obernolte"
   },
   {
+    "record_id": "il-sb-315-2025",
+    "measure_id": "IL SB 315 (2025)",
+    "title": "Artificial Intelligence Safety Measures Act",
+    "url": "pages/il-sb-315-2025.html",
+    "text": "il-sb-315-2025 il sb 315 (2025) artificial intelligence safety measures act law core frontier-model & national security enacted — public act 104-0538 enacted requires large frontier developers to maintain and publish frontier-ai safety frameworks, publish transparency reports, assess catastrophic risks, undergo annual independent audits, report critical safety incidents, and protect covered whistleblowers. the illinois emergency management agency and office of homeland security administer reporting and guidance in consultation with the attorney general. 104th general assembly (2025-2026)  safety frameworks catastrophic risk critical incident reporting third-party audits whistleblower protection senate executive committee mary edly-allen il illinois emergency management agency and office of homeland security illinois attorney general"
+  },
+  {
+    "record_id": "il-sb-3444-2026",
+    "measure_id": "IL SB 3444 (2026)",
+    "title": "Artificial Intelligence Safety Act",
+    "url": "pages/il-sb-3444-2026.html",
+    "text": "il-sb-3444-2026 il sb 3444 (2026) artificial intelligence safety act bill core frontier-model & national security re-referred to assignments referred would create a liability safe harbor for frontier-model developers that publish safety and security protocols and transparency reports, with alternative compliance available through qualifying european union requirements or a federal agreement. the state requirements would sunset if overlapping federal requirements take effect. 104th general assembly (2025-2026)  safety frameworks transparency reports regulatory interoperability federal preemption trigger senate assignments committee senate executive committee — ai and social media subcommittee bill cunningham il"
+  },
+  {
+    "record_id": "ma-h-97-2025",
+    "measure_id": "MA H.97 (2025)",
+    "title": "An Act protecting consumers in interactions with artificial intelligence systems",
+    "url": "pages/ma-h-97-2025.html",
+    "text": "ma-h-97-2025 ma h.97 (2025) an act protecting consumers in interactions with artificial intelligence systems bill adjacent high-risk ai governance referred to house ways and means committee_advanced would require developers and deployers of high-risk ai systems used in consequential decisions to manage discrimination risks, perform impact assessments, make disclosures, notify affected consumers, and provide explanation and appeal processes, with enforcement by the attorney general. 194th general court (2025-2026)  algorithmic discrimination risk management impact assessments consumer notice and appeal joint committee on advanced information technology, the internet and cybersecurity house committee on ways and means david m. rogers and andres x. vargas ma"
+  },
+  {
+    "record_id": "ma-s-2630-2025",
+    "measure_id": "MA S.2630 (2025)",
+    "title": "An Act promoting economic development with emerging artificial intelligence models and safety",
+    "url": "pages/ma-s-2630-2025.html",
+    "text": "ma-s-2630-2025 ma s.2630 (2025) an act promoting economic development with emerging artificial intelligence models and safety bill core frontier-model & national security referred to senate ways and means committee_advanced would regulate covered frontier models through safety and security protocols, catastrophic-risk controls, incident investigations and reporting, whistleblower protections, and enforcement by the attorney general. it also establishes duties for large computing clusters and creates an ai innovation fund. 194th general court (2025-2026)  catastrophic risk safety protocols critical incident reporting compute-cluster controls whistleblower protection joint committee on advanced information technology, the internet and cybersecurity senate committee on ways and means joint committee on advanced information technology, the internet and cybersecurity ma"
+  },
+  {
     "record_id": "ny-s-6953b-2025",
     "measure_id": "NY S6953B",
     "title": "Responsible AI Safety and Education Act",

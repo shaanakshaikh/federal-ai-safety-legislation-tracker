@@ -1,0 +1,46 @@
+{
+  "record_id": "il-sb-315-2025",
+  "entity_type": "law",
+  "jurisdiction": {"country": "US", "level": "state", "state": "IL"},
+  "lifecycle_status": "enacted",
+  "measure_id": "IL SB 315 (2025)",
+  "title": "Artificial Intelligence Safety Measures Act",
+  "session": "104th General Assembly (2025-2026)",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": ["Safety frameworks", "Catastrophic risk", "Critical incident reporting", "Third-party audits", "Whistleblower protection"],
+  "sponsor": "Mary Edly-Allen",
+  "sponsor_party": "D",
+  "sponsor_state": "IL",
+  "cosponsor_count": null,
+  "notable_cosponsors": ["Sue Rezin", "Rachel Ventura", "Darby A. Hills", "Karina Villa"],
+  "committees": ["Senate Executive Committee"],
+  "introduced_date": "2025-01-24",
+  "last_action_date": "2026-07-06",
+  "last_action": "Governor approved; enacted as Public Act 104-0538 with an effective date of January 1, 2027.",
+  "status": "Enacted — Public Act 104-0538",
+  "status_bucket": "Enacted",
+  "summary": "Requires large frontier developers to maintain and publish frontier-AI safety frameworks, publish transparency reports, assess catastrophic risks, undergo annual independent audits, report critical safety incidents, and protect covered whistleblowers. The Illinois Emergency Management Agency and Office of Homeland Security administer reporting and guidance in consultation with the Attorney General.",
+  "committee_dynamics": "Illinois enacted a comprehensive frontier-model safety law after bipartisan sponsorship and passage through both chambers. Its framework, audit, incident-reporting, and enforcement provisions make it a core state safety measure.",
+  "advance_tier": "N/A",
+  "advance_rationale": "Enacted state law.",
+  "official_url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=315&DocTypeID=SB&GA=104&GAID=18&SessionID=114",
+  "state_law": {"chapter": "Public Act 104-0538", "enacted_date": "2026-07-06", "effective_date": "2027-01-01"},
+  "implementation": {
+    "responsible_agencies": ["Illinois Emergency Management Agency and Office of Homeland Security", "Illinois Attorney General"],
+    "deadlines": [{"date": "2027-01-01", "requirement": "The Artificial Intelligence Safety Measures Act takes effect.", "status": "upcoming", "source_ids": ["il-sb315-status", "il-pa104-0538"]}],
+    "agency_status": [{"agency": "Illinois Emergency Management Agency and Office of Homeland Security", "status": "planning", "as_of": "2026-10-27", "detail": "The law has been enacted but is not yet effective; this record does not identify a published implementation report as of the verification date.", "source_ids": ["il-sb315-status", "il-pa104-0538"]}]
+  },
+  "last_verified_date": "2026-10-27",
+  "verification_level": "Official legislature and public-act text verified.",
+  "sources": [
+    {"source_id": "il-sb315-status", "title": "SB 315 bill status", "publisher": "Illinois General Assembly", "source_type": "official", "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=315&DocTypeID=SB&GA=104&GAID=18&SessionID=114", "accessed_date": "2026-10-27"},
+    {"source_id": "il-pa104-0538", "title": "Public Act 104-0538", "publisher": "Illinois General Assembly", "source_type": "official", "url": "https://www.ilga.gov/documents/legislation/PublicActs/104/104-0538.htm", "accessed_date": "2026-10-27"}
+  ],
+  "claim_provenance": [
+    {"claim_id": "identity-and-lifecycle", "fields": ["measure_id", "title", "entity_type", "jurisdiction", "session", "sponsor", "status", "lifecycle_status", "state_law"], "source_ids": ["il-sb315-status", "il-pa104-0538"]},
+    {"claim_id": "substance-and-implementation", "fields": ["summary", "primary_category", "secondary_categories", "implementation"], "source_ids": ["il-sb315-status", "il-pa104-0538"]}
+  ]
+}

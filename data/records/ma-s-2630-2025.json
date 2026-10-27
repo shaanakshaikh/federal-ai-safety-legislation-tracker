@@ -1,0 +1,40 @@
+{
+  "record_id": "ma-s-2630-2025",
+  "entity_type": "bill",
+  "jurisdiction": {"country": "US", "level": "state", "state": "MA"},
+  "lifecycle_status": "committee_advanced",
+  "measure_id": "MA S.2630 (2025)",
+  "title": "An Act promoting economic development with emerging artificial intelligence models and safety",
+  "session": "194th General Court (2025-2026)",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": ["Catastrophic risk", "Safety protocols", "Critical incident reporting", "Compute-cluster controls", "Whistleblower protection"],
+  "sponsor": "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+  "sponsor_party": null,
+  "sponsor_state": "MA",
+  "cosponsor_count": null,
+  "notable_cosponsors": ["Barry R. Finegold (original S.37 petitioner)"],
+  "committees": ["Joint Committee on Advanced Information Technology, the Internet and Cybersecurity", "Senate Committee on Ways and Means"],
+  "introduced_date": "2025-10-16",
+  "last_action_date": "2025-10-16",
+  "last_action": "Reported favorably as a new draft of S.37 and referred to the Senate Committee on Ways and Means.",
+  "status": "Referred to Senate Ways and Means",
+  "status_bucket": "Pending",
+  "summary": "Would regulate covered frontier models through safety and security protocols, catastrophic-risk controls, incident investigations and reporting, whistleblower protections, and enforcement by the Attorney General. It also establishes duties for large computing clusters and creates an AI innovation fund.",
+  "committee_dynamics": "The joint technology committee replaced S.37 with this favorable new draft and sent it to Senate Ways and Means. It is Massachusetts's most direct pending frontier-model safety proposal in the current session.",
+  "advance_tier": "Medium",
+  "advance_rationale": "The bill received a favorable committee report but has not advanced beyond Senate Ways and Means.",
+  "official_url": "https://malegislature.gov/Bills/194/S2630",
+  "last_verified_date": "2026-10-27",
+  "verification_level": "Official legislature status and bill text verified.",
+  "sources": [
+    {"source_id": "ma-s2630-status", "title": "Bill S.2630 status", "publisher": "Massachusetts General Court", "source_type": "official", "url": "https://malegislature.gov/Bills/194/S2630", "accessed_date": "2026-10-27"},
+    {"source_id": "ma-s2630-text", "title": "Bill S.2630 text", "publisher": "Massachusetts General Court", "source_type": "official", "url": "https://malegislature.gov/Bills/194/S2630/Senate/Bill/Text", "accessed_date": "2026-10-27"}
+  ],
+  "claim_provenance": [
+    {"claim_id": "identity-and-lifecycle", "fields": ["measure_id", "title", "entity_type", "jurisdiction", "session", "sponsor", "committees", "status", "lifecycle_status"], "source_ids": ["ma-s2630-status"]},
+    {"claim_id": "substance-and-analysis", "fields": ["summary", "primary_category", "secondary_categories", "committee_dynamics", "advance_tier", "advance_rationale"], "source_ids": ["ma-s2630-status", "ma-s2630-text"]}
+  ]
+}
