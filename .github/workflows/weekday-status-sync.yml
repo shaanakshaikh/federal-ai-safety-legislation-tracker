@@ -1,13 +1,13 @@
-name: Weekday metadata synchronization
+name: Weekly metadata synchronization
 
 on:
   schedule:
-    - cron: "23 8 * * 1-5"
+    - cron: "23 8 * * 5"
       timezone: "America/New_York"
   workflow_dispatch:
 
 concurrency:
-  group: weekday-metadata-synchronization
+  group: weekly-metadata-synchronization
   cancel-in-progress: false
 
 permissions:

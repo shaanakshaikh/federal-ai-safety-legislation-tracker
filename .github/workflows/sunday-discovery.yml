@@ -1,8 +1,8 @@
-name: Sunday comprehensive discovery
+name: Friday comprehensive discovery
 
 on:
   schedule:
-    - cron: "23 8 * * 0"
+    - cron: "23 9 * * 5"
       timezone: "America/New_York"
   workflow_dispatch:
     inputs:
@@ -12,7 +12,7 @@ on:
         default: "8"
 
 concurrency:
-  group: sunday-comprehensive-discovery
+  group: friday-comprehensive-discovery
   cancel-in-progress: false
 
 permissions:
