@@ -1,0 +1,103 @@
+{
+  "record_id": "s-4178-118",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "S. 4178",
+  "title": "Future of Artificial Intelligence Innovation Act of 2024",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Federal AI capacity",
+  "secondary_categories": [
+    "AI Safety Institute",
+    "Standards",
+    "Evaluation tools"
+  ],
+  "sponsor": "Maria Cantwell",
+  "sponsor_party": "D",
+  "sponsor_state": "WA",
+  "cosponsor_count": 8,
+  "notable_cosponsors": [],
+  "committees": [
+    "Senate Commerce, Science, and Transportation"
+  ],
+  "introduced_date": "2024-04-18",
+  "last_action_date": "2024-12-18",
+  "last_action": "Reported by the Senate Committee on Commerce, Science, and Transportation with an amendment.",
+  "status": "Reported by Senate committee; expired at the end of the 118th Congress",
+  "status_bucket": "Inactive",
+  "summary": "Would have authorized federal artificial intelligence standards, metrics, evaluation tools, research capacity, and testbeds centered on NIST and the U.S. AI Safety Institute.",
+  "committee_dynamics": "The bipartisan committee-reported bill would have supplied durable statutory support for federal AI evaluation capacity, but it did not reach enactment.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+  "congress": 118,
+  "session": "118th Congress",
+  "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s4178rs",
+  "last_verified_date": "2026-10-27",
+  "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+  "sources": [
+    {
+      "source_id": "official-govinfo",
+      "title": "GovInfo official record for S. 4178",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118s4178rs",
+      "accessed_date": "2026-10-27"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date",
+        "congress",
+        "session"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ],
+      "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ],
+      "note": "Tracker classification and synthesis based on the official bill record and text."
+    }
+  ]
+}

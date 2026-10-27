@@ -1,0 +1,103 @@
+{
+  "record_id": "s-3696-118",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "S. 3696",
+  "title": "DEFIANCE Act of 2024",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "secondary_categories": [
+    "Intimate digital forgeries",
+    "Civil remedies",
+    "Deepfakes"
+  ],
+  "sponsor": "Dick Durbin",
+  "sponsor_party": "D",
+  "sponsor_state": "IL",
+  "cosponsor_count": null,
+  "notable_cosponsors": [],
+  "committees": [
+    "Senate Judiciary"
+  ],
+  "introduced_date": "2024-01-30",
+  "last_action_date": "2024-07-23",
+  "last_action": "Passed the Senate and was engrossed.",
+  "status": "Passed Senate; expired at the end of the 118th Congress",
+  "status_bucket": "Inactive",
+  "summary": "Would have expanded civil relief for people harmed by nonconsensual intimate digital forgeries, including AI-generated or manipulated sexual imagery.",
+  "committee_dynamics": "Senate passage showed significant support for a targeted remedy, but the measure did not complete House action before the Congress ended.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+  "congress": 118,
+  "session": "118th Congress",
+  "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s3696es",
+  "last_verified_date": "2026-10-27",
+  "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+  "sources": [
+    {
+      "source_id": "official-govinfo",
+      "title": "GovInfo official record for S. 3696",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118s3696es",
+      "accessed_date": "2026-10-27"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date",
+        "congress",
+        "session"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ],
+      "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ],
+      "note": "Tracker classification and synthesis based on the official bill record and text."
+    }
+  ]
+}
