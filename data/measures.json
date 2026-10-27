@@ -33,7 +33,7 @@
     "status_bucket": "Vetoed",
     "summary": "Would have required developers of covered large AI models and certain compute providers to adopt safeguards and policies intended to prevent catastrophic harm and would have created a state frontier-model oversight body.",
     "committee_dynamics": "The bill passed both chambers but was vetoed; it remains important as the policy precursor to California SB 53.",
-    "advance_tier": "N/A",
+    "advance_tier": "Dead",
     "advance_rationale": "Final disposition: vetoed.",
     "official_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202320240SB1047",
     "last_verified_date": "2026-09-20",
@@ -112,7 +112,7 @@
     "status_bucket": "Enacted",
     "summary": "Requires covered large frontier developers to publish safety frameworks, creates critical-safety-incident reporting to the state, protects specified whistleblowers, and establishes CalCompute-related public-compute planning.",
     "committee_dynamics": "California enacted a narrower successor to vetoed SB 1047, emphasizing disclosure, incident reporting, and whistleblower protection.",
-    "advance_tier": "N/A",
+    "advance_tier": "Enacted",
     "advance_rationale": "Enacted state law.",
     "official_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB53",
     "state_law": {
@@ -239,7 +239,7 @@
     "status_bucket": "Enacted",
     "summary": "Requires developers and deployers of high-risk AI systems to use reasonable care against known or reasonably foreseeable algorithmic-discrimination risks, publish specified disclosures, complete impact assessments, and report certain discovered risks.",
     "committee_dynamics": "Colorado enacted the first broad U.S. state framework centered on consequential high-risk systems; it is included as an adjacent, enforceable risk-management law.",
-    "advance_tier": "N/A",
+    "advance_tier": "Enacted",
     "advance_rationale": "Enacted state law.",
     "official_url": "https://leg.colorado.gov/bills/sb24-205",
     "state_law": {
@@ -3184,7 +3184,7 @@
     "status_bucket": "Enacted",
     "summary": "Requires large frontier developers to maintain and publish frontier-AI safety frameworks, publish transparency reports, assess catastrophic risks, undergo annual independent audits, report critical safety incidents, and protect covered whistleblowers. The Illinois Emergency Management Agency and Office of Homeland Security administer reporting and guidance in consultation with the Attorney General.",
     "committee_dynamics": "Illinois enacted a comprehensive frontier-model safety law after bipartisan sponsorship and passage through both chambers. Its framework, audit, incident-reporting, and enforcement provisions make it a core state safety measure.",
-    "advance_tier": "N/A",
+    "advance_tier": "Enacted",
     "advance_rationale": "Enacted state law.",
     "official_url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=315&DocTypeID=SB&GA=104&GAID=18&SessionID=114",
     "state_law": {
@@ -3593,7 +3593,7 @@
     "status_bucket": "Enacted",
     "summary": "Requires covered frontier-model developers to publish information about safety protocols and report specified critical-harm incidents to New York within 72 hours; it also creates a frontier-model oversight office within the Department of Financial Services.",
     "committee_dynamics": "The final enacted framework was negotiated to emphasize transparency and incident reporting for the largest frontier developers.",
-    "advance_tier": "N/A",
+    "advance_tier": "Enacted",
     "advance_rationale": "Enacted state law.",
     "official_url": "https://www.nysenate.gov/legislation/bills/2025/S6953/amendment/B",
     "state_law": {
@@ -3711,7 +3711,7 @@
     "status_bucket": "Enacted",
     "summary": "Directs the Chief Digital and Artificial Intelligence Officer Governing Council to identify and assess AI models that could pose national-security risk if accessed by an adversary, develop strategies against unauthorized adversary access and use, and recommend legislative or administrative action.",
     "committee_dynamics": "The provision was enacted through the annual defense authorization process.",
-    "advance_tier": "N/A",
+    "advance_tier": "Enacted",
     "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
     "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ159",
     "public_law": {
@@ -3821,7 +3821,7 @@
     "status_bucket": "Enacted",
     "summary": "A curated group of FY2024 NDAA provisions addressing generative-AI detection and watermarking, responsible-AI processes, explainable military AI, and assessment of model and advanced-AI technologies that could pose national-security risks.",
     "committee_dynamics": "The provisions moved through the annual defense-authorization vehicle rather than as a standalone AI statute.",
-    "advance_tier": "N/A",
+    "advance_tier": "Enacted",
     "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
     "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ31",
     "public_law": {
@@ -3949,7 +3949,7 @@
     "status_bucket": "Enacted",
     "summary": "Criminalizes specified nonconsensual publication of intimate visual depictions, including AI-created digital forgeries, and requires covered platforms to operate a notice-and-removal process and remove validly reported content and known identical copies within 48 hours.",
     "committee_dynamics": "The bill passed both chambers and became the first standalone federal law in this starter set with an express operational duty covering AI-generated intimate imagery.",
-    "advance_tier": "N/A",
+    "advance_tier": "Enacted",
     "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
     "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ12",
     "public_law": {
@@ -4083,7 +4083,7 @@
     "status_bucket": "Enacted",
     "summary": "Directs the Department of Energy to mobilize national laboratories and industry partners to curate scientific data and support transformational AI models, with security and privacy requirements for shared research infrastructure.",
     "committee_dynamics": "The provision moved in a large reconciliation law and is included as adjacent federal capacity with security-relevant data controls.",
-    "advance_tier": "N/A",
+    "advance_tier": "Enacted",
     "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
     "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ21",
     "public_law": {
@@ -4209,7 +4209,7 @@
     "status_bucket": "Enacted",
     "summary": "Authorizes Defense Department AI research institutes that may maintain secure and privacy-protected datasets, develop predeployment testbeds, conduct national-security AI research, and provide compute and technical support.",
     "committee_dynamics": "The authority was enacted through the FY2026 defense authorization vehicle.",
-    "advance_tier": "N/A",
+    "advance_tier": "Enacted",
     "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
     "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ60",
     "public_law": {
@@ -5713,7 +5713,7 @@
     "status_bucket": "Enacted",
     "summary": "Expands Tennessee's protected personal rights to include voice and strengthens remedies against unauthorized commercial exploitation of a person's name, image, likeness, or voice, including harms enabled by generative AI and synthetic media.",
     "committee_dynamics": "The measure passed both chambers unanimously and is included as a targeted synthetic-media and impersonation protection.",
-    "advance_tier": "N/A",
+    "advance_tier": "Enacted",
     "advance_rationale": "Enacted state law.",
     "official_url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2091&ga=113",
     "state_law": {
@@ -5828,7 +5828,7 @@
     "status_bucket": "Enacted",
     "summary": "Creates a statewide AI governance framework with disclosure duties for specified governmental and health-care uses, prohibitions on certain harmful or unlawful development and deployment, biometric protections, civil penalties, and a state regulatory sandbox.",
     "committee_dynamics": "Texas narrowed an earlier comprehensive proposal but retained enforceable prohibited-use, disclosure, and public-sector provisions.",
-    "advance_tier": "N/A",
+    "advance_tier": "Enacted",
     "advance_rationale": "Enacted state law.",
     "official_url": "https://capitol.texas.gov/billlookup/History.aspx?Bill=HB149&LegSess=89R",
     "state_law": {

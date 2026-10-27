@@ -3,7 +3,7 @@
   "$id": "https://github.com/shaanakshaikh/federal-ai-safety-legislation-tracker/raw/main/schema/record.schema.json",
   "title": "Legislation tracker canonical record",
   "type": "object",
-  "required": ["record_id", "measure_id", "title", "entity_type", "jurisdiction", "chamber", "scope", "primary_category", "status", "lifecycle_status", "last_verified_date", "sources", "claim_provenance"],
+  "required": ["record_id", "measure_id", "title", "entity_type", "jurisdiction", "chamber", "scope", "primary_category", "status", "lifecycle_status", "advance_tier", "last_verified_date", "sources", "claim_provenance"],
   "properties": {
     "record_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
     "measure_id": {"type": "string", "minLength": 1},
@@ -11,6 +11,7 @@
     "entity_type": {"enum": ["bill", "amendment", "provision", "law"]},
     "jurisdiction": {"type": "object", "required": ["country", "level", "state"], "properties": {"country": {"const": "US"}, "level": {"enum": ["federal", "state"]}, "state": {"type": ["string", "null"], "pattern": "^[A-Z]{2}$"}}, "additionalProperties": false},
     "lifecycle_status": {"enum": ["introduced", "referred", "committee_consideration", "committee_advanced", "floor", "passed_chamber", "passed_legislature", "enacted", "vetoed", "failed", "withdrawn", "inactive", "unknown"]},
+    "advance_tier": {"enum": ["High", "Medium", "Low", "Enacted", "Dead"]},
     "session": {"type": "string", "minLength": 1},
     "congress": {"type": "integer", "minimum": 1},
     "public_law": {"type": "object", "required": ["number", "enacted_date", "originating_bill", "official_url"], "properties": {"number": {"type": "string"}, "enacted_date": {"type": "string", "format": "date"}, "originating_bill": {"type": "string"}, "statutes_at_large": {"type": ["string", "null"]}, "official_url": {"type": "string", "format": "uri"}}, "additionalProperties": false},
