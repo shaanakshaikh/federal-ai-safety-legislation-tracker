@@ -18,3 +18,4 @@ Describe the change and why it belongs in the tracker.
 - [ ] I did not add credentials, private data, or copyrighted third-party text.
 - [ ] I resolved or explicitly accepted every `agent_flag` and verified machine-authored claims against cited official sources.
 - [ ] This pull request requires a human merge; auto-merge is not enabled.
+- [ ] If this was a comprehensive verification run, I updated `data/site-metadata.json` so the public “Verified through” date matches the review date.
