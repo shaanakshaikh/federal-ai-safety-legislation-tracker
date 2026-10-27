@@ -26,21 +26,7 @@
   "cosponsor_count": 1,
   "notable_cosponsors": [],
   "committees": [
-    "Appropriations Committee",
-    "Armed Services Committee",
-    "Budget Committee",
-    "Education and Workforce Committee",
-    "Energy and Commerce Committee",
-    "Homeland Security Committee",
-    "Intelligence (Permanent Select) Committee",
-    "Judiciary Committee",
-    "Natural Resources Committee",
-    "Oversight and Government Reform Committee",
-    "Science, Space, and Technology Committee",
-    "Small Business Committee",
-    "Transportation and Infrastructure Committee",
-    "Veterans' Affairs Committee",
-    "Ways and Means Committee"
+    "House Armed Services"
   ],
   "introduced_date": "2026-05-13",
   "last_action_date": "2026-09-14",
@@ -53,7 +39,7 @@
   "advance_rationale": "Annual NDAA enactment pressure and active floor processing make material AI-security movement likely.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
   "last_verified_date": "2026-10-27",
-  "verification_level": "Official API metadata synchronized; human review pending",
+  "verification_level": "Official congressional metadata and committee referral checked by a human editor",
   "sources": [
     {
       "source_id": "official-congress",
@@ -110,23 +96,6 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
-    },
-    {
-      "claim_id": "automated-objective-metadata",
-      "fields": [
-        "cosponsor_count"
-      ],
-      "source_ids": [
-        "official-congress"
-      ],
-      "note": "Machine-synchronized from the official API; human review required before merge."
     }
-  ],
-  "agent_confidence": 1.0,
-  "agent_flags": [
-    "objective-metadata-sync"
-  ],
-  "requires_human_review": true,
-  "automation_workflow": "weekday-status-sync",
-  "automation_generated_at": "2026-10-27T18:09:52Z"
+  ]
 }

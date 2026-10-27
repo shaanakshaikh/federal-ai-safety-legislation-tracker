@@ -1,0 +1,103 @@
+{
+  "record_id": "s-4495-118",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "S. 4495",
+  "title": "PREPARED for AI Act",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Defense, intelligence & procurement",
+  "secondary_categories": [
+    "Federal procurement",
+    "Impact assessments",
+    "Incident reporting"
+  ],
+  "sponsor": "Gary Peters",
+  "sponsor_party": "D",
+  "sponsor_state": "MI",
+  "cosponsor_count": 1,
+  "notable_cosponsors": [],
+  "committees": [
+    "Senate Homeland Security and Governmental Affairs"
+  ],
+  "introduced_date": "2024-06-11",
+  "last_action_date": "2024-12-16",
+  "last_action": "Reported by the Senate Committee on Homeland Security and Governmental Affairs with an amendment.",
+  "status": "Reported by Senate committee; expired at the end of the 118th Congress",
+  "status_bucket": "Inactive",
+  "summary": "Would have required federal agencies to manage artificial intelligence procurement and use through impact assessments, testing, monitoring, incident reporting, and common acquisition practices.",
+  "committee_dynamics": "The committee-reported bill offered a detailed government-use governance model, but it was not enacted before the 118th Congress ended.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+  "congress": 118,
+  "session": "118th Congress",
+  "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s4495rs",
+  "last_verified_date": "2026-10-27",
+  "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+  "sources": [
+    {
+      "source_id": "official-govinfo",
+      "title": "GovInfo official record for S. 4495",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118s4495rs",
+      "accessed_date": "2026-10-27"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date",
+        "congress",
+        "session"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ],
+      "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ],
+      "note": "Tracker classification and synthesis based on the official bill record and text."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "record_id": "s-4769-118",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "S. 4769",
+  "title": "Validation and Evaluation for Trustworthy (VET) Artificial Intelligence Act",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Testing, evaluation & assurance",
+  "secondary_categories": [
+    "Assurance",
+    "NIST guidance",
+    "Independent evaluation"
+  ],
+  "sponsor": "John Hickenlooper",
+  "sponsor_party": "D",
+  "sponsor_state": "CO",
+  "cosponsor_count": 1,
+  "notable_cosponsors": [],
+  "committees": [
+    "Senate Commerce, Science, and Transportation"
+  ],
+  "introduced_date": "2024-07-24",
+  "last_action_date": "2024-12-18",
+  "last_action": "Reported by the Senate Committee on Commerce, Science, and Transportation with an amendment.",
+  "status": "Reported by Senate committee; expired at the end of the 118th Congress",
+  "status_bucket": "Inactive",
+  "summary": "Would have directed NIST to develop voluntary guidelines for internal and external assurance of artificial intelligence systems.",
+  "committee_dynamics": "The committee-reported measure focused on assurance practices rather than mandatory developer duties and expired without final passage.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+  "congress": 118,
+  "session": "118th Congress",
+  "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s4769rs",
+  "last_verified_date": "2026-10-27",
+  "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+  "sources": [
+    {
+      "source_id": "official-govinfo",
+      "title": "GovInfo official record for S. 4769",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118s4769rs",
+      "accessed_date": "2026-10-27"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date",
+        "congress",
+        "session"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ],
+      "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ],
+      "note": "Tracker classification and synthesis based on the official bill record and text."
+    }
+  ]
+}

@@ -318,6 +318,124 @@
     ]
   },
   {
+    "record_id": "de-aic-draft-2026",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "DE"
+    },
+    "lifecycle_status": "unknown",
+    "measure_id": "DE AIC draft (2026)",
+    "title": "Artificial Intelligence Company initiative (draft proposal)",
+    "chamber": "State legislature",
+    "scope": "Adjacent",
+    "primary_category": "Governance, preemption & regulatory architecture",
+    "secondary_categories": [
+      "Agentic AI",
+      "Corporate governance",
+      "Regulatory sandbox",
+      "Liability"
+    ],
+    "sponsor": null,
+    "sponsor_party": null,
+    "sponsor_state": "DE",
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [
+      "Delaware Artificial Intelligence Commission"
+    ],
+    "introduced_date": null,
+    "last_action_date": "2026-10-26",
+    "last_action": "A congressional oversight letter publicly described the developing Artificial Intelligence Company proposal; no bill had yet been introduced.",
+    "status": "Draft proposal under development; not introduced",
+    "status_bucket": "Pre-introduction",
+    "summary": "Delaware officials are developing a framework for an Artificial Intelligence Company whose AI agent could perform day-to-day corporate operations, potentially with new governance and liability rules. The proposal is not yet introduced legislation.",
+    "committee_dynamics": "The initiative grows out of Delaware's agentic-AI regulatory-sandbox work under H.J.R. 7. Because no bill text has been introduced, its final governance, transparency, liability, and safety provisions remain uncertain.",
+    "advance_tier": "Low",
+    "advance_rationale": "The proposal has official state-policy groundwork but no introduced bill text or formal legislative pathway yet.",
+    "session": "153rd General Assembly",
+    "official_url": "https://oversight.house.gov/release/comer-investigates-potential-for-harm-lack-of-transparency-in-delaware-initiative-to-create-new-artificial-intelligence-companies/",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official sources confirm the initiative and precursor work; bill text has not been introduced",
+    "sources": [
+      {
+        "source_id": "house-oversight-2026",
+        "title": "Comer Investigates Potential for Harm, Lack of Transparency in Delaware Initiative to Create New Artificial Intelligence Companies",
+        "publisher": "U.S. House Committee on Oversight and Government Reform",
+        "source_type": "official",
+        "url": "https://oversight.house.gov/release/comer-investigates-potential-for-harm-lack-of-transparency-in-delaware-initiative-to-create-new-artificial-intelligence-companies/",
+        "accessed_date": "2026-10-27"
+      },
+      {
+        "source_id": "de-hjr7",
+        "title": "Delaware H.J.R. 7 official bill detail",
+        "publisher": "Delaware General Assembly",
+        "source_type": "official",
+        "url": "https://legis.delaware.gov/BillDetail?legislationId=142629",
+        "accessed_date": "2026-10-27"
+      },
+      {
+        "source_id": "de-ai-report-2025",
+        "title": "Delaware Artificial Intelligence Commission Annual Report 2025",
+        "publisher": "State of Delaware",
+        "source_type": "official",
+        "url": "https://ai.delaware.gov/wp-content/blogs.dir/229/files/sites/229/2025/12/Delaware-Artificial-Intelligence-Commission-Annual-Report-2025.pdf",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "session"
+        ],
+        "source_ids": [
+          "house-oversight-2026",
+          "de-hjr7"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "house-oversight-2026",
+          "de-ai-report-2025"
+        ],
+        "note": "The proposal is tracked as unknown/pre-introduction because no introduced bill record or bill text was available."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "house-oversight-2026",
+          "de-hjr7",
+          "de-ai-report-2025"
+        ],
+        "note": "Tracker synthesis; details may change if formal bill text is introduced."
+      }
+    ]
+  },
+  {
     "record_id": "fy27-house-cjs-approp",
     "entity_type": "bill",
     "jurisdiction": {
@@ -633,6 +751,110 @@
     "requires_human_review": true,
     "automation_workflow": "weekday-status-sync",
     "automation_generated_at": "2026-10-27T18:07:29Z"
+  },
+  {
+    "record_id": "h-r-2894-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "H.R. 2894",
+    "title": "Block Nuclear Launch by Autonomous Artificial Intelligence Act of 2023",
+    "chamber": "House",
+    "scope": "Core",
+    "primary_category": "Defense, intelligence & procurement",
+    "secondary_categories": [
+      "Nuclear command",
+      "Human control",
+      "Autonomous systems"
+    ],
+    "sponsor": "Ted Lieu",
+    "sponsor_party": "D",
+    "sponsor_state": "CA",
+    "cosponsor_count": 2,
+    "notable_cosponsors": [],
+    "committees": [
+      "House Armed Services",
+      "House Foreign Affairs"
+    ],
+    "introduced_date": "2023-04-26",
+    "last_action_date": "2023-04-26",
+    "last_action": "Introduced and referred to the House Committees on Armed Services and Foreign Affairs.",
+    "status": "Referred to House committees; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "House bill that would have barred autonomous nuclear launch without meaningful human control.",
+    "committee_dynamics": "The bipartisan proposal framed human control over nuclear weapons as a statutory AI safety requirement but expired without further action.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118hr2894ih",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for H.R. 2894",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118hr2894ih",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
   },
   {
     "record_id": "h-r-3029",
@@ -1458,6 +1680,109 @@
     "automation_generated_at": "2026-10-27T18:09:33Z"
   },
   {
+    "record_id": "h-r-5628-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "H.R. 5628",
+    "title": "Algorithmic Accountability Act of 2023",
+    "chamber": "House",
+    "scope": "Core",
+    "primary_category": "High-risk AI governance",
+    "secondary_categories": [
+      "Impact assessments",
+      "Consequential decisions",
+      "FTC"
+    ],
+    "sponsor": "Yvette Clarke",
+    "sponsor_party": "D",
+    "sponsor_state": "NY",
+    "cosponsor_count": 14,
+    "notable_cosponsors": [],
+    "committees": [
+      "House Energy and Commerce"
+    ],
+    "introduced_date": "2023-09-21",
+    "last_action_date": "2023-09-21",
+    "last_action": "Introduced and referred to the House Committee on Energy and Commerce.",
+    "status": "Referred to House committee; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "House companion that would have required impact assessments for automated decision systems used in critical decisions and Federal Trade Commission oversight.",
+    "committee_dynamics": "The proposal supplied a civil-governance counterpart to frontier-model safety bills but did not advance before the Congress ended.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118hr5628ih",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for H.R. 5628",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118hr5628ih",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
     "record_id": "h-r-6304",
     "entity_type": "bill",
     "jurisdiction": {
@@ -1805,6 +2130,110 @@
     "requires_human_review": true,
     "automation_workflow": "weekday-status-sync",
     "automation_generated_at": "2026-10-27T18:09:42Z"
+  },
+  {
+    "record_id": "h-r-6936-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "H.R. 6936",
+    "title": "Federal Artificial Intelligence Risk Management Act of 2024",
+    "chamber": "House",
+    "scope": "Core",
+    "primary_category": "Defense, intelligence & procurement",
+    "secondary_categories": [
+      "NIST AI RMF",
+      "Federal agencies",
+      "Risk management"
+    ],
+    "sponsor": "Ted Lieu",
+    "sponsor_party": "D",
+    "sponsor_state": "CA",
+    "cosponsor_count": 3,
+    "notable_cosponsors": [],
+    "committees": [
+      "House Oversight and Accountability",
+      "House Science, Space, and Technology"
+    ],
+    "introduced_date": "2024-01-10",
+    "last_action_date": "2024-01-10",
+    "last_action": "Introduced and referred to the House Committees on Oversight and Accountability and Science, Space, and Technology.",
+    "status": "Referred to House committees; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "House companion that would have required federal agencies to use the NIST AI Risk Management Framework when managing artificial intelligence.",
+    "committee_dynamics": "The bipartisan companion supported a common federal risk-management baseline but expired without committee action.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118hr6936ih",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for H.R. 6936",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118hr6936ih",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
   },
   {
     "record_id": "h-r-7294",
@@ -2313,21 +2742,7 @@
     "cosponsor_count": 1,
     "notable_cosponsors": [],
     "committees": [
-      "Appropriations Committee",
-      "Armed Services Committee",
-      "Budget Committee",
-      "Education and Workforce Committee",
-      "Energy and Commerce Committee",
-      "Homeland Security Committee",
-      "Intelligence (Permanent Select) Committee",
-      "Judiciary Committee",
-      "Natural Resources Committee",
-      "Oversight and Government Reform Committee",
-      "Science, Space, and Technology Committee",
-      "Small Business Committee",
-      "Transportation and Infrastructure Committee",
-      "Veterans' Affairs Committee",
-      "Ways and Means Committee"
+      "House Armed Services"
     ],
     "introduced_date": "2026-05-13",
     "last_action_date": "2026-09-14",
@@ -2340,7 +2755,7 @@
     "advance_rationale": "Annual NDAA enactment pressure and active floor processing make material AI-security movement likely.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
     "last_verified_date": "2026-10-27",
-    "verification_level": "Official API metadata synchronized; human review pending",
+    "verification_level": "Official congressional metadata and committee referral checked by a human editor",
     "sources": [
       {
         "source_id": "official-congress",
@@ -2397,25 +2812,8 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
-      },
-      {
-        "claim_id": "automated-objective-metadata",
-        "fields": [
-          "cosponsor_count"
-        ],
-        "source_ids": [
-          "official-congress"
-        ],
-        "note": "Machine-synchronized from the official API; human review required before merge."
       }
-    ],
-    "agent_confidence": 1.0,
-    "agent_flags": [
-      "objective-metadata-sync"
-    ],
-    "requires_human_review": true,
-    "automation_workflow": "weekday-status-sync",
-    "automation_generated_at": "2026-10-27T18:09:52Z"
+    ]
   },
   {
     "record_id": "h-r-9333",
@@ -2775,6 +3173,112 @@
     "requires_human_review": true,
     "automation_workflow": "weekday-status-sync",
     "automation_generated_at": "2026-10-27T18:09:56Z"
+  },
+  {
+    "record_id": "h-r-9737-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "H.R. 9737",
+    "title": "Secure Artificial Intelligence Act of 2024",
+    "chamber": "House",
+    "scope": "Core",
+    "primary_category": "Cyber, model & infrastructure security",
+    "secondary_categories": [
+      "Security incidents",
+      "Vulnerability reporting",
+      "Federal coordination"
+    ],
+    "sponsor": "Deborah Ross",
+    "sponsor_party": "D",
+    "sponsor_state": "NC",
+    "cosponsor_count": 1,
+    "notable_cosponsors": [],
+    "committees": [
+      "House Science, Space, and Technology",
+      "House Homeland Security",
+      "House Permanent Select Committee on Intelligence",
+      "House Education and the Workforce"
+    ],
+    "introduced_date": "2024-09-20",
+    "last_action_date": "2024-09-20",
+    "last_action": "Introduced and referred to four House committees.",
+    "status": "Referred to House committees; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "House companion to the Secure Artificial Intelligence Act, proposing federal tracking and response mechanisms for AI security and safety incidents and vulnerabilities.",
+    "committee_dynamics": "The late-session House companion broadened bicameral interest but had little time to advance before the 118th Congress ended.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118hr9737ih",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for H.R. 9737",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118hr9737ih",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
   },
   {
     "record_id": "h-r-9914",
@@ -4281,6 +4785,109 @@
     ]
   },
   {
+    "record_id": "s-1394-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "S. 1394",
+    "title": "Block Nuclear Launch by Autonomous Artificial Intelligence Act of 2023",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Defense, intelligence & procurement",
+    "secondary_categories": [
+      "Nuclear command",
+      "Human control",
+      "Autonomous systems"
+    ],
+    "sponsor": "Edward Markey",
+    "sponsor_party": "D",
+    "sponsor_state": "MA",
+    "cosponsor_count": 3,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Armed Services"
+    ],
+    "introduced_date": "2023-05-01",
+    "last_action_date": "2023-05-01",
+    "last_action": "Introduced and referred to the Senate Committee on Armed Services.",
+    "status": "Referred to Senate committee; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "Would have prohibited federal funds from being used to launch a nuclear weapon through an autonomous system without meaningful human control.",
+    "committee_dynamics": "The proposal addressed an extreme-consequence military AI use directly but did not advance before the 118th Congress ended.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s1394is",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for S. 1394",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118s1394is",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
     "record_id": "s-1633",
     "entity_type": "bill",
     "jurisdiction": {
@@ -4979,6 +5586,418 @@
     "automation_generated_at": "2026-10-27T18:10:11Z"
   },
   {
+    "record_id": "s-2770-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "S. 2770",
+    "title": "Protect Elections from Deceptive AI Act",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Synthetic-media safety",
+    "secondary_categories": [
+      "Election security",
+      "Deepfakes",
+      "Candidate remedies"
+    ],
+    "sponsor": "Amy Klobuchar",
+    "sponsor_party": "D",
+    "sponsor_state": "MN",
+    "cosponsor_count": 4,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Rules and Administration"
+    ],
+    "introduced_date": "2023-09-12",
+    "last_action_date": "2024-05-15",
+    "last_action": "Ordered reported by the Senate Committee on Rules and Administration.",
+    "status": "Committee advanced; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "Would have prohibited materially deceptive AI-generated audio or visual media of federal candidates in specified pre-election periods and created enforcement remedies.",
+    "committee_dynamics": "The bipartisan bill advanced from committee during an election year but did not receive final passage before the Congress ended.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s2770rs",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for S. 2770",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118s2770rs",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
+    "record_id": "s-2892-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "S. 2892",
+    "title": "Algorithmic Accountability Act of 2023",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "High-risk AI governance",
+    "secondary_categories": [
+      "Impact assessments",
+      "Consequential decisions",
+      "FTC"
+    ],
+    "sponsor": "Ron Wyden",
+    "sponsor_party": "D",
+    "sponsor_state": "OR",
+    "cosponsor_count": 11,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Commerce, Science, and Transportation"
+    ],
+    "introduced_date": "2023-09-21",
+    "last_action_date": "2023-09-21",
+    "last_action": "Introduced and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "status": "Referred to Senate committee; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "Would have required covered entities to assess automated decision systems used in critical decisions and submit specified information to the Federal Trade Commission.",
+    "committee_dynamics": "The bill represented a broad accountability model for consequential automated decisions but did not advance before the Congress ended.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s2892is",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for S. 2892",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118s2892is",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
+    "record_id": "s-3205-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "S. 3205",
+    "title": "Federal Artificial Intelligence Risk Management Act of 2023",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Defense, intelligence & procurement",
+    "secondary_categories": [
+      "NIST AI RMF",
+      "Federal agencies",
+      "Risk management"
+    ],
+    "sponsor": "Jerry Moran",
+    "sponsor_party": "R",
+    "sponsor_state": "KS",
+    "cosponsor_count": 1,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Homeland Security and Governmental Affairs"
+    ],
+    "introduced_date": "2023-11-02",
+    "last_action_date": "2023-11-02",
+    "last_action": "Introduced and referred to the Senate Committee on Homeland Security and Governmental Affairs.",
+    "status": "Referred to Senate committee; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "Would have required federal agencies to incorporate the NIST AI Risk Management Framework into their management and use of artificial intelligence.",
+    "committee_dynamics": "The bipartisan bill proposed a government-wide baseline grounded in existing NIST guidance but did not advance before the Congress ended.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s3205is",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for S. 3205",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118s3205is",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
+    "record_id": "s-3312-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "S. 3312",
+    "title": "Artificial Intelligence Research, Innovation, and Accountability Act of 2024",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "High-risk AI governance",
+    "secondary_categories": [
+      "Critical-impact AI",
+      "Risk assessments",
+      "Transparency"
+    ],
+    "sponsor": "John Thune",
+    "sponsor_party": "R",
+    "sponsor_state": "SD",
+    "cosponsor_count": 7,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Commerce, Science, and Transportation"
+    ],
+    "introduced_date": "2023-11-15",
+    "last_action_date": "2024-12-18",
+    "last_action": "Reported by the Senate Committee on Commerce, Science, and Transportation with an amendment.",
+    "status": "Reported by Senate committee; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "Would have established transparency, assessment, and certification duties for critical-impact artificial intelligence systems and directed federal work on testing and evaluation standards.",
+    "committee_dynamics": "The committee-reported bipartisan framework demonstrated support for risk-based federal AI rules, but the bill did not receive final passage before the 118th Congress ended.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s3312rs",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for S. 3312",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118s3312rs",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
     "record_id": "s-3557",
     "entity_type": "bill",
     "jurisdiction": {
@@ -5095,6 +6114,109 @@
     "automation_generated_at": "2026-10-27T18:10:13Z"
   },
   {
+    "record_id": "s-3696-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "S. 3696",
+    "title": "DEFIANCE Act of 2024",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Synthetic-media safety",
+    "secondary_categories": [
+      "Intimate digital forgeries",
+      "Civil remedies",
+      "Deepfakes"
+    ],
+    "sponsor": "Dick Durbin",
+    "sponsor_party": "D",
+    "sponsor_state": "IL",
+    "cosponsor_count": null,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Judiciary"
+    ],
+    "introduced_date": "2024-01-30",
+    "last_action_date": "2024-07-23",
+    "last_action": "Passed the Senate and was engrossed.",
+    "status": "Passed Senate; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "Would have expanded civil relief for people harmed by nonconsensual intimate digital forgeries, including AI-generated or manipulated sexual imagery.",
+    "committee_dynamics": "Senate passage showed significant support for a targeted remedy, but the measure did not complete House action before the Congress ended.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s3696es",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for S. 3696",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118s3696es",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
     "record_id": "s-4113",
     "entity_type": "bill",
     "jurisdiction": {
@@ -5209,6 +6331,315 @@
     "requires_human_review": true,
     "automation_workflow": "weekday-status-sync",
     "automation_generated_at": "2026-10-27T18:10:14Z"
+  },
+  {
+    "record_id": "s-4178-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "S. 4178",
+    "title": "Future of Artificial Intelligence Innovation Act of 2024",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Federal AI capacity",
+    "secondary_categories": [
+      "AI Safety Institute",
+      "Standards",
+      "Evaluation tools"
+    ],
+    "sponsor": "Maria Cantwell",
+    "sponsor_party": "D",
+    "sponsor_state": "WA",
+    "cosponsor_count": 8,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Commerce, Science, and Transportation"
+    ],
+    "introduced_date": "2024-04-18",
+    "last_action_date": "2024-12-18",
+    "last_action": "Reported by the Senate Committee on Commerce, Science, and Transportation with an amendment.",
+    "status": "Reported by Senate committee; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "Would have authorized federal artificial intelligence standards, metrics, evaluation tools, research capacity, and testbeds centered on NIST and the U.S. AI Safety Institute.",
+    "committee_dynamics": "The bipartisan committee-reported bill would have supplied durable statutory support for federal AI evaluation capacity, but it did not reach enactment.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s4178rs",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for S. 4178",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118s4178rs",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
+    "record_id": "s-4230-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "S. 4230",
+    "title": "Secure Artificial Intelligence Act of 2024",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Cyber, model & infrastructure security",
+    "secondary_categories": [
+      "Security incidents",
+      "Vulnerability reporting",
+      "Federal coordination"
+    ],
+    "sponsor": "Mark Warner",
+    "sponsor_party": "D",
+    "sponsor_state": "VA",
+    "cosponsor_count": 1,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Commerce, Science, and Transportation"
+    ],
+    "introduced_date": "2024-05-01",
+    "last_action_date": "2024-05-01",
+    "last_action": "Introduced and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "status": "Referred to Senate committee; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "Would have created federal processes to track, analyze, and respond to artificial intelligence security and safety incidents, vulnerabilities, and risks.",
+    "committee_dynamics": "The bipartisan proposal addressed the gap between AI vulnerability discovery and federal incident coordination, but it did not advance before the Congress ended.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s4230is",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for S. 4230",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118s4230is",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
+    "record_id": "s-4495-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "S. 4495",
+    "title": "PREPARED for AI Act",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Defense, intelligence & procurement",
+    "secondary_categories": [
+      "Federal procurement",
+      "Impact assessments",
+      "Incident reporting"
+    ],
+    "sponsor": "Gary Peters",
+    "sponsor_party": "D",
+    "sponsor_state": "MI",
+    "cosponsor_count": 1,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Homeland Security and Governmental Affairs"
+    ],
+    "introduced_date": "2024-06-11",
+    "last_action_date": "2024-12-16",
+    "last_action": "Reported by the Senate Committee on Homeland Security and Governmental Affairs with an amendment.",
+    "status": "Reported by Senate committee; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "Would have required federal agencies to manage artificial intelligence procurement and use through impact assessments, testing, monitoring, incident reporting, and common acquisition practices.",
+    "committee_dynamics": "The committee-reported bill offered a detailed government-use governance model, but it was not enacted before the 118th Congress ended.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s4495rs",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for S. 4495",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118s4495rs",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
   },
   {
     "record_id": "s-4615",
@@ -5444,6 +6875,212 @@
     "requires_human_review": true,
     "automation_workflow": "weekday-status-sync",
     "automation_generated_at": "2026-10-27T18:10:18Z"
+  },
+  {
+    "record_id": "s-4674-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "S. 4674",
+    "title": "COPIED Act of 2024",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Synthetic-media safety",
+    "secondary_categories": [
+      "Content provenance",
+      "Transparency",
+      "Creator rights"
+    ],
+    "sponsor": "Maria Cantwell",
+    "sponsor_party": "D",
+    "sponsor_state": "WA",
+    "cosponsor_count": 2,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Commerce, Science, and Transportation"
+    ],
+    "introduced_date": "2024-07-11",
+    "last_action_date": "2024-07-11",
+    "last_action": "Introduced and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "status": "Referred to Senate committee; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "Would have required transparency for content provenance information and protected provenance signals and artistic content from unauthorized alteration or use.",
+    "committee_dynamics": "The bipartisan bill tied synthetic-media integrity to technical provenance and creator protections but did not advance before the Congress ended.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s4674is",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for S. 4674",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118s4674is",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
+    "record_id": "s-4769-118",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "inactive",
+    "measure_id": "S. 4769",
+    "title": "Validation and Evaluation for Trustworthy (VET) Artificial Intelligence Act",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Testing, evaluation & assurance",
+    "secondary_categories": [
+      "Assurance",
+      "NIST guidance",
+      "Independent evaluation"
+    ],
+    "sponsor": "John Hickenlooper",
+    "sponsor_party": "D",
+    "sponsor_state": "CO",
+    "cosponsor_count": 1,
+    "notable_cosponsors": [],
+    "committees": [
+      "Senate Commerce, Science, and Transportation"
+    ],
+    "introduced_date": "2024-07-24",
+    "last_action_date": "2024-12-18",
+    "last_action": "Reported by the Senate Committee on Commerce, Science, and Transportation with an amendment.",
+    "status": "Reported by Senate committee; expired at the end of the 118th Congress",
+    "status_bucket": "Inactive",
+    "summary": "Would have directed NIST to develop voluntary guidelines for internal and external assurance of artificial intelligence systems.",
+    "committee_dynamics": "The committee-reported measure focused on assurance practices rather than mandatory developer duties and expired without final passage.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 118th Congress ended without enactment; any renewed effort requires a new measure in a later Congress.",
+    "congress": 118,
+    "session": "118th Congress",
+    "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s4769rs",
+    "last_verified_date": "2026-10-27",
+    "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+    "sources": [
+      {
+        "source_id": "official-govinfo",
+        "title": "GovInfo official record for S. 4769",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118s4769rs",
+        "accessed_date": "2026-10-27"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "introduced_date",
+          "congress",
+          "session"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ]
+      },
+      {
+        "claim_id": "lifecycle",
+        "fields": [
+          "status",
+          "lifecycle_status",
+          "last_action",
+          "last_action_date",
+          "committees"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Inactive/expired status reflects the end of the 118th Congress without enactment."
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
   },
   {
     "record_id": "s-4784",

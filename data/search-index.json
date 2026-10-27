@@ -21,6 +21,13 @@
     "text": "co-sb-24-205 co sb24-205 consumer protections for artificial intelligence law adjacent high-risk ai governance enacted — chapter 198 enacted requires developers and deployers of high-risk ai systems to use reasonable care against known or reasonably foreseeable algorithmic-discrimination risks, publish specified disclosures, complete impact assessments, and report certain discovered risks. 2024 regular session  impact assessments algorithmic discrimination risk management senate judiciary house state, civic, military, and veterans affairs robert rodriguez co colorado attorney general"
   },
   {
+    "record_id": "de-aic-draft-2026",
+    "measure_id": "DE AIC draft (2026)",
+    "title": "Artificial Intelligence Company initiative (draft proposal)",
+    "url": "pages/de-aic-draft-2026.html",
+    "text": "de-aic-draft-2026 de aic draft (2026) artificial intelligence company initiative (draft proposal) bill adjacent governance, preemption & regulatory architecture draft proposal under development; not introduced unknown delaware officials are developing a framework for an artificial intelligence company whose ai agent could perform day-to-day corporate operations, potentially with new governance and liability rules. the proposal is not yet introduced legislation. 153rd general assembly  agentic ai corporate governance regulatory sandbox liability delaware artificial intelligence commission de"
+  },
+  {
     "record_id": "fy27-house-cjs-approp",
     "measure_id": "FY27-HOUSE-CJS-APPROP",
     "title": "FY2027 House Commerce–Justice–Science Appropriations vehicle",
@@ -40,6 +47,13 @@
     "title": "Generative AI Terrorism Risk Assessment Act",
     "url": "pages/h-r-1736.html",
     "text": "h-r-1736 h.r. 1736 generative ai terrorism risk assessment act bill core monitoring, disclosure & reporting introduced / referred committee_advanced requires recurring department of homeland security assessments of terrorist use of generative ai, including violent messaging and development or deployment of weapons.   terrorism weapons misuse cbrne recurring assessment homeland security committee homeland security and governmental affairs committee august pfluger"
+  },
+  {
+    "record_id": "h-r-2894-118",
+    "measure_id": "H.R. 2894",
+    "title": "Block Nuclear Launch by Autonomous Artificial Intelligence Act of 2023",
+    "url": "pages/h-r-2894-118.html",
+    "text": "h-r-2894-118 h.r. 2894 block nuclear launch by autonomous artificial intelligence act of 2023 bill core defense, intelligence & procurement referred to house committees; expired at the end of the 118th congress inactive house bill that would have barred autonomous nuclear launch without meaningful human control. 118th congress 118 nuclear command human control autonomous systems house armed services house foreign affairs ted lieu"
   },
   {
     "record_id": "h-r-3029",
@@ -91,6 +105,13 @@
     "text": "h-r-5288 h.r. 5288 ai sovereignty act bill adjacent deterrence, export & foreign-adversary controls introduced / triple referral referred addresses strategic ai sovereignty, supply-chain resilience, and domestic capacity in competition with foreign adversaries.   strategic competition supply chains domestic capacity energy and commerce committee foreign affairs committee science, space, and technology committee eugene vindman"
   },
   {
+    "record_id": "h-r-5628-118",
+    "measure_id": "H.R. 5628",
+    "title": "Algorithmic Accountability Act of 2023",
+    "url": "pages/h-r-5628-118.html",
+    "text": "h-r-5628-118 h.r. 5628 algorithmic accountability act of 2023 bill core high-risk ai governance referred to house committee; expired at the end of the 118th congress inactive house companion that would have required impact assessments for automated decision systems used in critical decisions and federal trade commission oversight. 118th congress 118 impact assessments consequential decisions ftc house energy and commerce yvette clarke"
+  },
+  {
     "record_id": "h-r-6304",
     "measure_id": "H.R. 6304",
     "title": "AI for America Act",
@@ -110,6 +131,13 @@
     "title": "AI OVERWATCH Act",
     "url": "pages/h-r-6875.html",
     "text": "h-r-6875 h.r. 6875 ai overwatch act bill adjacent deterrence, export & foreign-adversary controls introduced / referred committee_advanced conditions specified advanced-chip export licenses, requires congressional certification or notification, and provides a legislative disapproval mechanism.   export controls advanced chips congressional notification foreign affairs committee brian mast"
+  },
+  {
+    "record_id": "h-r-6936-118",
+    "measure_id": "H.R. 6936",
+    "title": "Federal Artificial Intelligence Risk Management Act of 2024",
+    "url": "pages/h-r-6936-118.html",
+    "text": "h-r-6936-118 h.r. 6936 federal artificial intelligence risk management act of 2024 bill core defense, intelligence & procurement referred to house committees; expired at the end of the 118th congress inactive house companion that would have required federal agencies to use the nist ai risk management framework when managing artificial intelligence. 118th congress 118 nist ai rmf federal agencies risk management house oversight and accountability house science, space, and technology ted lieu"
   },
   {
     "record_id": "h-r-7294",
@@ -144,7 +172,7 @@
     "measure_id": "H.R. 8800",
     "title": "National Defense Authorization Act for Fiscal Year 2027",
     "url": "pages/h-r-8800.html",
-    "text": "h-r-8800 h.r. 8800 national defense authorization act for fiscal year 2027 bill vehicle defense, intelligence & procurement house floor processing floor the principal house defense-authorization vehicle and a likely landing zone for military ai safeguards, procurement security, model-security reporting, and ai security center provisions.   must-pass authorization defense ai autonomy cybersecurity reporting appropriations committee armed services committee budget committee education and workforce committee energy and commerce committee homeland security committee intelligence (permanent select) committee judiciary committee natural resources committee oversight and government reform committee science, space, and technology committee small business committee transportation and infrastructure committee veterans' affairs committee ways and means committee mike rogers"
+    "text": "h-r-8800 h.r. 8800 national defense authorization act for fiscal year 2027 bill vehicle defense, intelligence & procurement house floor processing floor the principal house defense-authorization vehicle and a likely landing zone for military ai safeguards, procurement security, model-security reporting, and ai security center provisions.   must-pass authorization defense ai autonomy cybersecurity reporting house armed services mike rogers"
   },
   {
     "record_id": "h-r-9333",
@@ -166,6 +194,13 @@
     "title": "AI Incident Reporting Act",
     "url": "pages/h-r-9477.html",
     "text": "h-r-9477 h.r. 9477 ai incident reporting act bill core monitoring, disclosure & reporting introduced / referred referred requires covered high-risk model developers to report specified autonomy, cybersecurity, and model-weight-theft incidents within seven days. commerce would receive investigative authority and civil-penalty authority reaching $2 million per violation.   incident reporting cyber / model security coordination civil penalties energy and commerce committee nathaniel moran"
+  },
+  {
+    "record_id": "h-r-9737-118",
+    "measure_id": "H.R. 9737",
+    "title": "Secure Artificial Intelligence Act of 2024",
+    "url": "pages/h-r-9737-118.html",
+    "text": "h-r-9737-118 h.r. 9737 secure artificial intelligence act of 2024 bill core cyber, model & infrastructure security referred to house committees; expired at the end of the 118th congress inactive house companion to the secure artificial intelligence act, proposing federal tracking and response mechanisms for ai security and safety incidents and vulnerabilities. 118th congress 118 security incidents vulnerability reporting federal coordination house science, space, and technology house homeland security house permanent select committee on intelligence house education and the workforce deborah ross"
   },
   {
     "record_id": "h-r-9914",
@@ -259,6 +294,13 @@
     "text": "pl-119-60-ai-institutes p.l. 119-60 — ai institutes national-security artificial-intelligence research institutes provision core testing, evaluation & assurance enacted — public law 119-60 enacted authorizes defense department ai research institutes that may maintain secure and privacy-protected datasets, develop predeployment testbeds, conduct national-security ai research, and provide compute and technical support. 119th congress 119 national-security testbeds secure datasets predeployment evaluation house armed services senate armed services department of defense"
   },
   {
+    "record_id": "s-1394-118",
+    "measure_id": "S. 1394",
+    "title": "Block Nuclear Launch by Autonomous Artificial Intelligence Act of 2023",
+    "url": "pages/s-1394-118.html",
+    "text": "s-1394-118 s. 1394 block nuclear launch by autonomous artificial intelligence act of 2023 bill core defense, intelligence & procurement referred to senate committee; expired at the end of the 118th congress inactive would have prohibited federal funds from being used to launch a nuclear weapon through an autonomous system without meaningful human control. 118th congress 118 nuclear command human control autonomous systems senate armed services edward markey"
+  },
+  {
     "record_id": "s-1633",
     "measure_id": "S. 1633",
     "title": "TEST AI Act of 2025",
@@ -301,6 +343,34 @@
     "text": "s-2750 s. 2750 sandbox act bill adjacent governance, preemption & regulatory architecture introduced / referred referred creates an ostp-run ai regulatory sandbox allowing temporary waiver or modification of covered federal rules so ai products or development methods can be tested, while applications address health, safety, and economic risks.   regulatory experimentation federal waivers safety-risk mitigation commerce, science, and transportation committee ted cruz"
   },
   {
+    "record_id": "s-2770-118",
+    "measure_id": "S. 2770",
+    "title": "Protect Elections from Deceptive AI Act",
+    "url": "pages/s-2770-118.html",
+    "text": "s-2770-118 s. 2770 protect elections from deceptive ai act bill core synthetic-media safety committee advanced; expired at the end of the 118th congress inactive would have prohibited materially deceptive ai-generated audio or visual media of federal candidates in specified pre-election periods and created enforcement remedies. 118th congress 118 election security deepfakes candidate remedies senate rules and administration amy klobuchar"
+  },
+  {
+    "record_id": "s-2892-118",
+    "measure_id": "S. 2892",
+    "title": "Algorithmic Accountability Act of 2023",
+    "url": "pages/s-2892-118.html",
+    "text": "s-2892-118 s. 2892 algorithmic accountability act of 2023 bill core high-risk ai governance referred to senate committee; expired at the end of the 118th congress inactive would have required covered entities to assess automated decision systems used in critical decisions and submit specified information to the federal trade commission. 118th congress 118 impact assessments consequential decisions ftc senate commerce, science, and transportation ron wyden"
+  },
+  {
+    "record_id": "s-3205-118",
+    "measure_id": "S. 3205",
+    "title": "Federal Artificial Intelligence Risk Management Act of 2023",
+    "url": "pages/s-3205-118.html",
+    "text": "s-3205-118 s. 3205 federal artificial intelligence risk management act of 2023 bill core defense, intelligence & procurement referred to senate committee; expired at the end of the 118th congress inactive would have required federal agencies to incorporate the nist ai risk management framework into their management and use of artificial intelligence. 118th congress 118 nist ai rmf federal agencies risk management senate homeland security and governmental affairs jerry moran"
+  },
+  {
+    "record_id": "s-3312-118",
+    "measure_id": "S. 3312",
+    "title": "Artificial Intelligence Research, Innovation, and Accountability Act of 2024",
+    "url": "pages/s-3312-118.html",
+    "text": "s-3312-118 s. 3312 artificial intelligence research, innovation, and accountability act of 2024 bill core high-risk ai governance reported by senate committee; expired at the end of the 118th congress inactive would have established transparency, assessment, and certification duties for critical-impact artificial intelligence systems and directed federal work on testing and evaluation standards. 118th congress 118 critical-impact ai risk assessments transparency senate commerce, science, and transportation john thune"
+  },
+  {
     "record_id": "s-3557",
     "measure_id": "S. 3557",
     "title": "States' Right to Regulate AI Act",
@@ -308,11 +378,39 @@
     "text": "s-3557 s. 3557 states' right to regulate ai act bill adjacent governance, preemption & regulatory architecture metadata refresh required unknown would prohibit federal funds from being used to implement the executive order titled “ensuring a national policy framework for artificial intelligence,” making it relevant to the federal-state authority and preemption debate.   appropriations rider federalism preemption commerce, science, and transportation committee edward markey"
   },
   {
+    "record_id": "s-3696-118",
+    "measure_id": "S. 3696",
+    "title": "DEFIANCE Act of 2024",
+    "url": "pages/s-3696-118.html",
+    "text": "s-3696-118 s. 3696 defiance act of 2024 bill core synthetic-media safety passed senate; expired at the end of the 118th congress inactive would have expanded civil relief for people harmed by nonconsensual intimate digital forgeries, including ai-generated or manipulated sexual imagery. 118th congress 118 intimate digital forgeries civil remedies deepfakes senate judiciary dick durbin"
+  },
+  {
     "record_id": "s-4113",
     "measure_id": "S. 4113",
     "title": "AI Guardrails Act of 2026",
     "url": "pages/s-4113.html",
     "text": "s-4113 s. 4113 ai guardrails act of 2026 bill core defense, intelligence & procurement introduced / referred referred restricts specified high-consequence department of defense ai uses, including autonomous launch or detonation of nuclear weapons, and reinforces meaningful human control.   nuclear command and control meaningful human control high-consequence safeguards armed services committee elissa slotkin"
+  },
+  {
+    "record_id": "s-4178-118",
+    "measure_id": "S. 4178",
+    "title": "Future of Artificial Intelligence Innovation Act of 2024",
+    "url": "pages/s-4178-118.html",
+    "text": "s-4178-118 s. 4178 future of artificial intelligence innovation act of 2024 bill core federal ai capacity reported by senate committee; expired at the end of the 118th congress inactive would have authorized federal artificial intelligence standards, metrics, evaluation tools, research capacity, and testbeds centered on nist and the u.s. ai safety institute. 118th congress 118 ai safety institute standards evaluation tools senate commerce, science, and transportation maria cantwell"
+  },
+  {
+    "record_id": "s-4230-118",
+    "measure_id": "S. 4230",
+    "title": "Secure Artificial Intelligence Act of 2024",
+    "url": "pages/s-4230-118.html",
+    "text": "s-4230-118 s. 4230 secure artificial intelligence act of 2024 bill core cyber, model & infrastructure security referred to senate committee; expired at the end of the 118th congress inactive would have created federal processes to track, analyze, and respond to artificial intelligence security and safety incidents, vulnerabilities, and risks. 118th congress 118 security incidents vulnerability reporting federal coordination senate commerce, science, and transportation mark warner"
+  },
+  {
+    "record_id": "s-4495-118",
+    "measure_id": "S. 4495",
+    "title": "PREPARED for AI Act",
+    "url": "pages/s-4495-118.html",
+    "text": "s-4495-118 s. 4495 prepared for ai act bill core defense, intelligence & procurement reported by senate committee; expired at the end of the 118th congress inactive would have required federal agencies to manage artificial intelligence procurement and use through impact assessments, testing, monitoring, incident reporting, and common acquisition practices. 118th congress 118 federal procurement impact assessments incident reporting senate homeland security and governmental affairs gary peters"
   },
   {
     "record_id": "s-4615",
@@ -327,6 +425,20 @@
     "title": "Secure and Accountable Military AI Act of 2026",
     "url": "pages/s-4656.html",
     "text": "s-4656 s. 4656 secure and accountable military ai act of 2026 bill core defense, intelligence & procurement introduced / referred referred defines covered military ai security incidents to include model-weight theft or exfiltration, foreign influence, supply-chain compromise, data poisoning or backdoors, and concerning behavior involving offensive cyber capabilities, safeguard evasion, or chemical and biological weapons.   incident reporting model-weight security cbrne evaluation armed services committee kirsten gillibrand"
+  },
+  {
+    "record_id": "s-4674-118",
+    "measure_id": "S. 4674",
+    "title": "COPIED Act of 2024",
+    "url": "pages/s-4674-118.html",
+    "text": "s-4674-118 s. 4674 copied act of 2024 bill core synthetic-media safety referred to senate committee; expired at the end of the 118th congress inactive would have required transparency for content provenance information and protected provenance signals and artistic content from unauthorized alteration or use. 118th congress 118 content provenance transparency creator rights senate commerce, science, and transportation maria cantwell"
+  },
+  {
+    "record_id": "s-4769-118",
+    "measure_id": "S. 4769",
+    "title": "Validation and Evaluation for Trustworthy (VET) Artificial Intelligence Act",
+    "url": "pages/s-4769-118.html",
+    "text": "s-4769-118 s. 4769 validation and evaluation for trustworthy (vet) artificial intelligence act bill core testing, evaluation & assurance reported by senate committee; expired at the end of the 118th congress inactive would have directed nist to develop voluntary guidelines for internal and external assurance of artificial intelligence systems. 118th congress 118 assurance nist guidance independent evaluation senate commerce, science, and transportation john hickenlooper"
   },
   {
     "record_id": "s-4784",

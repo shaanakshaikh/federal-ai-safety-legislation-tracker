@@ -1,0 +1,118 @@
+{
+  "record_id": "de-aic-draft-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "DE"
+  },
+  "lifecycle_status": "unknown",
+  "measure_id": "DE AIC draft (2026)",
+  "title": "Artificial Intelligence Company initiative (draft proposal)",
+  "chamber": "State legislature",
+  "scope": "Adjacent",
+  "primary_category": "Governance, preemption & regulatory architecture",
+  "secondary_categories": [
+    "Agentic AI",
+    "Corporate governance",
+    "Regulatory sandbox",
+    "Liability"
+  ],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": "DE",
+  "cosponsor_count": null,
+  "notable_cosponsors": [],
+  "committees": [
+    "Delaware Artificial Intelligence Commission"
+  ],
+  "introduced_date": null,
+  "last_action_date": "2026-10-26",
+  "last_action": "A congressional oversight letter publicly described the developing Artificial Intelligence Company proposal; no bill had yet been introduced.",
+  "status": "Draft proposal under development; not introduced",
+  "status_bucket": "Pre-introduction",
+  "summary": "Delaware officials are developing a framework for an Artificial Intelligence Company whose AI agent could perform day-to-day corporate operations, potentially with new governance and liability rules. The proposal is not yet introduced legislation.",
+  "committee_dynamics": "The initiative grows out of Delaware's agentic-AI regulatory-sandbox work under H.J.R. 7. Because no bill text has been introduced, its final governance, transparency, liability, and safety provisions remain uncertain.",
+  "advance_tier": "Low",
+  "advance_rationale": "The proposal has official state-policy groundwork but no introduced bill text or formal legislative pathway yet.",
+  "session": "153rd General Assembly",
+  "official_url": "https://oversight.house.gov/release/comer-investigates-potential-for-harm-lack-of-transparency-in-delaware-initiative-to-create-new-artificial-intelligence-companies/",
+  "last_verified_date": "2026-10-27",
+  "verification_level": "Official sources confirm the initiative and precursor work; bill text has not been introduced",
+  "sources": [
+    {
+      "source_id": "house-oversight-2026",
+      "title": "Comer Investigates Potential for Harm, Lack of Transparency in Delaware Initiative to Create New Artificial Intelligence Companies",
+      "publisher": "U.S. House Committee on Oversight and Government Reform",
+      "source_type": "official",
+      "url": "https://oversight.house.gov/release/comer-investigates-potential-for-harm-lack-of-transparency-in-delaware-initiative-to-create-new-artificial-intelligence-companies/",
+      "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "de-hjr7",
+      "title": "Delaware H.J.R. 7 official bill detail",
+      "publisher": "Delaware General Assembly",
+      "source_type": "official",
+      "url": "https://legis.delaware.gov/BillDetail?legislationId=142629",
+      "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "de-ai-report-2025",
+      "title": "Delaware Artificial Intelligence Commission Annual Report 2025",
+      "publisher": "State of Delaware",
+      "source_type": "official",
+      "url": "https://ai.delaware.gov/wp-content/blogs.dir/229/files/sites/229/2025/12/Delaware-Artificial-Intelligence-Commission-Annual-Report-2025.pdf",
+      "accessed_date": "2026-10-27"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "session"
+      ],
+      "source_ids": [
+        "house-oversight-2026",
+        "de-hjr7"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees"
+      ],
+      "source_ids": [
+        "house-oversight-2026",
+        "de-ai-report-2025"
+      ],
+      "note": "The proposal is tracked as unknown/pre-introduction because no introduced bill record or bill text was available."
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "house-oversight-2026",
+        "de-hjr7",
+        "de-ai-report-2025"
+      ],
+      "note": "Tracker synthesis; details may change if formal bill text is introduced."
+    }
+  ]
+}
