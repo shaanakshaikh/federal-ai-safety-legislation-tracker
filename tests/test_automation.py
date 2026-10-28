@@ -9,12 +9,30 @@ from unittest.mock import patch
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
 
 from automation_common import automation_metadata, parse_federal_bill
+from build import add_reciprocal_relations
 from discover_openstates import request_json
 from discover_weekly import classify
 from sync_weekday import lifecycle_from_actions, values
 
 
 class AutomationTests(unittest.TestCase):
+    def test_related_measures_are_mirrored(self):
+        records = [
+            {
+                "record_id": "house-bill",
+                "measure_id": "H.R. 1",
+                "related_measures": [
+                    {"record_id": "senate-bill", "measure_id": "S. 1", "relationship": "companion"}
+                ],
+            },
+            {"record_id": "senate-bill", "measure_id": "S. 1"},
+        ]
+        result = add_reciprocal_relations(records)
+        self.assertEqual(
+            result[1]["related_measures"],
+            [{"record_id": "house-bill", "measure_id": "H.R. 1", "relationship": "companion"}],
+        )
+
     def test_parse_congress_bill_identity(self):
         record = {"congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1736"}
         self.assertEqual(parse_federal_bill(record), (119, "hr", 1736))

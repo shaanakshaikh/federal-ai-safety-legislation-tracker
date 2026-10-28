@@ -1264,6 +1264,13 @@
       "Accountability",
       "Worker protection"
     ],
+    "related_measures": [
+      {
+        "record_id": "s-1792",
+        "measure_id": "S. 1792",
+        "relationship": "companion"
+      }
+    ],
     "sponsor": "Jay Obernolte",
     "sponsor_party": "R",
     "sponsor_state": "CA",
@@ -1336,7 +1343,8 @@
           "summary",
           "committee_dynamics",
           "advance_tier",
-          "advance_rationale"
+          "advance_rationale",
+          "related_measures"
         ],
         "source_ids": [
           "official-congress"
@@ -4748,18 +4756,20 @@
       "state": null
     },
     "lifecycle_status": "enacted",
-    "measure_id": "P.L. 118-159 § 225",
-    "title": "Defense governing-council duties for advanced AI security",
+    "measure_id": "P.L. 118-159 §§ 225, 236, 1531–1534, 6504",
+    "title": "FY2025 NDAA artificial-intelligence security, biosecurity, and assurance provisions",
     "session": "118th Congress",
     "congress": 118,
     "chamber": "Bicameral",
-    "scope": "Core",
-    "primary_category": "Frontier-model & national security",
+    "scope": "Vehicle",
+    "primary_category": "Defense, intelligence & procurement",
     "category_key": "security",
     "secondary_categories": [
       "Model-weight security",
       "Foreign adversaries",
-      "Risk assessment"
+      "AI-biosecurity",
+      "Military AI assurance",
+      "NSA AI Security Center"
     ],
     "sponsor": null,
     "sponsor_party": null,
@@ -4775,8 +4785,8 @@
     "last_action": "Enacted in the FY2025 National Defense Authorization Act.",
     "status": "Enacted — Public Law 118-159",
     "status_bucket": "Enacted",
-    "summary": "Directs the Chief Digital and Artificial Intelligence Officer Governing Council to identify and assess AI models that could pose national-security risk if accessed by an adversary, develop strategies against unauthorized adversary access and use, and recommend legislative or administrative action.",
-    "committee_dynamics": "The provision was enacted through the annual defense authorization process.",
+    "summary": "A curated group of FY2025 NDAA provisions directing assessment and protection of advanced AI from adversary access, piloting national-security AI and biotechnology applications, strengthening human-factors and testing infrastructure for military AI, and establishing the NSA Artificial Intelligence Security Center.",
+    "committee_dynamics": "The provisions were enacted through the annual defense and intelligence authorization vehicle rather than as standalone AI statutes.",
     "advance_tier": "Enacted",
     "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
     "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ159",
@@ -4790,23 +4800,33 @@
     "implementation": {
       "responsible_agencies": [
         "Department of Defense",
-        "Chief Digital and Artificial Intelligence Officer Governing Council"
+        "Chief Digital and Artificial Intelligence Officer Governing Council",
+        "National Security Agency"
       ],
-      "deadlines": [],
+      "deadlines": [
+        {
+          "date": "2025-03-23",
+          "requirement": "Establish the Artificial Intelligence Security Center within the NSA Cybersecurity Collaboration Center within 90 days of enactment.",
+          "status": "unknown",
+          "source_ids": [
+            "govinfo-law"
+          ]
+        }
+      ],
       "agency_status": [
         {
-          "agency": "Department of Defense",
-          "status": "ongoing",
-          "as_of": "2026-09-20",
-          "detail": "The provision establishes continuing governing-council duties; no discrete completion deadline is specified in section 225.",
+          "agency": "Department of Defense and National Security Agency",
+          "status": "unknown",
+          "as_of": "2026-10-28",
+          "detail": "The enacted duties and organizational requirements are verified; a comprehensive official implementation assessment has not yet been completed for this grouped record.",
           "source_ids": [
             "govinfo-law"
           ]
         }
       ]
     },
-    "last_verified_date": "2026-09-20",
-    "verification_level": "Official public-law text verified.",
+    "last_verified_date": "2026-10-28",
+    "verification_level": "Official public-law text and section grouping verified.",
     "sources": [
       {
         "source_id": "govinfo-law",
@@ -4814,7 +4834,7 @@
         "publisher": "GovInfo",
         "source_type": "official",
         "url": "https://www.govinfo.gov/app/details/PLAW-118publ159",
-        "accessed_date": "2026-09-20"
+        "accessed_date": "2026-10-28"
       }
     ],
     "claim_provenance": [
@@ -4845,6 +4865,137 @@
         ],
         "source_ids": [
           "govinfo-law"
+        ],
+        "note": "Section grouping and summary are analyst-created from the enacted text."
+      }
+    ]
+  },
+  {
+    "record_id": "pl-118-186-detect-fentanyl",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "P.L. 118-186",
+    "title": "DETECT Fentanyl and Xylazine Act of 2024",
+    "session": "118th Congress",
+    "congress": 118,
+    "chamber": "Bicameral",
+    "scope": "Adjacent",
+    "primary_category": "Evaluation, testing & standards",
+    "category_key": "evaluation",
+    "secondary_categories": [
+      "CBRNE",
+      "Drug detection",
+      "NIST AI Risk Management Framework"
+    ],
+    "sponsor": "Nick LaLota",
+    "sponsor_party": "R",
+    "sponsor_state": "NY",
+    "cosponsor_count": null,
+    "notable_cosponsors": [
+      "Lou Correa (D-CA)"
+    ],
+    "committees": [
+      "House Homeland Security",
+      "Senate Homeland Security and Governmental Affairs"
+    ],
+    "introduced_date": "2024-06-07",
+    "last_action_date": "2024-12-23",
+    "last_action": "Signed into law as Public Law 118-186.",
+    "status": "Enacted — Public Law 118-186",
+    "status_bucket": "Enacted",
+    "summary": "Authorizes DHS research, testing, evaluation, and cost-benefit analysis for AI- and machine-learning-enabled tools that identify fentanyl, xylazine, controlled-substance analogues, and emerging psychoactive substances, while requiring the work to follow the NIST AI Risk Management Framework.",
+    "committee_dynamics": "This narrowly scoped, bipartisan public-safety measure moved through the homeland-security committees and became a standalone law rather than riding in a larger vehicle.",
+    "advance_tier": "Enacted",
+    "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ186",
+    "public_law": {
+      "number": "118-186",
+      "enacted_date": "2024-12-23",
+      "originating_bill": "H.R. 8663",
+      "statutes_at_large": "138 Stat. 2636",
+      "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ186"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "Department of Homeland Security Science and Technology Directorate",
+        "Drug Enforcement Administration",
+        "National Institute of Standards and Technology"
+      ],
+      "deadlines": [],
+      "agency_status": [
+        {
+          "agency": "Department of Homeland Security Science and Technology Directorate",
+          "status": "unknown",
+          "as_of": "2026-10-28",
+          "detail": "The statutory research and standards requirements are verified; this audit did not identify a single official public report that resolves implementation across all covered activities.",
+          "source_ids": [
+            "govinfo-law"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-10-28",
+    "verification_level": "Official public-law text and introduced bill verified.",
+    "sources": [
+      {
+        "source_id": "govinfo-law",
+        "title": "Public Law 118-186 — DETECT Fentanyl and Xylazine Act of 2024",
+        "publisher": "GovInfo",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/PLAW-118publ186",
+        "accessed_date": "2026-10-28"
+      },
+      {
+        "source_id": "govinfo-bill",
+        "title": "H.R. 8663 — Introduced text",
+        "publisher": "GovInfo",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-118hr8663ih",
+        "accessed_date": "2026-10-28"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-law",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "congress",
+          "public_law",
+          "status",
+          "lifecycle_status",
+          "sponsor",
+          "introduced_date",
+          "last_action_date"
+        ],
+        "source_ids": [
+          "govinfo-law",
+          "govinfo-bill"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale",
+          "implementation"
+        ],
+        "source_ids": [
+          "govinfo-law",
+          "govinfo-bill"
         ]
       }
     ]
@@ -4858,7 +5009,7 @@
       "state": null
     },
     "lifecycle_status": "enacted",
-    "measure_id": "P.L. 118-31 §§ 220-225",
+    "measure_id": "P.L. 118-31 §§ 1541–1545, 7510, 7513",
     "title": "FY2024 NDAA artificial-intelligence assurance and security provisions",
     "session": "118th Congress",
     "congress": 118,
@@ -4869,7 +5020,8 @@
     "secondary_categories": [
       "Generative AI detection",
       "Responsible AI",
-      "Military AI security"
+      "Military AI security",
+      "Intelligence oversight"
     ],
     "sponsor": null,
     "sponsor_party": null,
@@ -4885,8 +5037,8 @@
     "last_action": "Enacted as part of the National Defense Authorization Act for Fiscal Year 2024.",
     "status": "Enacted — Public Law 118-31",
     "status_bucket": "Enacted",
-    "summary": "A curated group of FY2024 NDAA provisions addressing generative-AI detection and watermarking, responsible-AI processes, explainable military AI, and assessment of model and advanced-AI technologies that could pose national-security risks.",
-    "committee_dynamics": "The provisions moved through the annual defense-authorization vehicle rather than as a standalone AI statute.",
+    "summary": "A curated group of FY2024 NDAA provisions establishing AI bug-bounty work, generative-AI detection and watermarking efforts, responsible-AI processes, a study of privacy, security, accuracy, explainability, and emergent behavior in military AI, and intelligence-community guidance for AI-assisted analysis.",
+    "committee_dynamics": "The provisions moved through the annual defense-authorization vehicle rather than as a standalone AI statute. The prior tracker citation to sections 220–225 was corrected because those sections address unrelated defense research and acquisition matters.",
     "advance_tier": "Enacted",
     "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
     "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ31",
@@ -4899,7 +5051,8 @@
     },
     "implementation": {
       "responsible_agencies": [
-        "Department of Defense"
+        "Department of Defense",
+        "Office of the Director of National Intelligence"
       ],
       "deadlines": [
         {
@@ -4923,16 +5076,16 @@
         {
           "agency": "Department of Defense",
           "status": "unknown",
-          "as_of": "2026-09-20",
-          "detail": "The statutory requirements are captured; a comprehensive official implementation assessment has not yet been completed for this record.",
+          "as_of": "2026-10-28",
+          "detail": "The statutory requirements are captured; a comprehensive official implementation assessment has not yet been completed for this grouped record.",
           "source_ids": [
             "govinfo-law"
           ]
         }
       ]
     },
-    "last_verified_date": "2026-09-20",
-    "verification_level": "Official public-law text verified; implementation status requires a dedicated agency review.",
+    "last_verified_date": "2026-10-28",
+    "verification_level": "Official public-law text and section citations verified; implementation status requires a dedicated agency review.",
     "sources": [
       {
         "source_id": "govinfo-law",
@@ -4940,7 +5093,7 @@
         "publisher": "GovInfo",
         "source_type": "official",
         "url": "https://www.govinfo.gov/app/details/PLAW-118publ31",
-        "accessed_date": "2026-09-20"
+        "accessed_date": "2026-10-28"
       }
     ],
     "claim_provenance": [
@@ -5246,18 +5399,21 @@
       "state": null
     },
     "lifecycle_status": "enacted",
-    "measure_id": "P.L. 119-60 — AI Institutes",
-    "title": "National-security artificial-intelligence research institutes",
+    "measure_id": "P.L. 119-60 §§ 224, 245, 1512–1515, 1533–1535, 6601–6604",
+    "title": "FY2026 NDAA artificial-intelligence security and oversight provisions",
     "session": "119th Congress",
     "congress": 119,
     "chamber": "Bicameral",
-    "scope": "Core",
-    "primary_category": "Testing, evaluation & assurance",
-    "category_key": "evaluation",
+    "scope": "Vehicle",
+    "primary_category": "Defense, intelligence & procurement",
+    "category_key": "security",
     "secondary_categories": [
-      "National-security testbeds",
-      "Secure datasets",
-      "Predeployment evaluation"
+      "Model security",
+      "Physical security",
+      "AI-biosecurity",
+      "Assessment and oversight",
+      "Frontier AI governance",
+      "Intelligence-community testing"
     ],
     "sponsor": null,
     "sponsor_party": null,
@@ -5266,15 +5422,17 @@
     "notable_cosponsors": [],
     "committees": [
       "House Armed Services",
-      "Senate Armed Services"
+      "Senate Armed Services",
+      "House Intelligence",
+      "Senate Intelligence (Select)"
     ],
     "introduced_date": "2025-03-14",
     "last_action_date": "2025-12-18",
     "last_action": "Enacted in the National Defense Authorization Act for Fiscal Year 2026.",
     "status": "Enacted — Public Law 119-60",
     "status_bucket": "Enacted",
-    "summary": "Authorizes Defense Department AI research institutes that may maintain secure and privacy-protected datasets, develop predeployment testbeds, conduct national-security AI research, and provide compute and technical support.",
-    "committee_dynamics": "The authority was enacted through the FY2026 defense authorization vehicle.",
+    "summary": "A curated group of FY2026 NDAA provisions covering secure biological data for AI, Defense-wide AI cybersecurity policy, physical and supply-chain security requirements for AI contractors, model assessment and secure sandboxes, frontier-AI governance and human-override safeguards, NSA security guidance against nation-state theft, and intelligence-community testing and performance oversight.",
+    "committee_dynamics": "The provisions were enacted across the defense and intelligence divisions of the FY2026 NDAA, illustrating how multiple substantive AI safeguards can become law inside one must-pass vehicle.",
     "advance_tier": "Enacted",
     "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
     "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ60",
@@ -5287,23 +5445,66 @@
     },
     "implementation": {
       "responsible_agencies": [
-        "Department of Defense"
+        "Department of Defense",
+        "National Security Agency",
+        "Office of the Director of National Intelligence"
       ],
-      "deadlines": [],
+      "deadlines": [
+        {
+          "date": "2026-04-01",
+          "requirement": "Establish the Artificial Intelligence Futures Steering Committee.",
+          "status": "unknown",
+          "source_ids": [
+            "govinfo-law"
+          ]
+        },
+        {
+          "date": "2026-06-16",
+          "requirement": "Develop the Defense-wide AI and machine-learning cybersecurity policy and provide the implementation update for AI physical and cybersecurity procurement requirements.",
+          "status": "unknown",
+          "source_ids": [
+            "govinfo-law"
+          ]
+        },
+        {
+          "date": "2026-08-31",
+          "requirement": "Submit the Defense Department review of AI and machine-learning cybersecurity and governance practices.",
+          "status": "unknown",
+          "source_ids": [
+            "govinfo-law"
+          ]
+        },
+        {
+          "date": "2026-12-18",
+          "requirement": "Identify commonly used intelligence-community AI systems and functions suitable for reuse.",
+          "status": "upcoming",
+          "source_ids": [
+            "govinfo-law"
+          ]
+        },
+        {
+          "date": "2027-01-31",
+          "requirement": "Publish the unclassified portion of the Artificial Intelligence Futures Steering Committee report.",
+          "status": "upcoming",
+          "source_ids": [
+            "govinfo-law"
+          ]
+        }
+      ],
       "agency_status": [
         {
-          "agency": "Department of Defense",
+          "agency": "Department of Defense, National Security Agency, and Intelligence Community",
           "status": "unknown",
-          "as_of": "2026-09-20",
-          "detail": "The authorization is verified; an official award or institute implementation inventory has not yet been completed for this record.",
+          "as_of": "2026-10-28",
+          "detail": "The statutory requirements and deadlines are verified; this grouped record does not infer completion without a corresponding official implementation source.",
           "source_ids": [
             "govinfo-law"
           ]
         }
       ]
     },
-    "last_verified_date": "2026-09-20",
-    "verification_level": "Official public-law text verified; implementation status requires follow-up.",
+    "last_verified_date": "2026-10-28",
+    "verification_level": "Official public-law text, section grouping, and statutory deadlines verified.",
     "sources": [
       {
         "source_id": "govinfo-law",
@@ -5311,7 +5512,7 @@
         "publisher": "GovInfo",
         "source_type": "official",
         "url": "https://www.govinfo.gov/app/details/PLAW-119publ60",
-        "accessed_date": "2026-09-20"
+        "accessed_date": "2026-10-28"
       }
     ],
     "claim_provenance": [
@@ -5342,7 +5543,8 @@
         ],
         "source_ids": [
           "govinfo-law"
-        ]
+        ],
+        "note": "Section grouping and summary are analyst-created from the enacted text."
       }
     ]
   },
@@ -5900,6 +6102,125 @@
     ],
     "congress": 119,
     "session": "119th Congress"
+  },
+  {
+    "record_id": "s-1792",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "S. 1792",
+    "title": "AI Whistleblower Protection Act",
+    "session": "119th Congress",
+    "congress": 119,
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Monitoring, disclosure & reporting",
+    "category_key": "monitoring",
+    "secondary_categories": [
+      "Vulnerability reporting",
+      "Accountability",
+      "Worker protection"
+    ],
+    "sponsor": "Chuck Grassley",
+    "sponsor_party": "R",
+    "sponsor_state": "IA",
+    "cosponsor_count": 13,
+    "notable_cosponsors": [
+      "Chris Coons (D-DE)",
+      "Marsha Blackburn (R-TN)",
+      "Amy Klobuchar (D-MN)",
+      "Josh Hawley (R-MO)",
+      "Brian Schatz (D-HI)"
+    ],
+    "committees": [
+      "Senate Health, Education, Labor, and Pensions"
+    ],
+    "introduced_date": "2025-05-15",
+    "last_action_date": "2025-05-15",
+    "last_action": "Read twice and referred to the Senate Committee on Health, Education, Labor, and Pensions.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Protects employees who report AI security vulnerabilities or violations of law involving AI and creates Department of Labor complaint, investigation, and remedy procedures.",
+    "committee_dynamics": "The bipartisan Senate companion gives the proposal a path in the HELP Committee, while H.R. 3460 carries the same core labor-law mechanism in the House.",
+    "advance_tier": "Medium",
+    "advance_rationale": "The bipartisan sponsor coalition and a House companion improve the proposal’s options, but neither chamber has completed committee action.",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1792",
+    "last_verified_date": "2026-10-28",
+    "verification_level": "Bill details checked against Congress.gov and the official introduced text.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for S. 1792",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1792",
+        "accessed_date": "2026-10-28"
+      },
+      {
+        "source_id": "official-text",
+        "title": "S. 1792 — Introduced text",
+        "publisher": "GovInfo",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119s1792is",
+        "accessed_date": "2026-10-28"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "congress",
+          "chamber",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "cosponsor_count",
+          "committees",
+          "introduced_date",
+          "last_action_date",
+          "last_action",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-text"
+        ]
+      },
+      {
+        "claim_id": "substance-and-analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-text"
+        ],
+        "note": "The summary and outlook are tracker analysis based on the official bill record and text."
+      }
+    ],
+    "related_measures": [
+      {
+        "record_id": "h-r-3460",
+        "measure_id": "H.R. 3460",
+        "relationship": "companion"
+      }
+    ]
   },
   {
     "record_id": "s-2177",

@@ -18,6 +18,13 @@
     "Accountability",
     "Worker protection"
   ],
+  "related_measures": [
+    {
+      "record_id": "s-1792",
+      "measure_id": "S. 1792",
+      "relationship": "companion"
+    }
+  ],
   "sponsor": "Jay Obernolte",
   "sponsor_party": "R",
   "sponsor_state": "CA",
@@ -90,7 +97,8 @@
         "summary",
         "committee_dynamics",
         "advance_tier",
-        "advance_rationale"
+        "advance_rationale",
+        "related_measures"
       ],
       "source_ids": [
         "official-congress"

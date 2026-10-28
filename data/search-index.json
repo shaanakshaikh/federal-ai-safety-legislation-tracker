@@ -81,7 +81,7 @@
     "measure_id": "H.R. 3460",
     "title": "AI Whistleblower Protection Act",
     "url": "pages/h-r-3460.html",
-    "text": "h-r-3460 h.r. 3460 ai whistleblower protection act bill core monitoring, disclosure & reporting introduced / referred referred protects employees who report ai security vulnerabilities or legal violations and creates department of labor complaint and remedy mechanisms. 119th congress 119 vulnerability reporting accountability worker protection education and workforce committee jay obernolte"
+    "text": "h-r-3460 h.r. 3460 ai whistleblower protection act bill core monitoring, disclosure & reporting introduced / referred referred protects employees who report ai security vulnerabilities or legal violations and creates department of labor complaint and remedy mechanisms. 119th congress 119 vulnerability reporting accountability worker protection education and workforce committee jay obernolte s. 1792"
   },
   {
     "record_id": "h-r-3919",
@@ -295,17 +295,24 @@
   },
   {
     "record_id": "pl-118-159-sec-225",
-    "measure_id": "P.L. 118-159 § 225",
-    "title": "Defense governing-council duties for advanced AI security",
+    "measure_id": "P.L. 118-159 §§ 225, 236, 1531–1534, 6504",
+    "title": "FY2025 NDAA artificial-intelligence security, biosecurity, and assurance provisions",
     "url": "pages/pl-118-159-sec-225.html",
-    "text": "pl-118-159-sec-225 p.l. 118-159 § 225 defense governing-council duties for advanced ai security provision core frontier-model & national security enacted — public law 118-159 enacted directs the chief digital and artificial intelligence officer governing council to identify and assess ai models that could pose national-security risk if accessed by an adversary, develop strategies against unauthorized adversary access and use, and recommend legislative or administrative action. 118th congress 118 model-weight security foreign adversaries risk assessment house armed services senate armed services department of defense chief digital and artificial intelligence officer governing council"
+    "text": "pl-118-159-sec-225 p.l. 118-159 §§ 225, 236, 1531–1534, 6504 fy2025 ndaa artificial-intelligence security, biosecurity, and assurance provisions provision vehicle defense, intelligence & procurement enacted — public law 118-159 enacted a curated group of fy2025 ndaa provisions directing assessment and protection of advanced ai from adversary access, piloting national-security ai and biotechnology applications, strengthening human-factors and testing infrastructure for military ai, and establishing the nsa artificial intelligence security center. 118th congress 118 model-weight security foreign adversaries ai-biosecurity military ai assurance nsa ai security center house armed services senate armed services department of defense chief digital and artificial intelligence officer governing council national security agency"
+  },
+  {
+    "record_id": "pl-118-186-detect-fentanyl",
+    "measure_id": "P.L. 118-186",
+    "title": "DETECT Fentanyl and Xylazine Act of 2024",
+    "url": "pages/pl-118-186-detect-fentanyl.html",
+    "text": "pl-118-186-detect-fentanyl p.l. 118-186 detect fentanyl and xylazine act of 2024 law adjacent evaluation, testing & standards enacted — public law 118-186 enacted authorizes dhs research, testing, evaluation, and cost-benefit analysis for ai- and machine-learning-enabled tools that identify fentanyl, xylazine, controlled-substance analogues, and emerging psychoactive substances, while requiring the work to follow the nist ai risk management framework. 118th congress 118 cbrne drug detection nist ai risk management framework house homeland security senate homeland security and governmental affairs nick lalota department of homeland security science and technology directorate drug enforcement administration national institute of standards and technology"
   },
   {
     "record_id": "pl-118-31-ai-safety",
-    "measure_id": "P.L. 118-31 §§ 220-225",
+    "measure_id": "P.L. 118-31 §§ 1541–1545, 7510, 7513",
     "title": "FY2024 NDAA artificial-intelligence assurance and security provisions",
     "url": "pages/pl-118-31-ai-safety.html",
-    "text": "pl-118-31-ai-safety p.l. 118-31 §§ 220-225 fy2024 ndaa artificial-intelligence assurance and security provisions provision vehicle testing, evaluation & assurance enacted — public law 118-31 enacted a curated group of fy2024 ndaa provisions addressing generative-ai detection and watermarking, responsible-ai processes, explainable military ai, and assessment of model and advanced-ai technologies that could pose national-security risks. 118th congress 118 generative ai detection responsible ai military ai security house armed services senate armed services department of defense"
+    "text": "pl-118-31-ai-safety p.l. 118-31 §§ 1541–1545, 7510, 7513 fy2024 ndaa artificial-intelligence assurance and security provisions provision vehicle testing, evaluation & assurance enacted — public law 118-31 enacted a curated group of fy2024 ndaa provisions establishing ai bug-bounty work, generative-ai detection and watermarking efforts, responsible-ai processes, a study of privacy, security, accuracy, explainability, and emergent behavior in military ai, and intelligence-community guidance for ai-assisted analysis. 118th congress 118 generative ai detection responsible ai military ai security intelligence oversight house armed services senate armed services department of defense office of the director of national intelligence"
   },
   {
     "record_id": "pl-119-12-take-it-down",
@@ -323,10 +330,10 @@
   },
   {
     "record_id": "pl-119-60-ai-institutes",
-    "measure_id": "P.L. 119-60 — AI Institutes",
-    "title": "National-security artificial-intelligence research institutes",
+    "measure_id": "P.L. 119-60 §§ 224, 245, 1512–1515, 1533–1535, 6601–6604",
+    "title": "FY2026 NDAA artificial-intelligence security and oversight provisions",
     "url": "pages/pl-119-60-ai-institutes.html",
-    "text": "pl-119-60-ai-institutes p.l. 119-60 — ai institutes national-security artificial-intelligence research institutes provision core testing, evaluation & assurance enacted — public law 119-60 enacted authorizes defense department ai research institutes that may maintain secure and privacy-protected datasets, develop predeployment testbeds, conduct national-security ai research, and provide compute and technical support. 119th congress 119 national-security testbeds secure datasets predeployment evaluation house armed services senate armed services department of defense"
+    "text": "pl-119-60-ai-institutes p.l. 119-60 §§ 224, 245, 1512–1515, 1533–1535, 6601–6604 fy2026 ndaa artificial-intelligence security and oversight provisions provision vehicle defense, intelligence & procurement enacted — public law 119-60 enacted a curated group of fy2026 ndaa provisions covering secure biological data for ai, defense-wide ai cybersecurity policy, physical and supply-chain security requirements for ai contractors, model assessment and secure sandboxes, frontier-ai governance and human-override safeguards, nsa security guidance against nation-state theft, and intelligence-community testing and performance oversight. 119th congress 119 model security physical security ai-biosecurity assessment and oversight frontier ai governance intelligence-community testing house armed services senate armed services house intelligence senate intelligence (select) department of defense national security agency office of the director of national intelligence"
   },
   {
     "record_id": "s-1394-118",
@@ -362,6 +369,13 @@
     "title": "Protecting AI and Cloud Competition in Defense Act of 2025",
     "url": "pages/s-1775.html",
     "text": "s-1775 s. 1775 protecting ai and cloud competition in defense act of 2025 bill adjacent defense, intelligence & procurement introduced / referred referred addresses competitive awards for defense cloud, data, and foundation-model systems and protects government data rights. 119th congress 119 defense procurement competition data rights armed services committee elizabeth warren"
+  },
+  {
+    "record_id": "s-1792",
+    "measure_id": "S. 1792",
+    "title": "AI Whistleblower Protection Act",
+    "url": "pages/s-1792.html",
+    "text": "s-1792 s. 1792 ai whistleblower protection act bill core monitoring, disclosure & reporting introduced / referred referred protects employees who report ai security vulnerabilities or violations of law involving ai and creates department of labor complaint, investigation, and remedy procedures. 119th congress 119 vulnerability reporting accountability worker protection senate health, education, labor, and pensions chuck grassley h.r. 3460"
   },
   {
     "record_id": "s-2177",
