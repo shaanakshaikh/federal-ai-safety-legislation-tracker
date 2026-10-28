@@ -3,14 +3,23 @@
 
 from __future__ import annotations
 
-import argparse, csv, html, io, json, re
+import argparse, copy, csv, html, io, json, re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 RECORDS_DIR = ROOT / "data" / "records"
 TEMPLATE = ROOT / "templates" / "index.html"
 SITE_METADATA = ROOT / "data" / "site-metadata.json"
-CSV_COLUMNS = ["record_id", "measure_id", "title", "entity_type", "jurisdiction_level", "jurisdiction_state", "session", "congress", "chamber", "scope", "primary_category", "sponsor", "sponsor_party", "sponsor_state", "cosponsor_count", "committees", "introduced_date", "last_action_date", "lifecycle_status", "status", "public_law_number", "enacted_date", "effective_date", "responsible_agencies", "implementation_status", "advance_tier", "summary", "committee_dynamics", "advance_rationale", "official_url", "last_verified_date", "verification_level"]
+CSV_COLUMNS = ["record_id", "measure_id", "title", "entity_type", "jurisdiction_level", "jurisdiction_state", "session", "congress", "chamber", "scope", "primary_category", "sponsor", "sponsor_party", "sponsor_state", "cosponsor_count", "committees", "related_measures", "introduced_date", "last_action_date", "lifecycle_status", "status", "public_law_number", "enacted_date", "effective_date", "responsible_agencies", "implementation_status", "advance_tier", "summary", "committee_dynamics", "advance_rationale", "official_url", "last_verified_date", "verification_level"]
+
+RECIPROCAL_RELATIONSHIPS = {
+    "companion": "companion",
+    "related": "related",
+    "reintroduction_of": "reintroduced_as",
+    "reintroduced_as": "reintroduction_of",
+    "incorporated_into": "incorporates",
+    "incorporates": "incorporated_into",
+}
 
 
 def slugify(value: str) -> str:
@@ -27,6 +36,29 @@ def load_records() -> list[dict]:
 
 def public_record(record: dict) -> dict:
     return {key: value for key, value in record.items() if not key.startswith("_")}
+
+
+def add_reciprocal_relations(records: list[dict]) -> list[dict]:
+    """Return a copy with every declared relationship mirrored on its target."""
+    records = copy.deepcopy(records)
+    by_id = {record["record_id"]: record for record in records}
+    for record in records:
+        for relation in list(record.get("related_measures", [])):
+            target = by_id.get(relation["record_id"])
+            if target is None:
+                continue
+            reciprocal = {
+                "record_id": record["record_id"],
+                "measure_id": record["measure_id"],
+                "relationship": RECIPROCAL_RELATIONSHIPS[relation["relationship"]],
+            }
+            existing = target.setdefault("related_measures", [])
+            if not any(item["record_id"] == record["record_id"] for item in existing):
+                existing.append(reciprocal)
+    for record in records:
+        if record.get("related_measures"):
+            record["related_measures"].sort(key=lambda item: (item["measure_id"], item["relationship"]))
+    return records
 
 
 def json_bytes(value: object) -> bytes:
@@ -48,6 +80,10 @@ def csv_bytes(records: list[dict]) -> bytes:
         row["responsible_agencies"] = implementation.get("responsible_agencies", [])
         row["implementation_status"] = "; ".join(item.get("status", "") for item in implementation.get("agency_status", []))
         row["official_url"] = record.get("official_url") or record.get("congress_url")
+        row["related_measures"] = "; ".join(
+            f'{item["relationship"].replace("_", " ")}: {item["measure_id"]}'
+            for item in record.get("related_measures", [])
+        )
         for key, value in row.items():
             if isinstance(value, list): row[key] = "; ".join(map(str, value))
             elif value is None: row[key] = ""
@@ -62,6 +98,7 @@ def search_index(records: list[dict]) -> list[dict]:
         terms = [str(record.get(field, "")) for field in fields] + record.get("secondary_categories", []) + record.get("committees", [])
         terms += list(filter(None, [record.get("sponsor"), record["jurisdiction"].get("state")]))
         terms += (record.get("implementation") or {}).get("responsible_agencies", [])
+        terms += [item["measure_id"] for item in record.get("related_measures", [])]
         result.append({"record_id": record["record_id"], "measure_id": record["measure_id"], "title": record["title"], "url": f"pages/{record['record_id']}.html", "text": " ".join(terms).lower()})
     return result
 
@@ -73,14 +110,19 @@ def record_page(record: dict) -> bytes:
     implementation = record.get("implementation") or {}
     deadline_items = "".join(f'<li><strong>{esc(item.get("date") or "Ongoing")}</strong>: {esc(item.get("requirement"))} — {esc(item.get("status"))}</li>' for item in implementation.get("deadlines", []))
     implementation_section = f'<h2>Implementation</h2><p><strong>Responsible agencies:</strong> {esc(", ".join(implementation.get("responsible_agencies", [])) or "Not specified")}</p><ul>{deadline_items}</ul>' if implementation else ""
+    related_items = "".join(
+        f'<li><a href="{esc(item["record_id"])}.html">{esc(item["measure_id"])}</a> — {esc(item["relationship"].replace("_", " ").title())}</li>'
+        for item in record.get("related_measures", [])
+    )
+    related_section = f'<h2>Related legislation</h2><ul>{related_items}</ul>' if related_items else ""
     lifecycle = str(record["lifecycle_status"]).replace("_", " ").capitalize()
     session = record.get("session") or (str(record.get("congress")) + "th Congress" if record.get("congress") else "Not applicable")
-    content = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="../favicon.svg" type="image/svg+xml"><title>{esc(record['measure_id'])} — {esc(record['title'])}</title><style>body{{font:16px/1.55 system-ui;max-width:860px;margin:40px auto;padding:0 20px;color:#17252b}}a{{color:#075f72}}dt{{font-weight:700;margin-top:12px}}dd{{margin-left:0}}small{{color:#52656d}}</style></head><body><p><a href="../index.html">← Tracker</a></p><main><p>{esc(record['entity_type'].title())} · {esc(record['jurisdiction']['level'].title())} · {esc(lifecycle)}</p><h1>{esc(record['measure_id'])}: {esc(record['title'])}</h1><p>{esc(record['summary'])}</p><dl><dt>Status</dt><dd>{esc(record['status'])}</dd><dt>Session</dt><dd>{esc(session)}</dd><dt>Last action</dt><dd>{esc(record.get('last_action'))}</dd><dt>Primary category</dt><dd>{esc(record['primary_category'])}</dd><dt>Last verified</dt><dd>{esc(record['last_verified_date'])}</dd></dl>{implementation_section}<h2>Sources</h2><ul>{source_items}</ul><h2>Claim provenance</h2><ul>{claim_items}</ul></main></body></html>'''
+    content = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="../favicon.svg" type="image/svg+xml"><title>{esc(record['measure_id'])} — {esc(record['title'])}</title><style>body{{font:16px/1.55 system-ui;max-width:860px;margin:40px auto;padding:0 20px;color:#17252b}}a{{color:#075f72}}dt{{font-weight:700;margin-top:12px}}dd{{margin-left:0}}small{{color:#52656d}}</style></head><body><p><a href="../index.html">← Tracker</a></p><main><p>{esc(record['entity_type'].title())} · {esc(record['jurisdiction']['level'].title())} · {esc(lifecycle)}</p><h1>{esc(record['measure_id'])}: {esc(record['title'])}</h1><p>{esc(record['summary'])}</p><dl><dt>Status</dt><dd>{esc(record['status'])}</dd><dt>Session</dt><dd>{esc(session)}</dd><dt>Last action</dt><dd>{esc(record.get('last_action'))}</dd><dt>Primary category</dt><dd>{esc(record['primary_category'])}</dd><dt>Last verified</dt><dd>{esc(record['last_verified_date'])}</dd></dl>{implementation_section}{related_section}<h2>Sources</h2><ul>{source_items}</ul><h2>Claim provenance</h2><ul>{claim_items}</ul></main></body></html>'''
     return content.encode()
 
 
 def outputs(records_with_meta: list[dict]) -> dict[Path, bytes]:
-    records = [public_record(record) for record in records_with_meta]
+    records = [public_record(record) for record in add_reciprocal_relations(records_with_meta)]
     compact = json.dumps(records, ensure_ascii=False, separators=(",", ":"))
     metadata = json.loads(SITE_METADATA.read_text(encoding="utf-8"))
     verified = metadata["verified_through"]

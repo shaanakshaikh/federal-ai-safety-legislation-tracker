@@ -1,0 +1,130 @@
+{
+  "record_id": "pl-118-186-detect-fentanyl",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "P.L. 118-186",
+  "title": "DETECT Fentanyl and Xylazine Act of 2024",
+  "session": "118th Congress",
+  "congress": 118,
+  "chamber": "Bicameral",
+  "scope": "Adjacent",
+  "primary_category": "Evaluation, testing & standards",
+  "category_key": "evaluation",
+  "secondary_categories": [
+    "CBRNE",
+    "Drug detection",
+    "NIST AI Risk Management Framework"
+  ],
+  "sponsor": "Nick LaLota",
+  "sponsor_party": "R",
+  "sponsor_state": "NY",
+  "cosponsor_count": null,
+  "notable_cosponsors": [
+    "Lou Correa (D-CA)"
+  ],
+  "committees": [
+    "House Homeland Security",
+    "Senate Homeland Security and Governmental Affairs"
+  ],
+  "introduced_date": "2024-06-07",
+  "last_action_date": "2024-12-23",
+  "last_action": "Signed into law as Public Law 118-186.",
+  "status": "Enacted — Public Law 118-186",
+  "status_bucket": "Enacted",
+  "summary": "Authorizes DHS research, testing, evaluation, and cost-benefit analysis for AI- and machine-learning-enabled tools that identify fentanyl, xylazine, controlled-substance analogues, and emerging psychoactive substances, while requiring the work to follow the NIST AI Risk Management Framework.",
+  "committee_dynamics": "This narrowly scoped, bipartisan public-safety measure moved through the homeland-security committees and became a standalone law rather than riding in a larger vehicle.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+  "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ186",
+  "public_law": {
+    "number": "118-186",
+    "enacted_date": "2024-12-23",
+    "originating_bill": "H.R. 8663",
+    "statutes_at_large": "138 Stat. 2636",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ186"
+  },
+  "implementation": {
+    "responsible_agencies": [
+      "Department of Homeland Security Science and Technology Directorate",
+      "Drug Enforcement Administration",
+      "National Institute of Standards and Technology"
+    ],
+    "deadlines": [],
+    "agency_status": [
+      {
+        "agency": "Department of Homeland Security Science and Technology Directorate",
+        "status": "unknown",
+        "as_of": "2026-10-28",
+        "detail": "The statutory research and standards requirements are verified; this audit did not identify a single official public report that resolves implementation across all covered activities.",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      }
+    ]
+  },
+  "last_verified_date": "2026-10-28",
+  "verification_level": "Official public-law text and introduced bill verified.",
+  "sources": [
+    {
+      "source_id": "govinfo-law",
+      "title": "Public Law 118-186 — DETECT Fentanyl and Xylazine Act of 2024",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/PLAW-118publ186",
+      "accessed_date": "2026-10-28"
+    },
+    {
+      "source_id": "govinfo-bill",
+      "title": "H.R. 8663 — Introduced text",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118hr8663ih",
+      "accessed_date": "2026-10-28"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity-and-law",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "congress",
+        "public_law",
+        "status",
+        "lifecycle_status",
+        "sponsor",
+        "introduced_date",
+        "last_action_date"
+      ],
+      "source_ids": [
+        "govinfo-law",
+        "govinfo-bill"
+      ]
+    },
+    {
+      "claim_id": "substance-and-implementation",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale",
+        "implementation"
+      ],
+      "source_ids": [
+        "govinfo-law",
+        "govinfo-bill"
+      ]
+    }
+  ]
+}

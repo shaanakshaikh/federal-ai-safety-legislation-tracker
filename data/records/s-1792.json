@@ -1,0 +1,112 @@
+{
+  "record_id": "s-1792",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "S. 1792",
+  "title": "AI Whistleblower Protection Act",
+  "session": "119th Congress",
+  "congress": 119,
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Monitoring, disclosure & reporting",
+  "category_key": "monitoring",
+  "secondary_categories": [
+    "Vulnerability reporting",
+    "Accountability",
+    "Worker protection"
+  ],
+  "sponsor": "Chuck Grassley",
+  "sponsor_party": "R",
+  "sponsor_state": "IA",
+  "cosponsor_count": 13,
+  "notable_cosponsors": [
+    "Chris Coons (D-DE)",
+    "Marsha Blackburn (R-TN)",
+    "Amy Klobuchar (D-MN)",
+    "Josh Hawley (R-MO)",
+    "Brian Schatz (D-HI)"
+  ],
+  "committees": [
+    "Senate Health, Education, Labor, and Pensions"
+  ],
+  "introduced_date": "2025-05-15",
+  "last_action_date": "2025-05-15",
+  "last_action": "Read twice and referred to the Senate Committee on Health, Education, Labor, and Pensions.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Protects employees who report AI security vulnerabilities or violations of law involving AI and creates Department of Labor complaint, investigation, and remedy procedures.",
+  "committee_dynamics": "The bipartisan Senate companion gives the proposal a path in the HELP Committee, while H.R. 3460 carries the same core labor-law mechanism in the House.",
+  "advance_tier": "Medium",
+  "advance_rationale": "The bipartisan sponsor coalition and a House companion improve the proposal’s options, but neither chamber has completed committee action.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1792",
+  "last_verified_date": "2026-10-28",
+  "verification_level": "Bill details checked against Congress.gov and the official introduced text.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 1792",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1792",
+      "accessed_date": "2026-10-28"
+    },
+    {
+      "source_id": "official-text",
+      "title": "S. 1792 — Introduced text",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s1792is",
+      "accessed_date": "2026-10-28"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity-and-lifecycle",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-text"
+      ]
+    },
+    {
+      "claim_id": "substance-and-analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-text"
+      ],
+      "note": "The summary and outlook are tracker analysis based on the official bill record and text."
+    }
+  ]
+}

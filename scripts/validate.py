@@ -12,6 +12,7 @@ LIFECYCLES = {"introduced", "referred", "committee_consideration", "committee_ad
 CHAMBERS = {"House", "Senate", "Bicameral", "Executive", "State legislature", "N/A"}
 SCOPES = {"Core", "Adjacent", "Vehicle"}
 OUTLOOKS = {"High", "Medium", "Low", "Enacted", "Dead"}
+RELATIONSHIPS = {"companion", "related", "reintroduction_of", "reintroduced_as", "incorporated_into", "incorporates"}
 RECORD_ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 def fail(message): raise SystemExit(f"validation error: {message}")
@@ -23,7 +24,7 @@ def valid_date(value, label, nullable=False):
 def main():
     records = load_records()
     if not records: fail("data/records must contain at least one JSON record")
-    seen_ids, seen_measures = set(), set()
+    seen_ids, seen_measures, measure_by_id = set(), set(), {}
     for record in records:
         filename = record["_source_file"]
         missing = REQUIRED - record.keys()
@@ -32,7 +33,7 @@ def main():
         if not isinstance(rid, str) or not RECORD_ID.fullmatch(rid): fail(f"{filename}: invalid record_id")
         if filename != f"{rid}.json": fail(f"{filename}: filename must match record_id")
         if rid in seen_ids or record["measure_id"] in seen_measures: fail(f"{filename}: duplicate identifier")
-        seen_ids.add(rid); seen_measures.add(record["measure_id"])
+        seen_ids.add(rid); seen_measures.add(record["measure_id"]); measure_by_id[rid] = record["measure_id"]
         if record["entity_type"] not in ENTITY_TYPES: fail(f"{rid}: invalid entity_type")
         jurisdiction = record["jurisdiction"]
         if not isinstance(jurisdiction, dict) or jurisdiction.get("level") not in {"federal", "state"} or jurisdiction.get("country") != "US": fail(f"{rid}: invalid jurisdiction")
@@ -93,6 +94,18 @@ def main():
             if record["requires_human_review"] is not True: fail(f"{rid}: agent-authored changes must require human review")
             if not isinstance(record["agent_confidence"], (int, float)) or not 0 <= record["agent_confidence"] <= 1: fail(f"{rid}: invalid agent_confidence")
             if not isinstance(record["agent_flags"], list) or not record["agent_flags"]: fail(f"{rid}: agent_flags must be non-empty")
+    for record in records:
+        rid = record["record_id"]
+        related_ids = set()
+        for relation in record.get("related_measures", []):
+            if not {"record_id", "measure_id", "relationship"} <= relation.keys(): fail(f"{rid}: incomplete related measure")
+            target_id = relation["record_id"]
+            if target_id == rid: fail(f"{rid}: cannot relate a measure to itself")
+            if target_id not in seen_ids: fail(f"{rid}: related measure {target_id} does not exist")
+            if target_id in related_ids: fail(f"{rid}: duplicate related measure {target_id}")
+            related_ids.add(target_id)
+            if relation["measure_id"] != measure_by_id[target_id]: fail(f"{rid}: related measure label does not match {target_id}")
+            if relation["relationship"] not in RELATIONSHIPS: fail(f"{rid}: invalid relationship type")
     result = subprocess.run([sys.executable, str(ROOT/"scripts/build.py"), "--check"])
     if result.returncode: raise SystemExit(result.returncode)
     print(f"Validated {len(records)} canonical records, provenance, and generated artifacts.")
