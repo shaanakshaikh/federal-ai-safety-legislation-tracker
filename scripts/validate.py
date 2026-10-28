@@ -38,6 +38,9 @@ def main():
         if not isinstance(jurisdiction, dict) or jurisdiction.get("level") not in {"federal", "state"} or jurisdiction.get("country") != "US": fail(f"{rid}: invalid jurisdiction")
         if jurisdiction["level"] == "state" and not re.fullmatch(r"[A-Z]{2}", jurisdiction.get("state", "")): fail(f"{rid}: state jurisdiction requires a state code")
         if jurisdiction["level"] == "federal" and jurisdiction.get("state") is not None: fail(f"{rid}: federal jurisdiction state must be null")
+        if jurisdiction["level"] == "federal" and record["entity_type"] == "bill":
+            if not isinstance(record.get("congress"), int): fail(f"{rid}: federal bills require a congress number")
+            if not record.get("session"): fail(f"{rid}: federal bills require a session label")
         if record["lifecycle_status"] not in LIFECYCLES: fail(f"{rid}: invalid lifecycle_status")
         if record["chamber"] not in CHAMBERS or record["scope"] not in SCOPES: fail(f"{rid}: invalid chamber or scope")
         if record["advance_tier"] not in OUTLOOKS: fail(f"{rid}: invalid advance_tier")

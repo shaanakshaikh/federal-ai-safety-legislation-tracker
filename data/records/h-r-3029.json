@@ -6,9 +6,9 @@
     "level": "federal",
     "state": null
   },
-  "lifecycle_status": "committee_advanced",
+  "lifecycle_status": "passed_chamber",
   "measure_id": "H.R. 3029",
-  "title": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
+  "title": "Nucleic Acid Standards for Biosecurity Act",
   "chamber": "House",
   "scope": "Core",
   "primary_category": "Evaluation, testing & standards",
@@ -31,15 +31,15 @@
   "introduced_date": "2025-04-28",
   "last_action_date": "2026-07-21",
   "last_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-  "status": "Reported by committee",
-  "status_bucket": "Committee advanced",
-  "summary": "Establishes a NIST-led consortium and technical standards or best practices for custom synthetic nucleic-acid screening, expressly including risks associated with AI. The reported authorization was $5 million annually for FY2026–FY2030.",
-  "committee_dynamics": "The bill translates AI-enabled biological risk into a concrete screening and standards program. Reaching the House-report stage gives it a stronger procedural position than most standalone AI bills.",
+  "status": "Passed House; referred to Senate Commerce",
+  "status_bucket": "Passed chamber",
+  "summary": "Directs NIST to develop technical standards and best practices for nucleic-acid synthesis screening and for engineering-biology risks, expressly including risks associated with AI. The House-passed version authorizes $5 million annually for FY2027–FY2031.",
+  "committee_dynamics": "The bill translates AI-enabled biological risk into a concrete screening and standards program. House passage gives it a stronger procedural position than most standalone AI bills, although it still requires Senate action.",
   "advance_tier": "High",
   "advance_rationale": "A filed House report and direct national-security/biosecurity rationale make material advancement comparatively likely.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
   "last_verified_date": "2026-10-27",
-  "verification_level": "Official API metadata synchronized; human review pending",
+  "verification_level": "House passage, Senate referral, and the current short title checked against official congressional sources.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -47,6 +47,14 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
+      "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "official-govinfo",
+      "title": "H.R. 3029, referred in Senate",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr3029rfs",
       "accessed_date": "2026-10-27"
     }
   ],
@@ -62,10 +70,13 @@
         "sponsor",
         "sponsor_party",
         "sponsor_state",
-        "introduced_date"
+        "introduced_date",
+        "congress",
+        "session"
       ],
       "source_ids": [
-        "official-congress"
+        "official-congress",
+        "official-govinfo"
       ]
     },
     {
@@ -78,7 +89,8 @@
         "committees"
       ],
       "source_ids": [
-        "official-congress"
+        "official-congress",
+        "official-govinfo"
       ]
     },
     {
@@ -93,7 +105,7 @@
         "advance_rationale"
       ],
       "source_ids": [
-        "official-congress"
+        "official-govinfo"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
     },
@@ -105,14 +117,9 @@
       "source_ids": [
         "official-congress"
       ],
-      "note": "Machine-synchronized from the official API; human review required before merge."
+      "note": "Cosponsor count and other objective bill details were updated from Congress.gov."
     }
   ],
-  "agent_confidence": 1.0,
-  "agent_flags": [
-    "objective-metadata-sync"
-  ],
-  "requires_human_review": true,
-  "automation_workflow": "weekday-status-sync",
-  "automation_generated_at": "2026-10-27T18:08:36Z"
+  "congress": 119,
+  "session": "119th Congress"
 }

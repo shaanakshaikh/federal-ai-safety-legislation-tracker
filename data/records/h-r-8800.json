@@ -62,7 +62,9 @@
         "sponsor",
         "sponsor_party",
         "sponsor_state",
-        "introduced_date"
+        "introduced_date",
+        "congress",
+        "session"
       ],
       "source_ids": [
         "official-congress"
@@ -97,5 +99,7 @@
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
     }
-  ]
+  ],
+  "congress": 119,
+  "session": "119th Congress"
 }

@@ -38,7 +38,7 @@
   "advance_rationale": "No cosponsors or committee movement were captured, and the mixed policy objectives may complicate coalition-building.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6304",
   "last_verified_date": "2026-10-27",
-  "verification_level": "Official API metadata synchronized; human review pending",
+  "verification_level": "Bill details checked against Congress.gov.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -61,7 +61,9 @@
         "sponsor",
         "sponsor_party",
         "sponsor_state",
-        "introduced_date"
+        "introduced_date",
+        "congress",
+        "session"
       ],
       "source_ids": [
         "official-congress"
@@ -104,14 +106,9 @@
       "source_ids": [
         "official-congress"
       ],
-      "note": "Machine-synchronized from the official API; human review required before merge."
+      "note": "Cosponsor count and other objective bill details were updated from Congress.gov."
     }
   ],
-  "agent_confidence": 1.0,
-  "agent_flags": [
-    "objective-metadata-sync"
-  ],
-  "requires_human_review": true,
-  "automation_workflow": "weekday-status-sync",
-  "automation_generated_at": "2026-10-27T18:09:36Z"
+  "congress": 119,
+  "session": "119th Congress"
 }

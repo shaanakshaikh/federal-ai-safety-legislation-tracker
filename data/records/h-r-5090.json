@@ -1,0 +1,42 @@
+{
+  "record_id": "h-r-5090",
+  "entity_type": "bill",
+  "jurisdiction": {"country": "US", "level": "federal", "state": null},
+  "lifecycle_status": "referred",
+  "measure_id": "H.R. 5090",
+  "title": "HONOR Act",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": ["Digital forgeries", "Intimate imagery", "Military justice"],
+  "sponsor": "Nancy Mace",
+  "sponsor_party": "R",
+  "sponsor_state": "SC",
+  "cosponsor_count": 0,
+  "notable_cosponsors": [],
+  "committees": ["House Armed Services"],
+  "introduced_date": "2025-09-02",
+  "last_action_date": "2025-09-02",
+  "last_action": "Referred to the House Committee on Armed Services.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Would amend the Uniform Code of Military Justice to cover knowing distribution or publication of nonconsensual intimate digital forgeries, including AI-generated depictions, and strengthen protections involving minors.",
+  "committee_dynamics": "The measure belongs in the tracker because it directly regulates harmful AI-generated imagery, but it is classified as adjacent because its reach is limited to military justice rather than general model or platform safety.",
+  "advance_tier": "Low",
+  "advance_rationale": "The targeted military-justice mechanism could fit a defense package, but the standalone bill had not advanced beyond referral.",
+  "congress": 119,
+  "session": "119th Congress",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5090",
+  "last_verified_date": "2026-10-27",
+  "verification_level": "Bill details and introduced text checked against official congressional sources.",
+  "sources": [
+    {"source_id": "official-congress", "title": "Congress.gov record for H.R. 5090", "publisher": "Congress.gov", "source_type": "official", "url": "https://www.congress.gov/bill/119th-congress/house-bill/5090", "accessed_date": "2026-10-27"},
+    {"source_id": "official-govinfo", "title": "H.R. 5090, introduced in House", "publisher": "U.S. Government Publishing Office", "source_type": "official", "url": "https://www.govinfo.gov/app/details/BILLS-119hr5090ih", "accessed_date": "2026-10-27"}
+  ],
+  "claim_provenance": [
+    {"claim_id": "identity", "fields": ["measure_id", "title", "entity_type", "jurisdiction", "chamber", "sponsor", "sponsor_party", "sponsor_state", "introduced_date", "congress", "session"], "source_ids": ["official-congress", "official-govinfo"]},
+    {"claim_id": "lifecycle", "fields": ["status", "lifecycle_status", "last_action", "last_action_date", "committees", "cosponsor_count"], "source_ids": ["official-congress"]},
+    {"claim_id": "analysis", "fields": ["scope", "primary_category", "secondary_categories", "summary", "committee_dynamics", "advance_tier", "advance_rationale"], "source_ids": ["official-govinfo"], "note": "Tracker classification and synthesis based on the official introduced text."}
+  ]
+}

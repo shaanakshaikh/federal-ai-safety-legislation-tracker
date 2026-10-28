@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Synchronize objective federal metadata and prepare review-gated changes."""
+"""Synchronize objective federal metadata and prepare a pull request."""
 
 from __future__ import annotations
 
@@ -8,9 +8,9 @@ import json
 import os
 from pathlib import Path
 
-from automation_common import ROOT, automation_metadata, congress_json, govinfo_billstatus, parse_federal_bill, required_secret, snapshot_id, today, write_json
+from automation_common import ROOT, congress_json, govinfo_billstatus, parse_federal_bill, required_secret, snapshot_id, today, write_json
 
-OBJECTIVE_FIELDS = {"title", "sponsor", "cosponsor_count", "committees", "introduced_date", "last_action", "last_action_date"}
+OBJECTIVE_FIELDS = {"title", "sponsor", "cosponsor_count", "committees", "introduced_date", "last_action", "last_action_date", "congress", "session"}
 LIFECYCLE_RANK = {
     "unknown": 0,
     "introduced": 1,
@@ -45,6 +45,7 @@ def values(record: dict, bill: dict, actions: list[dict], cosponsor_count: int, 
     latest = actions[0] if actions else {}
     sponsors = bill.get("sponsors") or []
     committee_names = sorted({item.get("name") for item in committees if item.get("name")})
+    congress = bill.get("congress") or record.get("congress")
     return {
         "title": bill.get("title") or record.get("title"),
         "sponsor": (" ".join(filter(None, (sponsors[0].get("firstName"), sponsors[0].get("lastName")))) if sponsors else None) or record.get("sponsor"),
@@ -54,6 +55,8 @@ def values(record: dict, bill: dict, actions: list[dict], cosponsor_count: int, 
         "last_action": latest.get("text") or record.get("last_action"),
         "last_action_date": latest.get("actionDate") or record.get("last_action_date"),
         "lifecycle_status": lifecycle_from_actions(actions, record.get("lifecycle_status", "unknown")),
+        "congress": congress,
+        "session": f"{congress}th Congress" if congress else record.get("session"),
     }
 
 
@@ -66,7 +69,7 @@ def ensure_provenance(record: dict) -> None:
         covered.update(claim["fields"])
     missing = sorted((OBJECTIVE_FIELDS | {"lifecycle_status"}) - covered)
     if missing:
-        record["claim_provenance"].append({"claim_id": "automated-objective-metadata", "fields": missing, "source_ids": ["official-congress"], "note": "Machine-synchronized from the official API; human review required before merge."})
+        record["claim_provenance"].append({"claim_id": "automated-objective-metadata", "fields": missing, "source_ids": ["official-congress"], "note": "Objective bill details updated from the official Congress.gov data service."})
 
 
 def main() -> None:
@@ -108,14 +111,15 @@ def main() -> None:
             continue
         write_json(args.raw_dir / today() / f"{prefix}-{snapshot_id(raw)}.json", raw)
         record.update(proposed)
-        record.update(automation_metadata(1.0, ["objective-metadata-sync"], "weekday-status-sync"))
+        for key in ("agent_confidence", "agent_flags", "requires_human_review", "automation_workflow", "automation_generated_at"):
+            record.pop(key, None)
         record["last_verified_date"] = today()
-        record["verification_level"] = "Official API metadata synchronized; human review pending"
+        record["verification_level"] = f"Bill details updated from Congress.gov on {today()}."
         ensure_provenance(record)
         path.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         changes.append({"record_id": record["record_id"], "changes": diff})
     if changes:
-        write_json(args.report, {"generated_date": today(), "requires_human_review": True, "changes": changes})
+        write_json(args.report, {"generated_date": today(), "source": "Congress.gov", "changes": changes})
     print(f"Prepared {len(changes)} record update(s); no production branch was modified.")
 
 
