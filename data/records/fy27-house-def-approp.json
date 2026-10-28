@@ -1,99 +1,42 @@
 {
   "record_id": "fy27-house-def-approp",
   "entity_type": "bill",
-  "jurisdiction": {
-    "country": "US",
-    "level": "federal",
-    "state": null
-  },
-  "lifecycle_status": "committee_consideration",
-  "measure_id": "FY27-HOUSE-DEF-APPROP",
-  "title": "FY2027 House Defense Appropriations vehicle",
+  "jurisdiction": {"country": "US", "level": "federal", "state": null},
+  "lifecycle_status": "committee_advanced",
+  "measure_id": "H.R. 9495",
+  "title": "Department of Defense Appropriations Act, 2027",
   "chamber": "House",
   "scope": "Vehicle",
   "primary_category": "Appropriations implementation",
   "category_key": "appropriations",
-  "secondary_categories": [
-    "Defense AI funding",
-    "Security riders",
-    "Implementation"
-  ],
-  "sponsor": null,
-  "sponsor_party": null,
-  "sponsor_state": null,
-  "cosponsor_count": null,
+  "secondary_categories": ["Defense AI funding", "Testing and deployment", "Cybersecurity", "Implementation"],
+  "sponsor": "Ken Calvert",
+  "sponsor_party": "R",
+  "sponsor_state": "CA",
+  "cosponsor_count": 0,
   "notable_cosponsors": [],
-  "committees": [
-    "House Appropriations"
-  ],
-  "introduced_date": null,
-  "last_action_date": "2026-06-10",
-  "last_action": "House Appropriations released its FY2027 Defense bill on June 10, 2026. The exact introduced bill number was not reliably confirmed in the research snapshot.",
-  "status": "Committee appropriations vehicle",
-  "status_bucket": "Appropriations vehicle",
-  "summary": "Provides funding leverage over Department of Defense AI programs, testing, deployment safeguards, cybersecurity, and implementation of authorization provisions. It can also carry policy restrictions or reporting riders.",
-  "committee_dynamics": "Appropriations text and report language can change rapidly between subcommittee, full committee, floor, continuing-resolution, omnibus, and conference stages. Every version should be archived and diffed.",
+  "committees": ["House Appropriations"],
+  "introduced_date": "2026-06-26",
+  "last_action_date": "2026-06-26",
+  "last_action": "Reported by the House Committee on Appropriations with H. Rept. 119-715 and committed to the Committee of the Whole House on the State of the Union.",
+  "status": "Reported by House Appropriations; Union Calendar",
+  "status_bucket": "Committee advanced",
+  "summary": "The House-reported FY2027 defense appropriations vehicle funds Department of Defense programs, including the research, testing, cybersecurity, and operational accounts through which military AI safeguards and implementation activities are carried out.",
+  "committee_dynamics": "The bill is a central funding vehicle for defense AI implementation, but its amounts and report directions may change through floor action, continuing resolutions, or a consolidated appropriations agreement.",
   "advance_tier": "High",
-  "advance_rationale": "Funding decisions determine whether defense AI safeguards are operational; appropriations remains a must-track implementation vehicle.",
-  "congress_url": null,
-  "last_verified_date": "2026-09-01",
-  "verification_level": "Vehicle-level source verified; exact bill number and current stage require live refresh",
+  "advance_rationale": "Defense appropriations directly determine whether authorized AI testing, cybersecurity, and deployment safeguards receive operational funding.",
+  "congress": 119,
+  "session": "119th Congress",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9495",
+  "last_verified_date": "2026-10-27",
+  "verification_level": "Bill identity and reported status checked against official congressional sources.",
   "sources": [
-    {
-      "source_id": "research-snapshot",
-      "title": "September 1, 2026 research snapshot",
-      "publisher": "Federal AI Safety & Security Legislation Tracker",
-      "source_type": "research_snapshot",
-      "url": null,
-      "accessed_date": "2026-09-01"
-    }
+    {"source_id": "official-congress", "title": "Congress.gov record for H.R. 9495", "publisher": "Congress.gov", "source_type": "official", "url": "https://www.congress.gov/bill/119th-congress/house-bill/9495", "accessed_date": "2026-10-27"},
+    {"source_id": "official-govinfo", "title": "H.R. 9495, reported in House", "publisher": "U.S. Government Publishing Office", "source_type": "official", "url": "https://www.govinfo.gov/app/details/BILLS-119hr9495rh", "accessed_date": "2026-10-27"}
   ],
   "claim_provenance": [
-    {
-      "claim_id": "identity",
-      "fields": [
-        "measure_id",
-        "title",
-        "entity_type",
-        "jurisdiction",
-        "chamber",
-        "sponsor",
-        "sponsor_party",
-        "sponsor_state",
-        "introduced_date"
-      ],
-      "source_ids": [
-        "research-snapshot"
-      ]
-    },
-    {
-      "claim_id": "lifecycle",
-      "fields": [
-        "status",
-        "lifecycle_status",
-        "last_action",
-        "last_action_date",
-        "committees"
-      ],
-      "source_ids": [
-        "research-snapshot"
-      ]
-    },
-    {
-      "claim_id": "analysis",
-      "fields": [
-        "scope",
-        "primary_category",
-        "secondary_categories",
-        "summary",
-        "committee_dynamics",
-        "advance_tier",
-        "advance_rationale"
-      ],
-      "source_ids": [
-        "research-snapshot"
-      ],
-      "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
-    }
+    {"claim_id": "identity", "fields": ["measure_id", "title", "entity_type", "jurisdiction", "chamber", "sponsor", "sponsor_party", "sponsor_state", "introduced_date", "congress", "session"], "source_ids": ["official-congress", "official-govinfo"]},
+    {"claim_id": "lifecycle", "fields": ["status", "lifecycle_status", "last_action", "last_action_date", "committees", "cosponsor_count"], "source_ids": ["official-congress", "official-govinfo"]},
+    {"claim_id": "analysis", "fields": ["scope", "primary_category", "secondary_categories", "summary", "committee_dynamics", "advance_tier", "advance_rationale"], "source_ids": ["official-govinfo"], "note": "Tracker synthesis of the defense appropriations vehicle's relevance to AI-safety implementation."}
   ]
 }
