@@ -37,6 +37,13 @@
   "congress": 118,
   "session": "118th Congress",
   "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s3696es",
+  "related_measures": [
+    {
+      "record_id": "h-r-3562",
+      "measure_id": "H.R. 3562",
+      "relationship": "related"
+    }
+  ],
   "last_verified_date": "2026-10-27",
   "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
   "sources": [
@@ -63,7 +70,8 @@
         "sponsor_state",
         "introduced_date",
         "congress",
-        "session"
+        "session",
+        "related_measures"
       ],
       "source_ids": [
         "official-govinfo"

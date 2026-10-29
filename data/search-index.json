@@ -1,10 +1,38 @@
 [
   {
+    "record_id": "ca-ab-1405-2026",
+    "measure_id": "CA AB 1405 (2026)",
+    "title": "Artificial intelligence auditors",
+    "url": "pages/ca-ab-1405-2026.html",
+    "text": "ca-ab-1405-2026 ca ab 1405 (2026) artificial intelligence auditors law core testing, evaluation & assurance chapter 178, statutes of 2026 enacted requires a state ai auditor registry and standards intended to promote auditor independence, transparency, competence, and integrity. 2025-2026 - ca  auditor registry independent audits transparency standards rebecca bauer-kahan ca california government operations agency ca sb 813 (2026)"
+  },
+  {
+    "record_id": "ca-ab-979-2025",
+    "measure_id": "CA AB 979 (2025)",
+    "title": "California Cybersecurity Integration Center: artificial intelligence",
+    "url": "pages/ca-ab-979-2025.html",
+    "text": "ca-ab-979-2025 ca ab 979 (2025) california cybersecurity integration center: artificial intelligence law core cyber, model & infrastructure security chapter 285, statutes of 2025 enacted directs the california cybersecurity integration center to develop an ai cybersecurity collaboration playbook and strengthen sharing of ai-related threat, vulnerability, and incident information. 2025-2026 - ca  cyber threat sharing incident response ai security playbook jacqui irwin ca california office of emergency services california cybersecurity integration center california department of technology"
+  },
+  {
     "record_id": "ca-sb-1047-2024",
     "measure_id": "CA SB 1047 (2024)",
     "title": "Safe and Secure Innovation for Frontier Artificial Intelligence Models Act",
     "url": "pages/ca-sb-1047-2024.html",
     "text": "ca-sb-1047-2024 ca sb 1047 (2024) safe and secure innovation for frontier artificial intelligence models act bill core frontier-model & national security vetoed by governor vetoed would have required developers of covered large ai models and certain compute providers to adopt safeguards and policies intended to prevent catastrophic harm and would have created a state frontier-model oversight body. 2023-2024  catastrophic risk safety protocols compute providers scott wiener ca"
+  },
+  {
+    "record_id": "ca-sb-1119-2026",
+    "measure_id": "CA SB 1119 (2026)",
+    "title": "Adam's Law: companion chatbots: children's safety",
+    "url": "pages/ca-sb-1119-2026.html",
+    "text": "ca-sb-1119-2026 ca sb 1119 (2026) adam's law: companion chatbots: children's safety law core high-risk ai governance chapter 190, statutes of 2026 enacted requires covered companion-chatbot operators to assess and mitigate child-safety risks, use independent audits, maintain crisis-response safeguards, and provide parental controls. 2025-2026 - ca  child safety companion chatbots independent audits steve padilla ca california attorney general ca sb 243 (2025)"
+  },
+  {
+    "record_id": "ca-sb-243-2025",
+    "measure_id": "CA SB 243 (2025)",
+    "title": "Companion chatbots",
+    "url": "pages/ca-sb-243-2025.html",
+    "text": "ca-sb-243-2025 ca sb 243 (2025) companion chatbots law core high-risk ai governance chapter 677, statutes of 2025 enacted requires companion-chatbot disclosures, suicide and self-harm response protocols, crisis referrals, safeguards for minors, and periodic reporting by covered operators. 2025-2026 - ca  child safety companion chatbots crisis response steve padilla ca california attorney general ca sb 1119 (2026)"
   },
   {
     "record_id": "ca-sb-53-2025",
@@ -14,11 +42,46 @@
     "text": "ca-sb-53-2025 ca sb 53 (2025) transparency in frontier artificial intelligence act law core frontier-model & national security chaptered — chapter 138, statutes of 2025 enacted requires covered large frontier developers to publish safety frameworks, creates critical-safety-incident reporting to the state, protects specified whistleblowers, and establishes calcompute-related public-compute planning. 2025-2026  safety frameworks critical incidents whistleblower protection scott wiener ca california office of emergency services california department of technology california attorney general"
   },
   {
+    "record_id": "ca-sb-813-2026",
+    "measure_id": "CA SB 813 (2026)",
+    "title": "Artificial intelligence: independent verification organizations",
+    "url": "pages/ca-sb-813-2026.html",
+    "text": "ca-sb-813-2026 ca sb 813 (2026) artificial intelligence: independent verification organizations law core testing, evaluation & assurance chapter 179, statutes of 2026 enacted establishes a framework for independent verification organizations that assess ai systems and models for compliance with california law and specified safety requirements. 2025-2026 - ca  independent evaluation safety assessments compliance verification jerry mcnerney ca california government operations agency ca ab 1405 (2026)"
+  },
+  {
+    "record_id": "ca-sb-833-2026",
+    "measure_id": "CA SB 833 (2026)",
+    "title": "Critical infrastructure: artificial intelligence systems: human oversight",
+    "url": "pages/ca-sb-833-2026.html",
+    "text": "ca-sb-833-2026 ca sb 833 (2026) critical infrastructure: artificial intelligence systems: human oversight bill core cyber, model & infrastructure security held in assembly appropriations committee_consideration would require human oversight and recurring risk assessments for specified ai systems used in critical-infrastructure operations. 2025-2026 - ca  critical infrastructure human oversight risk assessments senate governmental organization assembly privacy and consumer protection assembly appropriations jerry mcnerney ca"
+  },
+  {
+    "record_id": "ca-sb-896-2024",
+    "measure_id": "CA SB 896 (2024)",
+    "title": "Generative Artificial Intelligence Accountability Act",
+    "url": "pages/ca-sb-896-2024.html",
+    "text": "ca-sb-896-2024 ca sb 896 (2024) generative artificial intelligence accountability act law core cyber, model & infrastructure security enacted enacted requires state technology and emergency-management agencies to update generative-ai reports, assess threats to california critical infrastructure—including potential mass-casualty risks—and disclose state use of generative ai in communications. 2023-2024 - ca  critical infrastructure catastrophic-risk analysis government ai bill dodd ca california department of technology california office of emergency services"
+  },
+  {
+    "record_id": "co-hb-1212-2025",
+    "measure_id": "CO HB 25-1212",
+    "title": "Public Safety Protections Artificial Intelligence",
+    "url": "pages/co-hb-1212-2025.html",
+    "text": "co-hb-1212-2025 co hb 25-1212 public safety protections artificial intelligence bill core frontier-model & national security lost failed would have protected foundation-model workers who disclose legal violations, substantial public-safety or security risks, or misleading risk statements, and required an anonymous internal reporting process. 2025 regular session - co  whistleblower protection foundation models public-safety reporting house judiciary manny rutinel and matt soper co"
+  },
+  {
     "record_id": "co-sb-24-205",
     "measure_id": "CO SB24-205",
     "title": "Consumer Protections for Artificial Intelligence",
     "url": "pages/co-sb-24-205.html",
     "text": "co-sb-24-205 co sb24-205 consumer protections for artificial intelligence law adjacent high-risk ai governance enacted — chapter 198 enacted requires developers and deployers of high-risk ai systems to use reasonable care against known or reasonably foreseeable algorithmic-discrimination risks, publish specified disclosures, complete impact assessments, and report certain discovered risks. 2024 regular session  impact assessments algorithmic discrimination risk management senate judiciary house state, civic, military, and veterans affairs robert rodriguez co colorado attorney general"
+  },
+  {
+    "record_id": "ct-sb-5-2026",
+    "measure_id": "CT SB 5 (2026)",
+    "title": "An Act Concerning Online Safety",
+    "url": "pages/ct-sb-5-2026.html",
+    "text": "ct-sb-5-2026 ct sb 5 (2026) an act concerning online safety law core high-risk ai governance public act 26-15 enacted creates a multi-part online-safety framework that includes frontier-model risk reporting and whistleblower protections, companion-chatbot child safeguards, content-provenance requirements, and protections for specified automated decisions. 2026 regular session - ct  frontier-model reporting companion chatbots content provenance whistleblower protection joint committee on general law general law committee ct connecticut attorney general connecticut department of consumer protection"
   },
   {
     "record_id": "de-aic-draft-2026",
@@ -42,11 +105,39 @@
     "text": "fy27-house-def-approp h.r. 9495 department of defense appropriations act, 2027 bill vehicle appropriations implementation reported by house appropriations; union calendar committee_advanced the house-reported fy2027 defense appropriations vehicle funds department of defense programs, including the research, testing, cybersecurity, and operational accounts through which military ai safeguards and implementation activities are carried out. 119th congress 119 defense ai funding testing and deployment cybersecurity implementation house appropriations ken calvert"
   },
   {
+    "record_id": "h-r-1027",
+    "measure_id": "H.R. 1027",
+    "title": "QUIET Act",
+    "url": "pages/h-r-1027.html",
+    "text": "h-r-1027 h.r. 1027 quiet act bill core synthetic-media safety introduced / referred referred would require disclosure when robocalls use ai-generated voices or text and strengthen penalties for using ai to impersonate another person in covered calls. 119th congress 119 robocalls impersonation consumer disclosure house energy and commerce eric sorensen"
+  },
+  {
+    "record_id": "h-r-1283",
+    "measure_id": "H.R. 1283",
+    "title": "Protecting Our Children in an AI World Act",
+    "url": "pages/h-r-1283.html",
+    "text": "h-r-1283 h.r. 1283 protecting our children in an ai world act bill core synthetic-media safety introduced / referred referred would amend federal criminal law to expressly cover specified ai-generated child sexual abuse material and related conduct. 119th congress 119 child safety ai-generated abuse material criminal law house judiciary gus bilirakis"
+  },
+  {
+    "record_id": "h-r-1734",
+    "measure_id": "H.R. 1734",
+    "title": "Preventing Deep Fake Scams Act",
+    "url": "pages/h-r-1734.html",
+    "text": "h-r-1734 h.r. 1734 preventing deep fake scams act bill adjacent synthetic-media safety introduced / referred referred would establish a federal task force to examine ai-enabled financial-services fraud, including deepfake scams, and recommend coordinated countermeasures. 119th congress 119 financial fraud deepfakes interagency coordination house financial services brittany pettersen s. 2117"
+  },
+  {
     "record_id": "h-r-1736",
     "measure_id": "H.R. 1736",
     "title": "Generative AI Terrorism Risk Assessment Act",
     "url": "pages/h-r-1736.html",
     "text": "h-r-1736 h.r. 1736 generative ai terrorism risk assessment act bill core monitoring, disclosure & reporting introduced / referred committee_advanced requires recurring department of homeland security assessments of terrorist use of generative ai, including violent messaging and development or deployment of weapons. 119th congress 119 terrorism weapons misuse cbrne recurring assessment homeland security committee homeland security and governmental affairs committee august pfluger"
+  },
+  {
+    "record_id": "h-r-2152",
+    "measure_id": "H.R. 2152",
+    "title": "AI PLAN Act",
+    "url": "pages/h-r-2152.html",
+    "text": "h-r-2152 h.r. 2152 ai plan act bill adjacent monitoring, disclosure & reporting introduced / referred referred would require a federal strategy addressing ai-enabled financial crime, misinformation, and related threats to national and economic security. 119th congress 119 financial crime national security interagency strategy house financial services zachary nunn"
   },
   {
     "record_id": "h-r-2894-118",
@@ -82,6 +173,13 @@
     "title": "AI Whistleblower Protection Act",
     "url": "pages/h-r-3460.html",
     "text": "h-r-3460 h.r. 3460 ai whistleblower protection act bill core monitoring, disclosure & reporting introduced / referred referred protects employees who report ai security vulnerabilities or legal violations and creates department of labor complaint and remedy mechanisms. 119th congress 119 vulnerability reporting accountability worker protection education and workforce committee jay obernolte s. 1792"
+  },
+  {
+    "record_id": "h-r-3562",
+    "measure_id": "H.R. 3562",
+    "title": "DEFIANCE Act of 2025",
+    "url": "pages/h-r-3562.html",
+    "text": "h-r-3562 h.r. 3562 defiance act of 2025 bill core synthetic-media safety introduced / referred referred would create civil remedies for victims of nonconsensual intimate digital forgeries, including ai-generated or manipulated intimate imagery. 119th congress 119 nonconsensual intimate imagery civil remedies digital forgeries house judiciary alexandria ocasio-cortez s. 3696"
   },
   {
     "record_id": "h-r-3919",
@@ -123,7 +221,7 @@
     "measure_id": "H.R. 5272",
     "title": "Protect Elections from Deceptive AI Act",
     "url": "pages/h-r-5272.html",
-    "text": "h-r-5272 h.r. 5272 protect elections from deceptive ai act bill core synthetic-media safety introduced / referred referred would prohibit knowing distribution of materially deceptive ai-generated audio or visual media involving federal candidates, or used in federal election activity, when intended to influence an election or solicit funds, subject to specified news, satire, and other exceptions. 119th congress 119 election security deepfakes candidate remedies house administration julie johnson"
+    "text": "h-r-5272 h.r. 5272 protect elections from deceptive ai act bill core synthetic-media safety introduced / referred referred would prohibit knowing distribution of materially deceptive ai-generated audio or visual media involving federal candidates, or used in federal election activity, when intended to influence an election or solicit funds, subject to specified news, satire, and other exceptions. 119th congress 119 election security deepfakes candidate remedies house administration julie johnson s. 1213"
   },
   {
     "record_id": "h-r-5288",
@@ -138,6 +236,13 @@
     "title": "Algorithmic Accountability Act of 2023",
     "url": "pages/h-r-5628-118.html",
     "text": "h-r-5628-118 h.r. 5628 algorithmic accountability act of 2023 bill core high-risk ai governance referred to house committee; expired at the end of the 118th congress inactive house companion that would have required impact assessments for automated decision systems used in critical decisions and federal trade commission oversight. 118th congress 118 impact assessments consequential decisions ftc house energy and commerce yvette clarke"
+  },
+  {
+    "record_id": "h-r-5885",
+    "measure_id": "H.R. 5885",
+    "title": "GAIN AI Act of 2025",
+    "url": "pages/h-r-5885.html",
+    "text": "h-r-5885 h.r. 5885 gain ai act of 2025 bill core deterrence, export & foreign-adversary controls introduced / referred referred would add guardrails to export licensing for advanced ai chips, prioritize domestic access, and restrict specified transfers to countries of concern. 119th congress 119 advanced chips export controls countries of concern house foreign affairs john moolenaar"
   },
   {
     "record_id": "h-r-6304",
@@ -201,6 +306,20 @@
     "title": "National Defense Authorization Act for Fiscal Year 2027",
     "url": "pages/h-r-8800.html",
     "text": "h-r-8800 h.r. 8800 national defense authorization act for fiscal year 2027 bill vehicle defense, intelligence & procurement house floor processing floor the principal house defense-authorization vehicle and a likely landing zone for military ai safeguards, procurement security, model-security reporting, and ai security center provisions. 119th congress 119 must-pass authorization defense ai autonomy cybersecurity reporting house armed services mike rogers"
+  },
+  {
+    "record_id": "h-r-8893",
+    "measure_id": "H.R. 8893",
+    "title": "Protecting Consumers from Deceptive AI Act",
+    "url": "pages/h-r-8893.html",
+    "text": "h-r-8893 h.r. 8893 protecting consumers from deceptive ai act bill adjacent evaluation, testing & standards introduced / referred referred would establish nist-led task forces and voluntary standards for detecting, labeling, and authenticating ai-generated content used in commerce. 119th congress 119 synthetic media detection standards consumer protection house science, space, and technology valerie foushee"
+  },
+  {
+    "record_id": "h-r-9125",
+    "measure_id": "H.R. 9125",
+    "title": "Sectoral AI Governance Act of 2026",
+    "url": "pages/h-r-9125.html",
+    "text": "h-r-9125 h.r. 9125 sectoral ai governance act of 2026 bill adjacent high-risk ai governance introduced / referred referred would clarify federal agencies' authority to regulate algorithmic decision systems likely to contribute to violations of laws within their existing jurisdiction. 119th congress 119 sectoral regulation algorithmic decisions agency authority house judiciary house oversight and government reform sara jacobs"
   },
   {
     "record_id": "h-r-9333",
@@ -294,6 +413,13 @@
     "text": "ny-s-6953b-2025 ny s6953b responsible ai safety and education act law core frontier-model & national security enacted — chapter 699 of 2025 enacted requires covered frontier-model developers to publish information about safety protocols and report specified critical-harm incidents to new york within 72 hours; it also creates a frontier-model oversight office within the department of financial services. 2025-2026  safety frameworks incident reporting catastrophic harm senate internet and technology andrew gounardes ny new york department of financial services new york attorney general"
   },
   {
+    "record_id": "ny-s-9051b-2026",
+    "measure_id": "NY S.9051-B (2026)",
+    "title": "Child AI companion safety act",
+    "url": "pages/ny-s-9051b-2026.html",
+    "text": "ny-s-9051b-2026 ny s.9051-b (2026) child ai companion safety act law core high-risk ai governance chapter 368, laws of 2026 enacted restricts defined unsafe ai companion features for minors, including specified self-harm, sexual-content, guardrail-override, and manipulative interaction risks, subject to age-assurance requirements. 2025-2026 - ny  child safety companion chatbots unsafe features senate internet and technology senate finance kristen gonzalez ny new york attorney general"
+  },
+  {
     "record_id": "pl-118-159-sec-225",
     "measure_id": "P.L. 118-159 §§ 225, 236, 1531–1534, 6504",
     "title": "FY2025 NDAA artificial-intelligence security, biosecurity, and assurance provisions",
@@ -336,11 +462,25 @@
     "text": "pl-119-60-ai-institutes p.l. 119-60 §§ 224, 245, 1512–1515, 1533–1535, 6601–6604 fy2026 ndaa artificial-intelligence security and oversight provisions provision vehicle defense, intelligence & procurement enacted — public law 119-60 enacted a curated group of fy2026 ndaa provisions covering secure biological data for ai, defense-wide ai cybersecurity policy, physical and supply-chain security requirements for ai contractors, model assessment and secure sandboxes, frontier-ai governance and human-override safeguards, nsa security guidance against nation-state theft, and intelligence-community testing and performance oversight. 119th congress 119 model security physical security ai-biosecurity assessment and oversight frontier ai governance intelligence-community testing house armed services senate armed services house intelligence senate intelligence (select) department of defense national security agency office of the director of national intelligence"
   },
   {
+    "record_id": "s-1213",
+    "measure_id": "S. 1213",
+    "title": "Protect Elections from Deceptive AI Act",
+    "url": "pages/s-1213.html",
+    "text": "s-1213 s. 1213 protect elections from deceptive ai act bill core synthetic-media safety introduced / referred referred would prohibit knowing distribution of materially deceptive ai-generated audio or visual media involving federal candidates, subject to specified exceptions and remedies. 119th congress 119 election security deepfakes candidate remedies senate rules and administration amy klobuchar h.r. 5272"
+  },
+  {
     "record_id": "s-1394-118",
     "measure_id": "S. 1394",
     "title": "Block Nuclear Launch by Autonomous Artificial Intelligence Act of 2023",
     "url": "pages/s-1394-118.html",
     "text": "s-1394-118 s. 1394 block nuclear launch by autonomous artificial intelligence act of 2023 bill core defense, intelligence & procurement referred to senate committee; expired at the end of the 118th congress inactive would have prohibited federal funds from being used to launch a nuclear weapon through an autonomous system without meaningful human control. 118th congress 118 nuclear command human control autonomous systems senate armed services edward markey"
+  },
+  {
+    "record_id": "s-1396",
+    "measure_id": "S. 1396",
+    "title": "COPIED Act of 2025",
+    "url": "pages/s-1396.html",
+    "text": "s-1396 s. 1396 copied act of 2025 bill core monitoring, disclosure & reporting introduced / referred referred would direct development of content-provenance and detection standards and tools intended to help authenticate digital content and identify synthetic or manipulated material. 119th congress 119 content provenance deepfake detection technical standards senate commerce, science, and transportation maria cantwell"
   },
   {
     "record_id": "s-1633",
@@ -378,6 +518,13 @@
     "text": "s-1792 s. 1792 ai whistleblower protection act bill core monitoring, disclosure & reporting introduced / referred referred protects employees who report ai security vulnerabilities or violations of law involving ai and creates department of labor complaint, investigation, and remedy procedures. 119th congress 119 vulnerability reporting accountability worker protection senate health, education, labor, and pensions chuck grassley h.r. 3460"
   },
   {
+    "record_id": "s-2117",
+    "measure_id": "S. 2117",
+    "title": "Preventing Deep Fake Scams Act",
+    "url": "pages/s-2117.html",
+    "text": "s-2117 s. 2117 preventing deep fake scams act bill adjacent synthetic-media safety introduced / referred referred would establish a federal task force to examine ai-enabled financial-services fraud, including deepfake scams, and recommend coordinated countermeasures. 119th congress 119 financial fraud deepfakes interagency coordination senate banking, housing, and urban affairs jon husted h.r. 1734"
+  },
+  {
     "record_id": "s-2177",
     "measure_id": "S. 2177",
     "title": "No Adversarial AI Act",
@@ -397,6 +544,13 @@
     "title": "Cloud LAB Act of 2025",
     "url": "pages/s-2676.html",
     "text": "s-2676 s. 2676 cloud lab act of 2025 bill adjacent federal ai capacity introduced / referred referred would establish an nsf cloud-laboratory network that generates biological data for ai training and other research. its implementation plan must build in cybersecurity, biosecurity, and research security, while an advisory board would address misuse safeguards and rigorous cybersecurity across the network. 119th congress 119 ai and biotechnology cloud laboratories biosecurity research security senate commerce, science, and transportation todd young"
+  },
+  {
+    "record_id": "s-2714",
+    "measure_id": "S. 2714",
+    "title": "CHAT Act",
+    "url": "pages/s-2714.html",
+    "text": "s-2714 s. 2714 chat act bill core high-risk ai governance introduced / referred referred would require age assurance and specified safeguards for minors using companion chatbots, including disclosures and protections against harmful interactions. 119th congress 119 child safety companion chatbots age assurance senate commerce, science, and transportation jon husted"
   },
   {
     "record_id": "s-2750",
@@ -427,6 +581,13 @@
     "text": "s-3205-118 s. 3205 federal artificial intelligence risk management act of 2023 bill core defense, intelligence & procurement referred to senate committee; expired at the end of the 118th congress inactive would have required federal agencies to incorporate the nist ai risk management framework into their management and use of artificial intelligence. 118th congress 118 nist ai rmf federal agencies risk management senate homeland security and governmental affairs jerry moran"
   },
   {
+    "record_id": "s-3308",
+    "measure_id": "S. 3308",
+    "title": "Artificial Intelligence Civil Rights Act of 2025",
+    "url": "pages/s-3308.html",
+    "text": "s-3308 s. 3308 artificial intelligence civil rights act of 2025 bill core high-risk ai governance introduced / referred referred would require predeployment evaluations and postdeployment impact assessments for covered high-risk automated systems, set transparency and human-alternative safeguards, and protect certain disclosures. 119th congress 119 impact assessments predeployment evaluation whistleblower protection senate commerce, science, and transportation edward markey"
+  },
+  {
     "record_id": "s-3312-118",
     "measure_id": "S. 3312",
     "title": "Artificial Intelligence Research, Innovation, and Accountability Act of 2024",
@@ -445,7 +606,7 @@
     "measure_id": "S. 3696",
     "title": "DEFIANCE Act of 2024",
     "url": "pages/s-3696-118.html",
-    "text": "s-3696-118 s. 3696 defiance act of 2024 bill core synthetic-media safety passed senate; expired at the end of the 118th congress inactive would have expanded civil relief for people harmed by nonconsensual intimate digital forgeries, including ai-generated or manipulated sexual imagery. 118th congress 118 intimate digital forgeries civil remedies deepfakes senate judiciary dick durbin"
+    "text": "s-3696-118 s. 3696 defiance act of 2024 bill core synthetic-media safety passed senate; expired at the end of the 118th congress inactive would have expanded civil relief for people harmed by nonconsensual intimate digital forgeries, including ai-generated or manipulated sexual imagery. 118th congress 118 intimate digital forgeries civil remedies deepfakes senate judiciary dick durbin h.r. 3562"
   },
   {
     "record_id": "s-4113",
@@ -467,6 +628,13 @@
     "title": "Secure Artificial Intelligence Act of 2024",
     "url": "pages/s-4230-118.html",
     "text": "s-4230-118 s. 4230 secure artificial intelligence act of 2024 bill core cyber, model & infrastructure security referred to senate committee; expired at the end of the 118th congress inactive would have created federal processes to track, analyze, and respond to artificial intelligence security and safety incidents, vulnerabilities, and risks. 118th congress 118 security incidents vulnerability reporting federal coordination senate commerce, science, and transportation mark warner"
+  },
+  {
+    "record_id": "s-4407",
+    "measure_id": "S. 4407",
+    "title": "CHATBOT Act",
+    "url": "pages/s-4407.html",
+    "text": "s-4407 s. 4407 chatbot act bill core high-risk ai governance introduced / referred referred would require family-account controls, parental consent and supervision tools, youth-facing disclosures, and limits on advertising and data practices for covered chatbots. 119th congress 119 child safety companion chatbots parental controls senate commerce, science, and transportation ted cruz"
   },
   {
     "record_id": "s-4495-118",
@@ -509,6 +677,13 @@
     "title": "National Defense Authorization Act for Fiscal Year 2027",
     "url": "pages/s-4784.html",
     "text": "s-4784 s. 4784 national defense authorization act for fiscal year 2027 bill vehicle defense, intelligence & procurement reported / calendar-stage vehicle floor the principal senate defense-authorization vehicle and a natural receptacle for military ai guardrails, incident reporting, procurement security, autonomous-systems provisions, and ai security center concepts. 119th congress 119 must-pass authorization defense ai autonomy cybersecurity armed services committee roger wicker"
+  },
+  {
+    "record_id": "s-4915",
+    "measure_id": "S. 4915",
+    "title": "AI Labeling Act of 2026",
+    "url": "pages/s-4915.html",
+    "text": "s-4915 s. 4915 ai labeling act of 2026 bill core synthetic-media safety introduced / referred referred would require visible and machine-readable labels for specified ai-generated content, direct nist to develop technical standards, and authorize federal and state enforcement. 119th congress 119 content provenance consumer disclosure nist standards senate commerce, science, and transportation brian schatz"
   },
   {
     "record_id": "s-5061",

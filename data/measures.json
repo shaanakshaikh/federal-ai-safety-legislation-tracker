@@ -1,5 +1,247 @@
 [
   {
+    "record_id": "ca-ab-1405-2026",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "CA"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "CA AB 1405 (2026)",
+    "title": "Artificial intelligence auditors",
+    "session": "2025-2026 - CA",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "Testing, evaluation & assurance",
+    "category_key": "evaluation",
+    "secondary_categories": [
+      "Auditor registry",
+      "Independent audits",
+      "Transparency standards"
+    ],
+    "sponsor": "Rebecca Bauer-Kahan",
+    "sponsor_party": "D",
+    "sponsor_state": "CA",
+    "committees": [],
+    "introduced_date": "2025-02-21",
+    "last_action_date": "2026-09-09",
+    "last_action": "Approved by the Governor and chaptered as Chapter 178, Statutes of 2026.",
+    "status": "Chapter 178, Statutes of 2026",
+    "status_bucket": "Enacted",
+    "summary": "Requires a state AI auditor registry and standards intended to promote auditor independence, transparency, competence, and integrity.",
+    "committee_dynamics": "The law complements California's independent-verification framework by setting institutional requirements for third-party AI auditors.",
+    "advance_tier": "Enacted",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1405",
+    "related_measures": [
+      {
+        "record_id": "ca-sb-813-2026",
+        "measure_id": "CA SB 813 (2026)",
+        "relationship": "related"
+      }
+    ],
+    "state_law": {
+      "chapter": "Chapter 178, Statutes of 2026",
+      "enacted_date": "2026-09-09",
+      "effective_date": "2027-01-01"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "California Government Operations Agency"
+      ],
+      "deadlines": [
+        {
+          "date": "2029-01-01",
+          "requirement": "Deadline specified for establishment of the AI Auditor Registry.",
+          "status": "upcoming",
+          "source_ids": [
+            "ca-legislature"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "California Government Operations Agency",
+          "status": "planning",
+          "as_of": "2026-10-29",
+          "detail": "The registry and implementing standards are within the statutory development period.",
+          "source_ids": [
+            "ca-legislature",
+            "ca-governor"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official legislature and governor sources verified.",
+    "sources": [
+      {
+        "source_id": "ca-legislature",
+        "title": "AB 1405 bill status",
+        "publisher": "California Legislative Information",
+        "source_type": "official",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1405",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "ca-governor",
+        "title": "Governor Newsom signs AI audit safeguards",
+        "publisher": "Office of Governor Gavin Newsom",
+        "source_type": "official",
+        "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law",
+          "related_measures"
+        ],
+        "source_ids": [
+          "ca-legislature"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "implementation"
+        ],
+        "source_ids": [
+          "ca-legislature",
+          "ca-governor"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "ca-ab-979-2025",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "CA"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "CA AB 979 (2025)",
+    "title": "California Cybersecurity Integration Center: artificial intelligence",
+    "session": "2025-2026 - CA",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "Cyber, model & infrastructure security",
+    "category_key": "cyber",
+    "secondary_categories": [
+      "Cyber threat sharing",
+      "Incident response",
+      "AI security playbook"
+    ],
+    "sponsor": "Jacqui Irwin",
+    "sponsor_party": "D",
+    "sponsor_state": "CA",
+    "committees": [],
+    "introduced_date": "2025-02-20",
+    "last_action_date": "2025-10-03",
+    "last_action": "Approved by the Governor and chaptered as Chapter 285, Statutes of 2025.",
+    "status": "Chapter 285, Statutes of 2025",
+    "status_bucket": "Enacted",
+    "summary": "Directs the California Cybersecurity Integration Center to develop an AI Cybersecurity Collaboration Playbook and strengthen sharing of AI-related threat, vulnerability, and incident information.",
+    "committee_dynamics": "The enacted law integrates AI-specific risks into California's existing cross-sector cybersecurity coordination structure.",
+    "advance_tier": "Enacted",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB979",
+    "state_law": {
+      "chapter": "Chapter 285, Statutes of 2025",
+      "enacted_date": "2025-10-03",
+      "effective_date": "2026-01-01"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "California Office of Emergency Services",
+        "California Cybersecurity Integration Center",
+        "California Department of Technology"
+      ],
+      "deadlines": [
+        {
+          "date": "2027-01-01",
+          "requirement": "Deadline for the AI Cybersecurity Collaboration Playbook.",
+          "status": "upcoming",
+          "source_ids": [
+            "ca-legislature"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "California Cybersecurity Integration Center",
+          "status": "in_progress",
+          "as_of": "2026-10-29",
+          "detail": "The statutory deadline for the playbook is upcoming; this record does not infer completion without an official publication.",
+          "source_ids": [
+            "ca-legislature"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official legislature source verified.",
+    "sources": [
+      {
+        "source_id": "ca-legislature",
+        "title": "AB 979 bill status",
+        "publisher": "California Legislative Information",
+        "source_type": "official",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB979",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law"
+        ],
+        "source_ids": [
+          "ca-legislature"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "implementation"
+        ],
+        "source_ids": [
+          "ca-legislature"
+        ]
+      }
+    ]
+  },
+  {
     "record_id": "ca-sb-1047-2024",
     "entity_type": "bill",
     "jurisdiction": {
@@ -74,6 +316,264 @@
         ],
         "source_ids": [
           "ca-legislature"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "ca-sb-1119-2026",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "CA"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "CA SB 1119 (2026)",
+    "title": "Adam's Law: companion chatbots: children's safety",
+    "session": "2025-2026 - CA",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "High-risk AI governance",
+    "category_key": "governance",
+    "secondary_categories": [
+      "Child safety",
+      "Companion chatbots",
+      "Independent audits"
+    ],
+    "sponsor": "Steve Padilla",
+    "sponsor_party": "D",
+    "sponsor_state": "CA",
+    "committees": [],
+    "introduced_date": "2026-02-18",
+    "last_action_date": "2026-09-10",
+    "last_action": "Approved by the Governor and chaptered as Chapter 190, Statutes of 2026.",
+    "status": "Chapter 190, Statutes of 2026",
+    "status_bucket": "Enacted",
+    "summary": "Requires covered companion-chatbot operators to assess and mitigate child-safety risks, use independent audits, maintain crisis-response safeguards, and provide parental controls.",
+    "committee_dynamics": "The law builds on California's 2025 companion-chatbot requirements with stronger child-safety assessment and audit duties.",
+    "advance_tier": "Enacted",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB1119",
+    "related_measures": [
+      {
+        "record_id": "ca-sb-243-2025",
+        "measure_id": "CA SB 243 (2025)",
+        "relationship": "related"
+      }
+    ],
+    "state_law": {
+      "chapter": "Chapter 190, Statutes of 2026",
+      "enacted_date": "2026-09-10",
+      "effective_date": "2027-01-01"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "California Attorney General"
+      ],
+      "deadlines": [
+        {
+          "date": "2027-01-01",
+          "requirement": "General statutory effective date; specified operative requirements may begin later under the act.",
+          "status": "upcoming",
+          "source_ids": [
+            "ca-legislature"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "California Attorney General",
+          "status": "planning",
+          "as_of": "2026-10-29",
+          "detail": "The law has been enacted but its principal requirements are not yet in effect.",
+          "source_ids": [
+            "ca-legislature",
+            "ca-governor"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official legislature and governor sources verified.",
+    "sources": [
+      {
+        "source_id": "ca-legislature",
+        "title": "SB 1119 bill status",
+        "publisher": "California Legislative Information",
+        "source_type": "official",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB1119",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "ca-governor",
+        "title": "Governor Newsom signs child safety chatbot laws",
+        "publisher": "Office of Governor Gavin Newsom",
+        "source_type": "official",
+        "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law",
+          "related_measures"
+        ],
+        "source_ids": [
+          "ca-legislature"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "implementation"
+        ],
+        "source_ids": [
+          "ca-legislature",
+          "ca-governor"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "ca-sb-243-2025",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "CA"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "CA SB 243 (2025)",
+    "title": "Companion chatbots",
+    "session": "2025-2026 - CA",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "High-risk AI governance",
+    "category_key": "governance",
+    "secondary_categories": [
+      "Child safety",
+      "Companion chatbots",
+      "Crisis response"
+    ],
+    "sponsor": "Steve Padilla",
+    "sponsor_party": "D",
+    "sponsor_state": "CA",
+    "committees": [],
+    "introduced_date": "2025-01-30",
+    "last_action_date": "2025-10-13",
+    "last_action": "Approved by the Governor and chaptered as Chapter 677, Statutes of 2025.",
+    "status": "Chapter 677, Statutes of 2025",
+    "status_bucket": "Enacted",
+    "summary": "Requires companion-chatbot disclosures, suicide and self-harm response protocols, crisis referrals, safeguards for minors, and periodic reporting by covered operators.",
+    "committee_dynamics": "California enacted the measure as an early product-specific safety framework for AI companion chatbots.",
+    "advance_tier": "Enacted",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB243",
+    "related_measures": [
+      {
+        "record_id": "ca-sb-1119-2026",
+        "measure_id": "CA SB 1119 (2026)",
+        "relationship": "related"
+      }
+    ],
+    "state_law": {
+      "chapter": "Chapter 677, Statutes of 2025",
+      "enacted_date": "2025-10-13",
+      "effective_date": "2026-01-01"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "California Attorney General"
+      ],
+      "deadlines": [
+        {
+          "date": "2026-01-01",
+          "requirement": "General statutory effective date.",
+          "status": "completed",
+          "source_ids": [
+            "ca-legislature"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "California Attorney General",
+          "status": "enforcing",
+          "as_of": "2026-10-29",
+          "detail": "The statute is effective; no separate rulemaking is assumed in this record.",
+          "source_ids": [
+            "ca-legislature",
+            "ca-governor"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official legislature and governor sources verified.",
+    "sources": [
+      {
+        "source_id": "ca-legislature",
+        "title": "SB 243 bill status",
+        "publisher": "California Legislative Information",
+        "source_type": "official",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB243",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "ca-governor",
+        "title": "Governor Newsom signs bills protecting children online",
+        "publisher": "Office of Governor Gavin Newsom",
+        "source_type": "official",
+        "url": "https://www.gov.ca.gov/2025/10/13/governor-newsom-signs-bills-to-further-strengthen-californias-leadership-in-protecting-children-online/",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law",
+          "related_measures"
+        ],
+        "source_ids": [
+          "ca-legislature"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "implementation"
+        ],
+        "source_ids": [
+          "ca-legislature",
+          "ca-governor"
         ]
       }
     ]
@@ -203,6 +703,457 @@
     ]
   },
   {
+    "record_id": "ca-sb-813-2026",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "CA"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "CA SB 813 (2026)",
+    "title": "Artificial intelligence: independent verification organizations",
+    "session": "2025-2026 - CA",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "Testing, evaluation & assurance",
+    "category_key": "evaluation",
+    "secondary_categories": [
+      "Independent evaluation",
+      "Safety assessments",
+      "Compliance verification"
+    ],
+    "sponsor": "Jerry McNerney",
+    "sponsor_party": "D",
+    "sponsor_state": "CA",
+    "committees": [],
+    "introduced_date": "2025-02-21",
+    "last_action_date": "2026-09-09",
+    "last_action": "Approved by the Governor and chaptered as Chapter 179, Statutes of 2026.",
+    "status": "Chapter 179, Statutes of 2026",
+    "status_bucket": "Enacted",
+    "summary": "Establishes a framework for independent verification organizations that assess AI systems and models for compliance with California law and specified safety requirements.",
+    "committee_dynamics": "The law creates an assurance layer intended to make AI risk and compliance assessments more independent and credible.",
+    "advance_tier": "Enacted",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB813",
+    "related_measures": [
+      {
+        "record_id": "ca-ab-1405-2026",
+        "measure_id": "CA AB 1405 (2026)",
+        "relationship": "related"
+      }
+    ],
+    "state_law": {
+      "chapter": "Chapter 179, Statutes of 2026",
+      "enacted_date": "2026-09-09",
+      "effective_date": "2027-01-01"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "California Government Operations Agency"
+      ],
+      "deadlines": [
+        {
+          "date": "2027-01-01",
+          "requirement": "General statutory effective date.",
+          "status": "upcoming",
+          "source_ids": [
+            "ca-legislature"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "California Government Operations Agency",
+          "status": "planning",
+          "as_of": "2026-10-29",
+          "detail": "The verification framework has been enacted and is awaiting its statutory implementation period.",
+          "source_ids": [
+            "ca-legislature",
+            "ca-governor"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official legislature and governor sources verified.",
+    "sources": [
+      {
+        "source_id": "ca-legislature",
+        "title": "SB 813 bill status",
+        "publisher": "California Legislative Information",
+        "source_type": "official",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB813",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "ca-governor",
+        "title": "Governor Newsom signs AI audit safeguards",
+        "publisher": "Office of Governor Gavin Newsom",
+        "source_type": "official",
+        "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law",
+          "related_measures"
+        ],
+        "source_ids": [
+          "ca-legislature"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "implementation"
+        ],
+        "source_ids": [
+          "ca-legislature",
+          "ca-governor"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "ca-sb-833-2026",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "CA"
+    },
+    "lifecycle_status": "committee_consideration",
+    "measure_id": "CA SB 833 (2026)",
+    "title": "Critical infrastructure: artificial intelligence systems: human oversight",
+    "session": "2025-2026 - CA",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "Cyber, model & infrastructure security",
+    "category_key": "cyber",
+    "secondary_categories": [
+      "Critical infrastructure",
+      "Human oversight",
+      "Risk assessments"
+    ],
+    "sponsor": "Jerry McNerney",
+    "sponsor_party": "D",
+    "sponsor_state": "CA",
+    "committees": [
+      "Senate Governmental Organization",
+      "Assembly Privacy and Consumer Protection",
+      "Assembly Appropriations"
+    ],
+    "introduced_date": "2025-02-21",
+    "last_action_date": "2026-08-13",
+    "last_action": "Held in the Assembly Committee on Appropriations.",
+    "status": "Held in Assembly Appropriations",
+    "status_bucket": "Committee advanced",
+    "summary": "Would require human oversight and recurring risk assessments for specified AI systems used in critical-infrastructure operations.",
+    "committee_dynamics": "The bill passed the Senate and policy committees but was held in Assembly Appropriations before final passage.",
+    "advance_tier": "Medium",
+    "advance_rationale": "It advanced through one chamber and policy review but did not clear the final fiscal committee.",
+    "official_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB833",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official legislature and committee sources verified.",
+    "sources": [
+      {
+        "source_id": "ca-legislature",
+        "title": "SB 833 bill status",
+        "publisher": "California Legislative Information",
+        "source_type": "official",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB833",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "ca-analysis",
+        "title": "SB 833 committee analysis",
+        "publisher": "California State Assembly",
+        "source_type": "official",
+        "url": "https://apcp.assembly.ca.gov/media/1008",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "committees",
+          "last_action"
+        ],
+        "source_ids": [
+          "ca-legislature"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "ca-legislature",
+          "ca-analysis"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "ca-sb-896-2024",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "CA"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "CA SB 896 (2024)",
+    "title": "Generative Artificial Intelligence Accountability Act",
+    "session": "2023-2024 - CA",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "Cyber, model & infrastructure security",
+    "category_key": "cyber",
+    "secondary_categories": [
+      "Critical infrastructure",
+      "Catastrophic-risk analysis",
+      "Government AI"
+    ],
+    "sponsor": "Bill Dodd",
+    "sponsor_party": "D",
+    "sponsor_state": "CA",
+    "committees": [],
+    "introduced_date": "2024-01-03",
+    "last_action_date": "2024-09-29",
+    "last_action": "Approved by the Governor.",
+    "status": "Enacted",
+    "status_bucket": "Enacted",
+    "summary": "Requires state technology and emergency-management agencies to update generative-AI reports, assess threats to California critical infrastructure—including potential mass-casualty risks—and disclose state use of generative AI in communications.",
+    "committee_dynamics": "The law codified parts of California's executive-order AI risk program and directed continued critical-infrastructure risk analysis.",
+    "advance_tier": "Enacted",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202320240SB896",
+    "state_law": {
+      "chapter": null,
+      "enacted_date": "2024-09-29",
+      "effective_date": "2025-01-01"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "California Department of Technology",
+        "California Office of Emergency Services"
+      ],
+      "deadlines": [
+        {
+          "date": "2025-01-01",
+          "requirement": "General statutory effective date.",
+          "status": "completed",
+          "source_ids": [
+            "ca-legislature"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "California Office of Emergency Services",
+          "status": "in_progress",
+          "as_of": "2026-10-29",
+          "detail": "The Governor reported ongoing critical-infrastructure risk work with frontier-model companies and infrastructure providers.",
+          "source_ids": [
+            "ca-governor",
+            "ca-signing"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official legislature and governor sources verified.",
+    "sources": [
+      {
+        "source_id": "ca-legislature",
+        "title": "SB 896 bill status",
+        "publisher": "California Legislative Information",
+        "source_type": "official",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202320240SB896",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "ca-governor",
+        "title": "Governor Newsom announces safe and responsible AI initiatives",
+        "publisher": "Office of Governor Gavin Newsom",
+        "source_type": "official",
+        "url": "https://www.gov.ca.gov/2024/09/29/governor-newsom-announces-new-initiatives-to-advance-safe-and-responsible-ai-protect-californians/",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "ca-signing",
+        "title": "SB 896 signing message",
+        "publisher": "Office of Governor Gavin Newsom",
+        "source_type": "official",
+        "url": "https://www.gov.ca.gov/wp-content/uploads/2024/09/SB-896-SIGNING-Message.pdf",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law"
+        ],
+        "source_ids": [
+          "ca-legislature",
+          "ca-signing"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "implementation"
+        ],
+        "source_ids": [
+          "ca-governor",
+          "ca-signing"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "co-hb-1212-2025",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "CO"
+    },
+    "lifecycle_status": "failed",
+    "measure_id": "CO HB 25-1212",
+    "title": "Public Safety Protections Artificial Intelligence",
+    "session": "2025 Regular Session - CO",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "Frontier-model & national security",
+    "category_key": "security",
+    "secondary_categories": [
+      "Whistleblower protection",
+      "Foundation models",
+      "Public-safety reporting"
+    ],
+    "sponsor": "Manny Rutinel and Matt Soper",
+    "sponsor_party": "Bipartisan",
+    "sponsor_state": "CO",
+    "committees": [
+      "House Judiciary"
+    ],
+    "introduced_date": "2025-02-11",
+    "last_action_date": "2025-05-08",
+    "last_action": "Deemed lost in the House of Representatives.",
+    "status": "Lost",
+    "status_bucket": "Failed",
+    "summary": "Would have protected foundation-model workers who disclose legal violations, substantial public-safety or security risks, or misleading risk statements, and required an anonymous internal reporting process.",
+    "committee_dynamics": "The bill cleared House Judiciary 7-3 as amended but was deemed lost before a final House vote.",
+    "advance_tier": "Dead",
+    "advance_rationale": "The 2025 regular session ended without passage and the official record marks the bill lost.",
+    "official_url": "https://leg.colorado.gov/bills/hb25-1212",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official legislature bill page and final fiscal note verified.",
+    "sources": [
+      {
+        "source_id": "co-legislature",
+        "title": "HB25-1212 bill status",
+        "publisher": "Colorado General Assembly",
+        "source_type": "official",
+        "url": "https://leg.colorado.gov/bills/hb25-1212",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "co-fiscal",
+        "title": "HB25-1212 final fiscal note",
+        "publisher": "Colorado Legislative Council Staff",
+        "source_type": "official",
+        "url": "https://content.leg.colorado.gov/sites/default/files/documents/2025A/bills/fn/2025a_hb1212_f1.pdf",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "committees",
+          "last_action"
+        ],
+        "source_ids": [
+          "co-legislature",
+          "co-fiscal"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "committee_dynamics",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "co-legislature",
+          "co-fiscal"
+        ]
+      }
+    ]
+  },
+  {
     "record_id": "co-sb-24-205",
     "entity_type": "law",
     "jurisdiction": {
@@ -313,6 +1264,140 @@
         ],
         "source_ids": [
           "co-legislature"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "ct-sb-5-2026",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "CT"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "CT SB 5 (2026)",
+    "title": "An Act Concerning Online Safety",
+    "session": "2026 Regular Session - CT",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "High-risk AI governance",
+    "category_key": "governance",
+    "secondary_categories": [
+      "Frontier-model reporting",
+      "Companion chatbots",
+      "Content provenance",
+      "Whistleblower protection"
+    ],
+    "sponsor": "General Law Committee",
+    "sponsor_party": null,
+    "sponsor_state": "CT",
+    "committees": [
+      "Joint Committee on General Law"
+    ],
+    "introduced_date": "2026-02-04",
+    "last_action_date": "2026-05-27",
+    "last_action": "Signed by the Governor and enacted as Public Act 26-15.",
+    "status": "Public Act 26-15",
+    "status_bucket": "Enacted",
+    "summary": "Creates a multi-part online-safety framework that includes frontier-model risk reporting and whistleblower protections, companion-chatbot child safeguards, content-provenance requirements, and protections for specified automated decisions.",
+    "committee_dynamics": "The enacted omnibus law combines several distinct AI safety and online-safety mechanisms rather than regulating only one system or risk.",
+    "advance_tier": "Enacted",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?bill_num=SB00005&selBillType=Bill&which_year=2026",
+    "state_law": {
+      "chapter": "Public Act 26-15",
+      "enacted_date": "2026-05-27",
+      "effective_date": "2026-10-01"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "Connecticut Attorney General",
+        "Connecticut Department of Consumer Protection"
+      ],
+      "deadlines": [
+        {
+          "date": "2026-10-01",
+          "requirement": "Principal statutory provisions begin taking effect, with additional dates specified by the act.",
+          "status": "upcoming",
+          "source_ids": [
+            "ct-act"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "Connecticut implementing agencies",
+          "status": "planning",
+          "as_of": "2026-10-29",
+          "detail": "The law uses staged effective dates; this record does not infer completion of agency implementation without an official implementation notice.",
+          "source_ids": [
+            "ct-bill",
+            "ct-act"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official legislature, public-act, and governor sources verified.",
+    "sources": [
+      {
+        "source_id": "ct-bill",
+        "title": "SB 5 bill status",
+        "publisher": "Connecticut General Assembly",
+        "source_type": "official",
+        "url": "https://cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?bill_num=SB00005&selBillType=Bill&which_year=2026",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "ct-act",
+        "title": "Public Act 26-15",
+        "publisher": "Connecticut General Assembly",
+        "source_type": "official",
+        "url": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00015-R00SB-00005-PA.PDF",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "ct-governor",
+        "title": "Governor Lamont signs youth online safety legislation",
+        "publisher": "Office of Governor Ned Lamont",
+        "source_type": "official",
+        "url": "https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law"
+        ],
+        "source_ids": [
+          "ct-bill",
+          "ct-act",
+          "ct-governor"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "implementation"
+        ],
+        "source_ids": [
+          "ct-act"
         ]
       }
     ]
@@ -674,6 +1759,293 @@
     ]
   },
   {
+    "record_id": "h-r-1027",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "H.R. 1027",
+    "title": "QUIET Act",
+    "chamber": "House",
+    "scope": "Core",
+    "primary_category": "Synthetic-media safety",
+    "category_key": "synthetic-media",
+    "secondary_categories": [
+      "Robocalls",
+      "Impersonation",
+      "Consumer disclosure"
+    ],
+    "sponsor": "Eric Sorensen",
+    "sponsor_party": "D",
+    "sponsor_state": "IL",
+    "committees": [
+      "House Energy and Commerce"
+    ],
+    "introduced_date": "2025-02-05",
+    "last_action_date": "2025-02-05",
+    "last_action": "Referred to the House Committee on Energy and Commerce.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would require disclosure when robocalls use AI-generated voices or text and strengthen penalties for using AI to impersonate another person in covered calls.",
+    "committee_dynamics": "The bill applies established robocall enforcement tools to an identifiable synthetic-media fraud vector.",
+    "advance_tier": "Medium",
+    "advance_rationale": "Substantial cosponsorship supports consideration, though no committee advance is recorded.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1027",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for H.R. 1027",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1027",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "H.R. 1027, introduced in House",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119hr1027ih",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "h-r-1283",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "H.R. 1283",
+    "title": "Protecting Our Children in an AI World Act",
+    "chamber": "House",
+    "scope": "Core",
+    "primary_category": "Synthetic-media safety",
+    "category_key": "synthetic-media",
+    "secondary_categories": [
+      "Child safety",
+      "AI-generated abuse material",
+      "Criminal law"
+    ],
+    "sponsor": "Gus Bilirakis",
+    "sponsor_party": "R",
+    "sponsor_state": "FL",
+    "committees": [
+      "House Judiciary"
+    ],
+    "introduced_date": "2025-02-13",
+    "last_action_date": "2025-02-13",
+    "last_action": "Referred to the House Committee on the Judiciary.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would amend federal criminal law to expressly cover specified AI-generated child sexual abuse material and related conduct.",
+    "committee_dynamics": "The bill applies existing child-protection criminal frameworks to synthetic material rather than creating a general AI regulatory regime.",
+    "advance_tier": "Low",
+    "advance_rationale": "The measure has a direct safety purpose but no recorded committee advance.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1283",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for H.R. 1283",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1283",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "H.R. 1283, introduced in House",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119hr1283ih",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "h-r-1734",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "H.R. 1734",
+    "title": "Preventing Deep Fake Scams Act",
+    "chamber": "House",
+    "scope": "Adjacent",
+    "primary_category": "Synthetic-media safety",
+    "category_key": "synthetic-media",
+    "secondary_categories": [
+      "Financial fraud",
+      "Deepfakes",
+      "Interagency coordination"
+    ],
+    "sponsor": "Brittany Pettersen",
+    "sponsor_party": "D",
+    "sponsor_state": "CO",
+    "committees": [
+      "House Financial Services"
+    ],
+    "introduced_date": "2025-02-27",
+    "last_action_date": "2025-02-27",
+    "last_action": "Referred to the House Committee on Financial Services.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would establish a federal task force to examine AI-enabled financial-services fraud, including deepfake scams, and recommend coordinated countermeasures.",
+    "committee_dynamics": "The bipartisan measure received committee-meeting attention but remains formally at the introduced stage.",
+    "advance_tier": "Medium",
+    "advance_rationale": "Bipartisan support and committee attention improve its outlook, although the official status remains referred.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1734",
+    "related_measures": [
+      {
+        "record_id": "s-2117",
+        "measure_id": "S. 2117",
+        "relationship": "companion"
+      }
+    ],
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for H.R. 1734",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1734",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "H.R. 1734, introduced in House",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119hr1734ih",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status",
+          "related_measures"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
+      }
+    ]
+  },
+  {
     "record_id": "h-r-1736",
     "entity_type": "bill",
     "jurisdiction": {
@@ -787,6 +2159,99 @@
     ],
     "congress": 119,
     "session": "119th Congress"
+  },
+  {
+    "record_id": "h-r-2152",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "H.R. 2152",
+    "title": "AI PLAN Act",
+    "chamber": "House",
+    "scope": "Adjacent",
+    "primary_category": "Monitoring, disclosure & reporting",
+    "category_key": "monitoring",
+    "secondary_categories": [
+      "Financial crime",
+      "National security",
+      "Interagency strategy"
+    ],
+    "sponsor": "Zachary Nunn",
+    "sponsor_party": "R",
+    "sponsor_state": "IA",
+    "committees": [
+      "House Financial Services"
+    ],
+    "introduced_date": "2025-03-14",
+    "last_action_date": "2025-03-14",
+    "last_action": "Referred to the House Committee on Financial Services.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would require a federal strategy addressing AI-enabled financial crime, misinformation, and related threats to national and economic security.",
+    "committee_dynamics": "The bipartisan bill uses coordinated planning and threat assessment rather than direct product regulation.",
+    "advance_tier": "Medium",
+    "advance_rationale": "Bipartisan support and committee-meeting attention support further consideration, but the official status remains referred.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2152",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for H.R. 2152",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2152",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "H.R. 2152, introduced in House",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119hr2152ih",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
+      }
+    ]
   },
   {
     "record_id": "h-r-2894-118",
@@ -1364,6 +2829,107 @@
     ],
     "congress": 119,
     "session": "119th Congress"
+  },
+  {
+    "record_id": "h-r-3562",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "H.R. 3562",
+    "title": "DEFIANCE Act of 2025",
+    "chamber": "House",
+    "scope": "Core",
+    "primary_category": "Synthetic-media safety",
+    "category_key": "synthetic-media",
+    "secondary_categories": [
+      "Nonconsensual intimate imagery",
+      "Civil remedies",
+      "Digital forgeries"
+    ],
+    "sponsor": "Alexandria Ocasio-Cortez",
+    "sponsor_party": "D",
+    "sponsor_state": "NY",
+    "committees": [
+      "House Judiciary"
+    ],
+    "introduced_date": "2025-05-21",
+    "last_action_date": "2025-05-21",
+    "last_action": "Referred to the House Committee on the Judiciary.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would create civil remedies for victims of nonconsensual intimate digital forgeries, including AI-generated or manipulated intimate imagery.",
+    "committee_dynamics": "The proposal has broad cosponsorship and continues a prior-Congress Senate effort, but the House measure has not advanced from referral.",
+    "advance_tier": "Medium",
+    "advance_rationale": "Broad support and a prior-Congress analogue improve its prospects, but no committee action is recorded.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3562",
+    "related_measures": [
+      {
+        "record_id": "s-3696-118",
+        "measure_id": "S. 3696",
+        "relationship": "related"
+      }
+    ],
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for H.R. 3562",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3562",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "H.R. 3562, introduced in House",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119hr3562ih",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status",
+          "related_measures"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
+      }
+    ]
   },
   {
     "record_id": "h-r-3919",
@@ -1978,6 +3544,13 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5272",
+    "related_measures": [
+      {
+        "record_id": "s-1213",
+        "measure_id": "S. 1213",
+        "relationship": "companion"
+      }
+    ],
     "last_verified_date": "2026-10-27",
     "verification_level": "Bill details and introduced text checked against official congressional sources.",
     "sources": [
@@ -2012,7 +3585,8 @@
           "sponsor_state",
           "introduced_date",
           "congress",
-          "session"
+          "session",
+          "related_measures"
         ],
         "source_ids": [
           "official-congress",
@@ -2269,6 +3843,99 @@
           "official-govinfo"
         ],
         "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
+    "record_id": "h-r-5885",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "H.R. 5885",
+    "title": "GAIN AI Act of 2025",
+    "chamber": "House",
+    "scope": "Core",
+    "primary_category": "Deterrence, export & foreign-adversary controls",
+    "category_key": "deterrence",
+    "secondary_categories": [
+      "Advanced chips",
+      "Export controls",
+      "Countries of concern"
+    ],
+    "sponsor": "John Moolenaar",
+    "sponsor_party": "R",
+    "sponsor_state": "MI",
+    "committees": [
+      "House Foreign Affairs"
+    ],
+    "introduced_date": "2025-10-31",
+    "last_action_date": "2025-10-31",
+    "last_action": "Referred to the House Committee on Foreign Affairs.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would add guardrails to export licensing for advanced AI chips, prioritize domestic access, and restrict specified transfers to countries of concern.",
+    "committee_dynamics": "The proposal treats advanced-compute access as a national-security control point for frontier AI capability.",
+    "advance_tier": "Medium",
+    "advance_rationale": "Bipartisan support and alignment with active export-control policy improve prospects, but no committee advance is recorded.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5885",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for H.R. 5885",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5885",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "H.R. 5885, introduced in House",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119hr5885ih",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
       }
     ]
   },
@@ -3287,6 +4954,193 @@
     ],
     "congress": 119,
     "session": "119th Congress"
+  },
+  {
+    "record_id": "h-r-8893",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "H.R. 8893",
+    "title": "Protecting Consumers from Deceptive AI Act",
+    "chamber": "House",
+    "scope": "Adjacent",
+    "primary_category": "Evaluation, testing & standards",
+    "category_key": "evaluation",
+    "secondary_categories": [
+      "Synthetic media",
+      "Detection standards",
+      "Consumer protection"
+    ],
+    "sponsor": "Valerie Foushee",
+    "sponsor_party": "D",
+    "sponsor_state": "NC",
+    "committees": [
+      "House Science, Space, and Technology"
+    ],
+    "introduced_date": "2026-05-19",
+    "last_action_date": "2026-05-19",
+    "last_action": "Referred to the House Committee on Science, Space, and Technology.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would establish NIST-led task forces and voluntary standards for detecting, labeling, and authenticating AI-generated content used in commerce.",
+    "committee_dynamics": "The bipartisan bill approaches deceptive content through technical measurement and voluntary standards rather than a general content prohibition.",
+    "advance_tier": "Medium",
+    "advance_rationale": "Bipartisan sponsorship improves its prospects, but no committee action is recorded.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8893",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for H.R. 8893",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8893",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "H.R. 8893, introduced in House",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119hr8893ih",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
+      }
+    ]
+  },
+  {
+    "record_id": "h-r-9125",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "H.R. 9125",
+    "title": "Sectoral AI Governance Act of 2026",
+    "chamber": "House",
+    "scope": "Adjacent",
+    "primary_category": "High-risk AI governance",
+    "category_key": "governance",
+    "secondary_categories": [
+      "Sectoral regulation",
+      "Algorithmic decisions",
+      "Agency authority"
+    ],
+    "sponsor": "Sara Jacobs",
+    "sponsor_party": "D",
+    "sponsor_state": "CA",
+    "committees": [
+      "House Judiciary",
+      "House Oversight and Government Reform"
+    ],
+    "introduced_date": "2026-06-03",
+    "last_action_date": "2026-06-03",
+    "last_action": "Referred to the House Committees on the Judiciary and Oversight and Government Reform.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would clarify federal agencies' authority to regulate algorithmic decision systems likely to contribute to violations of laws within their existing jurisdiction.",
+    "committee_dynamics": "The bill uses sector-specific regulators rather than creating a single general AI regulator.",
+    "advance_tier": "Low",
+    "advance_rationale": "The proposal supplies a governance framework but has no recorded committee action.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9125",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for H.R. 9125",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9125",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "H.R. 9125, introduced in House",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119hr9125ih",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
+      }
+    ]
   },
   {
     "record_id": "h-r-9333",
@@ -4748,6 +6602,130 @@
     ]
   },
   {
+    "record_id": "ny-s-9051b-2026",
+    "entity_type": "law",
+    "jurisdiction": {
+      "country": "US",
+      "level": "state",
+      "state": "NY"
+    },
+    "lifecycle_status": "enacted",
+    "measure_id": "NY S.9051-B (2026)",
+    "title": "Child AI companion safety act",
+    "session": "2025-2026 - NY",
+    "chamber": "State legislature",
+    "scope": "Core",
+    "primary_category": "High-risk AI governance",
+    "category_key": "governance",
+    "secondary_categories": [
+      "Child safety",
+      "Companion chatbots",
+      "Unsafe features"
+    ],
+    "sponsor": "Kristen Gonzalez",
+    "sponsor_party": "D",
+    "sponsor_state": "NY",
+    "committees": [
+      "Senate Internet and Technology",
+      "Senate Finance"
+    ],
+    "introduced_date": "2026-03-06",
+    "last_action_date": "2026-10-28",
+    "last_action": "Signed by the Governor and enacted as Chapter 368 of the Laws of 2026.",
+    "status": "Chapter 368, Laws of 2026",
+    "status_bucket": "Enacted",
+    "summary": "Restricts defined unsafe AI companion features for minors, including specified self-harm, sexual-content, guardrail-override, and manipulative interaction risks, subject to age-assurance requirements.",
+    "committee_dynamics": "New York enacted a narrowly targeted child-safety regime for high-risk features of AI companion services.",
+    "advance_tier": "Enacted",
+    "advance_rationale": "Enacted state law.",
+    "official_url": "https://www.nysenate.gov/legislation/bills/2025/S9051/amendment/B",
+    "state_law": {
+      "chapter": "Chapter 368, Laws of 2026",
+      "enacted_date": "2026-10-28",
+      "effective_date": "2027-01-01"
+    },
+    "implementation": {
+      "responsible_agencies": [
+        "New York Attorney General"
+      ],
+      "deadlines": [
+        {
+          "date": "2027-01-01",
+          "requirement": "Statutory effective date.",
+          "status": "upcoming",
+          "source_ids": [
+            "ny-senate"
+          ]
+        }
+      ],
+      "agency_status": [
+        {
+          "agency": "New York Attorney General",
+          "status": "planning",
+          "as_of": "2026-10-29",
+          "detail": "The law was signed one day before this verification and is not yet effective.",
+          "source_ids": [
+            "ny-senate",
+            "ny-assembly"
+          ]
+        }
+      ]
+    },
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official Senate and Assembly sources verified.",
+    "sources": [
+      {
+        "source_id": "ny-senate",
+        "title": "S.9051-B bill record",
+        "publisher": "New York State Senate",
+        "source_type": "official",
+        "url": "https://www.nysenate.gov/legislation/bills/2025/S9051/amendment/B",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "ny-assembly",
+        "title": "S.9051 actions and summary",
+        "publisher": "New York State Assembly",
+        "source_type": "official",
+        "url": "https://nyassembly.gov/leg/?Actions=Y&Summary=Y&bn=S09051&default_fld=&leg_video=&term=2025",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "identity-and-lifecycle",
+        "fields": [
+          "measure_id",
+          "title",
+          "entity_type",
+          "jurisdiction",
+          "session",
+          "sponsor",
+          "status",
+          "lifecycle_status",
+          "state_law"
+        ],
+        "source_ids": [
+          "ny-senate",
+          "ny-assembly"
+        ]
+      },
+      {
+        "claim_id": "substance-and-implementation",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "implementation"
+        ],
+        "source_ids": [
+          "ny-senate"
+        ]
+      }
+    ]
+  },
+  {
     "record_id": "pl-118-159-sec-225",
     "entity_type": "provision",
     "jurisdiction": {
@@ -5549,6 +7527,107 @@
     ]
   },
   {
+    "record_id": "s-1213",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "S. 1213",
+    "title": "Protect Elections from Deceptive AI Act",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Synthetic-media safety",
+    "category_key": "synthetic-media",
+    "secondary_categories": [
+      "Election security",
+      "Deepfakes",
+      "Candidate remedies"
+    ],
+    "sponsor": "Amy Klobuchar",
+    "sponsor_party": "D",
+    "sponsor_state": "MN",
+    "committees": [
+      "Senate Rules and Administration"
+    ],
+    "introduced_date": "2025-03-31",
+    "last_action_date": "2025-03-31",
+    "last_action": "Read twice and referred to the Senate Committee on Rules and Administration.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would prohibit knowing distribution of materially deceptive AI-generated audio or visual media involving federal candidates, subject to specified exceptions and remedies.",
+    "committee_dynamics": "The bipartisan Senate measure has a House companion and follows a prior-Congress proposal that advanced from committee.",
+    "advance_tier": "Medium",
+    "advance_rationale": "Companion legislation and bipartisan support improve its prospects, although this bill remains at referral.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1213",
+    "related_measures": [
+      {
+        "record_id": "h-r-5272",
+        "measure_id": "H.R. 5272",
+        "relationship": "companion"
+      }
+    ],
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for S. 1213",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1213",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "S. 1213, introduced in Senate",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119s1213is",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status",
+          "related_measures"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
+      }
+    ]
+  },
+  {
     "record_id": "s-1394-118",
     "entity_type": "bill",
     "jurisdiction": {
@@ -5648,6 +7727,99 @@
           "official-govinfo"
         ],
         "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
+    "record_id": "s-1396",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "S. 1396",
+    "title": "COPIED Act of 2025",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Monitoring, disclosure & reporting",
+    "category_key": "monitoring",
+    "secondary_categories": [
+      "Content provenance",
+      "Deepfake detection",
+      "Technical standards"
+    ],
+    "sponsor": "Maria Cantwell",
+    "sponsor_party": "D",
+    "sponsor_state": "WA",
+    "committees": [
+      "Senate Commerce, Science, and Transportation"
+    ],
+    "introduced_date": "2025-04-09",
+    "last_action_date": "2025-04-09",
+    "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would direct development of content-provenance and detection standards and tools intended to help authenticate digital content and identify synthetic or manipulated material.",
+    "committee_dynamics": "The bipartisan measure emphasizes technical provenance infrastructure that can support both consumer transparency and deepfake response.",
+    "advance_tier": "Medium",
+    "advance_rationale": "Bipartisan sponsorship supports consideration; the bill remains at referral.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1396",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for S. 1396",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1396",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "S. 1396, introduced in Senate",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119s1396is",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
       }
     ]
   },
@@ -6223,6 +8395,107 @@
     ]
   },
   {
+    "record_id": "s-2117",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "S. 2117",
+    "title": "Preventing Deep Fake Scams Act",
+    "chamber": "Senate",
+    "scope": "Adjacent",
+    "primary_category": "Synthetic-media safety",
+    "category_key": "synthetic-media",
+    "secondary_categories": [
+      "Financial fraud",
+      "Deepfakes",
+      "Interagency coordination"
+    ],
+    "sponsor": "Jon Husted",
+    "sponsor_party": "R",
+    "sponsor_state": "OH",
+    "committees": [
+      "Senate Banking, Housing, and Urban Affairs"
+    ],
+    "introduced_date": "2025-06-18",
+    "last_action_date": "2025-06-18",
+    "last_action": "Read twice and referred to the Senate Committee on Banking, Housing, and Urban Affairs.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would establish a federal task force to examine AI-enabled financial-services fraud, including deepfake scams, and recommend coordinated countermeasures.",
+    "committee_dynamics": "The Senate bill is the companion to a bipartisan House measure that has received committee attention.",
+    "advance_tier": "Medium",
+    "advance_rationale": "A bipartisan House companion supports consideration, but the Senate bill remains at referral.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2117",
+    "related_measures": [
+      {
+        "record_id": "h-r-1734",
+        "measure_id": "H.R. 1734",
+        "relationship": "companion"
+      }
+    ],
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for S. 2117",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2117",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "S. 2117, introduced in Senate",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119s2117is",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status",
+          "related_measures"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
+      }
+    ]
+  },
+  {
     "record_id": "s-2177",
     "entity_type": "bill",
     "jurisdiction": {
@@ -6563,6 +8836,99 @@
           "official-govinfo"
         ],
         "note": "Tracker classification and synthesis based on the official introduced text."
+      }
+    ]
+  },
+  {
+    "record_id": "s-2714",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "S. 2714",
+    "title": "CHAT Act",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "High-risk AI governance",
+    "category_key": "governance",
+    "secondary_categories": [
+      "Child safety",
+      "Companion chatbots",
+      "Age assurance"
+    ],
+    "sponsor": "Jon Husted",
+    "sponsor_party": "R",
+    "sponsor_state": "OH",
+    "committees": [
+      "Senate Commerce, Science, and Transportation"
+    ],
+    "introduced_date": "2025-09-04",
+    "last_action_date": "2025-09-04",
+    "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would require age assurance and specified safeguards for minors using companion chatbots, including disclosures and protections against harmful interactions.",
+    "committee_dynamics": "The proposal focuses narrowly on youth safety risks from anthropomorphic or relationship-oriented chatbot products.",
+    "advance_tier": "Low",
+    "advance_rationale": "The bill has a directly relevant safety focus but no recorded committee action.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2714",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for S. 2714",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2714",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "S. 2714, introduced in Senate",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119s2714is",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
       }
     ]
   },
@@ -6989,6 +9355,99 @@
     ]
   },
   {
+    "record_id": "s-3308",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "S. 3308",
+    "title": "Artificial Intelligence Civil Rights Act of 2025",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "High-risk AI governance",
+    "category_key": "governance",
+    "secondary_categories": [
+      "Impact assessments",
+      "Predeployment evaluation",
+      "Whistleblower protection"
+    ],
+    "sponsor": "Edward Markey",
+    "sponsor_party": "D",
+    "sponsor_state": "MA",
+    "committees": [
+      "Senate Commerce, Science, and Transportation"
+    ],
+    "introduced_date": "2025-12-02",
+    "last_action_date": "2025-12-02",
+    "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would require predeployment evaluations and postdeployment impact assessments for covered high-risk automated systems, set transparency and human-alternative safeguards, and protect certain disclosures.",
+    "committee_dynamics": "The measure combines civil-rights safeguards with test-and-document obligations for consequential automated decisions.",
+    "advance_tier": "Low",
+    "advance_rationale": "The proposal is comprehensive but has no recorded committee advance.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/3308",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for S. 3308",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3308",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "S. 3308, introduced in Senate",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119s3308is",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
+      }
+    ]
+  },
+  {
     "record_id": "s-3312-118",
     "entity_type": "bill",
     "jurisdiction": {
@@ -7243,6 +9702,13 @@
     "congress": 118,
     "session": "118th Congress",
     "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s3696es",
+    "related_measures": [
+      {
+        "record_id": "h-r-3562",
+        "measure_id": "H.R. 3562",
+        "relationship": "related"
+      }
+    ],
     "last_verified_date": "2026-10-27",
     "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
     "sources": [
@@ -7269,7 +9735,8 @@
           "sponsor_state",
           "introduced_date",
           "congress",
-          "session"
+          "session",
+          "related_measures"
         ],
         "source_ids": [
           "official-govinfo"
@@ -7623,6 +10090,99 @@
           "official-govinfo"
         ],
         "note": "Tracker classification and synthesis based on the official bill record and text."
+      }
+    ]
+  },
+  {
+    "record_id": "s-4407",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "S. 4407",
+    "title": "CHATBOT Act",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "High-risk AI governance",
+    "category_key": "governance",
+    "secondary_categories": [
+      "Child safety",
+      "Companion chatbots",
+      "Parental controls"
+    ],
+    "sponsor": "Ted Cruz",
+    "sponsor_party": "R",
+    "sponsor_state": "TX",
+    "committees": [
+      "Senate Commerce, Science, and Transportation"
+    ],
+    "introduced_date": "2026-04-28",
+    "last_action_date": "2026-04-28",
+    "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would require family-account controls, parental consent and supervision tools, youth-facing disclosures, and limits on advertising and data practices for covered chatbots.",
+    "committee_dynamics": "The bipartisan bill targets a defined high-risk use case—minors' interaction with AI chatbots—rather than regulating general-purpose AI development.",
+    "advance_tier": "Medium",
+    "advance_rationale": "Bipartisan sponsorship supports consideration; the bill remains at referral.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4407",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for S. 4407",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4407",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "S. 4407, introduced in Senate",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119s4407is",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ]
       }
     ]
   },
@@ -8277,6 +10837,100 @@
     ],
     "congress": 119,
     "session": "119th Congress"
+  },
+  {
+    "record_id": "s-4915",
+    "entity_type": "bill",
+    "jurisdiction": {
+      "country": "US",
+      "level": "federal",
+      "state": null
+    },
+    "lifecycle_status": "referred",
+    "measure_id": "S. 4915",
+    "title": "AI Labeling Act of 2026",
+    "chamber": "Senate",
+    "scope": "Core",
+    "primary_category": "Synthetic-media safety",
+    "category_key": "synthetic-media",
+    "secondary_categories": [
+      "Content provenance",
+      "Consumer disclosure",
+      "NIST standards"
+    ],
+    "sponsor": "Brian Schatz",
+    "sponsor_party": "D",
+    "sponsor_state": "HI",
+    "committees": [
+      "Senate Commerce, Science, and Transportation"
+    ],
+    "introduced_date": "2026-06-24",
+    "last_action_date": "2026-06-24",
+    "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "status": "Introduced / referred",
+    "status_bucket": "Introduced / referred",
+    "summary": "Would require visible and machine-readable labels for specified AI-generated content, direct NIST to develop technical standards, and authorize federal and state enforcement.",
+    "committee_dynamics": "The bipartisan proposal pairs consumer-facing disclosure with interoperable technical provenance requirements.",
+    "advance_tier": "Medium",
+    "advance_rationale": "Bipartisan sponsorship and standards-based implementation support further consideration, but no committee advance is recorded.",
+    "congress": 119,
+    "session": "119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4915",
+    "last_verified_date": "2026-10-29",
+    "verification_level": "Official congressional bill record and text verified.",
+    "sources": [
+      {
+        "source_id": "official-congress",
+        "title": "Congress.gov record for S. 4915",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4915",
+        "accessed_date": "2026-10-29"
+      },
+      {
+        "source_id": "official-govinfo",
+        "title": "S. 4915, introduced in Senate",
+        "publisher": "U.S. Government Publishing Office",
+        "source_type": "official",
+        "url": "https://www.govinfo.gov/app/details/BILLS-119s4915is",
+        "accessed_date": "2026-10-29"
+      }
+    ],
+    "claim_provenance": [
+      {
+        "claim_id": "official-record",
+        "fields": [
+          "measure_id",
+          "title",
+          "jurisdiction",
+          "sponsor",
+          "committees",
+          "introduced_date",
+          "last_action",
+          "status",
+          "lifecycle_status"
+        ],
+        "source_ids": [
+          "official-congress"
+        ]
+      },
+      {
+        "claim_id": "analysis",
+        "fields": [
+          "scope",
+          "primary_category",
+          "secondary_categories",
+          "summary",
+          "advance_tier",
+          "advance_rationale"
+        ],
+        "source_ids": [
+          "official-congress",
+          "official-govinfo"
+        ],
+        "note": "Tracker classification and synthesis based on official text."
+      }
+    ]
   },
   {
     "record_id": "s-5061",

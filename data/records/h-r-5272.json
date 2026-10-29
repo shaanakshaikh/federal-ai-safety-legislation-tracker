@@ -28,6 +28,9 @@
   "congress": 119,
   "session": "119th Congress",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5272",
+  "related_measures": [
+    {"record_id": "s-1213", "measure_id": "S. 1213", "relationship": "companion"}
+  ],
   "last_verified_date": "2026-10-27",
   "verification_level": "Bill details and introduced text checked against official congressional sources.",
   "sources": [
@@ -35,7 +38,7 @@
     {"source_id": "official-govinfo", "title": "H.R. 5272, introduced in House", "publisher": "U.S. Government Publishing Office", "source_type": "official", "url": "https://www.govinfo.gov/app/details/BILLS-119hr5272ih", "accessed_date": "2026-10-27"}
   ],
   "claim_provenance": [
-    {"claim_id": "identity", "fields": ["measure_id", "title", "entity_type", "jurisdiction", "chamber", "sponsor", "sponsor_party", "sponsor_state", "introduced_date", "congress", "session"], "source_ids": ["official-congress", "official-govinfo"]},
+    {"claim_id": "identity", "fields": ["measure_id", "title", "entity_type", "jurisdiction", "chamber", "sponsor", "sponsor_party", "sponsor_state", "introduced_date", "congress", "session", "related_measures"], "source_ids": ["official-congress", "official-govinfo"]},
     {"claim_id": "lifecycle", "fields": ["status", "lifecycle_status", "last_action", "last_action_date", "committees", "cosponsor_count"], "source_ids": ["official-congress"]},
     {"claim_id": "analysis", "fields": ["scope", "primary_category", "secondary_categories", "summary", "committee_dynamics", "advance_tier", "advance_rationale"], "source_ids": ["official-congress", "official-govinfo"], "note": "Tracker classification and synthesis based on the official record and introduced text."}
   ]
