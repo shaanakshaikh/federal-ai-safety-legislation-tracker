@@ -1,6 +1,6 @@
 # Federal AI Safety & Security Legislation Tracker
 
-An open-source, research-oriented tracker of federal and state AI safety and security legislation, enacted laws, and implementation activity. Federal coverage begins with the 118th and 119th Congresses; state coverage begins with a curated safety/security set verified through **September 20, 2026**.
+An open-source, research-oriented tracker of federal and state AI safety and security legislation, enacted laws, and implementation activity. Federal coverage begins with the 118th Congress; state coverage is a curated safety/security set verified through **October 29, 2026**.
 
 ## What is tracked
 
