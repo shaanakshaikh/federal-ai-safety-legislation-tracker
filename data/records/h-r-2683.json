@@ -1,0 +1,118 @@
+{
+  "record_id": "h-r-2683",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "passed_chamber",
+  "measure_id": "H.R. 2683",
+  "title": "Remote Access Security Act",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [
+    "Remote access",
+    "Cloud computing",
+    "Export controls",
+    "National security"
+  ],
+  "sponsor": "Michael Lawler",
+  "sponsor_party": "R",
+  "sponsor_state": "NY",
+  "cosponsor_count": 17,
+  "notable_cosponsors": [],
+  "committees": [
+    "House Foreign Affairs",
+    "Senate Banking, Housing, and Urban Affairs"
+  ],
+  "introduced_date": "2025-04-07",
+  "last_action_date": "2026-01-13",
+  "last_action": "Received in the Senate, read twice, and referred to the Committee on Banking, Housing, and Urban Affairs after passing the House 369-22.",
+  "status": "Passed House; referred to Senate Banking",
+  "status_bucket": "Passed chamber",
+  "summary": "Would extend the Export Control Reform Act to remote access by foreign persons—including access through the internet or cloud computing services—when the covered item could pose a serious national-security or foreign-policy risk. The change would let the Commerce Department license and enforce controls on remote access to controlled technology, closing a pathway that can provide foreign users access to advanced computing without a physical export.",
+  "committee_dynamics": "The House passed the amended bill 369-22 under suspension of the rules. Its large bipartisan vote and referral to Senate Banking give it a materially stronger position than most standalone technology-control bills, although Senate action is still required.",
+  "advance_tier": "High",
+  "advance_rationale": "Overwhelming House passage and a direct national-security rationale make further action comparatively plausible, but the bill has not advanced in the Senate.",
+  "congress": 119,
+  "session": "119th Congress",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2683",
+  "last_verified_date": "2026-10-29",
+  "verification_level": "House passage, Senate referral, roll-call vote, and current text checked against official congressional sources.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 2683",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2683",
+      "accessed_date": "2026-10-29"
+    },
+    {
+      "source_id": "official-govinfo",
+      "title": "H.R. 2683, referred in Senate",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr2683rfs",
+      "accessed_date": "2026-10-29"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date",
+        "congress",
+        "session"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "status_bucket",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees",
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo"
+      ],
+      "note": "Tracker classification and synthesis based on the House-passed text and official legislative history."
+    }
+  ]
+}
