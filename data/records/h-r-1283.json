@@ -1,1 +1,107 @@
-{"record_id":"h-r-1283","entity_type":"bill","jurisdiction":{"country":"US","level":"federal","state":null},"lifecycle_status":"referred","measure_id":"H.R. 1283","title":"Protecting Our Children in an AI World Act","chamber":"House","scope":"Core","primary_category":"Synthetic-media safety","category_key":"synthetic-media","secondary_categories":["Child safety","AI-generated abuse material","Criminal law"],"sponsor":"Gus Bilirakis","sponsor_party":"R","sponsor_state":"FL","committees":["House Judiciary"],"introduced_date":"2025-02-13","last_action_date":"2025-02-13","last_action":"Referred to the House Committee on the Judiciary.","status":"Introduced / referred","status_bucket":"Introduced / referred","summary":"Would amend federal criminal law to expressly cover specified AI-generated child sexual abuse material and related conduct.","committee_dynamics":"The bill applies existing child-protection criminal frameworks to synthetic material rather than creating a general AI regulatory regime.","advance_tier":"Low","advance_rationale":"The measure has a direct safety purpose but no recorded committee advance.","congress":119,"session":"119th Congress","congress_url":"https://www.congress.gov/bill/119th-congress/house-bill/1283","last_verified_date":"2026-10-29","verification_level":"Official congressional bill record and text verified.","sources":[{"source_id":"official-congress","title":"Congress.gov record for H.R. 1283","publisher":"Congress.gov","source_type":"official","url":"https://www.congress.gov/bill/119th-congress/house-bill/1283","accessed_date":"2026-10-29"},{"source_id":"official-govinfo","title":"H.R. 1283, introduced in House","publisher":"U.S. Government Publishing Office","source_type":"official","url":"https://www.govinfo.gov/app/details/BILLS-119hr1283ih","accessed_date":"2026-10-29"}],"claim_provenance":[{"claim_id":"official-record","fields":["measure_id","title","jurisdiction","sponsor","committees","introduced_date","last_action","status","lifecycle_status"],"source_ids":["official-congress"]},{"claim_id":"analysis","fields":["scope","primary_category","secondary_categories","summary","advance_tier","advance_rationale"],"source_ids":["official-congress","official-govinfo"]}]}
+{
+  "record_id": "h-r-1283",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "H.R. 1283",
+  "title": "Protecting Our Children in an AI World Act of 2025",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [
+    "Child safety",
+    "AI-generated abuse material",
+    "Criminal law"
+  ],
+  "sponsor": "Gus Bilirakis",
+  "sponsor_party": "R",
+  "sponsor_state": "FL",
+  "committees": [
+    "Judiciary Committee"
+  ],
+  "introduced_date": "2025-02-13",
+  "last_action_date": "2025-02-13",
+  "last_action": "Referred to the House Committee on the Judiciary.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Would amend federal criminal law to expressly cover specified AI-generated child sexual abuse material and related conduct.",
+  "committee_dynamics": "The bill applies existing child-protection criminal frameworks to synthetic material rather than creating a general AI regulatory regime.",
+  "advance_tier": "Low",
+  "advance_rationale": "The measure has a direct safety purpose but no recorded committee advance.",
+  "congress": 119,
+  "session": "119th Congress",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1283",
+  "last_verified_date": "2026-10-30",
+  "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 1283",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1283",
+      "accessed_date": "2026-10-30"
+    },
+    {
+      "source_id": "official-govinfo",
+      "title": "H.R. 1283, introduced in House",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr1283ih",
+      "accessed_date": "2026-10-29"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "jurisdiction",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "congress",
+        "cosponsor_count",
+        "last_action_date",
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
+    }
+  ],
+  "cosponsor_count": 1
+}

@@ -1,1 +1,115 @@
-{"record_id":"h-r-1734","entity_type":"bill","jurisdiction":{"country":"US","level":"federal","state":null},"lifecycle_status":"referred","measure_id":"H.R. 1734","title":"Preventing Deep Fake Scams Act","chamber":"House","scope":"Adjacent","primary_category":"Synthetic-media safety","category_key":"synthetic-media","secondary_categories":["Financial fraud","Deepfakes","Interagency coordination"],"sponsor":"Brittany Pettersen","sponsor_party":"D","sponsor_state":"CO","committees":["House Financial Services"],"introduced_date":"2025-02-27","last_action_date":"2025-02-27","last_action":"Referred to the House Committee on Financial Services.","status":"Introduced / referred","status_bucket":"Introduced / referred","summary":"Would establish a federal task force to examine AI-enabled financial-services fraud, including deepfake scams, and recommend coordinated countermeasures.","committee_dynamics":"The bipartisan measure received committee-meeting attention but remains formally at the introduced stage.","advance_tier":"Medium","advance_rationale":"Bipartisan support and committee attention improve its outlook, although the official status remains referred.","congress":119,"session":"119th Congress","congress_url":"https://www.congress.gov/bill/119th-congress/house-bill/1734","related_measures":[{"record_id":"s-2117","measure_id":"S. 2117","relationship":"companion"}],"last_verified_date":"2026-10-29","verification_level":"Official congressional bill record and text verified.","sources":[{"source_id":"official-congress","title":"Congress.gov record for H.R. 1734","publisher":"Congress.gov","source_type":"official","url":"https://www.congress.gov/bill/119th-congress/house-bill/1734","accessed_date":"2026-10-29"},{"source_id":"official-govinfo","title":"H.R. 1734, introduced in House","publisher":"U.S. Government Publishing Office","source_type":"official","url":"https://www.govinfo.gov/app/details/BILLS-119hr1734ih","accessed_date":"2026-10-29"}],"claim_provenance":[{"claim_id":"official-record","fields":["measure_id","title","jurisdiction","sponsor","committees","introduced_date","last_action","status","lifecycle_status","related_measures"],"source_ids":["official-congress"]},{"claim_id":"analysis","fields":["scope","primary_category","secondary_categories","summary","advance_tier","advance_rationale"],"source_ids":["official-congress","official-govinfo"]}]}
+{
+  "record_id": "h-r-1734",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "H.R. 1734",
+  "title": "Preventing Deep Fake Scams Act",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [
+    "Financial fraud",
+    "Deepfakes",
+    "Interagency coordination"
+  ],
+  "sponsor": "Brittany Pettersen",
+  "sponsor_party": "D",
+  "sponsor_state": "CO",
+  "committees": [
+    "Financial Services Committee"
+  ],
+  "introduced_date": "2025-02-27",
+  "last_action_date": "2025-02-27",
+  "last_action": "Referred to the House Committee on Financial Services.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Would establish a federal task force to examine AI-enabled financial-services fraud, including deepfake scams, and recommend coordinated countermeasures.",
+  "committee_dynamics": "The bipartisan measure received committee-meeting attention but remains formally at the introduced stage.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Bipartisan support and committee attention improve its outlook, although the official status remains referred.",
+  "congress": 119,
+  "session": "119th Congress",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1734",
+  "related_measures": [
+    {
+      "record_id": "s-2117",
+      "measure_id": "S. 2117",
+      "relationship": "companion"
+    }
+  ],
+  "last_verified_date": "2026-10-30",
+  "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 1734",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1734",
+      "accessed_date": "2026-10-30"
+    },
+    {
+      "source_id": "official-govinfo",
+      "title": "H.R. 1734, introduced in House",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr1734ih",
+      "accessed_date": "2026-10-29"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "jurisdiction",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "related_measures"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "congress",
+        "cosponsor_count",
+        "last_action_date",
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
+    }
+  ],
+  "cosponsor_count": 11
+}

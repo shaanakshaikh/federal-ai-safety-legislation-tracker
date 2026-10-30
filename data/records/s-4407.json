@@ -1,1 +1,107 @@
-{"record_id":"s-4407","entity_type":"bill","jurisdiction":{"country":"US","level":"federal","state":null},"lifecycle_status":"referred","measure_id":"S. 4407","title":"CHATBOT Act","chamber":"Senate","scope":"Core","primary_category":"High-risk AI governance","category_key":"governance","secondary_categories":["Child safety","Companion chatbots","Parental controls"],"sponsor":"Ted Cruz","sponsor_party":"R","sponsor_state":"TX","committees":["Senate Commerce, Science, and Transportation"],"introduced_date":"2026-04-28","last_action_date":"2026-04-28","last_action":"Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.","status":"Introduced / referred","status_bucket":"Introduced / referred","summary":"Would require family-account controls, parental consent and supervision tools, youth-facing disclosures, and limits on advertising and data practices for covered chatbots.","committee_dynamics":"The bipartisan bill targets a defined high-risk use case—minors' interaction with AI chatbots—rather than regulating general-purpose AI development.","advance_tier":"Medium","advance_rationale":"Bipartisan sponsorship supports consideration; the bill remains at referral.","congress":119,"session":"119th Congress","congress_url":"https://www.congress.gov/bill/119th-congress/senate-bill/4407","last_verified_date":"2026-10-29","verification_level":"Official congressional bill record and text verified.","sources":[{"source_id":"official-congress","title":"Congress.gov record for S. 4407","publisher":"Congress.gov","source_type":"official","url":"https://www.congress.gov/bill/119th-congress/senate-bill/4407","accessed_date":"2026-10-29"},{"source_id":"official-govinfo","title":"S. 4407, introduced in Senate","publisher":"U.S. Government Publishing Office","source_type":"official","url":"https://www.govinfo.gov/app/details/BILLS-119s4407is","accessed_date":"2026-10-29"}],"claim_provenance":[{"claim_id":"official-record","fields":["measure_id","title","jurisdiction","sponsor","committees","introduced_date","last_action","status","lifecycle_status"],"source_ids":["official-congress"]},{"claim_id":"analysis","fields":["scope","primary_category","secondary_categories","summary","advance_tier","advance_rationale"],"source_ids":["official-congress","official-govinfo"]}]}
+{
+  "record_id": "s-4407",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "committee_advanced",
+  "measure_id": "S. 4407",
+  "title": "CHATBOT Act",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Child safety",
+    "Companion chatbots",
+    "Parental controls"
+  ],
+  "sponsor": "Ted Cruz",
+  "sponsor_party": "R",
+  "sponsor_state": "TX",
+  "committees": [
+    "Commerce, Science, and Transportation Committee"
+  ],
+  "introduced_date": "2026-04-28",
+  "last_action_date": "2026-08-05",
+  "last_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Would require family-account controls, parental consent and supervision tools, youth-facing disclosures, and limits on advertising and data practices for covered chatbots.",
+  "committee_dynamics": "The bipartisan bill targets a defined high-risk use case—minors' interaction with AI chatbots—rather than regulating general-purpose AI development.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Bipartisan sponsorship supports consideration; the bill remains at referral.",
+  "congress": 119,
+  "session": "119th Congress",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4407",
+  "last_verified_date": "2026-10-30",
+  "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 4407",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4407",
+      "accessed_date": "2026-10-30"
+    },
+    {
+      "source_id": "official-govinfo",
+      "title": "S. 4407, introduced in Senate",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s4407is",
+      "accessed_date": "2026-10-29"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "jurisdiction",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "congress",
+        "cosponsor_count",
+        "last_action_date",
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
+    }
+  ],
+  "cosponsor_count": 3
+}

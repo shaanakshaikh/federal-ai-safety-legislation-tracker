@@ -26,7 +26,21 @@
   "cosponsor_count": 1,
   "notable_cosponsors": [],
   "committees": [
-    "House Armed Services"
+    "Appropriations Committee",
+    "Armed Services Committee",
+    "Budget Committee",
+    "Education and Workforce Committee",
+    "Energy and Commerce Committee",
+    "Homeland Security Committee",
+    "Intelligence (Permanent Select) Committee",
+    "Judiciary Committee",
+    "Natural Resources Committee",
+    "Oversight and Government Reform Committee",
+    "Science, Space, and Technology Committee",
+    "Small Business Committee",
+    "Transportation and Infrastructure Committee",
+    "Veterans' Affairs Committee",
+    "Ways and Means Committee"
   ],
   "introduced_date": "2026-05-13",
   "last_action_date": "2026-09-14",
@@ -38,8 +52,8 @@
   "advance_tier": "High",
   "advance_rationale": "Annual NDAA enactment pressure and active floor processing make material AI-security movement likely.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Official congressional metadata and committee referral checked by a human editor",
+  "last_verified_date": "2026-10-30",
+  "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -47,7 +61,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
-      "accessed_date": "2026-10-27"
+      "accessed_date": "2026-10-30"
     }
   ],
   "claim_provenance": [
@@ -98,6 +112,16 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "congress": 119,

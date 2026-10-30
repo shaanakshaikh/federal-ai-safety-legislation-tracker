@@ -1,7 +1,11 @@
 {
   "record_id": "s-2676",
   "entity_type": "bill",
-  "jurisdiction": {"country": "US", "level": "federal", "state": null},
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
   "lifecycle_status": "referred",
   "measure_id": "S. 2676",
   "title": "Cloud LAB Act of 2025",
@@ -9,16 +13,23 @@
   "scope": "Adjacent",
   "primary_category": "Federal AI capacity",
   "category_key": "capacity",
-  "secondary_categories": ["AI and biotechnology", "Cloud laboratories", "Biosecurity", "Research security"],
+  "secondary_categories": [
+    "AI and biotechnology",
+    "Cloud laboratories",
+    "Biosecurity",
+    "Research security"
+  ],
   "sponsor": "Todd Young",
   "sponsor_party": "R",
   "sponsor_state": "IN",
   "cosponsor_count": 1,
   "notable_cosponsors": [],
-  "committees": ["Senate Commerce, Science, and Transportation"],
+  "committees": [
+    "Commerce, Science, and Transportation Committee"
+  ],
   "introduced_date": "2025-08-01",
   "last_action_date": "2025-08-01",
-  "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+  "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Would establish an NSF cloud-laboratory network that generates biological data for AI training and other research. Its implementation plan must build in cybersecurity, biosecurity, and research security, while an advisory board would address misuse safeguards and rigorous cybersecurity across the network.",
@@ -28,15 +39,76 @@
   "congress": 119,
   "session": "119th Congress",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2676",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Bill details and introduced text checked against official congressional sources.",
+  "last_verified_date": "2026-10-30",
+  "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
   "sources": [
-    {"source_id": "official-congress", "title": "Congress.gov record for S. 2676", "publisher": "Congress.gov", "source_type": "official", "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2676", "accessed_date": "2026-10-27"},
-    {"source_id": "official-govinfo", "title": "S. 2676, introduced in Senate", "publisher": "U.S. Government Publishing Office", "source_type": "official", "url": "https://www.govinfo.gov/app/details/BILLS-119s2676is", "accessed_date": "2026-10-27"}
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 2676",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2676",
+      "accessed_date": "2026-10-30"
+    },
+    {
+      "source_id": "official-govinfo",
+      "title": "S. 2676, introduced in Senate",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s2676is",
+      "accessed_date": "2026-10-27"
+    }
   ],
   "claim_provenance": [
-    {"claim_id": "identity", "fields": ["measure_id", "title", "entity_type", "jurisdiction", "chamber", "sponsor", "sponsor_party", "sponsor_state", "introduced_date", "congress", "session"], "source_ids": ["official-congress", "official-govinfo"]},
-    {"claim_id": "lifecycle", "fields": ["status", "lifecycle_status", "last_action", "last_action_date", "committees", "cosponsor_count"], "source_ids": ["official-congress"]},
-    {"claim_id": "analysis", "fields": ["scope", "primary_category", "secondary_categories", "summary", "committee_dynamics", "advance_tier", "advance_rationale"], "source_ids": ["official-govinfo"], "note": "Tracker classification and synthesis based on the official introduced text."}
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date",
+        "congress",
+        "session"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees",
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-govinfo"
+      ],
+      "note": "Tracker classification and synthesis based on the official introduced text."
+    }
   ]
 }
