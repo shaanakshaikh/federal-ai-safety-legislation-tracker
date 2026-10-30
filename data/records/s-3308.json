@@ -1,1 +1,107 @@
-{"record_id":"s-3308","entity_type":"bill","jurisdiction":{"country":"US","level":"federal","state":null},"lifecycle_status":"referred","measure_id":"S. 3308","title":"Artificial Intelligence Civil Rights Act of 2025","chamber":"Senate","scope":"Core","primary_category":"High-risk AI governance","category_key":"governance","secondary_categories":["Impact assessments","Predeployment evaluation","Whistleblower protection"],"sponsor":"Edward Markey","sponsor_party":"D","sponsor_state":"MA","committees":["Senate Commerce, Science, and Transportation"],"introduced_date":"2025-12-02","last_action_date":"2025-12-02","last_action":"Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.","status":"Introduced / referred","status_bucket":"Introduced / referred","summary":"Would require predeployment evaluations and postdeployment impact assessments for covered high-risk automated systems, set transparency and human-alternative safeguards, and protect certain disclosures.","committee_dynamics":"The measure combines civil-rights safeguards with test-and-document obligations for consequential automated decisions.","advance_tier":"Low","advance_rationale":"The proposal is comprehensive but has no recorded committee advance.","congress":119,"session":"119th Congress","congress_url":"https://www.congress.gov/bill/119th-congress/senate-bill/3308","last_verified_date":"2026-10-29","verification_level":"Official congressional bill record and text verified.","sources":[{"source_id":"official-congress","title":"Congress.gov record for S. 3308","publisher":"Congress.gov","source_type":"official","url":"https://www.congress.gov/bill/119th-congress/senate-bill/3308","accessed_date":"2026-10-29"},{"source_id":"official-govinfo","title":"S. 3308, introduced in Senate","publisher":"U.S. Government Publishing Office","source_type":"official","url":"https://www.govinfo.gov/app/details/BILLS-119s3308is","accessed_date":"2026-10-29"}],"claim_provenance":[{"claim_id":"official-record","fields":["measure_id","title","jurisdiction","sponsor","committees","introduced_date","last_action","status","lifecycle_status"],"source_ids":["official-congress"]},{"claim_id":"analysis","fields":["scope","primary_category","secondary_categories","summary","advance_tier","advance_rationale"],"source_ids":["official-congress","official-govinfo"]}]}
+{
+  "record_id": "s-3308",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "S. 3308",
+  "title": "Artificial Intelligence Civil Rights Act of 2025",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Impact assessments",
+    "Predeployment evaluation",
+    "Whistleblower protection"
+  ],
+  "sponsor": "Edward Markey",
+  "sponsor_party": "D",
+  "sponsor_state": "MA",
+  "committees": [
+    "Commerce, Science, and Transportation Committee"
+  ],
+  "introduced_date": "2025-12-02",
+  "last_action_date": "2025-12-02",
+  "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Would require predeployment evaluations and postdeployment impact assessments for covered high-risk automated systems, set transparency and human-alternative safeguards, and protect certain disclosures.",
+  "committee_dynamics": "The measure combines civil-rights safeguards with test-and-document obligations for consequential automated decisions.",
+  "advance_tier": "Low",
+  "advance_rationale": "The proposal is comprehensive but has no recorded committee advance.",
+  "congress": 119,
+  "session": "119th Congress",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/3308",
+  "last_verified_date": "2026-10-30",
+  "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 3308",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3308",
+      "accessed_date": "2026-10-30"
+    },
+    {
+      "source_id": "official-govinfo",
+      "title": "S. 3308, introduced in Senate",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s3308is",
+      "accessed_date": "2026-10-29"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "jurisdiction",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "congress",
+        "cosponsor_count",
+        "last_action_date",
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
+    }
+  ],
+  "cosponsor_count": 4
+}

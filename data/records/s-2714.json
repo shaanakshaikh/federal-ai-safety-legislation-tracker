@@ -1,1 +1,107 @@
-{"record_id":"s-2714","entity_type":"bill","jurisdiction":{"country":"US","level":"federal","state":null},"lifecycle_status":"referred","measure_id":"S. 2714","title":"CHAT Act","chamber":"Senate","scope":"Core","primary_category":"High-risk AI governance","category_key":"governance","secondary_categories":["Child safety","Companion chatbots","Age assurance"],"sponsor":"Jon Husted","sponsor_party":"R","sponsor_state":"OH","committees":["Senate Commerce, Science, and Transportation"],"introduced_date":"2025-09-04","last_action_date":"2025-09-04","last_action":"Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.","status":"Introduced / referred","status_bucket":"Introduced / referred","summary":"Would require age assurance and specified safeguards for minors using companion chatbots, including disclosures and protections against harmful interactions.","committee_dynamics":"The proposal focuses narrowly on youth safety risks from anthropomorphic or relationship-oriented chatbot products.","advance_tier":"Low","advance_rationale":"The bill has a directly relevant safety focus but no recorded committee action.","congress":119,"session":"119th Congress","congress_url":"https://www.congress.gov/bill/119th-congress/senate-bill/2714","last_verified_date":"2026-10-29","verification_level":"Official congressional bill record and text verified.","sources":[{"source_id":"official-congress","title":"Congress.gov record for S. 2714","publisher":"Congress.gov","source_type":"official","url":"https://www.congress.gov/bill/119th-congress/senate-bill/2714","accessed_date":"2026-10-29"},{"source_id":"official-govinfo","title":"S. 2714, introduced in Senate","publisher":"U.S. Government Publishing Office","source_type":"official","url":"https://www.govinfo.gov/app/details/BILLS-119s2714is","accessed_date":"2026-10-29"}],"claim_provenance":[{"claim_id":"official-record","fields":["measure_id","title","jurisdiction","sponsor","committees","introduced_date","last_action","status","lifecycle_status"],"source_ids":["official-congress"]},{"claim_id":"analysis","fields":["scope","primary_category","secondary_categories","summary","advance_tier","advance_rationale"],"source_ids":["official-congress","official-govinfo"]}]}
+{
+  "record_id": "s-2714",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "S. 2714",
+  "title": "CHAT Act",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Child safety",
+    "Companion chatbots",
+    "Age assurance"
+  ],
+  "sponsor": "Jon Husted",
+  "sponsor_party": "R",
+  "sponsor_state": "OH",
+  "committees": [
+    "Commerce, Science, and Transportation Committee"
+  ],
+  "introduced_date": "2025-09-04",
+  "last_action_date": "2025-09-04",
+  "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Would require age assurance and specified safeguards for minors using companion chatbots, including disclosures and protections against harmful interactions.",
+  "committee_dynamics": "The proposal focuses narrowly on youth safety risks from anthropomorphic or relationship-oriented chatbot products.",
+  "advance_tier": "Low",
+  "advance_rationale": "The bill has a directly relevant safety focus but no recorded committee action.",
+  "congress": 119,
+  "session": "119th Congress",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2714",
+  "last_verified_date": "2026-10-30",
+  "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for S. 2714",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2714",
+      "accessed_date": "2026-10-30"
+    },
+    {
+      "source_id": "official-govinfo",
+      "title": "S. 2714, introduced in Senate",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s2714is",
+      "accessed_date": "2026-10-29"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "jurisdiction",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "congress",
+        "cosponsor_count",
+        "last_action_date",
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
+    }
+  ],
+  "cosponsor_count": 1
+}

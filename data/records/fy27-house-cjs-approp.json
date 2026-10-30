@@ -1,7 +1,11 @@
 {
   "record_id": "fy27-house-cjs-approp",
   "entity_type": "bill",
-  "jurisdiction": {"country": "US", "level": "federal", "state": null},
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
   "lifecycle_status": "committee_advanced",
   "measure_id": "H.R. 8845",
   "title": "Commerce, Justice, Science, and Related Agencies Appropriations Act, 2027",
@@ -9,16 +13,23 @@
   "scope": "Vehicle",
   "primary_category": "Appropriations implementation",
   "category_key": "appropriations",
-  "secondary_categories": ["NIST / CAISI funding", "AI testing and standards", "Model and hardware security", "NAIRR"],
+  "secondary_categories": [
+    "NIST / CAISI funding",
+    "AI testing and standards",
+    "Model and hardware security",
+    "NAIRR"
+  ],
   "sponsor": "Harold Rogers",
   "sponsor_party": "R",
   "sponsor_state": "KY",
   "cosponsor_count": 0,
   "notable_cosponsors": [],
-  "committees": ["House Appropriations"],
+  "committees": [
+    "Appropriations Committee"
+  ],
   "introduced_date": "2026-05-15",
   "last_action_date": "2026-05-15",
-  "last_action": "Reported by the House Committee on Appropriations with H. Rept. 119-652 and placed on the Union Calendar, Calendar No. 567.",
+  "last_action": "Placed on the Union Calendar, Calendar No. 567.",
   "status": "Reported by House Appropriations; Union Calendar",
   "status_bucket": "Committee advanced",
   "summary": "The House-reported FY2027 CJS bill and report provide up to $15 million for the Center for AI Standards and Innovation, including a hardware-security and secure-location-verification grant program. The report also directs work on an AI lifecycle-security framework, open-source model security risks, small-business AI resources, and at least $30 million for advancement of the National AI Research Resource.",
@@ -28,16 +39,85 @@
   "congress": 119,
   "session": "119th Congress",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8845",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Bill identity, status, and AI-related report language checked against official congressional sources.",
+  "last_verified_date": "2026-10-30",
+  "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
   "sources": [
-    {"source_id": "official-congress", "title": "Congress.gov record for H.R. 8845", "publisher": "Congress.gov", "source_type": "official", "url": "https://www.congress.gov/bill/119th-congress/house-bill/8845", "accessed_date": "2026-10-27"},
-    {"source_id": "official-govinfo-bill", "title": "H.R. 8845, reported in House", "publisher": "U.S. Government Publishing Office", "source_type": "official", "url": "https://www.govinfo.gov/app/details/BILLS-119hr8845rh", "accessed_date": "2026-10-27"},
-    {"source_id": "official-house-report", "title": "H. Rept. 119-652 — Commerce, Justice, Science, and Related Agencies Appropriations Bill, 2027", "publisher": "U.S. Government Publishing Office", "source_type": "official", "url": "https://www.govinfo.gov/content/pkg/CRPT-119hrpt652/html/CRPT-119hrpt652.htm", "accessed_date": "2026-10-27"}
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 8845",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8845",
+      "accessed_date": "2026-10-30"
+    },
+    {
+      "source_id": "official-govinfo-bill",
+      "title": "H.R. 8845, reported in House",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr8845rh",
+      "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "official-house-report",
+      "title": "H. Rept. 119-652 — Commerce, Justice, Science, and Related Agencies Appropriations Bill, 2027",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/content/pkg/CRPT-119hrpt652/html/CRPT-119hrpt652.htm",
+      "accessed_date": "2026-10-27"
+    }
   ],
   "claim_provenance": [
-    {"claim_id": "identity", "fields": ["measure_id", "title", "entity_type", "jurisdiction", "chamber", "sponsor", "sponsor_party", "sponsor_state", "introduced_date", "congress", "session"], "source_ids": ["official-congress", "official-govinfo-bill"]},
-    {"claim_id": "lifecycle", "fields": ["status", "lifecycle_status", "last_action", "last_action_date", "committees", "cosponsor_count"], "source_ids": ["official-congress", "official-govinfo-bill"]},
-    {"claim_id": "analysis", "fields": ["scope", "primary_category", "secondary_categories", "summary", "committee_dynamics", "advance_tier", "advance_rationale"], "source_ids": ["official-house-report"], "note": "Tracker synthesis based on the House-reported bill and accompanying committee report."}
+    {
+      "claim_id": "identity",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "introduced_date",
+        "congress",
+        "session"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo-bill"
+      ]
+    },
+    {
+      "claim_id": "lifecycle",
+      "fields": [
+        "status",
+        "lifecycle_status",
+        "last_action",
+        "last_action_date",
+        "committees",
+        "cosponsor_count"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo-bill"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-house-report"
+      ],
+      "note": "Tracker synthesis based on the House-reported bill and accompanying committee report."
+    }
   ]
 }

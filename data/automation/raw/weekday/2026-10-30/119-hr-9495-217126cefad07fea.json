@@ -1,0 +1,131 @@
+{
+  "actions": [
+    {
+      "actionCode": "H12410",
+      "actionDate": "2026-06-26",
+      "calendarNumber": {
+        "calendar": "U00621"
+      },
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Placed on the Union Calendar, Calendar No. 621.",
+      "type": "Calendars"
+    },
+    {
+      "actionCode": "H12100",
+      "actionDate": "2026-06-26",
+      "committees": [
+        {
+          "name": "Appropriations Committee",
+          "systemCode": "hsap00",
+          "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "The House Committee on Appropriations reported an original measure, H. Rept. 119-715, by Mr. Calvert.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "1010",
+      "actionDate": "2026-06-26",
+      "committees": [
+        {
+          "name": "Appropriations Committee",
+          "systemCode": "hsap00",
+          "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "The House Committee on Appropriations reported an original measure, H. Rept. 119-715, by Mr. Calvert.",
+      "type": "Committee"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9495/actions?format=json"
+    },
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 119-715",
+        "url": "https://api.congress.gov/v3/committee-report/119/HRPT/715?format=json"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9495/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 108 (Monday, June 29, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. CALVERT:\nH.R. 9495\nCongress has the power to enact this legislation pursuant\nto the following:\nThe principal constitutional authority for this legislation\nis clause 7 of section 9 of article I of the Constitution of\nthe United States (the appropriation power), which states:\n``No Money shall be drawn from the Treasury, but in\nConsequence of Appropriations made by Law . . . .'' In\naddition, clause 1 of section 8 of article I of the\nConstitution (the spending power) provides: ``The Congress\nshall have the Power . . . to pay the Debts and provide for\nthe common Defence and general Welfare of the United States .\n. . .'' Together, these specific constitutional provisions\nestablish the congressional power of the purse, granting\nCongress the authority to appropriate funds, to determine\ntheir purpose, amount, and period of availability, and to set\nforth terms and conditions governing their use.\n[Page H4316]\n</pre>",
+    "introducedDate": "2026-06-26",
+    "latestAction": {
+      "actionDate": "2026-06-26",
+      "text": "Placed on the Union Calendar, Calendar No. 621."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9495",
+    "number": "9495",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "C000059",
+        "district": 41,
+        "firstName": "Ken",
+        "fullName": "Rep. Calvert, Ken [R-CA-41]",
+        "isByRequest": "N",
+        "lastName": "Calvert",
+        "party": "R",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/C000059?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 88,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9495/subjects?format=json"
+    },
+    "summaries": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9495/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9495/text?format=json"
+    },
+    "title": "Department of Defense Appropriations Act, 2027",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9495/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-08-13T13:28:46Z",
+    "updateDateIncludingText": "2026-08-13T13:28:46Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-06-26T17:37:49Z",
+          "name": "Reported Original Measure"
+        }
+      ],
+      "chamber": "House",
+      "name": "Appropriations Committee",
+      "systemCode": "hsap00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

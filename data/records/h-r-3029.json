@@ -8,7 +8,7 @@
   },
   "lifecycle_status": "passed_chamber",
   "measure_id": "H.R. 3029",
-  "title": "Nucleic Acid Standards for Biosecurity Act",
+  "title": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
   "chamber": "House",
   "scope": "Core",
   "primary_category": "Evaluation, testing & standards",
@@ -38,8 +38,8 @@
   "advance_tier": "High",
   "advance_rationale": "A filed House report and direct national-security/biosecurity rationale make material advancement comparatively likely.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "House passage, Senate referral, and the current short title checked against official congressional sources.",
+  "last_verified_date": "2026-10-30",
+  "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -47,7 +47,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
-      "accessed_date": "2026-10-27"
+      "accessed_date": "2026-10-30"
     },
     {
       "source_id": "official-govinfo",

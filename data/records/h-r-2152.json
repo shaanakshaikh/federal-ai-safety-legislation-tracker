@@ -1,1 +1,107 @@
-{"record_id":"h-r-2152","entity_type":"bill","jurisdiction":{"country":"US","level":"federal","state":null},"lifecycle_status":"referred","measure_id":"H.R. 2152","title":"AI PLAN Act","chamber":"House","scope":"Adjacent","primary_category":"Monitoring, disclosure & reporting","category_key":"monitoring","secondary_categories":["Financial crime","National security","Interagency strategy"],"sponsor":"Zachary Nunn","sponsor_party":"R","sponsor_state":"IA","committees":["House Financial Services"],"introduced_date":"2025-03-14","last_action_date":"2025-03-14","last_action":"Referred to the House Committee on Financial Services.","status":"Introduced / referred","status_bucket":"Introduced / referred","summary":"Would require a federal strategy addressing AI-enabled financial crime, misinformation, and related threats to national and economic security.","committee_dynamics":"The bipartisan bill uses coordinated planning and threat assessment rather than direct product regulation.","advance_tier":"Medium","advance_rationale":"Bipartisan support and committee-meeting attention support further consideration, but the official status remains referred.","congress":119,"session":"119th Congress","congress_url":"https://www.congress.gov/bill/119th-congress/house-bill/2152","last_verified_date":"2026-10-29","verification_level":"Official congressional bill record and text verified.","sources":[{"source_id":"official-congress","title":"Congress.gov record for H.R. 2152","publisher":"Congress.gov","source_type":"official","url":"https://www.congress.gov/bill/119th-congress/house-bill/2152","accessed_date":"2026-10-29"},{"source_id":"official-govinfo","title":"H.R. 2152, introduced in House","publisher":"U.S. Government Publishing Office","source_type":"official","url":"https://www.govinfo.gov/app/details/BILLS-119hr2152ih","accessed_date":"2026-10-29"}],"claim_provenance":[{"claim_id":"official-record","fields":["measure_id","title","jurisdiction","sponsor","committees","introduced_date","last_action","status","lifecycle_status"],"source_ids":["official-congress"]},{"claim_id":"analysis","fields":["scope","primary_category","secondary_categories","summary","advance_tier","advance_rationale"],"source_ids":["official-congress","official-govinfo"]}]}
+{
+  "record_id": "h-r-2152",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "committee_advanced",
+  "measure_id": "H.R. 2152",
+  "title": "AI PLAN Act",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Monitoring, disclosure & reporting",
+  "category_key": "monitoring",
+  "secondary_categories": [
+    "Financial crime",
+    "National security",
+    "Interagency strategy"
+  ],
+  "sponsor": "Zachary Nunn",
+  "sponsor_party": "R",
+  "sponsor_state": "IA",
+  "committees": [
+    "Financial Services Committee"
+  ],
+  "introduced_date": "2025-03-14",
+  "last_action_date": "2026-06-24",
+  "last_action": "Placed on the Union Calendar, Calendar No. 615.",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "summary": "Would require a federal strategy addressing AI-enabled financial crime, misinformation, and related threats to national and economic security.",
+  "committee_dynamics": "The bipartisan bill uses coordinated planning and threat assessment rather than direct product regulation.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Bipartisan support and committee-meeting attention support further consideration, but the official status remains referred.",
+  "congress": 119,
+  "session": "119th Congress",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2152",
+  "last_verified_date": "2026-10-30",
+  "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 2152",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2152",
+      "accessed_date": "2026-10-30"
+    },
+    {
+      "source_id": "official-govinfo",
+      "title": "H.R. 2152, introduced in House",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr2152ih",
+      "accessed_date": "2026-10-29"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "jurisdiction",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo"
+      ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "congress",
+        "cosponsor_count",
+        "last_action_date",
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
+    }
+  ],
+  "cosponsor_count": 7
+}

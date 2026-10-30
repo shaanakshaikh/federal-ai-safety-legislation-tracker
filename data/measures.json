@@ -1547,11 +1547,11 @@
     "cosponsor_count": 0,
     "notable_cosponsors": [],
     "committees": [
-      "House Appropriations"
+      "Appropriations Committee"
     ],
     "introduced_date": "2026-05-15",
     "last_action_date": "2026-05-15",
-    "last_action": "Reported by the House Committee on Appropriations with H. Rept. 119-652 and placed on the Union Calendar, Calendar No. 567.",
+    "last_action": "Placed on the Union Calendar, Calendar No. 567.",
     "status": "Reported by House Appropriations; Union Calendar",
     "status_bucket": "Committee advanced",
     "summary": "The House-reported FY2027 CJS bill and report provide up to $15 million for the Center for AI Standards and Innovation, including a hardware-security and secure-location-verification grant program. The report also directs work on an AI lifecycle-security framework, open-source model security risks, small-business AI resources, and at least $30 million for advancement of the National AI Research Resource.",
@@ -1561,8 +1561,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8845",
-    "last_verified_date": "2026-10-27",
-    "verification_level": "Bill identity, status, and AI-related report language checked against official congressional sources.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1570,7 +1570,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/8845",
-        "accessed_date": "2026-10-27"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo-bill",
@@ -1670,11 +1670,11 @@
     "cosponsor_count": 0,
     "notable_cosponsors": [],
     "committees": [
-      "House Appropriations"
+      "Appropriations Committee"
     ],
     "introduced_date": "2026-06-26",
     "last_action_date": "2026-06-26",
-    "last_action": "Reported by the House Committee on Appropriations with H. Rept. 119-715 and committed to the Committee of the Whole House on the State of the Union.",
+    "last_action": "Placed on the Union Calendar, Calendar No. 621.",
     "status": "Reported by House Appropriations; Union Calendar",
     "status_bucket": "Committee advanced",
     "summary": "The House-reported FY2027 defense appropriations vehicle funds Department of Defense programs, including the research, testing, cybersecurity, and operational accounts through which military AI safeguards and implementation activities are carried out.",
@@ -1684,8 +1684,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9495",
-    "last_verified_date": "2026-10-27",
-    "verification_level": "Bill identity and reported status checked against official congressional sources.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1693,7 +1693,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/9495",
-        "accessed_date": "2026-10-27"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -1782,11 +1782,11 @@
     "sponsor_party": "D",
     "sponsor_state": "IL",
     "committees": [
-      "House Energy and Commerce"
+      "Energy and Commerce Committee"
     ],
     "introduced_date": "2025-02-05",
-    "last_action_date": "2025-02-05",
-    "last_action": "Referred to the House Committee on Energy and Commerce.",
+    "last_action_date": "2025-02-06",
+    "last_action": "Sponsor introductory remarks on measure. (CR H519)",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would require disclosure when robocalls use AI-generated voices or text and strengthen penalties for using AI to impersonate another person in covered calls.",
@@ -1796,8 +1796,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1027",
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1805,7 +1805,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/1027",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -1848,8 +1848,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 28
   },
   {
     "record_id": "h-r-1283",
@@ -1861,7 +1875,7 @@
     },
     "lifecycle_status": "referred",
     "measure_id": "H.R. 1283",
-    "title": "Protecting Our Children in an AI World Act",
+    "title": "Protecting Our Children in an AI World Act of 2025",
     "chamber": "House",
     "scope": "Core",
     "primary_category": "Synthetic-media safety",
@@ -1875,7 +1889,7 @@
     "sponsor_party": "R",
     "sponsor_state": "FL",
     "committees": [
-      "House Judiciary"
+      "Judiciary Committee"
     ],
     "introduced_date": "2025-02-13",
     "last_action_date": "2025-02-13",
@@ -1889,8 +1903,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1283",
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1898,7 +1912,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/1283",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -1941,8 +1955,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 1
   },
   {
     "record_id": "h-r-1734",
@@ -1968,7 +1996,7 @@
     "sponsor_party": "D",
     "sponsor_state": "CO",
     "committees": [
-      "House Financial Services"
+      "Financial Services Committee"
     ],
     "introduced_date": "2025-02-27",
     "last_action_date": "2025-02-27",
@@ -1989,8 +2017,8 @@
         "relationship": "companion"
       }
     ],
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -1998,7 +2026,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/1734",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -2042,8 +2070,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 11
   },
   {
     "record_id": "h-r-1736",
@@ -2168,7 +2210,7 @@
       "level": "federal",
       "state": null
     },
-    "lifecycle_status": "referred",
+    "lifecycle_status": "committee_advanced",
     "measure_id": "H.R. 2152",
     "title": "AI PLAN Act",
     "chamber": "House",
@@ -2184,11 +2226,11 @@
     "sponsor_party": "R",
     "sponsor_state": "IA",
     "committees": [
-      "House Financial Services"
+      "Financial Services Committee"
     ],
     "introduced_date": "2025-03-14",
-    "last_action_date": "2025-03-14",
-    "last_action": "Referred to the House Committee on Financial Services.",
+    "last_action_date": "2026-06-24",
+    "last_action": "Placed on the Union Calendar, Calendar No. 615.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would require a federal strategy addressing AI-enabled financial crime, misinformation, and related threats to national and economic security.",
@@ -2198,8 +2240,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2152",
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -2207,7 +2249,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/2152",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -2250,8 +2292,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 7
   },
   {
     "record_id": "h-r-2683",
@@ -2280,12 +2336,12 @@
     "cosponsor_count": 17,
     "notable_cosponsors": [],
     "committees": [
-      "House Foreign Affairs",
-      "Senate Banking, Housing, and Urban Affairs"
+      "Banking, Housing, and Urban Affairs Committee",
+      "Foreign Affairs Committee"
     ],
     "introduced_date": "2025-04-07",
     "last_action_date": "2026-01-13",
-    "last_action": "Received in the Senate, read twice, and referred to the Committee on Banking, Housing, and Urban Affairs after passing the House 369-22.",
+    "last_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
     "status": "Passed House; referred to Senate Banking",
     "status_bucket": "Passed chamber",
     "summary": "Would extend the Export Control Reform Act to remote access by foreign persons—including access through the internet or cloud computing services—when the covered item could pose a serious national-security or foreign-policy risk. The change would let the Commerce Department license and enforce controls on remote access to controlled technology, closing a pathway that can provide foreign users access to advanced computing without a physical export.",
@@ -2295,8 +2351,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2683",
-    "last_verified_date": "2026-10-29",
-    "verification_level": "House passage, Senate referral, roll-call vote, and current text checked against official congressional sources.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -2304,7 +2360,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/2683",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -2485,7 +2541,7 @@
     },
     "lifecycle_status": "passed_chamber",
     "measure_id": "H.R. 3029",
-    "title": "Nucleic Acid Standards for Biosecurity Act",
+    "title": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
     "chamber": "House",
     "scope": "Core",
     "primary_category": "Evaluation, testing & standards",
@@ -2515,8 +2571,8 @@
     "advance_tier": "High",
     "advance_rationale": "A filed House report and direct national-security/biosecurity rationale make material advancement comparatively likely.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
-    "last_verified_date": "2026-10-27",
-    "verification_level": "House passage, Senate referral, and the current short title checked against official congressional sources.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -2524,7 +2580,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
-        "accessed_date": "2026-10-27"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -2972,7 +3028,7 @@
     "sponsor_party": "D",
     "sponsor_state": "NY",
     "committees": [
-      "House Judiciary"
+      "Judiciary Committee"
     ],
     "introduced_date": "2025-05-21",
     "last_action_date": "2025-05-21",
@@ -2993,8 +3049,8 @@
         "relationship": "related"
       }
     ],
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -3002,7 +3058,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/3562",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -3046,8 +3102,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 69
   },
   {
     "record_id": "h-r-3919",
@@ -3289,7 +3359,7 @@
     },
     "lifecycle_status": "referred",
     "measure_id": "H.R. 5022",
-    "title": "No Advanced Chips for the CCP Act of 2025",
+    "title": "No Advanced Chips for the CCP Act of 2025.",
     "chamber": "House",
     "scope": "Core",
     "primary_category": "Deterrence, export & foreign-adversary controls",
@@ -3306,7 +3376,7 @@
     "cosponsor_count": 5,
     "notable_cosponsors": [],
     "committees": [
-      "House Foreign Affairs"
+      "Foreign Affairs Committee"
     ],
     "introduced_date": "2025-08-22",
     "last_action_date": "2025-08-22",
@@ -3320,8 +3390,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5022",
-    "last_verified_date": "2026-10-27",
-    "verification_level": "Bill details and introduced text checked against official congressional sources.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -3329,7 +3399,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/5022",
-        "accessed_date": "2026-10-27"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -3420,12 +3490,12 @@
     "cosponsor_count": 4,
     "notable_cosponsors": [],
     "committees": [
-      "House Homeland Security",
-      "Senate Homeland Security and Governmental Affairs"
+      "Homeland Security Committee",
+      "Homeland Security and Governmental Affairs Committee"
     ],
     "introduced_date": "2025-09-02",
     "last_action_date": "2025-11-18",
-    "last_action": "Received in the Senate, read twice, and referred to the Committee on Homeland Security and Governmental Affairs after passing the House.",
+    "last_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
     "status": "Passed House; referred to Senate committee",
     "status_bucket": "Passed chamber",
     "summary": "Would reauthorize CISA's State and Local Cybersecurity Grant Program and expressly extend grant planning, inventories, vulnerability assessment, threat mitigation, and resilience work to information and operational-technology systems that use AI.",
@@ -3435,8 +3505,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5078",
-    "last_verified_date": "2026-10-27",
-    "verification_level": "House passage, Senate referral, and current bill text checked against official congressional sources.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -3444,7 +3514,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/5078",
-        "accessed_date": "2026-10-27"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -3535,7 +3605,7 @@
     "cosponsor_count": 0,
     "notable_cosponsors": [],
     "committees": [
-      "House Armed Services"
+      "Armed Services Committee"
     ],
     "introduced_date": "2025-09-02",
     "last_action_date": "2025-09-02",
@@ -3549,8 +3619,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5090",
-    "last_verified_date": "2026-10-27",
-    "verification_level": "Bill details and introduced text checked against official congressional sources.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -3558,7 +3628,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/5090",
-        "accessed_date": "2026-10-27"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -3648,7 +3718,7 @@
     "cosponsor_count": 10,
     "notable_cosponsors": [],
     "committees": [
-      "House Administration"
+      "Committee on House Administration"
     ],
     "introduced_date": "2025-09-10",
     "last_action_date": "2025-09-10",
@@ -3669,8 +3739,8 @@
         "relationship": "companion"
       }
     ],
-    "last_verified_date": "2026-10-27",
-    "verification_level": "Bill details and introduced text checked against official congressional sources.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -3678,7 +3748,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/5272",
-        "accessed_date": "2026-10-27"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -3988,7 +4058,7 @@
     "sponsor_party": "R",
     "sponsor_state": "MI",
     "committees": [
-      "House Foreign Affairs"
+      "Foreign Affairs Committee"
     ],
     "introduced_date": "2025-10-31",
     "last_action_date": "2025-10-31",
@@ -4002,8 +4072,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5885",
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -4011,7 +4081,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/5885",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -4054,8 +4124,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 4
   },
   {
     "record_id": "h-r-6304",
@@ -4996,7 +5080,21 @@
     "cosponsor_count": 1,
     "notable_cosponsors": [],
     "committees": [
-      "House Armed Services"
+      "Appropriations Committee",
+      "Armed Services Committee",
+      "Budget Committee",
+      "Education and Workforce Committee",
+      "Energy and Commerce Committee",
+      "Homeland Security Committee",
+      "Intelligence (Permanent Select) Committee",
+      "Judiciary Committee",
+      "Natural Resources Committee",
+      "Oversight and Government Reform Committee",
+      "Science, Space, and Technology Committee",
+      "Small Business Committee",
+      "Transportation and Infrastructure Committee",
+      "Veterans' Affairs Committee",
+      "Ways and Means Committee"
     ],
     "introduced_date": "2026-05-13",
     "last_action_date": "2026-09-14",
@@ -5008,8 +5106,8 @@
     "advance_tier": "High",
     "advance_rationale": "Annual NDAA enactment pressure and active floor processing make material AI-security movement likely.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
-    "last_verified_date": "2026-10-27",
-    "verification_level": "Official congressional metadata and committee referral checked by a human editor",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -5017,7 +5115,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
-        "accessed_date": "2026-10-27"
+        "accessed_date": "2026-10-30"
       }
     ],
     "claim_provenance": [
@@ -5068,6 +5166,16 @@
           "official-congress"
         ],
         "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "cosponsor_count"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
     ],
     "congress": 119,
@@ -5081,7 +5189,7 @@
       "level": "federal",
       "state": null
     },
-    "lifecycle_status": "referred",
+    "lifecycle_status": "committee_advanced",
     "measure_id": "H.R. 8893",
     "title": "Protecting Consumers from Deceptive AI Act",
     "chamber": "House",
@@ -5097,11 +5205,11 @@
     "sponsor_party": "D",
     "sponsor_state": "NC",
     "committees": [
-      "House Science, Space, and Technology"
+      "Science, Space, and Technology Committee"
     ],
     "introduced_date": "2026-05-19",
-    "last_action_date": "2026-05-19",
-    "last_action": "Referred to the House Committee on Science, Space, and Technology.",
+    "last_action_date": "2026-06-25",
+    "last_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 35 - 0.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would establish NIST-led task forces and voluntary standards for detecting, labeling, and authenticating AI-generated content used in commerce.",
@@ -5111,8 +5219,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8893",
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -5120,7 +5228,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/8893",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -5163,8 +5271,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 5
   },
   {
     "record_id": "h-r-9125",
@@ -5190,12 +5312,12 @@
     "sponsor_party": "D",
     "sponsor_state": "CA",
     "committees": [
-      "House Judiciary",
-      "House Oversight and Government Reform"
+      "Judiciary Committee",
+      "Oversight and Government Reform Committee"
     ],
     "introduced_date": "2026-06-03",
     "last_action_date": "2026-06-03",
-    "last_action": "Referred to the House Committees on the Judiciary and Oversight and Government Reform.",
+    "last_action": "Referred to the Committee on the Judiciary, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would clarify federal agencies' authority to regulate algorithmic decision systems likely to contribute to violations of laws within their existing jurisdiction.",
@@ -5205,8 +5327,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9125",
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -5214,7 +5336,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/9125",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -5257,8 +5379,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 3
   },
   {
     "record_id": "h-r-9333",
@@ -5637,7 +5773,7 @@
     "cosponsor_count": 0,
     "notable_cosponsors": [],
     "committees": [
-      "House Armed Services"
+      "Armed Services Committee"
     ],
     "introduced_date": "2024-09-17",
     "last_action_date": "2024-09-17",
@@ -5651,8 +5787,8 @@
     "congress": 118,
     "session": "118th Congress",
     "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/9626",
-    "last_verified_date": "2026-10-27",
-    "verification_level": "Bill details and introduced text checked; end-of-Congress status applied.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -5660,7 +5796,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/118th-congress/house-bill/9626",
-        "accessed_date": "2026-10-27"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -7668,11 +7804,11 @@
     "sponsor_party": "D",
     "sponsor_state": "MN",
     "committees": [
-      "Senate Rules and Administration"
+      "Rules and Administration Committee"
     ],
     "introduced_date": "2025-03-31",
     "last_action_date": "2025-03-31",
-    "last_action": "Read twice and referred to the Senate Committee on Rules and Administration.",
+    "last_action": "Read twice and referred to the Committee on Rules and Administration.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would prohibit knowing distribution of materially deceptive AI-generated audio or visual media involving federal candidates, subject to specified exceptions and remedies.",
@@ -7689,8 +7825,8 @@
         "relationship": "companion"
       }
     ],
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -7698,7 +7834,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1213",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -7742,8 +7878,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 4
   },
   {
     "record_id": "s-1394-118",
@@ -7858,7 +8008,7 @@
     },
     "lifecycle_status": "referred",
     "measure_id": "S. 1396",
-    "title": "COPIED Act of 2025",
+    "title": "Content Origin Protection and Integrity from Edited and Deepfaked Media Act of 2025",
     "chamber": "Senate",
     "scope": "Core",
     "primary_category": "Monitoring, disclosure & reporting",
@@ -7872,11 +8022,11 @@
     "sponsor_party": "D",
     "sponsor_state": "WA",
     "committees": [
-      "Senate Commerce, Science, and Transportation"
+      "Commerce, Science, and Transportation Committee"
     ],
     "introduced_date": "2025-04-09",
     "last_action_date": "2025-04-09",
-    "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would direct development of content-provenance and detection standards and tools intended to help authenticate digital content and identify synthetic or manipulated material.",
@@ -7886,8 +8036,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1396",
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -7895,7 +8045,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1396",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -7938,8 +8088,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 2
   },
   {
     "record_id": "s-1633",
@@ -8427,11 +8591,11 @@
       "Brian Schatz (D-HI)"
     ],
     "committees": [
-      "Senate Health, Education, Labor, and Pensions"
+      "Health, Education, Labor, and Pensions Committee"
     ],
     "introduced_date": "2025-05-15",
     "last_action_date": "2025-05-15",
-    "last_action": "Read twice and referred to the Senate Committee on Health, Education, Labor, and Pensions.",
+    "last_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Protects employees who report AI security vulnerabilities or violations of law involving AI and creates Department of Labor complaint, investigation, and remedy procedures.",
@@ -8439,8 +8603,8 @@
     "advance_tier": "Medium",
     "advance_rationale": "The bipartisan sponsor coalition and a House companion improve the proposal’s options, but neither chamber has completed committee action.",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1792",
-    "last_verified_date": "2026-10-28",
-    "verification_level": "Bill details checked against Congress.gov and the official introduced text.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -8448,7 +8612,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1792",
-        "accessed_date": "2026-10-28"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-text",
@@ -8536,11 +8700,11 @@
     "sponsor_party": "R",
     "sponsor_state": "OH",
     "committees": [
-      "Senate Banking, Housing, and Urban Affairs"
+      "Banking, Housing, and Urban Affairs Committee"
     ],
     "introduced_date": "2025-06-18",
     "last_action_date": "2025-06-18",
-    "last_action": "Read twice and referred to the Senate Committee on Banking, Housing, and Urban Affairs.",
+    "last_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would establish a federal task force to examine AI-enabled financial-services fraud, including deepfake scams, and recommend coordinated countermeasures.",
@@ -8557,8 +8721,8 @@
         "relationship": "companion"
       }
     ],
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -8566,7 +8730,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2117",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -8610,8 +8774,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 1
   },
   {
     "record_id": "s-2177",
@@ -8755,11 +8933,11 @@
     "cosponsor_count": 3,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Commerce, Science, and Transportation"
+      "Commerce, Science, and Transportation Committee"
     ],
     "introduced_date": "2025-07-31",
     "last_action_date": "2025-07-31",
-    "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would direct NIST to develop voluntary, consensus-driven technical guidelines and specifications for internal and independent external assurance of AI systems, including testing, evaluation, validation, verification, risk management, and governance practices.",
@@ -8769,8 +8947,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2615",
-    "last_verified_date": "2026-10-27",
-    "verification_level": "Bill details and introduced text checked against official congressional sources.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -8778,7 +8956,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2615",
-        "accessed_date": "2026-10-27"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -8870,11 +9048,11 @@
     "cosponsor_count": 1,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Commerce, Science, and Transportation"
+      "Commerce, Science, and Transportation Committee"
     ],
     "introduced_date": "2025-08-01",
     "last_action_date": "2025-08-01",
-    "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would establish an NSF cloud-laboratory network that generates biological data for AI training and other research. Its implementation plan must build in cybersecurity, biosecurity, and research security, while an advisory board would address misuse safeguards and rigorous cybersecurity across the network.",
@@ -8884,8 +9062,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2676",
-    "last_verified_date": "2026-10-27",
-    "verification_level": "Bill details and introduced text checked against official congressional sources.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -8893,7 +9071,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2676",
-        "accessed_date": "2026-10-27"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -8981,11 +9159,11 @@
     "sponsor_party": "R",
     "sponsor_state": "OH",
     "committees": [
-      "Senate Commerce, Science, and Transportation"
+      "Commerce, Science, and Transportation Committee"
     ],
     "introduced_date": "2025-09-04",
     "last_action_date": "2025-09-04",
-    "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would require age assurance and specified safeguards for minors using companion chatbots, including disclosures and protections against harmful interactions.",
@@ -8995,8 +9173,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2714",
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -9004,7 +9182,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2714",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -9047,8 +9225,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 1
   },
   {
     "record_id": "s-2750",
@@ -9496,11 +9688,11 @@
     "sponsor_party": "D",
     "sponsor_state": "MA",
     "committees": [
-      "Senate Commerce, Science, and Transportation"
+      "Commerce, Science, and Transportation Committee"
     ],
     "introduced_date": "2025-12-02",
     "last_action_date": "2025-12-02",
-    "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would require predeployment evaluations and postdeployment impact assessments for covered high-risk automated systems, set transparency and human-alternative safeguards, and protect certain disclosures.",
@@ -9510,8 +9702,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/3308",
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -9519,7 +9711,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3308",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -9562,8 +9754,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 4
   },
   {
     "record_id": "s-3312-118",
@@ -10219,7 +10425,7 @@
       "level": "federal",
       "state": null
     },
-    "lifecycle_status": "referred",
+    "lifecycle_status": "committee_advanced",
     "measure_id": "S. 4407",
     "title": "CHATBOT Act",
     "chamber": "Senate",
@@ -10235,11 +10441,11 @@
     "sponsor_party": "R",
     "sponsor_state": "TX",
     "committees": [
-      "Senate Commerce, Science, and Transportation"
+      "Commerce, Science, and Transportation Committee"
     ],
     "introduced_date": "2026-04-28",
-    "last_action_date": "2026-04-28",
-    "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "last_action_date": "2026-08-05",
+    "last_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would require family-account controls, parental consent and supervision tools, youth-facing disclosures, and limits on advertising and data practices for covered chatbots.",
@@ -10249,8 +10455,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4407",
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -10258,7 +10464,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4407",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -10301,8 +10507,22 @@
           "official-congress",
           "official-govinfo"
         ]
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 3
   },
   {
     "record_id": "s-4495-118",
@@ -10980,11 +11200,11 @@
     "sponsor_party": "D",
     "sponsor_state": "HI",
     "committees": [
-      "Senate Commerce, Science, and Transportation"
+      "Commerce, Science, and Transportation Committee"
     ],
     "introduced_date": "2026-06-24",
     "last_action_date": "2026-06-24",
-    "last_action": "Read twice and referred to the Senate Committee on Commerce, Science, and Transportation.",
+    "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "status": "Introduced / referred",
     "status_bucket": "Introduced / referred",
     "summary": "Would require visible and machine-readable labels for specified AI-generated content, direct NIST to develop technical standards, and authorize federal and state enforcement.",
@@ -10994,8 +11214,8 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4915",
-    "last_verified_date": "2026-10-29",
-    "verification_level": "Official congressional bill record and text verified.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -11003,7 +11223,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4915",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",
@@ -11047,8 +11267,22 @@
           "official-govinfo"
         ],
         "note": "Tracker classification and synthesis based on official text."
+      },
+      {
+        "claim_id": "automated-objective-metadata",
+        "fields": [
+          "congress",
+          "cosponsor_count",
+          "last_action_date",
+          "session"
+        ],
+        "source_ids": [
+          "official-congress"
+        ],
+        "note": "Objective bill details updated from the official Congress.gov data service."
       }
-    ]
+    ],
+    "cosponsor_count": 3
   },
   {
     "record_id": "s-5061",
@@ -11191,11 +11425,11 @@
     "cosponsor_count": 0,
     "notable_cosponsors": [],
     "committees": [
-      "Senate Armed Services"
+      "Armed Services Committee"
     ],
     "introduced_date": "2024-09-25",
     "last_action_date": "2024-09-25",
-    "last_action": "Read twice and referred to the Senate Committee on Armed Services.",
+    "last_action": "Read twice and referred to the Committee on Armed Services.",
     "status": "Referred to Senate Armed Services; expired at the end of the 118th Congress",
     "status_bucket": "Inactive",
     "summary": "Would have required the Department of Defense to maintain a ledger of covered AI systems and conduct recurring risk assessments addressing dependability, cybersecurity, privacy, bias, escalation, swarm deployment, civilian harm, model updates, and exports to foreign users.",
@@ -11205,8 +11439,8 @@
     "congress": 118,
     "session": "118th Congress",
     "congress_url": "https://www.congress.gov/bill/118th-congress/senate-bill/5239",
-    "last_verified_date": "2026-10-27",
-    "verification_level": "Bill details and introduced text checked; end-of-Congress status applied.",
+    "last_verified_date": "2026-10-30",
+    "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
     "sources": [
       {
         "source_id": "official-congress",
@@ -11214,7 +11448,7 @@
         "publisher": "Congress.gov",
         "source_type": "official",
         "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5239",
-        "accessed_date": "2026-10-27"
+        "accessed_date": "2026-10-30"
       },
       {
         "source_id": "official-govinfo",

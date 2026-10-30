@@ -25,12 +25,12 @@
   "cosponsor_count": 17,
   "notable_cosponsors": [],
   "committees": [
-    "House Foreign Affairs",
-    "Senate Banking, Housing, and Urban Affairs"
+    "Banking, Housing, and Urban Affairs Committee",
+    "Foreign Affairs Committee"
   ],
   "introduced_date": "2025-04-07",
   "last_action_date": "2026-01-13",
-  "last_action": "Received in the Senate, read twice, and referred to the Committee on Banking, Housing, and Urban Affairs after passing the House 369-22.",
+  "last_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
   "status": "Passed House; referred to Senate Banking",
   "status_bucket": "Passed chamber",
   "summary": "Would extend the Export Control Reform Act to remote access by foreign persons—including access through the internet or cloud computing services—when the covered item could pose a serious national-security or foreign-policy risk. The change would let the Commerce Department license and enforce controls on remote access to controlled technology, closing a pathway that can provide foreign users access to advanced computing without a physical export.",
@@ -40,8 +40,8 @@
   "congress": 119,
   "session": "119th Congress",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/2683",
-  "last_verified_date": "2026-10-29",
-  "verification_level": "House passage, Senate referral, roll-call vote, and current text checked against official congressional sources.",
+  "last_verified_date": "2026-10-30",
+  "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -49,7 +49,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/2683",
-      "accessed_date": "2026-10-29"
+      "accessed_date": "2026-10-30"
     },
     {
       "source_id": "official-govinfo",

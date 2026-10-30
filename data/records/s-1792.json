@@ -32,11 +32,11 @@
     "Brian Schatz (D-HI)"
   ],
   "committees": [
-    "Senate Health, Education, Labor, and Pensions"
+    "Health, Education, Labor, and Pensions Committee"
   ],
   "introduced_date": "2025-05-15",
   "last_action_date": "2025-05-15",
-  "last_action": "Read twice and referred to the Senate Committee on Health, Education, Labor, and Pensions.",
+  "last_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Protects employees who report AI security vulnerabilities or violations of law involving AI and creates Department of Labor complaint, investigation, and remedy procedures.",
@@ -44,8 +44,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "The bipartisan sponsor coalition and a House companion improve the proposal’s options, but neither chamber has completed committee action.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1792",
-  "last_verified_date": "2026-10-28",
-  "verification_level": "Bill details checked against Congress.gov and the official introduced text.",
+  "last_verified_date": "2026-10-30",
+  "verification_level": "Bill details updated from Congress.gov on 2026-10-30.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -53,7 +53,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1792",
-      "accessed_date": "2026-10-28"
+      "accessed_date": "2026-10-30"
     },
     {
       "source_id": "official-text",
