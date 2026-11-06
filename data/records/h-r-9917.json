@@ -21,7 +21,7 @@
   "sponsor": "Ted Lieu",
   "sponsor_party": "D",
   "sponsor_state": "CA",
-  "cosponsor_count": 12,
+  "cosponsor_count": 13,
   "notable_cosponsors": [
     "Nathaniel Moran (R-TX)"
   ],
@@ -38,8 +38,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "Bipartisan support and a concrete safeguard create an amendment pathway, though the standalone bill had not received committee action.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9917",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Bill details checked against Congress.gov.",
+  "last_verified_date": "2026-11-06",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-06.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -47,7 +47,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9917",
-      "accessed_date": "2026-10-27"
+      "accessed_date": "2026-11-06"
     }
   ],
   "claim_provenance": [
