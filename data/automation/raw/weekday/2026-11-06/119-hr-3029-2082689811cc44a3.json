@@ -1,0 +1,358 @@
+{
+  "actions": [
+    {
+      "actionDate": "2026-07-21",
+      "committees": [
+        {
+          "name": "Commerce, Science, and Transportation Committee",
+          "systemCode": "sscm00",
+          "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H38310",
+      "actionDate": "2026-07-20",
+      "actionTime": "17:27:58",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H37300",
+      "actionDate": "2026-07-20",
+      "actionTime": "17:27:55",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4666)",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "8000",
+      "actionDate": "2026-07-20",
+      "actionTime": "17:27:55",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4666)",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H8D000",
+      "actionDate": "2026-07-20",
+      "actionTime": "17:20:12",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 3029.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H30000",
+      "actionDate": "2026-07-20",
+      "actionTime": "17:20:11",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Considered under suspension of the rules. (consideration: CR H4666-4667)",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H30300",
+      "actionDate": "2026-07-20",
+      "actionTime": "17:20:08",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Mr. Babin moved to suspend the rules and pass the bill, as amended.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H12410",
+      "actionDate": "2026-07-16",
+      "calendarNumber": {
+        "calendar": "U00654"
+      },
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Placed on the Union Calendar, Calendar No. 654.",
+      "type": "Calendars"
+    },
+    {
+      "actionCode": "H12200",
+      "actionDate": "2026-07-16",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Reported by the Committee on Science, Space, and Technology. H. Rept. 119-751.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "5000",
+      "actionDate": "2026-07-16",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Reported by the Committee on Science, Space, and Technology. H. Rept. 119-751.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H19000",
+      "actionDate": "2025-04-29",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported by Voice Vote.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15001",
+      "actionDate": "2025-04-29",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-04-28",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Science, Space, and Technology.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-04-28",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-04-28",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 15,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3029/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the House Committee on Science, Space, and Technology on April 29, 2025",
+        "pubDate": "2025-06-24T19:56:00Z",
+        "title": "H.R. 3029, Nucleic Acid Standards for Biosecurity Act",
+        "url": "https://www.cbo.gov/publication/61512"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 119-751",
+        "url": "https://api.congress.gov/v3/committee-report/119/HRPT/751?format=json"
+      }
+    ],
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3029/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 70 (Monday, April 28, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. SALINAS:\nH.R. 3029.\nCongress has the power to enact this legislation pursuant\nto the following:\nPursuant to Article 1, Section 8, Clause 3\n[Page H1684]\n</pre>",
+    "cosponsors": {
+      "count": 3,
+      "countIncludingWithdrawnCosponsors": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3029/cosponsors?format=json"
+    },
+    "introducedDate": "2025-04-28",
+    "latestAction": {
+      "actionDate": "2026-07-21",
+      "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
+    "number": "3029",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3029/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "S001226",
+        "district": 6,
+        "firstName": "Andrea",
+        "fullName": "Rep. Salinas, Andrea [D-OR-6]",
+        "isByRequest": "N",
+        "lastName": "Salinas",
+        "party": "D",
+        "state": "OR",
+        "url": "https://api.congress.gov/v3/member/S001226?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3029/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3029/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3029/text?format=json"
+    },
+    "title": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3029/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-08T18:03:40Z",
+    "updateDateIncludingText": "2026-09-08T18:03:40Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-07-21T20:33:33Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2026-07-16T14:11:22Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2025-04-29T21:11:11Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-04-28T16:01:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "M001218",
+      "district": 7,
+      "firstName": "Richard",
+      "fullName": "Rep. McCormick, Richard [R-GA-7]",
+      "isOriginalCosponsor": true,
+      "lastName": "McCormick",
+      "party": "R",
+      "sponsorshipDate": "2025-04-28",
+      "state": "GA",
+      "url": "https://api.congress.gov/v3/member/M001218?format=json"
+    },
+    {
+      "bioguideId": "M001238",
+      "district": 0,
+      "firstName": "Sarah",
+      "fullName": "Rep. McBride, Sarah [D-DE-At Large]",
+      "isOriginalCosponsor": false,
+      "lastName": "McBride",
+      "party": "D",
+      "sponsorshipDate": "2025-04-29",
+      "state": "DE",
+      "url": "https://api.congress.gov/v3/member/M001238?format=json"
+    },
+    {
+      "bioguideId": "R000622",
+      "district": 19,
+      "firstName": "Josh",
+      "fullName": "Rep. Riley, Josh [D-NY-19]",
+      "isOriginalCosponsor": false,
+      "lastName": "Riley",
+      "party": "D",
+      "sponsorshipDate": "2025-04-30",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/R000622?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}
