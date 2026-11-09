@@ -1,0 +1,118 @@
+{
+  "record_id": "h-r-8170",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "lifecycle_status": "committee_advanced",
+  "measure_id": "H.R. 8170",
+  "title": "MATCH Act",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [
+    "Semiconductor manufacturing equipment",
+    "Export controls",
+    "Allied coordination",
+    "Countries of concern"
+  ],
+  "sponsor": "Michael Baumgartner",
+  "sponsor_party": "R",
+  "sponsor_state": "WA",
+  "cosponsor_count": 31,
+  "notable_cosponsors": [],
+  "committees": [
+    "House Foreign Affairs"
+  ],
+  "introduced_date": "2026-04-02",
+  "last_action_date": "2026-04-22",
+  "last_action": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 36 - 8.",
+  "status": "Ordered reported 36–8",
+  "status_bucket": "Committee advanced",
+  "summary": "Would require U.S. agencies to identify strategically important semiconductor-manufacturing equipment and covered foreign facilities, press allied supplier countries to adopt equivalent export and servicing controls, and extend U.S. controls when allied gaps remain. The bill targets equipment used to produce advanced chips that underpin artificial-intelligence systems and would impose licensing policies of denial for covered destinations and facilities in countries of concern.",
+  "committee_dynamics": "The House Foreign Affairs Committee advanced an amended version 36–8, and the bill has broad bipartisan cosponsorship. Its proposed extraterritorial controls could nevertheless draw resistance from equipment makers and allied governments.",
+  "advance_tier": "High",
+  "advance_rationale": "A bipartisan committee vote, 31 cosponsors, and consideration alongside other priority technology-control legislation give the House bill meaningful momentum.",
+  "congress": 119,
+  "session": "119th Congress",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8170",
+  "related_measures": [
+    {
+      "record_id": "s-4281",
+      "measure_id": "S. 4281",
+      "relationship": "companion"
+    }
+  ],
+  "last_verified_date": "2026-11-09",
+  "verification_level": "Official congressional record, GovInfo text, and House committee action checked.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov record for H.R. 8170",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8170",
+      "accessed_date": "2026-11-09"
+    },
+    {
+      "source_id": "official-govinfo",
+      "title": "H.R. 8170, introduced in House",
+      "publisher": "U.S. Government Publishing Office",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr8170ih",
+      "accessed_date": "2026-11-09"
+    },
+    {
+      "source_id": "official-house-substitute",
+      "title": "Amendment in the nature of a substitute to H.R. 8170",
+      "publisher": "U.S. House of Representatives",
+      "source_type": "official",
+      "url": "https://docs.house.gov/meetings/FA/FA00/20260422/119191/BILLS-1198170ANSih-U1.pdf",
+      "accessed_date": "2026-11-09"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "jurisdiction",
+        "sponsor",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "related_measures"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo",
+        "official-house-substitute"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-congress",
+        "official-govinfo",
+        "official-house-substitute"
+      ],
+      "note": "Tracker classification and synthesis based on the official bill text and legislative history."
+    }
+  ]
+}
