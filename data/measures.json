@@ -6853,7 +6853,7 @@
     },
     "lifecycle_status": "enacted",
     "measure_id": "P.L. 118-159 §§ 225, 236, 1531–1534, 6504",
-    "title": "FY2025 NDAA artificial-intelligence security, biosecurity, and assurance provisions",
+    "title": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025",
     "session": "118th Congress",
     "congress": 118,
     "chamber": "Bicameral",
@@ -6867,22 +6867,67 @@
       "Military AI assurance",
       "NSA AI Security Center"
     ],
-    "sponsor": null,
-    "sponsor_party": null,
-    "sponsor_state": null,
+    "sponsor": "David Joyce",
+    "sponsor_party": "R",
+    "sponsor_state": "OH",
+    "sponsor_context": "Formal sponsor of H.R. 5009, the originating legislative vehicle; the NDAA text was substituted later in the process.",
     "cosponsor_count": null,
     "notable_cosponsors": [],
     "committees": [
       "House Armed Services",
       "Senate Armed Services"
     ],
-    "introduced_date": "2024-04-18",
+    "introduced_date": "2023-07-27",
     "last_action_date": "2024-12-23",
-    "last_action": "Enacted in the FY2025 National Defense Authorization Act.",
+    "last_action": "Enacted as the Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025.",
     "status": "Enacted — Public Law 118-159",
     "status_bucket": "Enacted",
-    "summary": "A curated group of FY2025 NDAA provisions directing assessment and protection of advanced AI from adversary access, piloting national-security AI and biotechnology applications, strengthening human-factors and testing infrastructure for military AI, and establishing the NSA Artificial Intelligence Security Center.",
-    "committee_dynamics": "The provisions were enacted through the annual defense and intelligence authorization vehicle rather than as standalone AI statutes.",
+    "summary": "The FY2025 NDAA strengthened protection of advanced AI from adversary access, launched defense AI-and-biotechnology work, improved human-factors and evaluation infrastructure for military AI, and established the NSA Artificial Intelligence Security Center.",
+    "substance_sections": [
+      {
+        "section": "§ 225",
+        "title": "Advanced-AI national-security duties",
+        "summary": "Directs the CDAO Governing Council to identify AI models that could create national-security risks, develop strategies to prevent adversary access, and recommend legislative or administrative action.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=59"
+      },
+      {
+        "section": "§ 236",
+        "title": "AI and biotechnology pilot program",
+        "summary": "Creates a pilot program to develop and demonstrate near-term AI and machine-learning applications for biotechnology and national-security missions.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=68"
+      },
+      {
+        "section": "§ 1531",
+        "title": "AI Human Factors Integration Initiative",
+        "summary": "Establishes an initiative to study and improve how people interact with military AI, including operator trust, workload, decision-making, testing, and design guidance.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=370"
+      },
+      {
+        "section": "§ 1532",
+        "title": "Advanced computing infrastructure for AI",
+        "summary": "Directs the Defense Department to plan computing infrastructure that supports the development, testing, evaluation, and deployment of advanced AI capabilities.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=372"
+      },
+      {
+        "section": "§ 1533",
+        "title": "Budgeting for AI data",
+        "summary": "Requires Defense Department AI programs to estimate and budget for the data needed to train, maintain, and improve models, including data preparation, labeling, protection, and sustainment costs.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=373"
+      },
+      {
+        "section": "§ 1534",
+        "title": "AI-enabled weapon-systems center of excellence",
+        "summary": "Requires an evaluation of a center of excellence to share lessons, safety guidance, standards, benchmarks, training, and partner experience for AI-enabled weapon systems.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=374"
+      },
+      {
+        "section": "§ 6504",
+        "title": "NSA Artificial Intelligence Security Center",
+        "summary": "Establishes an AI Security Center within NSA's Cybersecurity Collaboration Center to develop counter-AI guidance and promote secure AI adoption for national-security systems and the defense industrial base.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=723"
+      }
+    ],
+    "committee_dynamics": "These provisions were enacted through the annual defense and intelligence authorization vehicle rather than as standalone AI statutes. H.R. 5009 originally addressed wildlife-trafficking sanctions; the FY2025 NDAA text was later substituted into that vehicle, so David Joyce is the formal originating-bill sponsor rather than the NDAA's principal author.",
     "advance_tier": "Enacted",
     "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
     "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ159",
@@ -6913,7 +6958,7 @@
         {
           "agency": "Department of Defense and National Security Agency",
           "status": "unknown",
-          "as_of": "2026-10-28",
+          "as_of": "2026-11-09",
           "detail": "The enacted duties and organizational requirements are verified; a comprehensive official implementation assessment has not yet been completed for this grouped record.",
           "source_ids": [
             "govinfo-law"
@@ -6921,16 +6966,24 @@
         }
       ]
     },
-    "last_verified_date": "2026-10-28",
-    "verification_level": "Official public-law text and section grouping verified.",
+    "last_verified_date": "2026-11-09",
+    "verification_level": "Official Congress.gov record, public-law text, and section grouping verified.",
     "sources": [
+      {
+        "source_id": "congress-bill",
+        "title": "H.R. 5009 — originating legislative vehicle for the FY2025 NDAA",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/5009",
+        "accessed_date": "2026-11-09"
+      },
       {
         "source_id": "govinfo-law",
         "title": "Public Law 118-159 — FY2025 National Defense Authorization Act",
         "publisher": "GovInfo",
         "source_type": "official",
         "url": "https://www.govinfo.gov/app/details/PLAW-118publ159",
-        "accessed_date": "2026-10-28"
+        "accessed_date": "2026-11-09"
       }
     ],
     "claim_provenance": [
@@ -6943,11 +6996,16 @@
           "jurisdiction",
           "session",
           "congress",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "sponsor_context",
           "public_law",
           "status",
           "lifecycle_status"
         ],
         "source_ids": [
+          "congress-bill",
           "govinfo-law"
         ]
       },
@@ -6955,6 +7013,7 @@
         "claim_id": "substance-and-implementation",
         "fields": [
           "summary",
+          "substance_sections",
           "primary_category",
           "secondary_categories",
           "implementation"
@@ -6962,7 +7021,7 @@
         "source_ids": [
           "govinfo-law"
         ],
-        "note": "Section grouping and summary are analyst-created from the enacted text."
+        "note": "Section grouping and plain-language summaries are analyst-created from the enacted text."
       }
     ]
   },
@@ -7106,7 +7165,7 @@
     },
     "lifecycle_status": "enacted",
     "measure_id": "P.L. 118-31 §§ 1541–1545, 7510, 7513",
-    "title": "FY2024 NDAA artificial-intelligence assurance and security provisions",
+    "title": "National Defense Authorization Act for Fiscal Year 2024",
     "session": "118th Congress",
     "congress": 118,
     "chamber": "Bicameral",
@@ -7119,9 +7178,10 @@
       "Military AI security",
       "Intelligence oversight"
     ],
-    "sponsor": null,
-    "sponsor_party": null,
-    "sponsor_state": null,
+    "sponsor": "Mike Rogers",
+    "sponsor_party": "R",
+    "sponsor_state": "AL",
+    "sponsor_context": "Sponsor of H.R. 2670, the bill that became the FY2024 NDAA.",
     "cosponsor_count": null,
     "notable_cosponsors": [],
     "committees": [
@@ -7130,11 +7190,55 @@
     ],
     "introduced_date": "2023-04-18",
     "last_action_date": "2023-12-22",
-    "last_action": "Enacted as part of the National Defense Authorization Act for Fiscal Year 2024.",
+    "last_action": "Enacted as the National Defense Authorization Act for Fiscal Year 2024.",
     "status": "Enacted — Public Law 118-31",
     "status_bucket": "Enacted",
-    "summary": "A curated group of FY2024 NDAA provisions establishing AI bug-bounty work, generative-AI detection and watermarking efforts, responsible-AI processes, a study of privacy, security, accuracy, explainability, and emergent behavior in military AI, and intelligence-community guidance for AI-assisted analysis.",
-    "committee_dynamics": "The provisions moved through the annual defense-authorization vehicle rather than as a standalone AI statute. The prior tracker citation to sections 220–225 was corrected because those sections address unrelated defense research and acquisition matters.",
+    "summary": "The FY2024 NDAA created or expanded military and intelligence-community safeguards for AI acquisition, vulnerability testing, generative-AI detection, responsible use, and oversight of AI-assisted intelligence analysis.",
+    "substance_sections": [
+      {
+        "section": "§ 1541",
+        "title": "CDAO acquisition authority",
+        "summary": "Extends the Chief Digital and Artificial Intelligence Officer's special acquisition authority through fiscal year 2029 and requires plans and demonstrations showing how it will deliver operational AI capabilities.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=438"
+      },
+      {
+        "section": "§ 1542",
+        "title": "AI bug-bounty programs",
+        "summary": "Directs the Defense Department to develop a bug-bounty program for foundation models being integrated into military missions and operations.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=439"
+      },
+      {
+        "section": "§ 1543",
+        "title": "Generative-AI detection and watermarking competition",
+        "summary": "Creates a prize competition to evaluate and transition tools that detect generative-AI content and apply or identify watermarks.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=439"
+      },
+      {
+        "section": "§ 1544",
+        "title": "Responsible-AI plans and security strategy",
+        "summary": "Requires responsible-AI guidance and accountability metrics, a strategy addressing generative-AI cybersecurity and adversarial uses, and plans to secure Defense Department models, data, and algorithms.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=440"
+      },
+      {
+        "section": "§ 1545",
+        "title": "Study of vulnerabilities in military AI",
+        "summary": "Requires a study of military-AI privacy, security, accuracy, explainability, testing, auditing, traceability, emergent behavior, and supporting test infrastructure.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=443"
+      },
+      {
+        "section": "§ 7510",
+        "title": "Rules for AI-assisted intelligence products",
+        "summary": "Requires the Director of National Intelligence to assess and update analytic and sourcing rules so intelligence products appropriately disclose and support the use of AI and machine-learning tools.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=958"
+      },
+      {
+        "section": "§ 7513",
+        "title": "Intelligence-community AI policies",
+        "summary": "Requires common policies for acquiring, using, testing, documenting, monitoring, and securing intelligence-community AI capabilities, including third-party models and data.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=961"
+      }
+    ],
+    "committee_dynamics": "These provisions became law through the annual defense-authorization vehicle rather than as standalone AI statutes. H.R. 2670 was introduced as the FY2024 NDAA by House Armed Services Committee Chair Mike Rogers.",
     "advance_tier": "Enacted",
     "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
     "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ31",
@@ -7172,7 +7276,7 @@
         {
           "agency": "Department of Defense",
           "status": "unknown",
-          "as_of": "2026-10-28",
+          "as_of": "2026-11-09",
           "detail": "The statutory requirements are captured; a comprehensive official implementation assessment has not yet been completed for this grouped record.",
           "source_ids": [
             "govinfo-law"
@@ -7180,16 +7284,24 @@
         }
       ]
     },
-    "last_verified_date": "2026-10-28",
-    "verification_level": "Official public-law text and section citations verified; implementation status requires a dedicated agency review.",
+    "last_verified_date": "2026-11-09",
+    "verification_level": "Official Congress.gov record and public-law text verified; implementation status requires a dedicated agency review.",
     "sources": [
       {
+        "source_id": "congress-bill",
+        "title": "H.R. 2670 — National Defense Authorization Act for Fiscal Year 2024",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/118th-congress/house-bill/2670",
+        "accessed_date": "2026-11-09"
+      },
+      {
         "source_id": "govinfo-law",
-        "title": "Public Law 118-31 — FY2024 National Defense Authorization Act",
+        "title": "Public Law 118-31 — National Defense Authorization Act for Fiscal Year 2024",
         "publisher": "GovInfo",
         "source_type": "official",
         "url": "https://www.govinfo.gov/app/details/PLAW-118publ31",
-        "accessed_date": "2026-10-28"
+        "accessed_date": "2026-11-09"
       }
     ],
     "claim_provenance": [
@@ -7202,12 +7314,17 @@
           "jurisdiction",
           "session",
           "congress",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "sponsor_context",
           "public_law",
           "status",
           "lifecycle_status",
           "last_action_date"
         ],
         "source_ids": [
+          "congress-bill",
           "govinfo-law"
         ]
       },
@@ -7215,6 +7332,7 @@
         "claim_id": "substance-and-implementation",
         "fields": [
           "summary",
+          "substance_sections",
           "primary_category",
           "secondary_categories",
           "implementation"
@@ -7222,7 +7340,7 @@
         "source_ids": [
           "govinfo-law"
         ],
-        "note": "Section grouping and summary are analyst-created from the enacted text."
+        "note": "Section grouping and plain-language summaries are analyst-created from the enacted text."
       }
     ]
   },
@@ -7496,7 +7614,7 @@
     },
     "lifecycle_status": "enacted",
     "measure_id": "P.L. 119-60 §§ 224, 245, 1512–1515, 1533–1535, 6601–6604",
-    "title": "FY2026 NDAA artificial-intelligence security and oversight provisions",
+    "title": "National Defense Authorization Act for Fiscal Year 2026",
     "session": "119th Congress",
     "congress": 119,
     "chamber": "Bicameral",
@@ -7511,9 +7629,10 @@
       "Frontier AI governance",
       "Intelligence-community testing"
     ],
-    "sponsor": null,
-    "sponsor_party": null,
-    "sponsor_state": null,
+    "sponsor": "John Cornyn",
+    "sponsor_party": "R",
+    "sponsor_state": "TX",
+    "sponsor_context": "Formal sponsor of S. 1071, the originating legislative vehicle; the NDAA text was substituted later in the process.",
     "cosponsor_count": null,
     "notable_cosponsors": [],
     "committees": [
@@ -7524,11 +7643,91 @@
     ],
     "introduced_date": "2025-03-14",
     "last_action_date": "2025-12-18",
-    "last_action": "Enacted in the National Defense Authorization Act for Fiscal Year 2026.",
+    "last_action": "Enacted as the National Defense Authorization Act for Fiscal Year 2026.",
     "status": "Enacted — Public Law 119-60",
     "status_bucket": "Enacted",
-    "summary": "A curated group of FY2026 NDAA provisions covering secure biological data for AI, Defense-wide AI cybersecurity policy, physical and supply-chain security requirements for AI contractors, model assessment and secure sandboxes, frontier-AI governance and human-override safeguards, NSA security guidance against nation-state theft, and intelligence-community testing and performance oversight.",
-    "committee_dynamics": "The provisions were enacted across the defense and intelligence divisions of the FY2026 NDAA, illustrating how multiple substantive AI safeguards can become law inside one must-pass vehicle.",
+    "summary": "The FY2026 NDAA established new defense and intelligence safeguards for national-security AI research, biological data, model and supply-chain security, testing and oversight, frontier-AI planning, and intelligence-community use of public models.",
+    "substance_sections": [
+      {
+        "section": "§ 224",
+        "title": "National Security and Defense AI Institute",
+        "summary": "Establishes a collaborative institute to support national-security and defense AI research, education, workforce development, testing, and transition into operational use.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=66"
+      },
+      {
+        "section": "§ 245",
+        "title": "Biological data for AI",
+        "summary": "Directs the Defense Department to improve the security, availability, and responsible use of biological data for AI while addressing biotechnology, adversary-access, and national-security risks.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=80"
+      },
+      {
+        "section": "§ 1512",
+        "title": "Defense-wide AI and machine-learning security",
+        "summary": "Requires a department-wide cybersecurity and governance policy covering AI-specific attacks, supply-chain risk, life-cycle security, testing, auditing, monitoring, training, and incident response.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=431"
+      },
+      {
+        "section": "§ 1513",
+        "title": "Security requirements for AI procurement",
+        "summary": "Requires risk-based physical, cyber, workforce, supply-chain, monitoring, and incident-reporting standards for AI systems procured by the Defense Department.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=433"
+      },
+      {
+        "section": "§ 1514",
+        "title": "Collaborative cybersecurity education",
+        "summary": "Creates Defense Department partnerships with academic institutions to strengthen cybersecurity curricula, competencies, workforce pathways, and federal coordination; it supports the workforce needed to secure AI systems but is not itself AI-specific.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=435"
+      },
+      {
+        "section": "§ 1515",
+        "title": "AI considerations in cybersecurity training",
+        "summary": "Requires mandatory Defense Department cybersecurity training to cover the distinctive cybersecurity challenges created by AI use.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=437"
+      },
+      {
+        "section": "§ 1533",
+        "title": "AI model assessment and oversight",
+        "summary": "Creates a cross-functional team to establish a standardized framework and governance structure for evaluating and enabling Defense Department AI models.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=443"
+      },
+      {
+        "section": "§ 1534",
+        "title": "AI sandbox environments",
+        "summary": "Creates a task force to build secure environments for AI experimentation, training, familiarization, model evaluation, and responsible deployment across the Defense Department.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=446"
+      },
+      {
+        "section": "§ 1535",
+        "title": "AI Futures Steering Committee",
+        "summary": "Establishes a senior Defense Department committee to plan for advanced and frontier AI capabilities, examine risks and governance, and address safeguards including meaningful human control and override.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=448"
+      },
+      {
+        "section": "§ 6601",
+        "title": "NSA AI security guidance",
+        "summary": "Directs the NSA Artificial Intelligence Security Center to issue guidance protecting advanced AI and its supply chain from nation-state theft, sabotage, and compromise.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=917"
+      },
+      {
+        "section": "§ 6602",
+        "title": "Intelligence-community AI development and use",
+        "summary": "Strengthens intelligence-community AI leadership, coordination, reuse, acquisition terms, and tracking of model performance, safety, fairness, transparency, accountability, and trustworthiness.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=918"
+      },
+      {
+        "section": "§ 6603",
+        "title": "Public AI models in classified environments",
+        "summary": "Applies intelligence-community AI policies to public models hosted in classified systems and requires risk-based testing, benchmarks, and secure evaluation environments.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=919"
+      },
+      {
+        "section": "§ 6604",
+        "title": "DeepSeek prohibition",
+        "summary": "Bars DeepSeek from intelligence-community systems, subject to limited exceptions and required security mitigations.",
+        "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=920"
+      }
+    ],
+    "committee_dynamics": "These provisions were enacted across the defense and intelligence divisions of the FY2026 NDAA. S. 1071 originally addressed postal-service matters; the NDAA text was later substituted into that vehicle, so John Cornyn is the formal originating-bill sponsor rather than the NDAA's principal author.",
     "advance_tier": "Enacted",
     "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
     "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ60",
@@ -7591,7 +7790,7 @@
         {
           "agency": "Department of Defense, National Security Agency, and Intelligence Community",
           "status": "unknown",
-          "as_of": "2026-10-28",
+          "as_of": "2026-11-09",
           "detail": "The statutory requirements and deadlines are verified; this grouped record does not infer completion without a corresponding official implementation source.",
           "source_ids": [
             "govinfo-law"
@@ -7599,16 +7798,24 @@
         }
       ]
     },
-    "last_verified_date": "2026-10-28",
-    "verification_level": "Official public-law text, section grouping, and statutory deadlines verified.",
+    "last_verified_date": "2026-11-09",
+    "verification_level": "Official Congress.gov record, public-law text, section grouping, and statutory deadlines verified.",
     "sources": [
       {
+        "source_id": "congress-bill",
+        "title": "S. 1071 — originating legislative vehicle for the FY2026 NDAA",
+        "publisher": "Congress.gov",
+        "source_type": "official",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1071",
+        "accessed_date": "2026-11-09"
+      },
+      {
         "source_id": "govinfo-law",
-        "title": "Public Law 119-60 — FY2026 National Defense Authorization Act",
+        "title": "Public Law 119-60 — National Defense Authorization Act for Fiscal Year 2026",
         "publisher": "GovInfo",
         "source_type": "official",
         "url": "https://www.govinfo.gov/app/details/PLAW-119publ60",
-        "accessed_date": "2026-10-28"
+        "accessed_date": "2026-11-09"
       }
     ],
     "claim_provenance": [
@@ -7621,11 +7828,16 @@
           "jurisdiction",
           "session",
           "congress",
+          "sponsor",
+          "sponsor_party",
+          "sponsor_state",
+          "sponsor_context",
           "public_law",
           "status",
           "lifecycle_status"
         ],
         "source_ids": [
+          "congress-bill",
           "govinfo-law"
         ]
       },
@@ -7633,6 +7845,7 @@
         "claim_id": "substance-and-implementation",
         "fields": [
           "summary",
+          "substance_sections",
           "primary_category",
           "secondary_categories",
           "implementation"
@@ -7640,7 +7853,7 @@
         "source_ids": [
           "govinfo-law"
         ],
-        "note": "Section grouping and summary are analyst-created from the enacted text."
+        "note": "Section grouping and plain-language summaries are analyst-created from the enacted text."
       }
     ]
   },
