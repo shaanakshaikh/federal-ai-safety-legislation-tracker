@@ -99,6 +99,10 @@ def search_index(records: list[dict]) -> list[dict]:
         terms += list(filter(None, [record.get("sponsor"), record["jurisdiction"].get("state")]))
         terms += (record.get("implementation") or {}).get("responsible_agencies", [])
         terms += [item["measure_id"] for item in record.get("related_measures", [])]
+        terms += [
+            f'{item["section"]} {item["title"]} {item["summary"]}'
+            for item in record.get("substance_sections", [])
+        ]
         result.append({"record_id": record["record_id"], "measure_id": record["measure_id"], "title": record["title"], "url": f"pages/{record['record_id']}.html", "text": " ".join(terms).lower()})
     return result
 

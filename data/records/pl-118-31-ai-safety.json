@@ -1,1 +1,53 @@
-{"record_id":"pl-118-31-ai-safety","entity_type":"provision","jurisdiction":{"country":"US","level":"federal","state":null},"lifecycle_status":"enacted","measure_id":"P.L. 118-31 §§ 1541–1545, 7510, 7513","title":"FY2024 NDAA artificial-intelligence assurance and security provisions","session":"118th Congress","congress":118,"chamber":"Bicameral","scope":"Vehicle","primary_category":"Testing, evaluation & assurance","category_key":"evaluation","secondary_categories":["Generative AI detection","Responsible AI","Military AI security","Intelligence oversight"],"sponsor":null,"sponsor_party":null,"sponsor_state":null,"cosponsor_count":null,"notable_cosponsors":[],"committees":["House Armed Services","Senate Armed Services"],"introduced_date":"2023-04-18","last_action_date":"2023-12-22","last_action":"Enacted as part of the National Defense Authorization Act for Fiscal Year 2024.","status":"Enacted — Public Law 118-31","status_bucket":"Enacted","summary":"A curated group of FY2024 NDAA provisions establishing AI bug-bounty work, generative-AI detection and watermarking efforts, responsible-AI processes, a study of privacy, security, accuracy, explainability, and emergent behavior in military AI, and intelligence-community guidance for AI-assisted analysis.","committee_dynamics":"The provisions moved through the annual defense-authorization vehicle rather than as a standalone AI statute. The prior tracker citation to sections 220–225 was corrected because those sections address unrelated defense research and acquisition matters.","advance_tier":"Enacted","advance_rationale":"Enacted law; implementation replaces advancement forecasting.","official_url":"https://www.govinfo.gov/app/details/PLAW-118publ31","public_law":{"number":"118-31","enacted_date":"2023-12-22","originating_bill":"H.R. 2670","statutes_at_large":"137 Stat. 136","official_url":"https://www.govinfo.gov/app/details/PLAW-118publ31"},"implementation":{"responsible_agencies":["Department of Defense","Office of the Director of National Intelligence"],"deadlines":[{"date":"2024-04-20","requirement":"Complete the responsible-AI strategy and process requirements due 120 days after enactment.","status":"unknown","source_ids":["govinfo-law"]},{"date":"2024-12-22","requirement":"Complete the military AI functionality, research-needs, privacy, security, and accuracy study due one year after enactment.","status":"unknown","source_ids":["govinfo-law"]}],"agency_status":[{"agency":"Department of Defense","status":"unknown","as_of":"2026-10-28","detail":"The statutory requirements are captured; a comprehensive official implementation assessment has not yet been completed for this grouped record.","source_ids":["govinfo-law"]}]},"last_verified_date":"2026-10-28","verification_level":"Official public-law text and section citations verified; implementation status requires a dedicated agency review.","sources":[{"source_id":"govinfo-law","title":"Public Law 118-31 — FY2024 National Defense Authorization Act","publisher":"GovInfo","source_type":"official","url":"https://www.govinfo.gov/app/details/PLAW-118publ31","accessed_date":"2026-10-28"}],"claim_provenance":[{"claim_id":"identity-and-law","fields":["measure_id","title","entity_type","jurisdiction","session","congress","public_law","status","lifecycle_status","last_action_date"],"source_ids":["govinfo-law"]},{"claim_id":"substance-and-implementation","fields":["summary","primary_category","secondary_categories","implementation"],"source_ids":["govinfo-law"],"note":"Section grouping and summary are analyst-created from the enacted text."}]}
+{
+  "record_id": "pl-118-31-ai-safety",
+  "entity_type": "provision",
+  "jurisdiction": {"country": "US", "level": "federal", "state": null},
+  "lifecycle_status": "enacted",
+  "measure_id": "P.L. 118-31 §§ 1541–1545, 7510, 7513",
+  "title": "National Defense Authorization Act for Fiscal Year 2024",
+  "session": "118th Congress",
+  "congress": 118,
+  "chamber": "Bicameral",
+  "scope": "Vehicle",
+  "primary_category": "Testing, evaluation & assurance",
+  "category_key": "evaluation",
+  "secondary_categories": ["Generative AI detection", "Responsible AI", "Military AI security", "Intelligence oversight"],
+  "sponsor": "Mike Rogers",
+  "sponsor_party": "R",
+  "sponsor_state": "AL",
+  "sponsor_context": "Sponsor of H.R. 2670, the bill that became the FY2024 NDAA.",
+  "cosponsor_count": null,
+  "notable_cosponsors": [],
+  "committees": ["House Armed Services", "Senate Armed Services"],
+  "introduced_date": "2023-04-18",
+  "last_action_date": "2023-12-22",
+  "last_action": "Enacted as the National Defense Authorization Act for Fiscal Year 2024.",
+  "status": "Enacted — Public Law 118-31",
+  "status_bucket": "Enacted",
+  "summary": "The FY2024 NDAA created or expanded military and intelligence-community safeguards for AI acquisition, vulnerability testing, generative-AI detection, responsible use, and oversight of AI-assisted intelligence analysis.",
+  "substance_sections": [
+    {"section": "§ 1541", "title": "CDAO acquisition authority", "summary": "Extends the Chief Digital and Artificial Intelligence Officer's special acquisition authority through fiscal year 2029 and requires plans and demonstrations showing how it will deliver operational AI capabilities.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=438"},
+    {"section": "§ 1542", "title": "AI bug-bounty programs", "summary": "Directs the Defense Department to develop a bug-bounty program for foundation models being integrated into military missions and operations.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=439"},
+    {"section": "§ 1543", "title": "Generative-AI detection and watermarking competition", "summary": "Creates a prize competition to evaluate and transition tools that detect generative-AI content and apply or identify watermarks.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=439"},
+    {"section": "§ 1544", "title": "Responsible-AI plans and security strategy", "summary": "Requires responsible-AI guidance and accountability metrics, a strategy addressing generative-AI cybersecurity and adversarial uses, and plans to secure Defense Department models, data, and algorithms.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=440"},
+    {"section": "§ 1545", "title": "Study of vulnerabilities in military AI", "summary": "Requires a study of military-AI privacy, security, accuracy, explainability, testing, auditing, traceability, emergent behavior, and supporting test infrastructure.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=443"},
+    {"section": "§ 7510", "title": "Rules for AI-assisted intelligence products", "summary": "Requires the Director of National Intelligence to assess and update analytic and sourcing rules so intelligence products appropriately disclose and support the use of AI and machine-learning tools.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=958"},
+    {"section": "§ 7513", "title": "Intelligence-community AI policies", "summary": "Requires common policies for acquiring, using, testing, documenting, monitoring, and securing intelligence-community AI capabilities, including third-party models and data.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=961"}
+  ],
+  "committee_dynamics": "These provisions became law through the annual defense-authorization vehicle rather than as standalone AI statutes. H.R. 2670 was introduced as the FY2024 NDAA by House Armed Services Committee Chair Mike Rogers.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+  "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ31",
+  "public_law": {"number": "118-31", "enacted_date": "2023-12-22", "originating_bill": "H.R. 2670", "statutes_at_large": "137 Stat. 136", "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ31"},
+  "implementation": {"responsible_agencies": ["Department of Defense", "Office of the Director of National Intelligence"], "deadlines": [{"date": "2024-04-20", "requirement": "Complete the responsible-AI strategy and process requirements due 120 days after enactment.", "status": "unknown", "source_ids": ["govinfo-law"]}, {"date": "2024-12-22", "requirement": "Complete the military AI functionality, research-needs, privacy, security, and accuracy study due one year after enactment.", "status": "unknown", "source_ids": ["govinfo-law"]}], "agency_status": [{"agency": "Department of Defense", "status": "unknown", "as_of": "2026-11-09", "detail": "The statutory requirements are captured; a comprehensive official implementation assessment has not yet been completed for this grouped record.", "source_ids": ["govinfo-law"]}]},
+  "last_verified_date": "2026-11-09",
+  "verification_level": "Official Congress.gov record and public-law text verified; implementation status requires a dedicated agency review.",
+  "sources": [
+    {"source_id": "congress-bill", "title": "H.R. 2670 — National Defense Authorization Act for Fiscal Year 2024", "publisher": "Congress.gov", "source_type": "official", "url": "https://www.congress.gov/bill/118th-congress/house-bill/2670", "accessed_date": "2026-11-09"},
+    {"source_id": "govinfo-law", "title": "Public Law 118-31 — National Defense Authorization Act for Fiscal Year 2024", "publisher": "GovInfo", "source_type": "official", "url": "https://www.govinfo.gov/app/details/PLAW-118publ31", "accessed_date": "2026-11-09"}
+  ],
+  "claim_provenance": [
+    {"claim_id": "identity-and-law", "fields": ["measure_id", "title", "entity_type", "jurisdiction", "session", "congress", "sponsor", "sponsor_party", "sponsor_state", "sponsor_context", "public_law", "status", "lifecycle_status", "last_action_date"], "source_ids": ["congress-bill", "govinfo-law"]},
+    {"claim_id": "substance-and-implementation", "fields": ["summary", "substance_sections", "primary_category", "secondary_categories", "implementation"], "source_ids": ["govinfo-law"], "note": "Section grouping and plain-language summaries are analyst-created from the enacted text."}
+  ]
+}
