@@ -6,199 +6,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "AB 1242",
-      "jurisdiction": "ca",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/8ae17be4-4104-4d42-8a67-ac4ad681ede7",
-      "openstates_url": "https://openstates.org/ca/bills/20252026/AB1242/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "20252026",
-      "state": "ca",
-      "title": "Language access."
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "AB 1405",
-      "jurisdiction": "ca",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/b5fdcde9-7610-4a22-8334-8180f567a091",
-      "openstates_url": "https://openstates.org/ca/bills/20252026/AB1405/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "20252026",
-      "state": "ca",
-      "title": "Artificial intelligence: auditors: registration."
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "AB 1651",
-      "jurisdiction": "ca",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/613de7f6-2621-440f-82e1-6d7d440fb664",
-      "openstates_url": "https://openstates.org/ca/bills/20252026/AB1651/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "20252026",
-      "state": "ca",
-      "title": "State Bar of California: artificial intelligence."
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "AB 1979",
-      "jurisdiction": "ca",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/cb82093c-0c07-48f6-a228-90b42def8a2b",
-      "openstates_url": "https://openstates.org/ca/bills/20252026/AB1979/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "20252026",
-      "state": "ca",
-      "title": "Health care services: artificial intelligence."
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "AB 2392",
-      "jurisdiction": "ca",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/17646ab4-fc60-439c-92d9-97a784df5757",
-      "openstates_url": "https://openstates.org/ca/bills/20252026/AB2392/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "20252026",
-      "state": "ca",
-      "title": "Public postsecondary education: generative artificial intelligence systems: procurement standards: training."
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "AB 2504",
-      "jurisdiction": "ca",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/3a6f635d-c983-4bcf-a9bc-1dcc785cad54",
-      "openstates_url": "https://openstates.org/ca/bills/20252026/AB2504/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "20252026",
-      "state": "ca",
-      "title": "Community colleges: artificial intelligence: pilot program."
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "AB 2545",
-      "jurisdiction": "ca",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/ef6a9dc0-cad5-41c2-acf9-e6f2b5f8d8e3",
-      "openstates_url": "https://openstates.org/ca/bills/20252026/AB2545/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "20252026",
-      "state": "ca",
-      "title": "Report: labor force impact: artificial intelligence."
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "AB 2575",
-      "jurisdiction": "ca",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/19f7ea54-1b57-4f3b-b0c4-aab76b5f7d24",
-      "openstates_url": "https://openstates.org/ca/bills/20252026/AB2575/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "20252026",
-      "state": "ca",
-      "title": "Health care services: artificial intelligence."
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "AB 2656",
@@ -222,79 +30,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "AB 412",
-      "jurisdiction": "ca",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/5a432a34-c0bf-424c-8ac1-17068873f8df",
-      "openstates_url": "https://openstates.org/ca/bills/20252026/AB412/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "20252026",
-      "state": "ca",
-      "title": "Generative artificial intelligence: training data: copyrighted materials."
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "SB 103",
-      "jurisdiction": "ca",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/51b89fb5-4201-43e0-95ff-00896b9ffee5",
-      "openstates_url": "https://openstates.org/ca/bills/20252026/SB103/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "20252026",
-      "state": "ca",
-      "title": "Budget Acts of 2022, 2023, and 2024."
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "SB 1106",
-      "jurisdiction": "ca",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/5c08e519-4989-46cb-a8c1-84d4c82cf7e5",
-      "openstates_url": "https://openstates.org/ca/bills/20252026/SB1106/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "20252026",
-      "state": "ca",
-      "title": "Agentic artificial intelligence."
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 1159",
@@ -318,7 +54,103 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "SB 241",
+      "jurisdiction": "ca",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/6085dee3-9bac-4d25-850a-c21c7389f56b",
+      "openstates_url": "https://openstates.org/ca/bills/20252026/SB241/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "20252026",
+      "state": "ca",
+      "title": "Community colleges: personnel: qualifications."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "SB 243",
+      "jurisdiction": "ca",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/6c38c6f3-b7d3-4fb2-ad0a-c86025068d78",
+      "openstates_url": "https://openstates.org/ca/bills/20252026/SB243/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "20252026",
+      "state": "ca",
+      "title": "Companion chatbots."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "SB 253",
+      "jurisdiction": "ca",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/65154d39-d544-4f4e-8283-035c4c431fb0",
+      "openstates_url": "https://openstates.org/ca/bills/20252026/SB253/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "20252026",
+      "state": "ca",
+      "title": "State Bar of California."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "SB 295",
+      "jurisdiction": "ca",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/0e764b80-eff7-428b-bf65-b0a0054712e1",
+      "openstates_url": "https://openstates.org/ca/bills/20252026/SB295/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "20252026",
+      "state": "ca",
+      "title": "California Preventing Algorithmic Collusion Act of 2025."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 361",
@@ -342,7 +174,55 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "SB 366",
+      "jurisdiction": "ca",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/8712fcdd-b779-4383-97d9-4e991fff4098",
+      "openstates_url": "https://openstates.org/ca/bills/20252026/SB366/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "20252026",
+      "state": "ca",
+      "title": "Employment: artificial intelligence."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "SB 468",
+      "jurisdiction": "ca",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/c2bd379f-7a0c-400d-a562-e6735bbfff54",
+      "openstates_url": "https://openstates.org/ca/bills/20252026/SB468/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "20252026",
+      "state": "ca",
+      "title": "High-risk artificial intelligence systems: duty to protect personal information."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 47",
@@ -366,7 +246,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 503",
@@ -390,7 +270,31 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "SB 53",
+      "jurisdiction": "ca",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/921be457-d273-4be3-9e2d-f0f0314d81b0",
+      "openstates_url": "https://openstates.org/ca/bills/20252026/SB53/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "20252026",
+      "state": "ca",
+      "title": "Artificial intelligence models: large developers."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 57",
@@ -414,23 +318,23 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
-      "identifier": "SB 833",
+      "identifier": "SB 579",
       "jurisdiction": "ca",
       "jurisdiction_level": "state",
       "matched_queries": [
         "\"artificial intelligence\""
       ],
       "official_source_required": true,
-      "openstates_id": "ocd-bill/1d584a54-c6cb-48f4-9d87-38517ddd6cdc",
-      "openstates_url": "https://openstates.org/ca/bills/20252026/SB833/",
+      "openstates_id": "ocd-bill/4da6cf1b-2121-4acc-86e6-6d0152360923",
+      "openstates_url": "https://openstates.org/ca/bills/20252026/SB579/",
       "requires_human_review": true,
       "review_status": "unverified_candidate",
       "session": "20252026",
       "state": "ca",
-      "title": "Critical infrastructure: artificial intelligence systems: human oversight."
+      "title": "Mental health and artificial intelligence working group."
     },
     {
       "agent_confidence": 0.25,
@@ -438,7 +342,79 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "SB 638",
+      "jurisdiction": "ca",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/2243fc08-b9f2-4f09-8573-f4d37e3ad0a2",
+      "openstates_url": "https://openstates.org/ca/bills/20252026/SB638/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "20252026",
+      "state": "ca",
+      "title": "California Education Interagency Council: California Career Technical Education Incentive Grant Program."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "SB 69",
+      "jurisdiction": "ca",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/2041eee3-8775-420a-abd1-0ffe833b0019",
+      "openstates_url": "https://openstates.org/ca/bills/20252026/SB69/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "20252026",
+      "state": "ca",
+      "title": "Artificial intelligence program: Attorney General."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "SB 7",
+      "jurisdiction": "ca",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/1f3557aa-f2fd-4634-8692-e938ddb79e14",
+      "openstates_url": "https://openstates.org/ca/bills/20252026/SB7/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "20252026",
+      "state": "ca",
+      "title": "Employment: automated decision systems."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 903",
@@ -462,7 +438,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SCR 82",
@@ -486,7 +462,31 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "SJR 2",
+      "jurisdiction": "ca",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/b6aec637-71d3-481f-9dd0-cc84e43fe567",
+      "openstates_url": "https://openstates.org/ca/bills/20252026/SJR2/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "20252026",
+      "state": "ca",
+      "title": "Relative to classified workers."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 25-1153",
@@ -510,7 +510,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 25-1212",
@@ -534,7 +534,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 25-1264",
@@ -558,7 +558,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 25-011",
@@ -582,7 +582,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 25-022",
@@ -606,7 +606,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 25-240",
@@ -630,7 +630,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 25-280",
@@ -654,7 +654,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 25-288",
@@ -678,7 +678,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 25-318",
@@ -702,7 +702,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 1008",
@@ -726,7 +726,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 1009",
@@ -750,7 +750,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 8",
@@ -774,7 +774,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 1030",
@@ -798,7 +798,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 1139",
@@ -822,7 +822,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 1195",
@@ -846,7 +846,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 1255",
@@ -870,7 +870,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 1263",
@@ -894,7 +894,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 1332",
@@ -918,7 +918,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 102",
@@ -942,7 +942,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 11",
@@ -966,55 +966,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "A 11636",
-      "jurisdiction": "ny",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/e266c4e2-7b74-4412-ac2a-96690d285b8b",
-      "openstates_url": "https://openstates.org/ny/bills/2025-2026/A11636/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "2025-2026",
-      "state": "ny",
-      "title": "Relates to third party verification of compliance with transparency and safety requirements for developers of artificial intelligence models"
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "A 11662",
-      "jurisdiction": "ny",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/db6da84f-e7c3-42a1-9904-d02fc83ed332",
-      "openstates_url": "https://openstates.org/ny/bills/2025-2026/A11662/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "2025-2026",
-      "state": "ny",
-      "title": "Relates to human-led instruction and artificial intelligence in schools"
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "A 11669",
@@ -1038,7 +990,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "A 11684",
@@ -1062,7 +1014,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "A 11693",
@@ -1086,7 +1038,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "A 11723",
@@ -1110,7 +1062,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "A 3929",
@@ -1134,7 +1086,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "A 6578",
@@ -1158,7 +1110,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "A 768",
@@ -1182,7 +1134,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "A 8884",
@@ -1206,7 +1158,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "A 9106",
@@ -1230,7 +1182,31 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "A 9253",
+      "jurisdiction": "ny",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/95dbd4fa-f8e5-47b9-85d5-741ae8dc3029",
+      "openstates_url": "https://openstates.org/ny/bills/2025-2026/A9253/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "2025-2026",
+      "state": "ny",
+      "title": "Relates to disclosure of the use of artificial intelligence by law enforcement agencies"
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "S 10671",
@@ -1254,31 +1230,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "S 10675",
-      "jurisdiction": "ny",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/0775fdfb-362e-44a1-872a-2090f74a41ee",
-      "openstates_url": "https://openstates.org/ny/bills/2025-2026/S10675/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "2025-2026",
-      "state": "ny",
-      "title": "Imposes liability for damages caused by a chatbot impersonating certain licensed professionals"
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "S 10685",
@@ -1302,7 +1254,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "S 10692",
@@ -1326,7 +1278,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "S 10696",
@@ -1350,7 +1302,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "S 10701",
@@ -1374,7 +1326,31 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "S 10731",
+      "jurisdiction": "ny",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/32daa04e-6a5c-4e74-922d-10c994bd9aef",
+      "openstates_url": "https://openstates.org/ny/bills/2025-2026/S10731/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "2025-2026",
+      "state": "ny",
+      "title": "Relates to the responsible AI safety and education (RAISE) act"
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "S 7691",
@@ -1398,7 +1374,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "S 7892",
@@ -1422,7 +1398,31 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "S 9051",
+      "jurisdiction": "ny",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/3c3597c7-6bf8-4c5d-9362-b146492ce0d7",
+      "openstates_url": "https://openstates.org/ny/bills/2025-2026/S9051/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "2025-2026",
+      "state": "ny",
+      "title": "Prohibits artificial intelligence companions from using features which are considered unsafe for minors"
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "S 9819",
@@ -1446,7 +1446,31 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "HB 1299",
+      "jurisdiction": "tn",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/c0db97b1-e2a3-4050-a3ba-6975d2f389d7",
+      "openstates_url": "https://openstates.org/tn/bills/114/HB1299/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "114",
+      "state": "tn",
+      "title": "Criminal Offenses - As enacted, creates a civil and criminal action for individuals who are the subject of an intimate digital depiction that is intentionally disclosed without the individual's consent under certain circumstances. - Amends TCA Title 28 and Title 39, Chapter 17."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 1409",
@@ -1470,7 +1494,55 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "HB 1455",
+      "jurisdiction": "tn",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/4a5b1901-26e1-46d8-8be9-a229663683e5",
+      "openstates_url": "https://openstates.org/tn/bills/114/HB1455/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "114",
+      "state": "tn",
+      "title": "Computers and Electronic Processing - As enacted, requires TACIR to study artificial intelligence and submit a report to the governor and both speakers by January 31, 2027. - Amends TCA Title 29; Title 33; Title 39 and Title 47."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
+      "automation_workflow": "sunday-discovery",
+      "classification": "unreviewed",
+      "identifier": "HB 1898",
+      "jurisdiction": "tn",
+      "jurisdiction_level": "state",
+      "matched_queries": [
+        "\"artificial intelligence\""
+      ],
+      "official_source_required": true,
+      "openstates_id": "ocd-bill/c75a4f59-c0fd-4cf1-a390-e1b981dd8c01",
+      "openstates_url": "https://openstates.org/tn/bills/114/HB1898/",
+      "requires_human_review": true,
+      "review_status": "unverified_candidate",
+      "session": "114",
+      "state": "tn",
+      "title": "Safety - As introduced, enacts the \"Artificial Intelligence Public Safety and Child Protection Transparency Act.\" - Amends TCA Title 4; Title 10, Chapter 7; Title 47; Title 58 and Title 68."
+    },
+    {
+      "agent_confidence": 0.25,
+      "agent_flags": [
+        "ai-classification-unavailable",
+        "official-source-verification-required"
+      ],
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 1946",
@@ -1494,23 +1566,23 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
-      "identifier": "HB 1951",
+      "identifier": "HB 2619",
       "jurisdiction": "tn",
       "jurisdiction_level": "state",
       "matched_queries": [
         "\"artificial intelligence\""
       ],
       "official_source_required": true,
-      "openstates_id": "ocd-bill/435aa469-d9be-4b20-b50f-2af3259efa13",
-      "openstates_url": "https://openstates.org/tn/bills/114/HB1951/",
+      "openstates_id": "ocd-bill/92c4824e-28a1-49bd-9e9a-97909dfd942d",
+      "openstates_url": "https://openstates.org/tn/bills/114/HB2619/",
       "requires_human_review": true,
       "review_status": "unverified_candidate",
       "session": "114",
       "state": "tn",
-      "title": "Criminal Offenses - As enacted, enacts the \"Grace Anne Sparks Coercive Suicide Prevention Law of 2026.\" - Amends TCA Title 39."
+      "title": "Insurance Companies, Agents, Brokers, Policies - As introduced, establishes the Tennessee commission of insurance review; prohibits a health insurance entity from offering or maintaining a health benefit plan that uses downcoding in a manner that prevents the provider from collecting the fee for actual services performed either from the health benefit plan or the patient; makes other changes related to health insurance and health insurers. - Amends TCA Title 4; Title 8; Title 56 and Title 71."
     },
     {
       "agent_confidence": 0.25,
@@ -1518,7 +1590,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 2631",
@@ -1542,7 +1614,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 545",
@@ -1566,7 +1638,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 825",
@@ -1590,7 +1662,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 849",
@@ -1614,23 +1686,23 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
-      "identifier": "HJR 1548",
+      "identifier": "HB 933",
       "jurisdiction": "tn",
       "jurisdiction_level": "state",
       "matched_queries": [
         "\"artificial intelligence\""
       ],
       "official_source_required": true,
-      "openstates_id": "ocd-bill/e03be5a1-1a23-496e-8678-d7abf7d9287e",
-      "openstates_url": "https://openstates.org/tn/bills/114/HJR1548/",
+      "openstates_id": "ocd-bill/0d0ed394-fdcd-4a88-924a-13fa9c24b0ea",
+      "openstates_url": "https://openstates.org/tn/bills/114/HB933/",
       "requires_human_review": true,
       "review_status": "unverified_candidate",
       "session": "114",
       "state": "tn",
-      "title": "Memorials, Recognition - CodeCrew of Memphis -"
+      "title": "Education, Dept. of - As introduced, requires the department to establish and administer a three-year artificial intelligence weapons detection system grant pilot program to award grants to eligible LEAs for the purchase of artificial intelligence weapons detection systems for schools without an artificial intelligence weapons detection system. - Amends TCA Title 49."
     },
     {
       "agent_confidence": 0.25,
@@ -1638,23 +1710,23 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
-      "identifier": "SB 1362",
+      "identifier": "SB 1346",
       "jurisdiction": "tn",
       "jurisdiction_level": "state",
       "matched_queries": [
         "\"artificial intelligence\""
       ],
       "official_source_required": true,
-      "openstates_id": "ocd-bill/e4113ca4-e358-478e-a743-0b2c8b5d54b4",
-      "openstates_url": "https://openstates.org/tn/bills/114/SB1362/",
+      "openstates_id": "ocd-bill/991ecb87-ea57-4ca2-b6e9-d6b771588e07",
+      "openstates_url": "https://openstates.org/tn/bills/114/SB1346/",
       "requires_human_review": true,
       "review_status": "unverified_candidate",
       "session": "114",
       "state": "tn",
-      "title": "Boards and Commissions - As introduced, provides for a new definition for the term \"artificial intelligence\" for the Tennessee artificial intelligence advisory council act; expands, from 24 to at least 24 and at most 27, the number of members on the council; directs the council to make various other changes. - Amends TCA Title 4, Chapter 3, Part 31."
+      "title": "Criminal Offenses - As enacted, creates a civil and criminal action for individuals who are the subject of an intimate digital depiction that is intentionally disclosed without the individual's consent under certain circumstances. - Amends TCA Title 28 and Title 39, Chapter 17."
     },
     {
       "agent_confidence": 0.25,
@@ -1662,31 +1734,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "SB 1431",
-      "jurisdiction": "tn",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/6e8d5eeb-3d9b-4ec1-9a8a-01a1af551597",
-      "openstates_url": "https://openstates.org/tn/bills/114/SB1431/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "114",
-      "state": "tn",
-      "title": "Appropriations - As enacted, makes appropriations for the fiscal years beginning July 1, 2024, and July 1, 2025.  -"
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 1493",
@@ -1710,23 +1758,23 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
-      "identifier": "SB 1580",
+      "identifier": "SB 1700",
       "jurisdiction": "tn",
       "jurisdiction_level": "state",
       "matched_queries": [
         "\"artificial intelligence\""
       ],
       "official_source_required": true,
-      "openstates_id": "ocd-bill/74db300e-bf90-4822-8c96-df3d9bd16958",
-      "openstates_url": "https://openstates.org/tn/bills/114/SB1580/",
+      "openstates_id": "ocd-bill/804f2611-e8b9-4097-b412-81dc21bc2350",
+      "openstates_url": "https://openstates.org/tn/bills/114/SB1700/",
       "requires_human_review": true,
       "review_status": "unverified_candidate",
       "session": "114",
       "state": "tn",
-      "title": "Health Care - As enacted, prohibits a person from developing or deploying an artificial intelligence system that advertises or represents to the public that such system is or is able to act as a qualified mental health professional.  - Amends TCA Title 33; Title 47 and Title 63."
+      "title": "Consumer Protection - As enacted, requires the Tennessee advisory commission on intergovernmental relations (TACIR) to conduct a study of the potential regulation of artificial intelligence systems and generative artificial intelligence chatbots in this state. - Amends TCA Title 29; Title 37 and Title 47."
     },
     {
       "agent_confidence": 0.25,
@@ -1734,7 +1782,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 1815",
@@ -1758,23 +1806,23 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
-      "identifier": "SB 1998",
+      "identifier": "SB 2171",
       "jurisdiction": "tn",
       "jurisdiction_level": "state",
       "matched_queries": [
         "\"artificial intelligence\""
       ],
       "official_source_required": true,
-      "openstates_id": "ocd-bill/e75b7972-296f-43ff-b011-6896805a78e9",
-      "openstates_url": "https://openstates.org/tn/bills/114/SB1998/",
+      "openstates_id": "ocd-bill/aa895c32-b15a-4aaf-8aac-72d5a163d0d8",
+      "openstates_url": "https://openstates.org/tn/bills/114/SB2171/",
       "requires_human_review": true,
       "review_status": "unverified_candidate",
       "session": "114",
       "state": "tn",
-      "title": "Consumer Protection - As introduced, requires certain food retail establishments to use a nondigital presentation of price; prohibits a food retail establishment from using personalized algorithmic pricing; makes other changes related to food retail establishments. - Amends TCA Title 47 and Title 53."
+      "title": "Safety - As introduced, enacts the \"Artificial Intelligence Public Safety and Child Protection Transparency Act.\" - Amends TCA Title 4; Title 10, Chapter 7; Title 47; Title 58 and Title 68."
     },
     {
       "agent_confidence": 0.25,
@@ -1782,23 +1830,23 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
-      "identifier": "SB 2071",
+      "identifier": "SB 2690",
       "jurisdiction": "tn",
       "jurisdiction_level": "state",
       "matched_queries": [
         "\"artificial intelligence\""
       ],
       "official_source_required": true,
-      "openstates_id": "ocd-bill/97fdd942-b366-437d-aff6-4ff9e8f81ef9",
-      "openstates_url": "https://openstates.org/tn/bills/114/SB2071/",
+      "openstates_id": "ocd-bill/666fa2c6-d2cb-4627-9c91-8991c99cfcdc",
+      "openstates_url": "https://openstates.org/tn/bills/114/SB2690/",
       "requires_human_review": true,
       "review_status": "unverified_candidate",
       "session": "114",
       "state": "tn",
-      "title": "Consumer Protection - As introduced, prohibits a person from requiring another to use programmable money for a transaction; prohibits an issuer of programmable money from denying a transaction based upon certain factors; requires an issuer of programmable money that denies a transaction to provide reasons for the denial to the affected party upon request; designates violations to be violations of the Consumer Protection Act of 1977 and provides for other forms of relief and enforcement. - Amends TCA Title 47."
+      "title": "Appropriations - As enacted, makes appropriations for the fiscal years beginning July 1, 2025, and July 1, 2026. -"
     },
     {
       "agent_confidence": 0.25,
@@ -1806,23 +1854,23 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
-      "identifier": "SB 2618",
+      "identifier": "SB 677",
       "jurisdiction": "tn",
       "jurisdiction_level": "state",
       "matched_queries": [
         "\"artificial intelligence\""
       ],
       "official_source_required": true,
-      "openstates_id": "ocd-bill/eb0fd47a-8184-4dc0-b8a0-1c45b9dedd61",
-      "openstates_url": "https://openstates.org/tn/bills/114/SB2618/",
+      "openstates_id": "ocd-bill/df2c0fb0-c75f-43de-9004-e18649109c50",
+      "openstates_url": "https://openstates.org/tn/bills/114/SB677/",
       "requires_human_review": true,
       "review_status": "unverified_candidate",
       "session": "114",
       "state": "tn",
-      "title": "Computers and Electronic Processing - As introduced, requires the joint chairs of the artificial intelligence advisory council to publish their annual findings regarding the economic, labor, and ethical impacts of artificial intelligence on an appropriate page of the general assembly's website, in addition to the existing requirement to submit these reports to the governor and legislative speakers. - Amends TCA Title 4; Title 10; Title 16; Title 36; Title 37; Title 38; Title 39; Title 40; Title 45; Title 47; Title 48; Title 49; Title 53; Title 63; Title 67; Title 68 and Title 71."
+      "title": "Education, Dept. of - As enacted, requires the department to provide at least one professional development course that provides asynchronous instruction on the use of artificial intelligence in the classroom and that is made available, at no cost, to teachers in grades 6-12; requires such teachers to complete at least one department-approved professional development course on the use of artificial intelligence in the classroom by the later of August 1, 2028, or within two years of becoming licensed as a teacher in this state. - Amends TCA Title 49."
     },
     {
       "agent_confidence": 0.25,
@@ -1830,31 +1878,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "SB 2681",
-      "jurisdiction": "tn",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/2633be25-39d6-4451-84fd-60466155a546",
-      "openstates_url": "https://openstates.org/tn/bills/114/SB2681/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "114",
-      "state": "tn",
-      "title": "Energy - As introduced, enacts the \"Bring Your Own Generation Act.\" - Amends TCA Section 39-17-1002; Section 67-6-102 and Title 68."
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 811",
@@ -1878,7 +1902,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 837",
@@ -1902,31 +1926,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
-      "automation_workflow": "sunday-discovery",
-      "classification": "unreviewed",
-      "identifier": "SJR 1104",
-      "jurisdiction": "tn",
-      "jurisdiction_level": "state",
-      "matched_queries": [
-        "\"artificial intelligence\""
-      ],
-      "official_source_required": true,
-      "openstates_id": "ocd-bill/99f72b65-f9b1-4c35-a2c4-68e6449c0a85",
-      "openstates_url": "https://openstates.org/tn/bills/114/SJR1104/",
-      "requires_human_review": true,
-      "review_status": "unverified_candidate",
-      "session": "114",
-      "state": "tn",
-      "title": "Memorials, Recognition - Dr. Chelsea T. Dowell -"
-    },
-    {
-      "agent_confidence": 0.25,
-      "agent_flags": [
-        "ai-classification-unavailable",
-        "official-source-verification-required"
-      ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 142",
@@ -1950,7 +1950,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 167",
@@ -1974,7 +1974,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 148",
@@ -1998,7 +1998,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 149",
@@ -2022,7 +2022,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 2818",
@@ -2046,7 +2046,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 3512",
@@ -2070,7 +2070,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 366",
@@ -2094,7 +2094,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 4437",
@@ -2118,7 +2118,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 449",
@@ -2142,7 +2142,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HB 581",
@@ -2166,7 +2166,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HCR 79",
@@ -2190,7 +2190,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HR 1329",
@@ -2214,7 +2214,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "HR 1460",
@@ -2238,7 +2238,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 1188",
@@ -2262,7 +2262,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 1621",
@@ -2286,7 +2286,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 1964",
@@ -2310,7 +2310,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 20",
@@ -2334,7 +2334,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 2373",
@@ -2358,7 +2358,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 441",
@@ -2382,7 +2382,7 @@
         "ai-classification-unavailable",
         "official-source-verification-required"
       ],
-      "automation_generated_at": "2026-10-25T16:34:47Z",
+      "automation_generated_at": "2026-11-06T20:29:53Z",
       "automation_workflow": "sunday-discovery",
       "classification": "unreviewed",
       "identifier": "SB 815",
@@ -2401,7 +2401,7 @@
       "title": "Relating to the use of certain automated systems in, and certain adverse determinations made in connection with, the health benefit claims process."
     }
   ],
-  "generated_date": "2026-10-25",
+  "generated_date": "2026-11-06",
   "prompt": "prompts/weekly-relevance-classification.md",
   "review_notice": "Discovery and drafting only. Every candidate requires human review; state candidates also require an official state source."
 }
