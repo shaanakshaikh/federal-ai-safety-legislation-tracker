@@ -32,7 +32,7 @@
   ],
   "introduced_date": "2026-04-13",
   "last_action_date": "2026-04-13",
-  "last_action": "Read twice and referred to the Senate Committee on Banking, Housing, and Urban Affairs.",
+  "last_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Would require U.S. agencies to identify strategically important semiconductor-manufacturing equipment and covered foreign facilities, press allied supplier countries to adopt equivalent export and servicing controls, and extend U.S. controls when allied gaps remain. The bill targets equipment used to produce advanced chips that underpin artificial-intelligence systems and would impose licensing policies of denial for covered destinations and facilities in countries of concern.",
@@ -49,8 +49,8 @@
       "relationship": "companion"
     }
   ],
-  "last_verified_date": "2026-11-09",
-  "verification_level": "Official congressional record and GovInfo text checked.",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -67,6 +67,14 @@
       "source_type": "official",
       "url": "https://www.govinfo.gov/app/details/BILLS-119s4281is",
       "accessed_date": "2026-11-09"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4281.xml",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -106,6 +114,24 @@
         "official-govinfo"
       ],
       "note": "Tracker classification and synthesis based on the official bill text and legislative history."
+    },
+    {
+      "claim_id": "federal-status-audit",
+      "fields": [
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
     }
   ]
 }

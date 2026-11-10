@@ -6,7 +6,7 @@
     "level": "federal",
     "state": null
   },
-  "lifecycle_status": "floor",
+  "lifecycle_status": "passed_chamber",
   "measure_id": "H.R. 8800",
   "title": "National Defense Authorization Act for Fiscal Year 2027",
   "chamber": "House",
@@ -26,20 +26,34 @@
   "cosponsor_count": 1,
   "notable_cosponsors": [],
   "committees": [
+    "House Oversight and Government Reform",
+    "House Intelligence (Permanent Select)",
+    "House Appropriations",
+    "House Veterans' Affairs",
+    "House Ways and Means",
+    "House Small Business",
+    "House Judiciary",
+    "House Education and Workforce",
+    "House Homeland Security",
+    "House Energy and Commerce",
+    "House Natural Resources",
+    "House Science, Space, and Technology",
+    "House Transportation and Infrastructure",
+    "House Budget",
     "House Armed Services"
   ],
   "introduced_date": "2026-05-13",
   "last_action_date": "2026-09-14",
   "last_action": "Received in the Senate.",
-  "status": "House floor processing",
-  "status_bucket": "Floor / calendar",
+  "status": "Passed House",
+  "status_bucket": "Passed one chamber",
   "summary": "The principal House defense-authorization vehicle and a likely landing zone for military AI safeguards, procurement security, model-security reporting, and AI Security Center provisions.",
   "committee_dynamics": "Must-pass status gives the vehicle strong momentum, but individual AI provisions may be added, narrowed, traded, or removed during floor and conference negotiations.",
   "advance_tier": "High",
-  "advance_rationale": "Annual NDAA enactment pressure and active floor processing make material AI-security movement likely.",
+  "advance_rationale": "Passed House. Outlook reflects documented legislative progress.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Official congressional metadata and committee referral checked by a human editor",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -48,6 +62,22 @@
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8800",
       "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8800.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-companion",
+      "title": "Official comparison or sponsor confirmation of chamber versions",
+      "publisher": "Congressional Budget Office",
+      "source_type": "official",
+      "url": "https://www.cbo.gov/publication/62781",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -98,8 +128,44 @@
         "official-congress"
       ],
       "note": "Analyst-created characterization based on the cited source and the frozen research snapshot."
+    },
+    {
+      "claim_id": "federal-status-audit",
+      "fields": [
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status",
+        "advance_rationale",
+        "advance_tier"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "official-companion"
+      ]
     }
   ],
   "congress": 119,
-  "session": "119th Congress"
+  "session": "119th Congress",
+  "related_measures": [
+    {
+      "record_id": "s-4784",
+      "measure_id": "S. 4784",
+      "relationship": "companion"
+    }
+  ]
 }

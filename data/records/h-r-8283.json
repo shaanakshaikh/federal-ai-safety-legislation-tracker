@@ -27,7 +27,7 @@
     "John Moolenaar (R-MI)"
   ],
   "committees": [
-    "Foreign Affairs Committee"
+    "House Foreign Affairs"
   ],
   "introduced_date": "2026-04-15",
   "last_action_date": "2026-04-22",
@@ -39,8 +39,8 @@
   "advance_tier": "High",
   "advance_rationale": "A unanimous 43–0 markup, 20 cosponsors, and a strong national-security frame give the bill unusually strong momentum.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8283",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Bill details checked against Congress.gov.",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -49,6 +49,14 @@
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8283",
       "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8283.xml",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -109,6 +117,24 @@
         "official-congress"
       ],
       "note": "Cosponsor count and other objective bill details were updated from Congress.gov."
+    },
+    {
+      "claim_id": "federal-status-audit",
+      "fields": [
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
     }
   ],
   "congress": 119,

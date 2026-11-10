@@ -6,7 +6,7 @@
     "level": "federal",
     "state": null
   },
-  "lifecycle_status": "committee_advanced",
+  "lifecycle_status": "passed_chamber",
   "measure_id": "H.R. 1736",
   "title": "Generative AI Terrorism Risk Assessment Act",
   "chamber": "House",
@@ -25,21 +25,21 @@
   "cosponsor_count": 3,
   "notable_cosponsors": [],
   "committees": [
-    "Homeland Security Committee",
-    "Homeland Security and Governmental Affairs Committee"
+    "Senate Homeland Security and Governmental Affairs",
+    "House Homeland Security"
   ],
   "introduced_date": "2025-02-27",
   "last_action_date": "2025-11-20",
   "last_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
-  "status": "Introduced / referred",
-  "status_bucket": "Introduced / referred",
+  "status": "Passed House; referred in Senate",
+  "status_bucket": "Passed one chamber",
   "summary": "Requires recurring Department of Homeland Security assessments of terrorist use of generative AI, including violent messaging and development or deployment of weapons.",
   "committee_dynamics": "The DHS reporting requirement is straightforward and could move in a homeland-security or authorization package, but it does not itself impose controls on model developers.",
   "advance_tier": "Medium",
-  "advance_rationale": "A targeted national-security assessment is amendment-friendly, though the standalone bill had not advanced publicly.",
+  "advance_rationale": "Passed House; referred in Senate. Outlook reflects documented legislative progress.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1736",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Bill details checked against Congress.gov.",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -48,6 +48,14 @@
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1736",
       "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1736.xml",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -108,6 +116,26 @@
         "official-congress"
       ],
       "note": "Cosponsor count and other objective bill details were updated from Congress.gov."
+    },
+    {
+      "claim_id": "federal-status-audit",
+      "fields": [
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status",
+        "advance_rationale",
+        "advance_tier"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
     }
   ],
   "congress": 119,

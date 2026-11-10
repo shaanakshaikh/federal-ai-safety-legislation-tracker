@@ -1,7 +1,11 @@
 {
   "record_id": "pl-118-159-sec-225",
   "entity_type": "provision",
-  "jurisdiction": {"country": "US", "level": "federal", "state": null},
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
   "lifecycle_status": "enacted",
   "measure_id": "P.L. 118-159 §§ 225, 236, 1531–1534, 6504",
   "title": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025",
@@ -11,14 +15,23 @@
   "scope": "Vehicle",
   "primary_category": "Defense, intelligence & procurement",
   "category_key": "security",
-  "secondary_categories": ["Model-weight security", "Foreign adversaries", "AI-biosecurity", "Military AI assurance", "NSA AI Security Center"],
+  "secondary_categories": [
+    "Model-weight security",
+    "Foreign adversaries",
+    "AI-biosecurity",
+    "Military AI assurance",
+    "NSA AI Security Center"
+  ],
   "sponsor": "David Joyce",
   "sponsor_party": "R",
   "sponsor_state": "OH",
   "sponsor_context": "Formal sponsor of H.R. 5009, the originating legislative vehicle; the NDAA text was substituted later in the process.",
   "cosponsor_count": null,
   "notable_cosponsors": [],
-  "committees": ["House Armed Services", "Senate Armed Services"],
+  "committees": [
+    "House Armed Services",
+    "Senate Armed Services"
+  ],
   "introduced_date": "2023-07-27",
   "last_action_date": "2024-12-23",
   "last_action": "Enacted as the Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025.",
@@ -26,28 +39,202 @@
   "status_bucket": "Enacted",
   "summary": "The FY2025 NDAA strengthened protection of advanced AI from adversary access, launched defense AI-and-biotechnology work, improved human-factors and evaluation infrastructure for military AI, and established the NSA Artificial Intelligence Security Center.",
   "substance_sections": [
-    {"section": "§ 225", "title": "Advanced-AI national-security duties", "summary": "Directs the CDAO Governing Council to identify AI models that could create national-security risks, develop strategies to prevent adversary access, and recommend legislative or administrative action.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=59"},
-    {"section": "§ 236", "title": "AI and biotechnology pilot program", "summary": "Creates a pilot program to develop and demonstrate near-term AI and machine-learning applications for biotechnology and national-security missions.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=68"},
-    {"section": "§ 1531", "title": "AI Human Factors Integration Initiative", "summary": "Establishes an initiative to study and improve how people interact with military AI, including operator trust, workload, decision-making, testing, and design guidance.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=370"},
-    {"section": "§ 1532", "title": "Advanced computing infrastructure for AI", "summary": "Directs the Defense Department to plan computing infrastructure that supports the development, testing, evaluation, and deployment of advanced AI capabilities.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=372"},
-    {"section": "§ 1533", "title": "Budgeting for AI data", "summary": "Requires Defense Department AI programs to estimate and budget for the data needed to train, maintain, and improve models, including data preparation, labeling, protection, and sustainment costs.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=373"},
-    {"section": "§ 1534", "title": "AI-enabled weapon-systems center of excellence", "summary": "Requires an evaluation of a center of excellence to share lessons, safety guidance, standards, benchmarks, training, and partner experience for AI-enabled weapon systems.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=374"},
-    {"section": "§ 6504", "title": "NSA Artificial Intelligence Security Center", "summary": "Establishes an AI Security Center within NSA's Cybersecurity Collaboration Center to develop counter-AI guidance and promote secure AI adoption for national-security systems and the defense industrial base.", "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=723"}
+    {
+      "section": "§ 225",
+      "title": "Advanced-AI national-security duties",
+      "summary": "Directs the CDAO Governing Council to identify AI models that could create national-security risks, develop strategies to prevent adversary access, and recommend legislative or administrative action.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=59"
+    },
+    {
+      "section": "§ 236",
+      "title": "AI and biotechnology pilot program",
+      "summary": "Creates a pilot program to develop and demonstrate near-term AI and machine-learning applications for biotechnology and national-security missions.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=68"
+    },
+    {
+      "section": "§ 1531",
+      "title": "AI Human Factors Integration Initiative",
+      "summary": "Establishes an initiative to study and improve how people interact with military AI, including operator trust, workload, decision-making, testing, and design guidance.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=370"
+    },
+    {
+      "section": "§ 1532",
+      "title": "Advanced computing infrastructure for AI",
+      "summary": "Directs the Defense Department to plan computing infrastructure that supports the development, testing, evaluation, and deployment of advanced AI capabilities.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=372"
+    },
+    {
+      "section": "§ 1533",
+      "title": "Budgeting for AI data",
+      "summary": "Requires Defense Department AI programs to estimate and budget for the data needed to train, maintain, and improve models, including data preparation, labeling, protection, and sustainment costs.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=373"
+    },
+    {
+      "section": "§ 1534",
+      "title": "AI-enabled weapon-systems center of excellence",
+      "summary": "Requires an evaluation of a center of excellence to share lessons, safety guidance, standards, benchmarks, training, and partner experience for AI-enabled weapon systems.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=374"
+    },
+    {
+      "section": "§ 6504",
+      "title": "NSA Artificial Intelligence Security Center",
+      "summary": "Establishes an AI Security Center within NSA's Cybersecurity Collaboration Center to develop counter-AI guidance and promote secure AI adoption for national-security systems and the defense industrial base.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=723"
+    }
   ],
   "committee_dynamics": "These provisions were enacted through the annual defense and intelligence authorization vehicle rather than as standalone AI statutes. H.R. 5009 originally addressed wildlife-trafficking sanctions; the FY2025 NDAA text was later substituted into that vehicle, so David Joyce is the formal originating-bill sponsor rather than the NDAA's principal author.",
   "advance_tier": "Enacted",
   "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
   "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ159",
-  "public_law": {"number": "118-159", "enacted_date": "2024-12-23", "originating_bill": "H.R. 5009", "statutes_at_large": "138 Stat. 1773", "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ159"},
-  "implementation": {"responsible_agencies": ["Department of Defense", "Chief Digital and Artificial Intelligence Officer Governing Council", "National Security Agency"], "deadlines": [{"date": "2025-03-23", "requirement": "Establish the Artificial Intelligence Security Center within the NSA Cybersecurity Collaboration Center within 90 days of enactment.", "status": "unknown", "source_ids": ["govinfo-law"]}], "agency_status": [{"agency": "Department of Defense and National Security Agency", "status": "unknown", "as_of": "2026-11-09", "detail": "The enacted duties and organizational requirements are verified; a comprehensive official implementation assessment has not yet been completed for this grouped record.", "source_ids": ["govinfo-law"]}]},
-  "last_verified_date": "2026-11-09",
+  "public_law": {
+    "number": "118-159",
+    "enacted_date": "2024-12-23",
+    "originating_bill": "H.R. 5009",
+    "statutes_at_large": "138 Stat. 1773",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ159"
+  },
+  "implementation": {
+    "responsible_agencies": [
+      "Department of Defense",
+      "Chief Digital and Artificial Intelligence Officer Governing Council",
+      "National Security Agency"
+    ],
+    "deadlines": [
+      {
+        "date": "2025-03-23",
+        "requirement": "Establish the Artificial Intelligence Security Center within the NSA Cybersecurity Collaboration Center within 90 days of enactment.",
+        "status": "completed",
+        "source_ids": [
+          "govinfo-law",
+          "nsa-center-establishment",
+          "nsa-center-establishment"
+        ]
+      }
+    ],
+    "agency_status": [
+      {
+        "agency": "Department of Defense",
+        "status": "unknown",
+        "as_of": "2026-11-09",
+        "detail": "The enacted duties and organizational requirements are verified; a comprehensive official implementation assessment has not yet been completed for this grouped record.",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "agency": "National Security Agency",
+        "status": "ongoing",
+        "as_of": "2026-05-20",
+        "detail": "NSA established its AI Security Center in the Cybersecurity Collaboration Center in September 2023 and continued to publish AI security guidance in May 2026.",
+        "source_ids": [
+          "nsa-center-establishment",
+          "nsa-center-guidance"
+        ]
+      }
+    ]
+  },
+  "last_verified_date": "2026-11-10",
   "verification_level": "Official Congress.gov record, public-law text, and section grouping verified.",
   "sources": [
-    {"source_id": "congress-bill", "title": "H.R. 5009 — originating legislative vehicle for the FY2025 NDAA", "publisher": "Congress.gov", "source_type": "official", "url": "https://www.congress.gov/bill/118th-congress/house-bill/5009", "accessed_date": "2026-11-09"},
-    {"source_id": "govinfo-law", "title": "Public Law 118-159 — FY2025 National Defense Authorization Act", "publisher": "GovInfo", "source_type": "official", "url": "https://www.govinfo.gov/app/details/PLAW-118publ159", "accessed_date": "2026-11-09"}
+    {
+      "source_id": "congress-bill",
+      "title": "H.R. 5009 — originating legislative vehicle for the FY2025 NDAA",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/5009",
+      "accessed_date": "2026-11-09"
+    },
+    {
+      "source_id": "govinfo-law",
+      "title": "Public Law 118-159 — FY2025 National Defense Authorization Act",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/PLAW-118publ159",
+      "accessed_date": "2026-11-09"
+    },
+    {
+      "source_id": "nsa-center-establishment",
+      "title": "NSA confirmation of the AI Security Center’s establishment",
+      "publisher": "National Security Agency",
+      "source_type": "official",
+      "url": "https://www.nsa.gov/serve-from-netstorage/press-room/Press-Releases-Statements/Press-Release-View/Article/3741371/nsa-publishes-guidance-for-strengthening-ai-system-security/index.html",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "nsa-center-guidance",
+      "title": "NSA AI Security Center guidance on AI-driven automation",
+      "publisher": "National Security Agency",
+      "source_type": "official",
+      "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4496698/nsa-releases-security-design-considerations-for-AI-driven-automation-leveraging/",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hr/BILLSTATUS-118hr5009.xml",
+      "accessed_date": "2026-11-10"
+    }
   ],
   "claim_provenance": [
-    {"claim_id": "identity-and-law", "fields": ["measure_id", "title", "entity_type", "jurisdiction", "session", "congress", "sponsor", "sponsor_party", "sponsor_state", "sponsor_context", "public_law", "status", "lifecycle_status"], "source_ids": ["congress-bill", "govinfo-law"]},
-    {"claim_id": "substance-and-implementation", "fields": ["summary", "substance_sections", "primary_category", "secondary_categories", "implementation"], "source_ids": ["govinfo-law"], "note": "Section grouping and plain-language summaries are analyst-created from the enacted text."}
+    {
+      "claim_id": "identity-and-law",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "congress",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "sponsor_context",
+        "public_law",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "congress-bill",
+        "govinfo-law"
+      ]
+    },
+    {
+      "claim_id": "substance-and-implementation",
+      "fields": [
+        "summary",
+        "substance_sections",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "govinfo-law"
+      ],
+      "note": "Section grouping and plain-language summaries are analyst-created from the enacted text."
+    },
+    {
+      "claim_id": "current-implementation-evidence",
+      "fields": [
+        "implementation"
+      ],
+      "source_ids": [
+        "nsa-center-establishment",
+        "nsa-center-guidance"
+      ]
+    },
+    {
+      "claim_id": "federal-enactment-audit",
+      "fields": [
+        "title",
+        "public_law",
+        "last_action_date",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
+    }
   ]
 }

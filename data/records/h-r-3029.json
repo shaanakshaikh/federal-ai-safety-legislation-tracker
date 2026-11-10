@@ -25,8 +25,8 @@
   "cosponsor_count": 3,
   "notable_cosponsors": [],
   "committees": [
-    "Commerce, Science, and Transportation Committee",
-    "Science, Space, and Technology Committee"
+    "Senate Commerce, Science, and Transportation",
+    "House Science, Space, and Technology"
   ],
   "introduced_date": "2025-04-28",
   "last_action_date": "2026-07-21",
@@ -38,8 +38,8 @@
   "advance_tier": "High",
   "advance_rationale": "A filed House report and direct national-security/biosecurity rationale make material advancement comparatively likely.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3029",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "House passage, Senate referral, and the current short title checked against official congressional sources.",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -56,6 +56,14 @@
       "source_type": "official",
       "url": "https://www.govinfo.gov/app/details/BILLS-119hr3029rfs",
       "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr3029.xml",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -118,6 +126,24 @@
         "official-congress"
       ],
       "note": "Cosponsor count and other objective bill details were updated from Congress.gov."
+    },
+    {
+      "claim_id": "federal-status-audit",
+      "fields": [
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
     }
   ],
   "congress": 119,

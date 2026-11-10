@@ -17,17 +17,17 @@
     "Civil remedies",
     "Deepfakes"
   ],
-  "sponsor": "Dick Durbin",
+  "sponsor": "Richard Durbin",
   "sponsor_party": "D",
   "sponsor_state": "IL",
-  "cosponsor_count": null,
+  "cosponsor_count": 8,
   "notable_cosponsors": [],
   "committees": [
     "Senate Judiciary"
   ],
   "introduced_date": "2024-01-30",
-  "last_action_date": "2024-07-23",
-  "last_action": "Passed the Senate and was engrossed.",
+  "last_action_date": "2024-07-24",
+  "last_action": "Held at the desk.",
   "status": "Passed Senate; expired at the end of the 118th Congress",
   "status_bucket": "Inactive",
   "summary": "Would have expanded civil relief for people harmed by nonconsensual intimate digital forgeries, including AI-generated or manipulated sexual imagery.",
@@ -44,8 +44,8 @@
       "relationship": "related"
     }
   ],
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
   "sources": [
     {
       "source_id": "official-govinfo",
@@ -54,6 +54,14 @@
       "source_type": "official",
       "url": "https://www.govinfo.gov/app/details/BILLS-118s3696es",
       "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/s/BILLSTATUS-118s3696.xml",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -106,6 +114,24 @@
         "official-govinfo"
       ],
       "note": "Tracker classification and synthesis based on the official bill record and text."
+    },
+    {
+      "claim_id": "federal-status-audit",
+      "fields": [
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
     }
   ]
 }
