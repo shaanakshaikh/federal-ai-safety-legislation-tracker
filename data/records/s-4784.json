@@ -25,20 +25,20 @@
   "cosponsor_count": 0,
   "notable_cosponsors": [],
   "committees": [
-    "Armed Services Committee"
+    "Senate Armed Services"
   ],
   "introduced_date": "2026-06-15",
   "last_action_date": "2026-07-27",
   "last_action": "Motion to proceed to consideration of measure made in Senate. (CR S4276)",
-  "status": "Reported / calendar-stage vehicle",
+  "status": "Senate floor consideration — motion to proceed",
   "status_bucket": "Floor / calendar",
   "summary": "The principal Senate defense-authorization vehicle and a natural receptacle for military AI guardrails, incident reporting, procurement security, autonomous-systems provisions, and AI Security Center concepts.",
   "committee_dynamics": "Conference negotiations with H.R. 8800 will determine which House, Senate, intelligence, and standalone AI provisions survive.",
   "advance_tier": "High",
   "advance_rationale": "NDAA’s institutional pressure to advance makes it the highest-value defense AI tracking vehicle.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Bill details checked against Congress.gov.",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -47,6 +47,14 @@
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4784",
       "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4784.xml",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -107,6 +115,24 @@
         "official-congress"
       ],
       "note": "Cosponsor count and other objective bill details were updated from Congress.gov."
+    },
+    {
+      "claim_id": "federal-status-audit",
+      "fields": [
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
     }
   ],
   "congress": 119,

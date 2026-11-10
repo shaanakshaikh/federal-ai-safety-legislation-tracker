@@ -46,8 +46,8 @@
       "relationship": "companion"
     }
   ],
-  "last_verified_date": "2026-11-09",
-  "verification_level": "Official congressional record, GovInfo text, and House committee action checked.",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -72,6 +72,14 @@
       "source_type": "official",
       "url": "https://docs.house.gov/meetings/FA/FA00/20260422/119191/BILLS-1198170ANSih-U1.pdf",
       "accessed_date": "2026-11-09"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8170.xml",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -113,6 +121,24 @@
         "official-house-substitute"
       ],
       "note": "Tracker classification and synthesis based on the official bill text and legislative history."
+    },
+    {
+      "claim_id": "federal-status-audit",
+      "fields": [
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
     }
   ]
 }

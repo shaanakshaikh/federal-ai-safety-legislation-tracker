@@ -30,7 +30,7 @@
     "Scott Franklin (R-FL)"
   ],
   "committees": [
-    "Science, Space, and Technology Committee"
+    "House Science, Space, and Technology"
   ],
   "introduced_date": "2026-06-18",
   "last_action_date": "2026-06-25",
@@ -42,8 +42,8 @@
   "advance_tier": "High",
   "advance_rationale": "Unanimous committee action, bipartisan amendments, leadership sponsorship, and a completed CBO estimate signal unusually mature floor preparation.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9363",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Bill details checked against Congress.gov.",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -52,6 +52,14 @@
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9363",
       "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9363.xml",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -112,6 +120,24 @@
         "official-congress"
       ],
       "note": "Cosponsor count and other objective bill details were updated from Congress.gov."
+    },
+    {
+      "claim_id": "federal-status-audit",
+      "fields": [
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
     }
   ],
   "congress": 119,

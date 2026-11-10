@@ -67,8 +67,8 @@
       }
     ]
   },
-  "last_verified_date": "2026-10-28",
-  "verification_level": "Official public-law text and introduced bill verified.",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Enactment and statutory duties verified. Public implementation evidence reviewed; completion of the NIST risk-framework requirement remains unverified.",
   "sources": [
     {
       "source_id": "govinfo-law",
@@ -85,6 +85,14 @@
       "source_type": "official",
       "url": "https://www.govinfo.gov/app/details/BILLS-118hr8663ih",
       "accessed_date": "2026-10-28"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hr/BILLSTATUS-118hr8663.xml",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -124,6 +132,18 @@
       "source_ids": [
         "govinfo-law",
         "govinfo-bill"
+      ]
+    },
+    {
+      "claim_id": "federal-enactment-audit",
+      "fields": [
+        "title",
+        "public_law",
+        "last_action_date",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
       ]
     }
   ]

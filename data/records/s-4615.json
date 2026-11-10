@@ -26,20 +26,20 @@
   "cosponsor_count": 0,
   "notable_cosponsors": [],
   "committees": [
-    "Intelligence (Select) Committee"
+    "Senate Intelligence (Select)"
   ],
   "introduced_date": "2026-05-20",
   "last_action_date": "2026-08-05",
   "last_action": "By Senator Cotton from Select Committee on Intelligence filed written report. Report No. 119-133. Additional and Minority views filed.",
   "status": "Reported / Senate calendar",
-  "status_bucket": "Floor / calendar",
+  "status_bucket": "Floor consideration",
   "summary": "Title VII, sections 701–711, addresses AI exploitation and intelligence sharing, targeting review, testing standards, incident tracking, agentic-system access controls, AI Security Center duties, targeting-output labeling, escalation research, adversarial-AI interaction, proliferation and export assessments, the Vulnerabilities Equities Process, and prohibited models.",
   "committee_dynamics": "The mature AI-security title can move with the intelligence authorization itself or be merged into NDAA. Armed Services and Intelligence jurisdiction must be reconciled in the endgame.",
   "advance_tier": "High",
   "advance_rationale": "The bill is already reported and on the Senate calendar, with a detailed and coherent AI-security title.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4615",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Bill details checked against Congress.gov.",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -48,6 +48,14 @@
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4615",
       "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4615.xml",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -108,6 +116,26 @@
         "official-congress"
       ],
       "note": "Cosponsor count and other objective bill details were updated from Congress.gov."
+    },
+    {
+      "claim_id": "federal-status-audit",
+      "fields": [
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status",
+        "advance_rationale",
+        "advance_tier"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
     }
   ],
   "congress": 119,

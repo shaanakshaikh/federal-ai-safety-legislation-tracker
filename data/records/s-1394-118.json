@@ -27,7 +27,7 @@
   ],
   "introduced_date": "2023-05-01",
   "last_action_date": "2023-05-01",
-  "last_action": "Introduced and referred to the Senate Committee on Armed Services.",
+  "last_action": "Read twice and referred to the Committee on Armed Services.",
   "status": "Referred to Senate committee; expired at the end of the 118th Congress",
   "status_bucket": "Inactive",
   "summary": "Would have prohibited federal funds from being used to launch a nuclear weapon through an autonomous system without meaningful human control.",
@@ -37,8 +37,8 @@
   "congress": 118,
   "session": "118th Congress",
   "congress_url": "https://www.govinfo.gov/app/details/BILLS-118s1394is",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Official GovInfo text and legislative stage checked; end-of-Congress status applied",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
   "sources": [
     {
       "source_id": "official-govinfo",
@@ -47,6 +47,14 @@
       "source_type": "official",
       "url": "https://www.govinfo.gov/app/details/BILLS-118s1394is",
       "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/s/BILLSTATUS-118s1394.xml",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -98,6 +106,24 @@
         "official-govinfo"
       ],
       "note": "Tracker classification and synthesis based on the official bill record and text."
+    },
+    {
+      "claim_id": "federal-status-audit",
+      "fields": [
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
     }
   ]
 }

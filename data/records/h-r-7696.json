@@ -20,26 +20,26 @@
   ],
   "sponsor": "Pablo Hernández",
   "sponsor_party": "D",
-  "sponsor_state": "CA",
+  "sponsor_state": "PR",
   "cosponsor_count": 2,
   "notable_cosponsors": [
     "Adelita Grijalva (D-AZ)"
   ],
   "committees": [
-    "Homeland Security Committee"
+    "House Homeland Security"
   ],
   "introduced_date": "2026-02-25",
   "last_action_date": "2026-02-26",
   "last_action": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
-  "status": "Introduced; referral needs refresh",
+  "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "summary": "Supports secure AI and cyber-physical testbeds capable of simulating grid-scale cyberattacks and resilience challenges.",
   "committee_dynamics": "The policy fits critical-infrastructure and science jurisdictions, but the research snapshot did not capture a reliable committee referral.",
   "advance_tier": "Low",
   "advance_rationale": "No identified markup and incomplete referral metadata make it a lower-probability standalone measure.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7696",
-  "last_verified_date": "2026-10-27",
-  "verification_level": "Bill details checked against Congress.gov.",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -48,6 +48,14 @@
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/7696",
       "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7696.xml",
+      "accessed_date": "2026-11-10"
     }
   ],
   "claim_provenance": [
@@ -108,6 +116,24 @@
         "official-congress"
       ],
       "note": "Cosponsor count and other objective bill details were updated from Congress.gov."
+    },
+    {
+      "claim_id": "federal-status-audit",
+      "fields": [
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "govinfo-billstatus"
+      ]
     }
   ],
   "congress": 119,
