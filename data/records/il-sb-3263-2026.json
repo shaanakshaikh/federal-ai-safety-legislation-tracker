@@ -1,0 +1,98 @@
+{
+  "record_id": "il-sb-3263-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "IL"
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "IL SB 3263 (2026)",
+  "title": "Artificial Intelligence Provenance Data Act",
+  "session": "2026 legislative session - IL",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Mary Edly-Allen",
+  "sponsor_party": null,
+  "sponsor_state": "IL",
+  "committees": [],
+  "introduced_date": "2026-02-03",
+  "last_action_date": "2026-05-22",
+  "last_action": "Re-referred to Senate Assignments",
+  "status": "Re-referred to Senate Assignments",
+  "status_bucket": "In Committee",
+  "summary": "Requires covered generative AI providers to label generated audio, images, and video with provenance data and offer a free label-reading tool. Sets related duties for large online platforms and other actors.",
+  "advance_tier": "Low",
+  "advance_rationale": "Further legislative action is required.",
+  "official_url": "https://ilga.gov/ftp/legislation/104/BillStatus/HTML/10400SB3263.html",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "IL SB 3263 (2026) legislative record",
+      "publisher": "IL legislature",
+      "source_type": "official",
+      "url": "https://ilga.gov/ftp/legislation/104/BillStatus/HTML/10400SB3263.html",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "IL SB 3263 (2026) official text",
+      "publisher": "IL legislature",
+      "source_type": "official",
+      "url": "https://ilga.gov/documents/legislation/104/SB/PDF/10400SB3263.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

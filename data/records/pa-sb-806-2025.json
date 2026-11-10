@@ -1,0 +1,105 @@
+{
+  "record_id": "pa-sb-806-2025",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "PA"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "PA SB 806 (2025)",
+  "title": "Unfair Methods of Competition Act",
+  "session": "2025–2026 Regular Session - PA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Nick Pisciottano",
+  "sponsor_party": null,
+  "sponsor_state": "PA",
+  "committees": [],
+  "introduced_date": "2025-06-03",
+  "last_action_date": "2026-10-22",
+  "last_action": "Approved by the Governor and enacted as Act 99 of 2026.",
+  "status": "Act 99 of 2026",
+  "status_bucket": "Enacted",
+  "summary": "Creates enforceable restrictions on deceptive uses of AI-generated content in specified commercial contexts and provides for disclosures and penalties.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.palegis.us/legislation/bills/2025/sb806",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "PA SB 806 (2025) legislative record",
+      "publisher": "Pennsylvania General Assembly",
+      "source_type": "official",
+      "url": "https://www.palegis.us/legislation/bills/2025/sb806",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "PA SB 806 (2025) official text",
+      "publisher": "Pennsylvania General Assembly",
+      "source_type": "official",
+      "url": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/SB806/PN1808",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Act 99 of 2026",
+    "enacted_date": "2026-10-22",
+    "effective_date": null
+  }
+}

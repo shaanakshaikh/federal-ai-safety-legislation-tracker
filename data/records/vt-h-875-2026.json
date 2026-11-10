@@ -1,0 +1,90 @@
+{
+  "record_id": "vt-h-875-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "VT"
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "VT H.875 (2026)",
+  "title": "An act relating to the possession and promotion of child sexual abuse materials to include computer-generated images",
+  "session": "2026 legislative session - VT",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Zachary Harvey",
+  "sponsor_party": null,
+  "sponsor_state": "VT",
+  "committees": [],
+  "introduced_date": "2026-02-04",
+  "last_action_date": "2026-02-04",
+  "last_action": "Read for the first time and referred to House Judiciary.",
+  "status": "Prior session ended without enactment",
+  "status_bucket": "Inactive",
+  "summary": "Would extend prohibitions on possession and promotion of child sexual abuse material to specified computer-generated images.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://legislature.vermont.gov/bill/status/2026/H.875",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "VT H.875 (2026) legislative record",
+      "publisher": "Vermont General Assembly",
+      "source_type": "official",
+      "url": "https://legislature.vermont.gov/bill/status/2026/H.875",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

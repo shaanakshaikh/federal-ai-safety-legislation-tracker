@@ -1,0 +1,120 @@
+{
+  "record_id": "ks-hb-2313-2025",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "KS"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "KS HB 2313 (2025)",
+  "title": "Prohibiting the use of the artificial intelligence platform DeepSeek and other artificial intelligence platforms controlled by a country of concern on state-owned devices and on any state network and the use of genetic sequencers or operational software used for genetic analysis that is produced in a foreign adversary",
+  "session": "2025 legislative session - KS",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Cyber, model & infrastructure security",
+  "category_key": "cyber",
+  "secondary_categories": [],
+  "sponsor": "House Committee on Financial Institutions and Pensions",
+  "sponsor_party": null,
+  "sponsor_state": "KS",
+  "committees": [],
+  "introduced_date": "2025-02-06",
+  "last_action_date": "2025-04-08",
+  "last_action": "Signed by the Governor, recorded in the House journal April 10",
+  "status": "Signed by the Governor, recorded in the House journal April 10",
+  "status_bucket": "Enacted",
+  "summary": "Bars Kansas state agencies from accessing DeepSeek or AI platforms controlled by listed countries of concern on state devices and networks. Exempts specified law enforcement and cybersecurity investigations.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.kslegislature.gov/b2025_26/bills/hb2313/",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "KS HB 2313 (2025) legislative record",
+      "publisher": "KS legislature",
+      "source_type": "official",
+      "url": "https://www.kslegislature.gov/b2025_26/bills/hb2313/",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "KS HB 2313 (2025) official text",
+      "publisher": "KS legislature",
+      "source_type": "official",
+      "url": "https://www.sos.ks.gov/publications/sessionlaws/2025/Chapter-84-HB-2313.html",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "2025 Kansas Session Laws Chapter 84",
+    "enacted_date": "2025-04-08",
+    "effective_date": "2025-07-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2025-07-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

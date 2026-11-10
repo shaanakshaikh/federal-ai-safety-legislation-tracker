@@ -1,0 +1,98 @@
+{
+  "record_id": "pa-hb-2637-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "PA"
+  },
+  "lifecycle_status": "floor",
+  "measure_id": "PA HB 2637 (2026)",
+  "title": "An Act providing for a temporary prohibition on artificial intelligence chatbots in children’s toys",
+  "session": "2025–2026 Regular Session - PA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Melissa Shusterman",
+  "sponsor_party": null,
+  "sponsor_state": "PA",
+  "committees": [],
+  "introduced_date": "2026-06-15",
+  "last_action_date": "2026-10-07",
+  "last_action": "Reported as amended, considered and laid on the table.",
+  "status": "Laid on the table",
+  "status_bucket": "Floor",
+  "summary": "Would temporarily prohibit covered AI chatbots in children’s toys and direct the Joint State Government Commission to study associated risks.",
+  "advance_tier": "Low",
+  "advance_rationale": "Further legislative action is required.",
+  "official_url": "https://www.palegis.us/legislation/bills/2025/hb2637",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "PA HB 2637 (2026) legislative record",
+      "publisher": "Pennsylvania General Assembly",
+      "source_type": "official",
+      "url": "https://www.palegis.us/legislation/bills/2025/hb2637",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "PA HB 2637 (2026) official text",
+      "publisher": "Pennsylvania General Assembly",
+      "source_type": "official",
+      "url": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2637/PN4013",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

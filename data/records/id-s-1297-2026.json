@@ -1,0 +1,120 @@
+{
+  "record_id": "id-s-1297-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "ID"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "ID S 1297 (2026)",
+  "title": "Conversational AI Safety Act",
+  "session": "2026 legislative session - ID",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "Senate State Affairs Committee",
+  "sponsor_party": null,
+  "sponsor_state": "ID",
+  "committees": [],
+  "introduced_date": "2026-02-13",
+  "last_action_date": "2026-03-31",
+  "last_action": "The governor signed the bill.",
+  "status": "Signed by Governor",
+  "status_bucket": "Enacted",
+  "summary": "Requires conversational AI operators to adopt user-safety protocols. It also requires parental supervision tools and imposes additional disclosure, engagement, and sexual-content safeguards for minors.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/S1297/",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "ID S 1297 (2026) legislative record",
+      "publisher": "ID legislature",
+      "source_type": "official",
+      "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/S1297/",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "ID S 1297 (2026) official text",
+      "publisher": "ID legislature",
+      "source_type": "official",
+      "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1297E1.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "249",
+    "enacted_date": "2026-03-31",
+    "effective_date": "2027-07-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2027-07-01",
+        "requirement": "Statutory effective date.",
+        "status": "upcoming",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "record_id": "me-ld-1727-2025",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "ME"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "ME LD 1727 (2025)",
+  "title": "An Act to Ensure Transparency in Consumer Transactions Involving Artificial Intelligence",
+  "session": "2025 legislative session - ME",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Amy Kuhn",
+  "sponsor_party": null,
+  "sponsor_state": "ME",
+  "committees": [],
+  "introduced_date": null,
+  "last_action_date": "2025-06-12",
+  "last_action": "Signed by the Governor as Public Law 2025, chapter 294.",
+  "status": "Public Law 2025, chapter 294",
+  "status_bucket": "Enacted",
+  "summary": "Prohibits using a chatbot in consumer transactions in a way that could mislead a reasonable consumer into believing they are dealing with a person unless that fact is disclosed.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=1727&snum=132",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "ME LD 1727 (2025) legislative record",
+      "publisher": "Maine Legislature",
+      "source_type": "official",
+      "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=1727&snum=132",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Public Law 2025, chapter 294",
+    "enacted_date": "2025-06-12",
+    "effective_date": null
+  }
+}

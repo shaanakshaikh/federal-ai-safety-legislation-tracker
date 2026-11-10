@@ -1,0 +1,127 @@
+{
+  "record_id": "mn-hf-1370-2023",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "MN"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "MN HF 1370 (2023)",
+  "title": "Nonconsensual Dissemination of Deep Fake Sexual Images and Deep Fakes in Elections",
+  "session": "2023 legislative session - MN",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Zack Stephenson",
+  "sponsor_party": null,
+  "sponsor_state": "MN",
+  "committees": [],
+  "introduced_date": "2023-02-06",
+  "last_action_date": "2023-05-26",
+  "last_action": "Approved by the Governor and filed as Chapter 58",
+  "status": "Approved by the Governor and filed as Chapter 58",
+  "status_bucket": "Enacted",
+  "summary": "Creates criminal penalties and civil remedies for nonconsensual dissemination of intimate deepfakes. Restricts certain deepfakes intended to influence an election.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.revisor.mn.gov/bills/93/2023/0/HF/1370/",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "MN HF 1370 (2023) legislative record",
+      "publisher": "MN legislature",
+      "source_type": "official",
+      "url": "https://www.revisor.mn.gov/bills/93/2023/0/HF/1370/",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "MN HF 1370 (2023) official text",
+      "publisher": "MN legislature",
+      "source_type": "official",
+      "url": "https://www.revisor.mn.gov/laws/2023/0/58/",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "2023 Minnesota Laws Chapter 58",
+    "enacted_date": "2023-05-26",
+    "effective_date": "2023-08-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2023-08-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  },
+  "related_measures": [
+    {
+      "record_id": "mn-sf-1394-2023",
+      "measure_id": "MN SF 1394 (2023)",
+      "relationship": "companion"
+    }
+  ]
+}

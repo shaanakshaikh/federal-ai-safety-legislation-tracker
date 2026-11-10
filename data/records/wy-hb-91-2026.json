@@ -1,0 +1,98 @@
+{
+  "record_id": "wy-hb-91-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "WY"
+  },
+  "lifecycle_status": "failed",
+  "measure_id": "WY HB 91 (2026)",
+  "title": "Ban on government social scoring with AI",
+  "session": "2026 legislative session - WY",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Mike Yin",
+  "sponsor_party": null,
+  "sponsor_state": "WY",
+  "committees": [],
+  "introduced_date": "2026-02-10",
+  "last_action_date": "2026-02-23",
+  "last_action": "The House did not take up the bill in Committee of the Whole.",
+  "status": "COW:H Did not consider for COW",
+  "status_bucket": "Failed",
+  "summary": "Would prohibit government AI social scoring that produces specified adverse outcomes and restrict certain biometric identification uses.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://www.wyoleg.gov/Legislation/2026/HB0091",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "WY HB 91 (2026) legislative record",
+      "publisher": "WY legislature",
+      "source_type": "official",
+      "url": "https://www.wyoleg.gov/Legislation/2026/HB0091",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "WY HB 91 (2026) official text",
+      "publisher": "WY legislature",
+      "source_type": "official",
+      "url": "https://www.wyoleg.gov/2026/Introduced/HB0091.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

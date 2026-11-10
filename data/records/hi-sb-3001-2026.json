@@ -1,0 +1,105 @@
+{
+  "record_id": "hi-sb-3001-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "HI"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "HI SB 3001 (2026)",
+  "title": "Artificial Intelligence Disclosure and Safety Act",
+  "session": "2026 legislative session - HI",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "Jarrett Keohokalole",
+  "sponsor_party": null,
+  "sponsor_state": "HI",
+  "committees": [],
+  "introduced_date": "2026-01-23",
+  "last_action_date": "2026-07-14",
+  "last_action": "The governor signed the bill.",
+  "status": "Act 248, on 07/14/2026 (Gov. Msg. No. 1350)",
+  "status_bucket": "Enacted",
+  "summary": "Requires AI companion operators to implement crisis response protocols, disclose when users are interacting with AI, provide additional protections for minors, and report annually to the Department of Health starting in 2028.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://data.capitol.hawaii.gov/session/measure_indiv.aspx?billnumber=3001&billtype=SB&year=2026",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "HI SB 3001 (2026) legislative record",
+      "publisher": "HI legislature",
+      "source_type": "official",
+      "url": "https://data.capitol.hawaii.gov/session/measure_indiv.aspx?billnumber=3001&billtype=SB&year=2026",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "HI SB 3001 (2026) official text",
+      "publisher": "HI legislature",
+      "source_type": "official",
+      "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB3001_CD1_.HTM",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Act 248",
+    "enacted_date": "2026-07-14",
+    "effective_date": null
+  }
+}

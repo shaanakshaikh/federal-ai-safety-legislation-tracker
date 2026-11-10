@@ -1,0 +1,105 @@
+{
+  "record_id": "nj-s-4758-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "NJ"
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "NJ S 4758 (2026)",
+  "title": "An Act concerning artificial intelligence companions",
+  "session": "2026 legislative session - NJ",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": "NJ",
+  "committees": [],
+  "introduced_date": "2026-10-05",
+  "last_action_date": "2026-10-05",
+  "last_action": "Introduced and referred in the Senate.",
+  "status": "Introduced and referred in the Senate",
+  "status_bucket": "In Committee",
+  "summary": "Would require covered AI companion operators to make recurring disclosures that users are interacting with artificial intelligence.",
+  "advance_tier": "Low",
+  "advance_rationale": "Further legislative action is required.",
+  "official_url": "https://www.njleg.state.nj.us/bill-search/2026/S4758",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "NJ S 4758 (2026) legislative record",
+      "publisher": "New Jersey Legislature",
+      "source_type": "official",
+      "url": "https://www.njleg.state.nj.us/bill-search/2026/S4758",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "NJ S 4758 (2026) official text",
+      "publisher": "New Jersey Legislature",
+      "source_type": "official",
+      "url": "https://pub.njleg.state.nj.us/Bills/2026/S5000/4758_I1.HTM",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "nj-a-4732-2026",
+      "measure_id": "NJ A 4732 (2026)",
+      "relationship": "companion"
+    }
+  ]
+}

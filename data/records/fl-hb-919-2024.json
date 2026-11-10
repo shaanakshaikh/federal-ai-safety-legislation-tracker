@@ -1,0 +1,120 @@
+{
+  "record_id": "fl-hb-919-2024",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "FL"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "FL HB 919 (2024)",
+  "title": "Artificial Intelligence Use in Political Advertising",
+  "session": "2024 legislative session - FL",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Rizo",
+  "sponsor_party": null,
+  "sponsor_state": "FL",
+  "committees": [],
+  "introduced_date": "2024-01-09",
+  "last_action_date": "2024-04-26",
+  "last_action": "Approved by Governor",
+  "status": "Chapter No. 2024-126",
+  "status_bucket": "Enacted",
+  "summary": "Requires disclosures in covered political advertising that uses AI to create certain realistic false depictions. It establishes a criminal penalty for specified failures to disclose.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.flsenate.gov/Session/Bill/2024/919",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "FL HB 919 (2024) legislative record",
+      "publisher": "Florida Senate",
+      "source_type": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "FL HB 919 (2024) official text",
+      "publisher": "Florida Senate",
+      "source_type": "official",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/919/BillText/er/PDF",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Chapter 2024-126",
+    "enacted_date": "2024-04-26",
+    "effective_date": "2024-07-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2024-07-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

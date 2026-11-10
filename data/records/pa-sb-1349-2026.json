@@ -1,0 +1,98 @@
+{
+  "record_id": "pa-sb-1349-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "PA"
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "PA SB 1349 (2026)",
+  "title": "Digital Provenance Act",
+  "session": "2025–2026 Regular Session - PA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Maria Collett",
+  "sponsor_party": null,
+  "sponsor_state": "PA",
+  "committees": [],
+  "introduced_date": "2026-06-04",
+  "last_action_date": "2026-06-04",
+  "last_action": "Referred to Senate Communications and Technology.",
+  "status": "Referred to Senate Communications and Technology",
+  "status_bucket": "In Committee",
+  "summary": "Would establish disclosure and verification duties for covered synthetic content, with enforcement by the state Bureau of Consumer Protection.",
+  "advance_tier": "Low",
+  "advance_rationale": "Further legislative action is required.",
+  "official_url": "https://www.palegis.us/legislation/bills/2025/sb1349",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "PA SB 1349 (2026) legislative record",
+      "publisher": "Pennsylvania General Assembly",
+      "source_type": "official",
+      "url": "https://www.palegis.us/legislation/bills/2025/sb1349",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "PA SB 1349 (2026) official text",
+      "publisher": "Pennsylvania General Assembly",
+      "source_type": "official",
+      "url": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/SB1349/PN1767",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

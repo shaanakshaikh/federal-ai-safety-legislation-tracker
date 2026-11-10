@@ -1,0 +1,105 @@
+{
+  "record_id": "ny-a-8884-2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "NY"
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "NY A 8884 (2025)",
+  "title": "Relates to the development and use of certain artificial intelligence systems",
+  "session": "2025–2026 Legislative Session - NY",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Michaelle Solages",
+  "sponsor_party": null,
+  "sponsor_state": "NY",
+  "committees": [],
+  "introduced_date": "2025-06-09",
+  "last_action_date": "2026-06-01",
+  "last_action": "Print number 8884a.",
+  "status": "Referred to committee",
+  "status_bucket": "In Committee",
+  "summary": "Would require independent audits of covered high-risk AI systems to address algorithmic discrimination and authorize enforcement of those duties.",
+  "advance_tier": "Low",
+  "advance_rationale": "Further legislative action is required.",
+  "official_url": "https://www.nysenate.gov/legislation/bills/2025/A8884",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "NY A 8884 (2025) legislative record",
+      "publisher": "New York State Senate",
+      "source_type": "official",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/A8884",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "NY A 8884 (2025) official text",
+      "publisher": "New York State Senate",
+      "source_type": "official",
+      "url": "https://legislation.nysenate.gov/pdf/bills/2025/A8884A",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "ny-s-1169-2025",
+      "measure_id": "NY S 1169 (2025)",
+      "relationship": "related"
+    }
+  ]
+}

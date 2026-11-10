@@ -1,0 +1,98 @@
+{
+  "record_id": "ny-s-5641-2023",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "NY"
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "NY S 5641 (2023)",
+  "title": "Establishes criteria for the sale of automated employment decision tools",
+  "session": "2023–2024 Legislative Session - NY",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Leroy Comrie",
+  "sponsor_party": null,
+  "sponsor_state": "NY",
+  "committees": [],
+  "introduced_date": "2023-03-10",
+  "last_action_date": "2024-01-08",
+  "last_action": "Print number 5641a.",
+  "status": "Prior session ended",
+  "status_bucket": "Inactive",
+  "summary": "Would establish requirements for the sale of automated employment decision tools and impact assessments by deployers.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://www.nysenate.gov/legislation/bills/2023/S5641",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "NY S 5641 (2023) legislative record",
+      "publisher": "New York State Senate",
+      "source_type": "official",
+      "url": "https://www.nysenate.gov/legislation/bills/2023/S5641",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "NY S 5641 (2023) official text",
+      "publisher": "New York State Senate",
+      "source_type": "official",
+      "url": "https://legislation.nysenate.gov/pdf/bills/2023/S5641A",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

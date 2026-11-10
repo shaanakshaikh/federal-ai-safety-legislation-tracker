@@ -1,0 +1,105 @@
+{
+  "record_id": "ne-lb-77-2025",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "NE"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "NE LB 77 (2025)",
+  "title": "Ensuring Transparency in Prior Authorization Act and coverage of biomarker testing",
+  "session": "2025 legislative session - NE",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Eliot Bostar",
+  "sponsor_party": null,
+  "sponsor_state": "NE",
+  "committees": [],
+  "introduced_date": "2025-01-09",
+  "last_action_date": "2025-06-04",
+  "last_action": "Approved by the Governor, recorded in the legislative journal June 6",
+  "status": "Approved by the Governor, recorded in the legislative journal June 6",
+  "status_bucket": "Enacted",
+  "summary": "Prohibits health insurers from relying solely on AI in adverse prior authorization determinations. Sets standards for review and publication of authorization criteria.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.nebraskalegislature.gov/bills/view_bill.php?DocumentID=58825",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "NE LB 77 (2025) legislative record",
+      "publisher": "NE legislature",
+      "source_type": "official",
+      "url": "https://www.nebraskalegislature.gov/bills/view_bill.php?DocumentID=58825",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "NE LB 77 (2025) official text",
+      "publisher": "NE legislature",
+      "source_type": "official",
+      "url": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Slip/LB77.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": null,
+    "enacted_date": "2025-06-04",
+    "effective_date": null
+  }
+}

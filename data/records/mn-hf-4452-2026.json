@@ -1,0 +1,105 @@
+{
+  "record_id": "mn-hf-4452-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "MN"
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "MN HF 4452 (2026)",
+  "title": "Artificial Intelligence Chatbot Technology Requirements",
+  "session": "2026 legislative session - MN",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "Leigh Finke",
+  "sponsor_party": null,
+  "sponsor_state": "MN",
+  "committees": [],
+  "introduced_date": "2026-03-18",
+  "last_action_date": "2026-03-23",
+  "last_action": "Author added Rehrauer",
+  "status": "Author added Rehrauer",
+  "status_bucket": "In Committee",
+  "summary": "Imposes safety requirements on public-facing AI chatbots and enhanced protections for minors using companion or therapeutic chatbots. Creates a civil action for specified harms.",
+  "advance_tier": "Low",
+  "advance_rationale": "Further legislative action is required.",
+  "official_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4452/",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "MN HF 4452 (2026) legislative record",
+      "publisher": "MN legislature",
+      "source_type": "official",
+      "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4452/",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "MN HF 4452 (2026) official text",
+      "publisher": "MN legislature",
+      "source_type": "official",
+      "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4452/versions/latest/",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "mn-sf-4997-2026",
+      "measure_id": "MN SF 4997 (2026)",
+      "relationship": "companion"
+    }
+  ]
+}

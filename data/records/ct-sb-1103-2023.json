@@ -1,0 +1,125 @@
+{
+  "record_id": "ct-sb-1103-2023",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "CT"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "CT SB 1103 (2023)",
+  "title": "An Act Concerning Artificial Intelligence, Automated Decision-Making And Personal Data Privacy",
+  "session": "2023 legislative session - CT",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": "CT",
+  "committees": [
+    "Joint Committee on General Law"
+  ],
+  "introduced_date": "2023-02-23",
+  "last_action_date": "2023-06-07",
+  "last_action": "Signed by the Governor.",
+  "status": "Public Act 23-16",
+  "status_bucket": "Enacted",
+  "summary": "Requires state agencies to assess AI systems for unlawful discrimination and disparate impact before implementing them. Requires an inventory and ongoing review of state AI systems.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?bill_num=SB01103&selBillType=Bill&which_year=2023",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "CT SB 1103 (2023) legislative record",
+      "publisher": "Connecticut General Assembly",
+      "source_type": "official",
+      "url": "https://www.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?bill_num=SB01103&selBillType=Bill&which_year=2023",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "CT SB 1103 (2023) official text",
+      "publisher": "Connecticut General Assembly",
+      "source_type": "official",
+      "url": "https://www.cga.ct.gov/2023/ACT/PA/PDF/2023PA-00016-R00SB-01103-PA.PDF",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Public Act 23-16",
+    "enacted_date": "2023-06-07",
+    "effective_date": "2023-07-01"
+  },
+  "implementation": {
+    "responsible_agencies": [
+      "Connecticut Office of Policy and Management",
+      "Connecticut Department of Administrative Services"
+    ],
+    "deadlines": [
+      {
+        "date": "2023-07-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

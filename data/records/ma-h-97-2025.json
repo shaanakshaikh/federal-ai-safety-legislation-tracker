@@ -1,7 +1,11 @@
 {
   "record_id": "ma-h-97-2025",
   "entity_type": "bill",
-  "jurisdiction": {"country": "US", "level": "state", "state": "MA"},
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "MA"
+  },
   "lifecycle_status": "committee_advanced",
   "measure_id": "MA H.97 (2025)",
   "title": "An Act protecting consumers in interactions with artificial intelligence systems",
@@ -10,13 +14,21 @@
   "scope": "Adjacent",
   "primary_category": "High-risk AI governance",
   "category_key": "governance",
-  "secondary_categories": ["Algorithmic discrimination", "Risk management", "Impact assessments", "Consumer notice and appeal"],
+  "secondary_categories": [
+    "Algorithmic discrimination",
+    "Risk management",
+    "Impact assessments",
+    "Consumer notice and appeal"
+  ],
   "sponsor": "David M. Rogers and Andres X. Vargas",
   "sponsor_party": "D",
   "sponsor_state": "MA",
   "cosponsor_count": null,
   "notable_cosponsors": [],
-  "committees": ["Joint Committee on Advanced Information Technology, the Internet and Cybersecurity", "House Committee on Ways and Means"],
+  "committees": [
+    "Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "House Committee on Ways and Means"
+  ],
   "introduced_date": "2025-02-27",
   "last_action_date": "2025-12-24",
   "last_action": "Reported favorably by committee, accompanied H.94, and referred to the House Committee on Ways and Means.",
@@ -30,11 +42,62 @@
   "last_verified_date": "2026-10-27",
   "verification_level": "Official legislature status and bill text verified.",
   "sources": [
-    {"source_id": "ma-h97-status", "title": "Bill H.97 status", "publisher": "Massachusetts General Court", "source_type": "official", "url": "https://malegislature.gov/Bills/194/H97", "accessed_date": "2026-10-27"},
-    {"source_id": "ma-h97-text", "title": "Bill H.97 text", "publisher": "Massachusetts General Court", "source_type": "official", "url": "https://malegislature.gov/Bills/194/H97/House/Bill/Text", "accessed_date": "2026-10-27"}
+    {
+      "source_id": "ma-h97-status",
+      "title": "Bill H.97 status",
+      "publisher": "Massachusetts General Court",
+      "source_type": "official",
+      "url": "https://malegislature.gov/Bills/194/H97",
+      "accessed_date": "2026-10-27"
+    },
+    {
+      "source_id": "ma-h97-text",
+      "title": "Bill H.97 text",
+      "publisher": "Massachusetts General Court",
+      "source_type": "official",
+      "url": "https://malegislature.gov/Bills/194/H97/House/Bill/Text",
+      "accessed_date": "2026-10-27"
+    }
   ],
   "claim_provenance": [
-    {"claim_id": "identity-and-lifecycle", "fields": ["measure_id", "title", "entity_type", "jurisdiction", "session", "sponsor", "committees", "status", "lifecycle_status"], "source_ids": ["ma-h97-status"]},
-    {"claim_id": "substance-and-analysis", "fields": ["summary", "primary_category", "secondary_categories", "committee_dynamics", "advance_tier", "advance_rationale"], "source_ids": ["ma-h97-status", "ma-h97-text"]}
+    {
+      "claim_id": "identity-and-lifecycle",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "sponsor",
+        "committees",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "ma-h97-status"
+      ]
+    },
+    {
+      "claim_id": "substance-and-analysis",
+      "fields": [
+        "summary",
+        "primary_category",
+        "secondary_categories",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "ma-h97-status",
+        "ma-h97-text"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "ma-h-94-2025",
+      "measure_id": "MA H 94 (2025)",
+      "relationship": "related"
+    }
   ]
 }

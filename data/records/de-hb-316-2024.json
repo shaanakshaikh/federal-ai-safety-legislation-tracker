@@ -1,0 +1,120 @@
+{
+  "record_id": "de-hb-316-2024",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "DE"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "DE HB 316 (2024)",
+  "title": "An Act to Amend Title 15 of the Delaware Code Relating to Deep Fakes in Elections",
+  "session": "2024 legislative session - DE",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Romer",
+  "sponsor_party": null,
+  "sponsor_state": "DE",
+  "committees": [],
+  "introduced_date": "2024-03-21",
+  "last_action_date": "2024-10-09",
+  "last_action": "House Substitute 1 for HB 316 signed by the Governor.",
+  "status": "Signed",
+  "status_bucket": "Enacted",
+  "summary": "Prohibits certain distribution of deceptive election deepfakes within 90 days of an election, subject to disclosure and other exceptions, and provides penalties and injunctive relief.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://legis.delaware.gov/BillDetail/141109",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "DE HB 316 (2024) legislative record",
+      "publisher": "Delaware General Assembly",
+      "source_type": "official",
+      "url": "https://legis.delaware.gov/BillDetail/141109",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "DE HB 316 (2024) official text",
+      "publisher": "Delaware General Assembly",
+      "source_type": "official",
+      "url": "https://legis.delaware.gov/SessionLaws/Chapter?id=42118",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "84 Del. Laws, Chapter 487",
+    "enacted_date": "2024-10-09",
+    "effective_date": "2024-10-09"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2024-10-09",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

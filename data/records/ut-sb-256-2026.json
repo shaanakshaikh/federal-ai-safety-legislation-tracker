@@ -1,0 +1,105 @@
+{
+  "record_id": "ut-sb-256-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "UT"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "UT SB 256 (2026)",
+  "title": "Identity Protection Modifications",
+  "session": "2026 legislative session - UT",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Kirk A. Cullimore",
+  "sponsor_party": null,
+  "sponsor_state": "UT",
+  "committees": [],
+  "introduced_date": "2026-02-05",
+  "last_action_date": "2026-03-26",
+  "last_action": "The governor signed the bill.",
+  "status": "Governor Signed",
+  "status_bucket": "Enacted",
+  "summary": "Expressly applies Utah defamation law to AI-generated and other digitally manipulated content, with notice and removal rules affecting available damages.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://le.utah.gov/~2026/bills/static/SB0256.html",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "UT SB 256 (2026) legislative record",
+      "publisher": "UT legislature",
+      "source_type": "official",
+      "url": "https://le.utah.gov/~2026/bills/static/SB0256.html",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "UT SB 256 (2026) official text",
+      "publisher": "UT legislature",
+      "source_type": "official",
+      "url": "https://le.utah.gov/Session/2026/bills/enrolled/SB0256.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": null,
+    "enacted_date": "2026-03-26",
+    "effective_date": null
+  }
+}

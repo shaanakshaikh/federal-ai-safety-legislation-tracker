@@ -1,0 +1,105 @@
+{
+  "record_id": "ca-sb-942-2024",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "CA"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "CA SB 942 (2024)",
+  "title": "California AI Transparency Act",
+  "session": "2024 legislative session - CA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Josh Becker",
+  "sponsor_party": null,
+  "sponsor_state": "CA",
+  "committees": [],
+  "introduced_date": "2024-01-17",
+  "last_action_date": "2024-09-19",
+  "last_action": "The governor signed the bill, and the Secretary of State chaptered it.",
+  "status": "Chaptered by Secretary of State. Chapter 291, Statutes of 2024.",
+  "status_bucket": "Enacted",
+  "summary": "Establishes provenance, disclosure, and detection-tool requirements for widely used generative AI systems. Later legislation revised the framework and its operation.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB942",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "CA SB 942 (2024) legislative record",
+      "publisher": "California Legislative Counsel",
+      "source_type": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB942",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "CA SB 942 (2024) official text",
+      "publisher": "California Legislative Counsel",
+      "source_type": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB942",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "291",
+    "enacted_date": "2024-09-19",
+    "effective_date": null
+  }
+}

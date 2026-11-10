@@ -1,0 +1,98 @@
+{
+  "record_id": "ia-sf-2415-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "IA"
+  },
+  "lifecycle_status": "committee_consideration",
+  "measure_id": "IA SF 2415 (2026)",
+  "title": "An Act relating to provider requirements concerning the mental health of users of an artificial intelligence chatbot",
+  "session": "2026 legislative session - IA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "Liz Bennett",
+  "sponsor_party": null,
+  "sponsor_state": "IA",
+  "committees": [],
+  "introduced_date": "2026-02-19",
+  "last_action_date": "2026-02-24",
+  "last_action": "Subcommittee assigned after referral to Senate Technology",
+  "status": "Subcommittee assigned after referral to Senate Technology",
+  "status_bucket": "In Committee",
+  "summary": "Would require providers to implement safeguards for chatbot users’ mental health and provide for civil penalties.",
+  "advance_tier": "Low",
+  "advance_rationale": "Further legislative action is required.",
+  "official_url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF+2415&enhanced=true&ga=91",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "IA SF 2415 (2026) legislative record",
+      "publisher": "IA legislature",
+      "source_type": "official",
+      "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF+2415&enhanced=true&ga=91",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "IA SF 2415 (2026) official text",
+      "publisher": "IA legislature",
+      "source_type": "official",
+      "url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SF2415.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

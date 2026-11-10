@@ -1,0 +1,98 @@
+{
+  "record_id": "mi-hb-4537-2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "MI"
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "MI HB 4537 (2025)",
+  "title": "Use of artificial intelligence tools to make decisions regarding claims",
+  "session": "2025 legislative session - MI",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Carrie Rheingans",
+  "sponsor_party": null,
+  "sponsor_state": "MI",
+  "committees": [],
+  "introduced_date": "2025-06-03",
+  "last_action_date": "2026-03-19",
+  "last_action": "Re-referred to the Committee on Communications and Technology",
+  "status": "Re-referred to the Committee on Communications and Technology",
+  "status_bucket": "In Committee",
+  "summary": "Restricts the use of AI in state medical assistance claims decisions.",
+  "advance_tier": "Low",
+  "advance_rationale": "Further legislative action is required.",
+  "official_url": "https://www.legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4537",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "MI HB 4537 (2025) legislative record",
+      "publisher": "MI legislature",
+      "source_type": "official",
+      "url": "https://www.legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4537",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "MI HB 4537 (2025) official text",
+      "publisher": "MI legislature",
+      "source_type": "official",
+      "url": "https://www.legislature.mi.gov/documents/2025-2026/billintroduced/House/pdf/2025-HIB-4537.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

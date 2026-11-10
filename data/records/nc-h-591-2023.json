@@ -1,0 +1,120 @@
+{
+  "record_id": "nc-h-591-2023",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "NC"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "NC H 591 (2023)",
+  "title": "Modernize Sex Crimes",
+  "session": "2023 legislative session - NC",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Davis",
+  "sponsor_party": null,
+  "sponsor_state": "NC",
+  "committees": [],
+  "introduced_date": "2023-04-10",
+  "last_action_date": "2024-07-08",
+  "last_action": "Ch. SL 2024-37",
+  "status": "Ch. SL 2024-37",
+  "status_bucket": "Enacted",
+  "summary": "Expressly covers AI-generated or altered images in North Carolina's laws on sexual extortion, sexual exploitation of minors, and unauthorized disclosure of private images.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.ncleg.gov/BillLookUp/2023/H591",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "NC H 591 (2023) legislative record",
+      "publisher": "North Carolina General Assembly",
+      "source_type": "official",
+      "url": "https://www.ncleg.gov/BillLookUp/2023/H591",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "NC H 591 (2023) official text",
+      "publisher": "North Carolina General Assembly",
+      "source_type": "official",
+      "url": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2023-2024/SL2024-37.html",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Session Law 2024-37",
+    "enacted_date": "2024-07-08",
+    "effective_date": "2024-12-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2024-12-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

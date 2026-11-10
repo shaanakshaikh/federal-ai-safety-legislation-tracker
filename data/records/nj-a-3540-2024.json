@@ -1,0 +1,120 @@
+{
+  "record_id": "nj-a-3540-2024",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "NJ"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "NJ A 3540 (2024)",
+  "title": "An Act establishing civil and criminal penalties for the production and dissemination of deceptive audio or visual media",
+  "session": "2024 legislative session - NJ",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": "NJ",
+  "committees": [],
+  "introduced_date": null,
+  "last_action_date": "2025-04-02",
+  "last_action": "Approved as Public Law 2025, chapter 40.",
+  "status": "Approved as Public Law 2025, chapter 40",
+  "status_bucket": "Enacted",
+  "summary": "Establishes civil and criminal consequences for specified unauthorized production or disclosure of deceptive audio or visual media and for use of such media in committing certain offenses.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.njleg.state.nj.us/bill-search/2024/A3540",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "NJ A 3540 (2024) legislative record",
+      "publisher": "New Jersey Legislature",
+      "source_type": "official",
+      "url": "https://www.njleg.state.nj.us/bill-search/2024/A3540",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "NJ A 3540 (2024) official text",
+      "publisher": "New Jersey Legislature",
+      "source_type": "official",
+      "url": "https://pub.njleg.state.nj.us/Bills/2024/AL25/40_.HTM",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Public Law 2025, chapter 40",
+    "enacted_date": "2025-04-02",
+    "effective_date": "2025-04-02"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2025-04-02",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

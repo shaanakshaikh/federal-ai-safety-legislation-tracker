@@ -1,0 +1,105 @@
+{
+  "record_id": "md-hb-145-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "MD"
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "MD HB 145 (2026)",
+  "title": "Election Law - Election Misinformation, Election Disinformation, and Deepfakes",
+  "session": "2026 legislative session - MD",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Feldmark",
+  "sponsor_party": null,
+  "sponsor_state": "MD",
+  "committees": [],
+  "introduced_date": "2026-01-14",
+  "last_action_date": "2026-04-10",
+  "last_action": "Referred Rules",
+  "status": "In the Senate - First Reading Senate Rules",
+  "status_bucket": "Inactive",
+  "summary": "Would create election-administration response procedures for misinformation or disinformation, including deepfakes, and prohibit certain uses or dissemination of materially false election deepfakes.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB0145?ys=2026rs",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "MD HB 145 (2026) legislative record",
+      "publisher": "Maryland General Assembly",
+      "source_type": "official",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB0145?ys=2026rs",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "MD HB 145 (2026) official text",
+      "publisher": "Maryland General Assembly",
+      "source_type": "official",
+      "url": "https://mgaleg.maryland.gov/2026RS/bills/hb/hb0145t.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "md-sb-141-2026",
+      "measure_id": "MD SB 141 (2026)",
+      "relationship": "companion"
+    }
+  ]
+}

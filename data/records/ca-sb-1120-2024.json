@@ -1,0 +1,120 @@
+{
+  "record_id": "ca-sb-1120-2024",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "CA"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "CA SB 1120 (2024)",
+  "title": "Health care coverage: utilization review",
+  "session": "2024 legislative session - CA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Josh Becker",
+  "sponsor_party": null,
+  "sponsor_state": "CA",
+  "committees": [],
+  "introduced_date": "2024-02-13",
+  "last_action_date": "2024-09-28",
+  "last_action": "The governor signed the bill, and the Secretary of State chaptered it.",
+  "status": "Chaptered by Secretary of State. Chapter 879, Statutes of 2024.",
+  "status_bucket": "Enacted",
+  "summary": "Requires health insurers using AI or other automated tools in utilization review to comply with safeguards, including that a qualified licensed professional makes decisions on medical necessity.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1120",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "CA SB 1120 (2024) legislative record",
+      "publisher": "California Legislative Counsel",
+      "source_type": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1120",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "CA SB 1120 (2024) official text",
+      "publisher": "California Legislative Counsel",
+      "source_type": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1120",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "879",
+    "enacted_date": "2024-09-28",
+    "effective_date": "2025-01-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2025-01-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

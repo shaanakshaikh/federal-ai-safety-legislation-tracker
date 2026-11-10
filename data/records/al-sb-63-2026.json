@@ -1,0 +1,120 @@
+{
+  "record_id": "al-sb-63-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "AL"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "AL SB 63 (2026)",
+  "title": "Health care plans; to regulate the use of artificial intelligence in determinations of coverage",
+  "session": "2026 legislative session - AL",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Orr",
+  "sponsor_party": null,
+  "sponsor_state": "AL",
+  "committees": [],
+  "introduced_date": "2026-01-13",
+  "last_action_date": "2026-04-16",
+  "last_action": "Signed by the Governor.",
+  "status": "Act 2026-589",
+  "status_bucket": "Enacted",
+  "summary": "Restricts health plan use of AI in prior-authorization decisions and requires consideration of the enrollee’s medical history and clinical circumstances. It authorizes state insurance enforcement.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://arc-sos.state.al.us/cgi/actdetail.mbr/detail?page=act&year=2026&act=589",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "AL SB 63 (2026) legislative record",
+      "publisher": "Alabama Secretary of State",
+      "source_type": "official",
+      "url": "https://arc-sos.state.al.us/cgi/actdetail.mbr/detail?page=act&year=2026&act=589",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "AL SB 63 (2026) official text",
+      "publisher": "Alabama Secretary of State",
+      "source_type": "official",
+      "url": "https://arc-sos.state.al.us/ucp/L2123253.AI1.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Act 2026-589",
+    "enacted_date": "2026-04-16",
+    "effective_date": "2026-10-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2026-10-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

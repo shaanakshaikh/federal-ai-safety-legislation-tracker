@@ -1,0 +1,98 @@
+{
+  "record_id": "me-ld-2162-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "ME"
+  },
+  "lifecycle_status": "failed",
+  "measure_id": "ME LD 2162 (2026)",
+  "title": "An Act to Regulate and Prevent Children's Access to Artificial Intelligence Chatbots with Human-like Features and Social Artificial Intelligence Companions",
+  "session": "2026 legislative session - ME",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Lori Gramlich",
+  "sponsor_party": null,
+  "sponsor_state": "ME",
+  "committees": [],
+  "introduced_date": "2026-01-13",
+  "last_action_date": "2026-04-29",
+  "last_action": "Died on adjournment.",
+  "status": "Died on adjournment",
+  "status_bucket": "Failed",
+  "summary": "Would require safeguards restricting children’s access to AI chatbots with human-like features and social AI companions.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=2162&snum=132",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "ME LD 2162 (2026) legislative record",
+      "publisher": "Maine Legislature",
+      "source_type": "official",
+      "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=2162&snum=132",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "ME LD 2162 (2026) official text",
+      "publisher": "Maine Legislature",
+      "source_type": "official",
+      "url": "https://legislature.maine.gov/legis/bills/getPDF.asp?item=1&paper=HP1451&snum=132",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

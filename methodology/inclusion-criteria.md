@@ -19,9 +19,9 @@ The tracker normally excludes measures limited to economic development, workforc
 
 ## State discovery and verification
 
-Open States is used only to discover candidates. A record is not published until a reviewer verifies its identity, text, actions, disposition, dates, and citations against an official legislature, governor, secretary of state, or session-law source. Open States URLs may be retained as discovery metadata, but they never satisfy the official-source requirement by themselves.
+Open States and other multistate indexes are used to discover candidates. A record is not published until a reviewer verifies its identity, text, actions, disposition, dates, and citations against an official legislature, governor, secretary of state, or session-law source. Open States URLs may be retained as discovery metadata, but they never satisfy the official-source requirement by themselves.
 
-State coverage starts with a deliberately small set of high-salience safety and security measures. Absence from the tracker does not imply that a state has no relevant law or bill.
+The November 2026 audit screened the 50 states and the District of Columbia from 2023 onward. Discovery sources included the [NCSL annual inventories and legislation database](https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database), the [AI Docket](https://www.aidocket.org/), and the [Delilah AI Legislation Dataset](https://delilahusa.com/ai-legislation/data). Index coverage varies by state, session, and topic. The tracker publishes measures that meet the inclusion criteria and can be verified from official sources.
 
 ## Classification and review
 

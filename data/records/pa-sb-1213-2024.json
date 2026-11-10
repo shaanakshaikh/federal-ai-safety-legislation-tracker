@@ -1,0 +1,105 @@
+{
+  "record_id": "pa-sb-1213-2024",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "PA"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "PA SB 1213 (2024)",
+  "title": "An Act providing for unlawful dissemination of intimate images and AI-generated child sexual abuse material",
+  "session": "2024 legislative session - PA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": "PA",
+  "committees": [],
+  "introduced_date": null,
+  "last_action_date": "2024-10-29",
+  "last_action": "Enacted as Act 125 of 2024.",
+  "status": "Enacted as Act 125 of 2024",
+  "status_bucket": "Enacted",
+  "summary": "Extends specified criminal offenses to artificially generated intimate images and child sexual abuse material.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.palegis.us/statutes/unconsolidated/law-information?actNum=0125&sessInd=0&sessYr=2024",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "PA SB 1213 (2024) legislative record",
+      "publisher": "Pennsylvania General Assembly",
+      "source_type": "official",
+      "url": "https://www.palegis.us/statutes/unconsolidated/law-information?actNum=0125&sessInd=0&sessYr=2024",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "PA SB 1213 (2024) official text",
+      "publisher": "Pennsylvania General Assembly",
+      "source_type": "official",
+      "url": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?ActNum=0125.&SessInd=0&SessYr=2024&txtType=PDF",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Act 125 of 2024",
+    "enacted_date": "2024-10-29",
+    "effective_date": null
+  }
+}

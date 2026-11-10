@@ -1,0 +1,98 @@
+{
+  "record_id": "ne-lb-1185-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "NE"
+  },
+  "lifecycle_status": "failed",
+  "measure_id": "NE LB 1185 (2026)",
+  "title": "Conversational Artificial Intelligence Safety Act",
+  "session": "2026 legislative session - NE",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "Eliot Bostar",
+  "sponsor_party": null,
+  "sponsor_state": "NE",
+  "committees": [],
+  "introduced_date": "2026-01-21",
+  "last_action_date": "2026-04-17",
+  "last_action": "Indefinitely postponed; provisions incorporated in LB 525 through AM 2444",
+  "status": "Indefinitely postponed; provisions incorporated in LB 525 through AM 2444",
+  "status_bucket": "Failed",
+  "summary": "Proposes disclosures and safeguards for conversational AI, including protections for minors and response protocols for self-harm. Provisions were incorporated into LB 525.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=63873",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "NE LB 1185 (2026) legislative record",
+      "publisher": "NE legislature",
+      "source_type": "official",
+      "url": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=63873",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "NE LB 1185 (2026) official text",
+      "publisher": "NE legislature",
+      "source_type": "official",
+      "url": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Intro/LB1185.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

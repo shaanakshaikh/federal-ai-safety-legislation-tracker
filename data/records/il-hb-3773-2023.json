@@ -1,0 +1,120 @@
+{
+  "record_id": "il-hb-3773-2023",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "IL"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "IL HB 3773 (2023)",
+  "title": "Illinois Human Rights Act — Artificial Intelligence in Employment",
+  "session": "2023 legislative session - IL",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Jaime M. Andrade, Jr.",
+  "sponsor_party": null,
+  "sponsor_state": "IL",
+  "committees": [],
+  "introduced_date": "2023-02-17",
+  "last_action_date": "2024-08-09",
+  "last_action": "Approved by the Governor as Public Act 103-0804",
+  "status": "Approved by the Governor as Public Act 103-0804",
+  "status_bucket": "Enacted",
+  "summary": "Prohibits employers from using AI in specified employment decisions if it has a discriminatory effect or uses ZIP codes as a proxy for protected classes. Requires notice when covered employment decisions use AI.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://ilga.gov/ftp/legislation/103/BillStatus/HTML/10300HB3773.html",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "IL HB 3773 (2023) legislative record",
+      "publisher": "IL legislature",
+      "source_type": "official",
+      "url": "https://ilga.gov/ftp/legislation/103/BillStatus/HTML/10300HB3773.html",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "IL HB 3773 (2023) official text",
+      "publisher": "IL legislature",
+      "source_type": "official",
+      "url": "https://ilga.gov/legislation/PublicActs/View/103-0804",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Public Act 103-0804",
+    "enacted_date": "2024-08-09",
+    "effective_date": "2026-01-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2026-01-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

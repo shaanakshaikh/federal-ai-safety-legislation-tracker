@@ -1,0 +1,98 @@
+{
+  "record_id": "ny-a-3779-2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "NY"
+  },
+  "lifecycle_status": "floor",
+  "measure_id": "NY A 3779 (2025)",
+  "title": "Relates to restricting the use of electronic monitoring and automated employment decision tools",
+  "session": "2025–2026 Legislative Session - NY",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "George Alvarez",
+  "sponsor_party": null,
+  "sponsor_state": "NY",
+  "committees": [],
+  "introduced_date": "2025-01-30",
+  "last_action_date": "2026-05-29",
+  "last_action": "Ordered to third reading rules cal.260 rules report cal.260 reported.",
+  "status": "Ordered to third reading",
+  "status_bucket": "Floor",
+  "summary": "Would require recent impact assessments before specified uses of automated tools or electronic monitoring to screen candidates or employees. Also requires notice to job applicants.",
+  "advance_tier": "Low",
+  "advance_rationale": "Further legislative action is required.",
+  "official_url": "https://www.nysenate.gov/legislation/bills/2025/A3779",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "NY A 3779 (2025) legislative record",
+      "publisher": "New York State Senate",
+      "source_type": "official",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/A3779",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "NY A 3779 (2025) official text",
+      "publisher": "New York State Senate",
+      "source_type": "official",
+      "url": "https://legislation.nysenate.gov/pdf/bills/2025/A3779A",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

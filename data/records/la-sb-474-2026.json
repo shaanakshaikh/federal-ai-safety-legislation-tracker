@@ -1,0 +1,98 @@
+{
+  "record_id": "la-sb-474-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "LA"
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "LA SB 474 (2026)",
+  "title": "Protecting Louisiana’s Infrastructure from Artificial Intelligence Risk Act",
+  "session": "2026 legislative session - LA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "Gregory A. Miller",
+  "sponsor_party": null,
+  "sponsor_state": "LA",
+  "committees": [],
+  "introduced_date": "2026-03-31",
+  "last_action_date": "2026-04-21",
+  "last_action": "Read by title and returned to the Calendar, subject to call.",
+  "status": "Subject to call - Senate final passage",
+  "status_bucket": "Inactive",
+  "summary": "Would require covered frontier-model developers to disclose their safety frameworks and address catastrophic risks, including risks to critical infrastructure. It provides for reporting critical safety incidents and protects covered whistleblowers.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://legis.la.gov/legis/BillInfo.aspx?b=SB474&s=26RS",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "LA SB 474 (2026) legislative record",
+      "publisher": "Louisiana State Legislature",
+      "source_type": "official",
+      "url": "https://legis.la.gov/legis/BillInfo.aspx?b=SB474&s=26RS",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "LA SB 474 (2026) official text",
+      "publisher": "Louisiana State Legislature",
+      "source_type": "official",
+      "url": "https://legis.la.gov/legis/ViewDocument.aspx?d=1462764",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

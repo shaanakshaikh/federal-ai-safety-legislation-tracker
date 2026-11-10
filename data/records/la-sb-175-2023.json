@@ -1,0 +1,120 @@
+{
+  "record_id": "la-sb-175-2023",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "LA"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "LA SB 175 (2023)",
+  "title": "Criminalizes deepfakes involving minors and defines the rights to digital image and likeness",
+  "session": "2023 legislative session - LA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Jeremy Stine",
+  "sponsor_party": null,
+  "sponsor_state": "LA",
+  "committees": [],
+  "introduced_date": "2023-04-10",
+  "last_action_date": "2023-06-28",
+  "last_action": "Signed by the Governor. Becomes Act No. 457.",
+  "status": "Signed by the Governor - Act 457",
+  "status_bucket": "Enacted",
+  "summary": "Creates offenses for covered nonconsensual disclosure of deepfakes and for certain deepfakes depicting minors.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://legis.la.gov/legis/BillInfo.aspx?b=SB175&s=23RS",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "LA SB 175 (2023) legislative record",
+      "publisher": "Louisiana State Legislature",
+      "source_type": "official",
+      "url": "https://legis.la.gov/legis/BillInfo.aspx?b=SB175&s=23RS",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "LA SB 175 (2023) official text",
+      "publisher": "Louisiana State Legislature",
+      "source_type": "official",
+      "url": "https://legis.la.gov/legis/ViewDocument.aspx?d=1333325",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Act 457",
+    "enacted_date": "2023-06-28",
+    "effective_date": "2023-08-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2023-08-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}
