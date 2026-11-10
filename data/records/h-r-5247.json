@@ -1,0 +1,110 @@
+{
+  "record_id": "h-r-5247",
+  "measure_id": "H.R. 5247",
+  "title": "To provide for the International Security Affairs authorities of the Department of State.",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "security",
+  "secondary_categories": [
+    "International security",
+    "Emerging technologies",
+    "State Department"
+  ],
+  "lifecycle_status": "committee_advanced",
+  "status": "Ordered reported 28–19",
+  "status_bucket": "Committee advanced",
+  "committees": [
+    "House Foreign Affairs"
+  ],
+  "summary": "Would assign the State Department's emerging-threats function responsibility for mitigating national-security threats from military uses of AI and other emerging technologies.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Ordered reported 28–19. Further action remains pending.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5247",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Keith Self",
+  "sponsor_party": "R",
+  "sponsor_state": "TX",
+  "cosponsor_count": 0,
+  "introduced_date": "2025-09-10",
+  "last_action_date": "2025-09-18",
+  "last_action": "Ordered to be Reported (Amended) by the Yeas and Nays: 28 - 19.",
+  "committee_dynamics": "Official action history. Ordered to be Reported (Amended) by the Yeas and Nays: 28 - 19.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 5247",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5247",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5247.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 5247",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr5247ih",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    }
+  ]
+}

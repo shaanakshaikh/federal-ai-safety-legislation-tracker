@@ -1,0 +1,90 @@
+{
+  "record_id": "pl-118-67-sec-507",
+  "entity_type": "provision",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "measure_id": "P.L. 118-67 § 507",
+  "title": "Improving oversight and inspection programs",
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "Bicameral",
+  "scope": "Adjacent",
+  "primary_category": "Evaluation, testing & standards",
+  "category_key": "evaluation",
+  "secondary_categories": [],
+  "lifecycle_status": "enacted",
+  "status": "Enacted — Public Law 118-67",
+  "status_bucket": "Enacted",
+  "committees": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": null,
+  "cosponsor_count": null,
+  "last_action_date": "2024-07-09",
+  "last_action": "Enacted as section 507 of Public Law 118-67.",
+  "summary": "Requires a Nuclear Regulatory Commission report on risk-informed improvements to nuclear inspection and oversight, including assessment of AI and machine learning to inform oversight and inspection decisions.",
+  "committee_dynamics": "The provision was enacted through the Fire Grants and Safety Act of 2023 and ADVANCE Act of 2024.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+  "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ67",
+  "public_law": {
+    "number": "118-67",
+    "enacted_date": "2024-07-09",
+    "originating_bill": "S. 870",
+    "statutes_at_large": "138 Stat. 1447",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ67"
+  },
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official enacted text reviewed.",
+  "sources": [
+    {
+      "source_id": "govinfo-law",
+      "title": "Public Law 118-67, section 507",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ67/pdf/PLAW-118publ67.pdf#page=34",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "enacted-provision",
+      "fields": [
+        "measure_id",
+        "title",
+        "official_url",
+        "public_law",
+        "status",
+        "lifecycle_status",
+        "last_action_date",
+        "last_action",
+        "summary",
+        "scope",
+        "primary_category",
+        "implementation"
+      ],
+      "source_ids": [
+        "govinfo-law"
+      ]
+    }
+  ],
+  "implementation": {
+    "responsible_agencies": [
+      "Nuclear Regulatory Commission"
+    ],
+    "deadlines": [
+      {
+        "date": "2025-07-09",
+        "requirement": "Submit the report on oversight and inspection program improvements to the appropriate congressional committees.",
+        "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

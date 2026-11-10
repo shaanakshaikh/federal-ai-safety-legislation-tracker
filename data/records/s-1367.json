@@ -1,0 +1,150 @@
+{
+  "record_id": "s-1367",
+  "measure_id": "S. 1367",
+  "title": "NO FAKES Act of 2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [
+    "Digital replicas",
+    "Likeness protection"
+  ],
+  "lifecycle_status": "referred",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "committees": [
+    "Senate Judiciary"
+  ],
+  "summary": "Would establish federal rights over unauthorized digital replicas of an individual’s voice or visual likeness and provide civil liability and platform procedures.",
+  "advance_tier": "Low",
+  "advance_rationale": "No committee advancement was recorded at the time of review.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1367",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Christopher Coons",
+  "sponsor_party": "D",
+  "sponsor_state": "DE",
+  "cosponsor_count": 13,
+  "introduced_date": "2025-04-09",
+  "last_action_date": "2025-04-09",
+  "last_action": "Read twice and referred to the Committee on the Judiciary.",
+  "committee_dynamics": "Official action history. Read twice and referred to the Committee on the Judiciary.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for S. 1367",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1367",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s1367.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for S. 1367",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s1367is",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-2794",
+      "title": "Official record of H.R. 2794",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2794",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-4875-118",
+      "title": "Official record of S. 4875",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4875",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-8915",
+      "title": "Official record of H.R. 8915",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8915",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-h-r-8915"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "h-r-8915",
+      "measure_id": "H.R. 8915",
+      "relationship": "related"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "record_id": "h-r-4683-118",
+  "measure_id": "H.R. 4683",
+  "title": "Closing Loopholes for the Overseas Use and Development of Artificial Intelligence Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [
+    "Remote compute",
+    "Countries of concern"
+  ],
+  "lifecycle_status": "inactive",
+  "status": "Introduced / referred; expired at end of the 118th Congress",
+  "status_bucket": "Expired at end of the 118th Congress",
+  "committees": [
+    "House Foreign Affairs"
+  ],
+  "summary": "Would restrict support for remote or cloud use of specified advanced computing chips by entities in China or Macau.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment. Introduced / referred was the furthest recorded stage.",
+  "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/4683",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Jeff Jackson",
+  "sponsor_party": "D",
+  "sponsor_state": "NC",
+  "cosponsor_count": 9,
+  "introduced_date": "2023-07-17",
+  "last_action_date": "2023-07-17",
+  "last_action": "Referred to the House Committee on Foreign Affairs.",
+  "committee_dynamics": "Official action history. Referred to the House Committee on Foreign Affairs.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 4683",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/4683",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hr/BILLSTATUS-118hr4683.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 4683",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118hr4683ih",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-2683",
+      "title": "Official record of H.R. 2683",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2683",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-3519",
+      "title": "Official record of S. 3519",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3519",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-h-r-2683",
+        "related-s-3519"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "h-r-2683",
+      "measure_id": "H.R. 2683",
+      "relationship": "related"
+    },
+    {
+      "record_id": "s-3519",
+      "measure_id": "S. 3519",
+      "relationship": "related"
+    }
+  ]
+}

@@ -7,7 +7,7 @@
     "state": null
   },
   "lifecycle_status": "enacted",
-  "measure_id": "P.L. 119-60 §§ 224, 245, 1512–1515, 1533–1535, 6601–6604",
+  "measure_id": "P.L. 119-60 §§ 224, 245, 563, 1061, 1512–1515, 1532–1535, 3117, 6601–6604",
   "title": "National Defense Authorization Act for Fiscal Year 2026",
   "session": "119th Congress",
   "congress": 119,
@@ -55,6 +55,18 @@
       "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=80"
     },
     {
+      "section": "§ 563",
+      "title": "Analysis of potential modifications to the offense of wrongful broadcast or distribution of intimate visual images under the Uniform Code of Military Justice",
+      "summary": "Requires the Defense Department to assess whether and how to clarify the military offense of wrongful distribution of intimate images to cover nonconsensual deepfakes, and report the results to Congress.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=166"
+    },
+    {
+      "section": "§ 1061",
+      "title": "Notification of waivers under Department of Defense Directive 3000.09",
+      "summary": "Requires written congressional notification within 30 days of issuing a waiver under the Defense Department’s autonomy-in-weapons directive. Adds legal-review information to the FY2025 NDAA’s autonomous weapons reporting requirement.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=329"
+    },
+    {
       "section": "§ 1512",
       "title": "Defense-wide AI and machine-learning security",
       "summary": "Requires a department-wide cybersecurity and governance policy covering AI-specific attacks, supply-chain risk, life-cycle security, testing, auditing, monitoring, training, and incident response.",
@@ -79,6 +91,12 @@
       "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=437"
     },
     {
+      "section": "§ 1532",
+      "title": "Guidance and prohibition on use of certain artificial intelligence",
+      "summary": "Requires removal of covered DeepSeek- or High Flyer-linked AI from Defense Department systems and restricts contractor use in performing Defense contracts, subject to waivers. Also directs the department to consider guidance on other covered AI companies posing national-security risks.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=441"
+    },
+    {
       "section": "§ 1533",
       "title": "AI model assessment and oversight",
       "summary": "Creates a cross-functional team to establish a standardized framework and governance structure for evaluating and enabling Defense Department AI models.",
@@ -95,6 +113,12 @@
       "title": "AI Futures Steering Committee",
       "summary": "Establishes a senior Defense Department committee to plan for advanced and frontier AI capabilities, examine risks and governance, and address safeguards including meaningful human control and override.",
       "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=448"
+    },
+    {
+      "section": "§ 3117",
+      "title": "Appropriate scoping of artificial intelligence research within the National Nuclear Security Administration",
+      "summary": "Limits use of NNSA appropriations for AI research, applications, and infrastructure to the agency’s nuclear-security missions. Preserves specified reimbursable support that does not interfere with those missions.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=749"
     },
     {
       "section": "§ 6601",
@@ -129,16 +153,26 @@
     "number": "119-60",
     "enacted_date": "2025-12-18",
     "originating_bill": "S. 1071",
-    "statutes_at_large": "139 Stat. 783",
+    "statutes_at_large": "139 Stat. 718",
     "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ60"
   },
   "implementation": {
     "responsible_agencies": [
       "Department of Defense",
       "National Security Agency",
-      "Office of the Director of National Intelligence"
+      "Office of the Director of National Intelligence",
+      "Joint Service Committee on Military Justice",
+      "National Nuclear Security Administration"
     ],
     "deadlines": [
+      {
+        "date": "2026-01-17",
+        "requirement": "Remove covered AI from Defense systems, restrict contractor use, and consider department-wide guidance for other covered companies.",
+        "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
       {
         "date": "2026-04-01",
         "requirement": "Establish the Artificial Intelligence Futures Steering Committee.",
@@ -190,6 +224,14 @@
       {
         "date": "2026-12-18",
         "requirement": "Identify commonly used intelligence-community AI systems and functions suitable for reuse.",
+        "status": "upcoming",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "date": "2026-12-31",
+        "requirement": "Submit the required analyses to the House and Senate Armed Services committees.",
         "status": "upcoming",
         "source_ids": [
           "govinfo-law"

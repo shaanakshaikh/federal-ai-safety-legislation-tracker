@@ -1,0 +1,109 @@
+{
+  "record_id": "s-5016-118",
+  "measure_id": "S. 5016",
+  "title": "Combat Chinese Economic Aggression Act of 2024",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "Senate",
+  "scope": "Adjacent",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [
+    "Outbound investment",
+    "China"
+  ],
+  "lifecycle_status": "inactive",
+  "status": "Introduced / referred; expired at end of the 118th Congress",
+  "status_bucket": "Expired at end of the 118th Congress",
+  "committees": [
+    "Senate Banking, Housing, and Urban Affairs"
+  ],
+  "summary": "Would expand economic security and investment oversight, including notification obligations in covered sectors such as AI and advanced computing.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment. Introduced / referred was the furthest recorded stage.",
+  "congress_url": "https://www.congress.gov/bill/118th-congress/senate-bill/5016",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Bob Casey",
+  "sponsor_party": "D",
+  "sponsor_state": "PA",
+  "cosponsor_count": 0,
+  "introduced_date": "2024-09-10",
+  "last_action_date": "2024-09-10",
+  "last_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+  "committee_dynamics": "Official action history. Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for S. 5016",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5016",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/s/BILLSTATUS-118s5016.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for S. 5016",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118s5016is",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    }
+  ]
+}

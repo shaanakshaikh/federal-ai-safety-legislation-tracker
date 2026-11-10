@@ -1,0 +1,109 @@
+{
+  "record_id": "s-2606",
+  "measure_id": "S. 2606",
+  "title": "A bill to require the Commander of United States Cyber Command to complete development of a roadmap for industry collaboration on artificial intelligence-enabled cyber capabilities for cyberspace operations of the Department of Defense, and for other purposes.",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Cyber, model & infrastructure security",
+  "category_key": "security",
+  "secondary_categories": [
+    "Cyber Command",
+    "Defense industry coordination"
+  ],
+  "lifecycle_status": "referred",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "committees": [
+    "Senate Armed Services"
+  ],
+  "summary": "Would require U.S. Cyber Command to complete a roadmap for collaboration with industry on defense uses of AI-enabled cyber capabilities.",
+  "advance_tier": "Low",
+  "advance_rationale": "No committee advancement was recorded at the time of review.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2606",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Mike Rounds",
+  "sponsor_party": "R",
+  "sponsor_state": "SD",
+  "cosponsor_count": 0,
+  "introduced_date": "2025-07-31",
+  "last_action_date": "2025-07-31",
+  "last_action": "Read twice and referred to the Committee on Armed Services.",
+  "committee_dynamics": "Official action history. Read twice and referred to the Committee on Armed Services.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for S. 2606",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2606",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s2606.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for S. 2606",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s2606is",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    }
+  ]
+}

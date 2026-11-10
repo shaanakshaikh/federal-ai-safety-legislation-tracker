@@ -1,0 +1,110 @@
+{
+  "record_id": "h-r-3961",
+  "measure_id": "H.R. 3961",
+  "title": "To prohibit the Secretary of Defense from entering into software source code contracts with entities with certain relationships with China, and for other purposes.",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "security",
+  "secondary_categories": [
+    "Source-code acquisition",
+    "China",
+    "AI research ties"
+  ],
+  "lifecycle_status": "referred",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "committees": [
+    "House Armed Services"
+  ],
+  "summary": "Would bar certain Defense Department source-code contracts based on China-linked AI research facilities or covered-country access that could compromise software security.",
+  "advance_tier": "Low",
+  "advance_rationale": "No committee advancement was recorded at the time of review.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3961",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Pat Fallon",
+  "sponsor_party": "R",
+  "sponsor_state": "TX",
+  "cosponsor_count": 6,
+  "introduced_date": "2025-06-12",
+  "last_action_date": "2025-06-12",
+  "last_action": "Referred to the House Committee on Armed Services.",
+  "committee_dynamics": "Official action history. Referred to the House Committee on Armed Services.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 3961",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3961",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr3961.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 3961",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr3961ih",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "record_id": "s-4409-118",
+  "measure_id": "S. 4409",
+  "title": "Preventing Deepfakes of Intimate Images Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [
+    "Intimate digital depictions",
+    "Civil and criminal liability"
+  ],
+  "lifecycle_status": "inactive",
+  "status": "Introduced / referred; expired at end of the 118th Congress",
+  "status_bucket": "Expired at end of the 118th Congress",
+  "committees": [
+    "Senate Judiciary"
+  ],
+  "summary": "Would create or expand remedies and criminal prohibitions for specified nonconsensual disclosures of intimate digital depictions.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment. Introduced / referred was the furthest recorded stage.",
+  "congress_url": "https://www.congress.gov/bill/118th-congress/senate-bill/4409",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Maggie Hassan",
+  "sponsor_party": "D",
+  "sponsor_state": "NH",
+  "cosponsor_count": 3,
+  "introduced_date": "2024-05-23",
+  "last_action_date": "2024-05-23",
+  "last_action": "Read twice and referred to the Committee on the Judiciary.",
+  "committee_dynamics": "Official action history. Read twice and referred to the Committee on the Judiciary.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for S. 4409",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4409",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/s/BILLSTATUS-118s4409.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for S. 4409",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118s4409is",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-3106-118",
+      "title": "Official record of H.R. 3106",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/3106",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-1941",
+      "title": "Official record of H.R. 1941",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1941",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-h-r-3106-118",
+        "related-h-r-1941"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "h-r-3106-118",
+      "measure_id": "H.R. 3106",
+      "relationship": "related"
+    },
+    {
+      "record_id": "h-r-1941",
+      "measure_id": "H.R. 1941",
+      "relationship": "related"
+    }
+  ]
+}

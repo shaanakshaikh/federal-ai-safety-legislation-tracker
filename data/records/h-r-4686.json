@@ -1,0 +1,110 @@
+{
+  "record_id": "h-r-4686",
+  "measure_id": "H.R. 4686",
+  "title": "LIFT Act of 2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Aviation safety",
+    "Risk-based evaluation",
+    "Federal AI safeguards"
+  ],
+  "lifecycle_status": "referred",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "committees": [
+    "House Transportation and Infrastructure"
+  ],
+  "summary": "Would require AI-assisted aviation waiver review to support performance- and risk-based safety evaluations and follow federal AI-use guidance.",
+  "advance_tier": "Low",
+  "advance_rationale": "No committee advancement was recorded at the time of review.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4686",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Jennifer Kiggans",
+  "sponsor_party": "R",
+  "sponsor_state": "VA",
+  "cosponsor_count": 8,
+  "introduced_date": "2025-07-23",
+  "last_action_date": "2025-07-24",
+  "last_action": "Referred to the Subcommittee on Aviation.",
+  "committee_dynamics": "Official action history. Referred to the Subcommittee on Aviation.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 4686",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4686",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4686.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 4686",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr4686ih",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "record_id": "s-2325-118",
+  "measure_id": "S. 2325",
+  "title": "Algorithmic Justice and Online Platform Transparency Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Algorithmic discrimination",
+    "Online platforms"
+  ],
+  "lifecycle_status": "inactive",
+  "status": "Introduced / referred; expired at end of the 118th Congress",
+  "status_bucket": "Expired at end of the 118th Congress",
+  "committees": [
+    "Senate Commerce, Science, and Transportation"
+  ],
+  "summary": "Would bar specified discriminatory uses of personal information in online-platform algorithms and require disclosures about algorithmic operation.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment. Introduced / referred was the furthest recorded stage.",
+  "congress_url": "https://www.congress.gov/bill/118th-congress/senate-bill/2325",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Edward Markey",
+  "sponsor_party": "D",
+  "sponsor_state": "MA",
+  "cosponsor_count": 2,
+  "introduced_date": "2023-07-13",
+  "last_action_date": "2023-07-13",
+  "last_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+  "committee_dynamics": "Official action history. Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for S. 2325",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2325",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/s/BILLSTATUS-118s2325.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for S. 2325",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118s2325is",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-4624-118",
+      "title": "Official record of H.R. 4624",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/4624",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    }
+  ],
+  "related_measures": []
+}

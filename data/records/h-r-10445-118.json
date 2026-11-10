@@ -1,0 +1,150 @@
+{
+  "record_id": "h-r-10445-118",
+  "measure_id": "H.R. 10445",
+  "title": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act, 2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "House",
+  "scope": "Vehicle",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [
+    "Outbound investment",
+    "Intimate digital forgeries"
+  ],
+  "lifecycle_status": "inactive",
+  "status": "Introduced / referred; expired at end of the 118th Congress",
+  "status_bucket": "Expired at end of the 118th Congress",
+  "committees": [
+    "House Ways and Means",
+    "House Budget",
+    "House Appropriations"
+  ],
+  "summary": "The introduced continuing appropriations proposal would establish outbound controls for certain advanced AI investments and includes TAKE IT DOWN provisions governing nonconsensual intimate imagery.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment. Introduced / referred was the furthest recorded stage.",
+  "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/10445",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Tom Cole",
+  "sponsor_party": "R",
+  "sponsor_state": "OK",
+  "cosponsor_count": 1,
+  "introduced_date": "2024-12-17",
+  "last_action_date": "2024-12-17",
+  "last_action": "Referred to the Committee on Appropriations, and in addition to the Committees on the Budget, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+  "committee_dynamics": "Official action history. Referred to the Committee on Appropriations, and in addition to the Committees on the Budget, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 10445",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/10445",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hr/BILLSTATUS-118hr10445.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 10445",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118hr10445ih",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-8989-118",
+      "title": "Official record of H.R. 8989",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/8989",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-4569-118",
+      "title": "Official record of S. 4569",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4569",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-h-r-8989-118",
+        "related-s-4569-118"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "h-r-8989-118",
+      "measure_id": "H.R. 8989",
+      "relationship": "related"
+    },
+    {
+      "record_id": "s-4569-118",
+      "measure_id": "S. 4569",
+      "relationship": "related"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "record_id": "h-r-3514",
+  "measure_id": "H.R. 3514",
+  "title": "Improving Seniors’ Timely Access to Care Act of 2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Monitoring, disclosure & reporting",
+  "category_key": "monitoring",
+  "secondary_categories": [
+    "Medicare Advantage",
+    "Automated prior authorization",
+    "Access to care"
+  ],
+  "lifecycle_status": "committee_advanced",
+  "status": "Ordered reported 42–0",
+  "status_bucket": "Committee advanced",
+  "committees": [
+    "House Ways and Means",
+    "House Energy and Commerce"
+  ],
+  "summary": "Would require Medicare Advantage reporting on technology-assisted approvals and federal examination of how fully automated prior authorization affects access to care.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Ordered reported 42–0. Further action remains pending.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3514",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Mike Kelly",
+  "sponsor_party": "R",
+  "sponsor_state": "PA",
+  "cosponsor_count": 308,
+  "introduced_date": "2025-05-20",
+  "last_action_date": "2026-07-15",
+  "last_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 0.",
+  "committee_dynamics": "Official action history. Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 0.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 3514",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3514",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr3514.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 3514",
+      "publisher": "U.S. Congress",
+      "source_type": "official",
+      "url": "https://docs.house.gov/meetings/WM/WM00/20260715/119465/BILLS-119-3514-S001195-Amdt-1.pdf",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-1816",
+      "title": "Official record of S. 1816",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1816",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-s-1816"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "s-1816",
+      "measure_id": "S. 1816",
+      "relationship": "companion"
+    }
+  ]
+}

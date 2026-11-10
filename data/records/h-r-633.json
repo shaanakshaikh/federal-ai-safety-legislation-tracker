@@ -1,0 +1,148 @@
+{
+  "record_id": "h-r-633",
+  "measure_id": "H.R. 633",
+  "title": "TAKE IT DOWN Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [
+    "Intimate imagery",
+    "Platform removal"
+  ],
+  "lifecycle_status": "committee_advanced",
+  "status": "Reported / on calendar",
+  "status_bucket": "Committee advanced",
+  "committees": [
+    "House Energy and Commerce"
+  ],
+  "summary": "Would create criminal prohibitions for certain nonconsensual intimate imagery, including digital forgeries, and a platform notice-and-removal process. The Senate vehicle was enacted.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Reported / on calendar. Further action remains pending.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/633",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Maria Salazar",
+  "sponsor_party": "R",
+  "sponsor_state": "FL",
+  "cosponsor_count": 41,
+  "introduced_date": "2025-01-22",
+  "last_action_date": "2025-04-28",
+  "last_action": "Placed on the Union Calendar, Calendar No. 59.",
+  "committee_dynamics": "Official action history. Placed on the Union Calendar, Calendar No. 59.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 633",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/633",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr633.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 633",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr633ih",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-pl-119-12-take-it-down",
+      "title": "Official record of P.L. 119-12",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-8989-118",
+      "title": "Official record of H.R. 8989",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/8989",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-pl-119-12-take-it-down",
+        "related-h-r-8989-118"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "pl-119-12-take-it-down",
+      "measure_id": "P.L. 119-12",
+      "relationship": "companion"
+    },
+    {
+      "record_id": "h-r-8989-118",
+      "measure_id": "H.R. 8989",
+      "relationship": "reintroduction_of"
+    }
+  ]
+}

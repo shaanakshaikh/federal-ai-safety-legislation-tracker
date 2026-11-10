@@ -1,0 +1,149 @@
+{
+  "record_id": "h-r-8070-118",
+  "measure_id": "H.R. 8070",
+  "title": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "House",
+  "scope": "Vehicle",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "security",
+  "secondary_categories": [
+    "Defense AI",
+    "Allied testing"
+  ],
+  "lifecycle_status": "inactive",
+  "status": "Passed House; expired at end of the 118th Congress",
+  "status_bucket": "Expired at end of the 118th Congress",
+  "committees": [
+    "House Oversight and Government Reform",
+    "House Intelligence (Permanent Select)",
+    "House Ways and Means",
+    "House Foreign Affairs",
+    "House Small Business",
+    "House Judiciary",
+    "House Education and Workforce",
+    "House Budget",
+    "House Committee on House Administration",
+    "House Homeland Security",
+    "House Energy and Commerce",
+    "House Natural Resources",
+    "House Science, Space, and Technology",
+    "House Transportation and Infrastructure",
+    "House Veterans' Affairs",
+    "House Armed Services"
+  ],
+  "summary": "The House-passed FY2025 defense authorization bill includes an allied AI initiative to compare systems and test interoperability and safety when multiple AI models are used together.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment. Passed House was the furthest recorded stage.",
+  "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/8070",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Mike Rogers",
+  "sponsor_party": "R",
+  "sponsor_state": "AL",
+  "cosponsor_count": 14,
+  "introduced_date": "2024-04-18",
+  "last_action_date": "2024-07-08",
+  "last_action": "Received in the Senate.",
+  "committee_dynamics": "Official action history. Received in the Senate.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 8070",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/8070",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hr/BILLSTATUS-118hr8070.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 8070",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118hr8070eh",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-pl-118-159-sec-225",
+      "title": "Official record of P.L. 118-159 §§ 225, 236, 1531–1534, 6504",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/5009",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-pl-118-159-sec-225"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "pl-118-159-sec-225",
+      "measure_id": "P.L. 118-159 §§ 225, 236, 569F, 853, 1066, 1087, 1531–1534, 6504",
+      "relationship": "related"
+    }
+  ]
+}

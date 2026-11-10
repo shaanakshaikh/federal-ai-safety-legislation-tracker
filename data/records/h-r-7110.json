@@ -1,0 +1,142 @@
+{
+  "record_id": "h-r-7110",
+  "measure_id": "H.R. 7110",
+  "title": "Eliminating Bias in Algorithmic Systems Act of 2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Algorithmic discrimination",
+    "Federal civil rights oversight"
+  ],
+  "lifecycle_status": "referred",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "committees": [
+    "House Oversight and Government Reform"
+  ],
+  "summary": "Would require civil rights offices and reporting at federal agencies that use, fund or oversee covered algorithms.",
+  "advance_tier": "Low",
+  "advance_rationale": "No committee advancement was recorded at the time of review.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7110",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Summer Lee",
+  "sponsor_party": "D",
+  "sponsor_state": "PA",
+  "cosponsor_count": 16,
+  "introduced_date": "2026-01-15",
+  "last_action_date": "2026-01-15",
+  "last_action": "Referred to the House Committee on Oversight and Government Reform.",
+  "committee_dynamics": "Official action history. Referred to the House Committee on Oversight and Government Reform.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 7110",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7110",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7110.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 7110",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr7110ih",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-3680",
+      "title": "Official record of S. 3680",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3680",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-10092-118",
+      "title": "Official record of H.R. 10092",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/10092",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-s-3680"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "s-3680",
+      "measure_id": "S. 3680",
+      "relationship": "companion"
+    }
+  ]
+}

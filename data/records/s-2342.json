@@ -1,0 +1,134 @@
+{
+  "record_id": "s-2342",
+  "measure_id": "S. 2342",
+  "title": "Intelligence Authorization Act for Fiscal Year 2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "Senate",
+  "scope": "Vehicle",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "security",
+  "secondary_categories": [
+    "Intelligence community",
+    "High-impact AI"
+  ],
+  "lifecycle_status": "committee_advanced",
+  "status": "Committee advanced",
+  "status_bucket": "Committee advanced",
+  "committees": [
+    "Senate Intelligence (Select)"
+  ],
+  "summary": "The reported FY2026 Senate intelligence authorization bill would require inventory, testing, monitoring and human-oversight standards for high-impact intelligence-community AI uses.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Committee advanced. Further action remains pending.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2342",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Tom Cotton",
+  "sponsor_party": "R",
+  "sponsor_state": "AR",
+  "cosponsor_count": 0,
+  "introduced_date": "2025-07-17",
+  "last_action_date": "2025-07-29",
+  "last_action": "By Senator Cotton from Select Committee on Intelligence filed written report. Report No. 119-51. Minority views filed.",
+  "committee_dynamics": "Official action history. By Senator Cotton from Select Committee on Intelligence filed written report. Report No. 119-51. Minority views filed.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for S. 2342",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2342",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s2342.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for S. 2342",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s2342rs",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-pl-119-60-ai-institutes",
+      "title": "Official record of P.L. 119-60 §§ 224, 245, 1512–1515, 1533–1535, 6601–6604",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1071",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-pl-119-60-ai-institutes"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "pl-119-60-ai-institutes",
+      "measure_id": "P.L. 119-60 §§ 224, 245, 563, 1061, 1512–1515, 1532–1535, 3117, 6601–6604",
+      "relationship": "related"
+    }
+  ]
+}

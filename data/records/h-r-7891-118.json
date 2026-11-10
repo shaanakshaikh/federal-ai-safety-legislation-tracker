@@ -1,0 +1,149 @@
+{
+  "record_id": "h-r-7891-118",
+  "measure_id": "H.R. 7891",
+  "title": "Kids Online Safety Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Child safety",
+    "Recommender systems"
+  ],
+  "lifecycle_status": "inactive",
+  "status": "Committee advanced; expired at end of the 118th Congress",
+  "status_bucket": "Expired at end of the 118th Congress",
+  "committees": [
+    "House Energy and Commerce",
+    "House Education and Workforce"
+  ],
+  "summary": "Would require online safety protections for minors, including safeguards governing personalized recommendations and algorithmic ranking.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment. Committee advanced was the furthest recorded stage.",
+  "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/7891",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Gus Bilirakis",
+  "sponsor_party": "R",
+  "sponsor_state": "FL",
+  "cosponsor_count": 64,
+  "introduced_date": "2024-04-09",
+  "last_action_date": "2024-09-18",
+  "last_action": "Ordered to be Reported (Amended) by Voice Vote.",
+  "committee_dynamics": "Official action history. Ordered to be Reported (Amended) by Voice Vote.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 7891",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/7891",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hr/BILLSTATUS-118hr7891.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 7891",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118hr7891ih",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-1409-118",
+      "title": "Official record of S. 1409",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1409",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-2073-118",
+      "title": "Official record of S. 2073",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2073",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-s-1409-118",
+        "related-s-2073-118"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "s-1409-118",
+      "measure_id": "S. 1409",
+      "relationship": "companion"
+    },
+    {
+      "record_id": "s-2073-118",
+      "measure_id": "S. 2073",
+      "relationship": "related"
+    }
+  ]
+}

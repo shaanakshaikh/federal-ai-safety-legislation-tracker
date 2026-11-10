@@ -1,0 +1,90 @@
+{
+  "record_id": "pl-119-75-sec-6216",
+  "entity_type": "provision",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "measure_id": "P.L. 119-75 § 6216",
+  "title": "Report on wearable medical devices",
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "Bicameral",
+  "scope": "Adjacent",
+  "primary_category": "Evaluation, testing & standards",
+  "category_key": "evaluation",
+  "secondary_categories": [],
+  "lifecycle_status": "enacted",
+  "status": "Enacted — Public Law 119-75",
+  "status_bucket": "Enacted",
+  "committees": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": null,
+  "cosponsor_count": null,
+  "last_action_date": "2026-02-03",
+  "last_action": "Enacted as section 6216 of Public Law 119-75.",
+  "summary": "Requires the Comptroller General to assess the capabilities and limitations of wearable medical devices that inform clinical decisions, including potential benefits and challenges of AI augmentation, and report policy options to Congress.",
+  "committee_dynamics": "The provision was enacted through the Consolidated Appropriations Act, 2026.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+  "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ75",
+  "public_law": {
+    "number": "119-75",
+    "enacted_date": "2026-02-03",
+    "originating_bill": "H.R. 7148",
+    "statutes_at_large": "140 Stat. 173",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ75"
+  },
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official enacted text reviewed.",
+  "sources": [
+    {
+      "source_id": "govinfo-law",
+      "title": "Public Law 119-75, section 6216",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ75/pdf/PLAW-119publ75.pdf#page=483",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "enacted-provision",
+      "fields": [
+        "measure_id",
+        "title",
+        "official_url",
+        "public_law",
+        "status",
+        "lifecycle_status",
+        "last_action_date",
+        "last_action",
+        "summary",
+        "scope",
+        "primary_category",
+        "implementation"
+      ],
+      "source_ids": [
+        "govinfo-law"
+      ]
+    }
+  ],
+  "implementation": {
+    "responsible_agencies": [
+      "U.S. Government Accountability Office"
+    ],
+    "deadlines": [
+      {
+        "date": "2027-08-03",
+        "requirement": "Complete the technology assessment and report to Congress.",
+        "status": "upcoming",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

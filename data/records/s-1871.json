@@ -1,0 +1,135 @@
+{
+  "record_id": "s-1871",
+  "measure_id": "S. 1871",
+  "title": "Emerging Innovative Border Technologies Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "Senate",
+  "scope": "Adjacent",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "security",
+  "secondary_categories": [
+    "Border security",
+    "Risk assessments",
+    "Reliability monitoring"
+  ],
+  "lifecycle_status": "referred",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "committees": [
+    "Senate Homeland Security and Governmental Affairs"
+  ],
+  "summary": "Would require a CBP technology plan and responsible-AI compliance, including risk assessment and continuing monitoring for accuracy and reliability.",
+  "advance_tier": "Low",
+  "advance_rationale": "No committee advancement was recorded at the time of review.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1871",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Catherine Cortez Masto",
+  "sponsor_party": "D",
+  "sponsor_state": "NV",
+  "cosponsor_count": 1,
+  "introduced_date": "2025-05-22",
+  "last_action_date": "2025-05-22",
+  "last_action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+  "committee_dynamics": "Official action history. Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for S. 1871",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1871",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s1871.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for S. 1871",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s1871is",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-993",
+      "title": "Official record of H.R. 993",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/993",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-h-r-993"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "h-r-993",
+      "measure_id": "H.R. 993",
+      "relationship": "companion"
+    }
+  ]
+}

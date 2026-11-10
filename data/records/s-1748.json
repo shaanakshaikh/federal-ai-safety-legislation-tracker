@@ -1,0 +1,135 @@
+{
+  "record_id": "s-1748",
+  "measure_id": "S. 1748",
+  "title": "Kids Online Safety Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "Senate",
+  "scope": "Adjacent",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Children's online safety",
+    "Personalized recommendation systems",
+    "Safety controls"
+  ],
+  "lifecycle_status": "committee_advanced",
+  "status": "Committee advanced",
+  "status_bucket": "Committee advanced",
+  "committees": [
+    "Senate Commerce, Science, and Transportation"
+  ],
+  "summary": "Would require safeguards for minors on covered platforms, including the ability to opt out of AI-enabled personalized recommendations and disclosures about relevant risks.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Committee advanced. Further action remains pending.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1748",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Marsha Blackburn",
+  "sponsor_party": "R",
+  "sponsor_state": "TN",
+  "cosponsor_count": 76,
+  "introduced_date": "2025-05-14",
+  "last_action_date": "2026-08-05",
+  "last_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+  "committee_dynamics": "Official action history. Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for S. 1748",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1748",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s1748.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for S. 1748",
+      "publisher": "U.S. Congress",
+      "source_type": "official",
+      "url": "https://www.commerce.senate.gov/wp-content/uploads/2026/08/S.1748-BLACKURN-ANS_as-modified.pdf",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-7757",
+      "title": "Official record of H.R. 7757",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7757",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-h-r-7757"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "h-r-7757",
+      "measure_id": "H.R. 7757",
+      "relationship": "related"
+    }
+  ]
+}

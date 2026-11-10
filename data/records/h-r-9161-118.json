@@ -1,0 +1,146 @@
+{
+  "record_id": "h-r-9161-118",
+  "measure_id": "H.R. 9161",
+  "title": "Health Equity and Accountability Act of 2024",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "House",
+  "scope": "Vehicle",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Healthcare AI",
+    "Civil rights assessment"
+  ],
+  "lifecycle_status": "inactive",
+  "status": "Introduced / referred; expired at end of the 118th Congress",
+  "status_bucket": "Expired at end of the 118th Congress",
+  "committees": [
+    "House Agriculture",
+    "House Veterans' Affairs",
+    "House Transportation and Infrastructure",
+    "House Financial Services",
+    "House Homeland Security",
+    "House Armed Services",
+    "House Natural Resources",
+    "House Budget",
+    "House Judiciary",
+    "House Education and Workforce",
+    "House Oversight and Government Reform",
+    "House Ways and Means",
+    "House Energy and Commerce"
+  ],
+  "summary": "The health equity package would establish a task force to examine health care AI and algorithms, assess discrimination and civil rights risks, and recommend safeguards.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment. Introduced / referred was the furthest recorded stage.",
+  "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/9161",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Barbara Lee",
+  "sponsor_party": "D",
+  "sponsor_state": "CA",
+  "cosponsor_count": 41,
+  "introduced_date": "2024-07-25",
+  "last_action_date": "2024-09-23",
+  "last_action": "Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+  "committee_dynamics": "Official action history. Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 9161",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/9161",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hr/BILLSTATUS-118hr9161.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 9161",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118hr9161ih",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-4773-118",
+      "title": "Official record of S. 4773",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4773",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-s-4773-118"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "s-4773-118",
+      "measure_id": "S. 4773",
+      "relationship": "companion"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "record_id": "pl-119-60-sec-8521",
+  "entity_type": "provision",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "measure_id": "P.L. 119-60 § 8521",
+  "title": "Prohibition and notification on investments relating to covered national security transactions",
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "Bicameral",
+  "scope": "Core",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [],
+  "lifecycle_status": "enacted",
+  "status": "Enacted — Public Law 119-60",
+  "status_bucket": "Enacted",
+  "committees": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": null,
+  "cosponsor_count": null,
+  "last_action_date": "2025-12-18",
+  "last_action": "Enacted as section 8521 of Public Law 119-60.",
+  "summary": "Adds Title VIII to the Defense Production Act, authorizing Treasury to prohibit or require notification of certain outbound investments involving covered foreign persons and technologies, including specified AI systems and semiconductors.",
+  "committee_dynamics": "The provision was enacted through the National Defense Authorization Act for Fiscal Year 2026.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+  "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ60",
+  "public_law": {
+    "number": "119-60",
+    "enacted_date": "2025-12-18",
+    "originating_bill": "S. 1071",
+    "statutes_at_large": "139 Stat. 718",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ60"
+  },
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official enacted text reviewed.",
+  "sources": [
+    {
+      "source_id": "govinfo-law",
+      "title": "Public Law 119-60, section 8521",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf#page=1208",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "implementation-evidence",
+      "title": "Official implementation update",
+      "publisher": "Department of the Treasury",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-26/html/2026-21786.htm",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "enacted-provision",
+      "fields": [
+        "measure_id",
+        "title",
+        "official_url",
+        "public_law",
+        "status",
+        "lifecycle_status",
+        "last_action_date",
+        "last_action",
+        "summary",
+        "scope",
+        "primary_category",
+        "implementation"
+      ],
+      "source_ids": [
+        "govinfo-law"
+      ]
+    },
+    {
+      "claim_id": "current-implementation-evidence",
+      "fields": [
+        "implementation"
+      ],
+      "source_ids": [
+        "implementation-evidence"
+      ]
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-law"
+      ]
+    }
+  ],
+  "implementation": {
+    "responsible_agencies": [
+      "Department of the Treasury"
+    ],
+    "deadlines": [
+      {
+        "date": "2027-03-13",
+        "requirement": "Issue regulations implementing statutory notification requirements.",
+        "status": "upcoming",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      }
+    ],
+    "agency_status": [
+      {
+        "agency": "Department of the Treasury",
+        "status": "in_progress",
+        "as_of": "2026-10-26",
+        "detail": "Treasury published a proposed rule to implement COINS Act subtitle C. The notice sets December 7, 2026 as the deadline for written comments.",
+        "source_ids": [
+          "implementation-evidence"
+        ]
+      }
+    ]
+  },
+  "related_measures": [
+    {
+      "record_id": "pl-119-60-ai-institutes",
+      "measure_id": "P.L. 119-60 §§ 224, 245, 563, 1061, 1512–1515, 1532–1535, 3117, 6601–6604",
+      "relationship": "related"
+    }
+  ]
+}

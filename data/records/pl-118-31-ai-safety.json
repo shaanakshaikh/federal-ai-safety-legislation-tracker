@@ -7,7 +7,7 @@
     "state": null
   },
   "lifecycle_status": "enacted",
-  "measure_id": "P.L. 118-31 §§ 1541–1545, 7510, 7513",
+  "measure_id": "P.L. 118-31 §§ 251, 1507, 1521, 1523–1524, 1541–1545, 6303, 7507, 7510, 7513",
   "title": "National Defense Authorization Act for Fiscal Year 2024",
   "session": "118th Congress",
   "congress": 118,
@@ -39,6 +39,36 @@
   "summary": "The FY2024 NDAA created or expanded military and intelligence-community safeguards for AI acquisition, vulnerability testing, generative-AI detection, responsible use, and oversight of AI-assisted intelligence analysis.",
   "substance_sections": [
     {
+      "section": "§ 251",
+      "title": "Congressional notification of changes to Department of Defense policy on autonomy in weapon systems",
+      "summary": "Requires the Secretary of Defense to brief congressional defense committees within 30 days of modifying Directive 3000.09 on autonomy in weapon systems and explain the changes.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=77"
+    },
+    {
+      "section": "§ 1507",
+      "title": "Review and plan relating to cyber red teams of Department of Defense",
+      "summary": "Requires a Defense Department cyber red-team capability plan that accounts for foreign threats using AI or machine learning, updated red-team standards, implementation guidance, and annual progress reporting.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=406"
+    },
+    {
+      "section": "§ 1521",
+      "title": "Control and management of Department of Defense data; establishment of Chief Digital and Artificial Intelligence Officer Governing Council",
+      "summary": "Establishes the CDAO Governing Council for responsible use of AI and data. Requires guidance on ethical safeguards, bias mitigation, and access or distribution restrictions for AI models and evaluation resources.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=417"
+    },
+    {
+      "section": "§ 1523",
+      "title": "Management of data assets by Chief Digital and Artificial Intelligence Officer",
+      "summary": "Directs the CDAO to apply AI analytics to defense cyber data assets, coordinate with the Defense Department’s privacy and civil liberties official to ensure lawful data handling, and provide semiannual congressional briefings.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=419"
+    },
+    {
+      "section": "§ 1524",
+      "title": "Course of education and pilot program on authentication of digital content provenance for certain Department of Defense media content",
+      "summary": "Requires a Defense Media Activity course on digital forgeries and a pilot to authenticate the provenance of official Defense Department images and video. The statutory definition of digital forgery expressly includes AI and machine learning.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=420"
+    },
+    {
       "section": "§ 1541",
       "title": "CDAO acquisition authority",
       "summary": "Extends the Chief Digital and Artificial Intelligence Officer's special acquisition authority through fiscal year 2029 and requires plans and demonstrations showing how it will deliver operational AI capabilities.",
@@ -69,6 +99,18 @@
       "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=443"
     },
     {
+      "section": "§ 6303",
+      "title": "Establishment of the Chief Artificial Intelligence Officer of the Department of State",
+      "summary": "Creates a State Department chief AI officer with duties to evaluate and oversee responsible departmental adoption and advise the Secretary on ethical AI use in diplomacy.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=852"
+    },
+    {
+      "section": "§ 7507",
+      "title": "Programs for next-generation microelectronics in support of artificial intelligence",
+      "summary": "Directs the Director of National Intelligence, subject to funding, to establish or oversee a microelectronics research program whose required research focus includes safety and controls for generative AI applications in the intelligence community.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ31/pdf/PLAW-118publ31.pdf#page=955"
+    },
+    {
       "section": "§ 7510",
       "title": "Rules for AI-assisted intelligence products",
       "summary": "Requires the Director of National Intelligence to assess and update analytic and sourcing rules so intelligence products appropriately disclose and support the use of AI and machine-learning tools.",
@@ -95,7 +137,14 @@
   "implementation": {
     "responsible_agencies": [
       "Department of Defense",
-      "Office of the Director of National Intelligence"
+      "Office of the Director of National Intelligence",
+      "Defense Media Activity",
+      "Department of State",
+      "Intelligence Advanced Research Projects Activity",
+      "U.S. Cyber Command",
+      "Director of Operational Test and Evaluation",
+      "Chief Digital and Artificial Intelligence Officer Governing Council",
+      "Chief Digital and Artificial Intelligence Officer"
     ],
     "deadlines": [
       {
@@ -107,8 +156,32 @@
         ]
       },
       {
+        "date": "2024-04-20",
+        "requirement": "Provide the first implementation briefing to congressional defense and intelligence committees, followed by semiannual briefings.",
+        "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
         "date": "2024-06-19",
         "requirement": "Develop the foundation-model bug bounty program, subject to appropriations, under § 1542.",
+        "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "date": "2024-06-19",
+        "requirement": "Submit the Defense-wide cyber red-team plan.",
+        "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "date": "2024-06-19",
+        "requirement": "Submit the first report on council activities, with further reports at least every 18 months.",
         "status": "unknown",
         "source_ids": [
           "govinfo-law"
@@ -126,6 +199,38 @@
         "date": "2024-12-22",
         "requirement": "Complete the military AI functionality, research-needs, privacy, security, and accuracy study due one year after enactment.",
         "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "date": "2024-12-22",
+        "requirement": "Establish the Defense Information School course and carry out the pilot program.",
+        "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "date": "2025-01-31",
+        "requirement": "Include the first annual progress update, with updates through January 31, 2031.",
+        "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "date": "2026-01-01",
+        "requirement": "Report findings and recommendations on the provenance pilot to the Armed Services committees.",
+        "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "date": "2027-01-01",
+        "requirement": "Terminate the provenance pilot.",
+        "status": "upcoming",
         "source_ids": [
           "govinfo-law"
         ]

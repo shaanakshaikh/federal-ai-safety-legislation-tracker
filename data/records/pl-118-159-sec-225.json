@@ -7,7 +7,7 @@
     "state": null
   },
   "lifecycle_status": "enacted",
-  "measure_id": "P.L. 118-159 §§ 225, 236, 1531–1534, 6504",
+  "measure_id": "P.L. 118-159 §§ 225, 236, 569F, 853, 1066, 1087, 1531–1534, 6504",
   "title": "Servicemember Quality of Life Improvement and National Defense Authorization Act for Fiscal Year 2025",
   "session": "118th Congress",
   "congress": 118,
@@ -50,6 +50,30 @@
       "title": "AI and biotechnology pilot program",
       "summary": "Creates a pilot program to develop and demonstrate near-term AI and machine-learning applications for biotechnology and national-security missions.",
       "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=68"
+    },
+    {
+      "section": "§ 569F",
+      "title": "Analysis of prohibition on broadcast and distribution of digitally manipulated intimate images under the Uniform Code of Military Justice",
+      "summary": "Directs the Defense Department to assess whether to clarify the military offense of indecent viewing, recording, or broadcasting to cover digitally manipulated intimate images. The FY2026 NDAA explicitly expands the analysis to nonconsensual deepfakes and sets a reporting deadline.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=136"
+    },
+    {
+      "section": "§ 853",
+      "title": "Prohibition on procurement of covered semiconductor products and services from companies providing covered semiconductor products and services to Huawei",
+      "summary": "Bars the Defense Department from entering into or renewing covered semiconductor procurement contracts with entities knowingly providing covered semiconductor products or services to Huawei. Requires a vendor certification process and allows limited national-security waivers.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=229"
+    },
+    {
+      "section": "§ 1066",
+      "title": "Reports on approval and deployment of lethal autonomous weapon systems",
+      "summary": "Requires annual Defense Department reports to congressional defense committees on lethal autonomous weapon systems approved, waived, under review, or not approved under Directive 3000.09. FY2026 NDAA § 1061 expands the review information to include specified legal reviews.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=298"
+    },
+    {
+      "section": "§ 1087",
+      "title": "Establishment of Department of Defense working group on multilateral artificial intelligence coordination",
+      "summary": "Creates a Defense Department working group with allies and partners for joint AI testing and interoperability, multilevel security of training and operational data, and control of jointly generated technical data under participating countries’ export laws.",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/pdf/PLAW-118publ159.pdf#page=312"
     },
     {
       "section": "§ 1531",
@@ -97,7 +121,8 @@
     "responsible_agencies": [
       "Department of Defense",
       "Chief Digital and Artificial Intelligence Officer Governing Council",
-      "National Security Agency"
+      "National Security Agency",
+      "Joint Service Committee on Military Justice"
     ],
     "deadlines": [
       {
@@ -108,6 +133,54 @@
           "govinfo-law",
           "nsa-center-establishment",
           "nsa-center-establishment"
+        ]
+      },
+      {
+        "date": "2025-03-23",
+        "requirement": "Establish or designate the multilateral AI working group.",
+        "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "date": "2025-09-19",
+        "requirement": "Procurement prohibition begins and the Defense Department must implement a vendor certification process.",
+        "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "date": "2025-12-31",
+        "requirement": "First annual report due to congressional defense committees.",
+        "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "date": "2026-12-31",
+        "requirement": "Submit the analyses under § 569F as amended by FY2026 NDAA § 563.",
+        "status": "upcoming",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "date": "2028-09-30",
+        "requirement": "Working group terminates unless extended on national-security grounds.",
+        "status": "upcoming",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      },
+      {
+        "date": "2029-12-31",
+        "requirement": "Annual reporting requirement terminates.",
+        "status": "upcoming",
+        "source_ids": [
+          "govinfo-law"
         ]
       }
     ],
