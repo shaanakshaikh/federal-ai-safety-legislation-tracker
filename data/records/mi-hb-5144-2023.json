@@ -1,0 +1,105 @@
+{
+  "record_id": "mi-hb-5144-2023",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "MI"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "MI HB 5144 (2023)",
+  "title": "Michigan Election Law — Materially Deceptive Media",
+  "session": "2023 legislative session - MI",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Penelope Tsernoglou",
+  "sponsor_party": null,
+  "sponsor_state": "MI",
+  "committees": [],
+  "introduced_date": "2023-10-12",
+  "last_action_date": "2023-11-30",
+  "last_action": "Approved by the Governor",
+  "status": "Approved by the Governor",
+  "status_bucket": "Enacted",
+  "summary": "Restricts distribution of materially deceptive media intended to influence elections during the statutory pre-election period. Provides for disclosures, exceptions, and penalties.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.legislature.mi.gov/Bills/Bill?ObjectName=2023-HB-5144",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "MI HB 5144 (2023) legislative record",
+      "publisher": "MI legislature",
+      "source_type": "official",
+      "url": "https://www.legislature.mi.gov/Bills/Bill?ObjectName=2023-HB-5144",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "MI HB 5144 (2023) official text",
+      "publisher": "MI legislature",
+      "source_type": "official",
+      "url": "https://www.legislature.mi.gov/documents/2023-2024/publicact/pdf/2023-PA-0265.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Public Act 265 of 2023",
+    "enacted_date": "2023-11-30",
+    "effective_date": null
+  }
+}

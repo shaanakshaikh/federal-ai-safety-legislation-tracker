@@ -1,0 +1,122 @@
+{
+  "record_id": "ny-s-7543-2023",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "NY"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "NY S 7543 (2023)",
+  "title": "Legislative Oversight of Automated Decision-making in Government Act",
+  "session": "2023–2024 Legislative Session - NY",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Kristen Gonzalez",
+  "sponsor_party": null,
+  "sponsor_state": "NY",
+  "committees": [],
+  "introduced_date": "2023-06-05",
+  "last_action_date": "2024-12-21",
+  "last_action": "Signed by the Governor as Chapter 674, Laws of 2024.",
+  "status": "Chapter 674, Laws of 2024",
+  "status_bucket": "Enacted",
+  "summary": "Establishes oversight of automated decision-making in state agencies. The law requires impact assessments and safeguards for consequential uses, including meaningful human review.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.nysenate.gov/legislation/bills/2023/S7543",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "NY S 7543 (2023) legislative record",
+      "publisher": "New York State Senate",
+      "source_type": "official",
+      "url": "https://www.nysenate.gov/legislation/bills/2023/S7543",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "NY S 7543 (2023) official text",
+      "publisher": "New York State Senate",
+      "source_type": "official",
+      "url": "https://legislation.nysenate.gov/pdf/bills/2023/S7543B",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Chapter 674, Laws of 2024",
+    "enacted_date": "2024-12-21",
+    "effective_date": null
+  },
+  "related_measures": [
+    {
+      "record_id": "ny-a-9430-2024",
+      "measure_id": "NY A 9430 (2024)",
+      "relationship": "companion"
+    },
+    {
+      "record_id": "ny-s-822-2025",
+      "measure_id": "NY S 822 (2025)",
+      "relationship": "related"
+    },
+    {
+      "record_id": "ny-s-7599-2025",
+      "measure_id": "NY S 7599 (2025)",
+      "relationship": "related"
+    }
+  ]
+}

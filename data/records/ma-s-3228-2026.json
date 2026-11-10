@@ -1,0 +1,110 @@
+{
+  "record_id": "ma-s-3228-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "MA"
+  },
+  "lifecycle_status": "passed_chamber",
+  "measure_id": "MA S 3228 (2026)",
+  "title": "Senate amendment to An Act relative to economic development in the commonwealth",
+  "session": "2026 legislative session - MA",
+  "chamber": "State legislature",
+  "scope": "Vehicle",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": "MA",
+  "committees": [],
+  "introduced_date": "2026-07-24",
+  "last_action_date": "2026-07-30",
+  "last_action": "The chambers appointed conferees on the Senate amendment to H.5576.",
+  "status": "In conference",
+  "status_bucket": "Passed One Chamber",
+  "summary": "Would create a frontier-model safety framework, including catastrophic-risk management, incident reporting and protections for whistleblowers, within the Senate’s proposed economic development package.",
+  "advance_tier": "Medium",
+  "advance_rationale": "The originating chamber passed the bill. Further action is required.",
+  "official_url": "https://malegislature.gov/Committees/ConferenceCommitteeMatters",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "MA S 3228 (2026) legislative record",
+      "publisher": "Massachusetts General Court",
+      "source_type": "official",
+      "url": "https://malegislature.gov/Committees/ConferenceCommitteeMatters",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "MA S 3228 (2026) official text",
+      "publisher": "Massachusetts General Court",
+      "source_type": "official",
+      "url": "https://malegislature.gov/Bills/194/S3228.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "ma-h-5576-2026",
+      "measure_id": "MA H 5576 (2026)",
+      "relationship": "companion"
+    },
+    {
+      "record_id": "ma-s-3178-2026",
+      "measure_id": "MA S 3178 (2026)",
+      "relationship": "related"
+    }
+  ]
+}

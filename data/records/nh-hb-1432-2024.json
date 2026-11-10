@@ -1,0 +1,105 @@
+{
+  "record_id": "nh-hb-1432-2024",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "NH"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "NH HB 1432 (2024)",
+  "title": "Relative to prohibiting certain uses of deepfakes and creating a private claim of action",
+  "session": "2024 legislative session - NH",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Jeffrey Greeson",
+  "sponsor_party": null,
+  "sponsor_state": "NH",
+  "committees": [],
+  "introduced_date": "2024-01-03",
+  "last_action_date": "2024-07-19",
+  "last_action": "Signed by the Governor as Chapter 243.",
+  "status": "Signed by the Governor as Chapter 243",
+  "status_bucket": "Enacted",
+  "summary": "Creates an offense for fraudulent use of deepfakes and allows a civil claim for specified harmful uses.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://gc.nh.gov/bill_status/legacy/bs2016/bill_status.aspx?lsr=2152&sortoption=&sy=2024&txtbillnumber=HB1432&txtsessionyear=2024",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "NH HB 1432 (2024) legislative record",
+      "publisher": "New Hampshire General Court",
+      "source_type": "official",
+      "url": "https://gc.nh.gov/bill_status/legacy/bs2016/bill_status.aspx?lsr=2152&sortoption=&sy=2024&txtbillnumber=HB1432&txtsessionyear=2024",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "NH HB 1432 (2024) official text",
+      "publisher": "New Hampshire General Court",
+      "source_type": "official",
+      "url": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?id=1830&sy=2024&txtFormat=html",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Chapter 243, Laws of 2024",
+    "enacted_date": "2024-07-19",
+    "effective_date": null
+  }
+}

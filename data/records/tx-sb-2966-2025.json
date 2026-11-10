@@ -1,0 +1,98 @@
+{
+  "record_id": "tx-sb-2966-2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "TX"
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "TX SB 2966 (2025)",
+  "title": "Relating to establishing a framework to govern the use of artificial intelligence systems in critical decision-making by private companies and ensure consumer protections; authorizing a civil penalty.",
+  "session": "2025 legislative session - TX",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Schwertner",
+  "sponsor_party": null,
+  "sponsor_state": "TX",
+  "committees": [],
+  "introduced_date": "2025-04-07",
+  "last_action_date": "2025-04-07",
+  "last_action": "Referred to Business & Commerce",
+  "status": "Referred to Business & Commerce",
+  "status_bucket": "In Committee",
+  "summary": "Would establish safeguards for private-sector use of AI in consequential decisions, including governance duties for covered companies and civil enforcement.",
+  "advance_tier": "Low",
+  "advance_rationale": "Further legislative action is required.",
+  "official_url": "https://capitol.texas.gov/billlookup/History.aspx?Bill=SB2966&LegSess=89R",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "TX SB 2966 (2025) legislative record",
+      "publisher": "Texas Legislature Online",
+      "source_type": "official",
+      "url": "https://capitol.texas.gov/billlookup/History.aspx?Bill=SB2966&LegSess=89R",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "TX SB 2966 (2025) official text",
+      "publisher": "Texas Legislature Online",
+      "source_type": "official",
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB02966I.htm",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

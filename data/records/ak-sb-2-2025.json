@@ -1,0 +1,98 @@
+{
+  "record_id": "ak-sb-2-2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "AK"
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "AK SB 2 (2025)",
+  "title": "AI, Deepfakes, Cybersecurity, Data Transfers",
+  "session": "2025 legislative session - AK",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Shelley Hughes",
+  "sponsor_party": null,
+  "sponsor_state": "AK",
+  "committees": [],
+  "introduced_date": "2025-01-22",
+  "last_action_date": "2025-04-29",
+  "last_action": "The Senate State Affairs Committee heard and held the bill.",
+  "status": "Heard & Held",
+  "status_bucket": "Inactive",
+  "summary": "Would require disclosures for specified election deepfakes and regulate state agency use of AI and data transfers.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%20%202",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "AK SB 2 (2025) legislative record",
+      "publisher": "AK legislature",
+      "source_type": "official",
+      "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20%20%202",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "AK SB 2 (2025) official text",
+      "publisher": "AK legislature",
+      "source_type": "official",
+      "url": "https://www.akleg.gov/PDF/34/Bills/SB0002A.PDF",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

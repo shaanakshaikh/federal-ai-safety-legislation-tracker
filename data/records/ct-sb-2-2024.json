@@ -1,0 +1,107 @@
+{
+  "record_id": "ct-sb-2-2024",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "CT"
+  },
+  "lifecycle_status": "failed",
+  "measure_id": "CT SB 2 (2024)",
+  "title": "An Act Concerning Artificial Intelligence",
+  "session": "2024 legislative session - CT",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": "CT",
+  "committees": [
+    "Joint Committee on General Law"
+  ],
+  "introduced_date": "2024-02-07",
+  "last_action_date": "2024-04-25",
+  "last_action": "Placed on the House calendar after Senate passage. The session ended without House passage.",
+  "status": "Died on adjournment",
+  "status_bucket": "Failed",
+  "summary": "Would impose impact-assessment and risk-management duties on deployers of high-risk AI systems. The proposal also addressed deceptive AI-generated media and nonconsensual synthetic intimate images.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://www.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?bill_num=SB00002&selBillType=Bill&which_year=2024",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "CT SB 2 (2024) legislative record",
+      "publisher": "Connecticut General Assembly",
+      "source_type": "official",
+      "url": "https://www.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?bill_num=SB00002&selBillType=Bill&which_year=2024",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "CT SB 2 (2024) official text",
+      "publisher": "Connecticut General Assembly",
+      "source_type": "official",
+      "url": "https://www.cga.ct.gov/2024/FC/PDF/2024SB-00002-R000188-FC.PDF",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "ct-sb-2-2025",
+      "measure_id": "CT SB 2 (2025)",
+      "relationship": "reintroduced_as"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "record_id": "mi-hb-4048-2025",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "MI"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "MI HB 4048 (2025)",
+  "title": "Sentencing Guidelines for Dissemination of Intimate Deep Fakes",
+  "session": "2025 legislative session - MI",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Penelope Tsernoglou",
+  "sponsor_party": null,
+  "sponsor_state": "MI",
+  "committees": [],
+  "introduced_date": "2025-01-30",
+  "last_action_date": "2025-08-26",
+  "last_action": "Approved by the Governor",
+  "status": "Approved by the Governor",
+  "status_bucket": "Enacted",
+  "summary": "Adds sentencing guidelines for felony offenses established in the companion Protection from Intimate Deep Fakes Act.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4048",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "MI HB 4048 (2025) legislative record",
+      "publisher": "MI legislature",
+      "source_type": "official",
+      "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4048",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "MI HB 4048 (2025) official text",
+      "publisher": "MI legislature",
+      "source_type": "official",
+      "url": "https://www.legislature.mi.gov/documents/2025-2026/publicact/htm/2025-PA-0012.htm",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Public Act 12 of 2025",
+    "enacted_date": "2025-08-26",
+    "effective_date": null
+  },
+  "related_measures": [
+    {
+      "record_id": "mi-hb-4047-2025",
+      "measure_id": "MI HB 4047 (2025)",
+      "relationship": "companion"
+    }
+  ]
+}

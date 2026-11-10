@@ -1,0 +1,105 @@
+{
+  "record_id": "wi-ab-1109-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "WI"
+  },
+  "lifecycle_status": "failed",
+  "measure_id": "WI AB 1109 (2026)",
+  "title": "Use of artificial intelligence to deny prior authorization for medical necessity or experimental status",
+  "session": "2026 legislative session - WI",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Angelito Tenorio",
+  "sponsor_party": null,
+  "sponsor_state": "WI",
+  "committees": [],
+  "introduced_date": "2026-03-13",
+  "last_action_date": "2026-03-23",
+  "last_action": "Failed to pass pursuant to Senate Joint Resolution 1",
+  "status": "Failed to pass pursuant to Senate Joint Resolution 1",
+  "status_bucket": "Failed",
+  "summary": "Restricts the use of AI in adverse prior authorization determinations concerning medical necessity or experimental status.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://docs.legis.wisconsin.gov/2025/proposals/ab1109",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "WI AB 1109 (2026) legislative record",
+      "publisher": "WI legislature",
+      "source_type": "official",
+      "url": "https://docs.legis.wisconsin.gov/2025/proposals/ab1109",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "WI AB 1109 (2026) official text",
+      "publisher": "WI legislature",
+      "source_type": "official",
+      "url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB1109",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "wi-sb-1066-2026",
+      "measure_id": "WI SB 1066 (2026)",
+      "relationship": "companion"
+    }
+  ]
+}

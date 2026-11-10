@@ -1,0 +1,120 @@
+{
+  "record_id": "la-hb-119-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "LA"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "LA HB 119 (2026)",
+  "title": "Provides relative to unlawful conduct involving images of another person created by artificial intelligence",
+  "session": "2026 legislative session - LA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Bryan Fontenot",
+  "sponsor_party": null,
+  "sponsor_state": "LA",
+  "committees": [],
+  "introduced_date": "2026-03-09",
+  "last_action_date": "2026-06-09",
+  "last_action": "Signed by the Governor. Becomes Act No. 782.",
+  "status": "Signed by the Governor - Act 782",
+  "status_bucket": "Enacted",
+  "summary": "Amends Louisiana's criminal law governing unlawful conduct involving AI-created images of another person.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://legis.la.gov/legis/BillInfo.aspx?b=HB119&s=26RS",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "LA HB 119 (2026) legislative record",
+      "publisher": "Louisiana State Legislature",
+      "source_type": "official",
+      "url": "https://legis.la.gov/legis/BillInfo.aspx?b=HB119&s=26RS",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "LA HB 119 (2026) official text",
+      "publisher": "Louisiana State Legislature",
+      "source_type": "official",
+      "url": "https://legis.la.gov/legis/ViewDocument.aspx?d=1481219",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Act 782",
+    "enacted_date": "2026-06-09",
+    "effective_date": "2026-08-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2026-08-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

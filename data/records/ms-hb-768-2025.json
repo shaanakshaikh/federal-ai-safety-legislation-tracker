@@ -1,0 +1,98 @@
+{
+  "record_id": "ms-hb-768-2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "MS"
+  },
+  "lifecycle_status": "failed",
+  "measure_id": "MS HB 768 (2025)",
+  "title": "\"Ensuring Likeness, Voice and Image Security (ELVIS) Act of 2025\"; enact to expand protections against artificial intelligence deep fakes.",
+  "session": "2025 legislative session - MS",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Ford (73rd)",
+  "sponsor_party": null,
+  "sponsor_state": "MS",
+  "committees": [],
+  "introduced_date": "2025-01-16",
+  "last_action_date": "2025-02-04",
+  "last_action": "(H) Died In Committee",
+  "status": "(H) Died In Committee",
+  "status_bucket": "Failed",
+  "summary": "Would expand protections against unauthorized AI-generated reproductions of a person’s voice, likeness, or image.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://billstatus.ls.state.ms.us/2025/pdf/history/HB/HB0768.xml",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "MS HB 768 (2025) legislative record",
+      "publisher": "Mississippi Legislature",
+      "source_type": "official",
+      "url": "https://billstatus.ls.state.ms.us/2025/pdf/history/HB/HB0768.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "MS HB 768 (2025) official text",
+      "publisher": "Mississippi Legislature",
+      "source_type": "official",
+      "url": "https://billstatus.ls.state.ms.us/documents/2025/html/HB/0700-0799/HB0768IN.htm",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

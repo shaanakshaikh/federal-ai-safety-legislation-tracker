@@ -1,0 +1,105 @@
+{
+  "record_id": "pa-sb-1090-2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "PA"
+  },
+  "lifecycle_status": "passed_chamber",
+  "measure_id": "PA SB 1090 (2025)",
+  "title": "An Act providing for disclosures and safeguards relating to the use of artificial intelligence",
+  "session": "2025–2026 Regular Session - PA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Tracy Pennycuick",
+  "sponsor_party": null,
+  "sponsor_state": "PA",
+  "committees": [],
+  "introduced_date": "2025-11-14",
+  "last_action_date": "2026-03-18",
+  "last_action": "Referred to House Communications and Technology after Senate passage, 49–1.",
+  "status": "Passed Senate; in House committee",
+  "status_bucket": "Passed One Chamber",
+  "summary": "Would require AI companion platforms to disclose their nonhuman status and implement protocols to prevent specified harmful responses, including encouragement of self-harm or violence.",
+  "advance_tier": "Medium",
+  "advance_rationale": "The originating chamber passed the bill. Further action is required.",
+  "official_url": "https://www.palegis.us/legislation/bills/2025/sb1090",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "PA SB 1090 (2025) legislative record",
+      "publisher": "Pennsylvania General Assembly",
+      "source_type": "official",
+      "url": "https://www.palegis.us/legislation/bills/2025/sb1090",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "PA SB 1090 (2025) official text",
+      "publisher": "Pennsylvania General Assembly",
+      "source_type": "official",
+      "url": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/SB1090/PN1423",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "pa-hb-2006-2025",
+      "measure_id": "PA HB 2006 (2025)",
+      "relationship": "related"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "record_id": "wa-sb-5962-2024",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "WA"
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "WA SB 5962 (2024)",
+  "title": "Concerning fabricated intimate or sexually explicit images and depictions",
+  "session": "2024 legislative session - WA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Mark Mullet",
+  "sponsor_party": null,
+  "sponsor_state": "WA",
+  "committees": [],
+  "introduced_date": "2024-01-08",
+  "last_action_date": "2024-01-08",
+  "last_action": "Read for the first time and referred to Senate Law and Justice.",
+  "status": "Prior session ended without enactment",
+  "status_bucket": "Inactive",
+  "summary": "Senate companion to the measure creating remedies for nonconsensual disclosure of fabricated intimate images and expanding certain offenses to cover fabricated images of minors.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://app.leg.wa.gov/billsummary/?BillNumber=5962&Chamber=Senate&Year=2023",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "WA SB 5962 (2024) legislative record",
+      "publisher": "Washington State Legislature",
+      "source_type": "official",
+      "url": "https://app.leg.wa.gov/billsummary/?BillNumber=5962&Chamber=Senate&Year=2023",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "WA SB 5962 (2024) official text",
+      "publisher": "Washington State Legislature",
+      "source_type": "official",
+      "url": "https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/Senate%20Bills/5962.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "wa-hb-1999-2024",
+      "measure_id": "WA HB 1999 (2024)",
+      "relationship": "companion"
+    }
+  ]
+}

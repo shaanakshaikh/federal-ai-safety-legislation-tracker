@@ -1,0 +1,96 @@
+{
+  "record_id": "me-ld-2082-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "ME"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "ME LD 2082 (2026)",
+  "title": "An Act to Regulate the Use of Artificial Intelligence in Providing Certain Mental Health Services",
+  "session": "2026 legislative session - ME",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": "ME",
+  "committees": [],
+  "introduced_date": "2026-01-07",
+  "last_action_date": "2026-04-13",
+  "last_action": "Signed by the Governor as Public Law 2025, chapter 687.",
+  "status": "Public Law 2025, chapter 687",
+  "status_bucket": "Enacted",
+  "summary": "Restricts the use of artificial intelligence to provide mental health services. Allows defined assistive uses while reserving clinical care for appropriately qualified people.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=2082&snum=132",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "ME LD 2082 (2026) legislative record",
+      "publisher": "Maine Legislature",
+      "source_type": "official",
+      "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=2082&snum=132",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Public Law 2025, chapter 687",
+    "enacted_date": "2026-04-13",
+    "effective_date": null
+  }
+}

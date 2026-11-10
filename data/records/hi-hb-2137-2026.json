@@ -1,0 +1,105 @@
+{
+  "record_id": "hi-hb-2137-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "HI"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "HI HB 2137 (2026)",
+  "title": "Relating to Artificial Intelligence",
+  "session": "2026 legislative session - HI",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Mike Lee",
+  "sponsor_party": null,
+  "sponsor_state": "HI",
+  "committees": [],
+  "introduced_date": "2026-01-28",
+  "last_action_date": "2026-07-14",
+  "last_action": "The governor signed the bill.",
+  "status": "Act 247, on 07/14/2026 (Gov. Msg. No. 1349)",
+  "status_bucket": "Enacted",
+  "summary": "Prohibits certain harmful uses of unauthorized realistic AI-generated digital imitations and establishes civil remedies, subject to defined exceptions.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://data.capitol.hawaii.gov/session/measure_indiv.aspx?billnumber=2137&billtype=HB&year=2026",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "HI HB 2137 (2026) legislative record",
+      "publisher": "HI legislature",
+      "source_type": "official",
+      "url": "https://data.capitol.hawaii.gov/session/measure_indiv.aspx?billnumber=2137&billtype=HB&year=2026",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "HI HB 2137 (2026) official text",
+      "publisher": "HI legislature",
+      "source_type": "official",
+      "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2137_CD1_.HTM",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Act 247",
+    "enacted_date": "2026-07-14",
+    "effective_date": null
+  }
+}

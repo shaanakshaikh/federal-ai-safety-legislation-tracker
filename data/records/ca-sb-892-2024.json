@@ -1,0 +1,98 @@
+{
+  "record_id": "ca-sb-892-2024",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "CA"
+  },
+  "lifecycle_status": "vetoed",
+  "measure_id": "CA SB 892 (2024)",
+  "title": "Public contracts: automated decision systems: procurement standards",
+  "session": "2024 legislative session - CA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Steve Padilla",
+  "sponsor_party": null,
+  "sponsor_state": "CA",
+  "committees": [],
+  "introduced_date": "2024-01-03",
+  "last_action_date": "2024-09-20",
+  "last_action": "The governor vetoed the bill.",
+  "status": "Vetoed by the Governor",
+  "status_bucket": "Vetoed",
+  "summary": "Would have required California to develop safeguards for state acquisition of automated decision systems and require compliance in covered public contracts.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB892",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "CA SB 892 (2024) legislative record",
+      "publisher": "CA legislature",
+      "source_type": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB892",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "CA SB 892 (2024) official text",
+      "publisher": "CA legislature",
+      "source_type": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB892",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "record_id": "tn-hb-1470-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "TN"
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "TN HB 1470 (2026)",
+  "title": "AN ACT to amend Tennessee Code Annotated, Title 33; Title 47 and Title 63, relative to mental health.",
+  "session": "2026 legislative session - TN",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Hicks T",
+  "sponsor_party": null,
+  "sponsor_state": "TN",
+  "committees": [],
+  "introduced_date": "2026-01-13",
+  "last_action_date": "2026-04-06",
+  "last_action": "Comp. became Pub. Ch. 647",
+  "status": "Comp. became Pub. Ch. 647",
+  "status_bucket": "Inactive",
+  "summary": "Would prohibit developing or deploying AI represented to the public as a qualified mental health professional. The Senate companion became law.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB1470&GA=114",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "TN HB 1470 (2026) legislative record",
+      "publisher": "Tennessee General Assembly",
+      "source_type": "official",
+      "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB1470&GA=114",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "TN HB 1470 (2026) official text",
+      "publisher": "Tennessee General Assembly",
+      "source_type": "official",
+      "url": "https://www.capitol.tn.gov/Bills/114/Bill/HB1470.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "tn-sb-1580-2026",
+      "measure_id": "TN SB 1580 (2026)",
+      "relationship": "companion"
+    }
+  ]
+}

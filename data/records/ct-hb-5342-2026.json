@@ -1,0 +1,107 @@
+{
+  "record_id": "ct-hb-5342-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "CT"
+  },
+  "lifecycle_status": "failed",
+  "measure_id": "CT HB 5342 (2026)",
+  "title": "An Act Concerning The Use Of Artificial Intelligence And Other Means To Generate Deceptive Synthetic Media And Affect Elections",
+  "session": "2026 legislative session - CT",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": "CT",
+  "committees": [
+    "Joint Committee on Government Administration and Elections"
+  ],
+  "introduced_date": "2026-02-26",
+  "last_action_date": "2026-04-20",
+  "last_action": "Tabled for the Calendar, House.",
+  "status": "Died on adjournment",
+  "status_bucket": "Failed",
+  "summary": "Would regulate deceptive synthetic media used to affect Connecticut elections, including AI-generated depictions.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://www.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?bill_num=HB05342&selBillType=Bill&which_year=2026",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "CT HB 5342 (2026) legislative record",
+      "publisher": "Connecticut General Assembly",
+      "source_type": "official",
+      "url": "https://www.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?bill_num=HB05342&selBillType=Bill&which_year=2026",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "CT HB 5342 (2026) official text",
+      "publisher": "Connecticut General Assembly",
+      "source_type": "official",
+      "url": "https://www.cga.ct.gov/2026/FC/PDF/2026HB-05342-R000517-FC.PDF",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "ct-hb-6846-2025",
+      "measure_id": "CT HB 6846 (2025)",
+      "relationship": "reintroduction_of"
+    }
+  ]
+}

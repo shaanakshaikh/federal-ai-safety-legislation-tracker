@@ -1,12 +1,12 @@
 # Federal AI Safety & Security Legislation Tracker
 
-An open-source, research-oriented tracker of federal and state AI safety and security legislation, enacted laws, and implementation activity. Federal coverage begins with the 118th Congress; state coverage is a curated safety/security set verified through **October 29, 2026**.
+An open-source, research-oriented tracker of federal and state AI safety and security legislation, enacted laws, and implementation activity. Federal coverage begins with the 118th Congress. The state inventory covers qualifying legislation from 2023 onward, with a November 2026 review across all 50 states and the District of Columbia.
 
 ## What is tracked
 
 The dataset covers core safety and security measures, adjacent governance proposals, must-pass legislative vehicles, enacted public laws and provisions, implementation deadlines, and agency status. It includes lifecycle, jurisdiction, state/session, sponsor, committee, policy-category, source, and verification fields.
 
-State coverage follows the [formal inclusion criteria](methodology/inclusion-criteria.md). Open States is a discovery layer only: every published state record must be verified against an official state source.
+State coverage follows the [formal inclusion criteria](methodology/inclusion-criteria.md). Discovery combines multistate legislative indexes with targeted searches. Every published state record cites an official state source.
 
 The site is a static application: it has no database, account system, or serverless functions. This keeps the public snapshot portable across Vercel, GitHub Pages, and ordinary static web servers.
 

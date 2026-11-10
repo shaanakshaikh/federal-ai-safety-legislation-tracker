@@ -1,0 +1,120 @@
+{
+  "record_id": "or-sb-1546-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "OR"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "OR SB 1546 (2026)",
+  "title": "Relating to artificial intelligence companions",
+  "session": "2026 legislative session - OR",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "Senate Interim Committee on Early Childhood and Behavioral Health (at request)",
+  "sponsor_party": null,
+  "sponsor_state": "OR",
+  "committees": [],
+  "introduced_date": "2026-02-02",
+  "last_action_date": "2026-03-31",
+  "last_action": "The governor signed the bill.",
+  "status": "Governor signed",
+  "status_bucket": "Enacted",
+  "summary": "Requires AI companion operators to implement crisis response protocols and additional safeguards for minors, publish annual reports on crisis referrals, and provide disclosures. People harmed by violations may sue.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://olis.oregonlegislature.gov/liz/2026R1/Measures/Overview/SB1546",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "OR SB 1546 (2026) legislative record",
+      "publisher": "OR legislature",
+      "source_type": "official",
+      "url": "https://olis.oregonlegislature.gov/liz/2026R1/Measures/Overview/SB1546",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "OR SB 1546 (2026) official text",
+      "publisher": "OR legislature",
+      "source_type": "official",
+      "url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1546/Enrolled",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "85",
+    "enacted_date": "2026-03-31",
+    "effective_date": "2027-01-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2027-01-01",
+        "requirement": "Statutory effective date.",
+        "status": "upcoming",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

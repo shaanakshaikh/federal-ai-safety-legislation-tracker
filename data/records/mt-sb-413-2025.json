@@ -1,0 +1,111 @@
+{
+  "record_id": "mt-sb-413-2025",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "MT"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "MT SB 413 (2025)",
+  "title": "Criminalize disclosure of certain explicit AI-generated media",
+  "session": "2025 legislative session - MT",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Laura Smith",
+  "sponsor_party": null,
+  "sponsor_state": "MT",
+  "committees": [],
+  "introduced_date": "2025-02-21",
+  "last_action_date": "2025-05-13",
+  "last_action": "The governor signed the bill.",
+  "status": "Signed by Governor",
+  "status_bucket": "Enacted",
+  "summary": "Criminalizes disclosure of specified explicit synthetic media depicting an identifiable person under the conditions set out in the act.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://static.legmt.gov/Laws/MCA-Supplements/2025historyandFinalStatus_Updated.pdf",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "MT SB 413 (2025) legislative record",
+      "publisher": "Montana Legislature",
+      "source_type": "official",
+      "url": "https://static.legmt.gov/Laws/MCA-Supplements/2025historyandFinalStatus_Updated.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "606",
+    "enacted_date": "2025-05-13",
+    "effective_date": "2025-05-13"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2025-05-13",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "bill"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

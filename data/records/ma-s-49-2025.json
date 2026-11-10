@@ -1,0 +1,98 @@
+{
+  "record_id": "ma-s-49-2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "MA"
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "MA S 49 (2025)",
+  "title": "An Act relative to cybersecurity and artificial intelligence",
+  "session": "194th General Court",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Cyber, model & infrastructure security",
+  "category_key": "cyber",
+  "secondary_categories": [],
+  "sponsor": "Michael O. Moore",
+  "sponsor_party": null,
+  "sponsor_state": "MA",
+  "committees": [],
+  "introduced_date": "2025-02-27",
+  "last_action_date": "2025-05-12",
+  "last_action": "Bill reported favorably by committee and referred to the committee on Senate Ways and Means.",
+  "status": "Accompanied by S.39",
+  "status_bucket": "Inactive",
+  "summary": "Would establish state cybersecurity governance and duties covering the security and use of artificial intelligence in government.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://malegislature.gov/Bills/194/S49",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "MA S 49 (2025) legislative record",
+      "publisher": "Massachusetts General Court",
+      "source_type": "official",
+      "url": "https://malegislature.gov/Bills/194/S49",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "MA S 49 (2025) official text",
+      "publisher": "Massachusetts General Court",
+      "source_type": "official",
+      "url": "https://malegislature.gov/Bills/194/S49.Html",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

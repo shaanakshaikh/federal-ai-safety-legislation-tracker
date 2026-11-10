@@ -1,0 +1,120 @@
+{
+  "record_id": "il-sb-2909-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "IL"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "IL SB 2909 (2026)",
+  "title": "School Code — Artificial Intelligence in Teacher Evaluations",
+  "session": "2026 legislative session - IL",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Christopher Belt",
+  "sponsor_party": null,
+  "sponsor_state": "IL",
+  "committees": [],
+  "introduced_date": "2026-01-27",
+  "last_action_date": "2026-07-10",
+  "last_action": "Approved by the Governor as Public Act 104-0565",
+  "status": "Approved by the Governor as Public Act 104-0565",
+  "status_bucket": "Enacted",
+  "summary": "Bars teacher evaluators from using AI to make certain judgments or ratings and permits defined administrative support. Restricts the generation of teacher evaluation evidence with AI.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://ilga.gov/ftp/legislation/104/BillStatus/HTML/10400SB2909.html",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "IL SB 2909 (2026) legislative record",
+      "publisher": "IL legislature",
+      "source_type": "official",
+      "url": "https://ilga.gov/ftp/legislation/104/BillStatus/HTML/10400SB2909.html",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "IL SB 2909 (2026) official text",
+      "publisher": "IL legislature",
+      "source_type": "official",
+      "url": "https://www.ilga.gov/Legislation/PublicActs/View/104-0565",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Public Act 104-0565",
+    "enacted_date": "2026-07-10",
+    "effective_date": "2027-01-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2027-01-01",
+        "requirement": "Statutory effective date.",
+        "status": "upcoming",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

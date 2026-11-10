@@ -1,0 +1,105 @@
+{
+  "record_id": "ia-hf-2507-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "IA"
+  },
+  "lifecycle_status": "withdrawn",
+  "measure_id": "IA HF 2507 (2026)",
+  "title": "An Act establishing requirements and guidelines for conversational AI services",
+  "session": "2026 legislative session - IA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "House Committee on Health and Human Services",
+  "sponsor_party": null,
+  "sponsor_state": "IA",
+  "committees": [],
+  "introduced_date": "2026-02-16",
+  "last_action_date": "2026-04-15",
+  "last_action": "Withdrawn after substitution of SF 2417",
+  "status": "Withdrawn after substitution of SF 2417",
+  "status_bucket": "Withdrawn",
+  "summary": "Requires operators of conversational AI services to implement child safeguards, disclosures, account controls, and suicide or self-harm response protocols.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF+2507&enhanced=true&ga=91",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "IA HF 2507 (2026) legislative record",
+      "publisher": "IA legislature",
+      "source_type": "official",
+      "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF+2507&enhanced=true&ga=91",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "IA HF 2507 (2026) official text",
+      "publisher": "IA legislature",
+      "source_type": "official",
+      "url": "https://www.legis.iowa.gov/docs/publications/LGI/91/HF2507.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "ia-sf-2417-2026",
+      "measure_id": "IA SF 2417 (2026)",
+      "relationship": "companion"
+    }
+  ]
+}

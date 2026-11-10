@@ -1,0 +1,120 @@
+{
+  "record_id": "in-hb-1047-2024",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "IN"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "IN HB 1047 (2024)",
+  "title": "Sexual offenses",
+  "session": "2024 legislative session - IN",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Sharon Negele",
+  "sponsor_party": null,
+  "sponsor_state": "IN",
+  "committees": [],
+  "introduced_date": "2024-01-08",
+  "last_action_date": "2024-03-12",
+  "last_action": "Signed by the Governor as Public Law 79",
+  "status": "Signed by the Governor as Public Law 79",
+  "status_bucket": "Enacted",
+  "summary": "Includes specified AI-generated or digitally manipulated images in the definition of intimate images for civil claims and criminal offenses involving nonconsensual distribution.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://iga.in.gov/legislative/2024/bills/house/1047/details",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "IN HB 1047 (2024) legislative record",
+      "publisher": "IN legislature",
+      "source_type": "official",
+      "url": "https://iga.in.gov/legislative/2024/bills/house/1047/details",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "IN HB 1047 (2024) official text",
+      "publisher": "IN legislature",
+      "source_type": "official",
+      "url": "https://iga.in.gov/pdf-documents/123/2024/house/bills/HB1047/HB1047.06.ENRS.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Public Law 79-2024",
+    "enacted_date": "2024-03-12",
+    "effective_date": "2024-07-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2024-07-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

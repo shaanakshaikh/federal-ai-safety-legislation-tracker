@@ -1,0 +1,120 @@
+{
+  "record_id": "tx-sb-441-2025",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "TX"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "TX SB 441 (2025)",
+  "title": "Relating to criminal and civil liability related to sexually explicit media and artificial intimate visual material; creating a criminal offense; increasing a criminal penalty.",
+  "session": "2025 legislative session - TX",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Hinojosa, Juan \"Chuy\"",
+  "sponsor_party": null,
+  "sponsor_state": "TX",
+  "committees": [],
+  "introduced_date": "2025-02-03",
+  "last_action_date": "2025-06-20",
+  "last_action": "Signed by the Governor",
+  "status": "Signed by the Governor",
+  "status_bucket": "Enacted",
+  "summary": "Extends criminal and civil remedies addressing sexually explicit media and artificial intimate visual material, including covered deepfake depictions.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://capitol.texas.gov/billlookup/History.aspx?Bill=SB441&LegSess=89R",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "TX SB 441 (2025) legislative record",
+      "publisher": "Texas Legislature Online",
+      "source_type": "official",
+      "url": "https://capitol.texas.gov/billlookup/History.aspx?Bill=SB441&LegSess=89R",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "TX SB 441 (2025) official text",
+      "publisher": "Texas Legislature Online",
+      "source_type": "official",
+      "url": "https://lrl.texas.gov/scanned/signedBills/89-0/SB441.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "Chapter 1133, Acts of the 89th Legislature",
+    "enacted_date": "2025-06-20",
+    "effective_date": "2025-09-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2025-09-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "record_id": "va-hb-1170-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "VA"
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "VA HB 1170 (2026)",
+  "title": "Law-enforcement agencies & sheriff's dept.; policy on use of covered artificial intelligence syst.",
+  "session": "2026 legislative session - VA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Carroll",
+  "sponsor_party": null,
+  "sponsor_state": "VA",
+  "committees": [],
+  "introduced_date": "2026-01-14",
+  "last_action_date": "2026-02-02",
+  "last_action": "Tabled in Communications, Technology and Innovation (21-Y 1-N)",
+  "status": "Tabled in Communications, Technology and Innovation (21-Y 1-N)",
+  "status_bucket": "Inactive",
+  "summary": "Would require Virginia to establish a model policy for law-enforcement use of covered AI and require agencies to adopt policies meeting or exceeding that standard.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://lis.virginia.gov/bill-details/20261/HB1170",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "VA HB 1170 (2026) legislative record",
+      "publisher": "Virginia Legislative Information System",
+      "source_type": "official",
+      "url": "https://lis.virginia.gov/bill-details/20261/HB1170",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "VA HB 1170 (2026) official text",
+      "publisher": "Virginia Legislative Information System",
+      "source_type": "official",
+      "url": "https://lis.virginia.gov/bill-details/20261/HB1170/text/HB1170",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

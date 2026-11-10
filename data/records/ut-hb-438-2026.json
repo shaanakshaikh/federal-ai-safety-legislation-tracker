@@ -1,0 +1,90 @@
+{
+  "record_id": "ut-hb-438-2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "UT"
+  },
+  "lifecycle_status": "failed",
+  "measure_id": "UT HB 438 (2026)",
+  "title": "Artificial Intelligence Amendments",
+  "session": "2026 legislative session - UT",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "Doug Fiefia",
+  "sponsor_party": null,
+  "sponsor_state": "UT",
+  "committees": [],
+  "introduced_date": "2026-02-02",
+  "last_action_date": "2026-03-06",
+  "last_action": "The House filed the bill at the end of the session.",
+  "status": "House/ filed",
+  "status_bucket": "Failed",
+  "summary": "Would create a Companion Chatbot Safety Act with disclosures, data protections, and additional safeguards for minor users.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://le.utah.gov/~2026/bills/static/HB0438.html",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "UT HB 438 (2026) legislative record",
+      "publisher": "UT legislature",
+      "source_type": "official",
+      "url": "https://le.utah.gov/~2026/bills/static/HB0438.html",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

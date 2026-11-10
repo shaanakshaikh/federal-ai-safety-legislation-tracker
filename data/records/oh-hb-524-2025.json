@@ -1,0 +1,98 @@
+{
+  "record_id": "oh-hb-524-2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "OH"
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "OH HB 524 (2025)",
+  "title": "Impose penalties for AI models suggesting harming self or another",
+  "session": "2025 legislative session - OH",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "Christine Cockley and Ty D. Mathews",
+  "sponsor_party": null,
+  "sponsor_state": "OH",
+  "committees": [],
+  "introduced_date": "2025-10-15",
+  "last_action_date": "2025-10-22",
+  "last_action": "Referred to the House Technology and Innovation Committee",
+  "status": "Referred to the House Technology and Innovation Committee",
+  "status_bucket": "In Committee",
+  "summary": "Creates penalties and a civil remedy for specified harm associated with AI models recommending or encouraging self-harm or harm to others.",
+  "advance_tier": "Low",
+  "advance_rationale": "Further legislative action is required.",
+  "official_url": "https://legislature.ohio.gov/legislation/136/hb524/status",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "OH HB 524 (2025) legislative record",
+      "publisher": "OH legislature",
+      "source_type": "official",
+      "url": "https://legislature.ohio.gov/legislation/136/hb524/status",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "OH HB 524 (2025) official text",
+      "publisher": "OH legislature",
+      "source_type": "official",
+      "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb524/00_IN/pdf/",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

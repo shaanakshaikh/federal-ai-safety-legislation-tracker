@@ -1,0 +1,127 @@
+{
+  "record_id": "ia-sf-2417-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "IA"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "IA SF 2417 (2026)",
+  "title": "Conversational Artificial Intelligence Services — Limitations, Required Disclosures, and Civil Penalties",
+  "session": "2026 legislative session - IA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "Senate Committee on Technology",
+  "sponsor_party": null,
+  "sponsor_state": "IA",
+  "committees": [],
+  "introduced_date": "2026-02-19",
+  "last_action_date": "2026-05-02",
+  "last_action": "Signed by the Governor",
+  "status": "Signed by the Governor",
+  "status_bucket": "Enacted",
+  "summary": "Requires operators of conversational AI services to implement child safeguards, disclosures, account controls, and suicide or self-harm response protocols. The requirements apply beginning July 1, 2027.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF+2417&enhanced=true&ga=91",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "IA SF 2417 (2026) legislative record",
+      "publisher": "IA legislature",
+      "source_type": "official",
+      "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF+2417&enhanced=true&ga=91",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "IA SF 2417 (2026) official text",
+      "publisher": "IA legislature",
+      "source_type": "official",
+      "url": "https://www.legis.iowa.gov/docs/publications/iactc/91.2/CH1068.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "2026 Iowa Acts Chapter 1068",
+    "enacted_date": "2026-05-02",
+    "effective_date": "2026-07-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2026-07-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  },
+  "related_measures": [
+    {
+      "record_id": "ia-hf-2507-2026",
+      "measure_id": "IA HF 2507 (2026)",
+      "relationship": "companion"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "record_id": "ca-sb-867-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "CA"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "CA SB 867 (2026)",
+  "title": "Toys: companion chatbots",
+  "session": "2026 legislative session - CA",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "Steve Padilla",
+  "sponsor_party": null,
+  "sponsor_state": "CA",
+  "committees": [],
+  "introduced_date": "2026-01-05",
+  "last_action_date": "2026-09-10",
+  "last_action": "The governor signed the bill, and the Secretary of State chaptered it.",
+  "status": "Chaptered by Secretary of State. Chapter 189, Statutes of 2026.",
+  "status_bucket": "Enacted",
+  "summary": "Bars specified commercial distribution of toys containing companion chatbots until January 1, 2031, with civil enforcement tied to the companion-chatbot law.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB867",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "CA SB 867 (2026) legislative record",
+      "publisher": "California Legislative Counsel",
+      "source_type": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB867",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "CA SB 867 (2026) official text",
+      "publisher": "California Legislative Counsel",
+      "source_type": "official",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB867",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "189",
+    "enacted_date": "2026-09-10",
+    "effective_date": null
+  }
+}

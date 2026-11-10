@@ -1,0 +1,120 @@
+{
+  "record_id": "co-sb26-189-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "CO"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "CO SB26-189 (2026)",
+  "title": "Automated Decision-Making Technology",
+  "session": "2026 legislative session - CO",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Robert Rodriguez",
+  "sponsor_party": null,
+  "sponsor_state": "CO",
+  "committees": [],
+  "introduced_date": "2026-05-01",
+  "last_action_date": "2026-05-14",
+  "last_action": "The governor signed the bill.",
+  "status": "Governor Signed",
+  "status_bucket": "Enacted",
+  "summary": "Replaces the earlier high-risk AI framework with developer and deployer duties for automated tools used in consequential decisions. It provides a right to request meaningful human review and requires disclosures and recordkeeping.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://leg.colorado.gov/bills/sb26-189",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "CO SB26-189 (2026) legislative record",
+      "publisher": "CO legislature",
+      "source_type": "official",
+      "url": "https://leg.colorado.gov/bills/sb26-189",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "131",
+    "enacted_date": "2026-05-14",
+    "effective_date": "2026-05-14"
+  },
+  "implementation": {
+    "responsible_agencies": [
+      "Colorado Attorney General"
+    ],
+    "deadlines": [
+      {
+        "date": "2026-05-14",
+        "requirement": "The act takes effect. Duties for consequential decision-making technology begin January 1, 2027.",
+        "status": "ongoing",
+        "source_ids": [
+          "bill"
+        ]
+      }
+    ],
+    "agency_status": []
+  },
+  "related_measures": [
+    {
+      "record_id": "co-sb-24-205",
+      "measure_id": "CO SB24-205",
+      "relationship": "related"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "record_id": "oh-hb-579-2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "OH"
+  },
+  "lifecycle_status": "referred",
+  "measure_id": "OH HB 579 (2025)",
+  "title": "Regulate the use of artificial intelligence by health insurers",
+  "session": "2025 legislative session - OH",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [],
+  "sponsor": "Jean Schmidt",
+  "sponsor_party": null,
+  "sponsor_state": "OH",
+  "committees": [],
+  "introduced_date": "2025-11-05",
+  "last_action_date": "2025-11-12",
+  "last_action": "Referred to the House Insurance Committee",
+  "status": "Referred to the House Insurance Committee",
+  "status_bucket": "In Committee",
+  "summary": "Regulates insurers’ use of AI in decisions about whether health services are medically necessary.",
+  "advance_tier": "Low",
+  "advance_rationale": "Further legislative action is required.",
+  "official_url": "https://legislature.ohio.gov/legislation/136/hb579/status",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "OH HB 579 (2025) legislative record",
+      "publisher": "OH legislature",
+      "source_type": "official",
+      "url": "https://legislature.ohio.gov/legislation/136/hb579/status",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "OH HB 579 (2025) official text",
+      "publisher": "OH legislature",
+      "source_type": "official",
+      "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb579/00_IN/pdf/",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

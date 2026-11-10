@@ -1,0 +1,98 @@
+{
+  "record_id": "vt-h-341-2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "VT"
+  },
+  "lifecycle_status": "inactive",
+  "measure_id": "VT H.341 (2025)",
+  "title": "An act relating to creating oversight and safety standards for developers and deployers of inherently dangerous artificial intelligence systems",
+  "session": "2025 legislative session - VT",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Frontier-model & national security",
+  "category_key": "security",
+  "secondary_categories": [],
+  "sponsor": "Monique Priestley",
+  "sponsor_party": null,
+  "sponsor_state": "VT",
+  "committees": [],
+  "introduced_date": "2025-02-25",
+  "last_action_date": "2025-02-25",
+  "last_action": "Read for the first time and referred to House Commerce and Economic Development.",
+  "status": "Prior session ended without enactment",
+  "status_bucket": "Inactive",
+  "summary": "Would establish oversight and safety standards for developers and deployers of AI systems that pose specified severe risks.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The bill is no longer advancing.",
+  "official_url": "https://legislature.vermont.gov/bill/status/2026/H.341",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "VT H.341 (2025) legislative record",
+      "publisher": "Vermont General Assembly",
+      "source_type": "official",
+      "url": "https://legislature.vermont.gov/bill/status/2026/H.341",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "VT H.341 (2025) official text",
+      "publisher": "Vermont General Assembly",
+      "source_type": "official",
+      "url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0341/H-0341%20As%20Introduced.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "bill"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ]
+}

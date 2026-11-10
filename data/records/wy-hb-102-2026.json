@@ -1,0 +1,120 @@
+{
+  "record_id": "wy-hb-102-2026",
+  "entity_type": "law",
+  "jurisdiction": {
+    "country": "US",
+    "level": "state",
+    "state": "WY"
+  },
+  "lifecycle_status": "enacted",
+  "measure_id": "WY HB 102 (2026)",
+  "title": "Protecting kids from deepfakes and exploitative images",
+  "session": "2026 legislative session - WY",
+  "chamber": "State legislature",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [],
+  "sponsor": "Jayme Lien",
+  "sponsor_party": null,
+  "sponsor_state": "WY",
+  "committees": [],
+  "introduced_date": "2026-02-10",
+  "last_action_date": "2026-03-07",
+  "last_action": "The governor signed the bill.",
+  "status": "Governor Signed HEA No. 0032",
+  "status_bucket": "Enacted",
+  "summary": "Creates offenses involving synthetic sexual imagery and certain AI uses against children, and addresses AI-facilitated self-harm promotion and civil liability.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted into law.",
+  "official_url": "https://www.wyoleg.gov/Legislation/2026/HB0102",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Verified against the official legislative record.",
+  "sources": [
+    {
+      "source_id": "bill",
+      "title": "WY HB 102 (2026) legislative record",
+      "publisher": "WY legislature",
+      "source_type": "official",
+      "url": "https://www.wyoleg.gov/Legislation/2026/HB0102",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "text",
+      "title": "WY HB 102 (2026) official text",
+      "publisher": "WY legislature",
+      "source_type": "official",
+      "url": "https://www.wyoleg.gov/2026/Enroll/HB0102.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-legislative-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "entity_type",
+        "jurisdiction",
+        "session",
+        "chamber",
+        "sponsor",
+        "committees",
+        "introduced_date",
+        "last_action_date",
+        "last_action",
+        "status",
+        "lifecycle_status",
+        "state_law"
+      ],
+      "source_ids": [
+        "bill",
+        "text"
+      ]
+    },
+    {
+      "claim_id": "operative-provisions",
+      "fields": [
+        "summary",
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "implementation"
+      ],
+      "source_ids": [
+        "text"
+      ],
+      "note": "Summary and categories are editorial descriptions of the cited measure."
+    },
+    {
+      "claim_id": "advancement-assessment",
+      "fields": [
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "bill"
+      ],
+      "note": "Assessment based on legislative progress."
+    }
+  ],
+  "state_law": {
+    "chapter": "91",
+    "enacted_date": "2026-03-07",
+    "effective_date": "2026-07-01"
+  },
+  "implementation": {
+    "responsible_agencies": [],
+    "deadlines": [
+      {
+        "date": "2026-07-01",
+        "requirement": "Statutory effective date.",
+        "status": "ongoing",
+        "source_ids": [
+          "text"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}
