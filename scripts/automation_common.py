@@ -14,7 +14,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 USER_AGENT = "federal-ai-safety-legislation-tracker/2.0 (+https://github.com/shaanakshaikh/federal-ai-safety-legislation-tracker)"
-CONGRESS_BILL_URL = re.compile(r"/(?P<congress>\d+)(?:st|nd|rd|th)-congress/(?P<chamber>house|senate)-bill/(?P<number>\d+)")
+CONGRESS_BILL_URL = re.compile(
+    r"/(?P<congress>\d+)(?:st|nd|rd|th)-congress/"
+    r"(?P<chamber>house|senate)-(?P<kind>bill|joint-resolution)/(?P<number>\d+)"
+)
 
 
 def utc_now() -> str:
@@ -61,7 +64,10 @@ def parse_federal_bill(record: dict) -> tuple[int, str, int] | None:
     match = CONGRESS_BILL_URL.search(url)
     if not match:
         return None
-    bill_type = "hr" if match["chamber"] == "house" else "s"
+    if match["kind"] == "joint-resolution":
+        bill_type = "hjres" if match["chamber"] == "house" else "sjres"
+    else:
+        bill_type = "hr" if match["chamber"] == "house" else "s"
     return int(match["congress"]), bill_type, int(match["number"])
 
 

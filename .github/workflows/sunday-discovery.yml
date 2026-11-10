@@ -22,6 +22,7 @@ jobs:
   discover:
     runs-on: ubuntu-latest
     env:
+      GOVINFO_API_KEY: ${{ secrets.GOVINFO_API_KEY }}
       CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
       OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -43,10 +44,13 @@ jobs:
           permission-pull-requests: write
       - name: Require narrowly scoped credentials
         run: |
+          test -n "$GOVINFO_API_KEY" || { echo "GOVINFO_API_KEY is not configured"; exit 1; }
           test -n "$CONGRESS_API_KEY" || { echo "CONGRESS_API_KEY is not configured"; exit 1; }
           test -n "$OPENSTATES_API_KEY" || { echo "OPENSTATES_API_KEY is not configured"; exit 1; }
       - name: Capture, compare, and classify candidates
-        run: python3 scripts/discover_weekly.py --days "${{ inputs.lookback_days || '8' }}"
+        env:
+          LOOKBACK_DAYS: ${{ inputs.lookback_days || '8' }}
+        run: python3 scripts/discover_weekly.py --days "$LOOKBACK_DAYS"
       - name: Validate candidate provenance and uncertainty controls
         run: python3 scripts/validate_automation.py
       - name: Open or update a review pull request
