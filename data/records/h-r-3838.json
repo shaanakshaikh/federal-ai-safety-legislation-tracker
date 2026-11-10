@@ -1,0 +1,152 @@
+{
+  "record_id": "h-r-3838",
+  "measure_id": "H.R. 3838",
+  "title": "Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Vehicle",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "security",
+  "secondary_categories": [
+    "Defense AI assurance",
+    "Frontier-model security"
+  ],
+  "lifecycle_status": "passed_chamber",
+  "status": "Passed House",
+  "status_bucket": "Passed one chamber",
+  "committees": [
+    "House Oversight and Government Reform",
+    "House Intelligence (Permanent Select)",
+    "House Appropriations",
+    "House Ways and Means",
+    "House Foreign Affairs",
+    "House Small Business",
+    "House Judiciary",
+    "House Education and Workforce",
+    "House Committee on House Administration",
+    "House Homeland Security",
+    "House Energy and Commerce",
+    "House Natural Resources",
+    "House Science, Space, and Technology",
+    "House Agriculture",
+    "House Financial Services",
+    "House Transportation and Infrastructure",
+    "House Budget",
+    "House Veterans' Affairs",
+    "House Armed Services"
+  ],
+  "summary": "The House-passed FY2026 defense authorization bill includes a Defense Department assessment of national-security risks from advanced AI and planning for evaluation, monitoring and governance.",
+  "advance_tier": "High",
+  "advance_rationale": "Passed House. Outlook reflects documented legislative progress.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3838",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Mike Rogers",
+  "sponsor_party": "R",
+  "sponsor_state": "AL",
+  "cosponsor_count": 1,
+  "introduced_date": "2025-06-09",
+  "last_action_date": "2025-09-30",
+  "last_action": "Received in the Senate.",
+  "committee_dynamics": "Official action history. Received in the Senate.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 3838",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3838",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr3838.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 3838",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr3838eh",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-pl-119-60-ai-institutes",
+      "title": "Official record of P.L. 119-60 §§ 224, 245, 1512–1515, 1533–1535, 6601–6604",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1071",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-pl-119-60-ai-institutes"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "pl-119-60-ai-institutes",
+      "measure_id": "P.L. 119-60 §§ 224, 245, 563, 1061, 1512–1515, 1532–1535, 3117, 6601–6604",
+      "relationship": "related"
+    }
+  ]
+}

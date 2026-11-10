@@ -1,0 +1,110 @@
+{
+  "record_id": "h-r-8671",
+  "measure_id": "H.R. 8671",
+  "title": "Bank Fraud Technology Advancement Act of 2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Testing, evaluation & assurance",
+  "category_key": "evaluation",
+  "secondary_categories": [
+    "Fraud detection",
+    "Bank model governance",
+    "Model validation"
+  ],
+  "lifecycle_status": "committee_advanced",
+  "status": "Reported / on calendar",
+  "status_bucket": "Committee advanced",
+  "committees": [
+    "House Financial Services"
+  ],
+  "summary": "Would require banking regulators to study how institutions manage AI fraud models’ risks, explainability and validation and authorize a voluntary pilot that can provide model validation assistance.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Reported / on calendar. Further action remains pending.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8671",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Mike Flood",
+  "sponsor_party": "R",
+  "sponsor_state": "NE",
+  "cosponsor_count": 1,
+  "introduced_date": "2026-05-07",
+  "last_action_date": "2026-06-18",
+  "last_action": "Placed on the Union Calendar, Calendar No. 612.",
+  "committee_dynamics": "Official action history. Placed on the Union Calendar, Calendar No. 612.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 8671",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8671",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8671.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 8671",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr8671ih",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    }
+  ]
+}

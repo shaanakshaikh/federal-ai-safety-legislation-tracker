@@ -1,0 +1,134 @@
+{
+  "record_id": "s-3162-118",
+  "measure_id": "S. 3162",
+  "title": "TEST AI Act of 2024",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Evaluation, testing & standards",
+  "category_key": "evaluation",
+  "secondary_categories": [
+    "AI testbeds",
+    "Interagency coordination"
+  ],
+  "lifecycle_status": "inactive",
+  "status": "Reported / on calendar; expired at end of the 118th Congress",
+  "status_bucket": "Expired at end of the 118th Congress",
+  "committees": [
+    "Senate Commerce, Science, and Transportation"
+  ],
+  "summary": "Would expand NIST testbeds for trustworthy AI and improve coordination among federal agencies on testbed development.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment. Reported / on calendar was the furthest recorded stage.",
+  "congress_url": "https://www.congress.gov/bill/118th-congress/senate-bill/3162",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Ben Lujan",
+  "sponsor_party": "D",
+  "sponsor_state": "NM",
+  "cosponsor_count": 5,
+  "introduced_date": "2023-10-30",
+  "last_action_date": "2024-12-17",
+  "last_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 722.",
+  "committee_dynamics": "Official action history. Placed on Senate Legislative Calendar under General Orders. Calendar No. 722.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for S. 3162",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3162",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/s/BILLSTATUS-118s3162.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for S. 3162",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118s3162rs",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-1633",
+      "title": "Official record of S. 1633",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1633",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-s-1633"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "s-1633",
+      "measure_id": "S. 1633",
+      "relationship": "reintroduced_as"
+    }
+  ]
+}

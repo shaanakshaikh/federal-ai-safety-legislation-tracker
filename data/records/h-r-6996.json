@@ -1,0 +1,110 @@
+{
+  "record_id": "h-r-6996",
+  "measure_id": "H.R. 6996",
+  "title": "Full AI Stack Export Promotion Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [
+    "Full-stack AI exports",
+    "Security conditions",
+    "Allied coordination"
+  ],
+  "lifecycle_status": "committee_advanced",
+  "status": "Ordered reported 37–7",
+  "status_bucket": "Committee advanced",
+  "committees": [
+    "House Foreign Affairs"
+  ],
+  "summary": "Would establish a program for full-stack U.S. AI exports to allies and partners conditioned on U.S.-approved security standards and require a related diplomatic strategy.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Ordered reported 37–7. Further action remains pending.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6996",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Randy Fine",
+  "sponsor_party": "R",
+  "sponsor_state": "FL",
+  "cosponsor_count": 1,
+  "introduced_date": "2026-01-09",
+  "last_action_date": "2026-04-22",
+  "last_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 37 - 7.",
+  "committee_dynamics": "Official action history. Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 37 - 7.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 6996",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6996",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6996.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 6996",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr6996ih",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    }
+  ]
+}

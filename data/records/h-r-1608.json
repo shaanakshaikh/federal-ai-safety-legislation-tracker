@@ -1,0 +1,111 @@
+{
+  "record_id": "h-r-1608",
+  "measure_id": "H.R. 1608",
+  "title": "Department of Homeland Security Vehicular Terrorism Prevention and Mitigation Act of 2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Cyber, model & infrastructure security",
+  "category_key": "security",
+  "secondary_categories": [
+    "Autonomous vehicle security",
+    "DHS risk assessment",
+    "Civil liberties"
+  ],
+  "lifecycle_status": "passed_chamber",
+  "status": "Passed House; referred in Senate",
+  "status_bucket": "Passed one chamber",
+  "committees": [
+    "Senate Homeland Security and Governmental Affairs",
+    "House Homeland Security"
+  ],
+  "summary": "Would require DHS to assess cybersecurity threats involving AI-enabled vehicle technologies and address civil-rights safeguards for AI-enabled countermeasures.",
+  "advance_tier": "High",
+  "advance_rationale": "Passed House; referred in Senate. Outlook reflects documented legislative progress.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1608",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Carlos Gimenez",
+  "sponsor_party": "R",
+  "sponsor_state": "FL",
+  "cosponsor_count": 2,
+  "introduced_date": "2025-02-26",
+  "last_action_date": "2025-11-18",
+  "last_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+  "committee_dynamics": "Official action history. Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 1608",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1608",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1608.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 1608",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr1608rfs",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    }
+  ]
+}

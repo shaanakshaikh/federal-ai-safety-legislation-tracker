@@ -1,0 +1,90 @@
+{
+  "record_id": "pl-119-98-sec-103",
+  "entity_type": "provision",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "measure_id": "P.L. 119-98 § 103",
+  "title": "Border security, technology, and screening",
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "Bicameral",
+  "scope": "Adjacent",
+  "primary_category": "Appropriations implementation",
+  "category_key": "appropriations",
+  "secondary_categories": [],
+  "lifecycle_status": "enacted",
+  "status": "Enacted — Public Law 119-98",
+  "status_bucket": "Enacted",
+  "committees": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": null,
+  "cosponsor_count": null,
+  "last_action_date": "2026-06-10",
+  "last_action": "Enacted as section 103 of Public Law 119-98.",
+  "summary": "Funds CBP border-security and screening capabilities, including AI and machine-learning inspection equipment. Bars use of this section’s funds to buy or deploy southwest and northern border surveillance towers until CBP has tested and accepted their autonomous capabilities.",
+  "committee_dynamics": "The provision was enacted through the Secure America Act.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+  "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ98",
+  "public_law": {
+    "number": "119-98",
+    "enacted_date": "2026-06-10",
+    "originating_bill": "S. 2",
+    "statutes_at_large": "140 Stat. 837",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ98"
+  },
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official enacted text reviewed.",
+  "sources": [
+    {
+      "source_id": "govinfo-law",
+      "title": "Public Law 119-98, section 103",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ98/pdf/PLAW-119publ98.pdf#page=2",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "enacted-provision",
+      "fields": [
+        "measure_id",
+        "title",
+        "official_url",
+        "public_law",
+        "status",
+        "lifecycle_status",
+        "last_action_date",
+        "last_action",
+        "summary",
+        "scope",
+        "primary_category",
+        "implementation"
+      ],
+      "source_ids": [
+        "govinfo-law"
+      ]
+    }
+  ],
+  "implementation": {
+    "responsible_agencies": [
+      "U.S. Customs and Border Protection"
+    ],
+    "deadlines": [
+      {
+        "date": "2029-09-30",
+        "requirement": "Availability of the section’s appropriation ends.",
+        "status": "upcoming",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

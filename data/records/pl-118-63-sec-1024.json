@@ -1,0 +1,90 @@
+{
+  "record_id": "pl-118-63-sec-1024",
+  "entity_type": "provision",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "measure_id": "P.L. 118-63 § 1024",
+  "title": "Technology review of artificial intelligence and machine learning technologies",
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "Bicameral",
+  "scope": "Adjacent",
+  "primary_category": "Evaluation, testing & standards",
+  "category_key": "evaluation",
+  "secondary_categories": [],
+  "lifecycle_status": "enacted",
+  "status": "Enacted — Public Law 118-63",
+  "status_bucket": "Enacted",
+  "committees": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": null,
+  "cosponsor_count": null,
+  "last_action_date": "2024-05-16",
+  "last_action": "Enacted as section 1024 of Public Law 118-63.",
+  "summary": "Requires an FAA review of current and planned AI and machine-learning applications for airport efficiency and safety, including applications in aircraft taxiing and air traffic control.",
+  "committee_dynamics": "The provision was enacted through the FAA Reauthorization Act of 2024.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+  "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ63",
+  "public_law": {
+    "number": "118-63",
+    "enacted_date": "2024-05-16",
+    "originating_bill": "H.R. 3935",
+    "statutes_at_large": "138 Stat. 1025",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-118publ63"
+  },
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official enacted text reviewed.",
+  "sources": [
+    {
+      "source_id": "govinfo-law",
+      "title": "Public Law 118-63, section 1024",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ63/pdf/PLAW-118publ63.pdf#page=377",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "enacted-provision",
+      "fields": [
+        "measure_id",
+        "title",
+        "official_url",
+        "public_law",
+        "status",
+        "lifecycle_status",
+        "last_action_date",
+        "last_action",
+        "summary",
+        "scope",
+        "primary_category",
+        "implementation"
+      ],
+      "source_ids": [
+        "govinfo-law"
+      ]
+    }
+  ],
+  "implementation": {
+    "responsible_agencies": [
+      "Federal Aviation Administration"
+    ],
+    "deadlines": [
+      {
+        "date": "2025-05-16",
+        "requirement": "Submit the review results to the covered congressional committees.",
+        "status": "unknown",
+        "source_ids": [
+          "govinfo-law"
+        ]
+      }
+    ],
+    "agency_status": []
+  }
+}

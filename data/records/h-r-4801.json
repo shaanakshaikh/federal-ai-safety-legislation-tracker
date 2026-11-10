@@ -1,0 +1,135 @@
+{
+  "record_id": "h-r-4801",
+  "measure_id": "H.R. 4801",
+  "title": "Unleashing AI Innovation in Financial Services Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Financial regulatory sandbox",
+    "Alternative compliance",
+    "Consumer protection"
+  ],
+  "lifecycle_status": "committee_advanced",
+  "status": "Reported / on calendar",
+  "status_bucket": "Committee advanced",
+  "committees": [
+    "House Financial Services"
+  ],
+  "summary": "Would allow financial regulators to approve limited AI test projects under alternative compliance plans, subject to screening for systemic and national-security risks.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Reported / on calendar. Further action remains pending.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4801",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "J. Hill",
+  "sponsor_party": "R",
+  "sponsor_state": "AR",
+  "cosponsor_count": 3,
+  "introduced_date": "2025-07-29",
+  "last_action_date": "2026-06-24",
+  "last_action": "Placed on the Union Calendar, Calendar No. 619.",
+  "committee_dynamics": "Official action history. Placed on the Union Calendar, Calendar No. 619.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 4801",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4801",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4801.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 4801",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr4801rh",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-2528",
+      "title": "Official record of S. 2528",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2528",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-s-2528"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "s-2528",
+      "measure_id": "S. 2528",
+      "relationship": "companion"
+    }
+  ]
+}

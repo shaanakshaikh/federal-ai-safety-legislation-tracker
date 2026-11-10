@@ -1,0 +1,149 @@
+{
+  "record_id": "h-r-4814-118",
+  "measure_id": "H.R. 4814",
+  "title": "Consumer Safety Technology Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "High-risk AI governance",
+  "category_key": "governance",
+  "secondary_categories": [
+    "Federal AI use",
+    "Consumer product safety"
+  ],
+  "lifecycle_status": "inactive",
+  "status": "Passed House; referred in Senate; expired at end of the 118th Congress",
+  "status_bucket": "Expired at end of the 118th Congress",
+  "committees": [
+    "Senate Commerce, Science, and Transportation",
+    "House Energy and Commerce"
+  ],
+  "summary": "Title I would direct the Consumer Product Safety Commission to pilot AI for safety work such as tracking injuries and identifying hazardous products.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment. Passed House was the furthest recorded stage.",
+  "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/4814",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Darren Soto",
+  "sponsor_party": "D",
+  "sponsor_state": "FL",
+  "cosponsor_count": 4,
+  "introduced_date": "2023-07-20",
+  "last_action_date": "2024-05-15",
+  "last_action": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+  "committee_dynamics": "Official action history. Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 4814",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/4814",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/hr/BILLSTATUS-118hr4814.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 4814",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118hr4814eh",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-1770",
+      "title": "Official record of H.R. 1770",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1770",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-2766",
+      "title": "Official record of S. 2766",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2766",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-h-r-1770",
+        "related-s-2766"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "h-r-1770",
+      "measure_id": "H.R. 1770",
+      "relationship": "related"
+    },
+    {
+      "record_id": "s-2766",
+      "measure_id": "S. 2766",
+      "relationship": "related"
+    }
+  ]
+}

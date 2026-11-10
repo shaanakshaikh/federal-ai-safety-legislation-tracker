@@ -1,0 +1,115 @@
+{
+  "record_id": "h-r-5079",
+  "measure_id": "H.R. 5079",
+  "title": "Widespread Information Management for the Welfare of Infrastructure and Government Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Cyber, model & infrastructure security",
+  "category_key": "security",
+  "secondary_categories": [
+    "Cyber threat sharing",
+    "Defensive AI",
+    "CISA"
+  ],
+  "lifecycle_status": "committee_advanced",
+  "status": "Ordered reported 25–0",
+  "status_bucket": "Committee advanced",
+  "committees": [
+    "House Homeland Security",
+    "House Judiciary",
+    "House Armed Services",
+    "House Energy and Commerce",
+    "House Intelligence (Permanent Select)",
+    "House Oversight and Government Reform"
+  ],
+  "summary": "Would update the cybersecurity information-sharing framework and expressly clarify that authorized activities can use AI developed or strictly deployed for cybersecurity purposes.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Ordered reported 25–0. Further action remains pending.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5079",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Andrew Garbarino",
+  "sponsor_party": "R",
+  "sponsor_state": "NY",
+  "cosponsor_count": 1,
+  "introduced_date": "2025-09-02",
+  "last_action_date": "2025-09-03",
+  "last_action": "Ordered to be Reported (Amended) by the Yeas and Nays: 25 - 0.",
+  "committee_dynamics": "Official action history. Ordered to be Reported (Amended) by the Yeas and Nays: 25 - 0.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 5079",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5079",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5079.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 5079",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr5079ih",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    }
+  ]
+}

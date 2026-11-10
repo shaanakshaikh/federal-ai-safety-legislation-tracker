@@ -1,0 +1,145 @@
+{
+  "record_id": "h-r-5388",
+  "measure_id": "H.R. 5388",
+  "title": "American Artificial Intelligence Leadership and Uniformity Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Adjacent",
+  "primary_category": "Governance, preemption & regulatory architecture",
+  "category_key": "governance",
+  "secondary_categories": [
+    "State AI laws",
+    "Preemption"
+  ],
+  "lifecycle_status": "referred",
+  "status": "Introduced / referred",
+  "status_bucket": "Introduced / referred",
+  "committees": [
+    "House Veterans' Affairs",
+    "House Homeland Security",
+    "House Transportation and Infrastructure",
+    "House Financial Services",
+    "House Education and Workforce",
+    "House Small Business",
+    "House Energy and Commerce",
+    "House Judiciary",
+    "House Oversight and Government Reform",
+    "House Armed Services",
+    "House Foreign Affairs",
+    "House Science, Space, and Technology"
+  ],
+  "summary": "Would establish a national AI policy framework and temporarily preempt specified state regulation of AI.",
+  "advance_tier": "Low",
+  "advance_rationale": "No committee advancement was recorded at the time of review.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5388",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Michael Baumgartner",
+  "sponsor_party": "R",
+  "sponsor_state": "WA",
+  "cosponsor_count": 0,
+  "introduced_date": "2025-09-16",
+  "last_action_date": "2025-12-19",
+  "last_action": "Referred to the Subcommittee on Oversight and Investigations.",
+  "committee_dynamics": "Official action history. Referred to the Subcommittee on Oversight and Investigations.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 5388",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5388",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5388.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 5388",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr5388ih",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-3557",
+      "title": "Official record of S. 3557",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3557",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-s-3557"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "s-3557",
+      "measure_id": "S. 3557",
+      "relationship": "related"
+    }
+  ]
+}

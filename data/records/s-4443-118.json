@@ -1,0 +1,134 @@
+{
+  "record_id": "s-4443-118",
+  "measure_id": "S. 4443",
+  "title": "Intelligence Authorization Act for Fiscal Year 2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 118,
+  "session": "118th Congress",
+  "chamber": "Senate",
+  "scope": "Vehicle",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "security",
+  "secondary_categories": [
+    "NSA AI Security Center",
+    "Incident reporting"
+  ],
+  "lifecycle_status": "inactive",
+  "status": "Committee advanced; expired at end of the 118th Congress",
+  "status_bucket": "Expired at end of the 118th Congress",
+  "committees": [
+    "Senate Intelligence (Select)"
+  ],
+  "summary": "The reported Senate FY2025 intelligence authorization bill would establish the NSA AI Security Center and support AI vulnerability and incident reporting.",
+  "advance_tier": "Dead",
+  "advance_rationale": "The 118th Congress ended without enactment. Committee advanced was the furthest recorded stage.",
+  "congress_url": "https://www.congress.gov/bill/118th-congress/senate-bill/4443",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Mark Warner",
+  "sponsor_party": "D",
+  "sponsor_state": "VA",
+  "cosponsor_count": 0,
+  "introduced_date": "2024-06-03",
+  "last_action_date": "2024-06-12",
+  "last_action": "By Senator Warner from Select Committee on Intelligence filed written report. Report No. 118-181. Additional views filed.",
+  "committee_dynamics": "Official action history. By Senator Warner from Select Committee on Intelligence filed written report. Report No. 118-181. Additional views filed.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for S. 4443",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4443",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/118/s/BILLSTATUS-118s4443.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for S. 4443",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-118s4443rs",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-pl-118-159-sec-225",
+      "title": "Official record of P.L. 118-159 §§ 225, 236, 1531–1534, 6504",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/5009",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-pl-118-159-sec-225"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "pl-118-159-sec-225",
+      "measure_id": "P.L. 118-159 §§ 225, 236, 569F, 853, 1066, 1087, 1531–1534, 6504",
+      "relationship": "related"
+    }
+  ]
+}

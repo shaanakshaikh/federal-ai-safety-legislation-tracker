@@ -1,0 +1,135 @@
+{
+  "record_id": "s-1473",
+  "measure_id": "S. 1473",
+  "title": "Stop Stealing our Chips Act",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Deterrence, export & foreign-adversary controls",
+  "category_key": "deterrence",
+  "secondary_categories": [
+    "Export control enforcement",
+    "Whistleblower rewards",
+    "Advanced chips"
+  ],
+  "lifecycle_status": "passed_chamber",
+  "status": "Passed Senate",
+  "status_bucket": "Passed one chamber",
+  "committees": [
+    "Senate Banking, Housing, and Urban Affairs"
+  ],
+  "summary": "Would establish rewards and protections for whistleblowers who report U.S. export-control violations, a mechanism the sponsors aim to use against diversion of advanced AI chips.",
+  "advance_tier": "High",
+  "advance_rationale": "Passed Senate. Outlook reflects documented legislative progress.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1473",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Mike Rounds",
+  "sponsor_party": "R",
+  "sponsor_state": "SD",
+  "cosponsor_count": 1,
+  "introduced_date": "2025-04-10",
+  "last_action_date": "2026-05-21",
+  "last_action": "Held at the desk.",
+  "committee_dynamics": "Official action history. Held at the desk.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for S. 1473",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1473",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s1473.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for S. 1473",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s1473es",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-6322",
+      "title": "Official record of H.R. 6322",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6322",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-h-r-6322"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "h-r-6322",
+      "measure_id": "H.R. 6322",
+      "relationship": "companion"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "record_id": "s-1837",
+  "measure_id": "S. 1837",
+  "title": "DEFIANCE Act of 2025",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "Senate",
+  "scope": "Core",
+  "primary_category": "Synthetic-media safety",
+  "category_key": "synthetic-media",
+  "secondary_categories": [
+    "Intimate digital forgeries",
+    "Civil remedies"
+  ],
+  "lifecycle_status": "passed_chamber",
+  "status": "Passed Senate",
+  "status_bucket": "Passed one chamber",
+  "committees": [
+    "Senate Judiciary"
+  ],
+  "summary": "Would create a federal civil action for certain nonconsensual intimate digital forgeries.",
+  "advance_tier": "High",
+  "advance_rationale": "Passed Senate. Outlook reflects documented legislative progress.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1837",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Richard Durbin",
+  "sponsor_party": "D",
+  "sponsor_state": "IL",
+  "cosponsor_count": 8,
+  "introduced_date": "2025-05-21",
+  "last_action_date": "2026-01-13",
+  "last_action": "Held at the desk.",
+  "committee_dynamics": "Official action history. Held at the desk.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for S. 1837",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1837",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s1837.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for S. 1837",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s1837is",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-h-r-3562",
+      "title": "Official record of H.R. 3562",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3562",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-s-3696-118",
+      "title": "Official record of S. 3696",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3696",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-h-r-3562",
+        "related-s-3696-118"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "h-r-3562",
+      "measure_id": "H.R. 3562",
+      "relationship": "companion"
+    },
+    {
+      "record_id": "s-3696-118",
+      "measure_id": "S. 3696",
+      "relationship": "reintroduction_of"
+    }
+  ]
+}

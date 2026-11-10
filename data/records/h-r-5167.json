@@ -1,0 +1,134 @@
+{
+  "record_id": "h-r-5167",
+  "measure_id": "H.R. 5167",
+  "title": "Intelligence Authorization Act for Fiscal Year 2026",
+  "entity_type": "bill",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "House",
+  "scope": "Vehicle",
+  "primary_category": "Defense, intelligence & procurement",
+  "category_key": "security",
+  "secondary_categories": [
+    "Intelligence community",
+    "AI security playbook"
+  ],
+  "lifecycle_status": "committee_advanced",
+  "status": "Reported / on calendar",
+  "status_bucket": "Committee advanced",
+  "committees": [
+    "House Intelligence (Permanent Select)"
+  ],
+  "summary": "The House-reported FY2026 intelligence authorization bill addresses AI model review before deployment and would direct creation of an AI security playbook for mitigating theft risk.",
+  "advance_tier": "Medium",
+  "advance_rationale": "Reported / on calendar. Further action remains pending.",
+  "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5167",
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "sponsor": "Eric Crawford",
+  "sponsor_party": "R",
+  "sponsor_state": "AR",
+  "cosponsor_count": 0,
+  "introduced_date": "2025-09-08",
+  "last_action_date": "2025-11-28",
+  "last_action": "Placed on the Union Calendar, Calendar No. 339.",
+  "committee_dynamics": "Official action history. Placed on the Union Calendar, Calendar No. 339.",
+  "sources": [
+    {
+      "source_id": "official-congress",
+      "title": "Congress.gov legislative record for H.R. 5167",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5167",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "govinfo-billstatus",
+      "title": "Official congressional bill status and action history",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5167.xml",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-text",
+      "title": "Official text or legislative description for H.R. 5167",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr5167rh",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "related-pl-119-60-ai-institutes",
+      "title": "Official record of P.L. 119-60 §§ 224, 245, 1512–1515, 1533–1535, 6601–6604",
+      "publisher": "Congress.gov",
+      "source_type": "official",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1071",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "official-record",
+      "fields": [
+        "measure_id",
+        "title",
+        "congress",
+        "chamber",
+        "sponsor",
+        "sponsor_party",
+        "sponsor_state",
+        "cosponsor_count",
+        "committees",
+        "introduced_date",
+        "last_action",
+        "last_action_date",
+        "status",
+        "lifecycle_status"
+      ],
+      "source_ids": [
+        "official-congress",
+        "govinfo-billstatus"
+      ]
+    },
+    {
+      "claim_id": "analysis",
+      "fields": [
+        "scope",
+        "primary_category",
+        "secondary_categories",
+        "summary",
+        "committee_dynamics",
+        "advance_tier",
+        "advance_rationale"
+      ],
+      "source_ids": [
+        "official-text",
+        "govinfo-billstatus"
+      ],
+      "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "legislative-relationships",
+      "fields": [
+        "related_measures"
+      ],
+      "source_ids": [
+        "govinfo-billstatus",
+        "related-pl-119-60-ai-institutes"
+      ]
+    }
+  ],
+  "related_measures": [
+    {
+      "record_id": "pl-119-60-ai-institutes",
+      "measure_id": "P.L. 119-60 §§ 224, 245, 563, 1061, 1512–1515, 1532–1535, 3117, 6601–6604",
+      "relationship": "related"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "record_id": "pl-119-74-sec-4",
+  "entity_type": "provision",
+  "jurisdiction": {
+    "country": "US",
+    "level": "federal",
+    "state": null
+  },
+  "measure_id": "P.L. 119-74 § 4",
+  "title": "Explanatory statement",
+  "congress": 119,
+  "session": "119th Congress",
+  "chamber": "Bicameral",
+  "scope": "Vehicle",
+  "primary_category": "Appropriations implementation",
+  "category_key": "appropriations",
+  "secondary_categories": [],
+  "lifecycle_status": "enacted",
+  "status": "Enacted — Public Law 119-74",
+  "status_bucket": "Enacted",
+  "committees": [],
+  "sponsor": null,
+  "sponsor_party": null,
+  "sponsor_state": null,
+  "cosponsor_count": null,
+  "last_action_date": "2026-01-23",
+  "last_action": "Enacted as section 4 of Public Law 119-74.",
+  "summary": "Gives the explanatory statement effect for fund allocation and implementation. The Division A statement specifies at least $55 million for ongoing NIST AI research and measurement, including up to $10 million for the Center for AI Standards and Innovation, and adopts direction for AI model evaluations.",
+  "committee_dynamics": "The provision was enacted through the Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026.",
+  "advance_tier": "Enacted",
+  "advance_rationale": "Enacted law; implementation replaces advancement forecasting.",
+  "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ74",
+  "public_law": {
+    "number": "119-74",
+    "enacted_date": "2026-01-23",
+    "originating_bill": "H.R. 6938",
+    "statutes_at_large": "140 Stat. 5",
+    "official_url": "https://www.govinfo.gov/app/details/PLAW-119publ74"
+  },
+  "last_verified_date": "2026-11-10",
+  "verification_level": "Official enacted text reviewed.",
+  "sources": [
+    {
+      "source_id": "govinfo-law",
+      "title": "Public Law 119-74, section 4",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ74/pdf/PLAW-119publ74.pdf#page=1",
+      "accessed_date": "2026-11-10"
+    },
+    {
+      "source_id": "official-context-1",
+      "title": "Joint explanatory statement for Division A, NIST Scientific and Technical Research and Services",
+      "publisher": "GovInfo",
+      "source_type": "official",
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-01-08/pdf/CREC-2026-01-08-bk3.pdf",
+      "accessed_date": "2026-11-10"
+    }
+  ],
+  "claim_provenance": [
+    {
+      "claim_id": "enacted-provision",
+      "fields": [
+        "measure_id",
+        "title",
+        "official_url",
+        "public_law",
+        "status",
+        "lifecycle_status",
+        "last_action_date",
+        "last_action",
+        "summary",
+        "scope",
+        "primary_category",
+        "implementation"
+      ],
+      "source_ids": [
+        "govinfo-law",
+        "official-context-1"
+      ]
+    }
+  ],
+  "implementation": {
+    "responsible_agencies": [
+      "National Institute of Standards and Technology",
+      "Center for AI Standards and Innovation"
+    ],
+    "deadlines": [],
+    "agency_status": []
+  }
+}
