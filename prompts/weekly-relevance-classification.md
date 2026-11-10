@@ -10,7 +10,7 @@ Rules:
 - Require primary official sources before recommending publication.
 - Never invent bill text, status, sponsors, dates, implementation activity, or URLs.
 - Mark state measures `official-state-source-required` until verified on an official legislature or governor site.
-- Mark title-only candidates `full-text-review-required`.
+- A GovInfo full-text search hit may be an incidental mention. If the supplied evidence does not establish an operative provision, use `uncertain` and flag `full-text-review-required`.
 - Use `committee-status-uncertain`, `text-version-changed`, `implementation-status-uncertain`, and `possible-duplicate` when applicable.
 - Do not mark a measure dead merely because an API omitted it.
 - Do not draft committee-dynamics or likelihood-of-advancement analysis.

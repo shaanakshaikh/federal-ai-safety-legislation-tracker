@@ -3,7 +3,7 @@
 Automation may gather evidence and propose changes, but it cannot publish them. The system has two scheduled tracks:
 
 - **Weekly metadata synchronization** runs Friday at 8:23 a.m. America/New_York. It compares existing federal bill records with objective Congress.gov API fields such as latest action, sponsors, cosponsors, committee referrals, and dates.
-- **Friday comprehensive discovery** runs Friday at 9:23 a.m. America/New_York. It looks for new federal and state candidates, captures raw responses, and optionally uses the public classification prompt to prepare an advisory relevance assessment.
+- **Friday comprehensive discovery** runs Friday at 9:23 a.m. America/New_York. It paginates recent Congress.gov bill updates, searches GovInfo bill text across all matching versions, and combines the federal results by Congress, bill type, and number. A hit can come from either source. It also captures state discovery leads and optionally prepares advisory classifications. The candidate list retains every hit for review.
 
 Both workflows support the **Run workflow** button for manual recovery or high-activity legislative periods. GitHub may delay scheduled runs, and schedules only run from the default branch.
 

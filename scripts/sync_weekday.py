@@ -25,6 +25,8 @@ LIFECYCLE_RANK = {
 
 
 def lifecycle_from_actions(actions: list[dict], current: str) -> str:
+    if current in {"inactive", "failed", "withdrawn"}:
+        return current
     text = " ".join(str(item.get("text", "")) for item in actions).lower()
     if "became public law" in text or "signed by president" in text:
         inferred = "enacted"
