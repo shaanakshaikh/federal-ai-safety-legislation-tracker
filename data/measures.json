@@ -1861,7 +1861,7 @@
     },
     "lifecycle_status": "referred",
     "measure_id": "H.R. 1283",
-    "title": "Protecting Our Children in an AI World Act",
+    "title": "Protecting Our Children in an AI World Act of 2025",
     "chamber": "House",
     "scope": "Core",
     "primary_category": "Synthetic-media safety",
@@ -1889,7 +1889,7 @@
     "congress": 119,
     "session": "119th Congress",
     "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1283",
-    "last_verified_date": "2026-10-29",
+    "last_verified_date": "2026-11-09",
     "verification_level": "Official congressional bill record and text verified.",
     "sources": [
       {
@@ -1906,7 +1906,7 @@
         "publisher": "U.S. Government Publishing Office",
         "source_type": "official",
         "url": "https://www.govinfo.gov/app/details/BILLS-119hr1283ih",
-        "accessed_date": "2026-10-29"
+        "accessed_date": "2026-11-09"
       }
     ],
     "claim_provenance": [
@@ -1924,7 +1924,8 @@
           "lifecycle_status"
         ],
         "source_ids": [
-          "official-congress"
+          "official-congress",
+          "official-govinfo"
         ]
       },
       {
@@ -7609,7 +7610,7 @@
     },
     "lifecycle_status": "enacted",
     "measure_id": "P.L. 119-21 § 50404",
-    "title": "Transformational artificial-intelligence models for science and engineering",
+    "title": "Transformational artificial intelligence models",
     "session": "119th Congress",
     "congress": 119,
     "chamber": "Bicameral",
@@ -7662,7 +7663,7 @@
         }
       ]
     },
-    "last_verified_date": "2026-09-20",
+    "last_verified_date": "2026-11-09",
     "verification_level": "Official law and DOE implementation material verified.",
     "sources": [
       {
@@ -7671,7 +7672,7 @@
         "publisher": "GovInfo",
         "source_type": "official",
         "url": "https://www.govinfo.gov/app/details/PLAW-119publ21",
-        "accessed_date": "2026-09-20"
+        "accessed_date": "2026-11-09"
       },
       {
         "source_id": "doe-consortium",
