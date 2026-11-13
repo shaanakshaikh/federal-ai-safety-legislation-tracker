@@ -22,14 +22,14 @@
   "status": "Introduced / referred; expired at end of the 118th Congress",
   "status_bucket": "Expired at end of the 118th Congress",
   "committees": [
-    "Senate Commerce, Science, and Transportation"
+    "Commerce, Science, and Transportation Committee"
   ],
   "summary": "Would create a Data Protection Agency with oversight of high-risk data practices, including authority to require risk impact assessments for practices involving automated decision systems.",
   "advance_tier": "Dead",
   "advance_rationale": "The 118th Congress ended without enactment. Introduced / referred was the furthest recorded stage.",
   "congress_url": "https://www.congress.gov/bill/118th-congress/senate-bill/5170",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Kirsten Gillibrand",
   "sponsor_party": "D",
   "sponsor_state": "NY",
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/118th-congress/senate-bill/5170",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -104,6 +104,16 @@
         "govinfo-billstatus"
       ],
       "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ]
 }

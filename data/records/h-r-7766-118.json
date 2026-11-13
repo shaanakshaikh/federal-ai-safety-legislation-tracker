@@ -22,15 +22,15 @@
   "status": "Introduced / referred; expired at end of the 118th Congress",
   "status_bucket": "Expired at end of the 118th Congress",
   "committees": [
-    "House Energy and Commerce",
-    "House Science, Space, and Technology"
+    "Energy and Commerce Committee",
+    "Science, Space, and Technology Committee"
   ],
   "summary": "Would establish NIST task forces to develop provenance, watermarking and labeling guidelines for AI-generated audio and visual material.",
   "advance_tier": "Dead",
   "advance_rationale": "The 118th Congress ended without enactment. Introduced / referred was the furthest recorded stage.",
   "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/7766",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Anna Eshoo",
   "sponsor_party": "D",
   "sponsor_state": "CA",
@@ -46,7 +46,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/118th-congress/house-bill/7766",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -132,6 +132,16 @@
         "related-h-r-8479",
         "related-h-r-8893"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

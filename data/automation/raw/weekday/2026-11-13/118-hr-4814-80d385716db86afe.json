@@ -1,0 +1,468 @@
+{
+  "actions": [
+    {
+      "actionDate": "2024-05-15",
+      "committees": [
+        {
+          "name": "Commerce, Science, and Transportation Committee",
+          "systemCode": "sscm00",
+          "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H38800",
+      "actionDate": "2024-05-14",
+      "actionTime": "15:11:57",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "The title of the measure was amended. Agreed to without objection.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H38310",
+      "actionDate": "2024-05-14",
+      "actionTime": "15:11:55",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H37300",
+      "actionDate": "2024-05-14",
+      "actionTime": "15:11:53",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3032-3033)",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "8000",
+      "actionDate": "2024-05-14",
+      "actionTime": "15:11:53",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H3032-3033)",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H8D000",
+      "actionDate": "2024-05-14",
+      "actionTime": "15:03:10",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 4814.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H30000",
+      "actionDate": "2024-05-14",
+      "actionTime": "15:03:09",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Considered under suspension of the rules. (consideration: CR H3032-3034)",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H30300",
+      "actionDate": "2024-05-14",
+      "actionTime": "15:03:05",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Mr. Bilirakis moved to suspend the rules and pass the bill, as amended.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H12410",
+      "actionDate": "2024-05-10",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Placed on the Union Calendar, Calendar No. 414.",
+      "type": "Calendars"
+    },
+    {
+      "actionCode": "H12200",
+      "actionDate": "2024-05-10",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 118-498.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "5000",
+      "actionDate": "2024-05-10",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 118-498.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H19000",
+      "actionDate": "2023-12-06",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 45 - 0.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15000-B",
+      "actionDate": "2023-12-06",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15000-B",
+      "actionDate": "2023-12-05",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H23000",
+      "actionDate": "2023-11-02",
+      "committees": [
+        {
+          "name": "Commerce, Manufacturing, and Trade Subcommittee",
+          "systemCode": "hsif17",
+          "url": "https://api.congress.gov/v3/committee/house/hsif17?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H22000",
+      "actionDate": "2023-11-02",
+      "committees": [
+        {
+          "name": "Commerce, Manufacturing, and Trade Subcommittee",
+          "systemCode": "hsif17",
+          "url": "https://api.congress.gov/v3/committee/house/hsif17?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Subcommittee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11000",
+      "actionDate": "2023-07-21",
+      "committees": [
+        {
+          "name": "Commerce, Manufacturing, and Trade Subcommittee",
+          "systemCode": "hsif17",
+          "url": "https://api.congress.gov/v3/committee/house/hsif17?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Innovation, Data, and Commerce.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-07-20",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Energy and Commerce.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2023-07-20",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2023-07-20",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 20,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4814/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As passed by the House of Representatives on May 14, 2024\n",
+        "pubDate": "2024-06-06T15:18:00Z",
+        "title": "H.R. 4814, Consumer Safety Technology Act",
+        "url": "https://www.cbo.gov/publication/60379"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 118-498",
+        "url": "https://api.congress.gov/v3/committee-report/118/HRPT/498?format=json"
+      }
+    ],
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4814/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 125 (Thursday, July 20, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. SOTO:\nH.R. 4814.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8, of the United States Constitution.\nThe single subject of this legislation is:\nThis bill authorizes a pilot program, study, and report\nrelated to artificial intelligence, digital tokens, and\nblockchain technology.\n[Page H3891]\n</pre>",
+    "cosponsors": {
+      "count": 4,
+      "countIncludingWithdrawnCosponsors": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4814/cosponsors?format=json"
+    },
+    "introducedDate": "2023-07-20",
+    "latestAction": {
+      "actionDate": "2024-05-15",
+      "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/4814",
+    "number": "4814",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Commerce"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "S001200",
+        "district": 9,
+        "firstName": "Darren",
+        "fullName": "Rep. Soto, Darren [D-FL-9]",
+        "isByRequest": "N",
+        "lastName": "Soto",
+        "party": "D",
+        "state": "FL",
+        "url": "https://api.congress.gov/v3/member/S001200?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 18,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4814/subjects?format=json"
+    },
+    "summaries": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4814/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4814/text?format=json"
+    },
+    "title": "Consumer Safety Technology Act",
+    "titles": {
+      "count": 19,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4814/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-08T18:03:40Z",
+    "updateDateIncludingText": "2026-09-08T18:03:40Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-05-15T16:58:46Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-05-10T17:02:30Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2023-12-06T16:00:16Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2023-12-05T15:59:58Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2023-07-20T13:07:15Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2023-11-02T20:51:11Z",
+              "name": "Reported by"
+            },
+            {
+              "date": "2023-11-02T20:48:56Z",
+              "name": "Markup by"
+            },
+            {
+              "date": "2023-07-21T20:48:13Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Commerce, Manufacturing, and Trade Subcommittee",
+          "systemCode": "hsif17",
+          "url": "https://api.congress.gov/v3/committee/house/hsif17?format=json"
+        }
+      ],
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "B001248",
+      "district": 26,
+      "firstName": "Michael",
+      "fullName": "Rep. Burgess, Michael C. [R-TX-26]",
+      "isOriginalCosponsor": true,
+      "lastName": "Burgess",
+      "middleName": "C.",
+      "party": "R",
+      "sponsorshipDate": "2023-07-20",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/B001248?format=json"
+    },
+    {
+      "bioguideId": "T000482",
+      "district": 3,
+      "firstName": "Lori",
+      "fullName": "Rep. Trahan, Lori [D-MA-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Trahan",
+      "party": "D",
+      "sponsorshipDate": "2023-07-20",
+      "state": "MA",
+      "url": "https://api.congress.gov/v3/member/T000482?format=json"
+    },
+    {
+      "bioguideId": "G000558",
+      "district": 2,
+      "firstName": "Brett",
+      "fullName": "Rep. Guthrie, Brett [R-KY-2]",
+      "isOriginalCosponsor": true,
+      "lastName": "Guthrie",
+      "party": "R",
+      "sponsorshipDate": "2023-07-20",
+      "state": "KY",
+      "url": "https://api.congress.gov/v3/member/G000558?format=json"
+    },
+    {
+      "bioguideId": "C001066",
+      "district": 14,
+      "firstName": "Kathy",
+      "fullName": "Rep. Castor, Kathy [D-FL-14]",
+      "isOriginalCosponsor": false,
+      "lastName": "Castor",
+      "party": "D",
+      "sponsorshipDate": "2023-07-27",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/C001066?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

@@ -1,0 +1,102 @@
+{
+  "actions": [
+    {
+      "actionDate": "2025-05-06",
+      "committees": [
+        {
+          "name": "Banking, Housing, and Urban Affairs Committee",
+          "systemCode": "ssbk00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssbk00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2025-05-06",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/1621/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1621/committees?format=json"
+    },
+    "congress": 119,
+    "introducedDate": "2025-05-06",
+    "latestAction": {
+      "actionDate": "2025-05-06",
+      "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1621",
+    "number": "1621",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Housing and Community Development"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1621/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "W000817",
+        "firstName": "Elizabeth",
+        "fullName": "Sen. Warren, Elizabeth [D-MA]",
+        "isByRequest": "N",
+        "lastName": "Warren",
+        "middleName": "A.",
+        "party": "D",
+        "state": "MA",
+        "url": "https://api.congress.gov/v3/member/W000817?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1621/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/1621/text?format=json"
+    },
+    "title": "Restoring Fair Housing Protections Eliminated by Trump Act of 2025",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/1621/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-04-13T17:58:27Z",
+    "updateDateIncludingText": "2026-04-13T17:58:27Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-05-06T19:19:27Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Banking, Housing, and Urban Affairs Committee",
+      "systemCode": "ssbk00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssbk00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

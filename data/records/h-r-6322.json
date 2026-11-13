@@ -23,14 +23,14 @@
   "status": "Ordered reported 43–1",
   "status_bucket": "Committee advanced",
   "committees": [
-    "House Foreign Affairs"
+    "Foreign Affairs Committee"
   ],
   "summary": "Would establish a Commerce Department whistleblower rewards and protections program for reporting export-control violations, including those involving controlled AI chips.",
   "advance_tier": "Medium",
   "advance_rationale": "Ordered reported 43–1. Further action remains pending.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6322",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Thomas Kean",
   "sponsor_party": "R",
   "sponsor_state": "NJ",
@@ -46,7 +46,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/6322",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -113,6 +113,16 @@
         "govinfo-billstatus"
       ],
       "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": []

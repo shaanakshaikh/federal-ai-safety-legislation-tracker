@@ -1,0 +1,157 @@
+{
+  "actions": [
+    {
+      "actionDate": "2026-09-30",
+      "committees": [
+        {
+          "name": "Homeland Security and Governmental Affairs Committee",
+          "systemCode": "ssga00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Homeland Security and Governmental Affairs. Hearings held.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2025-09-29",
+      "committees": [
+        {
+          "name": "Commerce, Science, and Transportation Committee",
+          "systemCode": "sscm00",
+          "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2025-09-29",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/2938/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/2938/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 2,
+      "countIncludingWithdrawnCosponsors": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/2938/cosponsors?format=json"
+    },
+    "introducedDate": "2025-09-29",
+    "latestAction": {
+      "actionDate": "2026-09-30",
+      "text": "Committee on Homeland Security and Governmental Affairs. Hearings held."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2938",
+    "number": "2938",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "H001089",
+        "firstName": "Josh",
+        "fullName": "Sen. Hawley, Josh [R-MO]",
+        "isByRequest": "N",
+        "lastName": "Hawley",
+        "party": "R",
+        "state": "MO",
+        "url": "https://api.congress.gov/v3/member/H001089?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 9,
+      "url": "https://api.congress.gov/v3/bill/119/s/2938/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2938/text?format=json"
+    },
+    "title": "Artificial Intelligence Risk Evaluation Act of 2025",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/2938/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-10-07T15:09:56Z",
+    "updateDateIncludingText": "2026-10-07T15:09:56Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-09-30T21:35:02Z",
+          "name": "Hearings By (full committee)"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Homeland Security and Governmental Affairs Committee",
+      "systemCode": "ssga00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-09-30T01:44:22Z",
+          "name": "Referred To"
+        },
+        {
+          "date": "2025-09-30T01:44:22Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "B001277",
+      "firstName": "Richard",
+      "fullName": "Sen. Blumenthal, Richard [D-CT]",
+      "isOriginalCosponsor": true,
+      "lastName": "Blumenthal",
+      "party": "D",
+      "sponsorshipDate": "2025-09-29",
+      "state": "CT",
+      "url": "https://api.congress.gov/v3/member/B001277?format=json"
+    },
+    {
+      "bioguideId": "B001243",
+      "firstName": "Marsha",
+      "fullName": "Sen. Blackburn, Marsha [R-TN]",
+      "isOriginalCosponsor": false,
+      "lastName": "Blackburn",
+      "party": "R",
+      "sponsorshipDate": "2026-03-19",
+      "state": "TN",
+      "url": "https://api.congress.gov/v3/member/B001243?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

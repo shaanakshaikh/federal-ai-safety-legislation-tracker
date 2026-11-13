@@ -1,0 +1,129 @@
+{
+  "actions": [
+    {
+      "actionDate": "2025-07-21",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "ssju00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on the Judiciary.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2025-07-21",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/2367/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2367/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 2,
+      "countIncludingWithdrawnCosponsors": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/2367/cosponsors?format=json"
+    },
+    "introducedDate": "2025-07-21",
+    "latestAction": {
+      "actionDate": "2025-07-21",
+      "text": "Read twice and referred to the Committee on the Judiciary."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2367",
+    "number": "2367",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Law"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "H001089",
+        "firstName": "Josh",
+        "fullName": "Sen. Hawley, Josh [R-MO]",
+        "isByRequest": "N",
+        "lastName": "Hawley",
+        "party": "R",
+        "state": "MO",
+        "url": "https://api.congress.gov/v3/member/H001089?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2367/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2367/text?format=json"
+    },
+    "title": "AI Accountability and Personal Data Protection Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/2367/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-08-10T11:51:27Z",
+    "updateDateIncludingText": "2026-08-10T11:58:45Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-07-21T22:41:11Z",
+          "name": "Referred To"
+        },
+        {
+          "date": "2025-07-21T22:41:11Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Judiciary Committee",
+      "systemCode": "ssju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "B001277",
+      "firstName": "Richard",
+      "fullName": "Sen. Blumenthal, Richard [D-CT]",
+      "isOriginalCosponsor": true,
+      "lastName": "Blumenthal",
+      "party": "D",
+      "sponsorshipDate": "2025-07-21",
+      "state": "CT",
+      "url": "https://api.congress.gov/v3/member/B001277?format=json"
+    },
+    {
+      "bioguideId": "W000800",
+      "firstName": "Peter",
+      "fullName": "Sen. Welch, Peter [D-VT]",
+      "isOriginalCosponsor": false,
+      "lastName": "Welch",
+      "party": "D",
+      "sponsorshipDate": "2025-07-24",
+      "state": "VT",
+      "url": "https://api.congress.gov/v3/member/W000800?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

@@ -1,0 +1,120 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-05-02",
+      "committees": [
+        {
+          "name": "Committee on House Administration",
+          "systemCode": "hsha00",
+          "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on House Administration.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2023-05-02",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2023-05-02",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3044/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3044/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 74 (Tuesday, May 2, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. CLARKE of New York:\nH.R. 3044.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8\nThe single subject of this legislation is:\nElections\n[Page H2127]\n</pre>",
+    "introducedDate": "2023-05-02",
+    "latestAction": {
+      "actionDate": "2023-05-02",
+      "text": "Referred to the House Committee on House Administration."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/3044",
+    "number": "3044",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Government Operations and Politics"
+    },
+    "relatedBills": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3044/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "C001067",
+        "district": 9,
+        "firstName": "Yvette",
+        "fullName": "Rep. Clarke, Yvette D. [D-NY-9]",
+        "isByRequest": "N",
+        "lastName": "Clarke",
+        "middleName": "D.",
+        "party": "D",
+        "state": "NY",
+        "url": "https://api.congress.gov/v3/member/C001067?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3044/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3044/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3044/text?format=json"
+    },
+    "title": "REAL Political Advertisements Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3044/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-11-12T16:22:53Z",
+    "updateDateIncludingText": "2026-11-12T16:22:53Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-05-02T15:02:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Committee on House Administration",
+      "systemCode": "hsha00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

@@ -22,32 +22,32 @@
   "status": "Passed House",
   "status_bucket": "Passed one chamber",
   "committees": [
-    "House Oversight and Government Reform",
-    "House Intelligence (Permanent Select)",
-    "House Appropriations",
-    "House Ways and Means",
-    "House Foreign Affairs",
-    "House Small Business",
-    "House Judiciary",
-    "House Education and Workforce",
-    "House Committee on House Administration",
-    "House Homeland Security",
-    "House Energy and Commerce",
-    "House Natural Resources",
-    "House Science, Space, and Technology",
-    "House Agriculture",
-    "House Financial Services",
-    "House Transportation and Infrastructure",
-    "House Budget",
-    "House Veterans' Affairs",
-    "House Armed Services"
+    "Agriculture Committee",
+    "Appropriations Committee",
+    "Armed Services Committee",
+    "Budget Committee",
+    "Committee on House Administration",
+    "Education and Workforce Committee",
+    "Energy and Commerce Committee",
+    "Financial Services Committee",
+    "Foreign Affairs Committee",
+    "Homeland Security Committee",
+    "Intelligence (Permanent Select) Committee",
+    "Judiciary Committee",
+    "Natural Resources Committee",
+    "Oversight and Government Reform Committee",
+    "Science, Space, and Technology Committee",
+    "Small Business Committee",
+    "Transportation and Infrastructure Committee",
+    "Veterans' Affairs Committee",
+    "Ways and Means Committee"
   ],
   "summary": "The House-passed FY2026 defense authorization bill includes a Defense Department assessment of national-security risks from advanced AI and planning for evaluation, monitoring and governance.",
   "advance_tier": "High",
   "advance_rationale": "Passed House. Outlook reflects documented legislative progress.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3838",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Mike Rogers",
   "sponsor_party": "R",
   "sponsor_state": "AL",
@@ -63,7 +63,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/3838",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -140,6 +140,16 @@
         "govinfo-billstatus",
         "related-pl-119-60-ai-institutes"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

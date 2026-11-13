@@ -22,14 +22,14 @@
   "status": "Ordered reported 43–3; expired at end of the 118th Congress",
   "status_bucket": "Expired at end of the 118th Congress",
   "committees": [
-    "House Foreign Affairs"
+    "Foreign Affairs Committee"
   ],
   "summary": "Would expand federal export-control authority over covered AI systems and enabling technologies that pose national-security risks.",
   "advance_tier": "Dead",
   "advance_rationale": "The 118th Congress ended without enactment. Ordered reported 43–3 was the furthest recorded stage.",
   "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/8315",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Michael McCaul",
   "sponsor_party": "R",
   "sponsor_state": "TX",
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/118th-congress/house-bill/8315",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -104,6 +104,16 @@
         "govinfo-billstatus"
       ],
       "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ]
 }

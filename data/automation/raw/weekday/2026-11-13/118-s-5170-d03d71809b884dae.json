@@ -1,0 +1,102 @@
+{
+  "actions": [
+    {
+      "actionDate": "2024-09-25",
+      "committees": [
+        {
+          "name": "Commerce, Science, and Transportation Committee",
+          "systemCode": "sscm00",
+          "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2024-09-25",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/s/5170/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/5170/committees?format=json"
+    },
+    "congress": 118,
+    "introducedDate": "2024-09-25",
+    "latestAction": {
+      "actionDate": "2024-09-25",
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/5170",
+    "number": "5170",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Commerce"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/5170/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "G000555",
+        "firstName": "Kirsten",
+        "fullName": "Sen. Gillibrand, Kirsten E. [D-NY]",
+        "isByRequest": "N",
+        "lastName": "Gillibrand",
+        "middleName": "E.",
+        "party": "D",
+        "state": "NY",
+        "url": "https://api.congress.gov/v3/member/G000555?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/5170/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/5170/text?format=json"
+    },
+    "title": "Data Protection Act of 2024",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/s/5170/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-09-08T18:03:40Z",
+    "updateDateIncludingText": "2026-09-08T18:03:40Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-09-25T15:37:48Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

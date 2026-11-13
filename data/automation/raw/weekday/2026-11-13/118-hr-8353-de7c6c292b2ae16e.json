@@ -1,0 +1,256 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-05-10",
+      "committees": [
+        {
+          "name": "Committee on House Administration",
+          "systemCode": "hsha00",
+          "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on House Administration.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-05-10",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-05-10",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8353/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8353/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 82 (Friday, May 10, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. HOULAHAN:\nH.R. 8353.\nCongress has the power to enact this legislation pursuant\nto the following:\nSection 1, Article 8 of the Constitution\nThe single subject of this legislation is:\nTo require the Election Assistance Commission to develop\nvoluntary guidelines for the administration of elections that\naddress the use and risks of artificial intelligence\ntechnologies, and for other purposes.\n[Page H3006]\n</pre>",
+    "cosponsors": {
+      "count": 11,
+      "countIncludingWithdrawnCosponsors": 11,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8353/cosponsors?format=json"
+    },
+    "introducedDate": "2024-05-10",
+    "latestAction": {
+      "actionDate": "2024-05-10",
+      "text": "Referred to the House Committee on House Administration."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/8353",
+    "number": "8353",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Government Operations and Politics"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8353/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "H001085",
+        "district": 6,
+        "firstName": "Chrissy",
+        "fullName": "Rep. Houlahan, Chrissy [D-PA-6]",
+        "isByRequest": "N",
+        "lastName": "Houlahan",
+        "party": "D",
+        "state": "PA",
+        "url": "https://api.congress.gov/v3/member/H001085?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8353/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8353/text?format=json"
+    },
+    "title": "Preparing Election Administrators for AI Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8353/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-12-05T09:08:36Z",
+    "updateDateIncludingText": "2025-12-05T09:08:36Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-05-10T16:31:15Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Committee on House Administration",
+      "systemCode": "hsha00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "F000466",
+      "district": 1,
+      "firstName": "Brian",
+      "fullName": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Fitzpatrick",
+      "middleName": "K.",
+      "party": "R",
+      "sponsorshipDate": "2024-05-10",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/F000466?format=json"
+    },
+    {
+      "bioguideId": "L000564",
+      "district": 5,
+      "firstName": "Doug",
+      "fullName": "Rep. Lamborn, Doug [R-CO-5]",
+      "isOriginalCosponsor": true,
+      "lastName": "Lamborn",
+      "party": "R",
+      "sponsorshipDate": "2024-05-10",
+      "state": "CO",
+      "url": "https://api.congress.gov/v3/member/L000564?format=json"
+    },
+    {
+      "bioguideId": "S001209",
+      "district": 7,
+      "firstName": "Abigail",
+      "fullName": "Rep. Spanberger, Abigail Davis [D-VA-7]",
+      "isOriginalCosponsor": true,
+      "lastName": "Spanberger",
+      "middleName": "Davis",
+      "party": "D",
+      "sponsorshipDate": "2024-05-10",
+      "state": "VA",
+      "url": "https://api.congress.gov/v3/member/S001209?format=json"
+    },
+    {
+      "bioguideId": "M001196",
+      "district": 6,
+      "firstName": "Seth",
+      "fullName": "Rep. Moulton, Seth [D-MA-6]",
+      "isOriginalCosponsor": true,
+      "lastName": "Moulton",
+      "party": "D",
+      "sponsorshipDate": "2024-05-10",
+      "state": "MA",
+      "url": "https://api.congress.gov/v3/member/M001196?format=json"
+    },
+    {
+      "bioguideId": "L000582",
+      "district": 36,
+      "firstName": "Ted",
+      "fullName": "Rep. Lieu, Ted [D-CA-36]",
+      "isOriginalCosponsor": true,
+      "lastName": "Lieu",
+      "party": "D",
+      "sponsorshipDate": "2024-05-10",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/L000582?format=json"
+    },
+    {
+      "bioguideId": "S001208",
+      "district": 7,
+      "firstName": "Elissa",
+      "fullName": "Rep. Slotkin, Elissa [D-MI-7]",
+      "isOriginalCosponsor": true,
+      "lastName": "Slotkin",
+      "party": "D",
+      "sponsorshipDate": "2024-05-10",
+      "state": "MI",
+      "url": "https://api.congress.gov/v3/member/S001208?format=json"
+    },
+    {
+      "bioguideId": "L000560",
+      "district": 2,
+      "firstName": "Rick",
+      "fullName": "Rep. Larsen, Rick [D-WA-2]",
+      "isOriginalCosponsor": false,
+      "lastName": "Larsen",
+      "party": "D",
+      "sponsorshipDate": "2024-06-05",
+      "state": "WA",
+      "url": "https://api.congress.gov/v3/member/L000560?format=json"
+    },
+    {
+      "bioguideId": "W000788",
+      "district": 5,
+      "firstName": "Nikema",
+      "fullName": "Rep. Williams, Nikema [D-GA-5]",
+      "isOriginalCosponsor": false,
+      "lastName": "Williams",
+      "party": "D",
+      "sponsorshipDate": "2024-06-26",
+      "state": "GA",
+      "url": "https://api.congress.gov/v3/member/W000788?format=json"
+    },
+    {
+      "bioguideId": "B001292",
+      "district": 8,
+      "firstName": "Donald",
+      "fullName": "Rep. Beyer, Donald S. [D-VA-8]",
+      "isOriginalCosponsor": false,
+      "lastName": "Beyer",
+      "middleName": "S.",
+      "party": "D",
+      "sponsorshipDate": "2024-08-13",
+      "state": "VA",
+      "url": "https://api.congress.gov/v3/member/B001292?format=json"
+    },
+    {
+      "bioguideId": "B001287",
+      "district": 6,
+      "firstName": "Ami",
+      "fullName": "Rep. Bera, Ami [D-CA-6]",
+      "isOriginalCosponsor": false,
+      "lastName": "Bera",
+      "party": "D",
+      "sponsorshipDate": "2024-09-25",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/B001287?format=json"
+    },
+    {
+      "bioguideId": "T000488",
+      "district": 13,
+      "firstName": "Shri",
+      "fullName": "Rep. Thanedar, Shri [D-MI-13]",
+      "isOriginalCosponsor": false,
+      "lastName": "Thanedar",
+      "party": "D",
+      "sponsorshipDate": "2024-09-25",
+      "state": "MI",
+      "url": "https://api.congress.gov/v3/member/T000488?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

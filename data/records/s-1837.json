@@ -22,14 +22,14 @@
   "status": "Passed Senate",
   "status_bucket": "Passed one chamber",
   "committees": [
-    "Senate Judiciary"
+    "Judiciary Committee"
   ],
   "summary": "Would create a federal civil action for certain nonconsensual intimate digital forgeries.",
   "advance_tier": "High",
   "advance_rationale": "Passed Senate. Outlook reflects documented legislative progress.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1837",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Richard Durbin",
   "sponsor_party": "D",
   "sponsor_state": "IL",
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1837",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -131,6 +131,16 @@
         "related-h-r-3562",
         "related-s-3696-118"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

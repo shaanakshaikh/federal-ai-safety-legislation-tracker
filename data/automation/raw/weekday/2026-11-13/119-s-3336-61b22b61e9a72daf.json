@@ -1,0 +1,118 @@
+{
+  "actions": [
+    {
+      "actionDate": "2025-12-03",
+      "committees": [
+        {
+          "name": "Homeland Security and Governmental Affairs Committee",
+          "systemCode": "ssga00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2025-12-03",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/3336/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3336/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3336/cosponsors?format=json"
+    },
+    "introducedDate": "2025-12-03",
+    "latestAction": {
+      "actionDate": "2025-12-03",
+      "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3336",
+    "number": "3336",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3336/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "H001076",
+        "firstName": "Maggie",
+        "fullName": "Sen. Hassan, Margaret Wood [D-NH]",
+        "isByRequest": "N",
+        "lastName": "Hassan",
+        "party": "D",
+        "state": "NH",
+        "url": "https://api.congress.gov/v3/member/H001076?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3336/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3336/text?format=json"
+    },
+    "title": "Reliable Artificial Intelligence Research Act of 2025",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/3336/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-10-05T17:26:23Z",
+    "updateDateIncludingText": "2026-10-05T17:26:23Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-12-03T21:25:19Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Homeland Security and Governmental Affairs Committee",
+      "systemCode": "ssga00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "B001299",
+      "firstName": "Jim",
+      "fullName": "Sen. Banks, Jim [R-IN]",
+      "isOriginalCosponsor": true,
+      "lastName": "Banks",
+      "party": "R",
+      "sponsorshipDate": "2025-12-03",
+      "state": "IN",
+      "url": "https://api.congress.gov/v3/member/B001299?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

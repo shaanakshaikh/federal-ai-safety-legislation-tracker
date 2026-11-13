@@ -23,19 +23,19 @@
   "status": "Ordered reported 42–0",
   "status_bucket": "Committee advanced",
   "committees": [
-    "House Ways and Means",
-    "House Energy and Commerce"
+    "Energy and Commerce Committee",
+    "Ways and Means Committee"
   ],
   "summary": "Would require Medicare Advantage reporting on technology-assisted approvals and federal examination of how fully automated prior authorization affects access to care.",
   "advance_tier": "Medium",
   "advance_rationale": "Ordered reported 42–0. Further action remains pending.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3514",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Mike Kelly",
   "sponsor_party": "R",
   "sponsor_state": "PA",
-  "cosponsor_count": 308,
+  "cosponsor_count": 311,
   "introduced_date": "2025-05-20",
   "last_action_date": "2026-07-15",
   "last_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 0.",
@@ -47,7 +47,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/3514",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -124,6 +124,16 @@
         "govinfo-billstatus",
         "related-s-1816"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

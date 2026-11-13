@@ -1,0 +1,169 @@
+{
+  "actions": [
+    {
+      "actionDate": "2024-06-12",
+      "committees": [
+        {
+          "name": "Intelligence (Select) Committee",
+          "systemCode": "slin00",
+          "url": "https://api.congress.gov/v3/committee/senate/slin00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "By Senator Warner from Select Committee on Intelligence filed written report. Report No. 118-181. Additional views filed.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "14900",
+      "actionDate": "2024-06-12",
+      "committees": [
+        {
+          "name": "Intelligence (Select) Committee",
+          "systemCode": "slin00",
+          "url": "https://api.congress.gov/v3/committee/senate/slin00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "By Senator Warner from Select Committee on Intelligence filed written report. Report No. 118-181. Additional views filed.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2024-06-03",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 412.",
+      "type": "Calendars"
+    },
+    {
+      "actionDate": "2024-06-03",
+      "committees": [
+        {
+          "name": "Intelligence (Select) Committee",
+          "systemCode": "slin00",
+          "url": "https://api.congress.gov/v3/committee/senate/slin00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Select Committee on Intelligence. Original measure reported to Senate by Senator Warner. Without written report.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "14000",
+      "actionDate": "2024-06-03",
+      "committees": [
+        {
+          "name": "Intelligence (Select) Committee",
+          "systemCode": "slin00",
+          "url": "https://api.congress.gov/v3/committee/senate/slin00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Select Committee on Intelligence. Original measure reported to Senate by Senator Warner. Without written report.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2024-06-03",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/118/s/4443/actions?format=json"
+    },
+    "committeeReports": [
+      {
+        "citation": "S. Rept. 118-181",
+        "url": "https://api.congress.gov/v3/committee-report/118/SRPT/181?format=json"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/4443/committees?format=json"
+    },
+    "congress": 118,
+    "introducedDate": "2024-06-03",
+    "latestAction": {
+      "actionDate": "2024-06-12",
+      "text": "By Senator Warner from Select Committee on Intelligence filed written report. Report No. 118-181. Additional views filed."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/4443",
+    "number": "4443",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "relatedBills": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/118/s/4443/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "W000805",
+        "firstName": "Mark",
+        "fullName": "Sen. Warner, Mark R. [D-VA]",
+        "isByRequest": "N",
+        "lastName": "Warner",
+        "middleName": "R.",
+        "party": "D",
+        "state": "VA",
+        "url": "https://api.congress.gov/v3/member/W000805?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 49,
+      "url": "https://api.congress.gov/v3/bill/118/s/4443/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/4443/text?format=json"
+    },
+    "title": "Intelligence Authorization Act for Fiscal Year 2025",
+    "titles": {
+      "count": 10,
+      "url": "https://api.congress.gov/v3/bill/118/s/4443/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2025-05-27T14:16:03Z",
+    "updateDateIncludingText": "2025-05-27T14:16:03Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-06-12T20:53:07Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2024-06-03T22:19:17Z",
+          "name": "Reported Original Measure"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Intelligence (Select) Committee",
+      "systemCode": "slin00",
+      "type": "Select",
+      "url": "https://api.congress.gov/v3/committee/senate/slin00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

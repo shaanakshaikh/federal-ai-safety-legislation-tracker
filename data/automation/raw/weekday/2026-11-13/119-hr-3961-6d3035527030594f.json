@@ -1,0 +1,191 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-06-12",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "hsas00",
+          "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Armed Services.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-06-12",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-06-12",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3961/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3961/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 101 (Thursday, June 12, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. FALLON:\nH.R. 3961.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8\n[Page H2822]\n</pre>",
+    "cosponsors": {
+      "count": 6,
+      "countIncludingWithdrawnCosponsors": 6,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3961/cosponsors?format=json"
+    },
+    "introducedDate": "2025-06-12",
+    "latestAction": {
+      "actionDate": "2025-06-12",
+      "text": "Referred to the House Committee on Armed Services."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3961",
+    "number": "3961",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "F000246",
+        "district": 4,
+        "firstName": "Pat",
+        "fullName": "Rep. Fallon, Pat [R-TX-4]",
+        "isByRequest": "N",
+        "lastName": "Fallon",
+        "party": "R",
+        "state": "TX",
+        "url": "https://api.congress.gov/v3/member/F000246?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3961/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3961/text?format=json"
+    },
+    "title": "To prohibit the Secretary of Defense from entering into software source code contracts with entities with certain relationships with China, and for other purposes.",
+    "titles": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3961/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-07-22T12:39:55Z",
+    "updateDateIncludingText": "2025-07-22T12:39:55Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-06-12T14:03:40Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "K000399",
+      "district": 2,
+      "firstName": "Jennifer",
+      "fullName": "Rep. Kiggans, Jennifer A. [R-VA-2]",
+      "isOriginalCosponsor": true,
+      "lastName": "Kiggans",
+      "middleName": "A.",
+      "party": "R",
+      "sponsorshipDate": "2025-06-12",
+      "state": "VA",
+      "url": "https://api.congress.gov/v3/member/K000399?format=json"
+    },
+    {
+      "bioguideId": "M001239",
+      "district": 5,
+      "firstName": "John",
+      "fullName": "Rep. McGuire, John J. [R-VA-5]",
+      "isOriginalCosponsor": true,
+      "lastName": "McGuire",
+      "middleName": "J.",
+      "party": "R",
+      "sponsorshipDate": "2025-06-12",
+      "state": "VA",
+      "url": "https://api.congress.gov/v3/member/M001239?format=json"
+    },
+    {
+      "bioguideId": "H001077",
+      "district": 3,
+      "firstName": "Clay",
+      "fullName": "Rep. Higgins, Clay [R-LA-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Higgins",
+      "party": "R",
+      "sponsorshipDate": "2025-06-12",
+      "state": "LA",
+      "url": "https://api.congress.gov/v3/member/H001077?format=json"
+    },
+    {
+      "bioguideId": "M001218",
+      "district": 7,
+      "firstName": "Richard",
+      "fullName": "Rep. McCormick, Richard [R-GA-7]",
+      "isOriginalCosponsor": true,
+      "lastName": "McCormick",
+      "party": "R",
+      "sponsorshipDate": "2025-06-12",
+      "state": "GA",
+      "url": "https://api.congress.gov/v3/member/M001218?format=json"
+    },
+    {
+      "bioguideId": "G000589",
+      "district": 5,
+      "firstName": "Lance",
+      "fullName": "Rep. Gooden, Lance [R-TX-5]",
+      "isOriginalCosponsor": true,
+      "lastName": "Gooden",
+      "party": "R",
+      "sponsorshipDate": "2025-06-12",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/G000589?format=json"
+    },
+    {
+      "bioguideId": "J000304",
+      "district": 13,
+      "firstName": "Ronny",
+      "fullName": "Rep. Jackson, Ronny [R-TX-13]",
+      "isOriginalCosponsor": false,
+      "lastName": "Jackson",
+      "party": "R",
+      "sponsorshipDate": "2025-06-26",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/J000304?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

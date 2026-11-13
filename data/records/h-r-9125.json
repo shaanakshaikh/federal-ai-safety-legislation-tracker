@@ -22,8 +22,8 @@
   "sponsor_party": "D",
   "sponsor_state": "CA",
   "committees": [
-    "House Oversight and Government Reform",
-    "House Judiciary"
+    "Judiciary Committee",
+    "Oversight and Government Reform Committee"
   ],
   "introduced_date": "2026-06-03",
   "last_action_date": "2026-06-03",
@@ -37,8 +37,8 @@
   "congress": 119,
   "session": "119th Congress",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9125",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -46,7 +46,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9125",
-      "accessed_date": "2026-10-29"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "official-govinfo",
@@ -115,7 +115,18 @@
       "source_ids": [
         "govinfo-billstatus"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "congress",
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
-  "cosponsor_count": 3
+  "cosponsor_count": 4
 }

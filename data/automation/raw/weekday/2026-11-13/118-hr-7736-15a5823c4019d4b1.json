@@ -1,0 +1,140 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-03-20",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "hsju00",
+          "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on the Judiciary.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-03-20",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "B00100",
+      "actionDate": "2024-03-20",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Sponsor introductory remarks on measure. (CR H1243-1244)",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-03-20",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7736/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7736/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 49 (Wednesday, March 20, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. McCLELLAN:\nH.R. 7736.\nCongress has the power to enact this legislation pursuant\nto the following:\nClause 1 of section 8 of article 1 of the Constitution\nThe single subject of this legislation is:\nTo establish a private right of action against a person who\nsends unsolicited visual depictions of sexually explicit\nconduct.\n[Page H1295]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7736/cosponsors?format=json"
+    },
+    "introducedDate": "2024-03-20",
+    "latestAction": {
+      "actionDate": "2024-03-20",
+      "text": "Referred to the House Committee on the Judiciary."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7736",
+    "number": "7736",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Crime and Law Enforcement"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M001227",
+        "district": 4,
+        "firstName": "Jennifer",
+        "fullName": "Rep. McClellan, Jennifer L. [D-VA-4]",
+        "isByRequest": "N",
+        "lastName": "McClellan",
+        "middleName": "L.",
+        "party": "D",
+        "state": "VA",
+        "url": "https://api.congress.gov/v3/member/M001227?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7736/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7736/text?format=json"
+    },
+    "title": "CONSENT Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7736/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2024-08-01T15:59:04Z",
+    "updateDateIncludingText": "2024-08-01T15:59:04Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-03-20T14:01:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Judiciary Committee",
+      "systemCode": "hsju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "M001224",
+      "district": 1,
+      "firstName": "Nathaniel",
+      "fullName": "Rep. Moran, Nathaniel [R-TX-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Moran",
+      "party": "R",
+      "sponsorshipDate": "2024-03-20",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/M001224?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

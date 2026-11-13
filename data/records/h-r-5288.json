@@ -26,9 +26,9 @@
     "James Moylan (R-GU)"
   ],
   "committees": [
-    "House Science, Space, and Technology",
-    "House Energy and Commerce",
-    "House Foreign Affairs"
+    "Energy and Commerce Committee",
+    "Foreign Affairs Committee",
+    "Science, Space, and Technology Committee"
   ],
   "introduced_date": "2025-09-10",
   "last_action_date": "2025-09-10",
@@ -40,8 +40,8 @@
   "advance_tier": "Low",
   "advance_rationale": "A broad strategic remit and triple referral make standalone movement difficult.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5288",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -49,7 +49,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5288",
-      "accessed_date": "2026-10-27"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",

@@ -22,21 +22,21 @@
   "status": "Committee consideration; expired at end of the 118th Congress",
   "status_bucket": "Expired at end of the 118th Congress",
   "committees": [
-    "Senate Banking, Housing, and Urban Affairs"
+    "Banking, Housing, and Urban Affairs Committee"
   ],
   "summary": "Would direct the Financial Stability Oversight Council to coordinate monitoring of AI-related financial stability risks and strengthen oversight of third-party service providers.",
   "advance_tier": "Dead",
   "advance_rationale": "The 118th Congress ended without enactment. Committee consideration was the furthest recorded stage.",
   "congress_url": "https://www.congress.gov/bill/118th-congress/senate-bill/3554",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Mark Warner",
   "sponsor_party": "D",
   "sponsor_state": "VA",
   "cosponsor_count": 1,
   "introduced_date": "2023-12-18",
   "last_action_date": "2024-06-12",
-  "last_action": "Committee on Banking, Housing, and Urban Affairs. Hearings held.",
+  "last_action": "Committee on Banking, Housing, and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 118-558.",
   "committee_dynamics": "Official action history. Committee on Banking, Housing, and Urban Affairs. Hearings held.",
   "sources": [
     {
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/118th-congress/senate-bill/3554",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -122,6 +122,16 @@
         "govinfo-billstatus",
         "related-s-5358"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

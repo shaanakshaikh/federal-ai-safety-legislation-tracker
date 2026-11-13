@@ -23,16 +23,16 @@
   "status": "Passed House; referred in Senate",
   "status_bucket": "Passed one chamber",
   "committees": [
-    "Senate Commerce, Science, and Transportation",
-    "House Judiciary",
-    "House Energy and Commerce"
+    "Commerce, Science, and Transportation Committee",
+    "Energy and Commerce Committee",
+    "Judiciary Committee"
   ],
   "summary": "The House-passed package includes the SAFE BOTs Act. Title IV would require child-facing chatbot disclosures and safety procedures and prohibit false claims that a chatbot is a licensed professional.",
   "advance_tier": "High",
   "advance_rationale": "Passed House; referred in Senate. Outlook reflects documented legislative progress.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/7757",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Brett Guthrie",
   "sponsor_party": "R",
   "sponsor_state": "KY",
@@ -48,7 +48,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/7757",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -107,6 +107,16 @@
         "govinfo-billstatus"
       ],
       "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ]
 }

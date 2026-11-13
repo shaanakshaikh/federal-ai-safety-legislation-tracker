@@ -22,14 +22,14 @@
   "status": "Committee advanced",
   "status_bucket": "Committee advanced",
   "committees": [
-    "Senate Intelligence (Select)"
+    "Intelligence (Select) Committee"
   ],
   "summary": "The reported FY2026 Senate intelligence authorization bill would require inventory, testing, monitoring and human-oversight standards for high-impact intelligence-community AI uses.",
   "advance_tier": "Medium",
   "advance_rationale": "Committee advanced. Further action remains pending.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2342",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Tom Cotton",
   "sponsor_party": "R",
   "sponsor_state": "AR",
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2342",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -122,6 +122,16 @@
         "govinfo-billstatus",
         "related-pl-119-60-ai-institutes"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

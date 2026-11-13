@@ -22,17 +22,17 @@
   "status": "Reported / on calendar; expired at end of the 118th Congress",
   "status_bucket": "Expired at end of the 118th Congress",
   "committees": [
-    "House Armed Services",
-    "House Homeland Security",
-    "House Science, Space, and Technology",
-    "House Oversight and Government Reform"
+    "Armed Services Committee",
+    "Homeland Security Committee",
+    "Oversight and Government Reform Committee",
+    "Science, Space, and Technology Committee"
   ],
   "summary": "Section 14 would direct OMB to consider guidance and report to Congress on federal use of AI for information-system cybersecurity.",
   "advance_tier": "Dead",
   "advance_rationale": "The 118th Congress ended without enactment. Reported / on calendar was the furthest recorded stage.",
   "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/4552",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Nancy Mace",
   "sponsor_party": "R",
   "sponsor_state": "SC",
@@ -48,7 +48,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/118th-congress/house-bill/4552",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -125,6 +125,16 @@
         "govinfo-billstatus",
         "related-s-2251-118"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

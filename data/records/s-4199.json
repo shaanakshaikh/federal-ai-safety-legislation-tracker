@@ -22,14 +22,14 @@
   "status": "Committee advanced",
   "status_bucket": "Committee advanced",
   "committees": [
-    "Senate Commerce, Science, and Transportation"
+    "Commerce, Science, and Transportation Committee"
   ],
   "summary": "Would require safe design features and data privacy protections for chatbots available to minors and establish enforcement and whistleblower protections.",
   "advance_tier": "Medium",
   "advance_rationale": "Committee advanced. Further action remains pending.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4199",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Edward Markey",
   "sponsor_party": "D",
   "sponsor_state": "MA",
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4199",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -104,6 +104,16 @@
         "govinfo-billstatus"
       ],
       "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ]
 }
