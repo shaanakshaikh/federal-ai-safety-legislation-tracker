@@ -1,0 +1,396 @@
+{
+  "actions": [
+    {
+      "actionDate": "2025-07-15",
+      "committees": [
+        {
+          "name": "Commerce, Science, and Transportation Committee",
+          "systemCode": "sscm00",
+          "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H38310",
+      "actionDate": "2025-07-14",
+      "actionTime": "19:04:09",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H37300",
+      "actionDate": "2025-07-14",
+      "actionTime": "19:04:08",
+      "recordedVotes": [
+        {
+          "chamber": "House",
+          "congress": 119,
+          "date": "2025-07-14T23:04:08Z",
+          "rollNumber": 192,
+          "sessionNumber": 1,
+          "url": "https://clerk.house.gov/evs/2025/roll192.xml"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 336 - 36 (Roll no. 192). (text: CR H3212-3213)",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "8000",
+      "actionDate": "2025-07-14",
+      "actionTime": "19:04:08",
+      "recordedVotes": [
+        {
+          "chamber": "House",
+          "congress": 119,
+          "date": "2025-07-14T23:04:08Z",
+          "rollNumber": 192,
+          "sessionNumber": 1,
+          "url": "https://clerk.house.gov/evs/2025/roll192.xml"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 336 - 36 (Roll no. 192).",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H30000",
+      "actionDate": "2025-07-14",
+      "actionTime": "18:56:51",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Considered as unfinished business. (consideration: CR H3231)",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H37220",
+      "actionDate": "2025-07-14",
+      "actionTime": "15:21:56",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H8D000",
+      "actionDate": "2025-07-14",
+      "actionTime": "15:15:33",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 1770.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H30000",
+      "actionDate": "2025-07-14",
+      "actionTime": "15:15:31",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Considered under suspension of the rules. (consideration: CR H3212-3214)",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H30300",
+      "actionDate": "2025-07-14",
+      "actionTime": "15:15:20",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Mr. Latta moved to suspend the rules and pass the bill.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H12410",
+      "actionDate": "2025-06-12",
+      "calendarNumber": {
+        "calendar": "U00123"
+      },
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Placed on the Union Calendar, Calendar No. 123.",
+      "type": "Calendars"
+    },
+    {
+      "actionCode": "H12200",
+      "actionDate": "2025-06-12",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-157.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "5000",
+      "actionDate": "2025-06-12",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-157.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H19000",
+      "actionDate": "2025-03-04",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported by Voice Vote.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15001",
+      "actionDate": "2025-03-04",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-03-03",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Energy and Commerce.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-03-03",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-03-03",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 17,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1770/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the House Committee on Energy and Commerce on March 4, 2025",
+        "pubDate": "2025-06-20T14:17:00Z",
+        "title": "H.R. 1770, Consumer Safety Technology Act",
+        "url": "https://www.cbo.gov/publication/61504"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 119-157",
+        "url": "https://api.congress.gov/v3/committee-report/119/HRPT/157?format=json"
+      }
+    ],
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1770/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 40 (Monday, March 3, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. SOTO:\nH.R. 1770.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8 of the US Constitution.\n[Page H945]\n</pre>",
+    "cosponsors": {
+      "count": 3,
+      "countIncludingWithdrawnCosponsors": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1770/cosponsors?format=json"
+    },
+    "introducedDate": "2025-03-03",
+    "latestAction": {
+      "actionDate": "2025-07-15",
+      "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1770",
+    "number": "1770",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Commerce"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "S001200",
+        "district": 9,
+        "firstName": "Darren",
+        "fullName": "Rep. Soto, Darren [D-FL-9]",
+        "isByRequest": "N",
+        "lastName": "Soto",
+        "party": "D",
+        "state": "FL",
+        "url": "https://api.congress.gov/v3/member/S001200?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 7,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1770/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1770/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1770/text?format=json"
+    },
+    "title": "Consumer Safety Technology Act",
+    "titles": {
+      "count": 19,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1770/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-08T18:03:40Z",
+    "updateDateIncludingText": "2026-09-08T18:03:40Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-07-15T20:12:18Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-06-12T17:16:52Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2025-03-04T15:59:17Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-03-03T17:05:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "C001066",
+      "district": 14,
+      "firstName": "Kathy",
+      "fullName": "Rep. Castor, Kathy [D-FL-14]",
+      "isOriginalCosponsor": true,
+      "lastName": "Castor",
+      "party": "D",
+      "sponsorshipDate": "2025-03-03",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/C001066?format=json"
+    },
+    {
+      "bioguideId": "T000482",
+      "district": 3,
+      "firstName": "Lori",
+      "fullName": "Rep. Trahan, Lori [D-MA-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Trahan",
+      "party": "D",
+      "sponsorshipDate": "2025-03-03",
+      "state": "MA",
+      "url": "https://api.congress.gov/v3/member/T000482?format=json"
+    },
+    {
+      "bioguideId": "H001093",
+      "district": 9,
+      "firstName": "Erin",
+      "fullName": "Rep. Houchin, Erin [R-IN-9]",
+      "isOriginalCosponsor": false,
+      "lastName": "Houchin",
+      "party": "R",
+      "sponsorshipDate": "2025-03-11",
+      "state": "IN",
+      "url": "https://api.congress.gov/v3/member/H001093?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

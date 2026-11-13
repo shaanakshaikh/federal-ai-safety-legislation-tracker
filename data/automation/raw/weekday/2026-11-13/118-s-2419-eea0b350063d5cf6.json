@@ -1,0 +1,153 @@
+{
+  "actions": [
+    {
+      "actionDate": "2023-07-20",
+      "committees": [
+        {
+          "name": "Health, Education, Labor, and Pensions Committee",
+          "systemCode": "sshr00",
+          "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2023-07-20",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/s/2419/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/2419/committees?format=json"
+    },
+    "congress": 118,
+    "cosponsors": {
+      "count": 4,
+      "countIncludingWithdrawnCosponsors": 4,
+      "url": "https://api.congress.gov/v3/bill/118/s/2419/cosponsors?format=json"
+    },
+    "introducedDate": "2023-07-20",
+    "latestAction": {
+      "actionDate": "2023-07-20",
+      "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/2419",
+    "number": "2419",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Labor and Employment"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/2419/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "C001070",
+        "firstName": "Bob",
+        "fullName": "Sen. Casey, Robert P., Jr. [D-PA]",
+        "isByRequest": "N",
+        "lastName": "Casey",
+        "party": "D",
+        "state": "PA",
+        "url": "https://api.congress.gov/v3/member/C001070?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/2419/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/2419/text?format=json"
+    },
+    "title": "No Robot Bosses Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/s/2419/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-01-15T03:41:08Z",
+    "updateDateIncludingText": "2026-01-15T03:41:08Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-07-20T16:29:52Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Health, Education, Labor, and Pensions Committee",
+      "systemCode": "sshr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "S001194",
+      "firstName": "Brian",
+      "fullName": "Sen. Schatz, Brian [D-HI]",
+      "isOriginalCosponsor": true,
+      "lastName": "Schatz",
+      "party": "D",
+      "sponsorshipDate": "2023-07-20",
+      "state": "HI",
+      "url": "https://api.congress.gov/v3/member/S001194?format=json"
+    },
+    {
+      "bioguideId": "F000479",
+      "firstName": "John",
+      "fullName": "Sen. Fetterman, John [D-PA]",
+      "isOriginalCosponsor": true,
+      "lastName": "Fetterman",
+      "middleName": "K.",
+      "party": "D",
+      "sponsorshipDate": "2023-07-20",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/F000479?format=json"
+    },
+    {
+      "bioguideId": "S000033",
+      "firstName": "Bernard",
+      "fullName": "Sen. Sanders, Bernard [I-VT]",
+      "isOriginalCosponsor": true,
+      "lastName": "Sanders",
+      "party": "I",
+      "sponsorshipDate": "2023-07-20",
+      "state": "VT",
+      "url": "https://api.congress.gov/v3/member/S000033?format=json"
+    },
+    {
+      "bioguideId": "L000570",
+      "firstName": "Ben",
+      "fullName": "Sen. Luján, Ben Ray [D-NM]",
+      "isOriginalCosponsor": false,
+      "lastName": "Luján",
+      "middleName": "R.",
+      "party": "D",
+      "sponsorshipDate": "2023-12-04",
+      "state": "NM",
+      "url": "https://api.congress.gov/v3/member/L000570?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

@@ -1,0 +1,201 @@
+{
+  "actions": [
+    {
+      "actionCode": "H19000",
+      "actionDate": "2024-09-25",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported by Voice Vote.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15001",
+      "actionDate": "2024-09-25",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-09-20",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Science, Space, and Technology.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-09-20",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-09-20",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9720/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the House Committee on Science, Space, and Technology on September 25, 2024\n",
+        "pubDate": "2024-10-25T20:32:00Z",
+        "title": "H.R. 9720, AI Incident Reporting and Security Enhancement Act",
+        "url": "https://www.cbo.gov/publication/60867"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9720/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 147 (Friday, September 20, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. ROSS:\nH.R. 9720.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8\nThe single subject of this legislation is:\nDirects NIST to initiate a process to update processes and\nprocedures for the voluntary tracking and processing of\nsecurity and safety incidents associated with artificial\nintelligence\n[Page H5562]\n</pre>",
+    "cosponsors": {
+      "count": 3,
+      "countIncludingWithdrawnCosponsors": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9720/cosponsors?format=json"
+    },
+    "introducedDate": "2024-09-20",
+    "latestAction": {
+      "actionDate": "2024-09-25",
+      "text": "Ordered to be Reported by Voice Vote."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/9720",
+    "number": "9720",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "R000305",
+        "district": 2,
+        "firstName": "Deborah",
+        "fullName": "Rep. Ross, Deborah K. [D-NC-2]",
+        "isByRequest": "N",
+        "lastName": "Ross",
+        "middleName": "K.",
+        "party": "D",
+        "state": "NC",
+        "url": "https://api.congress.gov/v3/member/R000305?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 7,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9720/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9720/text?format=json"
+    },
+    "title": "AI Incident Reporting and Security Enhancement Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9720/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-05-27T14:13:19Z",
+    "updateDateIncludingText": "2025-05-27T14:13:19Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-09-25T16:13:49Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2024-09-20T13:03:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "O000019",
+      "district": 23,
+      "firstName": "Jay",
+      "fullName": "Rep. Obernolte, Jay [R-CA-23]",
+      "isOriginalCosponsor": true,
+      "lastName": "Obernolte",
+      "party": "R",
+      "sponsorshipDate": "2024-09-20",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/O000019?format=json"
+    },
+    {
+      "bioguideId": "B001292",
+      "district": 8,
+      "firstName": "Donald",
+      "fullName": "Rep. Beyer, Donald S. [D-VA-8]",
+      "isOriginalCosponsor": true,
+      "lastName": "Beyer",
+      "middleName": "S.",
+      "party": "D",
+      "sponsorshipDate": "2024-09-20",
+      "state": "VA",
+      "url": "https://api.congress.gov/v3/member/B001292?format=json"
+    },
+    {
+      "bioguideId": "N000193",
+      "district": 3,
+      "firstName": "Zachary",
+      "fullName": "Rep. Nunn, Zachary [R-IA-3]",
+      "isOriginalCosponsor": false,
+      "lastName": "Nunn",
+      "party": "R",
+      "sponsorshipDate": "2024-12-18",
+      "state": "IA",
+      "url": "https://api.congress.gov/v3/member/N000193?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

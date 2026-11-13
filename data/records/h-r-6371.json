@@ -22,16 +22,16 @@
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "committees": [
-    "House Oversight and Government Reform",
-    "House Committee on House Administration",
-    "House Education and Workforce"
+    "Committee on House Administration",
+    "Education and Workforce Committee",
+    "Oversight and Government Reform Committee"
   ],
   "summary": "Would restrict the use of automated systems in employment decisions and establish labor enforcement and worker protections.",
   "advance_tier": "Low",
   "advance_rationale": "No committee advancement was recorded at the time of review.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/6371",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Suzanne Bonamici",
   "sponsor_party": "D",
   "sponsor_state": "OR",
@@ -47,7 +47,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/6371",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -133,6 +133,16 @@
         "related-s-4833",
         "related-s-2419-118"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

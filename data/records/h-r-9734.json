@@ -23,15 +23,15 @@
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "committees": [
-    "House Energy and Commerce",
-    "House Ways and Means"
+    "Energy and Commerce Committee",
+    "Ways and Means Committee"
   ],
   "summary": "Would require independent physician approval, disclosure, and records before a Medicare Advantage plan could deny prior authorization based on AI output.",
   "advance_tier": "Low",
   "advance_rationale": "No committee advancement was recorded at the time of review.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9734",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Herbert Conaway",
   "sponsor_party": "D",
   "sponsor_state": "NJ",
@@ -47,7 +47,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9734",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -106,6 +106,16 @@
         "govinfo-billstatus"
       ],
       "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ]
 }

@@ -1,0 +1,163 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-02-15",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-02-15",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "hsju00",
+          "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-02-15",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-02-15",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7394/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7394/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 30 (Thursday, February 15, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. TAKANO:\nH.R. 7394.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I Section 8\nThe single subject of this legislation is:\nEnsure defendants have access to source code and other\ninformation necessary to exercise their confrontational and\ndue process rights when algorithms are used to analyze\nevidence in their cases.\n[Page H680]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7394/cosponsors?format=json"
+    },
+    "introducedDate": "2024-02-15",
+    "latestAction": {
+      "actionDate": "2024-02-15",
+      "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7394",
+    "number": "7394",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Crime and Law Enforcement"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7394/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "T000472",
+        "district": 39,
+        "firstName": "Mark",
+        "fullName": "Rep. Takano, Mark [D-CA-39]",
+        "isByRequest": "N",
+        "lastName": "Takano",
+        "party": "D",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/T000472?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7394/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7394/text?format=json"
+    },
+    "title": "Justice in Forensic Algorithms Act of 2024",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7394/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2024-07-24T15:19:08Z",
+    "updateDateIncludingText": "2024-07-24T15:19:08Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-02-15T15:02:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-02-15T15:01:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Judiciary Committee",
+      "systemCode": "hsju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "E000296",
+      "district": 3,
+      "firstName": "Dwight",
+      "fullName": "Rep. Evans, Dwight [D-PA-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Evans",
+      "party": "D",
+      "sponsorshipDate": "2024-02-15",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/E000296?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

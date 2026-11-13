@@ -30,7 +30,7 @@
     "Scott Franklin (R-FL)"
   ],
   "committees": [
-    "House Science, Space, and Technology"
+    "Science, Space, and Technology Committee"
   ],
   "introduced_date": "2026-06-18",
   "last_action_date": "2026-06-25",
@@ -42,8 +42,8 @@
   "advance_tier": "High",
   "advance_rationale": "Unanimous committee action, bipartisan amendments, leadership sponsorship, and a completed CBO estimate signal unusually mature floor preparation.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9363",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -51,7 +51,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9363",
-      "accessed_date": "2026-10-27"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",

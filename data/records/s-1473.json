@@ -23,14 +23,14 @@
   "status": "Passed Senate",
   "status_bucket": "Passed one chamber",
   "committees": [
-    "Senate Banking, Housing, and Urban Affairs"
+    "Banking, Housing, and Urban Affairs Committee"
   ],
   "summary": "Would establish rewards and protections for whistleblowers who report U.S. export-control violations, a mechanism the sponsors aim to use against diversion of advanced AI chips.",
   "advance_tier": "High",
   "advance_rationale": "Passed Senate. Outlook reflects documented legislative progress.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1473",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Mike Rounds",
   "sponsor_party": "R",
   "sponsor_state": "SD",
@@ -46,7 +46,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1473",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -123,6 +123,16 @@
         "govinfo-billstatus",
         "related-h-r-6322"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

@@ -1,0 +1,146 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-02-07",
+      "committees": [
+        {
+          "name": "Ways and Means Committee",
+          "systemCode": "hswm00",
+          "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-02-07",
+      "committees": [
+        {
+          "name": "Foreign Affairs Committee",
+          "systemCode": "hsfa00",
+          "url": "https://api.congress.gov/v3/committee/house/hsfa00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-02-07",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-02-07",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1122/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1122/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 26 (Friday, February 7, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. GREEN of Tennessee:\nH.R. 1122.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8, Clause 3 of the Constitution\n[Page H585]\n</pre>",
+    "introducedDate": "2025-02-07",
+    "latestAction": {
+      "actionDate": "2025-02-07",
+      "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1122",
+    "number": "1122",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Foreign Trade and International Finance"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "G000590",
+        "district": 7,
+        "firstName": "Mark",
+        "fullName": "Rep. Green, Mark E. [R-TN-7]",
+        "isByRequest": "N",
+        "lastName": "Green",
+        "middleName": "E.",
+        "party": "R",
+        "state": "TN",
+        "url": "https://api.congress.gov/v3/member/G000590?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 14,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1122/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1122/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1122/text?format=json"
+    },
+    "title": "China Technology Transfer Control Act of 2025",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1122/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-07-03T13:29:01Z",
+    "updateDateIncludingText": "2025-07-03T13:29:01Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-02-07T14:00:25Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Ways and Means Committee",
+      "systemCode": "hswm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-02-07T14:00:20Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Foreign Affairs Committee",
+      "systemCode": "hsfa00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsfa00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

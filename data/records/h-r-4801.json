@@ -23,14 +23,14 @@
   "status": "Reported / on calendar",
   "status_bucket": "Committee advanced",
   "committees": [
-    "House Financial Services"
+    "Financial Services Committee"
   ],
   "summary": "Would allow financial regulators to approve limited AI test projects under alternative compliance plans, subject to screening for systemic and national-security risks.",
   "advance_tier": "Medium",
   "advance_rationale": "Reported / on calendar. Further action remains pending.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4801",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "J. Hill",
   "sponsor_party": "R",
   "sponsor_state": "AR",
@@ -46,7 +46,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/4801",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -123,6 +123,16 @@
         "govinfo-billstatus",
         "related-s-2528"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

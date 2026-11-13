@@ -25,7 +25,7 @@
   "cosponsor_count": 31,
   "notable_cosponsors": [],
   "committees": [
-    "House Foreign Affairs"
+    "Foreign Affairs Committee"
   ],
   "introduced_date": "2026-04-02",
   "last_action_date": "2026-04-22",
@@ -46,8 +46,8 @@
       "relationship": "companion"
     }
   ],
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -55,7 +55,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8170",
-      "accessed_date": "2026-11-09"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "official-govinfo",
@@ -139,6 +139,17 @@
       "source_ids": [
         "govinfo-billstatus"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "congress",
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ]
 }

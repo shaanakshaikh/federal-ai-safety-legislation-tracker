@@ -23,14 +23,14 @@
   "status": "Floor consideration",
   "status_bucket": "Floor consideration",
   "committees": [
-    "Senate Judiciary"
+    "Judiciary Committee"
   ],
   "summary": "Would disapprove the CMS rule implementing the WISeR model, which uses AI-assisted prior authorization for selected Medicare services, and remove the rule’s legal effect if enacted.",
   "advance_tier": "Medium",
   "advance_rationale": "Floor consideration. Further action remains pending.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/192",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Ron Wyden",
   "sponsor_party": "D",
   "sponsor_state": "OR",
@@ -46,7 +46,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-joint-resolution/192",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -140,6 +140,16 @@
         "govinfo-billstatus",
         "related-s-j-res-198"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

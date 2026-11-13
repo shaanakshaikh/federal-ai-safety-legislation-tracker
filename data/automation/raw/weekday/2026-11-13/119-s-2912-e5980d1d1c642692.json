@@ -1,0 +1,202 @@
+{
+  "actions": [
+    {
+      "actionDate": "2025-09-18",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "ssju00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on the Judiciary.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2025-09-18",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/2912/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2912/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 8,
+      "countIncludingWithdrawnCosponsors": 8,
+      "url": "https://api.congress.gov/v3/bill/119/s/2912/cosponsors?format=json"
+    },
+    "introducedDate": "2025-09-18",
+    "latestAction": {
+      "actionDate": "2025-09-18",
+      "text": "Read twice and referred to the Committee on the Judiciary."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2912",
+    "number": "2912",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Government Operations and Politics"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2912/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "A000382",
+        "firstName": "Angela",
+        "fullName": "Sen. Alsobrooks, Angela D. [D-MD]",
+        "isByRequest": "N",
+        "lastName": "Alsobrooks",
+        "party": "D",
+        "state": "MD",
+        "url": "https://api.congress.gov/v3/member/A000382?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2912/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2912/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2912/text?format=json"
+    },
+    "title": "Deceptive Practices and Voter Intimidation Prevention Act of 2025",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/2912/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-08-10T11:51:27Z",
+    "updateDateIncludingText": "2026-08-10T11:51:27Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-09-18T22:29:37Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Judiciary Committee",
+      "systemCode": "ssju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "S001150",
+      "firstName": "Adam",
+      "fullName": "Sen. Schiff, Adam B. [D-CA]",
+      "isOriginalCosponsor": true,
+      "lastName": "Schiff",
+      "middleName": "B.",
+      "party": "D",
+      "sponsorshipDate": "2025-09-18",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/S001150?format=json"
+    },
+    {
+      "bioguideId": "B001277",
+      "firstName": "Richard",
+      "fullName": "Sen. Blumenthal, Richard [D-CT]",
+      "isOriginalCosponsor": true,
+      "lastName": "Blumenthal",
+      "party": "D",
+      "sponsorshipDate": "2025-09-18",
+      "state": "CT",
+      "url": "https://api.congress.gov/v3/member/B001277?format=json"
+    },
+    {
+      "bioguideId": "P000145",
+      "firstName": "Alex",
+      "fullName": "Sen. Padilla, Alex [D-CA]",
+      "isOriginalCosponsor": true,
+      "lastName": "Padilla",
+      "party": "D",
+      "sponsorshipDate": "2025-09-18",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/P000145?format=json"
+    },
+    {
+      "bioguideId": "H001042",
+      "firstName": "Mazie",
+      "fullName": "Sen. Hirono, Mazie K. [D-HI]",
+      "isOriginalCosponsor": true,
+      "lastName": "Hirono",
+      "middleName": "K.",
+      "party": "D",
+      "sponsorshipDate": "2025-09-18",
+      "state": "HI",
+      "url": "https://api.congress.gov/v3/member/H001042?format=json"
+    },
+    {
+      "bioguideId": "V000128",
+      "firstName": "Chris",
+      "fullName": "Sen. Van Hollen, Chris [D-MD]",
+      "isOriginalCosponsor": true,
+      "lastName": "Van Hollen",
+      "party": "D",
+      "sponsorshipDate": "2025-09-18",
+      "state": "MD",
+      "url": "https://api.congress.gov/v3/member/V000128?format=json"
+    },
+    {
+      "bioguideId": "C000127",
+      "firstName": "Maria",
+      "fullName": "Sen. Cantwell, Maria [D-WA]",
+      "isOriginalCosponsor": true,
+      "lastName": "Cantwell",
+      "party": "D",
+      "sponsorshipDate": "2025-09-18",
+      "state": "WA",
+      "url": "https://api.congress.gov/v3/member/C000127?format=json"
+    },
+    {
+      "bioguideId": "M001176",
+      "firstName": "Jeff",
+      "fullName": "Sen. Merkley, Jeff [D-OR]",
+      "isOriginalCosponsor": true,
+      "lastName": "Merkley",
+      "party": "D",
+      "sponsorshipDate": "2025-09-18",
+      "state": "OR",
+      "url": "https://api.congress.gov/v3/member/M001176?format=json"
+    },
+    {
+      "bioguideId": "G000555",
+      "firstName": "Kirsten",
+      "fullName": "Sen. Gillibrand, Kirsten E. [D-NY]",
+      "isOriginalCosponsor": true,
+      "lastName": "Gillibrand",
+      "middleName": "E.",
+      "party": "D",
+      "sponsorshipDate": "2025-09-18",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/G000555?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

@@ -1,0 +1,197 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2026-07-27",
+      "committees": [
+        {
+          "name": "Education and Workforce Committee",
+          "systemCode": "hsed00",
+          "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2026-07-27",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2026-07-27",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2026-07-27",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9948/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9948/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 122 (Monday, July 27, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. BALINT:\nH.R. 9948.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8 of the U.S. Constitution\n[Page H5203]\n</pre>",
+    "cosponsors": {
+      "count": 4,
+      "countIncludingWithdrawnCosponsors": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9948/cosponsors?format=json"
+    },
+    "introducedDate": "2026-07-27",
+    "latestAction": {
+      "actionDate": "2026-07-27",
+      "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9948",
+    "number": "9948",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Health"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "B001318",
+        "firstName": "Becca",
+        "fullName": "Rep. Balint, Becca [D-VT-At Large]",
+        "isByRequest": "N",
+        "lastName": "Balint",
+        "party": "D",
+        "state": "VT",
+        "url": "https://api.congress.gov/v3/member/B001318?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9948/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9948/text?format=json"
+    },
+    "title": "Addictive Design Act of 2026",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9948/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-03T08:06:49Z",
+    "updateDateIncludingText": "2026-09-03T08:06:49Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-07-27T13:31:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Education and Workforce Committee",
+      "systemCode": "hsed00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2026-07-27T13:31:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "D000530",
+      "district": 17,
+      "firstName": "Christopher",
+      "fullName": "Rep. Deluzio, Christopher R. [D-PA-17]",
+      "isOriginalCosponsor": true,
+      "lastName": "Deluzio",
+      "middleName": "R.",
+      "party": "D",
+      "sponsorshipDate": "2026-07-27",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/D000530?format=json"
+    },
+    {
+      "bioguideId": "S001201",
+      "district": 3,
+      "firstName": "Thomas",
+      "fullName": "Rep. Suozzi, Thomas R. [D-NY-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Suozzi",
+      "middleName": "R.",
+      "party": "D",
+      "sponsorshipDate": "2026-07-27",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/S001201?format=json"
+    },
+    {
+      "bioguideId": "W000822",
+      "district": 12,
+      "firstName": "Bonnie",
+      "fullName": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+      "isOriginalCosponsor": true,
+      "lastName": "Watson Coleman",
+      "party": "D",
+      "sponsorshipDate": "2026-07-27",
+      "state": "NJ",
+      "url": "https://api.congress.gov/v3/member/W000822?format=json"
+    },
+    {
+      "bioguideId": "G000606",
+      "district": 7,
+      "firstName": "Adelita",
+      "fullName": "Rep. Grijalva, Adelita S. [D-AZ-7]",
+      "isOriginalCosponsor": false,
+      "lastName": "Grijalva",
+      "middleName": "S.",
+      "party": "D",
+      "sponsorshipDate": "2026-09-02",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/G000606?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

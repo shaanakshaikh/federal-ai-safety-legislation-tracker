@@ -22,29 +22,29 @@
   "status": "Passed House; expired at end of the 118th Congress",
   "status_bucket": "Expired at end of the 118th Congress",
   "committees": [
-    "House Oversight and Government Reform",
-    "House Intelligence (Permanent Select)",
-    "House Ways and Means",
-    "House Foreign Affairs",
-    "House Small Business",
-    "House Judiciary",
-    "House Education and Workforce",
-    "House Budget",
-    "House Committee on House Administration",
-    "House Homeland Security",
-    "House Energy and Commerce",
-    "House Natural Resources",
-    "House Science, Space, and Technology",
-    "House Transportation and Infrastructure",
-    "House Veterans' Affairs",
-    "House Armed Services"
+    "Armed Services Committee",
+    "Budget Committee",
+    "Committee on House Administration",
+    "Education and Workforce Committee",
+    "Energy and Commerce Committee",
+    "Foreign Affairs Committee",
+    "Homeland Security Committee",
+    "Intelligence (Permanent Select) Committee",
+    "Judiciary Committee",
+    "Natural Resources Committee",
+    "Oversight and Government Reform Committee",
+    "Science, Space, and Technology Committee",
+    "Small Business Committee",
+    "Transportation and Infrastructure Committee",
+    "Veterans' Affairs Committee",
+    "Ways and Means Committee"
   ],
   "summary": "The House-passed FY2025 defense authorization bill includes an allied AI initiative to compare systems and test interoperability and safety when multiple AI models are used together.",
   "advance_tier": "Dead",
   "advance_rationale": "The 118th Congress ended without enactment. Passed House was the furthest recorded stage.",
   "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/8070",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Mike Rogers",
   "sponsor_party": "R",
   "sponsor_state": "AL",
@@ -60,7 +60,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/118th-congress/house-bill/8070",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -137,6 +137,16 @@
         "govinfo-billstatus",
         "related-pl-118-159-sec-225"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

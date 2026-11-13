@@ -1,0 +1,115 @@
+{
+  "actions": [
+    {
+      "actionDate": "2025-12-16",
+      "committees": [
+        {
+          "name": "Commerce, Science, and Transportation Committee",
+          "systemCode": "sscm00",
+          "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2025-12-16",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/3495/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3495/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3495/cosponsors?format=json"
+    },
+    "introducedDate": "2025-12-16",
+    "latestAction": {
+      "actionDate": "2025-12-16",
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3495",
+    "number": "3495",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Commerce"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "K000367",
+        "firstName": "Amy",
+        "fullName": "Sen. Klobuchar, Amy [D-MN]",
+        "isByRequest": "N",
+        "lastName": "Klobuchar",
+        "party": "D",
+        "state": "MN",
+        "url": "https://api.congress.gov/v3/member/K000367?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3495/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3495/text?format=json"
+    },
+    "title": "Artificial Intelligence Scam Prevention Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/3495/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-09-08T18:03:40Z",
+    "updateDateIncludingText": "2026-09-08T18:03:40Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-12-16T19:39:22Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "C001047",
+      "firstName": "Shelley",
+      "fullName": "Sen. Capito, Shelley Moore [R-WV]",
+      "isOriginalCosponsor": true,
+      "lastName": "Capito",
+      "middleName": "Moore",
+      "party": "R",
+      "sponsorshipDate": "2025-12-16",
+      "state": "WV",
+      "url": "https://api.congress.gov/v3/member/C001047?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

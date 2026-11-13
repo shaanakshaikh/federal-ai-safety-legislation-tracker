@@ -23,19 +23,19 @@
   "status": "Ordered reported 25–0",
   "status_bucket": "Committee advanced",
   "committees": [
-    "House Homeland Security",
-    "House Judiciary",
-    "House Armed Services",
-    "House Energy and Commerce",
-    "House Intelligence (Permanent Select)",
-    "House Oversight and Government Reform"
+    "Armed Services Committee",
+    "Energy and Commerce Committee",
+    "Homeland Security Committee",
+    "Intelligence (Permanent Select) Committee",
+    "Judiciary Committee",
+    "Oversight and Government Reform Committee"
   ],
   "summary": "Would update the cybersecurity information-sharing framework and expressly clarify that authorized activities can use AI developed or strictly deployed for cybersecurity purposes.",
   "advance_tier": "Medium",
   "advance_rationale": "Ordered reported 25–0. Further action remains pending.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/5079",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Andrew Garbarino",
   "sponsor_party": "R",
   "sponsor_state": "NY",
@@ -51,7 +51,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5079",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -110,6 +110,16 @@
         "govinfo-billstatus"
       ],
       "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ]
 }

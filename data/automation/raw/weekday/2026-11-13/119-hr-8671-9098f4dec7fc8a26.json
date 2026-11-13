@@ -1,0 +1,236 @@
+{
+  "actions": [
+    {
+      "actionCode": "H12410",
+      "actionDate": "2026-06-18",
+      "calendarNumber": {
+        "calendar": "U00612"
+      },
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Placed on the Union Calendar, Calendar No. 612.",
+      "type": "Calendars"
+    },
+    {
+      "actionCode": "H12200",
+      "actionDate": "2026-06-18",
+      "committees": [
+        {
+          "name": "Financial Services Committee",
+          "systemCode": "hsba00",
+          "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Reported (Amended) by the Committee on Financial Services. H. Rept. 119-704.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "5000",
+      "actionDate": "2026-06-18",
+      "committees": [
+        {
+          "name": "Financial Services Committee",
+          "systemCode": "hsba00",
+          "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Reported (Amended) by the Committee on Financial Services. H. Rept. 119-704.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H19000",
+      "actionDate": "2026-05-13",
+      "committees": [
+        {
+          "name": "Financial Services Committee",
+          "systemCode": "hsba00",
+          "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 52 - 1.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15001",
+      "actionDate": "2026-05-13",
+      "committees": [
+        {
+          "name": "Financial Services Committee",
+          "systemCode": "hsba00",
+          "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2026-05-07",
+      "committees": [
+        {
+          "name": "Financial Services Committee",
+          "systemCode": "hsba00",
+          "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Financial Services.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2026-05-07",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2026-05-07",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 8,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8671/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As reported by the House Committee on Financial Services on June 18, 2026",
+        "pubDate": "2026-09-29T20:05:00Z",
+        "title": "H.R. 8671, the Bank Fraud Technology Advancement Act of 2026",
+        "url": "https://www.cbo.gov/publication/62819"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 119-704",
+        "url": "https://api.congress.gov/v3/committee-report/119/HRPT/704?format=json"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8671/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 78 (Thursday, May 7, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. FLOOD:\nH.R. 8671.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8, Clause 18 of the US Constitution\n[Page H3342]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8671/cosponsors?format=json"
+    },
+    "introducedDate": "2026-05-07",
+    "latestAction": {
+      "actionDate": "2026-06-18",
+      "text": "Placed on the Union Calendar, Calendar No. 612."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/8671",
+    "number": "8671",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Finance and Financial Sector"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "F000474",
+        "district": 1,
+        "firstName": "Mike",
+        "fullName": "Rep. Flood, Mike [R-NE-1]",
+        "isByRequest": "N",
+        "lastName": "Flood",
+        "party": "R",
+        "state": "NE",
+        "url": "https://api.congress.gov/v3/member/F000474?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 11,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8671/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8671/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8671/text?format=json"
+    },
+    "title": "Bank Fraud Technology Advancement Act of 2026",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/8671/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-29T20:20:17Z",
+    "updateDateIncludingText": "2026-09-29T20:20:17Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-06-18T14:27:53Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2026-05-13T15:57:00Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2026-05-07T13:04:20Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Financial Services Committee",
+      "systemCode": "hsba00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "P000620",
+      "district": 7,
+      "firstName": "Brittany",
+      "fullName": "Rep. Pettersen, Brittany [D-CO-7]",
+      "isOriginalCosponsor": false,
+      "lastName": "Pettersen",
+      "party": "D",
+      "sponsorshipDate": "2026-05-12",
+      "state": "CO",
+      "url": "https://api.congress.gov/v3/member/P000620?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

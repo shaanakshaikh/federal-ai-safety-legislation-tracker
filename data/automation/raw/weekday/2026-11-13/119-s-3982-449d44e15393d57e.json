@@ -1,0 +1,142 @@
+{
+  "actions": [
+    {
+      "actionDate": "2026-03-04",
+      "committees": [
+        {
+          "name": "Commerce, Science, and Transportation Committee",
+          "systemCode": "sscm00",
+          "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2026-03-04",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/3982/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3982/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 3,
+      "countIncludingWithdrawnCosponsors": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/3982/cosponsors?format=json"
+    },
+    "introducedDate": "2026-03-04",
+    "latestAction": {
+      "actionDate": "2026-03-04",
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3982",
+    "number": "3982",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Commerce"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3982/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "S001232",
+        "firstName": "Tim",
+        "fullName": "Sen. Sheehy, Tim [R-MT]",
+        "isByRequest": "N",
+        "lastName": "Sheehy",
+        "party": "R",
+        "state": "MT",
+        "url": "https://api.congress.gov/v3/member/S001232?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3982/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3982/text?format=json"
+    },
+    "title": "AI Fraud Accountability Act of 2026",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/3982/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-09-08T18:03:40Z",
+    "updateDateIncludingText": "2026-09-08T18:03:40Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-03-04T16:39:28Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "B001303",
+      "firstName": "Lisa",
+      "fullName": "Sen. Blunt Rochester, Lisa [D-DE]",
+      "isOriginalCosponsor": true,
+      "lastName": "Blunt Rochester",
+      "party": "D",
+      "sponsorshipDate": "2026-03-04",
+      "state": "DE",
+      "url": "https://api.congress.gov/v3/member/B001303?format=json"
+    },
+    {
+      "bioguideId": "W000437",
+      "firstName": "Roger",
+      "fullName": "Sen. Wicker, Roger F. [R-MS]",
+      "isOriginalCosponsor": false,
+      "lastName": "Wicker",
+      "middleName": "F.",
+      "party": "R",
+      "sponsorshipDate": "2026-07-23",
+      "state": "MS",
+      "url": "https://api.congress.gov/v3/member/W000437?format=json"
+    },
+    {
+      "bioguideId": "L000570",
+      "firstName": "Ben",
+      "fullName": "Sen. Luján, Ben Ray [D-NM]",
+      "isOriginalCosponsor": false,
+      "lastName": "Luján",
+      "middleName": "R.",
+      "party": "D",
+      "sponsorshipDate": "2026-07-23",
+      "state": "NM",
+      "url": "https://api.congress.gov/v3/member/L000570?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

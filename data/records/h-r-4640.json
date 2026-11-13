@@ -23,20 +23,20 @@
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "committees": [
-    "House Education and Workforce",
-    "House Judiciary",
-    "House Energy and Commerce"
+    "Education and Workforce Committee",
+    "Energy and Commerce Committee",
+    "Judiciary Committee"
   ],
   "summary": "Would restrict surveillance-based prices and wages and require data-accuracy, transparency and challenge procedures for covered automated decision systems.",
   "advance_tier": "Low",
   "advance_rationale": "No committee advancement was recorded at the time of review.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/4640",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Greg Casar",
   "sponsor_party": "D",
   "sponsor_state": "TX",
-  "cosponsor_count": 43,
+  "cosponsor_count": 44,
   "introduced_date": "2025-07-23",
   "last_action_date": "2025-07-23",
   "last_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on the Judiciary, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
@@ -48,7 +48,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/4640",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -107,6 +107,16 @@
         "govinfo-billstatus"
       ],
       "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ]
 }

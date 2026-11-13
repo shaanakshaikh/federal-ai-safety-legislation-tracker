@@ -1,0 +1,248 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2023-09-20",
+      "committees": [
+        {
+          "name": "Emergency Management and Technology Subcommittee",
+          "systemCode": "hshm12",
+          "url": "https://api.congress.gov/v3/committee/house/hshm12?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Emergency Management and Technology.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11000",
+      "actionDate": "2023-09-20",
+      "committees": [
+        {
+          "name": "Cybersecurity and Infrastructure Protection Subcommittee",
+          "systemCode": "hshm08",
+          "url": "https://api.congress.gov/v3/committee/house/hshm08?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-09-20",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Energy and Commerce, and Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-09-20",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Energy and Commerce, and Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-09-20",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "hsju00",
+          "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Energy and Commerce, and Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2023-09-20",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2023-09-20",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 7,
+      "url": "https://api.congress.gov/v3/bill/118/hr/5586/actions?format=json"
+    },
+    "committees": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/5586/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 152 (Wednesday, September 20, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. CLARKE of New York:\nH.R. 5586.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8\nThe single subject of this legislation is:\nTechnology\n[Page H4438]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/5586/cosponsors?format=json"
+    },
+    "introducedDate": "2023-09-20",
+    "latestAction": {
+      "actionDate": "2023-09-20",
+      "text": "Referred to the Subcommittee on Emergency Management and Technology."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/5586",
+    "number": "5586",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Crime and Law Enforcement"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "C001067",
+        "district": 9,
+        "firstName": "Yvette",
+        "fullName": "Rep. Clarke, Yvette D. [D-NY-9]",
+        "isByRequest": "N",
+        "lastName": "Clarke",
+        "middleName": "D.",
+        "party": "D",
+        "state": "NY",
+        "url": "https://api.congress.gov/v3/member/C001067?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/5586/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/5586/text?format=json"
+    },
+    "title": "DEEPFAKES Accountability Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/5586/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2024-07-24T15:20:16Z",
+    "updateDateIncludingText": "2024-07-24T15:20:16Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-09-20T14:04:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Homeland Security Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2023-09-20T17:32:33Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Emergency Management and Technology Subcommittee",
+          "systemCode": "hshm12",
+          "url": "https://api.congress.gov/v3/committee/house/hshm12?format=json"
+        },
+        {
+          "activities": [
+            {
+              "date": "2023-09-20T17:32:24Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Cybersecurity and Infrastructure Protection Subcommittee",
+          "systemCode": "hshm08",
+          "url": "https://api.congress.gov/v3/committee/house/hshm08?format=json"
+        }
+      ],
+      "systemCode": "hshm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2023-09-20T14:04:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2023-09-20T14:03:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Judiciary Committee",
+      "systemCode": "hsju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "I000058",
+      "district": 4,
+      "firstName": "Glenn",
+      "fullName": "Rep. Ivey, Glenn [D-MD-4]",
+      "isOriginalCosponsor": true,
+      "lastName": "Ivey",
+      "party": "D",
+      "sponsorshipDate": "2023-09-20",
+      "state": "MD",
+      "url": "https://api.congress.gov/v3/member/I000058?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

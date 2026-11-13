@@ -1,0 +1,153 @@
+{
+  "actions": [
+    {
+      "actionDate": "2025-09-29",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "ssju00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on the Judiciary. (text: CR S6836-6838)",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2025-09-29",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/2937/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2937/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 4,
+      "countIncludingWithdrawnCosponsors": 4,
+      "url": "https://api.congress.gov/v3/bill/119/s/2937/cosponsors?format=json"
+    },
+    "introducedDate": "2025-09-29",
+    "latestAction": {
+      "actionDate": "2025-09-29",
+      "text": "Read twice and referred to the Committee on the Judiciary. (text: CR S6836-6838)"
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2937",
+    "number": "2937",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Commerce"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "D000563",
+        "firstName": "Richard",
+        "fullName": "Sen. Durbin, Richard J. [D-IL]",
+        "isByRequest": "N",
+        "lastName": "Durbin",
+        "middleName": "J.",
+        "party": "D",
+        "state": "IL",
+        "url": "https://api.congress.gov/v3/member/D000563?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2937/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/2937/text?format=json"
+    },
+    "title": "AI LEAD Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/s/2937/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-08-10T11:51:27Z",
+    "updateDateIncludingText": "2026-08-10T11:58:36Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-09-30T00:00:55Z",
+          "name": "Referred To"
+        },
+        {
+          "date": "2025-09-30T00:00:55Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Judiciary Committee",
+      "systemCode": "ssju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "H001089",
+      "firstName": "Josh",
+      "fullName": "Sen. Hawley, Josh [R-MO]",
+      "isOriginalCosponsor": true,
+      "lastName": "Hawley",
+      "party": "R",
+      "sponsorshipDate": "2025-09-29",
+      "state": "MO",
+      "url": "https://api.congress.gov/v3/member/H001089?format=json"
+    },
+    {
+      "bioguideId": "W000800",
+      "firstName": "Peter",
+      "fullName": "Sen. Welch, Peter [D-VT]",
+      "isOriginalCosponsor": false,
+      "lastName": "Welch",
+      "party": "D",
+      "sponsorshipDate": "2026-03-18",
+      "state": "VT",
+      "url": "https://api.congress.gov/v3/member/W000800?format=json"
+    },
+    {
+      "bioguideId": "K000383",
+      "firstName": "Angus",
+      "fullName": "Sen. King, Angus S., Jr. [I-ME]",
+      "isOriginalCosponsor": false,
+      "lastName": "King",
+      "middleName": "S.",
+      "party": "I",
+      "sponsorshipDate": "2026-03-18",
+      "state": "ME",
+      "url": "https://api.congress.gov/v3/member/K000383?format=json"
+    },
+    {
+      "bioguideId": "B001243",
+      "firstName": "Marsha",
+      "fullName": "Sen. Blackburn, Marsha [R-TN]",
+      "isOriginalCosponsor": false,
+      "lastName": "Blackburn",
+      "party": "R",
+      "sponsorshipDate": "2026-03-19",
+      "state": "TN",
+      "url": "https://api.congress.gov/v3/member/B001243?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

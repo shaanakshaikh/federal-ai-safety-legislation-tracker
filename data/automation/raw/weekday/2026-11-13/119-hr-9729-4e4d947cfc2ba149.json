@@ -1,0 +1,155 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2026-07-16",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "hsas00",
+          "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Armed Services.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2026-07-16",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2026-07-16",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9729/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9729/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 116 (Thursday, July 16, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. BEYER:\nH.R. 9729.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8 of the Constitution of the United\nStates.\n[Page H4624]\n</pre>",
+    "cosponsors": {
+      "count": 3,
+      "countIncludingWithdrawnCosponsors": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9729/cosponsors?format=json"
+    },
+    "introducedDate": "2026-07-16",
+    "latestAction": {
+      "actionDate": "2026-07-16",
+      "text": "Referred to the House Committee on Armed Services."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9729",
+    "number": "9729",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "B001292",
+        "district": 8,
+        "firstName": "Donald",
+        "fullName": "Rep. Beyer, Donald S. [D-VA-8]",
+        "isByRequest": "N",
+        "lastName": "Beyer",
+        "middleName": "S.",
+        "party": "D",
+        "state": "VA",
+        "url": "https://api.congress.gov/v3/member/B001292?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9729/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9729/text?format=json"
+    },
+    "title": "Human Authority over Autonomous Weapons Act of 2026",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9729/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-07-30T14:40:50Z",
+    "updateDateIncludingText": "2026-07-30T14:40:50Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-07-16T13:01:45Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "B001321",
+      "district": 7,
+      "firstName": "Tom",
+      "fullName": "Rep. Barrett, Tom [R-MI-7]",
+      "isOriginalCosponsor": true,
+      "lastName": "Barrett",
+      "party": "R",
+      "sponsorshipDate": "2026-07-16",
+      "state": "MI",
+      "url": "https://api.congress.gov/v3/member/B001321?format=json"
+    },
+    {
+      "bioguideId": "J000305",
+      "district": 51,
+      "firstName": "Sara",
+      "fullName": "Rep. Jacobs, Sara [D-CA-51]",
+      "isOriginalCosponsor": true,
+      "lastName": "Jacobs",
+      "party": "D",
+      "sponsorshipDate": "2026-07-16",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/J000305?format=json"
+    },
+    {
+      "bioguideId": "F000477",
+      "district": 4,
+      "firstName": "Valerie",
+      "fullName": "Rep. Foushee, Valerie P. [D-NC-4]",
+      "isOriginalCosponsor": true,
+      "lastName": "Foushee",
+      "middleName": "P.",
+      "party": "D",
+      "sponsorshipDate": "2026-07-16",
+      "state": "NC",
+      "url": "https://api.congress.gov/v3/member/F000477?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

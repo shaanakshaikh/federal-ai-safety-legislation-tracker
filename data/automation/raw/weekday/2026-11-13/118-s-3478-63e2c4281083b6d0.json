@@ -1,0 +1,187 @@
+{
+  "actions": [
+    {
+      "actionDate": "2023-12-12",
+      "committees": [
+        {
+          "name": "Homeland Security and Governmental Affairs Committee",
+          "systemCode": "ssga00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2023-12-12",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/s/3478/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/3478/committees?format=json"
+    },
+    "congress": 118,
+    "cosponsors": {
+      "count": 7,
+      "countIncludingWithdrawnCosponsors": 7,
+      "url": "https://api.congress.gov/v3/bill/118/s/3478/cosponsors?format=json"
+    },
+    "introducedDate": "2023-12-12",
+    "latestAction": {
+      "actionDate": "2023-12-12",
+      "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/3478",
+    "number": "3478",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Civil Rights and Liberties, Minority Issues"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/3478/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M000133",
+        "firstName": "Edward",
+        "fullName": "Sen. Markey, Edward J. [D-MA]",
+        "isByRequest": "N",
+        "lastName": "Markey",
+        "middleName": "J.",
+        "party": "D",
+        "state": "MA",
+        "url": "https://api.congress.gov/v3/member/M000133?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/3478/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/3478/text?format=json"
+    },
+    "title": "Eliminating Bias in Algorithmic Systems Act of 2023",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/s/3478/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2025-12-05T09:23:10Z",
+    "updateDateIncludingText": "2025-12-05T09:23:10Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-12-12T23:22:47Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Homeland Security and Governmental Affairs Committee",
+      "systemCode": "ssga00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "B001288",
+      "firstName": "Cory",
+      "fullName": "Sen. Booker, Cory A. [D-NJ]",
+      "isOriginalCosponsor": true,
+      "lastName": "Booker",
+      "party": "D",
+      "sponsorshipDate": "2023-12-12",
+      "state": "NJ",
+      "url": "https://api.congress.gov/v3/member/B001288?format=json"
+    },
+    {
+      "bioguideId": "K000367",
+      "firstName": "Amy",
+      "fullName": "Sen. Klobuchar, Amy [D-MN]",
+      "isOriginalCosponsor": true,
+      "lastName": "Klobuchar",
+      "party": "D",
+      "sponsorshipDate": "2023-12-12",
+      "state": "MN",
+      "url": "https://api.congress.gov/v3/member/K000367?format=json"
+    },
+    {
+      "bioguideId": "L000570",
+      "firstName": "Ben",
+      "fullName": "Sen. Luján, Ben Ray [D-NM]",
+      "isOriginalCosponsor": true,
+      "lastName": "Luján",
+      "middleName": "R.",
+      "party": "D",
+      "sponsorshipDate": "2023-12-12",
+      "state": "NM",
+      "url": "https://api.congress.gov/v3/member/L000570?format=json"
+    },
+    {
+      "bioguideId": "M001176",
+      "firstName": "Jeff",
+      "fullName": "Sen. Merkley, Jeff [D-OR]",
+      "isOriginalCosponsor": true,
+      "lastName": "Merkley",
+      "party": "D",
+      "sponsorshipDate": "2023-12-12",
+      "state": "OR",
+      "url": "https://api.congress.gov/v3/member/M001176?format=json"
+    },
+    {
+      "bioguideId": "W000817",
+      "firstName": "Elizabeth",
+      "fullName": "Sen. Warren, Elizabeth [D-MA]",
+      "isOriginalCosponsor": true,
+      "lastName": "Warren",
+      "middleName": "A.",
+      "party": "D",
+      "sponsorshipDate": "2023-12-12",
+      "state": "MA",
+      "url": "https://api.congress.gov/v3/member/W000817?format=json"
+    },
+    {
+      "bioguideId": "W000800",
+      "firstName": "Peter",
+      "fullName": "Sen. Welch, Peter [D-VT]",
+      "isOriginalCosponsor": true,
+      "lastName": "Welch",
+      "party": "D",
+      "sponsorshipDate": "2023-12-12",
+      "state": "VT",
+      "url": "https://api.congress.gov/v3/member/W000800?format=json"
+    },
+    {
+      "bioguideId": "W000779",
+      "firstName": "Ron",
+      "fullName": "Sen. Wyden, Ron [D-OR]",
+      "isOriginalCosponsor": true,
+      "lastName": "Wyden",
+      "party": "D",
+      "sponsorshipDate": "2023-12-12",
+      "state": "OR",
+      "url": "https://api.congress.gov/v3/member/W000779?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

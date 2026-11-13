@@ -1,0 +1,223 @@
+{
+  "actions": [
+    {
+      "actionCode": "H12410",
+      "actionDate": "2023-08-18",
+      "calendarNumber": {
+        "calendar": "U00129"
+      },
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Placed on the Union Calendar, Calendar No. 129.",
+      "type": "Calendars"
+    },
+    {
+      "actionCode": "H12200",
+      "actionDate": "2023-08-18",
+      "committees": [
+        {
+          "name": "Intelligence (Permanent Select) Committee",
+          "systemCode": "hlig00",
+          "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Reported (Amended) by the Committee on Intelligence. H. Rept. 118-162.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "5000",
+      "actionDate": "2023-08-18",
+      "committees": [
+        {
+          "name": "Intelligence (Permanent Select) Committee",
+          "systemCode": "hlig00",
+          "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Reported (Amended) by the Committee on Intelligence. H. Rept. 118-162.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15000-B",
+      "actionDate": "2023-07-13",
+      "committees": [
+        {
+          "name": "Intelligence (Permanent Select) Committee",
+          "systemCode": "hlig00",
+          "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H19000",
+      "actionDate": "2023-07-13",
+      "committees": [
+        {
+          "name": "Intelligence (Permanent Select) Committee",
+          "systemCode": "hlig00",
+          "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by Voice Vote.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-06-07",
+      "committees": [
+        {
+          "name": "Intelligence (Permanent Select) Committee",
+          "systemCode": "hlig00",
+          "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Intelligence (Permanent Select).",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2023-06-07",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2023-06-07",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 8,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3932/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As reported by the House Permanent Select Committee on Intelligence on August 18, 2023\n",
+        "pubDate": "2023-11-09T13:50:00Z",
+        "title": "H.R. 3932, Intelligence Authorization Act for Fiscal Year 2024",
+        "url": "https://www.cbo.gov/publication/59740"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 118-162",
+        "url": "https://api.congress.gov/v3/committee-report/118/HRPT/162?format=json"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3932/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 99 (Wednesday, June 7, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. TURNER:\nH.R. 3932.\nCongress has the power to enact this legislation pursuant\nto the following:\nAmong other powers, those vested in Congress pursuant to\nArticle I, Section 8 to: Provide for the common defense and\ngeneral welfare for the United States; Regulate commerce; and\nMake all laws which shall be necessary and proper for\ncarrying into execution Congress's other powers as provided\nunder that Article.\nThe single subject of this legislation is:\nTo authorize appropriations for fiscal year 2024 for\nintelligence and intelligence related activities of the\nUnited States Government, the Community Management Account,\nand the Central Intelligence Agency Retirement and Disability\nSystem, and for other purposes.\n[Page H2781]\n</pre>",
+    "introducedDate": "2023-06-07",
+    "latestAction": {
+      "actionDate": "2023-08-18",
+      "text": "Placed on the Union Calendar, Calendar No. 129."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/3932",
+    "number": "3932",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "relatedBills": {
+      "count": 10,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3932/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "T000463",
+        "district": 10,
+        "firstName": "Michael",
+        "fullName": "Rep. Turner, Michael R. [R-OH-10]",
+        "isByRequest": "N",
+        "lastName": "Turner",
+        "middleName": "R.",
+        "party": "R",
+        "state": "OH",
+        "url": "https://api.congress.gov/v3/member/T000463?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 97,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3932/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3932/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3932/text?format=json"
+    },
+    "title": "Intelligence Authorization Act for Fiscal Year 2024",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3932/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-05-27T14:15:36Z",
+    "updateDateIncludingText": "2025-05-27T14:15:36Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-08-18T15:36:22Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2023-07-13T20:19:25Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2023-06-07T14:00:10Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Intelligence (Permanent Select) Committee",
+      "systemCode": "hlig00",
+      "type": "Select",
+      "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

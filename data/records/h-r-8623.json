@@ -22,15 +22,15 @@
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "committees": [
-    "House Energy and Commerce",
-    "House Judiciary"
+    "Energy and Commerce Committee",
+    "Judiciary Committee"
   ],
   "summary": "Would require chatbot age checks and disclosures and prohibit minors from using covered AI companions.",
   "advance_tier": "Low",
   "advance_rationale": "No committee advancement was recorded at the time of review.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8623",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Blake Moore",
   "sponsor_party": "R",
   "sponsor_state": "UT",
@@ -46,7 +46,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8623",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -123,6 +123,16 @@
         "govinfo-billstatus",
         "related-s-3062"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

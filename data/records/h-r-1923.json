@@ -23,22 +23,22 @@
   "status": "Introduced / referred",
   "status_bucket": "Introduced / referred",
   "committees": [
-    "House Agriculture",
-    "House Transportation and Infrastructure",
-    "House Small Business",
-    "House Science, Space, and Technology",
-    "House Energy and Commerce",
-    "House Armed Services",
-    "House Oversight and Government Reform",
-    "House Education and Workforce",
-    "House Natural Resources"
+    "Agriculture Committee",
+    "Armed Services Committee",
+    "Education and Workforce Committee",
+    "Energy and Commerce Committee",
+    "Natural Resources Committee",
+    "Oversight and Government Reform Committee",
+    "Science, Space, and Technology Committee",
+    "Small Business Committee",
+    "Transportation and Infrastructure Committee"
   ],
   "summary": "Would assign a federal joint office responsibility for testing AI and machine-learning decision support for firefighters, incident managers and public-health officials.",
   "advance_tier": "Low",
   "advance_rationale": "No committee advancement was recorded at the time of review.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1923",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Josh Harder",
   "sponsor_party": "D",
   "sponsor_state": "CA",
@@ -54,7 +54,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1923",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -113,6 +113,16 @@
         "govinfo-billstatus"
       ],
       "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ]
 }

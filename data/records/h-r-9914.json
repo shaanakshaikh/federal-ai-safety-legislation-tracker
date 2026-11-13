@@ -31,7 +31,7 @@
     "Lori Trahan (D-MA)"
   ],
   "committees": [
-    "House Judiciary"
+    "Judiciary Committee"
   ],
   "introduced_date": "2026-07-23",
   "last_action_date": "2026-07-23",
@@ -43,8 +43,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "Eight original cosponsors and cross-party support strengthen prospects, but the bill still needs a Judiciary pathway or attachment to a wider package.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/9914",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -52,7 +52,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9914",
-      "accessed_date": "2026-10-27"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",

@@ -22,26 +22,26 @@
   "status": "Introduced / referred; expired at end of the 118th Congress",
   "status_bucket": "Expired at end of the 118th Congress",
   "committees": [
-    "House Agriculture",
-    "House Veterans' Affairs",
-    "House Transportation and Infrastructure",
-    "House Financial Services",
-    "House Homeland Security",
-    "House Armed Services",
-    "House Natural Resources",
-    "House Budget",
-    "House Judiciary",
-    "House Education and Workforce",
-    "House Oversight and Government Reform",
-    "House Ways and Means",
-    "House Energy and Commerce"
+    "Agriculture Committee",
+    "Armed Services Committee",
+    "Budget Committee",
+    "Education and Workforce Committee",
+    "Energy and Commerce Committee",
+    "Financial Services Committee",
+    "Homeland Security Committee",
+    "Judiciary Committee",
+    "Natural Resources Committee",
+    "Oversight and Government Reform Committee",
+    "Transportation and Infrastructure Committee",
+    "Veterans' Affairs Committee",
+    "Ways and Means Committee"
   ],
   "summary": "The health equity package would establish a task force to examine health care AI and algorithms, assess discrimination and civil rights risks, and recommend safeguards.",
   "advance_tier": "Dead",
   "advance_rationale": "The 118th Congress ended without enactment. Introduced / referred was the furthest recorded stage.",
   "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/9161",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Barbara Lee",
   "sponsor_party": "D",
   "sponsor_state": "CA",
@@ -57,7 +57,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/118th-congress/house-bill/9161",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -134,6 +134,16 @@
         "govinfo-billstatus",
         "related-s-4773-118"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

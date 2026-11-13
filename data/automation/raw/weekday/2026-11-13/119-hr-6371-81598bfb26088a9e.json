@@ -1,0 +1,340 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-12-03",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on House Administration, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-12-03",
+      "committees": [
+        {
+          "name": "Committee on House Administration",
+          "systemCode": "hsha00",
+          "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on House Administration, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-12-03",
+      "committees": [
+        {
+          "name": "Education and Workforce Committee",
+          "systemCode": "hsed00",
+          "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on House Administration, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-12-03",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-12-03",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/hr/6371/actions?format=json"
+    },
+    "committees": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/6371/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 202 (Wednesday, December 3, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. BONAMICI:\nH.R. 6371.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8 of the U.S. Constitution.\n[Page H5026]\n</pre>",
+    "cosponsors": {
+      "count": 13,
+      "countIncludingWithdrawnCosponsors": 13,
+      "url": "https://api.congress.gov/v3/bill/119/hr/6371/cosponsors?format=json"
+    },
+    "introducedDate": "2025-12-03",
+    "latestAction": {
+      "actionDate": "2025-12-03",
+      "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on House Administration, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6371",
+    "number": "6371",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Labor and Employment"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "B001278",
+        "district": 1,
+        "firstName": "Suzanne",
+        "fullName": "Rep. Bonamici, Suzanne [D-OR-1]",
+        "isByRequest": "N",
+        "lastName": "Bonamici",
+        "party": "D",
+        "state": "OR",
+        "url": "https://api.congress.gov/v3/member/B001278?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/6371/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/6371/text?format=json"
+    },
+    "title": "No Robot Bosses Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/6371/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-04T08:06:32Z",
+    "updateDateIncludingText": "2026-09-04T08:06:32Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-12-03T15:05:35Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Oversight and Government Reform Committee",
+      "systemCode": "hsgo00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-12-03T15:05:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Committee on House Administration",
+      "systemCode": "hsha00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-12-03T15:05:25Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Education and Workforce Committee",
+      "systemCode": "hsed00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "D000530",
+      "district": 17,
+      "firstName": "Christopher",
+      "fullName": "Rep. Deluzio, Christopher R. [D-PA-17]",
+      "isOriginalCosponsor": true,
+      "lastName": "Deluzio",
+      "middleName": "R.",
+      "party": "D",
+      "sponsorshipDate": "2025-12-03",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/D000530?format=json"
+    },
+    {
+      "bioguideId": "M001219",
+      "district": 0,
+      "firstName": "James",
+      "fullName": "Del. Moylan, James C. [R-GU-At Large]",
+      "isOriginalCosponsor": true,
+      "lastName": "Moylan",
+      "middleName": "C.",
+      "party": "R",
+      "sponsorshipDate": "2025-12-03",
+      "state": "GU",
+      "url": "https://api.congress.gov/v3/member/M001219?format=json"
+    },
+    {
+      "bioguideId": "G000599",
+      "district": 10,
+      "firstName": "Daniel",
+      "fullName": "Rep. Goldman, Daniel S. [D-NY-10]",
+      "isOriginalCosponsor": false,
+      "lastName": "Goldman",
+      "middleName": "S.",
+      "party": "D",
+      "sponsorshipDate": "2026-01-30",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/G000599?format=json"
+    },
+    {
+      "bioguideId": "A000370",
+      "district": 12,
+      "firstName": "Alma",
+      "fullName": "Rep. Adams, Alma S. [D-NC-12]",
+      "isOriginalCosponsor": false,
+      "lastName": "Adams",
+      "middleName": "S.",
+      "party": "D",
+      "sponsorshipDate": "2026-03-20",
+      "state": "NC",
+      "url": "https://api.congress.gov/v3/member/A000370?format=json"
+    },
+    {
+      "bioguideId": "C001068",
+      "district": 9,
+      "firstName": "Steve",
+      "fullName": "Rep. Cohen, Steve [D-TN-9]",
+      "isOriginalCosponsor": false,
+      "lastName": "Cohen",
+      "party": "D",
+      "sponsorshipDate": "2026-06-24",
+      "state": "TN",
+      "url": "https://api.congress.gov/v3/member/C001068?format=json"
+    },
+    {
+      "bioguideId": "C001072",
+      "district": 7,
+      "firstName": "André",
+      "fullName": "Rep. Carson, André [D-IN-7]",
+      "isOriginalCosponsor": false,
+      "lastName": "Carson",
+      "party": "D",
+      "sponsorshipDate": "2026-06-25",
+      "state": "IN",
+      "url": "https://api.congress.gov/v3/member/C001072?format=json"
+    },
+    {
+      "bioguideId": "A000381",
+      "district": 3,
+      "firstName": "Yassamin",
+      "fullName": "Rep. Ansari, Yassamin [D-AZ-3]",
+      "isOriginalCosponsor": false,
+      "lastName": "Ansari",
+      "party": "D",
+      "sponsorshipDate": "2026-07-27",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/A000381?format=json"
+    },
+    {
+      "bioguideId": "N000147",
+      "district": 0,
+      "firstName": "Eleanor",
+      "fullName": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "isOriginalCosponsor": false,
+      "lastName": "Norton",
+      "middleName": "Holmes",
+      "party": "D",
+      "sponsorshipDate": "2026-07-27",
+      "state": "DC",
+      "url": "https://api.congress.gov/v3/member/N000147?format=json"
+    },
+    {
+      "bioguideId": "C001131",
+      "district": 35,
+      "firstName": "Greg",
+      "fullName": "Rep. Casar, Greg [D-TX-35]",
+      "isOriginalCosponsor": false,
+      "lastName": "Casar",
+      "party": "D",
+      "sponsorshipDate": "2026-07-27",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/C001131?format=json"
+    },
+    {
+      "bioguideId": "F000476",
+      "district": 10,
+      "firstName": "Maxwell",
+      "fullName": "Rep. Frost, Maxwell [D-FL-10]",
+      "isOriginalCosponsor": false,
+      "lastName": "Frost",
+      "party": "D",
+      "sponsorshipDate": "2026-07-27",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/F000476?format=json"
+    },
+    {
+      "bioguideId": "G000606",
+      "district": 7,
+      "firstName": "Adelita",
+      "fullName": "Rep. Grijalva, Adelita S. [D-AZ-7]",
+      "isOriginalCosponsor": false,
+      "lastName": "Grijalva",
+      "middleName": "S.",
+      "party": "D",
+      "sponsorshipDate": "2026-08-20",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/G000606?format=json"
+    },
+    {
+      "bioguideId": "W000808",
+      "district": 24,
+      "firstName": "Frederica",
+      "fullName": "Rep. Wilson, Frederica S. [D-FL-24]",
+      "isOriginalCosponsor": false,
+      "lastName": "Wilson",
+      "middleName": "S.",
+      "party": "D",
+      "sponsorshipDate": "2026-09-02",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/W000808?format=json"
+    },
+    {
+      "bioguideId": "C001080",
+      "district": 28,
+      "firstName": "Judy",
+      "fullName": "Rep. Chu, Judy [D-CA-28]",
+      "isOriginalCosponsor": false,
+      "lastName": "Chu",
+      "party": "D",
+      "sponsorshipDate": "2026-09-03",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/C001080?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

@@ -4,32 +4,541 @@
       "changes": {
         "committees": {
           "after": [
-            "Homeland Security Committee",
-            "Homeland Security and Governmental Affairs Committee"
+            "Appropriations Committee"
+          ],
+          "before": [
+            "House Appropriations"
+          ]
+        }
+      },
+      "record_id": "fy27-house-cjs-approp"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Appropriations Committee"
+          ],
+          "before": [
+            "House Appropriations"
+          ]
+        }
+      },
+      "record_id": "fy27-house-def-approp"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Energy and Commerce",
+            "House Ways and Means"
+          ]
+        }
+      },
+      "record_id": "h-j-res-187"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Ways and Means",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-10024"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-10025"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform"
+          ]
+        }
+      },
+      "record_id": "h-r-10092-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-10125-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-10180"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "House Armed Services"
+          ]
+        }
+      },
+      "record_id": "h-r-10189"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Education and Workforce",
+            "House Ways and Means",
+            "House Energy and Commerce"
+          ]
+        },
+        "cosponsor_count": {
+          "after": 7,
+          "before": 6
+        }
+      },
+      "record_id": "h-r-10210"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-1027"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Oversight and Government Reform Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform",
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-10362"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Veterans' Affairs Committee"
+          ],
+          "before": [
+            "House Veterans' Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-10417"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Veterans' Affairs Committee"
+          ],
+          "before": [
+            "House Veterans' Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-10418"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Appropriations Committee",
+            "Budget Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Ways and Means",
+            "House Budget",
+            "House Appropriations"
+          ]
+        }
+      },
+      "record_id": "h-r-10445-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "House Armed Services"
+          ]
+        }
+      },
+      "record_id": "h-r-10453-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "House Armed Services"
+          ]
+        }
+      },
+      "record_id": "h-r-10484"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Intelligence (Permanent Select) Committee",
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Intelligence (Permanent Select)",
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-10502"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee"
           ],
           "before": [
             "House Homeland Security"
+          ]
+        }
+      },
+      "record_id": "h-r-10519"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform"
+          ]
+        }
+      },
+      "record_id": "h-r-10538"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Financial Services Committee",
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Financial Services",
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-10559-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-10567"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee"
+          ],
+          "before": [
+            "House Homeland Security"
+          ]
+        }
+      },
+      "record_id": "h-r-10594"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform"
+          ]
+        }
+      },
+      "record_id": "h-r-10670"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-10719"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee"
+          ],
+          "before": [
+            "House Homeland Security"
+          ]
+        }
+      },
+      "record_id": "h-r-10752"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-10768"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Committee on House Administration"
+          ],
+          "before": [
+            "House Committee on House Administration"
+          ]
+        }
+      },
+      "record_id": "h-r-10814"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-10841"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
           ]
         },
         "cosponsor_count": {
           "after": 3,
           "before": 2
-        },
-        "introduced_date": {
-          "after": "2025-02-27",
-          "before": null
-        },
-        "last_action": {
-          "after": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
-          "before": "Referred to House Homeland Security; no markup located in the research snapshot."
-        },
-        "last_action_date": {
-          "after": "2025-11-20",
-          "before": null
-        },
-        "lifecycle_status": {
-          "after": "committee_advanced",
-          "before": "referred"
+        }
+      },
+      "record_id": "h-r-10873"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform"
+          ]
+        }
+      },
+      "record_id": "h-r-1121"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Ways and Means",
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-1122"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-1283"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee",
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs",
+            "House Homeland Security"
+          ]
+        }
+      },
+      "record_id": "h-r-1608"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee",
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs",
+            "House Homeland Security"
+          ]
+        }
+      },
+      "record_id": "h-r-1692"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-1694"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "House Armed Services"
+          ]
+        }
+      },
+      "record_id": "h-r-1718-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Financial Services Committee"
+          ],
+          "before": [
+            "House Financial Services"
+          ]
+        }
+      },
+      "record_id": "h-r-1734"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee",
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs",
+            "House Homeland Security"
+          ]
         }
       },
       "record_id": "h-r-1736"
@@ -39,23 +548,206 @@
         "committees": {
           "after": [
             "Commerce, Science, and Transportation Committee",
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-1770"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Agriculture Committee",
+            "Armed Services Committee",
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee",
+            "Natural Resources Committee",
+            "Oversight and Government Reform Committee",
+            "Science, Space, and Technology Committee",
+            "Small Business Committee",
+            "Transportation and Infrastructure Committee"
+          ],
+          "before": [
+            "House Agriculture",
+            "House Transportation and Infrastructure",
+            "House Small Business",
+            "House Science, Space, and Technology",
+            "House Energy and Commerce",
+            "House Armed Services",
+            "House Oversight and Government Reform",
+            "House Education and Workforce",
+            "House Natural Resources"
+          ]
+        }
+      },
+      "record_id": "h-r-1923"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-1941"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Natural Resources Committee"
+          ],
+          "before": [
+            "House Natural Resources",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-2087"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Financial Services Committee"
+          ],
+          "before": [
+            "House Financial Services"
+          ]
+        }
+      },
+      "record_id": "h-r-2152"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Financial Services Committee",
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Financial Services",
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-2246"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-2564"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Ways and Means",
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-2594-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee",
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs",
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-2683"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Committee on House Administration",
+            "Energy and Commerce Committee",
+            "Judiciary Committee",
             "Science, Space, and Technology Committee"
           ],
           "before": [
+            "House Science, Space, and Technology",
+            "House Committee on House Administration",
+            "House Judiciary",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-2701-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-2794"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee",
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Energy and Commerce",
+            "House Education and Workforce",
+            "House Science, Space, and Technology",
+            "House Armed Services"
+          ]
+        }
+      },
+      "record_id": "h-r-2993-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation",
             "House Science, Space, and Technology"
           ]
-        },
-        "introduced_date": {
-          "after": "2025-04-28",
-          "before": null
-        },
-        "last_action": {
-          "after": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "before": "Reported by committee; House Report 119-751 was filed."
-        },
-        "last_action_date": {
-          "after": "2026-07-21",
-          "before": null
         },
         "title": {
           "after": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
@@ -68,31 +760,117 @@
       "changes": {
         "committees": {
           "after": [
+            "Committee on House Administration"
+          ],
+          "before": [
+            "House Committee on House Administration"
+          ]
+        }
+      },
+      "record_id": "h-r-3044-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Financial Services Committee",
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Financial Services",
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-3086"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-3106-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Ways and Means"
+          ]
+        }
+      },
+      "record_id": "h-r-3136-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
             "Armed Services Committee"
           ],
           "before": [
             "House Armed Services"
           ]
-        },
-        "cosponsor_count": {
-          "after": 3,
-          "before": 2
-        },
-        "introduced_date": {
-          "after": "2025-05-15",
-          "before": null
-        },
-        "last_action": {
-          "after": "Referred to the House Committee on Armed Services.",
-          "before": "Referred to House Armed Services."
-        },
-        "last_action_date": {
-          "after": "2025-05-15",
-          "before": null
-        },
-        "title": {
-          "after": "Protecting AI and Cloud Competition in Defense Act of 2025",
-          "before": "Protecting AI and Cloud Competition in Defense Act"
+        }
+      },
+      "record_id": "h-r-3168-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-3303"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-334"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-3369-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "House Armed Services"
+          ]
         }
       },
       "record_id": "h-r-3434"
@@ -106,26 +884,6 @@
           "before": [
             "House Foreign Affairs"
           ]
-        },
-        "cosponsor_count": {
-          "after": 43,
-          "before": 9
-        },
-        "introduced_date": {
-          "after": "2025-05-15",
-          "before": null
-        },
-        "last_action": {
-          "after": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 0.",
-          "before": "Referred to House Foreign Affairs; no markup action captured in the research snapshot."
-        },
-        "last_action_date": {
-          "after": "2026-03-26",
-          "before": null
-        },
-        "lifecycle_status": {
-          "after": "committee_advanced",
-          "before": "referred"
         }
       },
       "record_id": "h-r-3447"
@@ -141,20 +899,8 @@
           ]
         },
         "cosponsor_count": {
-          "after": 9,
-          "before": 2
-        },
-        "introduced_date": {
-          "after": "2025-05-15",
-          "before": null
-        },
-        "last_action": {
-          "after": "Referred to the House Committee on Education and Workforce.",
-          "before": "Referred to House Education and Workforce; no public markup located in the research snapshot."
-        },
-        "last_action_date": {
-          "after": "2025-05-15",
-          "before": null
+          "after": 10,
+          "before": 9
         }
       },
       "record_id": "h-r-3460"
@@ -163,22 +909,175 @@
       "changes": {
         "committees": {
           "after": [
-            "Intelligence (Permanent Select) Committee"
+            "Energy and Commerce Committee",
+            "Ways and Means Committee"
           ],
           "before": [
-            "House Permanent Select Committee on Intelligence"
+            "House Ways and Means",
+            "House Energy and Commerce"
           ]
         },
         "cosponsor_count": {
-          "after": 8,
-          "before": 3
-        },
-        "last_action": {
-          "after": "Referred to the House Committee on Intelligence (Permanent Select).",
-          "before": "Introduced and referred to the House Intelligence Committee. No public markup located by the cutoff."
+          "after": 311,
+          "before": 308
+        }
+      },
+      "record_id": "h-r-3514"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-3562"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Transportation and Infrastructure Committee"
+          ],
+          "before": [
+            "House Transportation and Infrastructure"
+          ]
+        }
+      },
+      "record_id": "h-r-3647"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-3831-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Agriculture Committee",
+            "Appropriations Committee",
+            "Armed Services Committee",
+            "Budget Committee",
+            "Committee on House Administration",
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee",
+            "Financial Services Committee",
+            "Foreign Affairs Committee",
+            "Homeland Security Committee",
+            "Intelligence (Permanent Select) Committee",
+            "Judiciary Committee",
+            "Natural Resources Committee",
+            "Oversight and Government Reform Committee",
+            "Science, Space, and Technology Committee",
+            "Small Business Committee",
+            "Transportation and Infrastructure Committee",
+            "Veterans' Affairs Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform",
+            "House Intelligence (Permanent Select)",
+            "House Appropriations",
+            "House Ways and Means",
+            "House Foreign Affairs",
+            "House Small Business",
+            "House Judiciary",
+            "House Education and Workforce",
+            "House Committee on House Administration",
+            "House Homeland Security",
+            "House Energy and Commerce",
+            "House Natural Resources",
+            "House Science, Space, and Technology",
+            "House Agriculture",
+            "House Financial Services",
+            "House Transportation and Infrastructure",
+            "House Budget",
+            "House Veterans' Affairs",
+            "House Armed Services"
+          ]
+        }
+      },
+      "record_id": "h-r-3838"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Intelligence (Permanent Select) Committee"
+          ],
+          "before": [
+            "House Intelligence (Permanent Select)"
+          ]
         }
       },
       "record_id": "h-r-3919"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-3921"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Intelligence (Permanent Select) Committee"
+          ],
+          "before": [
+            "House Intelligence (Permanent Select)"
+          ]
+        }
+      },
+      "record_id": "h-r-3932-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "House Armed Services"
+          ]
+        }
+      },
+      "record_id": "h-r-3961"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Ways and Means",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-3996"
     },
     {
       "changes": {
@@ -189,18 +1088,6 @@
           "before": [
             "House Oversight and Government Reform"
           ]
-        },
-        "introduced_date": {
-          "after": "2025-06-25",
-          "before": null
-        },
-        "last_action": {
-          "after": "Referred to the House Committee on Oversight and Government Reform.",
-          "before": "Referred to House Oversight and Government Reform."
-        },
-        "last_action_date": {
-          "after": "2025-06-25",
-          "before": null
         }
       },
       "record_id": "h-r-4142"
@@ -209,86 +1096,160 @@
       "changes": {
         "committees": {
           "after": [
-            "Energy and Commerce Committee",
-            "Foreign Affairs Committee",
+            "Armed Services Committee",
+            "Homeland Security Committee",
+            "Oversight and Government Reform Committee",
             "Science, Space, and Technology Committee"
           ],
           "before": [
-            "House Foreign Affairs",
-            "House Energy and Commerce",
-            "House Science, Space, and Technology"
+            "House Armed Services",
+            "House Homeland Security",
+            "House Science, Space, and Technology",
+            "House Oversight and Government Reform"
           ]
-        },
-        "cosponsor_count": {
-          "after": 2,
-          "before": 1
-        },
-        "last_action": {
-          "after": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Energy and Commerce, and Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "before": "Introduced and referred to three House committees."
         }
       },
-      "record_id": "h-r-5288"
+      "record_id": "h-r-4552-118"
     },
     {
       "changes": {
         "committees": {
           "after": [
-            "Energy and Commerce Committee",
-            "Science, Space, and Technology Committee"
+            "Committee on House Administration"
           ],
           "before": [
-            "House Science, Space, and Technology",
+            "House Committee on House Administration"
+          ]
+        }
+      },
+      "record_id": "h-r-4611-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-4624-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-4628"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee",
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Education and Workforce",
+            "House Judiciary",
             "House Energy and Commerce"
           ]
         },
         "cosponsor_count": {
-          "after": 2,
-          "before": 0
-        },
-        "introduced_date": {
-          "after": "2025-11-25",
-          "before": null
-        },
-        "last_action": {
-          "after": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "before": "Referred to House Science and House Energy and Commerce; no markup located."
-        },
-        "last_action_date": {
-          "after": "2025-11-25",
-          "before": null
+          "after": 44,
+          "before": 43
         }
       },
-      "record_id": "h-r-6304"
+      "record_id": "h-r-4640"
     },
     {
       "changes": {
         "committees": {
           "after": [
-            "Science, Space, and Technology Committee"
+            "Foreign Affairs Committee"
           ],
           "before": [
-            "House Science, Space, and Technology"
+            "House Foreign Affairs"
           ]
-        },
-        "cosponsor_count": {
-          "after": 11,
-          "before": 10
-        },
-        "introduced_date": {
-          "after": "2025-12-04",
-          "before": null
-        },
-        "last_action": {
-          "after": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 35 - 0.",
-          "before": "Included on the House Science full-committee markup agenda on June 25, 2026."
-        },
-        "lifecycle_status": {
-          "after": "committee_advanced",
-          "before": "committee_consideration"
         }
       },
-      "record_id": "h-r-6461"
+      "record_id": "h-r-4683-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Transportation and Infrastructure Committee"
+          ],
+          "before": [
+            "House Transportation and Infrastructure"
+          ]
+        }
+      },
+      "record_id": "h-r-4686"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-4704-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Financial Services Committee"
+          ],
+          "before": [
+            "House Financial Services"
+          ]
+        }
+      },
+      "record_id": "h-r-4801"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee",
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-4814-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-4894"
     },
     {
       "changes": {
@@ -300,32 +1261,206 @@
             "House Foreign Affairs"
           ]
         },
-        "cosponsor_count": {
-          "after": 46,
-          "before": 19
-        },
-        "introduced_date": {
-          "after": "2025-12-18",
-          "before": null
-        },
-        "last_action": {
-          "after": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 2.",
-          "before": "Referred to House Foreign Affairs."
-        },
-        "last_action_date": {
-          "after": "2026-01-21",
-          "before": null
-        },
-        "lifecycle_status": {
-          "after": "committee_advanced",
-          "before": "referred"
-        },
         "title": {
-          "after": "AI OVERWATCH Act",
-          "before": "OVERWATCH Act"
+          "after": "No Advanced Chips for the CCP Act of 2025.",
+          "before": "No Advanced Chips for the CCP Act of 2025"
         }
       },
-      "record_id": "h-r-6875"
+      "record_id": "h-r-5022"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee",
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs",
+            "House Homeland Security"
+          ]
+        }
+      },
+      "record_id": "h-r-5078"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee",
+            "Energy and Commerce Committee",
+            "Homeland Security Committee",
+            "Intelligence (Permanent Select) Committee",
+            "Judiciary Committee",
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Homeland Security",
+            "House Judiciary",
+            "House Armed Services",
+            "House Energy and Commerce",
+            "House Intelligence (Permanent Select)",
+            "House Oversight and Government Reform"
+          ]
+        }
+      },
+      "record_id": "h-r-5079"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "House Armed Services"
+          ]
+        }
+      },
+      "record_id": "h-r-5090"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Appropriations Committee"
+          ],
+          "before": [
+            "House Appropriations"
+          ]
+        }
+      },
+      "record_id": "h-r-5166"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Intelligence (Permanent Select) Committee"
+          ],
+          "before": [
+            "House Intelligence (Permanent Select)"
+          ]
+        }
+      },
+      "record_id": "h-r-5167"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-5247"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Committee on House Administration"
+          ],
+          "before": [
+            "House Committee on House Administration"
+          ]
+        }
+      },
+      "record_id": "h-r-5272"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-5287"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Foreign Affairs Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology",
+            "House Energy and Commerce",
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-5288"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-5300"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee",
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee",
+            "Financial Services Committee",
+            "Foreign Affairs Committee",
+            "Homeland Security Committee",
+            "Judiciary Committee",
+            "Oversight and Government Reform Committee",
+            "Science, Space, and Technology Committee",
+            "Small Business Committee",
+            "Transportation and Infrastructure Committee",
+            "Veterans' Affairs Committee"
+          ],
+          "before": [
+            "House Veterans' Affairs",
+            "House Homeland Security",
+            "House Transportation and Infrastructure",
+            "House Financial Services",
+            "House Education and Workforce",
+            "House Small Business",
+            "House Energy and Commerce",
+            "House Judiciary",
+            "House Oversight and Government Reform",
+            "House Armed Services",
+            "House Foreign Affairs",
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-5388"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "House Armed Services"
+          ]
+        }
+      },
+      "record_id": "h-r-5466"
     },
     {
       "changes": {
@@ -338,60 +1473,41 @@
           ]
         },
         "cosponsor_count": {
-          "after": 5,
-          "before": 3
-        },
-        "introduced_date": {
-          "after": "2026-01-30",
-          "before": null
-        },
-        "last_action": {
-          "after": "Ordered to be Reported by the Yeas and Nays: 37 - 0.",
-          "before": "Referred to House Energy and Commerce; no markup located in the research snapshot."
-        },
-        "last_action_date": {
-          "after": "2026-09-16",
-          "before": null
-        },
-        "lifecycle_status": {
-          "after": "committee_advanced",
-          "before": "referred"
+          "after": 33,
+          "before": 32
         }
       },
-      "record_id": "h-r-7294"
+      "record_id": "h-r-5511"
     },
     {
       "changes": {
         "committees": {
           "after": [
-            "Homeland Security Committee"
+            "Energy and Commerce Committee",
+            "Homeland Security Committee",
+            "Judiciary Committee"
           ],
           "before": [
-            "Committee referral not captured in research snapshot"
+            "House Homeland Security",
+            "House Energy and Commerce",
+            "House Judiciary"
           ]
-        },
-        "cosponsor_count": {
-          "after": 2,
-          "before": 1
-        },
-        "last_action": {
-          "after": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
-          "before": "Introduced; no markup located in the research snapshot. The exact committee referral should be refreshed from Congress.gov before publication of a new version."
-        },
-        "last_action_date": {
-          "after": "2026-02-26",
-          "before": "2026-02-25"
-        },
-        "sponsor": {
-          "after": "Pablo Hernández",
-          "before": "Sam Liccardo"
-        },
-        "title": {
-          "after": "AI Cyber Grid Protection Resilient Development Act of 2026",
-          "before": "AI Cyber Grid Protection Resilient Development Act"
         }
       },
-      "record_id": "h-r-7696"
+      "record_id": "h-r-5586-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Financial Services Committee"
+          ],
+          "before": [
+            "House Financial Services"
+          ]
+        }
+      },
+      "record_id": "h-r-5808-118"
     },
     {
       "changes": {
@@ -402,17 +1518,921 @@
           "before": [
             "House Foreign Affairs"
           ]
-        },
-        "cosponsor_count": {
-          "after": 21,
-          "before": 20
-        },
-        "last_action": {
-          "after": "Ordered to be Reported (Amended) by the Yeas and Nays: 43 - 0.",
-          "before": "House Foreign Affairs ordered the amended bill reported by a 43–0 vote."
+        }
+      },
+      "record_id": "h-r-5885"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-6088-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-6275"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Energy and Commerce",
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-6304"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-6306"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-6322"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-633"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-6334"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-6349-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-6356"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Committee on House Administration",
+            "Education and Workforce Committee",
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform",
+            "House Committee on House Administration",
+            "House Education and Workforce"
+          ]
+        }
+      },
+      "record_id": "h-r-6371"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee",
+            "Foreign Affairs Committee",
+            "Intelligence (Permanent Select) Committee"
+          ],
+          "before": [
+            "House Intelligence (Permanent Select)",
+            "House Armed Services",
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-6425-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-6461"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Energy and Commerce",
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-6466-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-6489"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Agriculture Committee"
+          ],
+          "before": [
+            "House Agriculture"
+          ]
+        }
+      },
+      "record_id": "h-r-6806-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee",
+            "Transportation and Infrastructure Committee"
+          ],
+          "before": [
+            "House Transportation and Infrastructure",
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-6850-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-6875"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-6879"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-6881-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform"
+          ]
+        }
+      },
+      "record_id": "h-r-6886-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Intelligence (Permanent Select) Committee"
+          ],
+          "before": [
+            "House Intelligence (Permanent Select)"
+          ]
+        }
+      },
+      "record_id": "h-r-6909"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-6943-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-6996"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-7058"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-7064"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform"
+          ]
+        }
+      },
+      "record_id": "h-r-7110"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-7116-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-7120-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-7123-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-7218"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-7294"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology",
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-7394-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform"
+          ]
+        }
+      },
+      "record_id": "h-r-7532-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-7567-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-7569-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Committee on House Administration",
+            "Education and Workforce Committee",
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform",
+            "House Committee on House Administration",
+            "House Education and Workforce"
+          ]
+        }
+      },
+      "record_id": "h-r-7621-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Committee on House Administration",
+            "Education and Workforce Committee",
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Committee on House Administration",
+            "House Oversight and Government Reform",
+            "House Education and Workforce"
+          ]
+        }
+      },
+      "record_id": "h-r-7690-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Ways and Means"
+          ]
+        }
+      },
+      "record_id": "h-r-7694-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee"
+          ],
+          "before": [
+            "House Homeland Security"
+          ]
+        }
+      },
+      "record_id": "h-r-7696"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-7736-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee",
+            "Energy and Commerce Committee",
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation",
+            "House Judiciary",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-7757"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Energy and Commerce",
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-7766-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Financial Services Committee"
+          ],
+          "before": [
+            "House Financial Services"
+          ]
+        }
+      },
+      "record_id": "h-r-7781-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Foreign Affairs Committee",
+            "Judiciary Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Foreign Affairs",
+            "House Science, Space, and Technology",
+            "House Judiciary",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-7786"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee",
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs",
+            "House Homeland Security"
+          ]
+        }
+      },
+      "record_id": "h-r-7832-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce",
+            "House Education and Workforce"
+          ]
+        }
+      },
+      "record_id": "h-r-7891-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-7985"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-7997"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-8005-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-8031"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee",
+            "Budget Committee",
+            "Committee on House Administration",
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee",
+            "Foreign Affairs Committee",
+            "Homeland Security Committee",
+            "Intelligence (Permanent Select) Committee",
+            "Judiciary Committee",
+            "Natural Resources Committee",
+            "Oversight and Government Reform Committee",
+            "Science, Space, and Technology Committee",
+            "Small Business Committee",
+            "Transportation and Infrastructure Committee",
+            "Veterans' Affairs Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform",
+            "House Intelligence (Permanent Select)",
+            "House Ways and Means",
+            "House Foreign Affairs",
+            "House Small Business",
+            "House Judiciary",
+            "House Education and Workforce",
+            "House Budget",
+            "House Committee on House Administration",
+            "House Homeland Security",
+            "House Energy and Commerce",
+            "House Natural Resources",
+            "House Science, Space, and Technology",
+            "House Transportation and Infrastructure",
+            "House Veterans' Affairs",
+            "House Armed Services"
+          ]
+        }
+      },
+      "record_id": "h-r-8070-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-8094"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee",
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs",
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-8152-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-8170"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
         }
       },
       "record_id": "h-r-8283"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-8287"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee",
+            "Intelligence (Permanent Select) Committee"
+          ],
+          "before": [
+            "House Intelligence (Permanent Select)",
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-8306"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-8315-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-8323"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee"
+          ],
+          "before": [
+            "House Homeland Security"
+          ]
+        }
+      },
+      "record_id": "h-r-8348-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Committee on House Administration"
+          ],
+          "before": [
+            "House Committee on House Administration"
+          ]
+        }
+      },
+      "record_id": "h-r-8353-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-8382"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Committee on House Administration"
+          ],
+          "before": [
+            "House Committee on House Administration"
+          ]
+        }
+      },
+      "record_id": "h-r-8384-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-8479"
     },
     {
       "changes": {
@@ -427,21 +2447,88 @@
             "Ways and Means Committee"
           ],
           "before": [
-            "House Science, Space, and Technology",
-            "House Energy and Commerce",
-            "House Agriculture",
-            "House Oversight and Government Reform",
-            "House Education and Workforce",
+            "House Ways and Means",
             "House Judiciary",
-            "House Ways and Means"
+            "House Education and Workforce",
+            "House Oversight and Government Reform",
+            "House Agriculture",
+            "House Energy and Commerce",
+            "House Science, Space, and Technology"
           ]
-        },
-        "last_action": {
-          "after": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Energy and Commerce, Agriculture, Oversight and Government Reform, Education and Workforce, the Judiciary, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "before": "Introduced and referred to seven House committees."
         }
       },
       "record_id": "h-r-8516"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Energy and Commerce",
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-8623"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Committee on House Administration"
+          ],
+          "before": [
+            "House Committee on House Administration"
+          ]
+        }
+      },
+      "record_id": "h-r-8668-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Financial Services Committee"
+          ],
+          "before": [
+            "House Financial Services"
+          ]
+        }
+      },
+      "record_id": "h-r-8671"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Ways and Means",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-8702-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Oversight and Government Reform Committee",
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology",
+            "House Oversight and Government Reform"
+          ]
+        }
+      },
+      "record_id": "h-r-8756-118"
     },
     {
       "changes": {
@@ -464,29 +2551,22 @@
             "Ways and Means Committee"
           ],
           "before": [
-            "House Armed Services",
-            "House Rules"
+            "House Oversight and Government Reform",
+            "House Intelligence (Permanent Select)",
+            "House Appropriations",
+            "House Veterans' Affairs",
+            "House Ways and Means",
+            "House Small Business",
+            "House Judiciary",
+            "House Education and Workforce",
+            "House Homeland Security",
+            "House Energy and Commerce",
+            "House Natural Resources",
+            "House Science, Space, and Technology",
+            "House Transportation and Infrastructure",
+            "House Budget",
+            "House Armed Services"
           ]
-        },
-        "cosponsor_count": {
-          "after": 1,
-          "before": null
-        },
-        "introduced_date": {
-          "after": "2026-05-13",
-          "before": null
-        },
-        "last_action": {
-          "after": "Received in the Senate.",
-          "before": "House Armed Services processed the bill in June; House Rules met June 29 and July 20. AI-related floor amendments were considered, including a Buchanan reporting amendment agreed by voice."
-        },
-        "last_action_date": {
-          "after": "2026-09-14",
-          "before": "2026-07-20"
-        },
-        "lifecycle_status": {
-          "after": "committee_advanced",
-          "before": "floor"
         }
       },
       "record_id": "h-r-8800"
@@ -500,10 +2580,194 @@
           "before": [
             "House Science, Space, and Technology"
           ]
+        }
+      },
+      "record_id": "h-r-8819"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-8858-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-8893"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-8915"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-8939-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-8989-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee"
+          ],
+          "before": [
+            "House Homeland Security"
+          ]
+        }
+      },
+      "record_id": "h-r-9042-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee",
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Homeland Security",
+            "House Oversight and Government Reform"
+          ]
+        }
+      },
+      "record_id": "h-r-9043-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee",
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform",
+            "House Judiciary"
+          ]
         },
-        "last_action": {
-          "after": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 35 - 0.",
-          "before": "House Science adopted a substitute and favorably reported the bill by a 29–0 vote."
+        "cosponsor_count": {
+          "after": 4,
+          "before": 3
+        }
+      },
+      "record_id": "h-r-9125"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Agriculture Committee",
+            "Armed Services Committee",
+            "Budget Committee",
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee",
+            "Financial Services Committee",
+            "Homeland Security Committee",
+            "Judiciary Committee",
+            "Natural Resources Committee",
+            "Oversight and Government Reform Committee",
+            "Transportation and Infrastructure Committee",
+            "Veterans' Affairs Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Agriculture",
+            "House Veterans' Affairs",
+            "House Transportation and Infrastructure",
+            "House Financial Services",
+            "House Homeland Security",
+            "House Armed Services",
+            "House Natural Resources",
+            "House Budget",
+            "House Judiciary",
+            "House Education and Workforce",
+            "House Oversight and Government Reform",
+            "House Ways and Means",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-9161-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-9194-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-9307"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
         }
       },
       "record_id": "h-r-9333"
@@ -517,17 +2781,37 @@
           "before": [
             "House Science, Space, and Technology"
           ]
-        },
-        "cosponsor_count": {
-          "after": 7,
-          "before": 4
-        },
-        "last_action": {
-          "after": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 29 - 0.",
-          "before": "House Science favorably reported the bill 29–0 after adopting a substitute and amendments concerning agentic AI, explainability/interpretability, and autonomous AI. CBO later issued an estimate."
         }
       },
       "record_id": "h-r-9363"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Foreign Affairs Committee"
+          ],
+          "before": [
+            "House Foreign Affairs",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-9442"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-9466-118"
     },
     {
       "changes": {
@@ -538,17 +2822,22 @@
           "before": [
             "House Energy and Commerce"
           ]
-        },
-        "cosponsor_count": {
-          "after": 3,
-          "before": 0
-        },
-        "last_action": {
-          "after": "Referred to the House Committee on Energy and Commerce.",
-          "before": "Introduced and referred to House Energy and Commerce. No hearing or markup located by the cutoff."
         }
       },
       "record_id": "h-r-9477"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-9497-118"
     },
     {
       "changes": {
@@ -559,18 +2848,189 @@
           "before": [
             "House Judiciary"
           ]
-        },
-        "cosponsor_count": {
-          "after": 25,
-          "before": 8
-        },
-        "last_action": {
-          "after": "Referred to the House Committee on the Judiciary.",
-          "before": "Introduced and referred to House Judiciary. No markup located by the cutoff."
-        },
-        "sponsor": {
-          "after": "Robert Latta",
-          "before": "Bob Latta"
+        }
+      },
+      "record_id": "h-r-9546"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
+        }
+      },
+      "record_id": "h-r-9551-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee"
+          ],
+          "before": [
+            "House Homeland Security"
+          ]
+        }
+      },
+      "record_id": "h-r-9566"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-9619"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "House Armed Services"
+          ]
+        }
+      },
+      "record_id": "h-r-9626-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Committee on House Administration"
+          ],
+          "before": [
+            "House Committee on House Administration"
+          ]
+        }
+      },
+      "record_id": "h-r-9639-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Oversight and Government Reform Committee"
+          ],
+          "before": [
+            "House Oversight and Government Reform"
+          ]
+        }
+      },
+      "record_id": "h-r-9643"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Committee on House Administration",
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee",
+            "Financial Services Committee",
+            "Judiciary Committee",
+            "Oversight and Government Reform Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Ways and Means",
+            "House Energy and Commerce",
+            "House Oversight and Government Reform",
+            "House Committee on House Administration",
+            "House Judiciary",
+            "House Financial Services",
+            "House Education and Workforce"
+          ]
+        }
+      },
+      "record_id": "h-r-9693-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-9720-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "House Armed Services"
+          ]
+        }
+      },
+      "record_id": "h-r-9729"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee",
+            "Ways and Means Committee"
+          ],
+          "before": [
+            "House Energy and Commerce",
+            "House Ways and Means"
+          ]
+        }
+      },
+      "record_id": "h-r-9734"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Veterans' Affairs Committee"
+          ],
+          "before": [
+            "House Veterans' Affairs"
+          ]
+        }
+      },
+      "record_id": "h-r-9862"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-9913-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "House Judiciary"
+          ]
         }
       },
       "record_id": "h-r-9914"
@@ -586,16 +3046,8 @@
           ]
         },
         "cosponsor_count": {
-          "after": 12,
-          "before": 1
-        },
-        "last_action": {
-          "after": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
-          "before": "Introduced and referred to House Homeland Security. No markup located by the cutoff."
-        },
-        "last_action_date": {
-          "after": "2026-07-24",
-          "before": "2026-07-23"
+          "after": 14,
+          "before": 13
         }
       },
       "record_id": "h-r-9917"
@@ -608,20 +3060,133 @@
             "Science, Space, and Technology Committee"
           ],
           "before": [
-            "House Energy and Commerce",
-            "House Science, Space, and Technology"
+            "House Science, Space, and Technology",
+            "House Energy and Commerce"
           ]
-        },
-        "cosponsor_count": {
-          "after": 11,
-          "before": 5
-        },
-        "last_action": {
-          "after": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "before": "Introduced and referred to House Energy and Commerce and House Science. No markup located by the cutoff."
         }
       },
       "record_id": "h-r-9925"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security Committee",
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs",
+            "House Homeland Security"
+          ]
+        }
+      },
+      "record_id": "h-r-993"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Education and Workforce Committee",
+            "Energy and Commerce Committee"
+          ],
+          "before": [
+            "House Education and Workforce",
+            "House Energy and Commerce"
+          ]
+        }
+      },
+      "record_id": "h-r-9948"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Science, Space, and Technology Committee"
+          ],
+          "before": [
+            "House Science, Space, and Technology"
+          ]
+        }
+      },
+      "record_id": "h-r-9965"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-1033"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-1053"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Rules and Administration Committee"
+          ],
+          "before": [
+            "Senate Rules and Administration"
+          ]
+        }
+      },
+      "record_id": "s-1213"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-1356-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-1367"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Relations Committee"
+          ],
+          "before": [
+            "Senate Foreign Relations"
+          ]
+        }
+      },
+      "record_id": "s-1368-118"
     },
     {
       "changes": {
@@ -633,25 +3198,100 @@
             "Senate Commerce, Science, and Transportation"
           ]
         },
-        "introduced_date": {
-          "after": "2025-05-07",
-          "before": null
-        },
-        "last_action": {
-          "after": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "before": "Referred to Senate Commerce; no markup located in the research snapshot."
-        },
-        "last_action_date": {
-          "after": "2025-05-07",
-          "before": null
-        },
-        "sponsor": {
-          "after": "Ben Luján",
-          "before": "Ben Ray Luján"
-        },
         "title": {
-          "after": "TEST AI Act of 2025",
-          "before": "TEST AI Act"
+          "after": "Content Origin Protection and Integrity from Edited and Deepfaked Media Act of 2025",
+          "before": "COPIED Act of 2025"
+        }
+      },
+      "record_id": "s-1396"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-1409-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-1473"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Finance Committee"
+          ],
+          "before": [
+            "Senate Finance"
+          ]
+        }
+      },
+      "record_id": "s-153-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Rules and Administration Committee"
+          ],
+          "before": [
+            "Senate Rules and Administration"
+          ]
+        }
+      },
+      "record_id": "s-1596-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-1621"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-1626-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
         }
       },
       "record_id": "s-1633"
@@ -665,29 +3305,35 @@
           "before": [
             "Senate Commerce, Science, and Transportation"
           ]
-        },
-        "cosponsor_count": {
-          "after": 3,
-          "before": 2
-        },
-        "introduced_date": {
-          "after": "2025-05-07",
-          "before": null
-        },
-        "last_action": {
-          "after": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "before": "Referred to Senate Commerce; no markup located in the research snapshot."
-        },
-        "last_action_date": {
-          "after": "2025-05-07",
-          "before": null
-        },
-        "title": {
-          "after": "Protection Against Foreign Adversarial Artificial Intelligence Act of 2025",
-          "before": "Protection Against Foreign Adversarial Artificial Intelligence Act"
         }
       },
       "record_id": "s-1638"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-1705"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-1748"
     },
     {
       "changes": {
@@ -698,26 +3344,6 @@
           "before": [
             "Senate Foreign Relations"
           ]
-        },
-        "cosponsor_count": {
-          "after": 1,
-          "before": 0
-        },
-        "introduced_date": {
-          "after": "2025-05-14",
-          "before": null
-        },
-        "last_action": {
-          "after": "Read twice and referred to the Committee on Foreign Relations.",
-          "before": "Referred to Senate Foreign Relations."
-        },
-        "last_action_date": {
-          "after": "2025-05-14",
-          "before": null
-        },
-        "title": {
-          "after": "Preventing PLA Acquisition of United States Technology Act of 2025",
-          "before": "Preventing PLA Acquisition of United States Technology Act"
         }
       },
       "record_id": "s-1754"
@@ -731,25 +3357,61 @@
           "before": [
             "Senate Armed Services"
           ]
-        },
-        "introduced_date": {
-          "after": "2025-05-15",
-          "before": null
-        },
-        "last_action": {
-          "after": "Read twice and referred to the Committee on Armed Services.",
-          "before": "Referred to Senate Armed Services."
-        },
-        "last_action_date": {
-          "after": "2025-05-15",
-          "before": null
-        },
-        "title": {
-          "after": "Protecting AI and Cloud Competition in Defense Act of 2025",
-          "before": "Protecting AI and Cloud Competition in Defense Act"
         }
       },
       "record_id": "s-1775"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Health, Education, Labor, and Pensions Committee"
+          ],
+          "before": [
+            "Senate Health, Education, Labor, and Pensions"
+          ]
+        }
+      },
+      "record_id": "s-1792"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Finance Committee"
+          ],
+          "before": [
+            "Senate Finance"
+          ]
+        }
+      },
+      "record_id": "s-1816"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-1829"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-1837"
     },
     {
       "changes": {
@@ -760,13 +3422,61 @@
           "before": [
             "Senate Homeland Security and Governmental Affairs"
           ]
-        },
-        "last_action": {
-          "after": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
-          "before": "Introduced and referred to Senate Homeland Security and Governmental Affairs."
         }
       },
-      "record_id": "s-2177"
+      "record_id": "s-1865-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        }
+      },
+      "record_id": "s-1871"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Relations Committee"
+          ],
+          "before": [
+            "Senate Foreign Relations"
+          ]
+        }
+      },
+      "record_id": "s-2043-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Finance Committee"
+          ],
+          "before": [
+            "Senate Finance"
+          ]
+        }
+      },
+      "record_id": "s-2066"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        }
+      },
+      "record_id": "s-2073-118"
     },
     {
       "changes": {
@@ -777,10 +3487,409 @@
           "before": [
             "Senate Commerce, Science, and Transportation"
           ]
-        },
-        "last_action": {
-          "after": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "before": "Introduced and referred to Senate Commerce. No public markup located by the cutoff."
+        }
+      },
+      "record_id": "s-2081"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Intelligence (Select) Committee"
+          ],
+          "before": [
+            "Senate Intelligence (Select)"
+          ]
+        }
+      },
+      "record_id": "s-2103-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-2117"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-2164"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        }
+      },
+      "record_id": "s-2177"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-2222-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-2226-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        }
+      },
+      "record_id": "s-2251-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        }
+      },
+      "record_id": "s-2293-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-2296"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-2325-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Health, Education, Labor, and Pensions Committee"
+          ],
+          "before": [
+            "Senate Health, Education, Labor, and Pensions"
+          ]
+        }
+      },
+      "record_id": "s-2333-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Intelligence (Select) Committee"
+          ],
+          "before": [
+            "Senate Intelligence (Select)"
+          ]
+        }
+      },
+      "record_id": "s-2342"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Health, Education, Labor, and Pensions Committee"
+          ],
+          "before": [
+            "Senate Health, Education, Labor, and Pensions"
+          ]
+        }
+      },
+      "record_id": "s-2346-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Rules and Administration Committee"
+          ],
+          "before": [
+            "Senate Rules and Administration"
+          ]
+        }
+      },
+      "record_id": "s-2346"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-2367"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-2381"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Health, Education, Labor, and Pensions Committee"
+          ],
+          "before": [
+            "Senate Health, Education, Labor, and Pensions"
+          ]
+        }
+      },
+      "record_id": "s-2399-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Health, Education, Labor, and Pensions Committee"
+          ],
+          "before": [
+            "Senate Health, Education, Labor, and Pensions"
+          ]
+        }
+      },
+      "record_id": "s-2419-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Health, Education, Labor, and Pensions Committee"
+          ],
+          "before": [
+            "Senate Health, Education, Labor, and Pensions"
+          ]
+        }
+      },
+      "record_id": "s-2488"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-2502-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-2528"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-2604"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-2606"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-2615"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Health, Education, Labor, and Pensions Committee"
+          ],
+          "before": [
+            "Senate Health, Education, Labor, and Pensions"
+          ]
+        }
+      },
+      "record_id": "s-262-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-2676"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-2678-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-2691-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Health, Education, Labor, and Pensions Committee"
+          ],
+          "before": [
+            "Senate Health, Education, Labor, and Pensions"
+          ]
+        }
+      },
+      "record_id": "s-2697"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-2714"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
         }
       },
       "record_id": "s-2750"
@@ -792,35 +3901,91 @@
             "Commerce, Science, and Transportation Committee"
           ],
           "before": [
-            "Committee referral not captured in research snapshot"
+            "Senate Commerce, Science, and Transportation"
           ]
-        },
-        "cosponsor_count": {
-          "after": 10,
-          "before": null
-        },
-        "introduced_date": {
-          "after": "2025-12-17",
-          "before": null
-        },
-        "last_action": {
-          "after": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "before": "Introduced text was located, but sponsor, cosponsors, committee referral, and detailed status require a live metadata refresh."
-        },
-        "last_action_date": {
-          "after": "2025-12-17",
-          "before": null
-        },
-        "sponsor": {
-          "after": "Edward Markey",
-          "before": null
-        },
-        "title": {
-          "after": "States' Right to Regulate AI Act",
-          "before": "Funding prohibition for the “Ensuring a National Policy Framework for Artificial Intelligence” executive order"
         }
       },
-      "record_id": "s-3557"
+      "record_id": "s-2765-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-2766"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-2912"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-2925"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-2937"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee",
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs",
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-2938"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Health, Education, Labor, and Pensions Committee"
+          ],
+          "before": [
+            "Senate Health, Education, Labor, and Pensions"
+          ]
+        }
+      },
+      "record_id": "s-2997"
     },
     {
       "changes": {
@@ -831,17 +3996,65 @@
           "before": [
             "Senate Armed Services"
           ]
-        },
-        "cosponsor_count": {
-          "after": 0,
-          "before": null
-        },
-        "last_action": {
-          "after": "Read twice and referred to the Committee on Armed Services.",
-          "before": "Introduced and referred to Senate Armed Services. No standalone markup located by the cutoff."
         }
       },
-      "record_id": "s-4113"
+      "record_id": "s-3004-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-3050-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-3062"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-3150"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        },
+        "sponsor": {
+          "after": "Ben Luján",
+          "before": "Ben Lujan"
+        }
+      },
+      "record_id": "s-3162-118"
     },
     {
       "changes": {
@@ -850,28 +4063,488 @@
             "Intelligence (Select) Committee"
           ],
           "before": [
-            "Senate Select Committee on Intelligence"
+            "Senate Intelligence (Select)"
+          ]
+        }
+      },
+      "record_id": "s-3202"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-321"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-3308"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        }
+      },
+      "record_id": "s-3336"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-3354"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-3374"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-3454"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        }
+      },
+      "record_id": "s-3478-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-3495"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-3504-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-3519"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        },
+        "last_action": {
+          "after": "Committee on Banking, Housing, and Urban Affairs. Hearings held. Hearings printed: S.Hrg. 118-558.",
+          "before": "Committee on Banking, Housing, and Urban Affairs. Hearings held."
+        }
+      },
+      "record_id": "s-3554-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-3557"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        }
+      },
+      "record_id": "s-3680"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Rules and Administration Committee"
+          ],
+          "before": [
+            "Senate Rules and Administration"
+          ]
+        }
+      },
+      "record_id": "s-3875-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Rules and Administration Committee"
+          ],
+          "before": [
+            "Senate Rules and Administration"
+          ]
+        }
+      },
+      "record_id": "s-3897-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-3952"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-3982"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-3986-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-4113"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-4154"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-4199"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-4214"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-4216"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
           ]
         },
         "cosponsor_count": {
-          "after": 0,
-          "before": null
+          "after": 13,
+          "before": 11
         },
-        "introduced_date": {
-          "after": "2026-05-20",
-          "before": null
-        },
-        "last_action": {
-          "after": "By Senator Cotton from Select Committee on Intelligence filed written report. Report No. 119-133. Additional and Minority views filed.",
-          "before": "The Senate Intelligence Committee reported the measure and placed it on the Senate calendar."
-        },
-        "last_action_date": {
-          "after": "2026-08-05",
-          "before": "2026-05-20"
-        },
-        "lifecycle_status": {
-          "after": "committee_advanced",
-          "before": "floor"
+        "title": {
+          "after": "Multilateral Alignment of Technology Controls on Hardware (MATCH) Act",
+          "before": "MATCH Act"
+        }
+      },
+      "record_id": "s-4281"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Relations Committee"
+          ],
+          "before": [
+            "Senate Foreign Relations"
+          ]
+        }
+      },
+      "record_id": "s-4306-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-4402"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-4407"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-4409-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Intelligence (Select) Committee"
+          ],
+          "before": [
+            "Senate Intelligence (Select)"
+          ]
+        }
+      },
+      "record_id": "s-4443-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-4456"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Finance Committee"
+          ],
+          "before": [
+            "Senate Finance"
+          ]
+        }
+      },
+      "record_id": "s-4518-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Finance Committee"
+          ],
+          "before": [
+            "Senate Finance"
+          ]
+        }
+      },
+      "record_id": "s-4532-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-4569-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-4591"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-4594-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Intelligence (Select) Committee"
+          ],
+          "before": [
+            "Senate Intelligence (Select)"
+          ]
         }
       },
       "record_id": "s-4615"
@@ -885,17 +4558,9 @@
           "before": [
             "Senate Armed Services"
           ]
-        },
-        "cosponsor_count": {
-          "after": 0,
-          "before": null
-        },
-        "last_action": {
-          "after": "Read twice and referred to the Committee on Armed Services.",
-          "before": "Introduced and referred to Senate Armed Services. No standalone markup located by the cutoff."
         }
       },
-      "record_id": "s-4656"
+      "record_id": "s-4638-118"
     },
     {
       "changes": {
@@ -906,29 +4571,165 @@
           "before": [
             "Senate Armed Services"
           ]
-        },
-        "cosponsor_count": {
-          "after": 0,
-          "before": null
-        },
-        "introduced_date": {
-          "after": "2026-06-15",
-          "before": null
-        },
-        "last_action": {
-          "after": "Motion to proceed to consideration of measure made in Senate. (CR S4276)",
-          "before": "Senate Armed Services completed markup in June 2026; committee materials reflected reported or calendar-stage processing."
-        },
-        "last_action_date": {
-          "after": "2026-07-27",
-          "before": "2026-06-30"
-        },
-        "lifecycle_status": {
-          "after": "committee_advanced",
-          "before": "floor"
+        }
+      },
+      "record_id": "s-4656"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-4678"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-4683"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-4697"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-4707"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Rules and Administration Committee"
+          ],
+          "before": [
+            "Senate Rules and Administration"
+          ]
+        }
+      },
+      "record_id": "s-4714-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-4743"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        }
+      },
+      "record_id": "s-4762"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Energy and Natural Resources Committee"
+          ],
+          "before": [
+            "Senate Energy and Natural Resources"
+          ]
+        }
+      },
+      "record_id": "s-4770"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Finance Committee"
+          ],
+          "before": [
+            "Senate Finance"
+          ]
+        }
+      },
+      "record_id": "s-4773-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Rules and Administration Committee"
+          ],
+          "before": [
+            "Senate Rules and Administration"
+          ]
+        }
+      },
+      "record_id": "s-4774"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
         }
       },
       "record_id": "s-4784"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Health, Education, Labor, and Pensions Committee"
+          ],
+          "before": [
+            "Senate Health, Education, Labor, and Pensions"
+          ]
+        }
+      },
+      "record_id": "s-4833"
     },
     {
       "changes": {
@@ -939,23 +4740,505 @@
           "before": [
             "Senate Commerce, Science, and Transportation"
           ]
-        },
-        "cosponsor_count": {
-          "after": 0,
-          "before": null
-        },
-        "last_action": {
-          "after": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "before": "Introduced and referred to Senate Commerce. No public markup located by the cutoff."
-        },
-        "title": {
-          "after": "Secure A.I. Development Act of 2026",
-          "before": "Secure AI Development Act"
+        }
+      },
+      "record_id": "s-4855"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-4875-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-4915"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-4976-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Health, Education, Labor, and Pensions Committee"
+          ],
+          "before": [
+            "Senate Health, Education, Labor, and Pensions"
+          ]
+        }
+      },
+      "record_id": "s-501"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-5016-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5047"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5051"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        }
+      },
+      "record_id": "s-5057"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
         }
       },
       "record_id": "s-5061"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Finance Committee"
+          ],
+          "before": [
+            "Senate Finance"
+          ]
+        }
+      },
+      "record_id": "s-5066"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-5105"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5117"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Health, Education, Labor, and Pensions Committee"
+          ],
+          "before": [
+            "Senate Health, Education, Labor, and Pensions"
+          ]
+        }
+      },
+      "record_id": "s-5132-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5152-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5154"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5170-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5171"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-5239-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-5252"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-5345"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-5358"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Relations Committee"
+          ],
+          "before": [
+            "Senate Foreign Relations"
+          ]
+        }
+      },
+      "record_id": "s-5382"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Relations Committee"
+          ],
+          "before": [
+            "Senate Foreign Relations"
+          ]
+        }
+      },
+      "record_id": "s-5400"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        }
+      },
+      "record_id": "s-5407-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5417"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-5436-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5471"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Foreign Relations Committee"
+          ],
+          "before": [
+            "Senate Foreign Relations"
+          ]
+        }
+      },
+      "record_id": "s-5491-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5493"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Homeland Security and Governmental Affairs Committee"
+          ],
+          "before": [
+            "Senate Homeland Security and Governmental Affairs"
+          ]
+        }
+      },
+      "record_id": "s-5539-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5541"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5576"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-5598-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Armed Services Committee"
+          ],
+          "before": [
+            "Senate Armed Services"
+          ]
+        }
+      },
+      "record_id": "s-5601"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Commerce, Science, and Transportation Committee"
+          ],
+          "before": [
+            "Senate Commerce, Science, and Transportation"
+          ]
+        }
+      },
+      "record_id": "s-5616-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Banking, Housing, and Urban Affairs Committee"
+          ],
+          "before": [
+            "Senate Banking, Housing, and Urban Affairs"
+          ]
+        }
+      },
+      "record_id": "s-5648-118"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Judiciary Committee"
+          ],
+          "before": [
+            "Senate Judiciary"
+          ]
+        }
+      },
+      "record_id": "s-j-res-192"
+    },
+    {
+      "changes": {
+        "committees": {
+          "after": [
+            "Finance Committee"
+          ],
+          "before": [
+            "Senate Finance"
+          ]
+        }
+      },
+      "record_id": "s-j-res-198"
     }
   ],
-  "generated_date": "2026-10-27",
-  "requires_human_review": true
+  "generated_date": "2026-11-13",
+  "source": "Congress.gov"
 }

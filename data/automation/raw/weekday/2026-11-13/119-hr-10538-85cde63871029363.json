@@ -1,0 +1,271 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2026-09-24",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Oversight and Government Reform.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2026-09-24",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2026-09-24",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10538/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10538/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 152 (Thursday, September 24, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. CASAR:\nH.R. 10538.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8, Clause 3 of the U.S. Constitution\n[Page H6004]\n</pre>",
+    "cosponsors": {
+      "count": 12,
+      "countIncludingWithdrawnCosponsors": 12,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10538/cosponsors?format=json"
+    },
+    "introducedDate": "2026-09-24",
+    "latestAction": {
+      "actionDate": "2026-09-24",
+      "text": "Referred to the House Committee on Oversight and Government Reform."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10538",
+    "number": "10538",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Government Operations and Politics"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10538/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "C001131",
+        "district": 35,
+        "firstName": "Greg",
+        "fullName": "Rep. Casar, Greg [D-TX-35]",
+        "isByRequest": "N",
+        "lastName": "Casar",
+        "party": "D",
+        "state": "TX",
+        "url": "https://api.congress.gov/v3/member/C001131?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10538/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10538/text?format=json"
+    },
+    "title": "Ban Artificial Superintelligence Act of 2026",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10538/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-10-14T18:28:57Z",
+    "updateDateIncludingText": "2026-10-14T18:28:57Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-09-24T18:32:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Oversight and Government Reform Committee",
+      "systemCode": "hsgo00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "K000389",
+      "district": 17,
+      "firstName": "Ro",
+      "fullName": "Rep. Khanna, Ro [D-CA-17]",
+      "isOriginalCosponsor": true,
+      "lastName": "Khanna",
+      "party": "D",
+      "sponsorshipDate": "2026-09-24",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/K000389?format=json"
+    },
+    {
+      "bioguideId": "M001246",
+      "district": 11,
+      "firstName": "Analilia",
+      "fullName": "Rep. Mejia, Analilia [D-NJ-11]",
+      "isOriginalCosponsor": true,
+      "lastName": "Mejia",
+      "party": "D",
+      "sponsorshipDate": "2026-09-24",
+      "state": "NJ",
+      "url": "https://api.congress.gov/v3/member/M001246?format=json"
+    },
+    {
+      "bioguideId": "A000381",
+      "district": 3,
+      "firstName": "Yassamin",
+      "fullName": "Rep. Ansari, Yassamin [D-AZ-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Ansari",
+      "party": "D",
+      "sponsorshipDate": "2026-09-24",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/A000381?format=json"
+    },
+    {
+      "bioguideId": "H001094",
+      "district": 4,
+      "firstName": "Val",
+      "fullName": "Rep. Hoyle, Val T. [D-OR-4]",
+      "isOriginalCosponsor": true,
+      "lastName": "Hoyle",
+      "middleName": "T.",
+      "party": "D",
+      "sponsorshipDate": "2026-09-24",
+      "state": "OR",
+      "url": "https://api.congress.gov/v3/member/H001094?format=json"
+    },
+    {
+      "bioguideId": "L000562",
+      "district": 8,
+      "firstName": "Stephen",
+      "fullName": "Rep. Lynch, Stephen F. [D-MA-8]",
+      "isOriginalCosponsor": true,
+      "lastName": "Lynch",
+      "middleName": "F.",
+      "party": "D",
+      "sponsorshipDate": "2026-09-24",
+      "state": "MA",
+      "url": "https://api.congress.gov/v3/member/L000562?format=json"
+    },
+    {
+      "bioguideId": "G000586",
+      "district": 4,
+      "firstName": "Jesús",
+      "fullName": "Rep. García, Jesús G. \"Chuy\" [D-IL-4]",
+      "isOriginalCosponsor": true,
+      "lastName": "García",
+      "middleName": "G. \"Chuy\"",
+      "party": "D",
+      "sponsorshipDate": "2026-09-24",
+      "state": "IL",
+      "url": "https://api.congress.gov/v3/member/G000586?format=json"
+    },
+    {
+      "bioguideId": "D000530",
+      "district": 17,
+      "firstName": "Christopher",
+      "fullName": "Rep. Deluzio, Christopher R. [D-PA-17]",
+      "isOriginalCosponsor": true,
+      "lastName": "Deluzio",
+      "middleName": "R.",
+      "party": "D",
+      "sponsorshipDate": "2026-09-24",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/D000530?format=json"
+    },
+    {
+      "bioguideId": "G000606",
+      "district": 7,
+      "firstName": "Adelita",
+      "fullName": "Rep. Grijalva, Adelita S. [D-AZ-7]",
+      "isOriginalCosponsor": true,
+      "lastName": "Grijalva",
+      "middleName": "S.",
+      "party": "D",
+      "sponsorshipDate": "2026-09-24",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/G000606?format=json"
+    },
+    {
+      "bioguideId": "V000081",
+      "district": 7,
+      "firstName": "Nydia",
+      "fullName": "Rep. Velázquez, Nydia M. [D-NY-7]",
+      "isOriginalCosponsor": true,
+      "lastName": "Velázquez",
+      "middleName": "M.",
+      "party": "D",
+      "sponsorshipDate": "2026-09-24",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/V000081?format=json"
+    },
+    {
+      "bioguideId": "O000172",
+      "district": 14,
+      "firstName": "Alexandria",
+      "fullName": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+      "isOriginalCosponsor": false,
+      "lastName": "Ocasio-Cortez",
+      "party": "D",
+      "sponsorshipDate": "2026-09-28",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/O000172?format=json"
+    },
+    {
+      "bioguideId": "R000621",
+      "district": 6,
+      "firstName": "Emily",
+      "fullName": "Rep. Randall, Emily [D-WA-6]",
+      "isOriginalCosponsor": false,
+      "lastName": "Randall",
+      "party": "D",
+      "sponsorshipDate": "2026-10-01",
+      "state": "WA",
+      "url": "https://api.congress.gov/v3/member/R000621?format=json"
+    },
+    {
+      "bioguideId": "T000469",
+      "district": 20,
+      "firstName": "Paul",
+      "fullName": "Rep. Tonko, Paul [D-NY-20]",
+      "isOriginalCosponsor": false,
+      "lastName": "Tonko",
+      "party": "D",
+      "sponsorshipDate": "2026-10-13",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/T000469?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

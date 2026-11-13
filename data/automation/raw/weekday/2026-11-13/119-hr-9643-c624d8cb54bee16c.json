@@ -1,0 +1,165 @@
+{
+  "actions": [
+    {
+      "actionCode": "H19000",
+      "actionDate": "2026-07-22",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 24 - 19.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15001",
+      "actionDate": "2026-07-22",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2026-07-13",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Oversight and Government Reform.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2026-07-13",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2026-07-13",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9643/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the House Committee on Oversight and Government Reform on July 22, 2026",
+        "pubDate": "2026-08-27T13:33:00Z",
+        "title": "H.R. 9643, Comment Integrity and Management Act",
+        "url": "https://www.cbo.gov/publication/62733"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9643/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 113 (Monday, July 13, 2026)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. HIGGINS of Louisiana:\nH.R. 9643.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8, Clause 18: To make all Laws which\nshall be necessary and proper for carrying into Execution the\nforegoing Powers, and all other Powers vested by this\nConstitution in the Government of the United States, or in\nany Department or Officer thereof.\n[Page H4408]\n</pre>",
+    "introducedDate": "2026-07-13",
+    "latestAction": {
+      "actionDate": "2026-07-22",
+      "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 24 - 19."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/9643",
+    "number": "9643",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Government Operations and Politics"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9643/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "H001077",
+        "district": 3,
+        "firstName": "Clay",
+        "fullName": "Rep. Higgins, Clay [R-LA-3]",
+        "isByRequest": "N",
+        "lastName": "Higgins",
+        "party": "R",
+        "state": "LA",
+        "url": "https://api.congress.gov/v3/member/H001077?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 8,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9643/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9643/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9643/text?format=json"
+    },
+    "title": "Comment Integrity and Management Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/9643/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-11-06T22:55:32Z",
+    "updateDateIncludingText": "2026-11-06T22:55:32Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-07-22T14:41:53Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2026-07-13T16:01:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Oversight and Government Reform Committee",
+      "systemCode": "hsgo00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

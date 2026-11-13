@@ -1,0 +1,115 @@
+{
+  "actions": [
+    {
+      "actionDate": "2026-07-23",
+      "committees": [
+        {
+          "name": "Commerce, Science, and Transportation Committee",
+          "systemCode": "sscm00",
+          "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2026-07-23",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/5117/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/5117/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/5117/cosponsors?format=json"
+    },
+    "introducedDate": "2026-07-23",
+    "latestAction": {
+      "actionDate": "2026-07-23",
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/5117",
+    "number": "5117",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Commerce"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "K000377",
+        "firstName": "Mark",
+        "fullName": "Sen. Kelly, Mark [D-AZ]",
+        "isByRequest": "N",
+        "lastName": "Kelly",
+        "party": "D",
+        "state": "AZ",
+        "url": "https://api.congress.gov/v3/member/K000377?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/5117/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/5117/text?format=json"
+    },
+    "title": "Senior Chatbot Protection Act of 2026",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/5117/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-09-08T18:03:40Z",
+    "updateDateIncludingText": "2026-09-08T18:03:40Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-07-23T17:41:27Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Commerce, Science, and Transportation Committee",
+      "systemCode": "sscm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sscm00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "J000312",
+      "firstName": "James",
+      "fullName": "Sen. Justice, James C. [R-WV]",
+      "isOriginalCosponsor": true,
+      "lastName": "Justice",
+      "middleName": "C.",
+      "party": "R",
+      "sponsorshipDate": "2026-07-23",
+      "state": "WV",
+      "url": "https://api.congress.gov/v3/member/J000312?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

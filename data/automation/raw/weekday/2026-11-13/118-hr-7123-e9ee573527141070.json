@@ -1,0 +1,250 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2024-02-02",
+      "committees": [
+        {
+          "name": "Communications and Technology Subcommittee",
+          "systemCode": "hsif16",
+          "url": "https://api.congress.gov/v3/committee/house/hsif16?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Communications and Technology.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-01-29",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Energy and Commerce.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-01-29",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-01-29",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7123/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7123/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 16 (Monday, January 29, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. SORENSEN:\nH.R. 7123.\nCongress has the power to enact this legislation pursuant\nto the following:\nclause of section 8 of article I of the Constitution\nThe single subject of this legislation is:\nTo amend the Communications Act of 1934 to require\ndisclosures with respect to robocalls using artificial\nintelligence and to provide for enhanced penalties for\ncertain violations involving artificial intelligence voice or\ntext message impersonation, and for other purposes.\n[Page H273]\n</pre>",
+    "cosponsors": {
+      "count": 8,
+      "countIncludingWithdrawnCosponsors": 8,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7123/cosponsors?format=json"
+    },
+    "introducedDate": "2024-01-29",
+    "latestAction": {
+      "actionDate": "2024-02-02",
+      "text": "Referred to the Subcommittee on Communications and Technology."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7123",
+    "number": "7123",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "relatedBills": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7123/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "S001225",
+        "district": 17,
+        "firstName": "Eric",
+        "fullName": "Rep. Sorensen, Eric [D-IL-17]",
+        "isByRequest": "N",
+        "lastName": "Sorensen",
+        "party": "D",
+        "state": "IL",
+        "url": "https://api.congress.gov/v3/member/S001225?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7123/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7123/text?format=json"
+    },
+    "title": "QUIET Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7123/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-11-06T20:59:20Z",
+    "updateDateIncludingText": "2026-11-06T20:59:20Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-01-29T17:00:20Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2024-02-02T21:36:20Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Communications and Technology Subcommittee",
+          "systemCode": "hsif16",
+          "url": "https://api.congress.gov/v3/committee/house/hsif16?format=json"
+        }
+      ],
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "C001133",
+      "district": 6,
+      "firstName": "Juan",
+      "fullName": "Rep. Ciscomani, Juan [R-AZ-6]",
+      "isOriginalCosponsor": true,
+      "lastName": "Ciscomani",
+      "party": "R",
+      "sponsorshipDate": "2024-01-29",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/C001133?format=json"
+    },
+    {
+      "bioguideId": "D000632",
+      "district": 4,
+      "firstName": "Anthony",
+      "fullName": "Rep. D'Esposito, Anthony [R-NY-4]",
+      "isOriginalCosponsor": false,
+      "lastName": "D'Esposito",
+      "party": "R",
+      "sponsorshipDate": "2024-01-31",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/D000632?format=json"
+    },
+    {
+      "bioguideId": "F000466",
+      "district": 1,
+      "firstName": "Brian",
+      "fullName": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "isOriginalCosponsor": false,
+      "lastName": "Fitzpatrick",
+      "middleName": "K.",
+      "party": "R",
+      "sponsorshipDate": "2024-02-01",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/F000466?format=json"
+    },
+    {
+      "bioguideId": "A000376",
+      "district": 32,
+      "firstName": "Colin",
+      "fullName": "Rep. Allred, Colin Z. [D-TX-32]",
+      "isOriginalCosponsor": false,
+      "lastName": "Allred",
+      "middleName": "Z.",
+      "party": "D",
+      "sponsorshipDate": "2024-02-13",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/A000376?format=json"
+    },
+    {
+      "bioguideId": "S001200",
+      "district": 9,
+      "firstName": "Darren",
+      "fullName": "Rep. Soto, Darren [D-FL-9]",
+      "isOriginalCosponsor": false,
+      "lastName": "Soto",
+      "party": "D",
+      "sponsorshipDate": "2024-02-13",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/S001200?format=json"
+    },
+    {
+      "bioguideId": "T000483",
+      "district": 6,
+      "firstName": "David",
+      "fullName": "Rep. Trone, David J. [D-MD-6]",
+      "isOriginalCosponsor": false,
+      "lastName": "Trone",
+      "middleName": "J.",
+      "party": "D",
+      "sponsorshipDate": "2024-03-15",
+      "state": "MD",
+      "url": "https://api.congress.gov/v3/member/T000483?format=json"
+    },
+    {
+      "bioguideId": "P000614",
+      "district": 1,
+      "firstName": "Chris",
+      "fullName": "Rep. Pappas, Chris [D-NH-1]",
+      "isOriginalCosponsor": false,
+      "lastName": "Pappas",
+      "party": "D",
+      "sponsorshipDate": "2024-04-09",
+      "state": "NH",
+      "url": "https://api.congress.gov/v3/member/P000614?format=json"
+    },
+    {
+      "bioguideId": "N000194",
+      "district": 13,
+      "firstName": "Wiley",
+      "fullName": "Rep. Nickel, Wiley [D-NC-13]",
+      "isOriginalCosponsor": false,
+      "lastName": "Nickel",
+      "party": "D",
+      "sponsorshipDate": "2024-07-22",
+      "state": "NC",
+      "url": "https://api.congress.gov/v3/member/N000194?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

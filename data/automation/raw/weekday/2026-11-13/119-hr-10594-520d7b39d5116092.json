@@ -1,0 +1,205 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2026-09-24",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Homeland Security.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2026-09-24",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2026-09-24",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10594/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10594/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 172, Number 152 (Thursday, September 24, 2026)]\n[House]\n[Pages H6005-H6006]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. PFLUGER:\nH.R. 10594.\nCongress has the power to enact this legislation pursuant\nto the following:\nCongress has the power to enact this legislation pursuant\nto Article I, Section 8 of the United States Constitution.\n[[Page H6006]]\n</pre>",
+    "cosponsors": {
+      "count": 7,
+      "countIncludingWithdrawnCosponsors": 7,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10594/cosponsors?format=json"
+    },
+    "introducedDate": "2026-09-24",
+    "latestAction": {
+      "actionDate": "2026-09-24",
+      "text": "Referred to the House Committee on Homeland Security."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10594",
+    "number": "10594",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10594/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "P000048",
+        "district": 11,
+        "firstName": "August",
+        "fullName": "Rep. Pfluger, August [R-TX-11]",
+        "isByRequest": "N",
+        "lastName": "Pfluger",
+        "party": "R",
+        "state": "TX",
+        "url": "https://api.congress.gov/v3/member/P000048?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10594/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10594/text?format=json"
+    },
+    "title": "Reliable Artificial Intelligence Research Act of 2026",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10594/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-10-30T08:06:35Z",
+    "updateDateIncludingText": "2026-10-30T08:06:35Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-09-24T18:41:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Homeland Security Committee",
+      "systemCode": "hshm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "H001090",
+      "district": 9,
+      "firstName": "Josh",
+      "fullName": "Rep. Harder, Josh [D-CA-9]",
+      "isOriginalCosponsor": true,
+      "lastName": "Harder",
+      "party": "D",
+      "sponsorshipDate": "2026-09-24",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/H001090?format=json"
+    },
+    {
+      "bioguideId": "K000404",
+      "district": 0,
+      "firstName": "Kimberlyn",
+      "fullName": "Del. King-Hinds, Kimberlyn [R-MP-At Large]",
+      "isOriginalCosponsor": true,
+      "lastName": "King-Hinds",
+      "party": "R",
+      "sponsorshipDate": "2026-09-24",
+      "state": "MP",
+      "url": "https://api.congress.gov/v3/member/K000404?format=json"
+    },
+    {
+      "bioguideId": "D000634",
+      "district": 2,
+      "firstName": "Troy",
+      "fullName": "Rep. Downing, Troy [R-MT-2]",
+      "isOriginalCosponsor": true,
+      "lastName": "Downing",
+      "party": "R",
+      "sponsorshipDate": "2026-09-24",
+      "state": "MT",
+      "url": "https://api.congress.gov/v3/member/D000634?format=json"
+    },
+    {
+      "bioguideId": "W000806",
+      "district": 11,
+      "firstName": "Daniel",
+      "fullName": "Rep. Webster, Daniel [R-FL-11]",
+      "isOriginalCosponsor": true,
+      "lastName": "Webster",
+      "party": "R",
+      "sponsorshipDate": "2026-09-24",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/W000806?format=json"
+    },
+    {
+      "bioguideId": "N000189",
+      "district": 4,
+      "firstName": "Dan",
+      "fullName": "Rep. Newhouse, Dan [R-WA-4]",
+      "isOriginalCosponsor": false,
+      "lastName": "Newhouse",
+      "party": "R",
+      "sponsorshipDate": "2026-10-09",
+      "state": "WA",
+      "url": "https://api.congress.gov/v3/member/N000189?format=json"
+    },
+    {
+      "bioguideId": "G000583",
+      "district": 5,
+      "firstName": "Josh",
+      "fullName": "Rep. Gottheimer, Josh [D-NJ-5]",
+      "isOriginalCosponsor": false,
+      "lastName": "Gottheimer",
+      "party": "D",
+      "sponsorshipDate": "2026-10-22",
+      "state": "NJ",
+      "url": "https://api.congress.gov/v3/member/G000583?format=json"
+    },
+    {
+      "bioguideId": "M001223",
+      "district": 2,
+      "firstName": "Seth",
+      "fullName": "Rep. Magaziner, Seth [D-RI-2]",
+      "isOriginalCosponsor": false,
+      "lastName": "Magaziner",
+      "party": "D",
+      "sponsorshipDate": "2026-10-29",
+      "state": "RI",
+      "url": "https://api.congress.gov/v3/member/M001223?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

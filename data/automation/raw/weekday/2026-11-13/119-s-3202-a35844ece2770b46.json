@@ -1,0 +1,114 @@
+{
+  "actions": [
+    {
+      "actionDate": "2025-11-19",
+      "committees": [
+        {
+          "name": "Intelligence (Select) Committee",
+          "systemCode": "slin00",
+          "url": "https://api.congress.gov/v3/committee/senate/slin00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Select Committee on Intelligence.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2025-11-19",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/3202/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3202/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3202/cosponsors?format=json"
+    },
+    "introducedDate": "2025-11-19",
+    "latestAction": {
+      "actionDate": "2025-11-19",
+      "text": "Read twice and referred to the Select Committee on Intelligence."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3202",
+    "number": "3202",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "Y000064",
+        "firstName": "Todd",
+        "fullName": "Sen. Young, Todd [R-IN]",
+        "isByRequest": "N",
+        "lastName": "Young",
+        "party": "R",
+        "state": "IN",
+        "url": "https://api.congress.gov/v3/member/Y000064?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3202/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/3202/text?format=json"
+    },
+    "title": "Advanced Artificial Intelligence Security Readiness Act of 2025",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/3202/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2025-12-18T19:51:33Z",
+    "updateDateIncludingText": "2025-12-18T19:51:33Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-11-19T17:45:48Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Intelligence (Select) Committee",
+      "systemCode": "slin00",
+      "type": "Select",
+      "url": "https://api.congress.gov/v3/committee/senate/slin00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "K000377",
+      "firstName": "Mark",
+      "fullName": "Sen. Kelly, Mark [D-AZ]",
+      "isOriginalCosponsor": true,
+      "lastName": "Kelly",
+      "party": "D",
+      "sponsorshipDate": "2025-11-19",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/K000377?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

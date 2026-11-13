@@ -1,0 +1,164 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-12-24",
+      "committees": [
+        {
+          "name": "Financial Services Committee",
+          "systemCode": "hsba00",
+          "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-12-24",
+      "committees": [
+        {
+          "name": "Foreign Affairs Committee",
+          "systemCode": "hsfa00",
+          "url": "https://api.congress.gov/v3/committee/house/hsfa00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-12-24",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-12-24",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10559/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10559/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 194 (Friday, December 27, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. BARR:\nH.R. 10559.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8, Clause 3 of the United States\nConstitution\nThe single subject of this legislation is:\nTo require United States persons to notify the Secretary of\nthe Treasury when entering into certain transactions\ninvolving national security technology and China and to\nprohibit United States persons from financing certain\nnational security-related investments involving China.\n[Page H7427]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10559/cosponsors?format=json"
+    },
+    "introducedDate": "2024-12-24",
+    "latestAction": {
+      "actionDate": "2024-12-24",
+      "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/10559",
+    "number": "10559",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "International Affairs"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10559/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "B001282",
+        "district": 6,
+        "firstName": "Andy",
+        "fullName": "Rep. Barr, Andy [R-KY-6]",
+        "isByRequest": "N",
+        "lastName": "Barr",
+        "party": "R",
+        "state": "KY",
+        "url": "https://api.congress.gov/v3/member/B001282?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10559/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10559/text?format=json"
+    },
+    "title": "COINS Act of 2024",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10559/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-01-09T22:52:25Z",
+    "updateDateIncludingText": "2026-01-09T22:52:25Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-12-24T15:00:10Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Financial Services Committee",
+      "systemCode": "hsba00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-12-24T15:00:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Foreign Affairs Committee",
+      "systemCode": "hsfa00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsfa00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "M001194",
+      "district": 2,
+      "firstName": "John",
+      "fullName": "Rep. Moolenaar, John R. [R-MI-2]",
+      "isOriginalCosponsor": true,
+      "lastName": "Moolenaar",
+      "middleName": "R.",
+      "party": "R",
+      "sponsorshipDate": "2024-12-24",
+      "state": "MI",
+      "url": "https://api.congress.gov/v3/member/M001194?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

@@ -22,14 +22,14 @@
   "status": "Ordered reported 43–0",
   "status_bucket": "Committee advanced",
   "committees": [
-    "House Foreign Affairs"
+    "Foreign Affairs Committee"
   ],
   "summary": "Would require an intelligence assessment of how semiconductor and advanced-computing export controls affect China’s capabilities and U.S. national security.",
   "advance_tier": "Medium",
   "advance_rationale": "Ordered reported 43–0. Further action remains pending.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/8287",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Greg Stanton",
   "sponsor_party": "D",
   "sponsor_state": "AZ",
@@ -45,7 +45,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8287",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -104,6 +104,16 @@
         "govinfo-billstatus"
       ],
       "note": "Policy summary and inclusion classification based on the cited official text."
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ]
 }

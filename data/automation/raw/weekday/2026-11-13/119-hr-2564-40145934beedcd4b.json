@@ -1,0 +1,111 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-04-01",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "hsju00",
+          "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on the Judiciary.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-04-01",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-04-01",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2564/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2564/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 58 (Tuesday, April 1, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. MACE:\nH.R. 2564.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8 of the Constitution.\n[Page H1405]\n</pre>",
+    "introducedDate": "2025-04-01",
+    "latestAction": {
+      "actionDate": "2025-04-01",
+      "text": "Referred to the House Committee on the Judiciary."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2564",
+    "number": "2564",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Crime and Law Enforcement"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M000194",
+        "district": 1,
+        "firstName": "Nancy",
+        "fullName": "Rep. Mace, Nancy [R-SC-1]",
+        "isByRequest": "N",
+        "lastName": "Mace",
+        "party": "R",
+        "state": "SC",
+        "url": "https://api.congress.gov/v3/member/M000194?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2564/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2564/text?format=json"
+    },
+    "title": "Protect Victims of Digital Exploitation and Manipulation Act of 2025",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/2564/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-04-06T14:22:53Z",
+    "updateDateIncludingText": "2025-04-06T14:22:53Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-04-01T14:07:20Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Judiciary Committee",
+      "systemCode": "hsju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

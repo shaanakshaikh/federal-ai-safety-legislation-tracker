@@ -1,0 +1,197 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-12-17",
+      "committees": [
+        {
+          "name": "Ways and Means Committee",
+          "systemCode": "hswm00",
+          "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Appropriations, and in addition to the Committees on the Budget, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-12-17",
+      "committees": [
+        {
+          "name": "Budget Committee",
+          "systemCode": "hsbu00",
+          "url": "https://api.congress.gov/v3/committee/house/hsbu00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Appropriations, and in addition to the Committees on the Budget, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-12-17",
+      "committees": [
+        {
+          "name": "Appropriations Committee",
+          "systemCode": "hsap00",
+          "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Appropriations, and in addition to the Committees on the Budget, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-12-17",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-12-17",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10445/actions?format=json"
+    },
+    "committees": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10445/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 187 (Tuesday, December 17, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. COLE:\nH.R. 10445.\nCongress has the power to enact this legislation pursuant\nto the following:\nThe principal constitutional authority for this legislation\nis clause 7 of section 9 of article I of the Constitution of\nthe United States (the appropriation power), which states:\n``No Money shall be drawn from the Treasury, but in\nConsequence of Appropriations made by Law . . . .'' In\naddition, clause 1 of section 8 of article I of the\nConstitution (the spending power) provides: ``The Congress\nshall have the Power . . . to pay the Debts and provide for\nthe common Defence and general Welfare of the United States .\n. . .'' Together, these specific constitutional provisions\nestablish the congressional power of the purse, granting\nCongress the authority to appropriate funds, to determine\ntheir purpose, amount, and period of availability, and to set\nforth terms and conditions governing their use.\nThe single subject of this legislation is:\nThe subject of the bill is the making of continuing\nappropriations and disaster relief supplemental\nappropriations for fiscal year 2025.\n[Page H7319]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10445/cosponsors?format=json"
+    },
+    "introducedDate": "2024-12-17",
+    "latestAction": {
+      "actionDate": "2024-12-17",
+      "text": "Referred to the Committee on Appropriations, and in addition to the Committees on the Budget, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/10445",
+    "number": "10445",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Economics and Public Finance"
+    },
+    "relatedBills": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10445/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "C001053",
+        "district": 4,
+        "firstName": "Tom",
+        "fullName": "Rep. Cole, Tom [R-OK-4]",
+        "isByRequest": "N",
+        "lastName": "Cole",
+        "party": "R",
+        "state": "OK",
+        "url": "https://api.congress.gov/v3/member/C001053?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10445/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10445/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10445/text?format=json"
+    },
+    "title": "Further Continuing Appropriations and Disaster Relief Supplemental Appropriations Act, 2025",
+    "titles": {
+      "count": 15,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10445/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-08T19:31:27Z",
+    "updateDateIncludingText": "2026-09-08T19:31:27Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-12-17T15:04:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Ways and Means Committee",
+      "systemCode": "hswm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-12-17T15:04:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Budget Committee",
+      "systemCode": "hsbu00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsbu00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-12-17T15:03:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Appropriations Committee",
+      "systemCode": "hsap00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsap00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "E000246",
+      "district": 11,
+      "firstName": "Chuck",
+      "fullName": "Rep. Edwards, Chuck [R-NC-11]",
+      "isOriginalCosponsor": true,
+      "lastName": "Edwards",
+      "party": "R",
+      "sponsorshipDate": "2024-12-17",
+      "state": "NC",
+      "url": "https://api.congress.gov/v3/member/E000246?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

@@ -1,0 +1,140 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2026-09-23",
+      "committees": [
+        {
+          "name": "Oversight and Investigations Subcommittee",
+          "systemCode": "hsvr08",
+          "url": "https://api.congress.gov/v3/committee/house/hsvr08?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Oversight and Investigations.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2026-09-16",
+      "committees": [
+        {
+          "name": "Veterans' Affairs Committee",
+          "systemCode": "hsvr00",
+          "url": "https://api.congress.gov/v3/committee/house/hsvr00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Veterans' Affairs.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2026-09-16",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2026-09-16",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10418/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10418/committees?format=json"
+    },
+    "congress": 119,
+    "introducedDate": "2026-09-16",
+    "latestAction": {
+      "actionDate": "2026-09-23",
+      "text": "Referred to the Subcommittee on Oversight and Investigations."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/10418",
+    "number": "10418",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "B001321",
+        "district": 7,
+        "firstName": "Tom",
+        "fullName": "Rep. Barrett, Tom [R-MI-7]",
+        "isByRequest": "N",
+        "lastName": "Barrett",
+        "party": "R",
+        "state": "MI",
+        "url": "https://api.congress.gov/v3/member/B001321?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10418/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10418/text?format=json"
+    },
+    "title": "VA Claims AI Accountability Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/10418/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-10-28T19:43:54Z",
+    "updateDateIncludingText": "2026-10-28T19:43:54Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-09-16T13:07:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Veterans' Affairs Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2026-09-23T15:42:26Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Oversight and Investigations Subcommittee",
+          "systemCode": "hsvr08",
+          "url": "https://api.congress.gov/v3/committee/house/hsvr08?format=json"
+        }
+      ],
+      "systemCode": "hsvr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsvr00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

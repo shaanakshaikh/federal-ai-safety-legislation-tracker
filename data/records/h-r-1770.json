@@ -23,15 +23,15 @@
   "status": "Passed House; referred in Senate",
   "status_bucket": "Passed one chamber",
   "committees": [
-    "Senate Commerce, Science, and Transportation",
-    "House Energy and Commerce"
+    "Commerce, Science, and Transportation Committee",
+    "Energy and Commerce Committee"
   ],
   "summary": "Would require the Consumer Product Safety Commission to pilot AI for safety functions including identifying product hazards and monitoring recalls.",
   "advance_tier": "High",
   "advance_rationale": "Passed House; referred in Senate. Outlook reflects documented legislative progress.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/1770",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Darren Soto",
   "sponsor_party": "D",
   "sponsor_state": "FL",
@@ -47,7 +47,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/1770",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -124,6 +124,16 @@
         "govinfo-billstatus",
         "related-s-2766"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

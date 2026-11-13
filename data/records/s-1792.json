@@ -32,7 +32,7 @@
     "Brian Schatz (D-HI)"
   ],
   "committees": [
-    "Senate Health, Education, Labor, and Pensions"
+    "Health, Education, Labor, and Pensions Committee"
   ],
   "introduced_date": "2025-05-15",
   "last_action_date": "2025-05-15",
@@ -44,8 +44,8 @@
   "advance_tier": "Medium",
   "advance_rationale": "The bipartisan sponsor coalition and a House companion improve the proposal’s options, but neither chamber has completed committee action.",
   "congress_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1792",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -53,7 +53,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1792",
-      "accessed_date": "2026-10-28"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "official-text",

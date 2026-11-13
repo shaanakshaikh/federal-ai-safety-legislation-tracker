@@ -22,20 +22,20 @@
   "status": "Introduced / referred; expired at end of the 118th Congress",
   "status_bucket": "Expired at end of the 118th Congress",
   "committees": [
-    "House Ways and Means",
-    "House Energy and Commerce",
-    "House Oversight and Government Reform",
-    "House Committee on House Administration",
-    "House Judiciary",
-    "House Financial Services",
-    "House Education and Workforce"
+    "Committee on House Administration",
+    "Education and Workforce Committee",
+    "Energy and Commerce Committee",
+    "Financial Services Committee",
+    "Judiciary Committee",
+    "Oversight and Government Reform Committee",
+    "Ways and Means Committee"
   ],
   "summary": "Would extend specified survivor protections to abuse involving intimate deepfakes and other nonconsensual intimate imagery.",
   "advance_tier": "Dead",
   "advance_rationale": "The 118th Congress ended without enactment. Introduced / referred was the furthest recorded stage.",
   "congress_url": "https://www.congress.gov/bill/118th-congress/house-bill/9693",
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Official GovInfo bill text and BILLSTATUS checked.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sponsor": "Debbie Dingell",
   "sponsor_party": "D",
   "sponsor_state": "MI",
@@ -51,7 +51,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/118th-congress/house-bill/9693",
-      "accessed_date": "2026-11-10"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "govinfo-billstatus",
@@ -128,6 +128,16 @@
         "govinfo-billstatus",
         "related-s-5132-118"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ],
   "related_measures": [

@@ -8,7 +8,7 @@
   },
   "lifecycle_status": "referred",
   "measure_id": "S. 4281",
-  "title": "MATCH Act",
+  "title": "Multilateral Alignment of Technology Controls on Hardware (MATCH) Act",
   "chamber": "Senate",
   "scope": "Adjacent",
   "primary_category": "Deterrence, export & foreign-adversary controls",
@@ -22,13 +22,13 @@
   "sponsor": "Pete Ricketts",
   "sponsor_party": "R",
   "sponsor_state": "NE",
-  "cosponsor_count": 11,
+  "cosponsor_count": 13,
   "notable_cosponsors": [
     "Charles Schumer (D-NY)",
     "Elizabeth Warren (D-MA)"
   ],
   "committees": [
-    "Senate Banking, Housing, and Urban Affairs"
+    "Banking, Housing, and Urban Affairs Committee"
   ],
   "introduced_date": "2026-04-13",
   "last_action_date": "2026-04-13",
@@ -49,8 +49,8 @@
       "relationship": "companion"
     }
   ],
-  "last_verified_date": "2026-11-10",
-  "verification_level": "Federal bill metadata checked against official GovInfo BILLSTATUS.",
+  "last_verified_date": "2026-11-13",
+  "verification_level": "Bill details updated from Congress.gov on 2026-11-13.",
   "sources": [
     {
       "source_id": "official-congress",
@@ -58,7 +58,7 @@
       "publisher": "Congress.gov",
       "source_type": "official",
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4281",
-      "accessed_date": "2026-11-09"
+      "accessed_date": "2026-11-13"
     },
     {
       "source_id": "official-govinfo",
@@ -132,6 +132,17 @@
       "source_ids": [
         "govinfo-billstatus"
       ]
+    },
+    {
+      "claim_id": "automated-objective-metadata",
+      "fields": [
+        "congress",
+        "session"
+      ],
+      "source_ids": [
+        "official-congress"
+      ],
+      "note": "Objective bill details updated from the official Congress.gov data service."
     }
   ]
 }

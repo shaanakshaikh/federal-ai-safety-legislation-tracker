@@ -1,0 +1,115 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-09-17",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "hsas00",
+          "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Armed Services.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-09-17",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-09-17",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9626/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9626/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 144 (Tuesday, September 17, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. KHANNA:\nH.R. 9626.\nCongress has the power to enact this legislation pursuant\nto the following:\nThe constitutional authority on which this bill rests is\nthe power of Congress to make rules for the government and\nregulation of the land and naval forces, as enumerated in\nArticle I, Section 8, Clause 14 of the United States\nConstitution.\nThe single subject of this legislation is:\nArmed Services\n[Page H5319]\n</pre>",
+    "introducedDate": "2024-09-17",
+    "latestAction": {
+      "actionDate": "2024-09-17",
+      "text": "Referred to the House Committee on Armed Services."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/9626",
+    "number": "9626",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9626/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "K000389",
+        "district": 17,
+        "firstName": "Ro",
+        "fullName": "Rep. Khanna, Ro [D-CA-17]",
+        "isByRequest": "N",
+        "lastName": "Khanna",
+        "party": "D",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/K000389?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9626/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9626/text?format=json"
+    },
+    "title": "AIxBio Defense Sandbox Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9626/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-09-09T23:26:50Z",
+    "updateDateIncludingText": "2025-09-09T23:26:50Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-09-17T16:05:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

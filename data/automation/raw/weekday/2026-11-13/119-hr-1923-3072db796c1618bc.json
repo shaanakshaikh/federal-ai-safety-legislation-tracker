@@ -1,0 +1,486 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2025-03-28",
+      "committees": [
+        {
+          "name": "Forestry and Horticulture Subcommittee",
+          "systemCode": "hsag15",
+          "url": "https://api.congress.gov/v3/committee/house/hsag15?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Forestry and Horticulture.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11000",
+      "actionDate": "2025-03-07",
+      "committees": [
+        {
+          "name": "Economic Development, Public Buildings, and Emergency Management Subcommittee",
+          "systemCode": "hspw13",
+          "url": "https://api.congress.gov/v3/committee/house/hspw13?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Economic Development, Public Buildings, and Emergency Management.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-03-06",
+      "committees": [
+        {
+          "name": "Small Business Committee",
+          "systemCode": "hssm00",
+          "url": "https://api.congress.gov/v3/committee/house/hssm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Agriculture, Education and Workforce, Oversight and Government Reform, Armed Services, Energy and Commerce, Science, Space, and Technology, Transportation and Infrastructure, and Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-03-06",
+      "committees": [
+        {
+          "name": "Transportation and Infrastructure Committee",
+          "systemCode": "hspw00",
+          "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Agriculture, Education and Workforce, Oversight and Government Reform, Armed Services, Energy and Commerce, Science, Space, and Technology, Transportation and Infrastructure, and Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-03-06",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Agriculture, Education and Workforce, Oversight and Government Reform, Armed Services, Energy and Commerce, Science, Space, and Technology, Transportation and Infrastructure, and Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-03-06",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Agriculture, Education and Workforce, Oversight and Government Reform, Armed Services, Energy and Commerce, Science, Space, and Technology, Transportation and Infrastructure, and Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-03-06",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "hsas00",
+          "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Agriculture, Education and Workforce, Oversight and Government Reform, Armed Services, Energy and Commerce, Science, Space, and Technology, Transportation and Infrastructure, and Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-03-06",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Agriculture, Education and Workforce, Oversight and Government Reform, Armed Services, Energy and Commerce, Science, Space, and Technology, Transportation and Infrastructure, and Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-03-06",
+      "committees": [
+        {
+          "name": "Education and Workforce Committee",
+          "systemCode": "hsed00",
+          "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Agriculture, Education and Workforce, Oversight and Government Reform, Armed Services, Energy and Commerce, Science, Space, and Technology, Transportation and Infrastructure, and Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-03-06",
+      "committees": [
+        {
+          "name": "Agriculture Committee",
+          "systemCode": "hsag00",
+          "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Agriculture, Education and Workforce, Oversight and Government Reform, Armed Services, Energy and Commerce, Science, Space, and Technology, Transportation and Infrastructure, and Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-03-06",
+      "committees": [
+        {
+          "name": "Natural Resources Committee",
+          "systemCode": "hsii00",
+          "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Agriculture, Education and Workforce, Oversight and Government Reform, Armed Services, Energy and Commerce, Science, Space, and Technology, Transportation and Infrastructure, and Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-03-06",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-03-06",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 13,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1923/actions?format=json"
+    },
+    "committees": {
+      "count": 9,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1923/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 43 (Thursday, March 6, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. HARDER of California:\nH.R. 1923.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8 of the Constitution\n[Page H1039]\n</pre>",
+    "cosponsors": {
+      "count": 5,
+      "countIncludingWithdrawnCosponsors": 5,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1923/cosponsors?format=json"
+    },
+    "introducedDate": "2025-03-06",
+    "latestAction": {
+      "actionDate": "2025-03-28",
+      "text": "Referred to the Subcommittee on Forestry and Horticulture."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1923",
+    "number": "1923",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Emergency Management"
+    },
+    "relatedBills": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1923/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "H001090",
+        "district": 9,
+        "firstName": "Josh",
+        "fullName": "Rep. Harder, Josh [D-CA-9]",
+        "isByRequest": "N",
+        "lastName": "Harder",
+        "party": "D",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/H001090?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1923/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1923/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1923/text?format=json"
+    },
+    "title": "Modernizing Wildfire Safety and Prevention Act of 2025",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1923/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-09-17T14:24:39Z",
+    "updateDateIncludingText": "2026-08-17T16:27:39Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-03-06T14:04:40Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Agriculture Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2025-03-28T20:51:33Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Forestry and Horticulture Subcommittee",
+          "systemCode": "hsag15",
+          "url": "https://api.congress.gov/v3/committee/house/hsag15?format=json"
+        }
+      ],
+      "systemCode": "hsag00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-03-06T14:05:15Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Transportation and Infrastructure Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2025-03-07T05:00:00Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Economic Development, Public Buildings, and Emergency Management Subcommittee",
+          "systemCode": "hspw13",
+          "url": "https://api.congress.gov/v3/committee/house/hspw13?format=json"
+        }
+      ],
+      "systemCode": "hspw00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-03-06T14:05:20Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Small Business Committee",
+      "systemCode": "hssm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-03-06T14:05:10Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-03-06T14:05:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-03-06T14:05:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-03-06T14:04:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Oversight and Government Reform Committee",
+      "systemCode": "hsgo00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-03-06T14:04:45Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Education and Workforce Committee",
+      "systemCode": "hsed00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-03-06T14:04:35Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Natural Resources Committee",
+      "systemCode": "hsii00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsii00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "F000472",
+      "district": 18,
+      "firstName": "Scott",
+      "fullName": "Rep. Franklin, Scott [R-FL-18]",
+      "isOriginalCosponsor": true,
+      "lastName": "Franklin",
+      "party": "R",
+      "sponsorshipDate": "2025-03-06",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/F000472?format=json"
+    },
+    {
+      "bioguideId": "N000191",
+      "district": 2,
+      "firstName": "Joe",
+      "fullName": "Rep. Neguse, Joe [D-CO-2]",
+      "isOriginalCosponsor": true,
+      "lastName": "Neguse",
+      "party": "D",
+      "sponsorshipDate": "2025-03-06",
+      "state": "CO",
+      "url": "https://api.congress.gov/v3/member/N000191?format=json"
+    },
+    {
+      "bioguideId": "S001211",
+      "district": 4,
+      "firstName": "Greg",
+      "fullName": "Rep. Stanton, Greg [D-AZ-4]",
+      "isOriginalCosponsor": true,
+      "lastName": "Stanton",
+      "party": "D",
+      "sponsorshipDate": "2025-03-06",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/S001211?format=json"
+    },
+    {
+      "bioguideId": "F000466",
+      "district": 1,
+      "firstName": "Brian",
+      "fullName": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "isOriginalCosponsor": false,
+      "lastName": "Fitzpatrick",
+      "middleName": "K.",
+      "party": "R",
+      "sponsorshipDate": "2025-03-25",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/F000466?format=json"
+    },
+    {
+      "bioguideId": "T000460",
+      "district": 4,
+      "firstName": "Mike",
+      "fullName": "Rep. Thompson, Mike [D-CA-4]",
+      "isOriginalCosponsor": false,
+      "lastName": "Thompson",
+      "party": "D",
+      "sponsorshipDate": "2025-09-02",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/T000460?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}
