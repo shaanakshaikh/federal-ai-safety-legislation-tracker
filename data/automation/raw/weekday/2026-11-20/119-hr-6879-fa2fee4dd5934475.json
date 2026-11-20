@@ -1,0 +1,311 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-12-18",
+      "committees": [
+        {
+          "name": "Foreign Affairs Committee",
+          "systemCode": "hsfa00",
+          "url": "https://api.congress.gov/v3/committee/house/hsfa00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Foreign Affairs.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-12-18",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-12-18",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/6879/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/6879/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 214 (Thursday, December 18, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. MEEKS:\nH.R. 6879.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8 of the Constitution\n[Page H6117]\n</pre>",
+    "cosponsors": {
+      "count": 16,
+      "countIncludingWithdrawnCosponsors": 16,
+      "url": "https://api.congress.gov/v3/bill/119/hr/6879/cosponsors?format=json"
+    },
+    "introducedDate": "2025-12-18",
+    "latestAction": {
+      "actionDate": "2025-12-18",
+      "text": "Referred to the House Committee on Foreign Affairs."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6879",
+    "number": "6879",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Foreign Trade and International Finance"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M001137",
+        "district": 5,
+        "firstName": "Gregory",
+        "fullName": "Rep. Meeks, Gregory W. [D-NY-5]",
+        "isByRequest": "N",
+        "lastName": "Meeks",
+        "middleName": "W.",
+        "party": "D",
+        "state": "NY",
+        "url": "https://api.congress.gov/v3/member/M001137?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/6879/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/6879/text?format=json"
+    },
+    "title": "RESTRICT Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/6879/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-19T23:26:27Z",
+    "updateDateIncludingText": "2026-09-19T23:26:27Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-12-18T14:03:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Foreign Affairs Committee",
+      "systemCode": "hsfa00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsfa00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "K000400",
+      "district": 37,
+      "firstName": "Sydney",
+      "fullName": "Rep. Kamlager-Dove, Sydney [D-CA-37]",
+      "isOriginalCosponsor": true,
+      "lastName": "Kamlager-Dove",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/K000400?format=json"
+    },
+    {
+      "bioguideId": "C001091",
+      "district": 20,
+      "firstName": "Joaquin",
+      "fullName": "Rep. Castro, Joaquin [D-TX-20]",
+      "isOriginalCosponsor": true,
+      "lastName": "Castro",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/C001091?format=json"
+    },
+    {
+      "bioguideId": "T000468",
+      "district": 1,
+      "firstName": "Dina",
+      "fullName": "Rep. Titus, Dina [D-NV-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Titus",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "NV",
+      "url": "https://api.congress.gov/v3/member/T000468?format=json"
+    },
+    {
+      "bioguideId": "S001211",
+      "district": 4,
+      "firstName": "Greg",
+      "fullName": "Rep. Stanton, Greg [D-AZ-4]",
+      "isOriginalCosponsor": true,
+      "lastName": "Stanton",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/S001211?format=json"
+    },
+    {
+      "bioguideId": "C001059",
+      "district": 21,
+      "firstName": "Jim",
+      "fullName": "Rep. Costa, Jim [D-CA-21]",
+      "isOriginalCosponsor": true,
+      "lastName": "Costa",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/C001059?format=json"
+    },
+    {
+      "bioguideId": "C001127",
+      "district": 20,
+      "firstName": "Sheila",
+      "fullName": "Rep. Cherfilus-McCormick, Sheila [D-FL-20]",
+      "isOriginalCosponsor": true,
+      "lastName": "Cherfilus-McCormick",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/C001127?format=json"
+    },
+    {
+      "bioguideId": "D000631",
+      "district": 4,
+      "firstName": "Madeleine",
+      "fullName": "Rep. Dean, Madeleine [D-PA-4]",
+      "isOriginalCosponsor": true,
+      "lastName": "Dean",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/D000631?format=json"
+    },
+    {
+      "bioguideId": "A000380",
+      "district": 1,
+      "firstName": "Gabe",
+      "fullName": "Rep. Amo, Gabe [D-RI-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Amo",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "RI",
+      "url": "https://api.congress.gov/v3/member/A000380?format=json"
+    },
+    {
+      "bioguideId": "M001217",
+      "district": 23,
+      "firstName": "Jared",
+      "fullName": "Rep. Moskowitz, Jared [D-FL-23]",
+      "isOriginalCosponsor": true,
+      "lastName": "Moskowitz",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/M001217?format=json"
+    },
+    {
+      "bioguideId": "O000176",
+      "district": 2,
+      "firstName": "Johnny",
+      "fullName": "Rep. Olszewski, Johnny [D-MD-2]",
+      "isOriginalCosponsor": true,
+      "lastName": "Olszewski",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "MD",
+      "url": "https://api.congress.gov/v3/member/O000176?format=json"
+    },
+    {
+      "bioguideId": "K000391",
+      "district": 8,
+      "firstName": "Raja",
+      "fullName": "Rep. Krishnamoorthi, Raja [D-IL-8]",
+      "isOriginalCosponsor": true,
+      "lastName": "Krishnamoorthi",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "IL",
+      "url": "https://api.congress.gov/v3/member/K000391?format=json"
+    },
+    {
+      "bioguideId": "G000583",
+      "district": 5,
+      "firstName": "Josh",
+      "fullName": "Rep. Gottheimer, Josh [D-NJ-5]",
+      "isOriginalCosponsor": true,
+      "lastName": "Gottheimer",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "NJ",
+      "url": "https://api.congress.gov/v3/member/G000583?format=json"
+    },
+    {
+      "bioguideId": "S000344",
+      "district": 32,
+      "firstName": "Brad",
+      "fullName": "Rep. Sherman, Brad [D-CA-32]",
+      "isOriginalCosponsor": true,
+      "lastName": "Sherman",
+      "party": "D",
+      "sponsorshipDate": "2025-12-18",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/S000344?format=json"
+    },
+    {
+      "bioguideId": "M000312",
+      "district": 2,
+      "firstName": "James",
+      "fullName": "Rep. McGovern, James P. [D-MA-2]",
+      "isOriginalCosponsor": false,
+      "lastName": "McGovern",
+      "middleName": "P.",
+      "party": "D",
+      "sponsorshipDate": "2026-01-07",
+      "state": "MA",
+      "url": "https://api.congress.gov/v3/member/M000312?format=json"
+    },
+    {
+      "bioguideId": "J000310",
+      "district": 32,
+      "firstName": "Julie",
+      "fullName": "Rep. Johnson, Julie [D-TX-32]",
+      "isOriginalCosponsor": false,
+      "lastName": "Johnson",
+      "party": "D",
+      "sponsorshipDate": "2026-01-07",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/J000310?format=json"
+    },
+    {
+      "bioguideId": "M001223",
+      "district": 2,
+      "firstName": "Seth",
+      "fullName": "Rep. Magaziner, Seth [D-RI-2]",
+      "isOriginalCosponsor": false,
+      "lastName": "Magaziner",
+      "party": "D",
+      "sponsorshipDate": "2026-04-29",
+      "state": "RI",
+      "url": "https://api.congress.gov/v3/member/M001223?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

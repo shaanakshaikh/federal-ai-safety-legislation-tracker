@@ -1,0 +1,199 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2024-07-15",
+      "committees": [
+        {
+          "name": "Oversight, Investigations, and Accountability Subcommittee",
+          "systemCode": "hshm09",
+          "url": "https://api.congress.gov/v3/committee/house/hshm09?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Oversight, Investigations, and Accountability.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11000",
+      "actionDate": "2024-07-15",
+      "committees": [
+        {
+          "name": "Emergency Management and Technology Subcommittee",
+          "systemCode": "hshm12",
+          "url": "https://api.congress.gov/v3/committee/house/hshm12?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Emergency Management and Technology.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-07-15",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Homeland Security, and in addition to the Committee on Oversight and Accountability, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-07-15",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Homeland Security, and in addition to the Committee on Oversight and Accountability, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-07-15",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-07-15",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9043/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9043/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 116 (Monday, July 15, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. JACKSON LEE:\nH.R. 9043.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I Section 8 . . . Provide for the common defense\nand general Welfare of the United States; . . . To make all\nLaws which shall be necessary and proper for carrying into\nExecution the foregoing Powers, and all other Powers vested\nby this Constitution in the Government of the United States\nor in any Department or Officer thereof.\nThe single subject of this legislation is:\nThe bill, should it become law, would establish the process\nfor building competency and capacity to test and train\nArtificial Intelligence for use by civil federal agencies.\n[Page H4633]\n</pre>",
+    "introducedDate": "2024-07-15",
+    "latestAction": {
+      "actionDate": "2024-07-15",
+      "text": "Referred to the Subcommittee on Oversight, Investigations, and Accountability."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/9043",
+    "number": "9043",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "J000032",
+        "district": 18,
+        "firstName": "Sheila",
+        "fullName": "Rep. Jackson Lee, Sheila [D-TX-18]",
+        "isByRequest": "N",
+        "lastName": "Jackson Lee",
+        "party": "D",
+        "state": "TX",
+        "url": "https://api.congress.gov/v3/member/J000032?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9043/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9043/text?format=json"
+    },
+    "title": "To provide for Federal civilian agency laboratory development for testing and certification of artificial intelligence for civilian agency use, and for other purposes.",
+    "titles": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9043/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-02-04T16:54:13Z",
+    "updateDateIncludingText": "2025-02-04T16:54:13Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-07-15T18:01:45Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Homeland Security Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2024-07-16T02:14:24Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Emergency Management and Technology Subcommittee",
+          "systemCode": "hshm12",
+          "url": "https://api.congress.gov/v3/committee/house/hshm12?format=json"
+        },
+        {
+          "activities": [
+            {
+              "date": "2024-07-16T02:14:24Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Oversight, Investigations, and Accountability Subcommittee",
+          "systemCode": "hshm09",
+          "url": "https://api.congress.gov/v3/committee/house/hshm09?format=json"
+        }
+      ],
+      "systemCode": "hshm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-07-15T18:01:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Oversight and Government Reform Committee",
+      "systemCode": "hsgo00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

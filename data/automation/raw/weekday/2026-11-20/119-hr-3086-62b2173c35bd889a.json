@@ -1,0 +1,145 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-04-29",
+      "committees": [
+        {
+          "name": "Financial Services Committee",
+          "systemCode": "hsba00",
+          "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-04-29",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "hsju00",
+          "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-04-29",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-04-29",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3086/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3086/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 71 (Tuesday, April 29, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. WATERS:\nH.R. 3086.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8, clause 3 provides Congress with the\npower to ``regulate commerce with foreign nations, and among\nthe several states, and with the Indian tribes.''\n[Page H1729]\n</pre>",
+    "introducedDate": "2025-04-29",
+    "latestAction": {
+      "actionDate": "2025-04-29",
+      "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3086",
+    "number": "3086",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Housing and Community Development"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3086/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "W000187",
+        "district": 43,
+        "firstName": "Maxine",
+        "fullName": "Rep. Waters, Maxine [D-CA-43]",
+        "isByRequest": "N",
+        "lastName": "Waters",
+        "party": "D",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/W000187?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3086/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3086/text?format=json"
+    },
+    "title": "Restoring Fair Housing Protections Eliminated by Trump Act of 2025",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3086/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-04-13T17:58:27Z",
+    "updateDateIncludingText": "2026-04-13T17:58:27Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-04-29T14:05:35Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Financial Services Committee",
+      "systemCode": "hsba00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-04-29T14:05:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Judiciary Committee",
+      "systemCode": "hsju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

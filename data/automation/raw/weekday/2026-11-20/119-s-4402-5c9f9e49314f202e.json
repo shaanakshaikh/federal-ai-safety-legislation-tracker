@@ -1,0 +1,98 @@
+{
+  "actions": [
+    {
+      "actionDate": "2026-04-27",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "ssju00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on the Judiciary.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2026-04-27",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/4402/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4402/committees?format=json"
+    },
+    "congress": 119,
+    "introducedDate": "2026-04-27",
+    "latestAction": {
+      "actionDate": "2026-04-27",
+      "text": "Read twice and referred to the Committee on the Judiciary."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4402",
+    "number": "4402",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "S001150",
+        "firstName": "Adam",
+        "fullName": "Sen. Schiff, Adam B. [D-CA]",
+        "isByRequest": "N",
+        "lastName": "Schiff",
+        "middleName": "B.",
+        "party": "D",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/S001150?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4402/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4402/text?format=json"
+    },
+    "title": "A bill to require a report on the use of artificial intelligence with respect to access to unminimized information collected pursuant to the Foreign Intelligence Surveillance Act of 1978, and for other purposes.",
+    "titles": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/4402/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-08-10T11:51:27Z",
+    "updateDateIncludingText": "2026-08-10T11:51:27Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-04-27T22:53:59Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Judiciary Committee",
+      "systemCode": "ssju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssju00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

@@ -1,0 +1,120 @@
+{
+  "actions": [
+    {
+      "actionDate": "2026-06-08",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Armed Services.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2026-06-08",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/4707/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4707/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4707/cosponsors?format=json"
+    },
+    "introducedDate": "2026-06-08",
+    "latestAction": {
+      "actionDate": "2026-06-08",
+      "text": "Read twice and referred to the Committee on Armed Services."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4707",
+    "number": "4707",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4707/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "C001088",
+        "firstName": "Christopher",
+        "fullName": "Sen. Coons, Christopher A. [D-DE]",
+        "isByRequest": "N",
+        "lastName": "Coons",
+        "middleName": "A.",
+        "party": "D",
+        "state": "DE",
+        "url": "https://api.congress.gov/v3/member/C001088?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4707/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4707/text?format=json"
+    },
+    "title": "Responsible Artificial Intelligence Defense Act of 2026",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/4707/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-07-20T19:53:51Z",
+    "updateDateIncludingText": "2026-07-20T19:53:51Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-06-08T22:31:48Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Armed Services Committee",
+      "systemCode": "ssas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "R000122",
+      "firstName": "John",
+      "fullName": "Sen. Reed, Jack [D-RI]",
+      "isOriginalCosponsor": true,
+      "lastName": "Reed",
+      "middleName": "F.",
+      "party": "D",
+      "sponsorshipDate": "2026-06-08",
+      "state": "RI",
+      "url": "https://api.congress.gov/v3/member/R000122?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

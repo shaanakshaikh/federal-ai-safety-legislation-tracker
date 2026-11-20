@@ -1,0 +1,295 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-11-01",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Oversight and Accountability.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-11-01",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-11-01",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10092/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10092/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 161 (Friday, November 1, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. LEE of Pennsylvania:\nH.R. 10092.\nCongress has the power to enact this legislation pursuant\nto the following:\nFourteenth Amendment, Section 5 provides Congress the power\n``to enforce'' the substantive guarantees of the amendment,\nincluding the Due Process and Equal Protection Clauses, by\nenacting ``appropriate legislation.'' The Supreme Court has\nrecognized that, under Section 5, Congress may both proscribe\nunconstitutional conduct, as well as enact legislation that\nremedies and deters violations of rights guaranteed under the\nFourteenth Amendment. See Nev. Dept of Human Res. v. Hibbs,\n538 U.S. 721, 728 (2003).\nThe single subject of this legislation is:\nCivil Rights and Liberties, Minority Issues\n[Page H5908]\n</pre>",
+    "cosponsors": {
+      "count": 14,
+      "countIncludingWithdrawnCosponsors": 14,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10092/cosponsors?format=json"
+    },
+    "introducedDate": "2024-11-01",
+    "latestAction": {
+      "actionDate": "2024-11-01",
+      "text": "Referred to the House Committee on Oversight and Accountability."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/10092",
+    "number": "10092",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Civil Rights and Liberties, Minority Issues"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10092/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "L000602",
+        "district": 12,
+        "firstName": "Summer",
+        "fullName": "Rep. Lee, Summer L. [D-PA-12]",
+        "isByRequest": "N",
+        "lastName": "Lee",
+        "middleName": "L.",
+        "party": "D",
+        "state": "PA",
+        "url": "https://api.congress.gov/v3/member/L000602?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10092/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10092/text?format=json"
+    },
+    "title": "Eliminating Bias in Algorithmic Systems Act of 2024",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10092/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-12-05T09:21:46Z",
+    "updateDateIncludingText": "2025-12-05T09:21:46Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-11-01T18:01:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Oversight and Government Reform Committee",
+      "systemCode": "hsgo00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "T000193",
+      "district": 2,
+      "firstName": "Bennie",
+      "fullName": "Rep. Thompson, Bennie G. [D-MS-2]",
+      "isOriginalCosponsor": true,
+      "lastName": "Thompson",
+      "middleName": "G.",
+      "party": "D",
+      "sponsorshipDate": "2024-11-01",
+      "state": "MS",
+      "url": "https://api.congress.gov/v3/member/T000193?format=json"
+    },
+    {
+      "bioguideId": "G000551",
+      "district": 7,
+      "firstName": "Raúl",
+      "fullName": "Rep. Grijalva, Raúl M. [D-AZ-7]",
+      "isOriginalCosponsor": true,
+      "lastName": "Grijalva",
+      "middleName": "M.",
+      "party": "D",
+      "sponsorshipDate": "2024-11-01",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/G000551?format=json"
+    },
+    {
+      "bioguideId": "N000147",
+      "district": 0,
+      "firstName": "Eleanor",
+      "fullName": "Del. Norton, Eleanor Holmes [D-DC-At Large]",
+      "isOriginalCosponsor": true,
+      "lastName": "Norton",
+      "middleName": "Holmes",
+      "party": "D",
+      "sponsorshipDate": "2024-11-01",
+      "state": "DC",
+      "url": "https://api.congress.gov/v3/member/N000147?format=json"
+    },
+    {
+      "bioguideId": "P000617",
+      "district": 7,
+      "firstName": "Ayanna",
+      "fullName": "Rep. Pressley, Ayanna [D-MA-7]",
+      "isOriginalCosponsor": true,
+      "lastName": "Pressley",
+      "party": "D",
+      "sponsorshipDate": "2024-11-01",
+      "state": "MA",
+      "url": "https://api.congress.gov/v3/member/P000617?format=json"
+    },
+    {
+      "bioguideId": "T000481",
+      "district": 12,
+      "firstName": "Rashida",
+      "fullName": "Rep. Tlaib, Rashida [D-MI-12]",
+      "isOriginalCosponsor": true,
+      "lastName": "Tlaib",
+      "party": "D",
+      "sponsorshipDate": "2024-11-01",
+      "state": "MI",
+      "url": "https://api.congress.gov/v3/member/T000481?format=json"
+    },
+    {
+      "bioguideId": "B001224",
+      "district": 1,
+      "firstName": "Cori",
+      "fullName": "Rep. Bush, Cori [D-MO-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Bush",
+      "party": "D",
+      "sponsorshipDate": "2024-11-01",
+      "state": "MO",
+      "url": "https://api.congress.gov/v3/member/B001224?format=json"
+    },
+    {
+      "bioguideId": "B001278",
+      "district": 1,
+      "firstName": "Suzanne",
+      "fullName": "Rep. Bonamici, Suzanne [D-OR-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Bonamici",
+      "party": "D",
+      "sponsorshipDate": "2024-11-01",
+      "state": "OR",
+      "url": "https://api.congress.gov/v3/member/B001278?format=json"
+    },
+    {
+      "bioguideId": "E000296",
+      "district": 3,
+      "firstName": "Dwight",
+      "fullName": "Rep. Evans, Dwight [D-PA-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Evans",
+      "party": "D",
+      "sponsorshipDate": "2024-11-01",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/E000296?format=json"
+    },
+    {
+      "bioguideId": "G000586",
+      "district": 4,
+      "firstName": "Jesús",
+      "fullName": "Rep. García, Jesús G. \"Chuy\" [D-IL-4]",
+      "isOriginalCosponsor": true,
+      "lastName": "García",
+      "middleName": "G. \"Chuy\"",
+      "party": "D",
+      "sponsorshipDate": "2024-11-01",
+      "state": "IL",
+      "url": "https://api.congress.gov/v3/member/G000586?format=json"
+    },
+    {
+      "bioguideId": "G000553",
+      "district": 9,
+      "firstName": "Al",
+      "fullName": "Rep. Green, Al [D-TX-9]",
+      "isOriginalCosponsor": true,
+      "lastName": "Green",
+      "party": "D",
+      "sponsorshipDate": "2024-11-01",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/G000553?format=json"
+    },
+    {
+      "bioguideId": "W000822",
+      "district": 12,
+      "firstName": "Bonnie",
+      "fullName": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+      "isOriginalCosponsor": false,
+      "lastName": "Watson Coleman",
+      "party": "D",
+      "sponsorshipDate": "2024-11-08",
+      "state": "NJ",
+      "url": "https://api.congress.gov/v3/member/W000822?format=json"
+    },
+    {
+      "bioguideId": "O000172",
+      "district": 14,
+      "firstName": "Alexandria",
+      "fullName": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+      "isOriginalCosponsor": false,
+      "lastName": "Ocasio-Cortez",
+      "party": "D",
+      "sponsorshipDate": "2024-11-08",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/O000172?format=json"
+    },
+    {
+      "bioguideId": "J000288",
+      "district": 4,
+      "firstName": "Henry",
+      "fullName": "Rep. Johnson, Henry C. \"Hank\" [D-GA-4]",
+      "isOriginalCosponsor": false,
+      "lastName": "Johnson",
+      "middleName": "C. \"Hank\"",
+      "party": "D",
+      "sponsorshipDate": "2024-12-11",
+      "state": "GA",
+      "url": "https://api.congress.gov/v3/member/J000288?format=json"
+    },
+    {
+      "bioguideId": "C001131",
+      "district": 35,
+      "firstName": "Greg",
+      "fullName": "Rep. Casar, Greg [D-TX-35]",
+      "isOriginalCosponsor": false,
+      "lastName": "Casar",
+      "party": "D",
+      "sponsorshipDate": "2024-12-18",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/C001131?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

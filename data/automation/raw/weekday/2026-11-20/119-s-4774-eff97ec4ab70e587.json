@@ -1,0 +1,159 @@
+{
+  "actions": [
+    {
+      "actionDate": "2026-06-11",
+      "committees": [
+        {
+          "name": "Rules and Administration Committee",
+          "systemCode": "ssra00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssra00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Rules and Administration.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2026-06-11",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/s/4774/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4774/committees?format=json"
+    },
+    "congress": 119,
+    "cosponsors": {
+      "count": 5,
+      "countIncludingWithdrawnCosponsors": 5,
+      "url": "https://api.congress.gov/v3/bill/119/s/4774/cosponsors?format=json"
+    },
+    "introducedDate": "2026-06-11",
+    "latestAction": {
+      "actionDate": "2026-06-11",
+      "text": "Read twice and referred to the Committee on Rules and Administration."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/4774",
+    "number": "4774",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Government Operations and Politics"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M001176",
+        "firstName": "Jeff",
+        "fullName": "Sen. Merkley, Jeff [D-OR]",
+        "isByRequest": "N",
+        "lastName": "Merkley",
+        "party": "D",
+        "state": "OR",
+        "url": "https://api.congress.gov/v3/member/M001176?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4774/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/s/4774/text?format=json"
+    },
+    "title": "Fraudulent Artificial Intelligence Regulations (FAIR) Elections Act of 2026",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/s/4774/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-06-30T21:24:49Z",
+    "updateDateIncludingText": "2026-06-30T21:24:49Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2026-06-11T18:54:26Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Rules and Administration Committee",
+      "systemCode": "ssra00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssra00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "P000145",
+      "firstName": "Alex",
+      "fullName": "Sen. Padilla, Alex [D-CA]",
+      "isOriginalCosponsor": true,
+      "lastName": "Padilla",
+      "party": "D",
+      "sponsorshipDate": "2026-06-11",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/P000145?format=json"
+    },
+    {
+      "bioguideId": "H001042",
+      "firstName": "Mazie",
+      "fullName": "Sen. Hirono, Mazie K. [D-HI]",
+      "isOriginalCosponsor": true,
+      "lastName": "Hirono",
+      "middleName": "K.",
+      "party": "D",
+      "sponsorshipDate": "2026-06-11",
+      "state": "HI",
+      "url": "https://api.congress.gov/v3/member/H001042?format=json"
+    },
+    {
+      "bioguideId": "W000802",
+      "firstName": "Sheldon",
+      "fullName": "Sen. Whitehouse, Sheldon [D-RI]",
+      "isOriginalCosponsor": true,
+      "lastName": "Whitehouse",
+      "party": "D",
+      "sponsorshipDate": "2026-06-11",
+      "state": "RI",
+      "url": "https://api.congress.gov/v3/member/W000802?format=json"
+    },
+    {
+      "bioguideId": "W000800",
+      "firstName": "Peter",
+      "fullName": "Sen. Welch, Peter [D-VT]",
+      "isOriginalCosponsor": true,
+      "lastName": "Welch",
+      "party": "D",
+      "sponsorshipDate": "2026-06-11",
+      "state": "VT",
+      "url": "https://api.congress.gov/v3/member/W000800?format=json"
+    },
+    {
+      "bioguideId": "S000033",
+      "firstName": "Bernie",
+      "fullName": "Sen. Sanders, Bernard [I-VT]",
+      "isOriginalCosponsor": false,
+      "lastName": "Sanders",
+      "party": "I",
+      "sponsorshipDate": "2026-06-16",
+      "state": "VT",
+      "url": "https://api.congress.gov/v3/member/S000033?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

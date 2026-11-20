@@ -1,0 +1,227 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2024-12-17",
+      "committees": [
+        {
+          "name": "Trade Subcommittee",
+          "systemCode": "hswm04",
+          "url": "https://api.congress.gov/v3/committee/house/hswm04?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Trade.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-05-09",
+      "committees": [
+        {
+          "name": "Ways and Means Committee",
+          "systemCode": "hswm00",
+          "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Ways and Means.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2023-05-09",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2023-05-09",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3136/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3136/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 78 (Tuesday, May 9, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. DeLAURO:\nH.R. 3136.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8\nThe single subject of this legislation is:\nOutbound Investment\n[Page H2172]\n</pre>",
+    "cosponsors": {
+      "count": 6,
+      "countIncludingWithdrawnCosponsors": 6,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3136/cosponsors?format=json"
+    },
+    "introducedDate": "2023-05-09",
+    "latestAction": {
+      "actionDate": "2024-12-17",
+      "text": "Referred to the Subcommittee on Trade."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/3136",
+    "number": "3136",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Foreign Trade and International Finance"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "D000216",
+        "district": 3,
+        "firstName": "ROSA",
+        "fullName": "Rep. DeLauro, Rosa L. [D-CT-3]",
+        "isByRequest": "N",
+        "lastName": "DELAURO",
+        "party": "D",
+        "state": "CT",
+        "url": "https://api.congress.gov/v3/member/D000216?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3136/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3136/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3136/text?format=json"
+    },
+    "title": "National Critical Capabilities Defense Act of 2023",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3136/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2024-12-20T09:06:03Z",
+    "updateDateIncludingText": "2024-12-20T09:06:03Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-05-09T16:02:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Ways and Means Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2024-12-17T19:46:46Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Trade Subcommittee",
+          "systemCode": "hswm04",
+          "url": "https://api.congress.gov/v3/committee/house/hswm04?format=json"
+        }
+      ],
+      "systemCode": "hswm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "P000096",
+      "district": 9,
+      "firstName": "WILLIAM",
+      "fullName": "Rep. Pascrell, Bill, Jr. [D-NJ-9]",
+      "isOriginalCosponsor": true,
+      "lastName": "PASCRELL",
+      "middleName": "J.",
+      "party": "D",
+      "sponsorshipDate": "2023-05-09",
+      "state": "NJ",
+      "url": "https://api.congress.gov/v3/member/P000096?format=json"
+    },
+    {
+      "bioguideId": "F000466",
+      "district": 1,
+      "firstName": "Brian",
+      "fullName": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Fitzpatrick",
+      "middleName": "K.",
+      "party": "R",
+      "sponsorshipDate": "2023-05-09",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/F000466?format=json"
+    },
+    {
+      "bioguideId": "C001072",
+      "district": 7,
+      "firstName": "André",
+      "fullName": "Rep. Carson, André [D-IN-7]",
+      "isOriginalCosponsor": false,
+      "lastName": "Carson",
+      "party": "D",
+      "sponsorshipDate": "2023-05-11",
+      "state": "IN",
+      "url": "https://api.congress.gov/v3/member/C001072?format=json"
+    },
+    {
+      "bioguideId": "R000576",
+      "district": 2,
+      "firstName": "C. A.",
+      "fullName": "Rep. Ruppersberger, C. A. Dutch [D-MD-2]",
+      "isOriginalCosponsor": false,
+      "lastName": "Ruppersberger",
+      "middleName": "Dutch",
+      "party": "D",
+      "sponsorshipDate": "2023-05-15",
+      "state": "MD",
+      "url": "https://api.congress.gov/v3/member/R000576?format=json"
+    },
+    {
+      "bioguideId": "T000487",
+      "district": 2,
+      "firstName": "Jill",
+      "fullName": "Rep. Tokuda, Jill N. [D-HI-2]",
+      "isOriginalCosponsor": false,
+      "lastName": "Tokuda",
+      "middleName": "N.",
+      "party": "D",
+      "sponsorshipDate": "2023-05-17",
+      "state": "HI",
+      "url": "https://api.congress.gov/v3/member/T000487?format=json"
+    },
+    {
+      "bioguideId": "S000344",
+      "district": 32,
+      "firstName": "BRAD",
+      "fullName": "Rep. Sherman, Brad [D-CA-32]",
+      "isOriginalCosponsor": false,
+      "lastName": "SHERMAN",
+      "party": "D",
+      "sponsorshipDate": "2023-11-28",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/S000344?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

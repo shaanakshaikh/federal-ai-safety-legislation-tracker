@@ -1,0 +1,328 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2023-07-14",
+      "committees": [
+        {
+          "name": "Communications and Technology Subcommittee",
+          "systemCode": "hsif16",
+          "url": "https://api.congress.gov/v3/committee/house/hsif16?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Communications and Technology.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-07-13",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Energy and Commerce.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2023-07-13",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2023-07-13",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4624/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4624/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 120 (Thursday, July 13, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. MATSUI:\nH.R. 4624.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8 of the United States Constitution\nThe single subject of this legislation is:\nTo prohibit the discriminatory use of personal information\nby online platforms in any algorithmic process, to require\ntransparency in the use of algorithmic processes and content\nmoderation, and for other purposes.\n[Page H3576]\n</pre>",
+    "cosponsors": {
+      "count": 14,
+      "countIncludingWithdrawnCosponsors": 14,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4624/cosponsors?format=json"
+    },
+    "introducedDate": "2023-07-13",
+    "latestAction": {
+      "actionDate": "2023-07-14",
+      "text": "Referred to the Subcommittee on Communications and Technology."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/4624",
+    "number": "4624",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "relatedBills": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4624/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M001163",
+        "district": 7,
+        "firstName": "Doris",
+        "fullName": "Rep. Matsui, Doris O. [D-CA-7]",
+        "isByRequest": "N",
+        "lastName": "Matsui",
+        "middleName": "O.",
+        "party": "D",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/M001163?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 23,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4624/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4624/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4624/text?format=json"
+    },
+    "title": "Algorithmic Justice and Online Platform Transparency Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4624/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-12-05T08:39:11Z",
+    "updateDateIncludingText": "2025-12-05T08:39:11Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-07-13T14:04:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2023-07-14T19:53:59Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Communications and Technology Subcommittee",
+          "systemCode": "hsif16",
+          "url": "https://api.congress.gov/v3/committee/house/hsif16?format=json"
+        }
+      ],
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "M000687",
+      "district": 7,
+      "firstName": "KWEISI",
+      "fullName": "Rep. Mfume, Kweisi [D-MD-7]",
+      "isOriginalCosponsor": true,
+      "lastName": "MFUME",
+      "party": "D",
+      "sponsorshipDate": "2023-07-13",
+      "state": "MD",
+      "url": "https://api.congress.gov/v3/member/M000687?format=json"
+    },
+    {
+      "bioguideId": "S001205",
+      "district": 5,
+      "firstName": "Mary",
+      "fullName": "Rep. Scanlon, Mary Gay [D-PA-5]",
+      "isOriginalCosponsor": false,
+      "lastName": "Scanlon",
+      "middleName": "Gay",
+      "party": "D",
+      "sponsorshipDate": "2023-07-25",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/S001205?format=json"
+    },
+    {
+      "bioguideId": "J000298",
+      "district": 7,
+      "firstName": "Pramila",
+      "fullName": "Rep. Jayapal, Pramila [D-WA-7]",
+      "isOriginalCosponsor": false,
+      "lastName": "Jayapal",
+      "party": "D",
+      "sponsorshipDate": "2023-07-25",
+      "state": "WA",
+      "url": "https://api.congress.gov/v3/member/J000298?format=json"
+    },
+    {
+      "bioguideId": "F000476",
+      "district": 10,
+      "firstName": "Maxwell",
+      "fullName": "Rep. Frost, Maxwell [D-FL-10]",
+      "isOriginalCosponsor": false,
+      "lastName": "Frost",
+      "party": "D",
+      "sponsorshipDate": "2023-09-01",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/F000476?format=json"
+    },
+    {
+      "bioguideId": "T000481",
+      "district": 12,
+      "firstName": "Rashida",
+      "fullName": "Rep. Tlaib, Rashida [D-MI-12]",
+      "isOriginalCosponsor": false,
+      "lastName": "Tlaib",
+      "party": "D",
+      "sponsorshipDate": "2023-09-08",
+      "state": "MI",
+      "url": "https://api.congress.gov/v3/member/T000481?format=json"
+    },
+    {
+      "bioguideId": "C001072",
+      "district": 7,
+      "firstName": "André",
+      "fullName": "Rep. Carson, André [D-IN-7]",
+      "isOriginalCosponsor": false,
+      "lastName": "Carson",
+      "party": "D",
+      "sponsorshipDate": "2023-09-12",
+      "state": "IN",
+      "url": "https://api.congress.gov/v3/member/C001072?format=json"
+    },
+    {
+      "bioguideId": "E000215",
+      "district": 16,
+      "firstName": "ANNA",
+      "fullName": "Rep. Eshoo, Anna G. [D-CA-16]",
+      "isOriginalCosponsor": false,
+      "lastName": "ESHOO",
+      "middleName": "G.",
+      "party": "D",
+      "sponsorshipDate": "2023-09-12",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/E000215?format=json"
+    },
+    {
+      "bioguideId": "G000551",
+      "district": 7,
+      "firstName": "Raúl",
+      "fullName": "Rep. Grijalva, Raúl M. [D-AZ-7]",
+      "isOriginalCosponsor": false,
+      "lastName": "Grijalva",
+      "middleName": "M.",
+      "party": "D",
+      "sponsorshipDate": "2023-09-12",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/G000551?format=json"
+    },
+    {
+      "bioguideId": "J000032",
+      "district": 18,
+      "firstName": "SHEILA",
+      "fullName": "Rep. Jackson Lee, Sheila [D-TX-18]",
+      "isOriginalCosponsor": false,
+      "lastName": "JACKSON LEE",
+      "party": "D",
+      "sponsorshipDate": "2023-09-12",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/J000032?format=json"
+    },
+    {
+      "bioguideId": "B001223",
+      "district": 16,
+      "firstName": "Jamaal",
+      "fullName": "Rep. Bowman, Jamaal [D-NY-16]",
+      "isOriginalCosponsor": false,
+      "lastName": "Bowman",
+      "party": "D",
+      "sponsorshipDate": "2023-09-18",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/B001223?format=json"
+    },
+    {
+      "bioguideId": "D000623",
+      "district": 10,
+      "firstName": "Mark",
+      "fullName": "Rep. DeSaulnier, Mark [D-CA-10]",
+      "isOriginalCosponsor": false,
+      "lastName": "DeSaulnier",
+      "party": "D",
+      "sponsorshipDate": "2024-01-05",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/D000623?format=json"
+    },
+    {
+      "bioguideId": "C001068",
+      "district": 9,
+      "firstName": "Steve",
+      "fullName": "Rep. Cohen, Steve [D-TN-9]",
+      "isOriginalCosponsor": false,
+      "lastName": "Cohen",
+      "party": "D",
+      "sponsorshipDate": "2024-01-25",
+      "state": "TN",
+      "url": "https://api.congress.gov/v3/member/C001068?format=json"
+    },
+    {
+      "bioguideId": "R000606",
+      "district": 8,
+      "firstName": "Jamie",
+      "fullName": "Rep. Raskin, Jamie [D-MD-8]",
+      "isOriginalCosponsor": false,
+      "lastName": "Raskin",
+      "party": "D",
+      "sponsorshipDate": "2024-01-29",
+      "state": "MD",
+      "url": "https://api.congress.gov/v3/member/R000606?format=json"
+    },
+    {
+      "bioguideId": "L000602",
+      "district": 12,
+      "firstName": "Summer",
+      "fullName": "Rep. Lee, Summer L. [D-PA-12]",
+      "isOriginalCosponsor": false,
+      "lastName": "Lee",
+      "middleName": "L.",
+      "party": "D",
+      "sponsorshipDate": "2024-10-29",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/L000602?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

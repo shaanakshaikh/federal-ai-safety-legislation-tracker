@@ -1,0 +1,207 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2023-11-24",
+      "committees": [
+        {
+          "name": "Commerce, Manufacturing, and Trade Subcommittee",
+          "systemCode": "hsif17",
+          "url": "https://api.congress.gov/v3/committee/house/hsif17?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Innovation, Data, and Commerce.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-11-21",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-11-21",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2023-11-21",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2023-11-21",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6466/actions?format=json"
+    },
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6466/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 192 (Tuesday, November 21, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. KEAN of New Jersey:\nH.R. 6466.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1 Section 8 Clause 3\nThe single subject of this legislation is:\nTo require disclosures for AI-generated content, and for\nother purposes.\n[Page H5903]\n</pre>",
+    "cosponsors": {
+      "count": 2,
+      "countIncludingWithdrawnCosponsors": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6466/cosponsors?format=json"
+    },
+    "introducedDate": "2023-11-21",
+    "latestAction": {
+      "actionDate": "2023-11-24",
+      "text": "Referred to the Subcommittee on Innovation, Data, and Commerce."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/6466",
+    "number": "6466",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Commerce"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6466/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "K000398",
+        "district": 7,
+        "firstName": "Thomas",
+        "fullName": "Rep. Kean, Thomas H. [R-NJ-7]",
+        "isByRequest": "N",
+        "lastName": "Kean",
+        "middleName": "H.",
+        "party": "R",
+        "state": "NJ",
+        "url": "https://api.congress.gov/v3/member/K000398?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 8,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6466/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6466/text?format=json"
+    },
+    "title": "AI Labeling Act of 2023",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6466/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-12-05T09:20:46Z",
+    "updateDateIncludingText": "2025-12-05T09:20:46Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-11-21T16:00:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2023-11-24T15:44:06Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Commerce, Manufacturing, and Trade Subcommittee",
+          "systemCode": "hsif17",
+          "url": "https://api.congress.gov/v3/committee/house/hsif17?format=json"
+        }
+      ],
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2023-11-21T16:00:10Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "G000593",
+      "district": 28,
+      "firstName": "Carlos",
+      "fullName": "Rep. Gimenez, Carlos A. [R-FL-28]",
+      "isOriginalCosponsor": false,
+      "lastName": "Gimenez",
+      "middleName": "A.",
+      "party": "R",
+      "sponsorshipDate": "2024-02-06",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/G000593?format=json"
+    },
+    {
+      "bioguideId": "S001207",
+      "district": 11,
+      "firstName": "Mikie",
+      "fullName": "Rep. Sherrill, Mikie [D-NJ-11]",
+      "isOriginalCosponsor": false,
+      "lastName": "Sherrill",
+      "party": "D",
+      "sponsorshipDate": "2024-03-07",
+      "state": "NJ",
+      "url": "https://api.congress.gov/v3/member/S001207?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

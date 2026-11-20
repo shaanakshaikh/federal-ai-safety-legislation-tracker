@@ -1,0 +1,303 @@
+{
+  "actions": [
+    {
+      "actionCode": "H12410",
+      "actionDate": "2024-12-18",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Placed on the Union Calendar, Calendar No. 740.",
+      "type": "Calendars"
+    },
+    {
+      "actionCode": "H12200",
+      "actionDate": "2024-12-18",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Reported (Amended) by the Committee on Oversight and Accountability. H. Rept. 118-905.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "5000",
+      "actionDate": "2024-12-18",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Reported (Amended) by the Committee on Oversight and Accountability. H. Rept. 118-905.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H19000",
+      "actionDate": "2024-03-07",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 36 - 3.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15001",
+      "actionDate": "2024-03-07",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-03-05",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Oversight and Accountability.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-03-05",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-03-05",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 8,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7532/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the House Committee on Oversight and Accountability on March 7, 2024\n",
+        "pubDate": "2024-03-25T19:55:00Z",
+        "title": "H.R. 7532, Federal A.I. Governance and Transparency Act of 2024",
+        "url": "https://www.cbo.gov/publication/60122"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 118-905",
+        "url": "https://api.congress.gov/v3/committee-report/118/HRPT/905?format=json"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7532/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 39 (Tuesday, March 5, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. COMER:\nH.R. 7532.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8, clause 3 of the Constitution, in that\nthe legislation regulates forms of commerce specified in that\nclause; and, Article I, Section 8, clause 18 of the\nConstitution, in that the legislation ``is necessary and\nproper for carrying into Execution the foregoing Powers'' and\n``other Powers vested by this Constitution in the Government\nof the United States, or in any Department or Officer\nthereof,'' including the powers of the President specified in\nArticle II of the Constitution.\nThe single subject of this legislation is:\nThe single subject of this bill is to establish Federal AI\nsystem governance requirements.\n[Page H822]\n</pre>",
+    "cosponsors": {
+      "count": 7,
+      "countIncludingWithdrawnCosponsors": 7,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7532/cosponsors?format=json"
+    },
+    "introducedDate": "2024-03-05",
+    "latestAction": {
+      "actionDate": "2024-12-18",
+      "text": "Placed on the Union Calendar, Calendar No. 740."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7532",
+    "number": "7532",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Government Operations and Politics"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "C001108",
+        "district": 1,
+        "firstName": "James",
+        "fullName": "Rep. Comer, James [R-KY-1]",
+        "isByRequest": "N",
+        "lastName": "Comer",
+        "party": "R",
+        "state": "KY",
+        "url": "https://api.congress.gov/v3/member/C001108?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 12,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7532/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7532/text?format=json"
+    },
+    "title": "Federal A.I. Governance and Transparency Act of 2024",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7532/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-05-27T14:13:15Z",
+    "updateDateIncludingText": "2025-05-27T14:13:15Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-12-18T20:00:21Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2024-03-07T15:08:00Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2024-03-05T17:04:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Oversight and Government Reform Committee",
+      "systemCode": "hsgo00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "R000606",
+      "district": 8,
+      "firstName": "Jamie",
+      "fullName": "Rep. Raskin, Jamie [D-MD-8]",
+      "isOriginalCosponsor": true,
+      "lastName": "Raskin",
+      "party": "D",
+      "sponsorshipDate": "2024-03-05",
+      "state": "MD",
+      "url": "https://api.congress.gov/v3/member/R000606?format=json"
+    },
+    {
+      "bioguideId": "M000194",
+      "district": 1,
+      "firstName": "Nancy",
+      "fullName": "Rep. Mace, Nancy [R-SC-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Mace",
+      "party": "R",
+      "sponsorshipDate": "2024-03-05",
+      "state": "SC",
+      "url": "https://api.congress.gov/v3/member/M000194?format=json"
+    },
+    {
+      "bioguideId": "O000172",
+      "district": 14,
+      "firstName": "Alexandria",
+      "fullName": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+      "isOriginalCosponsor": true,
+      "lastName": "Ocasio-Cortez",
+      "party": "D",
+      "sponsorshipDate": "2024-03-05",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/O000172?format=json"
+    },
+    {
+      "bioguideId": "H001077",
+      "district": 3,
+      "firstName": "Clay",
+      "fullName": "Rep. Higgins, Clay [R-LA-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Higgins",
+      "party": "R",
+      "sponsorshipDate": "2024-03-05",
+      "state": "LA",
+      "url": "https://api.congress.gov/v3/member/H001077?format=json"
+    },
+    {
+      "bioguideId": "C001078",
+      "district": 11,
+      "firstName": "Gerald",
+      "fullName": "Rep. Connolly, Gerald E. [D-VA-11]",
+      "isOriginalCosponsor": true,
+      "lastName": "Connolly",
+      "middleName": "E.",
+      "party": "D",
+      "sponsorshipDate": "2024-03-05",
+      "state": "VA",
+      "url": "https://api.congress.gov/v3/member/C001078?format=json"
+    },
+    {
+      "bioguideId": "L000600",
+      "district": 23,
+      "firstName": "Nicholas",
+      "fullName": "Rep. Langworthy, Nicholas A. [R-NY-23]",
+      "isOriginalCosponsor": true,
+      "lastName": "Langworthy",
+      "middleName": "A.",
+      "party": "R",
+      "sponsorshipDate": "2024-03-05",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/L000600?format=json"
+    },
+    {
+      "bioguideId": "K000389",
+      "district": 17,
+      "firstName": "Ro",
+      "fullName": "Rep. Khanna, Ro [D-CA-17]",
+      "isOriginalCosponsor": true,
+      "lastName": "Khanna",
+      "party": "D",
+      "sponsorshipDate": "2024-03-05",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/K000389?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}
