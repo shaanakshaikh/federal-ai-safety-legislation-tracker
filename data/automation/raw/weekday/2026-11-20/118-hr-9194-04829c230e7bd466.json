@@ -1,0 +1,175 @@
+{
+  "actions": [
+    {
+      "actionCode": "H19000",
+      "actionDate": "2024-09-11",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported by Voice Vote.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15001",
+      "actionDate": "2024-09-11",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-07-30",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Science, Space, and Technology.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-07-30",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-07-30",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9194/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the House Committee on Science, Space, and Technology on September 11, 2024\n",
+        "pubDate": "2024-12-18T20:54:00Z",
+        "title": "H.R. 9194, Nucleic Acid Standards for Biosecurity Act",
+        "url": "https://www.cbo.gov/publication/61120"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9194/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 124 (Tuesday, July 30, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. CARAVEO:\nH.R. 9194.\nCongress has the power to enact this legislation pursuant\nto the following:\nConstitutional Authority--Necessary and Proper Clause (Art.\nI, Sec. 8, Clause 18)\nTHE U.S. CONSTITUTION\nARTICLE I, SECTION 8:\nPOWERS OF CONGRESS\nCLAUSE 18\nThe single subject of this legislation is:\nTo amend the Research and Development, Competition, and\nInnovation Act to support nucleic acid screening, and for\nother purposes.\n[Page H4963]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9194/cosponsors?format=json"
+    },
+    "introducedDate": "2024-07-30",
+    "latestAction": {
+      "actionDate": "2024-09-11",
+      "text": "Ordered to be Reported by Voice Vote."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/9194",
+    "number": "9194",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "C001134",
+        "district": 8,
+        "firstName": "Yadira",
+        "fullName": "Rep. Caraveo, Yadira [D-CO-8]",
+        "isByRequest": "N",
+        "lastName": "Caraveo",
+        "party": "D",
+        "state": "CO",
+        "url": "https://api.congress.gov/v3/member/C001134?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9194/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9194/text?format=json"
+    },
+    "title": "Nucleic Acid Standards for Biosecurity Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9194/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-05-27T14:13:19Z",
+    "updateDateIncludingText": "2025-05-27T14:13:19Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-09-11T19:43:24Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2024-07-30T17:04:20Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "M001218",
+      "district": 6,
+      "firstName": "Richard",
+      "fullName": "Rep. McCormick, Richard [R-GA-6]",
+      "isOriginalCosponsor": true,
+      "lastName": "McCormick",
+      "party": "R",
+      "sponsorshipDate": "2024-07-30",
+      "state": "GA",
+      "url": "https://api.congress.gov/v3/member/M001218?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

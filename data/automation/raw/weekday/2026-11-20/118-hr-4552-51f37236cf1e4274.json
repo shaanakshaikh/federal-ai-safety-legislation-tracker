@@ -1,0 +1,505 @@
+{
+  "actions": [
+    {
+      "actionCode": "H12410",
+      "actionDate": "2024-12-19",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Placed on the Union Calendar, Calendar No. 790.",
+      "type": "Calendars"
+    },
+    {
+      "actionCode": "H12300",
+      "actionDate": "2024-12-19",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "hsas00",
+          "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Committee on Armed Services discharged.",
+      "type": "Discharge"
+    },
+    {
+      "actionCode": "5500",
+      "actionDate": "2024-12-19",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "hsas00",
+          "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Committee on Armed Services discharged.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H12300",
+      "actionDate": "2024-12-19",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Committee on Homeland Security discharged.",
+      "type": "Discharge"
+    },
+    {
+      "actionCode": "5500",
+      "actionDate": "2024-12-19",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Committee on Homeland Security discharged.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H12300",
+      "actionDate": "2024-12-19",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Committee on Science, Space, and Technology discharged.",
+      "type": "Discharge"
+    },
+    {
+      "actionCode": "5500",
+      "actionDate": "2024-12-19",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Committee on Science, Space, and Technology discharged.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H12200",
+      "actionDate": "2024-12-19",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Reported (Amended) by the Committee on Oversight and Accountability. H. Rept. 118-939, Part I.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "5000",
+      "actionDate": "2024-12-19",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Reported (Amended) by the Committee on Oversight and Accountability. H. Rept. 118-939, Part I.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H19000",
+      "actionDate": "2024-03-07",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 32 - 7.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15001",
+      "actionDate": "2024-03-07",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11000",
+      "actionDate": "2023-07-11",
+      "committees": [
+        {
+          "name": "Cybersecurity and Infrastructure Protection Subcommittee",
+          "systemCode": "hshm08",
+          "url": "https://api.congress.gov/v3/committee/house/hshm08?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-07-11",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "hsas00",
+          "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Oversight and Accountability, and in addition to the Committees on Science, Space, and Technology, Homeland Security, and Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-07-11",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Oversight and Accountability, and in addition to the Committees on Science, Space, and Technology, Homeland Security, and Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-07-11",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Oversight and Accountability, and in addition to the Committees on Science, Space, and Technology, Homeland Security, and Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-07-11",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Oversight and Accountability, and in addition to the Committees on Science, Space, and Technology, Homeland Security, and Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2023-07-11",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2023-07-11",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 18,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4552/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the House Committee on Oversight and Accountability on March 7, 2024\n",
+        "pubDate": "2024-04-07T15:23:00Z",
+        "title": "H.R. 4552, Federal Information Security Modernization Act of 2024",
+        "url": "https://www.cbo.gov/publication/60155"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 118-939",
+        "url": "https://api.congress.gov/v3/committee-report/118/HRPT/939?format=json"
+      }
+    ],
+    "committees": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4552/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 118 (Tuesday, July 11, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. MACE:\nH.R. 4552.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8, clause 3 of the Constitution, in that\nthe legislation regulates forms of commerce specified in that\nclause; and, Article I, Section 8, clause 18 of the\nConstitution, in that the legislation ``is necessary and\nproper for carrying into Execution the foregoing Powers'' and\n``other Powers vested by this Constitution in the Government\nof the United States, or in any\nThe single subject of this legislation is:\nReforms federal agency cybersecurity policies and\nleadership roles for the protection of federal information\nsystems\n[Page H3207]\n</pre>",
+    "cosponsors": {
+      "count": 4,
+      "countIncludingWithdrawnCosponsors": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4552/cosponsors?format=json"
+    },
+    "introducedDate": "2023-07-11",
+    "latestAction": {
+      "actionDate": "2024-12-19",
+      "text": "Placed on the Union Calendar, Calendar No. 790."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/4552",
+    "number": "4552",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Government Operations and Politics"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4552/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M000194",
+        "district": 1,
+        "firstName": "Nancy",
+        "fullName": "Rep. Mace, Nancy [R-SC-1]",
+        "isByRequest": "N",
+        "lastName": "Mace",
+        "party": "R",
+        "state": "SC",
+        "url": "https://api.congress.gov/v3/member/M000194?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 19,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4552/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4552/text?format=json"
+    },
+    "title": "Federal Information Security Modernization Act of 2024",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/4552/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-01-09T22:45:11Z",
+    "updateDateIncludingText": "2026-01-09T22:45:11Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-12-20T00:36:17Z",
+          "name": "Discharged From"
+        },
+        {
+          "date": "2023-07-11T16:02:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-12-20T00:36:13Z",
+          "name": "Discharged From"
+        },
+        {
+          "date": "2023-07-11T16:01:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Homeland Security Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2023-07-11T17:52:35Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Cybersecurity and Infrastructure Protection Subcommittee",
+          "systemCode": "hshm08",
+          "url": "https://api.congress.gov/v3/committee/house/hshm08?format=json"
+        }
+      ],
+      "systemCode": "hshm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-12-20T00:36:11Z",
+          "name": "Discharged From"
+        },
+        {
+          "date": "2023-07-11T16:01:45Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-12-20T00:35:43Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2024-03-07T15:27:00Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2023-07-11T16:01:40Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Oversight and Government Reform Committee",
+      "systemCode": "hsgo00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "R000606",
+      "district": 8,
+      "firstName": "Jamie",
+      "fullName": "Rep. Raskin, Jamie [D-MD-8]",
+      "isOriginalCosponsor": true,
+      "lastName": "Raskin",
+      "party": "D",
+      "sponsorshipDate": "2023-07-11",
+      "state": "MD",
+      "url": "https://api.congress.gov/v3/member/R000606?format=json"
+    },
+    {
+      "bioguideId": "C001108",
+      "district": 1,
+      "firstName": "James",
+      "fullName": "Rep. Comer, James [R-KY-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Comer",
+      "party": "R",
+      "sponsorshipDate": "2023-07-11",
+      "state": "KY",
+      "url": "https://api.congress.gov/v3/member/C001108?format=json"
+    },
+    {
+      "bioguideId": "C001078",
+      "district": 11,
+      "firstName": "Gerald",
+      "fullName": "Rep. Connolly, Gerald E. [D-VA-11]",
+      "isOriginalCosponsor": true,
+      "lastName": "Connolly",
+      "middleName": "E.",
+      "party": "D",
+      "sponsorshipDate": "2023-07-11",
+      "state": "VA",
+      "url": "https://api.congress.gov/v3/member/C001078?format=json"
+    },
+    {
+      "bioguideId": "D000230",
+      "district": 1,
+      "firstName": "Donald",
+      "fullName": "Rep. Davis, Donald G. [D-NC-1]",
+      "isOriginalCosponsor": false,
+      "lastName": "Davis",
+      "middleName": "G.",
+      "party": "D",
+      "sponsorshipDate": "2023-07-18",
+      "state": "NC",
+      "url": "https://api.congress.gov/v3/member/D000230?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

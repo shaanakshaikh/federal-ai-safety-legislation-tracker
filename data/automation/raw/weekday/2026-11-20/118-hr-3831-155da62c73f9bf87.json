@@ -1,0 +1,160 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2023-06-09",
+      "committees": [
+        {
+          "name": "Commerce, Manufacturing, and Trade Subcommittee",
+          "systemCode": "hsif17",
+          "url": "https://api.congress.gov/v3/committee/house/hsif17?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Innovation, Data, and Commerce.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-06-05",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Energy and Commerce.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2023-06-05",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2023-06-05",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3831/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3831/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 97 (Monday, June 5, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. TORRES of New York:\nH.R. 3831.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8.\nThe single subject of this legislation is:\nCybersecurity\n[Page H2743]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3831/cosponsors?format=json"
+    },
+    "introducedDate": "2023-06-05",
+    "latestAction": {
+      "actionDate": "2023-06-09",
+      "text": "Referred to the Subcommittee on Innovation, Data, and Commerce."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/3831",
+    "number": "3831",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Commerce"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "T000486",
+        "district": 15,
+        "firstName": "Ritchie",
+        "fullName": "Rep. Torres, Ritchie [D-NY-15]",
+        "isByRequest": "N",
+        "lastName": "Torres",
+        "party": "D",
+        "state": "NY",
+        "url": "https://api.congress.gov/v3/member/T000486?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3831/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3831/text?format=json"
+    },
+    "title": "AI Disclosure Act of 2023",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3831/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-01-16T11:48:07Z",
+    "updateDateIncludingText": "2025-01-16T11:48:07Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-06-05T16:04:10Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2023-06-09T14:23:25Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Commerce, Manufacturing, and Trade Subcommittee",
+          "systemCode": "hsif17",
+          "url": "https://api.congress.gov/v3/committee/house/hsif17?format=json"
+        }
+      ],
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "G000599",
+      "district": 10,
+      "firstName": "Daniel",
+      "fullName": "Rep. Goldman, Daniel S. [D-NY-10]",
+      "isOriginalCosponsor": false,
+      "lastName": "Goldman",
+      "middleName": "S.",
+      "party": "D",
+      "sponsorshipDate": "2023-08-22",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/G000599?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

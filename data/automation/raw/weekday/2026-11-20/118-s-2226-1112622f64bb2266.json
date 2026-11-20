@@ -1,0 +1,800 @@
+{
+  "actions": [
+    {
+      "actionDate": "2023-07-27",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Senate ordered measure printed as passed.",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-27",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Indefinitely postponed by Senate by Unanimous Consent.",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-27",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "See also H.R. 2670.",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-27",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Senate incorporated this measure in H.R. 2670 as an amendment.",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-27",
+      "recordedVotes": [
+        {
+          "chamber": "Senate",
+          "congress": 118,
+          "date": "2023-07-28T00:19:28Z",
+          "rollNumber": 212,
+          "sessionNumber": 1,
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00212.xml"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Passed Senate under the order of 7/27/2023, having achieved 60 votes in the affirmative, with an amendment by Yea-Nay Vote. 86 - 11. Record Vote Number: 212.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "17000",
+      "actionDate": "2023-07-27",
+      "recordedVotes": [
+        {
+          "chamber": "Senate",
+          "congress": 118,
+          "date": "2023-07-28T00:19:28Z",
+          "rollNumber": 212,
+          "sessionNumber": 1,
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00212.xml"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Passed/agreed to in Senate: Passed Senate under the order of 7/27/2023, having achieved 60 votes in the affirmative, with an amendment by Yea-Nay Vote. 86 - 11. Record Vote Number: 212.",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-27",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Cloture motion on the measure withdrawn by unanimous consent in Senate.",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-27",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Considered by Senate. (consideration: CR S3713-3729)",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-26",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Cloture motion on the measure presented in Senate.",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-26",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Considered by Senate. (consideration: CR S3563-3580, S3585-3609)",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-25",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Considered by Senate. (consideration: CR S3503-3517)",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-20",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Considered by Senate. (consideration: CR S3444-3451)",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-19",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Measure laid before Senate by motion. (consideration: CR S3129-3144)",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-19",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Motion to proceed to consideration of measure agreed to in Senate by Unanimous Consent.",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-19",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Motion to proceed to measure considered in Senate. (CR S3129)",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-18",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Motion to proceed to measure considered in Senate. (CR S2977)",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-18",
+      "recordedVotes": [
+        {
+          "chamber": "Senate",
+          "congress": 118,
+          "date": "2023-07-18T23:13:33Z",
+          "rollNumber": 188,
+          "sessionNumber": 1,
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00188.xml"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Cloture on the motion to proceed to the measure invoked in Senate by Yea-Nay Vote. 72 - 25. Record Vote Number: 188. (CR S2977)",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-13",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S2449)",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-13",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Motion to proceed to consideration of measure made in Senate by Unanimous Consent. (CR S2449)",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-12",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "By Senator Reed from Committee on Armed Services filed written report. Report No. 118-58.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "14900",
+      "actionDate": "2023-07-12",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "By Senator Reed from Committee on Armed Services filed written report. Report No. 118-58.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-07-12",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Motion to proceed to consideration of measure made in Senate. (consideration: CR  S2337)",
+      "type": "Floor"
+    },
+    {
+      "actionDate": "2023-07-11",
+      "calendarNumber": {
+        "calendar": "Senate Calendar of Business",
+        "number": "0119"
+      },
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 119.",
+      "type": "Calendars"
+    },
+    {
+      "actionDate": "2023-07-11",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Armed Services. Original measure reported to Senate by Senator Reed. Without written report.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "14000",
+      "actionDate": "2023-07-11",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Committee on Armed Services. Original measure reported to Senate by Senator Reed. Without written report.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2023-07-11",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    },
+    {
+      "actionDate": "2023-05-09",
+      "committees": [
+        {
+          "name": "Strategic Forces Subcommittee",
+          "systemCode": "ssas16",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas16?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Subcommittee on Strategic Forces. Hearings held on the subject prior to the subcommittee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 7.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-05-02",
+      "committees": [
+        {
+          "name": "Strategic Forces Subcommittee",
+          "systemCode": "ssas16",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas16?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Subcommittee on Strategic Forces. Hearings held on the subject prior to the subcommittee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 7.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-05-02",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Armed Services. Hearings held on the subject prior to committee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 1.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-04-27",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Armed Services. Hearings held on the subject prior to committee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 1.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-04-26",
+      "committees": [
+        {
+          "name": "Airland Subcommittee",
+          "systemCode": "ssas14",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas14?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Subcommittee on Airland. Hearings held on the subject prior to the subcommittee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 4.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-04-26",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Armed Services. Hearings held on the subject prior to committee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 1.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-04-20",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Armed Services. Hearings held on the subject prior to committee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 1.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-04-19",
+      "committees": [
+        {
+          "name": "Readiness and Management Support Subcommittee",
+          "systemCode": "ssas15",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas15?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Subcommittee on Readiness and Management Support. Hearings held on the subject prior to the subcommittee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 3.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-04-18",
+      "committees": [
+        {
+          "name": "Strategic Forces Subcommittee",
+          "systemCode": "ssas16",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas16?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Subcommittee on Strategic Forces. Hearings held on the subject prior to the subcommittee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 7.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-04-18",
+      "committees": [
+        {
+          "name": "Airland Subcommittee",
+          "systemCode": "ssas14",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas14?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Subcommittee on Airland. Hearings held on the subject prior to the subcommittee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 4.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-04-18",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Armed Services. Hearings held on the subject prior to committee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 1.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-03-30",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Armed Services. Hearings held on the subject prior to committee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 1.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-03-28",
+      "committees": [
+        {
+          "name": "Seapower Subcommittee",
+          "systemCode": "ssas13",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas13?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Subcommittee on Seapower. Hearings held on the subject prior to the subcommittee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 2.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-03-28",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Armed Services. Hearings held on the subject prior to committee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 1.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-03-23",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Armed Services. Hearings held on the subject prior to committee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 1.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-03-16",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Armed Services. Hearings held on the subject prior to committee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 1.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-03-15",
+      "committees": [
+        {
+          "name": "Personnel Subcommittee",
+          "systemCode": "ssas17",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas17?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Subcommittee on Personnel. Hearings held on the subject prior to the subcommittee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 6.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-03-14",
+      "committees": [
+        {
+          "name": "Strategic Forces Subcommittee",
+          "systemCode": "ssas16",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas16?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Subcommittee on Strategic Forces. Hearings held on the subject prior to the subcommittee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 7.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-03-09",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Armed Services. Hearings held on the subject prior to committee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 1.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2023-03-07",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Armed Services. Hearings held on the subject prior to committee ordering to be reported an original measure. With printed Hearing: S.Hrg. 118-625, pt. 1.",
+      "type": "Committee"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 46,
+      "url": "https://api.congress.gov/v3/bill/118/s/2226/actions?format=json"
+    },
+    "amendments": {
+      "count": 945,
+      "url": "https://api.congress.gov/v3/bill/118/s/2226/amendments?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As Passed by the Senate on July 27, 2023\n",
+        "pubDate": "2023-10-06T18:22:00Z",
+        "title": "Estimated Changes in Direct Spending and Revenues of S. 2226, the National Defense Authorization Act for Fiscal Year 2024",
+        "url": "https://www.cbo.gov/publication/59643"
+      },
+      {
+        "description": "As Passed by the Senate on July 27, 2023\n",
+        "pubDate": "2023-10-06T18:22:00Z",
+        "title": "Estimated Changes in Direct Spending and Revenues of S. 2226, the National Defense Authorization Act for Fiscal Year 2024 ",
+        "url": "https://www.cbo.gov/publication/59643"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "S. Rept. 118-58",
+        "url": "https://api.congress.gov/v3/committee-report/118/SRPT/58?format=json"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/2226/committees?format=json"
+    },
+    "congress": 118,
+    "introducedDate": "2023-07-11",
+    "latestAction": {
+      "actionDate": "2023-07-27",
+      "text": "Senate ordered measure printed as passed."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/2226",
+    "number": "2226",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "relatedBills": {
+      "count": 153,
+      "url": "https://api.congress.gov/v3/bill/118/s/2226/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "R000122",
+        "firstName": "John",
+        "fullName": "Sen. Reed, Jack [D-RI]",
+        "isByRequest": "N",
+        "lastName": "Reed",
+        "middleName": "F.",
+        "party": "D",
+        "state": "RI",
+        "url": "https://api.congress.gov/v3/member/R000122?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 259,
+      "url": "https://api.congress.gov/v3/bill/118/s/2226/subjects?format=json"
+    },
+    "summaries": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/s/2226/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/s/2226/text?format=json"
+    },
+    "title": "National Defense Authorization Act for Fiscal Year 2024",
+    "titles": {
+      "count": 50,
+      "url": "https://api.congress.gov/v3/bill/118/s/2226/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-03-17T13:21:54Z",
+    "updateDateIncludingText": "2026-03-17T13:21:54Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-07-11T15:27:47Z",
+          "name": "Reported Original Measure"
+        },
+        {
+          "date": "2023-05-02T21:36:49Z",
+          "name": "Hearings By (full committee)"
+        },
+        {
+          "date": "2023-04-27T21:36:33Z",
+          "name": "Hearings By (full committee)"
+        },
+        {
+          "date": "2023-04-26T21:36:17Z",
+          "name": "Hearings By (full committee)"
+        },
+        {
+          "date": "2023-04-20T21:36:00Z",
+          "name": "Hearings By (full committee)"
+        },
+        {
+          "date": "2023-04-18T21:35:42Z",
+          "name": "Hearings By (full committee)"
+        },
+        {
+          "date": "2023-03-30T21:35:24Z",
+          "name": "Hearings By (full committee)"
+        },
+        {
+          "date": "2023-03-28T21:35:07Z",
+          "name": "Hearings By (full committee)"
+        },
+        {
+          "date": "2023-03-23T21:34:49Z",
+          "name": "Hearings By (full committee)"
+        },
+        {
+          "date": "2023-03-16T21:34:30Z",
+          "name": "Hearings By (full committee)"
+        },
+        {
+          "date": "2023-03-09T22:34:13Z",
+          "name": "Hearings By (full committee)"
+        },
+        {
+          "date": "2023-03-07T22:33:49Z",
+          "name": "Hearings By (full committee)"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Armed Services Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2023-05-09T21:49:35Z",
+              "name": "Hearings By (subcommittee)"
+            },
+            {
+              "date": "2023-05-02T21:49:14Z",
+              "name": "Hearings By (subcommittee)"
+            },
+            {
+              "date": "2023-04-18T21:48:44Z",
+              "name": "Hearings By (subcommittee)"
+            },
+            {
+              "date": "2023-03-14T21:45:10Z",
+              "name": "Hearings By (subcommittee)"
+            }
+          ],
+          "name": "Strategic Forces Subcommittee",
+          "systemCode": "ssas16",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas16?format=json"
+        },
+        {
+          "activities": [
+            {
+              "date": "2023-04-26T21:42:36Z",
+              "name": "Hearings By (subcommittee)"
+            },
+            {
+              "date": "2023-04-18T21:42:14Z",
+              "name": "Hearings By (subcommittee)"
+            }
+          ],
+          "name": "Airland Subcommittee",
+          "systemCode": "ssas14",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas14?format=json"
+        },
+        {
+          "activities": [
+            {
+              "date": "2023-04-19T21:40:27Z",
+              "name": "Hearings By (subcommittee)"
+            }
+          ],
+          "name": "Readiness and Management Support Subcommittee",
+          "systemCode": "ssas15",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas15?format=json"
+        },
+        {
+          "activities": [
+            {
+              "date": "2023-03-28T21:39:26Z",
+              "name": "Hearings By (subcommittee)"
+            }
+          ],
+          "name": "Seapower Subcommittee",
+          "systemCode": "ssas13",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas13?format=json"
+        },
+        {
+          "activities": [
+            {
+              "date": "2023-03-15T21:43:42Z",
+              "name": "Hearings By (subcommittee)"
+            }
+          ],
+          "name": "Personnel Subcommittee",
+          "systemCode": "ssas17",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas17?format=json"
+        }
+      ],
+      "systemCode": "ssas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

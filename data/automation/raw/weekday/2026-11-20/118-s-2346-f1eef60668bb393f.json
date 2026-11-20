@@ -1,0 +1,119 @@
+{
+  "actions": [
+    {
+      "actionDate": "2023-07-18",
+      "committees": [
+        {
+          "name": "Health, Education, Labor, and Pensions Committee",
+          "systemCode": "sshr00",
+          "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2023-07-18",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/s/2346/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/2346/committees?format=json"
+    },
+    "congress": 118,
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/2346/cosponsors?format=json"
+    },
+    "introducedDate": "2023-07-18",
+    "latestAction": {
+      "actionDate": "2023-07-18",
+      "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/2346",
+    "number": "2346",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Health"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "B001305",
+        "firstName": "Ted",
+        "fullName": "Sen. Budd, Ted [R-NC]",
+        "isByRequest": "N",
+        "lastName": "Budd",
+        "party": "R",
+        "state": "NC",
+        "url": "https://api.congress.gov/v3/member/B001305?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/118/s/2346/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/2346/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/2346/text?format=json"
+    },
+    "title": "Strategy for Public Health Preparedness and Response to Artificial Intelligence Threats",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/s/2346/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2025-04-21T12:24:17Z",
+    "updateDateIncludingText": "2025-04-21T12:24:17Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-07-18T21:40:21Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Health, Education, Labor, and Pensions Committee",
+      "systemCode": "sshr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "M000133",
+      "firstName": "Edward",
+      "fullName": "Sen. Markey, Edward J. [D-MA]",
+      "isOriginalCosponsor": true,
+      "lastName": "Markey",
+      "middleName": "J.",
+      "party": "D",
+      "sponsorshipDate": "2023-07-18",
+      "state": "MA",
+      "url": "https://api.congress.gov/v3/member/M000133?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

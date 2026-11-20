@@ -1,0 +1,129 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-11-14",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "hsju00",
+          "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on the Judiciary.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-11-14",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-11-14",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10125/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10125/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 168 (Thursday, November 14, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. LIEU:\nH.R. 10125.\nCongress has the power to enact this legislation pursuant\nto the following:\nU.S. Const., Art. 1, Sec. 8\nThe single subject of this legislation is:\nCriminal Justice\n[Page H6013]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10125/cosponsors?format=json"
+    },
+    "introducedDate": "2024-11-14",
+    "latestAction": {
+      "actionDate": "2024-11-14",
+      "text": "Referred to the House Committee on the Judiciary."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/10125",
+    "number": "10125",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Crime and Law Enforcement"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "L000582",
+        "district": 36,
+        "firstName": "Ted",
+        "fullName": "Rep. Lieu, Ted [D-CA-36]",
+        "isByRequest": "N",
+        "lastName": "Lieu",
+        "party": "D",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/L000582?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10125/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10125/text?format=json"
+    },
+    "title": "AI Fraud Deterrence Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/10125/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2024-12-16T19:23:53Z",
+    "updateDateIncludingText": "2025-04-15T18:28:20Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-11-14T15:02:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Judiciary Committee",
+      "systemCode": "hsju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "K000401",
+      "district": 3,
+      "firstName": "Kevin",
+      "fullName": "Rep. Kiley, Kevin [R-CA-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Kiley",
+      "party": "R",
+      "sponsorshipDate": "2024-11-14",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/K000401?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

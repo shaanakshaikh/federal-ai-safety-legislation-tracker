@@ -1,0 +1,211 @@
+{
+  "actions": [
+    {
+      "actionCode": "H12410",
+      "actionDate": "2025-11-28",
+      "calendarNumber": {
+        "calendar": "U00339"
+      },
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Placed on the Union Calendar, Calendar No. 339.",
+      "type": "Calendars"
+    },
+    {
+      "actionCode": "H12200",
+      "actionDate": "2025-11-28",
+      "committees": [
+        {
+          "name": "Intelligence (Permanent Select) Committee",
+          "systemCode": "hlig00",
+          "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Reported (Amended) by the Committee on Intelligence. H. Rept. 119-389.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "5000",
+      "actionDate": "2025-11-28",
+      "committees": [
+        {
+          "name": "Intelligence (Permanent Select) Committee",
+          "systemCode": "hlig00",
+          "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Reported (Amended) by the Committee on Intelligence. H. Rept. 119-389.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H19000",
+      "actionDate": "2025-09-10",
+      "committees": [
+        {
+          "name": "Intelligence (Permanent Select) Committee",
+          "systemCode": "hlig00",
+          "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by Voice Vote.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15001",
+      "actionDate": "2025-09-10",
+      "committees": [
+        {
+          "name": "Intelligence (Permanent Select) Committee",
+          "systemCode": "hlig00",
+          "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-09-08",
+      "committees": [
+        {
+          "name": "Intelligence (Permanent Select) Committee",
+          "systemCode": "hlig00",
+          "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Intelligence (Permanent Select).",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-09-08",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-09-08",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 8,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5167/actions?format=json"
+    },
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 119-389",
+        "url": "https://api.congress.gov/v3/committee-report/119/HRPT/389?format=json"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5167/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 146 (Monday, September 8, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. CRAWFORD:\nH.R. 5167.\nCongress has the power to enact this legislation pursuant\nto the following:\nCongress has the authority to enact this legislation\npursuant to Article I, Section 8 of the U.S. Constitution,\nwhich states, in part that Congress shall have the power to\n``provide for the common defense and general welfare of the\nUnited States. . .'' and ``to make all laws which shall be\nnecessary and proper for carying into execution the foregoing\npowers.''\n[Page H3892]\n</pre>",
+    "introducedDate": "2025-09-08",
+    "latestAction": {
+      "actionDate": "2025-11-28",
+      "text": "Placed on the Union Calendar, Calendar No. 339."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5167",
+    "number": "5167",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "relatedBills": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5167/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "C001087",
+        "district": 1,
+        "firstName": "Eric",
+        "fullName": "Rep. Crawford, Eric A. \"Rick\" [R-AR-1]",
+        "isByRequest": "N",
+        "lastName": "Crawford",
+        "middleName": "A. \"Rick\"",
+        "party": "R",
+        "state": "AR",
+        "url": "https://api.congress.gov/v3/member/C001087?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 47,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5167/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5167/text?format=json"
+    },
+    "title": "Intelligence Authorization Act for Fiscal Year 2026",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5167/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-28T21:51:02Z",
+    "updateDateIncludingText": "2026-09-28T21:51:02Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-11-28T14:48:57Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2025-09-10T22:15:54Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-09-08T16:00:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Intelligence (Permanent Select) Committee",
+      "systemCode": "hlig00",
+      "type": "Select",
+      "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}

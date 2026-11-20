@@ -1,0 +1,97 @@
+{
+  "actions": [
+    {
+      "actionDate": "2024-09-25",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "ssas00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Armed Services.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2024-09-25",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/s/5239/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/5239/committees?format=json"
+    },
+    "congress": 118,
+    "introducedDate": "2024-09-25",
+    "latestAction": {
+      "actionDate": "2024-09-25",
+      "text": "Read twice and referred to the Committee on Armed Services."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/5239",
+    "number": "5239",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "W000800",
+        "firstName": "Peter",
+        "fullName": "Sen. Welch, Peter [D-VT]",
+        "isByRequest": "N",
+        "lastName": "Welch",
+        "party": "D",
+        "state": "VT",
+        "url": "https://api.congress.gov/v3/member/W000800?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/5239/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/5239/text?format=json"
+    },
+    "title": "AWARE Act of 2024",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/s/5239/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2025-05-27T14:16:21Z",
+    "updateDateIncludingText": "2025-05-27T14:16:21Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-09-25T21:05:58Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Armed Services Committee",
+      "systemCode": "ssas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssas00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}
