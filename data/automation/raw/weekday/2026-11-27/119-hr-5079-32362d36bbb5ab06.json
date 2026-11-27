@@ -1,0 +1,378 @@
+{
+  "actions": [
+    {
+      "actionCode": "H19000",
+      "actionDate": "2025-09-03",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 25 - 0.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15001",
+      "actionDate": "2025-09-03",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H25000",
+      "actionDate": "2025-09-03",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Subcommittee on Cybersecurity and Infrastructure Protection Discharged",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11000",
+      "actionDate": "2025-09-02",
+      "committees": [
+        {
+          "name": "Cybersecurity and Infrastructure Protection Subcommittee",
+          "systemCode": "hshm08",
+          "url": "https://api.congress.gov/v3/committee/house/hshm08?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-09-02",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "hsju00",
+          "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Homeland Security, and in addition to the Committees on Oversight and Government Reform, Intelligence (Permanent Select), Energy and Commerce, Armed Services, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-09-02",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "hsas00",
+          "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Homeland Security, and in addition to the Committees on Oversight and Government Reform, Intelligence (Permanent Select), Energy and Commerce, Armed Services, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-09-02",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Homeland Security, and in addition to the Committees on Oversight and Government Reform, Intelligence (Permanent Select), Energy and Commerce, Armed Services, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-09-02",
+      "committees": [
+        {
+          "name": "Intelligence (Permanent Select) Committee",
+          "systemCode": "hlig00",
+          "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Homeland Security, and in addition to the Committees on Oversight and Government Reform, Intelligence (Permanent Select), Energy and Commerce, Armed Services, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-09-02",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Homeland Security, and in addition to the Committees on Oversight and Government Reform, Intelligence (Permanent Select), Energy and Commerce, Armed Services, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-09-02",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Homeland Security, and in addition to the Committees on Oversight and Government Reform, Intelligence (Permanent Select), Energy and Commerce, Armed Services, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-09-02",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-09-02",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 12,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5079/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the House Committee on Homeland Security on September 3, 2025",
+        "pubDate": "2025-09-25T20:35:00Z",
+        "title": "H.R. 5079, Widespread Information Management for the Welfare of Infrastructure and Government Act",
+        "url": "https://www.cbo.gov/publication/61774"
+      }
+    ],
+    "committees": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5079/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 143 (Tuesday, September 2, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. GARBARINO:\nH.R. 5079.\nCongress has the power to enact this legislation pursuant\nto the following:\nCongress has the power to enact this legislation pursuant\nto section 8 of Article I of the United States Constitution.\n[Page H3757]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5079/cosponsors?format=json"
+    },
+    "introducedDate": "2025-09-02",
+    "latestAction": {
+      "actionDate": "2025-09-03",
+      "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 25 - 0."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5079",
+    "number": "5079",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "G000597",
+        "district": 2,
+        "firstName": "Andrew",
+        "fullName": "Rep. Garbarino, Andrew R. [R-NY-2]",
+        "isByRequest": "N",
+        "lastName": "Garbarino",
+        "middleName": "R.",
+        "party": "R",
+        "state": "NY",
+        "url": "https://api.congress.gov/v3/member/G000597?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 8,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5079/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5079/text?format=json"
+    },
+    "title": "Widespread Information Management for the Welfare of Infrastructure and Government Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/5079/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-10-15T08:05:26Z",
+    "updateDateIncludingText": "2025-10-15T08:05:26Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-09-03T19:05:22Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-09-03T19:05:02Z",
+          "name": "Discharged from"
+        },
+        {
+          "date": "2025-09-02T16:00:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Homeland Security Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2025-09-02T19:04:43Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Cybersecurity and Infrastructure Protection Subcommittee",
+          "systemCode": "hshm08",
+          "url": "https://api.congress.gov/v3/committee/house/hshm08?format=json"
+        }
+      ],
+      "systemCode": "hshm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-09-02T16:01:00Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Judiciary Committee",
+      "systemCode": "hsju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-09-02T16:00:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-09-02T16:00:45Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-09-02T16:00:40Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Intelligence (Permanent Select) Committee",
+      "systemCode": "hlig00",
+      "type": "Select",
+      "url": "https://api.congress.gov/v3/committee/house/hlig00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-09-02T16:00:35Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Oversight and Government Reform Committee",
+      "systemCode": "hsgo00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "M001157",
+      "district": 10,
+      "firstName": "Michael",
+      "fullName": "Rep. McCaul, Michael T. [R-TX-10]",
+      "isOriginalCosponsor": true,
+      "lastName": "McCaul",
+      "middleName": "T.",
+      "party": "R",
+      "sponsorshipDate": "2025-09-02",
+      "state": "TX",
+      "url": "https://api.congress.gov/v3/member/M001157?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

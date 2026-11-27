@@ -1,0 +1,153 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-03-06",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "hsju00",
+          "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on the Judiciary.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-03-06",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-03-06",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7567/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7567/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 40 (Wednesday, March 6, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. MACE:\nH.R. 7567.\nCongress has the power to enact this legislation pursuant\nto the following:\nclause 3 of section 8 of article I of the Constitution\nThe single subject of this legislation is:\nTo prohibit the distribution or production of digital\nforgeries of intimate visual depictions of identifiable\nindividuals\n[Page H999]\n</pre>",
+    "cosponsors": {
+      "count": 3,
+      "countIncludingWithdrawnCosponsors": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7567/cosponsors?format=json"
+    },
+    "introducedDate": "2024-03-06",
+    "latestAction": {
+      "actionDate": "2024-03-06",
+      "text": "Referred to the House Committee on the Judiciary."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7567",
+    "number": "7567",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Crime and Law Enforcement"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M000194",
+        "district": 1,
+        "firstName": "Nancy",
+        "fullName": "Rep. Mace, Nancy [R-SC-1]",
+        "isByRequest": "N",
+        "lastName": "Mace",
+        "party": "R",
+        "state": "SC",
+        "url": "https://api.congress.gov/v3/member/M000194?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7567/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7567/text?format=json"
+    },
+    "title": "Protect Victims of Digital Exploitation and Manipulation Act of 2024",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7567/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2024-07-09T18:14:49Z",
+    "updateDateIncludingText": "2024-07-09T18:14:49Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-03-06T15:00:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Judiciary Committee",
+      "systemCode": "hsju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "L000596",
+      "district": 13,
+      "firstName": "Anna Paulina",
+      "fullName": "Rep. Luna, Anna Paulina [R-FL-13]",
+      "isOriginalCosponsor": true,
+      "lastName": "Luna",
+      "party": "R",
+      "sponsorshipDate": "2024-03-06",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/L000596?format=json"
+    },
+    {
+      "bioguideId": "G000578",
+      "district": 1,
+      "firstName": "Matt",
+      "fullName": "Rep. Gaetz, Matt [R-FL-1]",
+      "isOriginalCosponsor": true,
+      "lastName": "Gaetz",
+      "party": "R",
+      "sponsorshipDate": "2024-03-06",
+      "state": "FL",
+      "url": "https://api.congress.gov/v3/member/G000578?format=json"
+    },
+    {
+      "bioguideId": "G000595",
+      "district": 5,
+      "firstName": "Bob",
+      "fullName": "Rep. Good, Bob [R-VA-5]",
+      "isOriginalCosponsor": true,
+      "lastName": "Good",
+      "party": "R",
+      "sponsorshipDate": "2024-03-06",
+      "state": "VA",
+      "url": "https://api.congress.gov/v3/member/G000595?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

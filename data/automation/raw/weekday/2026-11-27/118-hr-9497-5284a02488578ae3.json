@@ -1,0 +1,297 @@
+{
+  "actions": [
+    {
+      "actionCode": "H19000",
+      "actionDate": "2024-09-11",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported (Amended) by Voice Vote.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15001",
+      "actionDate": "2024-09-11",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-09-09",
+      "committees": [
+        {
+          "name": "Science, Space, and Technology Committee",
+          "systemCode": "hssy00",
+          "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Science, Space, and Technology.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-09-09",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-09-09",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9497/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the House Committee on Science, Space, and Technology on September 11, 2024\n",
+        "pubDate": "2024-12-18T20:58:00Z",
+        "title": "H.R. 9497, AI Advancement and Reliability Act of 2024",
+        "url": "https://www.cbo.gov/publication/61125"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9497/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 139 (Monday, September 9, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. OBERNOLTE:\nH.R. 9497.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8, Clause 18:\n``The Congress shall have Power . . . To make all Laws\nwhich shall be necessary and proper for carrying into\nExecution for foregoing Powers, and all other Powers vested\nby this Constitution in the Government of the United States,\nor in any Department or Officer thereof.''\nThe single subject of this legislation is:\nAmends the National Artificial Intelligence Initiative Act\nof 2020 to establish a center on artificial intelligence to\nensure continued United States leadership in research,\ndevelopment, and evaluation of the robustness, resilience,\nand safety of artificial intelligence systems.\n[Page H5097]\n</pre>",
+    "cosponsors": {
+      "count": 11,
+      "countIncludingWithdrawnCosponsors": 11,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9497/cosponsors?format=json"
+    },
+    "introducedDate": "2024-09-09",
+    "latestAction": {
+      "actionDate": "2024-09-11",
+      "text": "Ordered to be Reported (Amended) by Voice Vote."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/9497",
+    "number": "9497",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Science, Technology, Communications"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "O000019",
+        "district": 23,
+        "firstName": "Jay",
+        "fullName": "Rep. Obernolte, Jay [R-CA-23]",
+        "isByRequest": "N",
+        "lastName": "Obernolte",
+        "party": "R",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/O000019?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 8,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9497/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9497/text?format=json"
+    },
+    "title": "AI Advancement and Reliability Act of 2024",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9497/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-05-27T14:13:19Z",
+    "updateDateIncludingText": "2025-05-27T14:13:19Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-09-11T19:56:37Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2024-09-09T16:00:35Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Science, Space, and Technology Committee",
+      "systemCode": "hssy00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hssy00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "L000582",
+      "district": 36,
+      "firstName": "Ted",
+      "fullName": "Rep. Lieu, Ted [D-CA-36]",
+      "isOriginalCosponsor": true,
+      "lastName": "Lieu",
+      "party": "D",
+      "sponsorshipDate": "2024-09-09",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/L000582?format=json"
+    },
+    {
+      "bioguideId": "L000491",
+      "district": 3,
+      "firstName": "Frank",
+      "fullName": "Rep. Lucas, Frank D. [R-OK-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Lucas",
+      "middleName": "D.",
+      "party": "R",
+      "sponsorshipDate": "2024-09-09",
+      "state": "OK",
+      "url": "https://api.congress.gov/v3/member/L000491?format=json"
+    },
+    {
+      "bioguideId": "L000397",
+      "district": 18,
+      "firstName": "Zoe",
+      "fullName": "Rep. Lofgren, Zoe [D-CA-18]",
+      "isOriginalCosponsor": true,
+      "lastName": "Lofgren",
+      "party": "D",
+      "sponsorshipDate": "2024-09-09",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/L000397?format=json"
+    },
+    {
+      "bioguideId": "B001287",
+      "district": 6,
+      "firstName": "Ami",
+      "fullName": "Rep. Bera, Ami [D-CA-6]",
+      "isOriginalCosponsor": false,
+      "lastName": "Bera",
+      "party": "D",
+      "sponsorshipDate": "2024-09-24",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/B001287?format=json"
+    },
+    {
+      "bioguideId": "B001316",
+      "district": 7,
+      "firstName": "Eric",
+      "fullName": "Rep. Burlison, Eric [R-MO-7]",
+      "isOriginalCosponsor": false,
+      "lastName": "Burlison",
+      "party": "R",
+      "sponsorshipDate": "2024-09-27",
+      "state": "MO",
+      "url": "https://api.congress.gov/v3/member/B001316?format=json"
+    },
+    {
+      "bioguideId": "B001292",
+      "district": 8,
+      "firstName": "Donald",
+      "fullName": "Rep. Beyer, Donald S. [D-VA-8]",
+      "isOriginalCosponsor": false,
+      "lastName": "Beyer",
+      "middleName": "S.",
+      "party": "D",
+      "sponsorshipDate": "2024-09-27",
+      "state": "VA",
+      "url": "https://api.congress.gov/v3/member/B001292?format=json"
+    },
+    {
+      "bioguideId": "P000616",
+      "district": 3,
+      "firstName": "Dean",
+      "fullName": "Rep. Phillips, Dean [D-MN-3]",
+      "isOriginalCosponsor": false,
+      "lastName": "Phillips",
+      "party": "D",
+      "sponsorshipDate": "2024-10-08",
+      "state": "MN",
+      "url": "https://api.congress.gov/v3/member/P000616?format=json"
+    },
+    {
+      "bioguideId": "O000172",
+      "district": 14,
+      "firstName": "Alexandria",
+      "fullName": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
+      "isOriginalCosponsor": false,
+      "lastName": "Ocasio-Cortez",
+      "party": "D",
+      "sponsorshipDate": "2024-10-08",
+      "state": "NY",
+      "url": "https://api.congress.gov/v3/member/O000172?format=json"
+    },
+    {
+      "bioguideId": "K000401",
+      "district": 3,
+      "firstName": "Kevin",
+      "fullName": "Rep. Kiley, Kevin [R-CA-3]",
+      "isOriginalCosponsor": false,
+      "lastName": "Kiley",
+      "party": "R",
+      "sponsorshipDate": "2024-11-01",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/K000401?format=json"
+    },
+    {
+      "bioguideId": "F000454",
+      "district": 11,
+      "firstName": "Bill",
+      "fullName": "Rep. Foster, Bill [D-IL-11]",
+      "isOriginalCosponsor": false,
+      "lastName": "Foster",
+      "party": "D",
+      "sponsorshipDate": "2024-12-06",
+      "state": "IL",
+      "url": "https://api.congress.gov/v3/member/F000454?format=json"
+    },
+    {
+      "bioguideId": "N000191",
+      "district": 2,
+      "firstName": "Joe",
+      "fullName": "Rep. Neguse, Joe [D-CO-2]",
+      "isOriginalCosponsor": false,
+      "lastName": "Neguse",
+      "party": "D",
+      "sponsorshipDate": "2024-12-20",
+      "state": "CO",
+      "url": "https://api.congress.gov/v3/member/N000191?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

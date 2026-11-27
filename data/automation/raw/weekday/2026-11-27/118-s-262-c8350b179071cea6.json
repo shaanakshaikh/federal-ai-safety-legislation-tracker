@@ -1,0 +1,168 @@
+{
+  "actions": [
+    {
+      "actionDate": "2023-02-02",
+      "committees": [
+        {
+          "name": "Health, Education, Labor, and Pensions Committee",
+          "systemCode": "sshr00",
+          "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2023-02-02",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/s/262/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/262/committees?format=json"
+    },
+    "congress": 118,
+    "cosponsors": {
+      "count": 5,
+      "countIncludingWithdrawnCosponsors": 5,
+      "url": "https://api.congress.gov/v3/bill/118/s/262/cosponsors?format=json"
+    },
+    "introducedDate": "2023-02-02",
+    "latestAction": {
+      "actionDate": "2023-02-02",
+      "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/262",
+    "number": "262",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Labor and Employment"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/262/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "C001070",
+        "firstName": "Bob",
+        "fullName": "Sen. Casey, Robert P., Jr. [D-PA]",
+        "isByRequest": "N",
+        "lastName": "Casey",
+        "party": "D",
+        "state": "PA",
+        "url": "https://api.congress.gov/v3/member/C001070?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 19,
+      "url": "https://api.congress.gov/v3/bill/118/s/262/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/262/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/262/text?format=json"
+    },
+    "title": "Stop Spying Bosses Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/s/262/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2026-01-15T03:41:11Z",
+    "updateDateIncludingText": "2026-01-15T03:41:11Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-02-02T20:40:21Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Health, Education, Labor, and Pensions Committee",
+      "systemCode": "sshr00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/sshr00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "B001288",
+      "firstName": "Cory",
+      "fullName": "Sen. Booker, Cory A. [D-NJ]",
+      "isOriginalCosponsor": true,
+      "lastName": "Booker",
+      "party": "D",
+      "sponsorshipDate": "2023-02-02",
+      "state": "NJ",
+      "url": "https://api.congress.gov/v3/member/B001288?format=json"
+    },
+    {
+      "bioguideId": "S001194",
+      "firstName": "Brian",
+      "fullName": "Sen. Schatz, Brian [D-HI]",
+      "isOriginalCosponsor": true,
+      "lastName": "Schatz",
+      "party": "D",
+      "sponsorshipDate": "2023-02-02",
+      "state": "HI",
+      "url": "https://api.congress.gov/v3/member/S001194?format=json"
+    },
+    {
+      "bioguideId": "F000479",
+      "firstName": "John",
+      "fullName": "Sen. Fetterman, John [D-PA]",
+      "isOriginalCosponsor": true,
+      "lastName": "Fetterman",
+      "middleName": "K.",
+      "party": "D",
+      "sponsorshipDate": "2023-02-02",
+      "state": "PA",
+      "url": "https://api.congress.gov/v3/member/F000479?format=json"
+    },
+    {
+      "bioguideId": "W000817",
+      "firstName": "Elizabeth",
+      "fullName": "Sen. Warren, Elizabeth [D-MA]",
+      "isOriginalCosponsor": true,
+      "lastName": "Warren",
+      "middleName": "A.",
+      "party": "D",
+      "sponsorshipDate": "2023-02-02",
+      "state": "MA",
+      "url": "https://api.congress.gov/v3/member/W000817?format=json"
+    },
+    {
+      "bioguideId": "S000033",
+      "firstName": "Bernard",
+      "fullName": "Sen. Sanders, Bernard [I-VT]",
+      "isOriginalCosponsor": false,
+      "lastName": "Sanders",
+      "party": "I",
+      "sponsorshipDate": "2024-12-17",
+      "state": "VT",
+      "url": "https://api.congress.gov/v3/member/S000033?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

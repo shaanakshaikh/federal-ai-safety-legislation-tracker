@@ -1,0 +1,188 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2024-08-29",
+      "committees": [
+        {
+          "name": "General Farm Commodities, Risk Management, and Credit Subcommittee",
+          "systemCode": "hsag16",
+          "url": "https://api.congress.gov/v3/committee/house/hsag16?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-12-14",
+      "committees": [
+        {
+          "name": "Agriculture Committee",
+          "systemCode": "hsag00",
+          "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Agriculture.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2023-12-14",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2023-12-14",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6806/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6806/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 206 (Thursday, December 14, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. FEENSTRA:\nH.R. 6806.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8 of the US Constitution\nThe single subject of this legislation is:\nThis bill provides for the establishment of a program to\ncertify artificial intelligence software used in connection\nwith producing agricultural products.\n[Page H6987]\n</pre>",
+    "cosponsors": {
+      "count": 3,
+      "countIncludingWithdrawnCosponsors": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6806/cosponsors?format=json"
+    },
+    "introducedDate": "2023-12-14",
+    "latestAction": {
+      "actionDate": "2024-08-29",
+      "text": "Referred to the Subcommittee on General Farm Commodities, Risk Management, and Credit."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/6806",
+    "number": "6806",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Agriculture and Food"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "F000446",
+        "district": 4,
+        "firstName": "Randy",
+        "fullName": "Rep. Feenstra, Randy [R-IA-4]",
+        "isByRequest": "N",
+        "lastName": "Feenstra",
+        "party": "R",
+        "state": "IA",
+        "url": "https://api.congress.gov/v3/member/F000446?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6806/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6806/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6806/text?format=json"
+    },
+    "title": "Farm Tech Act",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/6806/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2024-11-07T11:42:30Z",
+    "updateDateIncludingText": "2024-11-07T11:42:30Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-12-14T14:07:45Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Agriculture Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2024-08-29T14:28:26Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "General Farm Commodities, Risk Management, and Credit Subcommittee",
+          "systemCode": "hsag16",
+          "url": "https://api.congress.gov/v3/committee/house/hsag16?format=json"
+        }
+      ],
+      "systemCode": "hsag00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsag00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "V000129",
+      "district": 22,
+      "firstName": "David",
+      "fullName": "Rep. Valadao, David G. [R-CA-22]",
+      "isOriginalCosponsor": true,
+      "lastName": "Valadao",
+      "middleName": "G.",
+      "party": "R",
+      "sponsorshipDate": "2023-12-14",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/V000129?format=json"
+    },
+    {
+      "bioguideId": "S001225",
+      "district": 17,
+      "firstName": "Eric",
+      "fullName": "Rep. Sorensen, Eric [D-IL-17]",
+      "isOriginalCosponsor": true,
+      "lastName": "Sorensen",
+      "party": "D",
+      "sponsorshipDate": "2023-12-14",
+      "state": "IL",
+      "url": "https://api.congress.gov/v3/member/S001225?format=json"
+    },
+    {
+      "bioguideId": "H001090",
+      "district": 9,
+      "firstName": "Josh",
+      "fullName": "Rep. Harder, Josh [D-CA-9]",
+      "isOriginalCosponsor": false,
+      "lastName": "Harder",
+      "party": "D",
+      "sponsorshipDate": "2023-12-19",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/H001090?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

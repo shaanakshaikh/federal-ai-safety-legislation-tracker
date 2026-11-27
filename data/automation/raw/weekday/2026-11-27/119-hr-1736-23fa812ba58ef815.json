@@ -1,0 +1,446 @@
+{
+  "actions": [
+    {
+      "actionDate": "2025-11-20",
+      "committees": [
+        {
+          "name": "Homeland Security and Governmental Affairs Committee",
+          "systemCode": "ssga00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H38800",
+      "actionDate": "2025-11-19",
+      "actionTime": "12:28:53",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "The title of the measure was amended. Agreed to without objection.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H38310",
+      "actionDate": "2025-11-19",
+      "actionTime": "12:28:51",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Motion to reconsider laid on the table Agreed to without objection.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H37300",
+      "actionDate": "2025-11-19",
+      "actionTime": "12:28:48",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4783-4784)",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "8000",
+      "actionDate": "2025-11-19",
+      "actionTime": "12:28:48",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4783-4784)",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H8D000",
+      "actionDate": "2025-11-19",
+      "actionTime": "12:22:54",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 1736.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H30000",
+      "actionDate": "2025-11-19",
+      "actionTime": "12:22:52",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Considered under suspension of the rules. (consideration: CR H4783-4785)",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H30300",
+      "actionDate": "2025-11-19",
+      "actionTime": "12:22:23",
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Mr. Guest moved to suspend the rules and pass the bill, as amended.",
+      "type": "Floor"
+    },
+    {
+      "actionCode": "H12410",
+      "actionDate": "2025-11-12",
+      "calendarNumber": {
+        "calendar": "U00324"
+      },
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Placed on the Union Calendar, Calendar No. 324.",
+      "type": "Calendars"
+    },
+    {
+      "actionCode": "H12200",
+      "actionDate": "2025-11-12",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Reported (Amended) by the Committee on Homeland Security. H. Rept. 119-373.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "5000",
+      "actionDate": "2025-11-12",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Reported (Amended) by the Committee on Homeland Security. H. Rept. 119-373.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H19000",
+      "actionDate": "2025-09-03",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 21 - 0.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H15001",
+      "actionDate": "2025-09-03",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Committee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H22000",
+      "actionDate": "2025-03-25",
+      "committees": [
+        {
+          "name": "Counterterrorism and Intelligence Subcommittee",
+          "systemCode": "hshm05",
+          "url": "https://api.congress.gov/v3/committee/house/hshm05?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Subcommittee Consideration and Mark-up Session Held",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H23000",
+      "actionDate": "2025-03-25",
+      "committees": [
+        {
+          "name": "Counterterrorism and Intelligence Subcommittee",
+          "systemCode": "hshm05",
+          "url": "https://api.congress.gov/v3/committee/house/hshm05?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11000",
+      "actionDate": "2025-02-27",
+      "committees": [
+        {
+          "name": "Counterterrorism and Intelligence Subcommittee",
+          "systemCode": "hshm05",
+          "url": "https://api.congress.gov/v3/committee/house/hshm05?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Counterterrorism and Intelligence.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-02-27",
+      "committees": [
+        {
+          "name": "Homeland Security Committee",
+          "systemCode": "hshm00",
+          "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Homeland Security.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-02-27",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-02-27",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 19,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1736/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As ordered reported by the House Committee on Homeland Security on September 3, 2025",
+        "pubDate": "2025-10-16T21:13:00Z",
+        "title": "H.R. 1736, Generative AI Terrorism Risk Assessment Act",
+        "url": "https://www.cbo.gov/publication/61821"
+      }
+    ],
+    "committeeReports": [
+      {
+        "citation": "H. Rept. 119-373",
+        "url": "https://api.congress.gov/v3/committee-report/119/HRPT/373?format=json"
+      }
+    ],
+    "committees": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1736/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 39 (Thursday, February 27, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. PFLUGER:\nH.R. 1736.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1 Section 8\n[Page H920]\n</pre>",
+    "cosponsors": {
+      "count": 3,
+      "countIncludingWithdrawnCosponsors": 3,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1736/cosponsors?format=json"
+    },
+    "introducedDate": "2025-02-27",
+    "latestAction": {
+      "actionDate": "2025-11-20",
+      "text": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1736",
+    "number": "1736",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1736/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "P000048",
+        "district": 11,
+        "firstName": "August",
+        "fullName": "Rep. Pfluger, August [R-TX-11]",
+        "isByRequest": "N",
+        "lastName": "Pfluger",
+        "party": "R",
+        "state": "TX",
+        "url": "https://api.congress.gov/v3/member/P000048?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1736/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1736/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1736/text?format=json"
+    },
+    "title": "Generative AI Terrorism Risk Assessment Act",
+    "titles": {
+      "count": 8,
+      "url": "https://api.congress.gov/v3/bill/119/hr/1736/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-09-07T10:56:18Z",
+    "updateDateIncludingText": "2026-09-07T10:56:18Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-11-20T18:33:05Z",
+          "name": "Referred To"
+        },
+        {
+          "date": "2025-11-20T18:33:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Homeland Security and Governmental Affairs Committee",
+      "systemCode": "ssga00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssga00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2025-11-12T18:55:36Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2025-09-03T18:56:03Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2025-02-27T14:00:50Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Homeland Security Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2025-03-25T15:31:42Z",
+              "name": "Markup by"
+            },
+            {
+              "date": "2025-03-25T07:31:00Z",
+              "name": "Reported by"
+            },
+            {
+              "date": "2025-02-27T16:15:47Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Counterterrorism and Intelligence Subcommittee",
+          "systemCode": "hshm05",
+          "url": "https://api.congress.gov/v3/committee/house/hshm05?format=json"
+        }
+      ],
+      "systemCode": "hshm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hshm00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "G000591",
+      "district": 3,
+      "firstName": "Michael",
+      "fullName": "Rep. Guest, Michael [R-MS-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Guest",
+      "party": "R",
+      "sponsorshipDate": "2025-02-27",
+      "state": "MS",
+      "url": "https://api.congress.gov/v3/member/G000591?format=json"
+    },
+    {
+      "bioguideId": "E000300",
+      "district": 8,
+      "firstName": "Gabe",
+      "fullName": "Rep. Evans, Gabe [R-CO-8]",
+      "isOriginalCosponsor": true,
+      "lastName": "Evans",
+      "party": "R",
+      "sponsorshipDate": "2025-02-27",
+      "state": "CO",
+      "url": "https://api.congress.gov/v3/member/E000300?format=json"
+    },
+    {
+      "bioguideId": "H001103",
+      "district": 0,
+      "firstName": "Pablo",
+      "fullName": "Rescom. Hernández, Pablo Jose [D-PR-At Large]",
+      "isOriginalCosponsor": false,
+      "lastName": "Hernández",
+      "middleName": "Jose",
+      "party": "D",
+      "sponsorshipDate": "2025-09-02",
+      "state": "PR",
+      "url": "https://api.congress.gov/v3/member/H001103?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

@@ -1,0 +1,201 @@
+{
+  "actions": [
+    {
+      "actionDate": "2024-05-15",
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 390.",
+      "type": "Calendars"
+    },
+    {
+      "actionDate": "2024-05-15",
+      "committees": [
+        {
+          "name": "Rules and Administration Committee",
+          "systemCode": "ssra00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssra00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Rules and Administration. Reported by Senator Klobuchar with an amendment in the nature of a substitute. Without written report.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "14000",
+      "actionDate": "2024-05-15",
+      "committees": [
+        {
+          "name": "Rules and Administration Committee",
+          "systemCode": "ssra00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssra00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Committee on Rules and Administration. Reported by Senator Klobuchar with an amendment in the nature of a substitute. Without written report.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2024-05-15",
+      "committees": [
+        {
+          "name": "Rules and Administration Committee",
+          "systemCode": "ssra00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssra00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Committee on Rules and Administration. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+      "type": "Committee"
+    },
+    {
+      "actionDate": "2024-03-11",
+      "committees": [
+        {
+          "name": "Rules and Administration Committee",
+          "systemCode": "ssra00",
+          "url": "https://api.congress.gov/v3/committee/senate/ssra00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "name": "Senate"
+      },
+      "text": "Read twice and referred to the Committee on Rules and Administration.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "10000",
+      "actionDate": "2024-03-11",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in Senate",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 6,
+      "url": "https://api.congress.gov/v3/bill/118/s/3897/actions?format=json"
+    },
+    "cboCostEstimates": [
+      {
+        "description": "As reported by the Senate Committee on Rules and Administration on May 15, 2024\n",
+        "pubDate": "2024-08-14T18:42:00Z",
+        "title": "S. 3897, Preparing Election Administrators for AI Act",
+        "url": "https://www.cbo.gov/publication/60630"
+      }
+    ],
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/3897/committees?format=json"
+    },
+    "congress": 118,
+    "cosponsors": {
+      "count": 2,
+      "countIncludingWithdrawnCosponsors": 2,
+      "url": "https://api.congress.gov/v3/bill/118/s/3897/cosponsors?format=json"
+    },
+    "introducedDate": "2024-03-11",
+    "latestAction": {
+      "actionDate": "2024-05-15",
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 390."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/3897",
+    "number": "3897",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "policyArea": {
+      "name": "Government Operations and Politics"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/s/3897/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "K000367",
+        "firstName": "Amy",
+        "fullName": "Sen. Klobuchar, Amy [D-MN]",
+        "isByRequest": "N",
+        "lastName": "Klobuchar",
+        "party": "D",
+        "state": "MN",
+        "url": "https://api.congress.gov/v3/member/K000367?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 8,
+      "url": "https://api.congress.gov/v3/bill/118/s/3897/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/s/3897/text?format=json"
+    },
+    "title": "Preparing Election Administrators for AI Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/s/3897/titles?format=json"
+    },
+    "type": "S",
+    "updateDate": "2025-05-27T14:16:16Z",
+    "updateDateIncludingText": "2025-05-27T14:16:16Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-05-15T20:26:07Z",
+          "name": "Reported By"
+        },
+        {
+          "date": "2024-05-15T14:00:04Z",
+          "name": "Markup By"
+        },
+        {
+          "date": "2024-03-11T19:45:03Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "Senate",
+      "name": "Rules and Administration Committee",
+      "systemCode": "ssra00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/senate/ssra00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "C001035",
+      "firstName": "Susan",
+      "fullName": "Sen. Collins, Susan M. [R-ME]",
+      "isOriginalCosponsor": true,
+      "lastName": "Collins",
+      "middleName": "M.",
+      "party": "R",
+      "sponsorshipDate": "2024-03-11",
+      "state": "ME",
+      "url": "https://api.congress.gov/v3/member/C001035?format=json"
+    },
+    {
+      "bioguideId": "K000377",
+      "firstName": "Mark",
+      "fullName": "Sen. Kelly, Mark [D-AZ]",
+      "isOriginalCosponsor": false,
+      "lastName": "Kelly",
+      "party": "D",
+      "sponsorshipDate": "2024-06-03",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/K000377?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

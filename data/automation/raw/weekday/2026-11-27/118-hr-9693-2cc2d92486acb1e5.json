@@ -1,0 +1,479 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2024-12-17",
+      "committees": [
+        {
+          "name": "Health Subcommittee",
+          "systemCode": "hswm02",
+          "url": "https://api.congress.gov/v3/committee/house/hswm02?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Health.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11000",
+      "actionDate": "2024-12-17",
+      "committees": [
+        {
+          "name": "Work and Welfare Subcommittee",
+          "systemCode": "hswm03",
+          "url": "https://api.congress.gov/v3/committee/house/hswm03?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Work and Welfare.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-09-19",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Education and the Workforce, and in addition to the Committees on Financial Services, Ways and Means, the Judiciary, House Administration, Oversight and Accountability, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-09-19",
+      "committees": [
+        {
+          "name": "Oversight and Government Reform Committee",
+          "systemCode": "hsgo00",
+          "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Education and the Workforce, and in addition to the Committees on Financial Services, Ways and Means, the Judiciary, House Administration, Oversight and Accountability, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-09-19",
+      "committees": [
+        {
+          "name": "Committee on House Administration",
+          "systemCode": "hsha00",
+          "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Education and the Workforce, and in addition to the Committees on Financial Services, Ways and Means, the Judiciary, House Administration, Oversight and Accountability, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-09-19",
+      "committees": [
+        {
+          "name": "Judiciary Committee",
+          "systemCode": "hsju00",
+          "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Education and the Workforce, and in addition to the Committees on Financial Services, Ways and Means, the Judiciary, House Administration, Oversight and Accountability, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-09-19",
+      "committees": [
+        {
+          "name": "Ways and Means Committee",
+          "systemCode": "hswm00",
+          "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Education and the Workforce, and in addition to the Committees on Financial Services, Ways and Means, the Judiciary, House Administration, Oversight and Accountability, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-09-19",
+      "committees": [
+        {
+          "name": "Financial Services Committee",
+          "systemCode": "hsba00",
+          "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Education and the Workforce, and in addition to the Committees on Financial Services, Ways and Means, the Judiciary, House Administration, Oversight and Accountability, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-09-19",
+      "committees": [
+        {
+          "name": "Education and Workforce Committee",
+          "systemCode": "hsed00",
+          "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the Committee on Education and the Workforce, and in addition to the Committees on Financial Services, Ways and Means, the Judiciary, House Administration, Oversight and Accountability, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-09-19",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-09-19",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 11,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9693/actions?format=json"
+    },
+    "committees": {
+      "count": 7,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9693/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 146 (Thursday, September 19, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mrs. DINGELL:\nH.R. 9693.\nCongress has the power to enact this legislation pursuant\nto the following:\nThe constitutional authority of Congress to enact this\nlegislation is provided by Article I, section 8 of the United\nStates Constitution.\nThe single subject of this legislation is:\nThis bill promotes the economic security and safety of\nsurvivors of domestic violence, dating violence, sexual\nassault, or stalking.\n[Page H5525]\n</pre>",
+    "cosponsors": {
+      "count": 10,
+      "countIncludingWithdrawnCosponsors": 10,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9693/cosponsors?format=json"
+    },
+    "introducedDate": "2024-09-19",
+    "latestAction": {
+      "actionDate": "2024-12-17",
+      "text": "Referred to the Subcommittee on Health."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/9693",
+    "number": "9693",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Crime and Law Enforcement"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "D000624",
+        "district": 6,
+        "firstName": "Debbie",
+        "fullName": "Rep. Dingell, Debbie [D-MI-6]",
+        "isByRequest": "N",
+        "lastName": "Dingell",
+        "party": "D",
+        "state": "MI",
+        "url": "https://api.congress.gov/v3/member/D000624?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9693/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9693/text?format=json"
+    },
+    "title": "SAFE for Survivors Act of 2024",
+    "titles": {
+      "count": 5,
+      "url": "https://api.congress.gov/v3/bill/118/hr/9693/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-07-21T19:44:15Z",
+    "updateDateIncludingText": "2025-07-21T19:44:15Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-09-19T14:00:15Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Ways and Means Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2024-12-17T16:04:23Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Health Subcommittee",
+          "systemCode": "hswm02",
+          "url": "https://api.congress.gov/v3/committee/house/hswm02?format=json"
+        },
+        {
+          "activities": [
+            {
+              "date": "2024-12-17T16:04:23Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Work and Welfare Subcommittee",
+          "systemCode": "hswm03",
+          "url": "https://api.congress.gov/v3/committee/house/hswm03?format=json"
+        }
+      ],
+      "systemCode": "hswm00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hswm00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-09-19T14:00:35Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-09-19T14:00:30Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Oversight and Government Reform Committee",
+      "systemCode": "hsgo00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsgo00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-09-19T14:00:25Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Committee on House Administration",
+      "systemCode": "hsha00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-09-19T14:00:20Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Judiciary Committee",
+      "systemCode": "hsju00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsju00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-09-19T14:00:10Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Financial Services Committee",
+      "systemCode": "hsba00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsba00?format=json"
+    },
+    {
+      "activities": [
+        {
+          "date": "2024-09-19T14:00:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Education and Workforce Committee",
+      "systemCode": "hsed00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsed00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "M001160",
+      "district": 4,
+      "firstName": "Gwen",
+      "fullName": "Rep. Moore, Gwen [D-WI-4]",
+      "isOriginalCosponsor": true,
+      "lastName": "Moore",
+      "party": "D",
+      "sponsorshipDate": "2024-09-19",
+      "state": "WI",
+      "url": "https://api.congress.gov/v3/member/M001160?format=json"
+    },
+    {
+      "bioguideId": "K000382",
+      "district": 2,
+      "firstName": "Ann",
+      "fullName": "Rep. Kuster, Ann M. [D-NH-2]",
+      "isOriginalCosponsor": true,
+      "lastName": "Kuster",
+      "middleName": "M.",
+      "party": "D",
+      "sponsorshipDate": "2024-09-19",
+      "state": "NH",
+      "url": "https://api.congress.gov/v3/member/K000382?format=json"
+    },
+    {
+      "bioguideId": "R000617",
+      "district": 3,
+      "firstName": "Delia",
+      "fullName": "Rep. Ramirez, Delia C. [D-IL-3]",
+      "isOriginalCosponsor": true,
+      "lastName": "Ramirez",
+      "middleName": "C.",
+      "party": "D",
+      "sponsorshipDate": "2024-09-19",
+      "state": "IL",
+      "url": "https://api.congress.gov/v3/member/R000617?format=json"
+    },
+    {
+      "bioguideId": "P000607",
+      "district": 2,
+      "firstName": "Mark",
+      "fullName": "Rep. Pocan, Mark [D-WI-2]",
+      "isOriginalCosponsor": true,
+      "lastName": "Pocan",
+      "party": "D",
+      "sponsorshipDate": "2024-09-19",
+      "state": "WI",
+      "url": "https://api.congress.gov/v3/member/P000607?format=json"
+    },
+    {
+      "bioguideId": "R000305",
+      "district": 2,
+      "firstName": "Deborah",
+      "fullName": "Rep. Ross, Deborah K. [D-NC-2]",
+      "isOriginalCosponsor": true,
+      "lastName": "Ross",
+      "middleName": "K.",
+      "party": "D",
+      "sponsorshipDate": "2024-09-19",
+      "state": "NC",
+      "url": "https://api.congress.gov/v3/member/R000305?format=json"
+    },
+    {
+      "bioguideId": "G000551",
+      "district": 7,
+      "firstName": "Raúl",
+      "fullName": "Rep. Grijalva, Raúl M. [D-AZ-7]",
+      "isOriginalCosponsor": true,
+      "lastName": "Grijalva",
+      "middleName": "M.",
+      "party": "D",
+      "sponsorshipDate": "2024-09-19",
+      "state": "AZ",
+      "url": "https://api.congress.gov/v3/member/G000551?format=json"
+    },
+    {
+      "bioguideId": "L000551",
+      "district": 12,
+      "firstName": "Barbara",
+      "fullName": "Rep. Lee, Barbara [D-CA-12]",
+      "isOriginalCosponsor": true,
+      "lastName": "Lee",
+      "party": "D",
+      "sponsorshipDate": "2024-09-19",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/L000551?format=json"
+    },
+    {
+      "bioguideId": "C001072",
+      "district": 7,
+      "firstName": "André",
+      "fullName": "Rep. Carson, André [D-IN-7]",
+      "isOriginalCosponsor": false,
+      "lastName": "Carson",
+      "party": "D",
+      "sponsorshipDate": "2024-09-23",
+      "state": "IN",
+      "url": "https://api.congress.gov/v3/member/C001072?format=json"
+    },
+    {
+      "bioguideId": "W000822",
+      "district": 12,
+      "firstName": "Bonnie",
+      "fullName": "Rep. Watson Coleman, Bonnie [D-NJ-12]",
+      "isOriginalCosponsor": false,
+      "lastName": "Watson Coleman",
+      "party": "D",
+      "sponsorshipDate": "2024-09-25",
+      "state": "NJ",
+      "url": "https://api.congress.gov/v3/member/W000822?format=json"
+    },
+    {
+      "bioguideId": "C001117",
+      "district": 6,
+      "firstName": "Sean",
+      "fullName": "Rep. Casten, Sean [D-IL-6]",
+      "isOriginalCosponsor": false,
+      "lastName": "Casten",
+      "party": "D",
+      "sponsorshipDate": "2024-12-17",
+      "state": "IL",
+      "url": "https://api.congress.gov/v3/member/C001117?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

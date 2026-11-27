@@ -1,0 +1,130 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-06-07",
+      "committees": [
+        {
+          "name": "Committee on House Administration",
+          "systemCode": "hsha00",
+          "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on House Administration.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-06-07",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-06-07",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8668/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8668/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 97 (Friday, June 7, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. MORELLE:\nH.R. 8668.\nCongress has the power to enact this legislation pursuant\nto the following:\nThis bill is enacted pursuant to the power granted to\nCongress under Article 1, Section 4, Clause 1 and Article I,\nSection 8, Clause 18 of the United States Constitution.\nThe single subject of this legislation is:\nElections\n[Page H3681]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8668/cosponsors?format=json"
+    },
+    "introducedDate": "2024-06-07",
+    "latestAction": {
+      "actionDate": "2024-06-07",
+      "text": "Referred to the House Committee on House Administration."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/8668",
+    "number": "8668",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Government Operations and Politics"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M001206",
+        "district": 25,
+        "firstName": "Joseph",
+        "fullName": "Rep. Morelle, Joseph D. [D-NY-25]",
+        "isByRequest": "N",
+        "lastName": "Morelle",
+        "middleName": "D.",
+        "party": "D",
+        "state": "NY",
+        "url": "https://api.congress.gov/v3/member/M001206?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8668/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8668/text?format=json"
+    },
+    "title": "AI Transparency in Elections Act of 2024",
+    "titles": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/8668/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2024-08-19T18:31:53Z",
+    "updateDateIncludingText": "2024-09-18T16:27:12Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-06-07T18:03:05Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Committee on House Administration",
+      "systemCode": "hsha00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsha00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "L000560",
+      "district": 2,
+      "firstName": "Rick",
+      "fullName": "Rep. Larsen, Rick [D-WA-2]",
+      "isOriginalCosponsor": true,
+      "lastName": "Larsen",
+      "party": "D",
+      "sponsorshipDate": "2024-06-07",
+      "state": "WA",
+      "url": "https://api.congress.gov/v3/member/L000560?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}
