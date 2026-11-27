@@ -1,0 +1,159 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2025-05-30",
+      "committees": [
+        {
+          "name": "Railroads, Pipelines, and Hazardous Materials Subcommittee",
+          "systemCode": "hspw14",
+          "url": "https://api.congress.gov/v3/committee/house/hspw14?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2025-05-29",
+      "committees": [
+        {
+          "name": "Transportation and Infrastructure Committee",
+          "systemCode": "hspw00",
+          "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Transportation and Infrastructure.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2025-05-29",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2025-05-29",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3647/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3647/committees?format=json"
+    },
+    "congress": 119,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 171, Number 91 (Thursday, May 29, 2025)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. MULLIN:\nH.R. 3647.\nCongress has the power to enact this legislation pursuant\nto the following:\nClause 18 of section 8 of article 1 of the Constitution\n[Page H2377]\n</pre>",
+    "cosponsors": {
+      "count": 1,
+      "countIncludingWithdrawnCosponsors": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3647/cosponsors?format=json"
+    },
+    "introducedDate": "2025-05-29",
+    "latestAction": {
+      "actionDate": "2025-05-30",
+      "text": "Referred to the Subcommittee on Railroads, Pipelines, and Hazardous Materials."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3647",
+    "number": "3647",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Transportation and Public Works"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "M001225",
+        "district": 15,
+        "firstName": "Kevin",
+        "fullName": "Rep. Mullin, Kevin [D-CA-15]",
+        "isByRequest": "N",
+        "lastName": "Mullin",
+        "party": "D",
+        "state": "CA",
+        "url": "https://api.congress.gov/v3/member/M001225?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3647/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3647/text?format=json"
+    },
+    "title": "SAFE CROSS Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/119/hr/3647/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2026-02-11T09:06:10Z",
+    "updateDateIncludingText": "2026-02-11T09:06:10Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2025-05-29T15:07:15Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Transportation and Infrastructure Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2025-05-30T19:45:48Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Railroads, Pipelines, and Hazardous Materials Subcommittee",
+          "systemCode": "hspw14",
+          "url": "https://api.congress.gov/v3/committee/house/hspw14?format=json"
+        }
+      ],
+      "systemCode": "hspw00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hspw00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "A000379",
+      "district": 4,
+      "firstName": "Mark",
+      "fullName": "Rep. Alford, Mark [R-MO-4]",
+      "isOriginalCosponsor": false,
+      "lastName": "Alford",
+      "party": "R",
+      "sponsorshipDate": "2026-02-10",
+      "state": "MO",
+      "url": "https://api.congress.gov/v3/member/A000379?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

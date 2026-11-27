@@ -1,0 +1,151 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11100",
+      "actionDate": "2023-05-09",
+      "committees": [
+        {
+          "name": "Armed Services Committee",
+          "systemCode": "hsas00",
+          "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Armed Services.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2023-05-09",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2023-05-09",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 3,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3168/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3168/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 78 (Tuesday, May 9, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. WITTMAN:\nH.R. 3168.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle 1, Section 8, Clause 1: ``The Congress shall have\npower to lay and collect taxes, duties, imposts and excises,\nto pay the debts and provide for the common defense and\ngeneral welfare of the United States; but all duties, imposts\nand excises shall be uniform throughout the United States.''\nThe single subject of this legislation is:\nTo establish a Joint Autonomy Office in the Department of\nDefense, and for other purposes.\n[Page H2174]\n</pre>",
+    "cosponsors": {
+      "count": 2,
+      "countIncludingWithdrawnCosponsors": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3168/cosponsors?format=json"
+    },
+    "introducedDate": "2023-05-09",
+    "latestAction": {
+      "actionDate": "2023-05-09",
+      "text": "Referred to the House Committee on Armed Services."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/3168",
+    "number": "3168",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Armed Forces and National Security"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3168/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "W000804",
+        "district": 1,
+        "firstName": "Robert",
+        "fullName": "Rep. Wittman, Robert J. [R-VA-1]",
+        "isByRequest": "N",
+        "lastName": "Wittman",
+        "middleName": "J.",
+        "party": "R",
+        "state": "VA",
+        "url": "https://api.congress.gov/v3/member/W000804?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3168/subjects?format=json"
+    },
+    "summaries": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3168/summaries?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3168/text?format=json"
+    },
+    "title": "To establish a Joint Autonomy Office in the Department of Defense, and for other purposes.",
+    "titles": {
+      "count": 2,
+      "url": "https://api.congress.gov/v3/bill/118/hr/3168/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-06-06T14:17:56Z",
+    "updateDateIncludingText": "2025-06-06T14:17:56Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2023-05-09T16:04:20Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Armed Services Committee",
+      "systemCode": "hsas00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsas00?format=json"
+    }
+  ],
+  "cosponsors": [
+    {
+      "bioguideId": "R000576",
+      "district": 2,
+      "firstName": "C. A.",
+      "fullName": "Rep. Ruppersberger, C. A. Dutch [D-MD-2]",
+      "isOriginalCosponsor": true,
+      "lastName": "Ruppersberger",
+      "middleName": "Dutch",
+      "party": "D",
+      "sponsorshipDate": "2023-05-09",
+      "state": "MD",
+      "url": "https://api.congress.gov/v3/member/R000576?format=json"
+    },
+    {
+      "bioguideId": "O000019",
+      "district": 23,
+      "firstName": "Jay",
+      "fullName": "Rep. Obernolte, Jay [R-CA-23]",
+      "isOriginalCosponsor": false,
+      "lastName": "Obernolte",
+      "party": "R",
+      "sponsorshipDate": "2023-06-05",
+      "state": "CA",
+      "url": "https://api.congress.gov/v3/member/O000019?format=json"
+    }
+  ],
+  "govinfo_billstatus": {}
+}

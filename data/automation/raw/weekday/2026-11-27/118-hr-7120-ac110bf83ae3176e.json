@@ -1,0 +1,146 @@
+{
+  "actions": [
+    {
+      "actionCode": "H11000",
+      "actionDate": "2024-02-02",
+      "committees": [
+        {
+          "name": "Commerce, Manufacturing, and Trade Subcommittee",
+          "systemCode": "hsif17",
+          "url": "https://api.congress.gov/v3/committee/house/hsif17?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 1,
+        "name": "House committee actions"
+      },
+      "text": "Referred to the Subcommittee on Innovation, Data, and Commerce.",
+      "type": "Committee"
+    },
+    {
+      "actionCode": "H11100",
+      "actionDate": "2024-01-29",
+      "committees": [
+        {
+          "name": "Energy and Commerce Committee",
+          "systemCode": "hsif00",
+          "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+        }
+      ],
+      "sourceSystem": {
+        "code": 2,
+        "name": "House floor actions"
+      },
+      "text": "Referred to the House Committee on Energy and Commerce.",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "Intro-H",
+      "actionDate": "2024-01-29",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    },
+    {
+      "actionCode": "1000",
+      "actionDate": "2024-01-29",
+      "sourceSystem": {
+        "code": 9,
+        "name": "Library of Congress"
+      },
+      "text": "Introduced in House",
+      "type": "IntroReferral"
+    }
+  ],
+  "bill": {
+    "actions": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7120/actions?format=json"
+    },
+    "committees": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7120/committees?format=json"
+    },
+    "congress": 118,
+    "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 170, Number 16 (Monday, January 29, 2024)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Ms. SCHAKOWSKY:\nH.R. 7120.\nCongress has the power to enact this legislation pursuant\nto the following:\nArticle I, Section 8, Clause 3: The Congress shall have\nPower . . . To regulate Commerce with foreign Nations, and\namong the several States, and with the Indian Tribes.\nThe single subject of this legislation is:\nTo direct the Federal Trade Commission to revise the\nTelemarketing Sales Rule to require disclosures for\ntelemarketing using artificial intelligence and to provide\nfor enhanced penalties for violations involving artificial\nintelligence voice or text message impersonation, and for\nother purposes.\n[Page H272]\n</pre>",
+    "introducedDate": "2024-01-29",
+    "latestAction": {
+      "actionDate": "2024-02-02",
+      "text": "Referred to the Subcommittee on Innovation, Data, and Commerce."
+    },
+    "legislationUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7120",
+    "number": "7120",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "policyArea": {
+      "name": "Commerce"
+    },
+    "relatedBills": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7120/relatedbills?format=json"
+    },
+    "sponsors": [
+      {
+        "bioguideId": "S001145",
+        "district": 9,
+        "firstName": "JANICE",
+        "fullName": "Rep. Schakowsky, Janice D. [D-IL-9]",
+        "isByRequest": "N",
+        "lastName": "SCHAKOWSKY",
+        "middleName": "D.",
+        "party": "D",
+        "state": "IL",
+        "url": "https://api.congress.gov/v3/member/S001145?format=json"
+      }
+    ],
+    "subjects": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7120/subjects?format=json"
+    },
+    "textVersions": {
+      "count": 1,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7120/text?format=json"
+    },
+    "title": "R U REAL Act",
+    "titles": {
+      "count": 4,
+      "url": "https://api.congress.gov/v3/bill/118/hr/7120/titles?format=json"
+    },
+    "type": "HR",
+    "updateDate": "2025-05-27T14:15:08Z",
+    "updateDateIncludingText": "2025-05-27T14:15:08Z"
+  },
+  "committees": [
+    {
+      "activities": [
+        {
+          "date": "2024-01-29T17:02:35Z",
+          "name": "Referred To"
+        }
+      ],
+      "chamber": "House",
+      "name": "Energy and Commerce Committee",
+      "subcommittees": [
+        {
+          "activities": [
+            {
+              "date": "2024-02-02T21:35:58Z",
+              "name": "Referred to"
+            }
+          ],
+          "name": "Commerce, Manufacturing, and Trade Subcommittee",
+          "systemCode": "hsif17",
+          "url": "https://api.congress.gov/v3/committee/house/hsif17?format=json"
+        }
+      ],
+      "systemCode": "hsif00",
+      "type": "Standing",
+      "url": "https://api.congress.gov/v3/committee/house/hsif00?format=json"
+    }
+  ],
+  "cosponsors": [],
+  "govinfo_billstatus": {}
+}
